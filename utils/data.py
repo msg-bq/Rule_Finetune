@@ -1,16 +1,41 @@
 import math
-from typing import List
+from typing import List, Dict
 import Levenshtein
 import pandas as pd
 
 
-class TrainDataset:
-    def __init__(self):
-        self.rules = pd.DataFrame({'question': [],
-                                   'rationale': [],
-                                   'prediction': [],
-                                   'gold_label': [],
-                                   'class_instance': []})
+class Example:
+    def __init__(self, question: str, gold_label: str, rationale: str = "", prediction: str = ""):
+        self.question = question
+        self.gold_label = gold_label
+        self.rationale = rationale
+        self.prediction = prediction
+
+    def __eq__(self, other):
+        if isinstance(other, Example):
+            return self.__dict__ == other.__dict__
+        else:
+            raise AttributeError("Incorrect attribute!")
+
+    def update(self, example: Dict[str, str]):
+        """
+        根据example里面的更新self对应的值
+        """
+        for key in example.keys():
+            if key in self.__dict__.keys():
+                self.__dict__[key] = example[key]
+            else:
+                raise KeyError("The key is not in the DatasetLoader")
+
+        return self
+
+    def to_dict(self):
+        return self.__dict__
+
+class DatasetLoader:  # 命名上和torch的多加了个set
+    def __init__(self, data: List[Example]):
+        self.data = data # 你可以看情况再改成pd.DataFrame？我就是先表达清楚结构
+
 
 class Rule:
     def __init__(self, content: str, confidence: float = 0.0):
@@ -51,11 +76,17 @@ class RuleBase:
             rule_instance.confidence = score
             return rule_instance
 
+    def add_rules(self, rules: List[str]):
+        '''
+        这里需要一个添加rule的函数，包括将字符串转为str+查重+添加
+        '''
+
 
 class Rationale:
     """
     top-N的结果，rationale和prediction
     """
+
     def __init__(self, question: str, rationale: List[str], prediction: List[str], gold_label: str):
         self.question = question
         self.rationale = rationale

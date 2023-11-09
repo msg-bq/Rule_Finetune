@@ -1,6 +1,11 @@
 from typing import Optional, List
 from llm_models.call_openai import call_openai
 
+generate_func_mapping = {"davinci": call_openai,
+                         "gpt-3.5-turbo": call_openai,
+                         "gpt-3.5-turbo-0613": call_openai}
+
+
 class LLM:
     def __init__(self, generate_single):
         self.generate_single = generate_single

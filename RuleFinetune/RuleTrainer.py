@@ -1,9 +1,37 @@
+from typing import List
+
+from RuleFinetune.cold_start_func import zero_shot_CoT
+from utils.data import RuleBase, DatasetLoader
+from utils.llm import LLM
+
+
 class Trainer:
-    def __init__(self, train_dataset, rule_base):
+    def __init__(self, args, train_dataset: DatasetLoader, valid_dataset: DatasetLoader, test_dataset: DatasetLoader,
+                 llm: LLM, rule_base: RuleBase = RuleBase()):
+        self.args = args
         self.train_dataset = train_dataset
+        self.valid_dataset = valid_dataset
+        self.test_dataset = test_dataset
+        self.llm = llm
         self.rule_base = rule_base
 
-        self.max_iterations = 10
+        self.max_iterations = args.epoch #这个可以调掉
+
+    def cold_start(self):
+        """
+        计划从这里调取第一次的CoT
+        """
+        dataset = zero_shot_CoT(self.llm, self.train_dataset)
+        for data in dataset.data:
+            rules = self.extract_rules(data.rationale)
+            self.rule_base.add_rules(rules)
+
+    def extract_rules(self, rationale: str)-> List[str]:
+        """
+        从dataset中抽取出rules，不过这个函数似乎应该在Example或者Rationale里面实现。另外，Rationale如果需要作为一个单独的class，
+        那它也也不需要question等等，只是作为Example的一个属性就可以了
+        """
+        pass
 
     def forward(self):
         """
@@ -21,9 +49,9 @@ class Trainer:
         for it in range(self.max_iterations):
             for rationale in self.train_dataset:
                 prompt = self.rule_base.write_rules + '\n' + \
-                         n_shot(rationale.question, self.train_dataset) + '\n' + \
+                         self.cold_start(rationale.question, self.train_dataset) + '\n' + \
                          rationale.question
-                response = call_gpt(prompt)
+                response = self.llm.generate_single(prompt)
                 new_rationale = parse_response(response)
                 rationale.update(new_rationale)     # 做了inplace的更新，所以train_dataset无需更新
                 score = rationale.score()
@@ -39,6 +67,26 @@ class Trainer:
         output: None (RuleBase updated 如果有规则就更新，否则就加入)
         """
         pass    # 部分写进forward里了，forward、backward是否需要分离，不知道这里需要写上面
+
+
+    def train(self):
+        """
+        1. cold start
+        for _ in range(epoch):
+            2. forward
+            3. backward
+            (可能还包括验证集)
+        """
+        pass
+
+    def eval(self):
+        """
+        指验证集，但可以和test合并
+        """
+        pass
+
+    def test(self):
+        pass
 
 if __name__ == '__main__':
     r = Rationale('a', ['b'], ['c'], 'd')
