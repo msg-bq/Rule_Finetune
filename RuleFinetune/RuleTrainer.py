@@ -26,12 +26,6 @@ class Trainer:
             rules = self.extract_rules(data.rationale)
             self.rule_base.add_rules(rules)
 
-    def extract_rules(self, rationale: str)-> List[str]:
-        """
-        从dataset中抽取出rules，不过这个函数似乎应该在Example或者Rationale里面实现。另外，Rationale如果需要作为一个单独的class，
-        那它也也不需要question等等，只是作为Example的一个属性就可以了
-        """
-        pass
 
     def forward(self):
         """
@@ -51,7 +45,7 @@ class Trainer:
                 prompt = self.rule_base.write_rules + '\n' + \
                          self.cold_start(rationale.question, self.train_dataset) + '\n' + \
                          rationale.question
-                response = self.llm.generate_single(prompt)
+                response = n_shot(prompt)
                 new_rationale = parse_response(response)
                 rationale.update(new_rationale)     # 做了inplace的更新，所以train_dataset无需更新
                 score = rationale.score()
