@@ -1,6 +1,5 @@
 from typing import List
 
-from RuleFinetune.autoCoT import demo_cluster, llm_n_shot_CoT
 from RuleFinetune.cold_start_func import zero_shot_CoT
 from utils.data import RuleBase, DatasetLoader
 from utils.llm import LLM
@@ -22,11 +21,17 @@ class Trainer:
         """
         计划从这里调取第一次的CoT
         """
-        dataset = zero_shot_CoT(self.args, self.llm, self.train_dataset)
+        dataset = zero_shot_CoT(self.llm, self.train_dataset)
         for data in dataset.data:
             rules = self.extract_rules(data.rationale)
             self.rule_base.add_rules(rules)
 
+    def extract_rules(self, rationale: str)-> List[str]:
+        """
+        从dataset中抽取出rules，不过这个函数似乎应该在Example或者Rationale里面实现。另外，Rationale如果需要作为一个单独的class，
+        那它也也不需要question等等，只是作为Example的一个属性就可以了
+        """
+        pass
 
     def forward(self):
         """
@@ -41,14 +46,12 @@ class Trainer:
         for R in
 
         """
-        for it in range(self.max_iterations): # 这里最好是epoch
-            demos = demo_cluster(self.args, self.train_dataset)  # 每一轮的开头，构造本轮所使用的n-shot CoT
-
+        for it in range(self.max_iterations):
             for rationale in self.train_dataset:
                 prompt = self.rule_base.write_rules + '\n' + \
                          self.cold_start(rationale.question, self.train_dataset) + '\n' + \
                          rationale.question
-                response = llm_n_shot_CoT(args=self.args, llm=self.llm, prompt=prompt, demos=demos)
+                response = self.llm.generate_single(prompt)
                 new_rationale = parse_response(response)
                 rationale.update(new_rationale)     # 做了inplace的更新，所以train_dataset无需更新
                 score = rationale.score()
@@ -74,8 +77,6 @@ class Trainer:
             3. backward
             (可能还包括验证集)
         """
-        # for _ in range(epoch):
-        #     demos = demo_cluster(train_dataset) # 每一轮的开头，构造本轮所使用的n-shot CoT
         pass
 
     def eval(self):
