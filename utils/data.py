@@ -5,10 +5,7 @@ import pandas as pd
 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 class Rule:
     def __init__(self, content: str, confidence: float = 0.0):
         self.content = content
@@ -116,9 +113,6 @@ class Rationale:    # 修正到只有两个属性
             raise AttributeError("Incorrect attribute!")
 
 
-<<<<<<< HEAD
->>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
-=======
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 class Example:
     def __init__(self, question: str, gold_label: str, rationale: List[Rationale] = None):
@@ -148,10 +142,6 @@ class Example:
         return self.__dict__
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 =======
 
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
@@ -165,7 +155,6 @@ class DatasetLoader:  # 命名上和torch的多加了个set
                                                        'data_gold_label': [e.gold_label],
                                                        'data_instance': [e]})], ignore_index=True)
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 
 class Rule:
@@ -260,7 +249,5 @@ class Rationale:
             return self.__dict__ == other.__dict__
         else:
             raise AttributeError("Incorrect attribute!")
-=======
->>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 =======
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
