@@ -60,10 +60,14 @@ def main():
     args = args_parse()
 
     # 1. 读取数据集
+    train_dataset, valid_dataset, test_dataset = read_datasets(args)
+
     if args.rationale_dir:
-        train_dataset, valid_dataset, test_dataset = read_rationales(args)
-    else:
-        train_dataset, valid_dataset, test_dataset = read_datasets(args)
+        train_dataset, valid_dataset, test_dataset = read_rationales(args,
+                                                                     train_dataset=train_dataset,
+                                                                     valid_dataset=valid_dataset,
+                                                                     test_dataset=test_dataset) #缺少生成后保存
+
 
     # 2. 构造Trainer
     # 2.1 构造ZeroShotCoT + # 2.2 抽取出RuleBase

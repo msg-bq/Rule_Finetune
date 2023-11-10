@@ -141,14 +141,14 @@ class Example:
         else:
             raise AttributeError("Incorrect attribute!")
 
-    def update(self, example: [str, Dict[str, str]]):
+    def update(self, example: [str, Dict[str, str], 'Example']):
         """
         根据example里面的更新self对应的值
         """
         if isinstance(example, str):
             self.parse_response()
 
-        else:
+        elif isinstance(example, dict):
             for key in example.keys():
                 if key in self.__dict__.keys():
                     if isinstance()
@@ -156,6 +156,14 @@ class Example:
                     self.__dict__[key] = example[key]
                 else:
                     raise KeyError("The key is not in the DatasetLoader")
+
+        elif isinstance(example, Example):
+            self.question = example.question
+            self.gold_label = example.gold_label
+            self.rationale = example.rationale
+
+        else:
+            raise TypeError("Incorrect type.")
 
         return self
 
@@ -170,6 +178,9 @@ class Example:
 
     def __repr__(self):
         pass
+
+    def __hash__(self):
+        return hash((self.question, self.gold_label))
 
 class DatasetLoader:  # 命名上和torch的多加了个set
     def __init__(self, data: List[Example]):
