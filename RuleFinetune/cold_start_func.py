@@ -30,8 +30,8 @@ def zero_shot_CoT_single(args, data: Example) -> (int, dict):
     x, y = data.question, data.gold_label
 
     z, pred = llm_zero_shot_CoT(input_text=x,
-                         cot_trigger=args.cot_trigger,
-                         direct_answer_trigger_for_zeroshot_cot=args.direct_answer_trigger_for_zeroshot_cot)
+                                cot_trigger=args.cot_trigger,
+                                direct_answer_trigger_for_zeroshot_cot=args.direct_answer_trigger_for_zeroshot_cot)
 
     data.rationale = z
     data.prediction = pred
