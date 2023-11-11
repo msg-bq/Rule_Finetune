@@ -69,7 +69,7 @@ class Rationale:    # 修正到只有两个属性
 
     def __init__(self, rationale: str, prediction: str):
         self.rationale = rationale
-        self.prediction = prediction
+        self.prediction = self.clean_prediction(prediction)
 
     def extract_rules(self, rationale: str) -> List[str]:
         """

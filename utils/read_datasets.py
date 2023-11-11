@@ -82,12 +82,10 @@ def read_rationales(args, **kwargs):
 
     data_dir = args.rationale_dir
 
-    train_rationale_path = os.path.join(data_dir, 'rationale/train.jsonl')
-    test_rationale_path = os.path.join(data_dir, 'rationale/test.jsonl')
-    valid_rationale_path = os.path.join(data_dir, 'rationale/valid.jsonl')
+    rationale_path = os.path.join(data_dir, 'rationale/ZeroShotCoT.jsonl')
 
-    if os.path.exists(train_rationale_path):
-        train_rationale = read_preprocessed_data(train_rationale_path)
+    if os.path.exists(rationale_path):
+        rationale_dataset = read_preprocessed_data(rationale_path)
         """
         修改对应的值，伪代码是
         for sample in train_rationale:
@@ -95,12 +93,4 @@ def read_rationales(args, **kwargs):
             existed_sample.update(sample)
         """
 
-    if os.path.exists(test_rationale_path):
-        test_raionale = read_preprocessed_data(test_rationale_path)
-        # 修改对应的值
-
-    if os.path.exists(valid_rationale_path):
-        valid_rationale = read_preprocessed_data(valid_rationale_path)
-        # 修改对应的值
-
-    return train_dataset, valid_dataset, test_dataset
+    return itemgetter('train_dataset', 'valid_dataset', 'test_dataset')(kwargs)

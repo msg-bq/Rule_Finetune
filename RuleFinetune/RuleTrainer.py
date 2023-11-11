@@ -1,5 +1,6 @@
 from typing import List
 
+from RuleFinetune.autoCoT import demo_cluster, llm_n_shot_CoT
 from RuleFinetune.cold_start_func import zero_shot_CoT
 from utils.data import RuleBase, DatasetLoader
 from utils.llm import LLM
@@ -40,12 +41,14 @@ class Trainer:
         for R in
 
         """
-        for it in range(self.max_iterations):
+        for it in range(self.max_iterations): # 这里最好是epoch
+            demos = demo_cluster(self.args, self.train_dataset)  # 每一轮的开头，构造本轮所使用的n-shot CoT
+
             for rationale in self.train_dataset:
                 prompt = self.rule_base.write_rules + '\n' + \
                          self.cold_start(rationale.question, self.train_dataset) + '\n' + \
                          rationale.question
-                response = n_shot(prompt)
+                response = llm_n_shot_CoT(args=self.args, llm=self.llm, prompt=prompt, demos=demos)
                 new_rationale = parse_response(response)
                 rationale.update(new_rationale)     # 做了inplace的更新，所以train_dataset无需更新
                 score = rationale.score()
@@ -71,6 +74,8 @@ class Trainer:
             3. backward
             (可能还包括验证集)
         """
+        # for _ in range(epoch):
+        #     demos = demo_cluster(train_dataset) # 每一轮的开头，构造本轮所使用的n-shot CoT
         pass
 
     def eval(self):
