@@ -1,7 +1,7 @@
 import math
 import re
 import string
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Union, Tuple
 import Levenshtein
 import pandas as pd
 
@@ -141,26 +141,55 @@ class Example:
         else:
             raise AttributeError("Incorrect attribute!")
 
+    def _merge_arrtibute(self, attr: str, other_attr_value: Union[List, str]):
+        """
+        合并两个属性，这里只是简单的合并，不做去重
+        """
+        if getattr(self, attr, None) is None:
+            raise AttributeError("The attribute is not in the Example")
+
+        if isinstance(getattr(self, attr), list):
+            if isinstance(other_attr_value, list):
+                getattr(self, attr).extend(other_attr_value)
+            elif isinstance(other_attr_value, str):
+                getattr(self, attr).append(other_attr_value)
+            else:
+                raise TypeError("Incorrect type.")
+
+        elif isinstance(getattr(self, attr), str):
+            if isinstance(other_attr_value, str):
+                 setattr(self, attr, other_attr_value)
+            else:
+                raise TypeError("Incorrect type.")
+
+    def _check_QA(self, other_QA: Tuple[str, str]):
+        if self.question and self.question != other_QA[0]:
+            raise Warning("The question is not the same.")
+
+        if self.gold_label and self.gold_label != other_QA[1]:
+            raise Warning("The gold_label is not the same.")
+
     def update(self, example: [str, Dict[str, str], 'Example']):
         """
-        根据example里面的更新self对应的值
+        根据example里面的更新self对应的值。请注意，这个函数用于更新某个样例的情况，而不建议将样例1改变为样例2（注意到
+        list我们是直接append，而不是替换的）
+        当待修改的question和gold_label有任一不同时，会抛出警告
         """
-        if isinstance(example, str):
-            self.parse_response()
+        merge_example = example
 
-        elif isinstance(example, dict):
-            for key in example.keys():
-                if key in self.__dict__.keys():
-                    if isinstance()
+        if isinstance(example, str): #parse出来一个dict
+            self.parse_response(example)
+        elif isinstance(example, Example):
+            merge_example = example.to_dict()
 
-                    self.__dict__[key] = example[key]
+        if isinstance(merge_example, dict):
+            self._check_QA((merge_example.get('question', None), merge_example.get('gold_label', None)))
+
+            for key in merge_example.keys():
+                if key in self.__dict__:
+                    self._merge_arrtibute(key, merge_example[key])
                 else:
                     raise KeyError("The key is not in the DatasetLoader")
-
-        elif isinstance(example, Example):
-            self.question = example.question
-            self.gold_label = example.gold_label
-            self.rationale = example.rationale
 
         else:
             raise TypeError("Incorrect type.")
@@ -170,11 +199,16 @@ class Example:
     def to_dict(self):
         return self.__dict__
 
-    def parse_response(self):
+    def parse_response(self, response: str) -> Dict[str, str]:
         """
         这里只会传入A：后面生成的部分
         """
-        pass
+        response_lst = response.lower().split("the answer is")
+        length = len(response)
+        answer = response[length-len(response_lst[-1])].strip()
+        rationale = response[:-(len(response_lst[-1]) + len("the answer is"))].strip()
+
+        return {'question': self.question, 'rationale': rationale, 'gold_label': answer}
 
     def __repr__(self):
         pass

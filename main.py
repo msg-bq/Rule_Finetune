@@ -75,7 +75,7 @@ def main():
     llm_model = LLM(generate_func)
 
     cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model)
-    cur_Trainer.cold_start()
+    cur_Trainer.cold_start() # 存Answer的时候就clean一下
 
     # 2.3 进行训练
     cur_Trainer.train()
