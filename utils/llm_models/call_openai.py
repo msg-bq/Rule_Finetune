@@ -1,5 +1,5 @@
 from random import random
-from typing import Optional, List
+from typing import Optional, List, Union
 import time
 import openai
 import tiktoken
@@ -30,7 +30,7 @@ def cnt_tokens(message):
     return cnt
 
 
-def call_openai(input_text: Optional[List[str], str], model="gpt-3.5-turbo-0613", is_gpt3=False, **kwargs) -> str:
+def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-0613", is_gpt3=False, **kwargs) -> str:
     """
     lbq
     List[str] GPT存在历史，str 不存在历史

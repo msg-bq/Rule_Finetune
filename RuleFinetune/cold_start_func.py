@@ -10,6 +10,7 @@ import threading
 import json
 
 from utils.data import DatasetLoader, Example
+from utils.llm import LLM
 
 
 def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trigger_for_zeroshot_cot:str):
@@ -27,10 +28,11 @@ def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trig
     return z, pred
 
 
-def zero_shot_CoT_single(args, data: Example, topN: int = 1) -> (int, dict):
+def zero_shot_CoT_single(args, llm: LLM, data: Example, topN: int = 1) -> (int, dict):
     x, y = data.question, data.gold_label
 
-    z, pred = llm_zero_shot_CoT(input_text=x, # 缺对LLM相关参数的控制
+    z, pred = llm_zero_shot_CoT(llm,
+                                input_text=x, # 缺对LLM相关参数的控制
                                 cot_trigger=args.cot_trigger,
                                 direct_answer_trigger_for_zeroshot_cot=args.direct_answer_trigger_for_zeroshot_cot)
 
@@ -49,7 +51,7 @@ def zero_shot_CoT_single(args, data: Example, topN: int = 1) -> (int, dict):
     return data
 
 
-def zero_shot_CoT(args, dataset: DatasetLoader):
+def zero_shot_CoT(args, llm: LLM, dataset: DatasetLoader):
     if args.multi_thread:
         pass
     else:
@@ -58,6 +60,6 @@ def zero_shot_CoT(args, dataset: DatasetLoader):
                 # 要重载内置的__bool__函数
                 continue
 
-            zero_shot_CoT_single(args, data)
+            zero_shot_CoT_single(args, llm, data)
 
     return dataset

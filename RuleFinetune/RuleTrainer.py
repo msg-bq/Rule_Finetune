@@ -22,7 +22,7 @@ class Trainer:
         """
         计划从这里调取第一次的CoT
         """
-        dataset = zero_shot_CoT(self.llm, self.train_dataset)
+        dataset = zero_shot_CoT(self.args, self.llm, self.train_dataset)
         for data in dataset.data:
             rules = self.extract_rules(data.rationale)
             self.rule_base.add_rules(rules)

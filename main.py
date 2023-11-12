@@ -1,3 +1,5 @@
+import os.path
+
 from RuleFinetune.RuleTrainer import Trainer
 from utils.llm import LLM, generate_func_mapping
 from utils.read_datasets import read_datasets, read_rationales
@@ -14,7 +16,7 @@ def args_parse():
     parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-    parser.add_argument("rationale_dir", type=str, default=None,
+    parser.add_argument("--rationale_dir", type=str, default=None,
                         help="rationale path used for experiment, name should be train/val/test.jsonl")
 
     parser.add_argument("--save_dir", type=str, default=None,
@@ -30,7 +32,7 @@ def args_parse():
     parser.add_argument("--multi_thread", type=bool, default=False,
                         help="whether to use multi-thread to accelerate")
 
-    parser.add_argument("epoch", type=int, default=10,
+    parser.add_argument("--epoch", type=int, default=10,
                         help="epoch used for experiment")
 
     parser.add_argument("--topN", type=int, default=1,
@@ -73,6 +75,9 @@ def main():
     # 1. 读取数据集
     train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
+    if os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl"):
+        args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
+
     if args.rationale_dir:
         train_dataset, valid_dataset, test_dataset = read_rationales(args,
                                                                      train_dataset=train_dataset,
@@ -84,7 +89,7 @@ def main():
     generate_func = generate_func_mapping[args.llm_model]
     llm_model = LLM(generate_func)
 
-    cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model)
+    cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model) #topN是个小问题
     cur_Trainer.cold_start()  # 存Answer的时候就clean一下
 
     # 2.3 进行训练
@@ -96,3 +101,13 @@ def main():
 
 if __name__ == '__main__':
     main()
+    """
+    --dataset
+    CLUTRR
+    --data_dir
+    C:/Users/lbq/Documents/GitHub/Rule_Finetune/data/CLUTRR
+    --save_dir
+    C:/Users/lbq/Documents/GitHub/Rule_Finetune/experiment
+    --llm_model
+    gpt-3.5-turbo
+    """

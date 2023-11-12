@@ -1,8 +1,8 @@
 import os
 from typing import List
 
-from read_funcs.CLUTRR import read_CLUTRR
-from data import Example, DatasetLoader
+from utils.read_funcs.CLUTRR import read_CLUTRR
+from utils.data import Example, DatasetLoader
 from operator import itemgetter
 
 """
@@ -24,6 +24,10 @@ def read_preprocessed_data(path) -> List[dict]:
 
 
 def save_preprocessed_data(data, path):
+    dir_path = "/".join(path.split("/")[:-1])
+    if not os.path.exists(dir_path):
+        os.mkdir(dir_path)
+
     with open(path, 'w') as f:
         for sample in data:
             f.write(str(sample) + '\n')
