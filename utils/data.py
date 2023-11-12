@@ -93,17 +93,6 @@ class Rationale:    # 修正到只有两个属性
 
         return pred_words[-1]
 
-    # # 因为gold_label无法获取而搁置，可能放到其它地方
-    # def score(self) -> float:
-    #     """
-    #     比对prediction和gold_label打分，用于调整Rule confidence
-    #     TODO: 实现了一个简易的负对数编辑距离打分
-    #     """
-    #     edit_distance = [Levenshtein.distance(p, self.gold_label) for p in self.prediction]
-    #     scores = [-math.log(ed) for ed in edit_distance]
-    #     score = sum(scores)
-    #     return score
-
     def update(self, new_rationale: Dict[str, str]):
         """
         lbq
@@ -129,6 +118,20 @@ class Example:
         self.question = question
         self.gold_label = gold_label
         self.rationale = [] if rationale is None else rationale
+
+    def update_rationale(self, rationale: Dict[str: str]):
+        new_rationale_instance = Rationale(rationale=rationale['rationale'], prediction=rationale['answer'])
+        self.rationale.append(new_rationale_instance)
+
+    def score(self, rationale: Rationale) -> float:
+        """
+        比对prediction和gold_label打分，用于调整Rule confidence
+        TODO: 实现了一个简易的负对数编辑距离打分
+        """
+        edit_distance = [Levenshtein.distance(p, self.gold_label) for p in rationale.prediction]
+        scores = [-math.log(ed) for ed in edit_distance]
+        score = sum(scores)
+        return score
 
     def __eq__(self, other):
         if isinstance(other, Example):
@@ -203,7 +206,8 @@ class Example:
         answer = response[length-len(response_lst[-1])].strip()
         rationale = response[:-(len(response_lst[-1]) + len("the answer is"))].strip()
 
-        return {'question': self.question, 'rationale': rationale, 'gold_label': answer}
+        return {'question': self.question, 'gold_label': self.gold_label,
+                'rationale': rationale, 'answer': answer}
 
     def __repr__(self):
         pass
@@ -218,10 +222,21 @@ class DatasetLoader:  # 命名上和torch的多加了个set
         self._question_2_data_instance = dict()
         # {gold_label: data_instance}
         self._gold_label_2_data_instance = dict()
+        self._data_instance_list = []
 
         for e in data:
             self._question_2_data_instance[e.question] = e
             self._gold_label_2_data_instance[e.gold_label] = e
+            self._data_instance_list = []
 
     def __repr__(self):
         print(" ".join([str(self._question_2_data_instance[d]) for d in self._question_2_data_instance]))
+
+    def __iter__(self):
+        self._iter_index = -1
+
+    def next(self):
+        self._iter_index += 1
+        if self._iter_index >= len(self._data_instance_list):
+            raise StopIteration()
+        return self._data_instance_list[self._iter_index]
