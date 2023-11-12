@@ -1,4 +1,6 @@
 import os
+from typing import List
+
 from read_funcs.CLUTRR import read_CLUTRR
 from data import Example, DatasetLoader
 from operator import itemgetter
@@ -10,10 +12,14 @@ from operator import itemgetter
 
 read_func_mapping = {'CLUTRR': read_CLUTRR}
 
+# 加一个去重
 
-def read_preprocessed_data(path):
+def read_preprocessed_data(path) -> List[dict]:
     with open(path, 'r') as f:
-        data = [eval(line.strip()) for line in f.readlines()]
+        data = [line.strip() for line in f.readlines()]
+
+    data = list(set(data))
+    data = [eval(sample) for sample in data]
     return data
 
 
@@ -33,7 +39,7 @@ def adjust_dataset_format(**kwags):
     return kwags
 
 
-def read_datasets(args):
+def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
     data_dir = args.data_dir
 
     # 存储在preprocessed_data下面
@@ -66,27 +72,25 @@ def read_datasets(args):
     return train_dataset, valid_dataset, test_dataset
 
 
-def read_rationales(args):
+def read_rationales(args, **kwargs):
+    address_mapping = {}
+
+    for key, value in kwargs.items():
+        if value:
+            for sample in value:
+                address_mapping[sample] = sample
+
     data_dir = args.rationale_dir
 
-    train_path = os.path.join(data_dir, 'train.jsonl')
-    test_path = os.path.join(data_dir, 'test.jsonl')
-    valid_path = os.path.join(data_dir, 'valid.jsonl')
+    rationale_path = os.path.join(data_dir, 'rationale/ZeroShotCoT.jsonl')
 
-    if os.path.exists(train_path) and os.path.exists(test_path):
-        train_dataset = read_preprocessed_data(train_path)
-        test_dataset = read_preprocessed_data(test_path)
-        if os.path.exists(valid_path):
-            valid_dataset = read_preprocessed_data(valid_path)
-        else:
-            valid_dataset = None
+    if os.path.exists(rationale_path):
+        rationale_dataset = read_preprocessed_data(rationale_path)
+        """
+        修改对应的值，伪代码是
+        for sample in train_rationale:
+            existed_sample = address_mapping[sample]
+            existed_sample.update(sample)
+        """
 
-    else:
-        raise ValueError('rationale_dir is not valid')
-
-    train_dataset, valid_dataset, test_dataset = \
-        itemgetter('train', 'valid', 'test')(adjust_dataset_format(train=train_dataset,
-                                                                   valid=valid_dataset,
-                                                                   test=test_dataset))
-
-    return train_dataset, valid_dataset, test_dataset
+    return itemgetter('train_dataset', 'valid_dataset', 'test_dataset')(kwargs)

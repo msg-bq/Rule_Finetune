@@ -35,6 +35,9 @@ def call_openai(input_text: Optional[List[str], str], model="gpt-3.5-turbo-0613"
     lbq
     List[str] GPT存在历史，str 不存在历史
     """
+    if 'topN' in kwargs:
+        kwargs['n'] = kwargs.pop('topN')
+
     max_supported_tokens = 8000 if model.startswith("gpt-4") else 4000
 
     if isinstance(input_text, list):
