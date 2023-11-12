@@ -14,15 +14,15 @@ class Rule:
 
 class RuleBase:
     def __init__(self):
-        self.rules = pd.DataFrame({'rule_name': [],
-                                   'rule_instance': []})
+        # {rule_name: rule_instance}
+        self._rule_name_2_rule_instance = dict()
 
     def write_rules(self) -> str:
         """
         返回所有rules作为prompt
         TODO: 这是简易版本
         """
-        out = '\n'.join([row['rule_name'] for row_idx, row in self.rules.iterrows()])
+        out = '\n'.join([rn for rn in self._rule_name_2_rule_instance])
         return out
 
     def update_rule(self, rule_names: List[str], scores: Optional[List[float]] = None) -> List[Rule]:
@@ -35,15 +35,12 @@ class RuleBase:
             scores = [1.0] * len(rule_names)
 
         for rule_name, score in zip(rule_names, scores):
-            matched_rules = self.rules.loc[(self.rules["rule_name"] == rule_name)]
-            assert len(matched_rules) <= 1
-            if len(matched_rules) == 0:
+            if rule_name not in self._rule_name_2_rule_instance:
                 new_rule_instance = self._add_rules([rule_name], [score])[0]
                 rule_instances.append(new_rule_instance)
-            elif len(matched_rules) == 1:
+            else:
                 # TODO: score是覆写还是加上
-                idx = self.rules[self.rules.rule_name == rule_name].index.tolist()[0]
-                rule_instance = self.rules.iloc[idx]['rule_instance']
+                rule_instance = self._rule_name_2_rule_instance[rule_name]
                 rule_instance.confidence = score
                 rule_instances.append(rule_instance)
         return rule_instances
@@ -55,9 +52,7 @@ class RuleBase:
         new_rule_instances = []
         for rule_name, score in zip(rules, scores):
             new_rule_instance = Rule(content=rule_name, confidence=score)
-            new_rule_df = pd.DataFrame({'rule_name': [rule_name],
-                                        'rule_instance': [new_rule_instance]})
-            self.rules = pd.concat([self.rules, new_rule_df], ignore_index=True)
+            self._rule_name_2_rule_instance[rule_name] = new_rule_instance
             new_rule_instances.append(new_rule_instance)
         return new_rule_instances
 
@@ -216,16 +211,17 @@ class Example:
     def __hash__(self):
         return hash((self.question, self.gold_label))
 
+
 class DatasetLoader:  # 命名上和torch的多加了个set
     def __init__(self, data: List[Example]):
-        self.data = pd.DataFrame({'data_question': [],
-                                  'data_gold_label': [],
-                                  'data_instance': []})
-        for e in data:
-            self.data = pd.concat([data, pd.DataFrame({'data_question': [e.question],
-                                                       'data_gold_label': [e.gold_label],
-                                                       'data_instance': [e]})], ignore_index=True)
+        # {question: data_instance}
+        self._question_2_data_instance = dict()
+        # {gold_label: data_instance}
+        self._gold_label_2_data_instance = dict()
 
+        for e in data:
+            self._question_2_data_instance[e.question] = e
+            self._gold_label_2_data_instance[e.gold_label] = e
 
     def __repr__(self):
-        print(" ".join([d for d in self.data]))
+        print(" ".join([str(self._question_2_data_instance[d]) for d in self._question_2_data_instance]))
