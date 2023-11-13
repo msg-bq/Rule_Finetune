@@ -135,6 +135,31 @@ class Example:
         self.gold_label = gold_label
         self.rationale = [] if rationale is None else rationale
 
+<<<<<<< Updated upstream
+=======
+    def update_rationale(self, rationale: Dict[str, str]):
+        if 'question' in rationale:
+            if self.question != rationale['question']:
+                raise Warning("The question is not the same.")
+
+        if 'gold_label' in rationale:
+            if self.gold_label != rationale['gold_label']:
+                raise Warning("The gold_label is not the same.")
+
+        new_rationale_instance = Rationale(rationale=rationale['rationale'], prediction=rationale['prediction'])
+        self.rationale.append(new_rationale_instance)
+
+    def score(self, rationale: Rationale) -> float:
+        """
+        比对prediction和gold_label打分，用于调整Rule confidence
+        TODO: 实现了一个简易的负对数编辑距离打分
+        """
+        edit_distance = [Levenshtein.distance(p, self.gold_label) for p in rationale.prediction]
+        scores = [-math.log(ed) for ed in edit_distance]
+        score = sum(scores)
+        return score
+
+>>>>>>> Stashed changes
     def __eq__(self, other):
         if isinstance(other, Example):
             return self.__dict__ == other.__dict__
@@ -151,7 +176,7 @@ class Example:
         if isinstance(getattr(self, attr), list):
             if isinstance(other_attr_value, list):
                 getattr(self, attr).extend(other_attr_value)
-            elif isinstance(other_attr_value, str):
+            elif isinstance(other_attr_value, str) or isinstance(other_attr_value, Rationale):
                 getattr(self, attr).append(other_attr_value)
             else:
                 raise TypeError("Incorrect type.")
@@ -163,11 +188,23 @@ class Example:
                 raise TypeError("Incorrect type.")
 
     def _check_QA(self, other_QA: Tuple[str, str]):
-        if self.question and self.question != other_QA[0]:
+        if self.question and self.question.lower().strip() != other_QA[0].lower().strip():
             raise Warning("The question is not the same.")
 
-        if self.gold_label and self.gold_label != other_QA[1]:
+        if self.gold_label and self.gold_label.lower().strip() != other_QA[1].lower().strip():
             raise Warning("The gold_label is not the same.")
+
+    def adjust_merge_example_to_rationale(self, merge_example: Dict[str, str]) -> Dict[str, Union[str, Rationale, List[Rationale]]]:
+        """
+        将merge_example中的rationale部分(包括rationale和prediction两个key)转换为Rationale类
+        """
+        rationale = merge_example.pop('rationale', None)
+        prediction = merge_example.pop('prediction', None)
+        rationale_class = Rationale(rationale=rationale, prediction=prediction)
+
+        merge_example['rationale'] = rationale_class
+
+        return merge_example
 
     def update(self, example: [str, Dict[str, str], 'Example']):
         """
@@ -175,12 +212,17 @@ class Example:
         list我们是直接append，而不是替换的）
         当待修改的question和gold_label有任一不同时，会抛出警告
         """
-        merge_example = example
+        if 'rationale' in example and 'prediction' in example:
+            merge_example = self.adjust_merge_example_to_rationale(example)
+        else:
+            merge_example = example
 
         if isinstance(example, str): #parse出来一个dict
             self.parse_response(example)
         elif isinstance(example, Example):
             merge_example = example.to_dict()
+        elif isinstance(merge_example, tuple):
+            raise TypeError("Incorrect type.") # 可以默认第一个Q第二个A，但似乎有点危险
 
         if isinstance(merge_example, dict):
             self._check_QA((merge_example.get('question', None), merge_example.get('gold_label', None)))
@@ -189,7 +231,7 @@ class Example:
                 if key in self.__dict__:
                     self._merge_arrtibute(key, merge_example[key])
                 else:
-                    raise KeyError("The key is not in the DatasetLoader")
+                    raise KeyError("The key is not in the Example")
 
         else:
             raise TypeError("Incorrect type.")
@@ -197,7 +239,14 @@ class Example:
         return self
 
     def to_dict(self):
-        return self.__dict__
+        out_dict = dict()
+        for key in self.__dict__.keys():
+            if isinstance(getattr(self, key), Rationale):
+                out_dict['rationale'] = getattr(self, key).rationale
+                out_dict['prediction'] = getattr(self, key).prediction
+            else:
+                out_dict[key] = getattr(self, key)
+        return out_dict
 
     def parse_response(self, response: str) -> Dict[str, str]:
         """
@@ -205,13 +254,18 @@ class Example:
         """
         response_lst = response.lower().split("the answer is")
         length = len(response)
-        answer = response[length-len(response_lst[-1])].strip()
+        prediction = response[length-len(response_lst[-1])].strip()
         rationale = response[:-(len(response_lst[-1]) + len("the answer is"))].strip()
 
+<<<<<<< Updated upstream
         return {'question': self.question, 'rationale': rationale, 'gold_label': answer}
+=======
+        return {'question': self.question, 'gold_label': self.gold_label,
+                'rationale': rationale, 'prediction': prediction}
+>>>>>>> Stashed changes
 
     def __repr__(self):
-        pass
+        return str(self.__dict__)
 
     def __hash__(self):
         return hash((self.question, self.gold_label))
@@ -222,6 +276,7 @@ class DatasetLoader:  # 命名上和torch的多加了个set
                                   'data_gold_label': [],
                                   'data_instance': []})
         for e in data:
+<<<<<<< Updated upstream
             self.data = pd.concat([data, pd.DataFrame({'data_question': [e.question],
                                                        'data_gold_label': [e.gold_label],
                                                        'data_instance': [e]})], ignore_index=True)
@@ -229,3 +284,24 @@ class DatasetLoader:  # 命名上和torch的多加了个set
 
     def __repr__(self):
         print(" ".join([d for d in self.data]))
+=======
+            self._question_2_data_instance[e.question] = e
+            self._gold_label_2_data_instance[e.gold_label] = e
+            self._data_instance_list.append(e)
+
+    def __repr__(self):
+        print(" ".join([str(e) for e in self._data_instance_list]))
+
+    def __iter__(self):
+        self._iter_index = -1
+        return self
+
+    def __next__(self):
+        self._iter_index += 1
+        if self._iter_index >= len(self._data_instance_list):
+            raise StopIteration()
+        return self._data_instance_list[self._iter_index]
+
+    def __getitem__(self, item):
+        pass
+>>>>>>> Stashed changes

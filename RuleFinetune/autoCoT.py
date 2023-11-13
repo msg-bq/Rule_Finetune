@@ -3,7 +3,7 @@ from random import random
 from typing import List, Dict, Union
 
 import numpy as np
-import torch
+# import torch
 
 from utils.data import DatasetLoader
 from sentence_transformers import SentenceTransformer
@@ -18,9 +18,9 @@ def fix_seed(seed): # 来源于autoCoT
     # Numpy
     np.random.seed(seed)
     # Pytorch
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    torch.backends.cudnn.deterministic = True
+    # torch.manual_seed(seed)
+    # torch.cuda.manual_seed_all(seed)
+    # torch.backends.cudnn.deterministic = True
 
 def demo_cluster(args, dataset: DatasetLoader):
     encoder = SentenceTransformer(args.encoder)

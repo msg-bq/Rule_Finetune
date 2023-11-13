@@ -43,6 +43,25 @@ def adjust_dataset_format(**kwags):
     return kwags
 
 
+def duplicate_removal(dataset: DatasetLoader) -> DatasetLoader:
+    """
+    对train, dev, test的读入进行去除，rationale的可以全保留
+    """
+    new_dataset = []
+    for sample in dataset:
+        if sample in new_dataset:
+            continue
+        else:
+            new_dataset.append(sample)
+
+    return DatasetLoader(new_dataset)
+ 
+def duplicate_removal_multi(**kwargs):
+    for key, value in kwargs.items():
+        if value:
+            kwargs[key] = duplicate_removal(value)
+    return kwargs
+
 def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
     data_dir = args.data_dir
 
@@ -69,6 +88,11 @@ def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
             save_preprocessed_data(valid_dataset, valid_path)
 
     train_dataset, valid_dataset, test_dataset = \
+        itemgetter('train', 'valid', 'test')(duplicate_removal_multi(train=train_dataset,
+                                                                     valid=valid_dataset,
+                                                                     test=test_dataset))
+
+    train_dataset, valid_dataset, test_dataset = \
         itemgetter('train', 'valid', 'test')(adjust_dataset_format(train=train_dataset,
                                                                    valid=valid_dataset,
                                                                    test=test_dataset))
@@ -80,13 +104,12 @@ def read_rationales(args, **kwargs):
     address_mapping = {}
 
     for key, value in kwargs.items():
+        print(key)
         if value:
             for sample in value:
-                address_mapping[sample] = sample
+                address_mapping[(sample.question.strip(), sample.gold_label.strip())] = sample
 
-    data_dir = args.rationale_dir
-
-    rationale_path = os.path.join(data_dir, 'rationale/ZeroShotCoT.jsonl')
+    rationale_path = args.rationale_dir
 
     if os.path.exists(rationale_path):
         rationale_dataset = read_preprocessed_data(rationale_path)
@@ -96,5 +119,15 @@ def read_rationales(args, **kwargs):
             existed_sample = address_mapping[sample]
             existed_sample.update(sample)
         """
+        for sample in rationale_dataset:
+            key = (sample['question'].strip(), sample['gold_label'].strip())
+            if key in address_mapping:
+                existed_sample = address_mapping[key] # 有两类命名不统一，之后都得改改
+                # 1个是gold_ans和gold_label，另一个是answer和prediction
+
+                # if sample['prediction'] != existed_sample.rationale.prediction: #sample这个prediction还需要清洗
+                #或者用existed_sample.rationale.prediction in sample['prediction']
+                existed_sample.update(sample)
+
 
     return itemgetter('train_dataset', 'valid_dataset', 'test_dataset')(kwargs)

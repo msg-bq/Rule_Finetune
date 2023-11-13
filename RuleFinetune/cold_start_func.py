@@ -9,7 +9,7 @@ import numpy as np
 import threading
 import json
 
-from utils.data import DatasetLoader, Example
+from utils.data import DatasetLoader, Example, Rationale
 from utils.llm import LLM
 
 
@@ -36,11 +36,10 @@ def zero_shot_CoT_single(args, llm: LLM, data: Example, topN: int = 1) -> (int, 
                                 cot_trigger=args.cot_trigger,
                                 direct_answer_trigger_for_zeroshot_cot=args.direct_answer_trigger_for_zeroshot_cot)
 
-    data.rationale = z
-    data.prediction = pred
+    data.rationale = Rationale(rationale=z, prediction=pred)
 
     final_dict = data.to_dict()
-    save_path = os.path.join(args.save_dir, "rationale/ZeroShotCoT.jsonl")
+    save_path = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
     if not os.path.exists(save_path):
         with open(save_path, 'w'):
             pass
@@ -55,7 +54,9 @@ def zero_shot_CoT(args, llm: LLM, dataset: DatasetLoader):
     if args.multi_thread:
         pass
     else:
-        for data in dataset.data:
+        for data in dataset:
+            print(data.question)
+            print(data.rationale)
             if data.rationale:  # 有可能rationale已经存在了，这个时候就不需要再生成了。但要注意的是，如果调整了rationale的录入格式
                 # 要重载内置的__bool__函数
                 continue
