@@ -225,7 +225,7 @@ class DatasetLoader:  # 命名上和torch的多加了个set
             self.data = pd.concat([data, pd.DataFrame({'data_question': [e.question],
                                                        'data_gold_label': [e.gold_label],
                                                        'data_instance': [e]})], ignore_index=True)
-
+ 
 
     def __repr__(self):
         print(" ".join([d for d in self.data]))
