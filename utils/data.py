@@ -192,7 +192,7 @@ class Example:
         else:
             raise TypeError("Incorrect type.")
 
-        return self 
+        return self
 
     def to_dict(self):
         return self.__dict__
