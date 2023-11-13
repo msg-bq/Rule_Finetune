@@ -239,4 +239,4 @@ class DatasetLoader:  # 命名上和torch的多加了个set
         self._iter_index += 1
         if self._iter_index >= len(self._data_instance_list):
             raise StopIteration()
-        return self._data_instance_list[self._iter_index]
+        return self._data_instance_list[self._iter_index] 
