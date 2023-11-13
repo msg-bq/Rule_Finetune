@@ -16,19 +16,18 @@ class Trainer:
         self.llm = llm
         self.rule_base = rule_base
 
-        self.max_iterations = args.epoch #这个可以调掉
+        self.max_epoch = args.epoch
 
     def cold_start(self):
         """
         计划从这里调取第一次的CoT
         """
-        dataset = zero_shot_CoT(self.args, self.llm, self.train_dataset)
+        dataset = zero_shot_CoT(self.llm, self.train_dataset)
         for data in dataset.data:
             rules = self.extract_rules(data.rationale)
             self.rule_base.add_rules(rules)
 
-
-    def forward(self):
+    def forward(self, example, demos):
         """
         # first zero-shot
         for R in TrainDataset:
@@ -41,30 +40,23 @@ class Trainer:
         for R in
 
         """
-        for it in range(self.max_iterations): # 这里最好是epoch
-            demos = demo_cluster(self.args, self.train_dataset)  # 每一轮的开头，构造本轮所使用的n-shot CoT
+        prompt = self.rule_base.write_rules() + '\n' + \
+                 self.cold_start(example.question, self.train_dataset) + '\n' + \
+                 example.question
+        response = llm_n_shot_CoT(args=self.args, llm=self.llm, prompt=prompt, demos=demos)
+        new_rationale = example.parse_response(response)
+        example.update_rationale(new_rationale)  # 做了inplace的更新
 
-            for rationale in self.train_dataset:
-                prompt = self.rule_base.write_rules + '\n' + \
-                         self.cold_start(rationale.question, self.train_dataset) + '\n' + \
-                         rationale.question
-                response = llm_n_shot_CoT(args=self.args, llm=self.llm, prompt=prompt, demos=demos)
-                new_rationale = parse_response(response)
-                rationale.update(new_rationale)     # 做了inplace的更新，所以train_dataset无需更新
-                score = rationale.score()
-                new_rules = rationale.extract_rules()
-                # 这边需要一步处理，因为new_rules: List[List[str]]，（可能需要去重），最终要变成List[str]
-                [self.rule_base.update_rule(rule, score) for rule in new_rules]
-
-                # （划掉）然后是对train dataset的更新或新创建
-
-    def backward(self):
+    def backward(self, example):
         """
         input: Rule_base, rationale, score
         output: None (RuleBase updated 如果有规则就更新，否则就加入)
         """
-        pass    # 部分写进forward里了，forward、backward是否需要分离，不知道这里需要写上面
-
+        rationale = example.rationale[-1]
+        score = example.score(rationale)
+        new_rules = rationale.extract_rules()
+        # 这边需要一步处理，因为new_rules: List[List[str]]，（可能需要去重），最终要变成List[str]
+        [self.rule_base.update_rule(rule, score) for rule in new_rules]
 
     def train(self):
         """
@@ -74,9 +66,11 @@ class Trainer:
             3. backward
             (可能还包括验证集)
         """
-        # for _ in range(epoch):
-        #     demos = demo_cluster(train_dataset) # 每一轮的开头，构造本轮所使用的n-shot CoT
-        pass
+        for ep in range(self.max_epoch):  # 这里最好是epoch
+            demos = demo_cluster(self.args, self.train_dataset)  # 每一轮的开头，构造本轮所使用的n-shot CoT
+            for example in self.train_dataset:
+                self.forward(example, demos)
+                self.backward(example)
 
     def eval(self):
         """
@@ -86,6 +80,7 @@ class Trainer:
 
     def test(self):
         pass
+
 
 if __name__ == '__main__':
     r = Rationale('a', ['b'], ['c'], 'd')
