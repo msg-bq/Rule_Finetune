@@ -1,5 +1,5 @@
 from typing import Optional, List
-from utils.llm_models.call_openai import call_openai
+from llm_models.call_openai import call_openai
 
 generate_func_mapping = {"davinci": call_openai,
                          "gpt-3.5-turbo": call_openai,
