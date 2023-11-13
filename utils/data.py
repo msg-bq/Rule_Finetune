@@ -38,11 +38,7 @@ class RuleBase:
             matched_rules = self.rules.loc[(self.rules["rule_name"] == rule_name)]
             assert len(matched_rules) <= 1
             if len(matched_rules) == 0:
-<<<<<<< HEAD
                 new_rule_instance = self.add_rules([rule_name], [score])[0]
-=======
-                new_rule_instance = self._add_rules([rule_name], [score])[0]
->>>>>>> parent of e720918 (Merge branch 'hjq')
                 rule_instances.append(new_rule_instance)
             elif len(matched_rules) == 1:
                 # TODO: score是覆写还是加上
@@ -88,17 +84,6 @@ class Rationale:    # 修正到只有两个属性
         清洗prediction
         """
         raise NotImplementedError
-
-    # # 因为gold_label无法获取而搁置，可能放到其它地方
-    # def score(self) -> float:
-    #     """
-    #     比对prediction和gold_label打分，用于调整Rule confidence
-    #     TODO: 实现了一个简易的负对数编辑距离打分
-    #     """
-    #     edit_distance = [Levenshtein.distance(p, self.gold_label) for p in self.prediction]
-    #     scores = [-math.log(ed) for ed in edit_distance]
-    #     score = sum(scores)
-    #     return score
 
     # # 因为gold_label无法获取而搁置，可能放到其它地方
     # def score(self) -> float:
@@ -164,32 +149,12 @@ class Example:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 =======
 
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
-=======
-    def parse_response(self, response: str) -> Dict[str, str]:
-        """
-        这里只会传入A：后面生成的部分
-        """
-        response_lst = response.lower().split("the answer is")
-        length = len(response)
-        answer = response[length-len(response_lst[-1])].strip()
-        rationale = response[:-(len(response_lst[-1]) + len("the answer is"))].strip()
-
-        return {'question': self.question, 'rationale': rationale, 'gold_label': answer}
-
-    def __repr__(self):
-        pass
-
-    def __hash__(self):
-        return hash((self.question, self.gold_label))
-
->>>>>>> parent of e720918 (Merge branch 'hjq')
 class DatasetLoader:  # 命名上和torch的多加了个set
     def __init__(self, data: List[Example]):
         self.data = pd.DataFrame({'data_question': [],
@@ -199,7 +164,6 @@ class DatasetLoader:  # 命名上和torch的多加了个set
             self.data = pd.concat([data, pd.DataFrame({'data_question': [e.question],
                                                        'data_gold_label': [e.gold_label],
                                                        'data_instance': [e]})], ignore_index=True)
-<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,9 +264,3 @@ class Rationale:
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
 =======
 >>>>>>> parent of 2ee2b56 (Merge branch 'lbq')
-=======
- 
-
-    def __repr__(self):
-        print(" ".join([d for d in self.data]))
->>>>>>> parent of e720918 (Merge branch 'hjq')
