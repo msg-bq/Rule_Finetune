@@ -14,15 +14,15 @@ class Rule:
 
 class RuleBase:
     def __init__(self):
-        self.rules = pd.DataFrame({'rule_name': [],
-                                   'rule_instance': []})
+        # {rule_name: rule_instance}
+        self._rule_name_2_rule_instance = dict()
 
     def write_rules(self) -> str:
         """
         返回所有rules作为prompt
         TODO: 这是简易版本
         """
-        out = '\n'.join([row['rule_name'] for row_idx, row in self.rules.iterrows()])
+        out = '\n'.join([rn for rn in self._rule_name_2_rule_instance])
         return out
 
     def update_rule(self, rule_names: List[str], scores: Optional[List[float]] = None) -> List[Rule]:
@@ -35,15 +35,12 @@ class RuleBase:
             scores = [1.0] * len(rule_names)
 
         for rule_name, score in zip(rule_names, scores):
-            matched_rules = self.rules.loc[(self.rules["rule_name"] == rule_name)]
-            assert len(matched_rules) <= 1
-            if len(matched_rules) == 0:
+            if rule_name not in self._rule_name_2_rule_instance:
                 new_rule_instance = self._add_rules([rule_name], [score])[0]
                 rule_instances.append(new_rule_instance)
-            elif len(matched_rules) == 1:
+            else:
                 # TODO: score是覆写还是加上
-                idx = self.rules[self.rules.rule_name == rule_name].index.tolist()[0]
-                rule_instance = self.rules.iloc[idx]['rule_instance']
+                rule_instance = self._rule_name_2_rule_instance[rule_name]
                 rule_instance.confidence = score
                 rule_instances.append(rule_instance)
         return rule_instances
@@ -55,9 +52,7 @@ class RuleBase:
         new_rule_instances = []
         for rule_name, score in zip(rules, scores):
             new_rule_instance = Rule(content=rule_name, confidence=score)
-            new_rule_df = pd.DataFrame({'rule_name': [rule_name],
-                                        'rule_instance': [new_rule_instance]})
-            self.rules = pd.concat([self.rules, new_rule_df], ignore_index=True)
+            self._rule_name_2_rule_instance[rule_name] = new_rule_instance
             new_rule_instances.append(new_rule_instance)
         return new_rule_instances
 
@@ -98,17 +93,6 @@ class Rationale:    # 修正到只有两个属性
 
         return pred_words[-1]
 
-    # # 因为gold_label无法获取而搁置，可能放到其它地方
-    # def score(self) -> float:
-    #     """
-    #     比对prediction和gold_label打分，用于调整Rule confidence
-    #     TODO: 实现了一个简易的负对数编辑距离打分
-    #     """
-    #     edit_distance = [Levenshtein.distance(p, self.gold_label) for p in self.prediction]
-    #     scores = [-math.log(ed) for ed in edit_distance]
-    #     score = sum(scores)
-    #     return score
-
     def update(self, new_rationale: Dict[str, str]):
         """
         lbq
@@ -134,6 +118,20 @@ class Example:
         self.question = question
         self.gold_label = gold_label
         self.rationale = [] if rationale is None else rationale
+
+    def update_rationale(self, rationale: Dict[str: str]):
+        new_rationale_instance = Rationale(rationale=rationale['rationale'], prediction=rationale['answer'])
+        self.rationale.append(new_rationale_instance)
+
+    def score(self, rationale: Rationale) -> float:
+        """
+        比对prediction和gold_label打分，用于调整Rule confidence
+        TODO: 实现了一个简易的负对数编辑距离打分
+        """
+        edit_distance = [Levenshtein.distance(p, self.gold_label) for p in rationale.prediction]
+        scores = [-math.log(ed) for ed in edit_distance]
+        score = sum(scores)
+        return score
 
     def __eq__(self, other):
         if isinstance(other, Example):
@@ -208,7 +206,8 @@ class Example:
         answer = response[length-len(response_lst[-1])].strip()
         rationale = response[:-(len(response_lst[-1]) + len("the answer is"))].strip()
 
-        return {'question': self.question, 'rationale': rationale, 'gold_label': answer}
+        return {'question': self.question, 'gold_label': self.gold_label,
+                'rationale': rationale, 'answer': answer}
 
     def __repr__(self):
         pass
@@ -216,16 +215,28 @@ class Example:
     def __hash__(self):
         return hash((self.question, self.gold_label))
 
+
 class DatasetLoader:  # 命名上和torch的多加了个set
     def __init__(self, data: List[Example]):
-        self.data = pd.DataFrame({'data_question': [],
-                                  'data_gold_label': [],
-                                  'data_instance': []})
-        for e in data:
-            self.data = pd.concat([data, pd.DataFrame({'data_question': [e.question],
-                                                       'data_gold_label': [e.gold_label],
-                                                       'data_instance': [e]})], ignore_index=True)
+        # {question: data_instance}
+        self._question_2_data_instance = dict()
+        # {gold_label: data_instance}
+        self._gold_label_2_data_instance = dict()
+        self._data_instance_list = []
 
+        for e in data:
+            self._question_2_data_instance[e.question] = e
+            self._gold_label_2_data_instance[e.gold_label] = e
+            self._data_instance_list = []
 
     def __repr__(self):
-        print(" ".join([d for d in self.data]))
+        print(" ".join([str(self._question_2_data_instance[d]) for d in self._question_2_data_instance]))
+
+    def __iter__(self):
+        self._iter_index = -1
+
+    def next(self):
+        self._iter_index += 1
+        if self._iter_index >= len(self._data_instance_list):
+            raise StopIteration()
+        return self._data_instance_list[self._iter_index]
