@@ -22,10 +22,19 @@ class Trainer:
         """
         计划从这里调取第一次的CoT
         """
+<<<<<<< Updated upstream
         dataset = zero_shot_CoT(self.llm, self.train_dataset)
         for data in dataset.data:
             rules = self.extract_rules(data.rationale)
             self.rule_base.add_rules(rules)
+=======
+        dataset = zero_shot_CoT(self.args, self.llm, self.train_dataset)
+        for data in dataset:
+            rules = []
+            for r in data.rationale:
+                rules.append(r.extract_rules())
+            self.rule_base._add_rules(rules)
+>>>>>>> Stashed changes
 
     def forward(self, example, demos):
         """

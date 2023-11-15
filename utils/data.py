@@ -1,7 +1,7 @@
 import math
 import re
 import string
-from typing import List, Dict, Optional, Union, Tuple
+from typing import List, Dict, Optional, Union, Tuple, overload
 import Levenshtein
 import pandas as pd
 
@@ -45,10 +45,13 @@ class RuleBase:
                 rule_instances.append(rule_instance)
         return rule_instances
 
-    def _add_rules(self, rules: List[str], scores: List[float]) -> List[Rule]:
+    def _add_rules(self, rules: List[str], scores: List[float] = None) -> List[Rule]:
         """
         这里需要一个添加rule的函数，包括将字符串转为str+查重+添加
         """
+        if not scores:
+            scores = [1.0] * len(rules)
+
         new_rule_instances = []
         for rule_name, score in zip(rules, scores):
             new_rule_instance = Rule(content=rule_name, confidence=score)
@@ -63,16 +66,22 @@ class Rationale:    # 修正到只有两个属性
     """
 
     def __init__(self, rationale: str, prediction: str):
-        self.rationale = rationale
+        self.rationale = rationale.strip()
         self.prediction = self.clean_prediction(prediction)
+        self.rules = None
 
-    def extract_rules(self, rationale: str) -> List[str]:
+    def extract_rules(self) -> List[str]:
         """
         从dataset中抽取出rules
         """
+        if self.rules:
+            return self.rules
+
         rule_pattern = re.compile(r"Rule:(.+?)(?:\.|\n)")
-        rules = rule_pattern.findall(rationale)
+        rules = rule_pattern.findall(self.rationale)
         rules = [r.strip() for r in rules]
+
+        self.rules = rules
 
         return rules
 
@@ -86,12 +95,16 @@ class Rationale:    # 修正到只有两个属性
             if pred_words[0][-1] in string.punctuation:
                 return pred_words[0][:-1]
 
-            return pred_words[0]
+            return pred_words[0].strip()
 
         if pred_words[-1][-1] in string.punctuation:
             return pred_words[-1][:-1]
 
+<<<<<<< Updated upstream
         return pred_words[-1]
+=======
+        return pred_words[-1].strip()
+>>>>>>> Stashed changes
 
     def update(self, new_rationale: Dict[str, str]):
         """
@@ -112,14 +125,20 @@ class Rationale:    # 修正到只有两个属性
         else:
             raise AttributeError("Incorrect attribute!")
 
+    def __repr__(self):
+        return str({"rationale": self.rationale, "prediction": self.prediction})
 
 class Example:
-    def __init__(self, question: str, gold_label: str, rationale: List[Rationale] = None):
-        self.question = question
-        self.gold_label = gold_label
+    def __init__(self, question: str, gold_label: str, rationale: List[Rationale] = None, *args, **kwargs):
+        self.question = question.strip()
+        self.gold_label = gold_label.strip()
         self.rationale = [] if rationale is None else rationale
 
+<<<<<<< Updated upstream
     def update_rationale(self, rationale: Dict[str: str]):
+=======
+    def update_rationale(self, rationale: Dict[str, str]):
+>>>>>>> Stashed changes
         new_rationale_instance = Rationale(rationale=rationale['rationale'], prediction=rationale['answer'])
         self.rationale.append(new_rationale_instance)
 
@@ -161,12 +180,36 @@ class Example:
                 raise TypeError("Incorrect type.")
 
     def _check_QA(self, other_QA: Tuple[str, str]):
+<<<<<<< Updated upstream
         if self.question and self.question != other_QA[0]:
             raise Warning("The question is not the same.")
 
         if self.gold_label and self.gold_label != other_QA[1]:
             raise Warning("The gold_label is not the same.")
 
+=======
+        if self.question and self.question.strip() != other_QA[0].strip():
+            raise Warning("The question is not the same.")
+
+        if self.gold_label and self.gold_label.strip() != other_QA[1].strip():
+            raise Warning("The gold_label is not the same.")
+
+        return True
+
+    def adjust_merge_example_to_rationale(self, merge_example: Dict[str, str]) -> Dict[
+        str, Union[str, Rationale, List[Rationale]]]:
+        """
+        将merge_example中的rationale部分(包括rationale和prediction两个key)转换为Rationale类
+        """
+        rationale = merge_example.pop('rationale', None)
+        prediction = merge_example.pop('prediction', None)
+        rationale_class = Rationale(rationale=rationale, prediction=prediction)
+
+        merge_example['rationale'] = rationale_class
+
+        return merge_example
+
+>>>>>>> Stashed changes
     def update(self, example: [str, Dict[str, str], 'Example']):
         """
         根据example里面的更新self对应的值。请注意，这个函数用于更新某个样例的情况，而不建议将样例1改变为样例2（注意到
@@ -195,7 +238,12 @@ class Example:
         return self
 
     def to_dict(self):
+<<<<<<< Updated upstream
         return self.__dict__
+=======
+        return {'question': self.question, 'gold_label': self.gold_label,
+                'rationale': self.rationale.rationale, 'answer': self.rationale.prediction}
+>>>>>>> Stashed changes
 
     def parse_response(self, response: str) -> Dict[str, str]:
         """
@@ -210,7 +258,11 @@ class Example:
                 'rationale': rationale, 'answer': answer}
 
     def __repr__(self):
+<<<<<<< Updated upstream
         pass
+=======
+        return str({"question": self.question, "gold_label": self.gold_label, "rationale": self.rationale.__repr__()})
+>>>>>>> Stashed changes
 
     def __hash__(self):
         return hash((self.question, self.gold_label))
@@ -218,6 +270,7 @@ class Example:
 
 class DatasetLoader:  # 命名上和torch的多加了个set
     def __init__(self, data: List[Example]):
+<<<<<<< Updated upstream
         # {question: data_instance}
         self._question_2_data_instance = dict()
         # {gold_label: data_instance}
@@ -228,9 +281,23 @@ class DatasetLoader:  # 命名上和torch的多加了个set
             self._question_2_data_instance[e.question] = e
             self._gold_label_2_data_instance[e.gold_label] = e
             self._data_instance_list = []
+=======
+        # {question, gold_label: data_instance}
+        self._question_label_2_data_instance = dict()
+        self._data_instance_list = []
+
+        for e in data:
+            self._data_instance_list.append(e)
+>>>>>>> Stashed changes
+
+        self._build_index()
 
     def __repr__(self):
+<<<<<<< Updated upstream
         print(" ".join([str(self._question_2_data_instance[d]) for d in self._question_2_data_instance]))
+=======
+        print(" ".join([str(self._question_label_2_data_instance[d]) for d in self._question_label_2_data_instance]))
+>>>>>>> Stashed changes
 
     def __iter__(self):
         self._iter_index = -1
@@ -239,4 +306,31 @@ class DatasetLoader:  # 命名上和torch的多加了个set
         self._iter_index += 1
         if self._iter_index >= len(self._data_instance_list):
             raise StopIteration()
+<<<<<<< Updated upstream
         return self._data_instance_list[self._iter_index] 
+=======
+        return self._data_instance_list[self._iter_index]
+
+    def _build_index(self):
+        for data_instance in self._data_instance_list:
+            question, gold_label = data_instance.question, data_instance.gold_label
+            key = (question, gold_label)
+            if key in self._question_label_2_data_instance:
+                raise KeyError("The question and gold_label is already in the DatasetLoader")
+            else:
+                self._question_label_2_data_instance[key] = data_instance
+
+    @overload
+    def find(self, key: Tuple[str, str]) -> Optional[Example]: ...
+    @overload
+    def find(self, key: Tuple[str, str], default) -> Optional[Example]: ...
+
+    def find(self, key, *args):
+        if key in self._question_label_2_data_instance:
+            return self._question_label_2_data_instance[key]
+        else:
+            if args:
+                return args[0]
+            else:
+                raise KeyError("The question and gold_label pair is not in the DatasetLoader")
+>>>>>>> Stashed changes

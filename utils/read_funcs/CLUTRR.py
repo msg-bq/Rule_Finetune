@@ -9,10 +9,10 @@ question_template = '''Context: The relations on the path from {query[0]} to {qu
 
 def read_CLUTRR_data(path):
     train_task = '1.2,1.3'  # 有不同的拆分方案，不过我们只拿这个做实验
-    test_task = '1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10'
+    test_task = '1.4,1.5,1.6,1.7,1.8,1.9,1.10' #1.2,1.3,
 
     train_file = f'{train_task}_train.csv'
-    test_files = [f'{task}_test.csv' for task in test_task.split(',')]
+    test_files = [f'{task.strip()}_test.csv' for task in test_task.split(',')]
 
     train_data = pd.read_csv(os.path.join(path, train_file))
     test_data = [pd.read_csv(os.path.join(path, test_file)) for test_file in test_files]
@@ -45,7 +45,9 @@ def build_datasets_from_samples(sampling_datasets: List[dict], question_template
         sampling_datasets[i]['relation_path_2'] = relation_path_2
         query = question_template.format(**sampling_datasets[i])
         target = sampling_datasets[i]['target']
+
         final_datasets.append({'question': query, 'gold_label': target})
+
     return final_datasets
 
 
