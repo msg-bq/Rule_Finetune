@@ -1,1 +1,0 @@
-{"question": "Context: The relations on the path from Jose to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Jose's what?", "gold_label": "grandmother", "rationale": "Gabrielle is Jose's sister, which means they share the same parent(s). Additionally, Gabrielle is also Jose's grandmother.", "prediction": "grandmother"}

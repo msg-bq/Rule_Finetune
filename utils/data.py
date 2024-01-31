@@ -358,10 +358,11 @@ class Rationale:    # 修正到只有两个属性
         if self.rules:
             return self.rules
 
-        rule_pattern = re.compile(r"<B>(.+?)<E>")
-        rules = rule_pattern.findall(self.rationale)
-        rules = [r.strip() for r in rules]
-        self.rules = self.rules.union(set(rules))
+        rule_pattern = re.compile(r"<rule>(.+?)<rule>")
+        rationale = self.rationale.replace("<B>", "<rule>").replace("<E>", "<rule>")
+        rules = rule_pattern.findall(rationale)
+        rules = [r.strip() for r in rules if len(r.split()) > 2 and r.strip() != '']
+        self.rules = set(rules)
 
         return rules
 

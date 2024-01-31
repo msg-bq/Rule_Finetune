@@ -32,8 +32,9 @@ class Trainer:
                 rules += r.extract_rules_cold_start()  # 这儿也没有根据prediction和label的一致性选择正确的rule
             self.rule_base._add_rules(rules, data.question)
 
-        self.rule_base.save(f"./data/LANG_8/rule_base_cold")
+        self.rule_base.save(f"./data/CLUTRR/rule_base_cold")
         print("完成cold start")
+        exit()
 
     def forward(self, example, demos, added_rules):
         """

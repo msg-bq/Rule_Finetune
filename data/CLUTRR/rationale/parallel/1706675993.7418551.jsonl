@@ -1,1 +1,0 @@
-{"question": "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?", "gold_label": "mother", "rationale": "Myrna is Jose's sister and mother, so we can conclude that Myrna is Jose's sister and mother.", "prediction": "mother"}

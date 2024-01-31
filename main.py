@@ -24,8 +24,9 @@ def args_parse():
                         help="save dir used for experiment")
 
     parser.add_argument("--llm_model", type=str,
-                        choices=["davinci", "gpt-3.5-turbo", "gpt-3.5-turbo-0613"],
-                        default="gpt-3.5-turbo-0613", help="language model used for experiment")
+                        choices=["davinci", "gpt-3.5-turbo", "gpt-3.5-turbo-0613",
+                                 "gpt-3.5-turbo-1106"],
+                        default="gpt-3.5-turbo-1106", help="language model used for experiment")
 
     parser.add_argument("--llm_model_path", type=str, default=None,
                         help="language model path used for experiment")
@@ -66,12 +67,14 @@ def args_parse():
 
     args = parser.parse_args()
 
-    args.cot_trigger = '''Answer: Let's think step by step. '''\
-'''If you use some knowledge in the reasoning process, please only surround the content of knowledge with tag <B>xxx<E> concisely and write it down individually. '''\
-'''Note that these knowledge should be universally applicable, including objective truth, laws of nature, universal rules and so on.'''
+    args.cot_trigger = '''Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually. '''\
+    '''Note that these rules should be true in general and concise.'''
+    #     '''Answer: Let's think step by step. '''\
+# '''If you use some prior knowledge in the reasoning process, please surround the complete but concise meaning of knowledge with tag <B>xxx<E> individually. '''\
+# '''Note that these knowledge should be universally applicable, including objective truth, laws of nature, universal rules and so on.'''
 #true in universal, general and concise.'''
 
-    pred_trigger = {"CLUTRR": "The correct answer is",
+    pred_trigger = {"CLUTRR": "The answer is",
                     "LANG-8": "The revised grammatically correct sentence is"}
 
     args.pred_trigger = pred_trigger[args.dataset]
