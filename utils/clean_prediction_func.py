@@ -9,6 +9,9 @@ def clean_prediction(self, prediction: str) -> str:
     从Answer中提出特定数据集的答案
     这里传入的pred已经是最后一个The answer is后面的部分了
     """
+    if prediction == "":
+        return prediction
+
     pred_words = prediction.split()
     if len(pred_words) == 1:
         if pred_words[0][-1] in string.punctuation:
