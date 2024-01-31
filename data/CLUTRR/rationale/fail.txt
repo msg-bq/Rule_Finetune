@@ -1,232 +1,216 @@
-Context: The relations on the path from Gabrielle to Christopher are son,brother.
-Question: Christopher is Gabrielle's what?
-Context: The relations on the path from Dwight to Sheila are son,wife.
-Question: Sheila is Dwight's what?
-Context: The relations on the path from Russell to Myrna are father,sister.
-Question: Myrna is Russell's what?
-Context: The relations on the path from Gabrielle to Donald are son,son.
-Question: Donald is Gabrielle's what?
-Context: The relations on the path from Asia to Lisa are mother,sister.
-Question: Lisa is Asia's what?
-Context: The relations on the path from Jennifer to James are father,brother.
-Question: James is Jennifer's what?
 Context: The relations on the path from Jose to Dwight are father,brother.
 Question: Dwight is Jose's what?
-Context: The relations on the path from Donald to Dorothy are father,sister.
-Question: Dorothy is Donald's what?
-Context: The relations on the path from Asia to Gabrielle are father,mother.
-Question: Gabrielle is Asia's what?
-Context: The relations on the path from Micheal to Dorothy are wife,mother.
-Question: Dorothy is Micheal's what?
-Context: The relations on the path from Dorothy to Gabrielle are daughter,grandmother.
-Question: Gabrielle is Dorothy's what?
-Context: The relations on the path from Angela to Jason are father,father.
-Question: Jason is Angela's what?
-Context: The relations on the path from Gabrielle to Joe are daughter,son.
-Question: Joe is Gabrielle's what?
-Context: The relations on the path from Michael to Christopher are son,uncle.
-Question: Christopher is Michael's what?
-Context: The relations on the path from Donald to Jennifer are sister,sister.
-Question: Jennifer is Donald's what?
-Context: The relations on the path from Dorothy to Jennifer are brother,daughter.
-Question: Jennifer is Dorothy's what?
-Context: The relations on the path from Scott to James are mother,brother.
-Question: James is Scott's what?
-Context: The relations on the path from Michelle to Aida are father,daughter.
-Question: Aida is Michelle's what?
-Context: The relations on the path from Michael to Russell are son,brother.
-Question: Russell is Michael's what?
-Context: The relations on the path from Jason to Michael are daughter,brother.
-Question: Michael is Jason's what?
-Context: The relations on the path from Gabrielle to Angela are son,daughter.
-Question: Angela is Gabrielle's what?
-Context: The relations on the path from Vincent to Aida are mother,daughter.
-Question: Aida is Vincent's what?
-Context: The relations on the path from Michael to Michelle are sister,daughter.
-Question: Michelle is Michael's what?
-Context: The relations on the path from Asia to James are father,brother.
-Question: James is Asia's what?
-Context: The relations on the path from Vincent to Gabrielle are father,mother.
-Question: Gabrielle is Vincent's what?
-Context: The relations on the path from Aida to Jason are mother,father.
-Question: Jason is Aida's what?
-Context: The relations on the path from Alfred to Myrna are wife,mother.
-Question: Myrna is Alfred's what?
-Context: The relations on the path from Alma to Jennifer are son,sister.
-Question: Jennifer is Alma's what?
-Context: The relations on the path from Donna to Dwight are husband,father.
-Question: Dwight is Donna's what?
+Context: The relations on the path from Dan to Jason are sister,grandfather.
+Question: Jason is Dan's what?
 Context: The relations on the path from Aida to Christopher are father,brother.
 Question: Christopher is Aida's what?
-Context: The relations on the path from Jeffrey to Myrna are wife,mother.
-Question: Myrna is Jeffrey's what?
-Context: The relations on the path from Jennifer to Donald are father,son.
-Question: Donald is Jennifer's what?
-Context: The relations on the path from Christopher to Dwight are daughter,uncle.
-Question: Dwight is Christopher's what?
-Context: The relations on the path from William to Myrna are wife,mother.
-Question: Myrna is William's what?
-Context: The relations on the path from Dwight to Jose are brother,son.
-Question: Jose is Dwight's what?
-Context: The relations on the path from James to Michelle are daughter,sister.
-Question: Michelle is James's what?
-Context: The relations on the path from Gabrielle to Jennifer are son,daughter.
-Question: Jennifer is Gabrielle's what?
-Context: The relations on the path from Gabrielle to Lisa are son,sister.
-Question: Lisa is Gabrielle's what?
-Context: The relations on the path from Alma to Dwight are son,uncle.
-Question: Dwight is Alma's what?
-Context: The relations on the path from Gabrielle to Dorothy are son,sister.
-Question: Dorothy is Gabrielle's what?
-Context: The relations on the path from Deborah to Lisa are husband,mother.
-Question: Lisa is Deborah's what?
-Context: The relations on the path from Asia to Jennifer are father,daughter.
-Question: Jennifer is Asia's what?
-Context: The relations on the path from Donald to Jennifer are father,daughter.
-Question: Jennifer is Donald's what?
-Context: The relations on the path from Gabrielle to Guillermina are son,daughter.
-Question: Guillermina is Gabrielle's what?
-Context: The relations on the path from Aida to Michelle are mother,daughter.
-Question: Michelle is Aida's what?
-Context: The relations on the path from Lewis to Dorothy are mother,sister.
-Question: Dorothy is Lewis's what?
 Context: The relations on the path from Jose to Dwight are mother,brother.
 Question: Dwight is Jose's what?
-Context: The relations on the path from Jason to Jennifer are grandson,sister.
-Question: Jennifer is Jason's what?
-Context: The relations on the path from Dwight to Jason are son,grandfather.
-Question: Jason is Dwight's what?
-Context: The relations on the path from Jason to Michelle are granddaughter,sister.
-Question: Michelle is Jason's what?
-Context: The relations on the path from Alma to Lucille are sister,daughter.
-Question: Lucille is Alma's what?
-Context: The relations on the path from Michelle to Dan are father,son.
-Question: Dan is Michelle's what?
+Context: The relations on the path from Dorothy to Michael are daughter,uncle.
+Question: Michael is Dorothy's what?
+Context: The relations on the path from Dorothy to Myrna are daughter,aunt.
+Question: Myrna is Dorothy's what?
+Context: The relations on the path from Gabrielle to Guillermina are son,daughter.
+Question: Guillermina is Gabrielle's what?
+Context: The relations on the path from David to Scott are mother,son.
+Question: Scott is David's what?
+Context: The relations on the path from Scott to James are mother,brother.
+Question: James is Scott's what?
+Context: The relations on the path from Vincent to Aida are mother,daughter.
+Question: Aida is Vincent's what?
+Context: The relations on the path from James to Jason are wife,father.
+Question: Jason is James's what?
 Context: The relations on the path from Joe to Jason are mother,father.
 Question: Jason is Joe's what?
-Context: The relations on the path from Michael to Myrna are son,aunt.
-Question: Myrna is Michael's what?
-Context: The relations on the path from Lucille to Gabrielle are father,mother.
-Question: Gabrielle is Lucille's what?
+Context: The relations on the path from Dan to Lisa are father,sister.
+Question: Lisa is Dan's what?
+Context: The relations on the path from Michael to Christopher are son,uncle.
+Question: Christopher is Michael's what?
+Context: The relations on the path from Alma to Lucille are sister,daughter.
+Question: Lucille is Alma's what?
+Context: The relations on the path from Myrna to Gabrielle are daughter,grandmother.
+Question: Gabrielle is Myrna's what?
+Context: The relations on the path from Dorothy to Gabrielle are daughter,grandmother.
+Question: Gabrielle is Dorothy's what?
+Context: The relations on the path from Aida to Jason are mother,father.
+Question: Jason is Aida's what?
+Context: The relations on the path from Lewis to Lisa are brother,mother.
+Question: Lisa is Lewis's what?
+Context: The relations on the path from Christopher to Dwight are daughter,uncle.
+Question: Dwight is Christopher's what?
+Context: The relations on the path from Micheal to Dorothy are wife,mother.
+Question: Dorothy is Micheal's what?
+Context: The relations on the path from Alma to Donald are daughter,brother.
+Question: Donald is Alma's what?
+Context: The relations on the path from Angela to Guillermina are father,daughter.
+Question: Guillermina is Angela's what?
+Context: The relations on the path from James to Alma are daughter,aunt.
+Question: Alma is James's what?
+Context: The relations on the path from Dwight to Jason are son,grandfather.
+Question: Jason is Dwight's what?
+Context: The relations on the path from Lisa to Jason are son,grandfather.
+Question: Jason is Lisa's what?
+Context: The relations on the path from Jason to Dorothy are son,sister.
+Question: Dorothy is Jason's what?
+Context: The relations on the path from Alma to Dwight are son,uncle.
+Question: Dwight is Alma's what?
 Context: The relations on the path from Joe to Michael are mother,brother.
 Question: Michael is Joe's what?
 Context: The relations on the path from Gabrielle to Michelle are daughter,daughter.
 Question: Michelle is Gabrielle's what?
-Context: The relations on the path from Gabrielle to Aida are son,daughter.
-Question: Aida is Gabrielle's what?
-Context: The relations on the path from Dorothy to Michael are daughter,uncle.
-Question: Michael is Dorothy's what?
-Context: The relations on the path from Dwight to Myrna are son,aunt.
-Question: Myrna is Dwight's what?
-Context: The relations on the path from Dan to Jason are mother,father.
-Question: Jason is Dan's what?
-Context: The relations on the path from Jennifer to Jason are father,father.
-Question: Jason is Jennifer's what?
-Context: The relations on the path from Dwight to Christopher are son,uncle.
-Question: Christopher is Dwight's what?
-Context: The relations on the path from Aida to Dan are mother,son.
-Question: Dan is Aida's what?
-Context: The relations on the path from Dwight to Dorothy are son,aunt.
-Question: Dorothy is Dwight's what?
-Context: The relations on the path from William to Christopher are wife,father.
-Question: Christopher is William's what?
-Context: The relations on the path from Jeffrey to Christopher are wife,father.
-Question: Christopher is Jeffrey's what?
-Context: The relations on the path from Jason to Dorothy are son,sister.
-Question: Dorothy is Jason's what?
-Context: The relations on the path from Lewis to Lisa are brother,mother.
-Question: Lisa is Lewis's what?
-Context: The relations on the path from Myrna to David are sister,son.
-Question: David is Myrna's what?
-Context: The relations on the path from Jason to Lucille are daughter,daughter.
-Question: Lucille is Jason's what?
-Context: The relations on the path from Angela to Gabrielle are father,mother.
-Question: Gabrielle is Angela's what?
-Context: The relations on the path from Aida to Michael are mother,brother.
-Question: Michael is Aida's what?
-Context: The relations on the path from David to Gabrielle are mother,mother.
-Question: Gabrielle is David's what?
-Context: The relations on the path from Jennifer to Lisa are father,sister.
-Question: Lisa is Jennifer's what?
-Context: The relations on the path from Lewis to Gabrielle are brother,grandmother.
-Question: Gabrielle is Lewis's what?
-Context: The relations on the path from Dwight to Gabrielle are son,grandmother.
-Question: Gabrielle is Dwight's what?
-Context: The relations on the path from Russell to Donald are father,son.
-Question: Donald is Russell's what?
-Context: The relations on the path from Jason to Dan are daughter,son.
-Question: Dan is Jason's what?
-Context: The relations on the path from Dorothy to Myrna are daughter,aunt.
-Question: Myrna is Dorothy's what?
-Context: The relations on the path from Aida to Myrna are mother,sister.
-Question: Myrna is Aida's what?
-Context: The relations on the path from Christopher to Jason are daughter,grandfather.
-Question: Jason is Christopher's what?
-Context: The relations on the path from Donald to Jason are sister,grandfather.
-Question: Jason is Donald's what?
-Context: The relations on the path from Christopher to Gabrielle are daughter,grandmother.
-Question: Gabrielle is Christopher's what?
-Context: The relations on the path from Jennifer to Alma are brother,mother.
-Question: Alma is Jennifer's what?
-Context: The relations on the path from Jason to Scott are daughter,son.
-Question: Scott is Jason's what?
-Context: The relations on the path from Michael to Gabrielle are son,grandmother.
-Question: Gabrielle is Michael's what?
-Context: The relations on the path from Myrna to Dorothy are daughter,aunt.
-Question: Dorothy is Myrna's what?
-Context: The relations on the path from Marci to Dorothy are husband,mother.
-Question: Dorothy is Marci's what?
-Context: The relations on the path from Michael to Jason are son,grandfather.
-Question: Jason is Michael's what?
-Context: The relations on the path from Myrna to Michael are daughter,uncle.
-Question: Michael is Myrna's what?
-Context: The relations on the path from Vincent to Michelle are mother,daughter.
-Question: Michelle is Vincent's what?
-Context: The relations on the path from Dwight to Vincent are brother,son.
-Question: Vincent is Dwight's what?
-Context: The relations on the path from Asia to Donald are father,son.
-Question: Donald is Asia's what?
-Context: The relations on the path from Lucille to Christopher are sister,father.
-Question: Christopher is Lucille's what?
-Context: The relations on the path from Gabrielle to Vincent are daughter,son.
-Question: Vincent is Gabrielle's what?
-Context: The relations on the path from Donald to Gabrielle are sister,grandmother.
-Question: Gabrielle is Donald's what?
-Context: The relations on the path from Angela to Guillermina are father,daughter.
-Question: Guillermina is Angela's what?
-Context: The relations on the path from Myrna to Gabrielle are daughter,grandmother.
-Question: Gabrielle is Myrna's what?
+Context: The relations on the path from Gabrielle to Lisa are son,sister.
+Question: Lisa is Gabrielle's what?
 Context: The relations on the path from Jose to Jason are father,father.
 Question: Jason is Jose's what?
-Context: The relations on the path from Annette to Alma are husband,mother.
-Question: Alma is Annette's what?
-Context: The relations on the path from Gabrielle to Dan are son,son.
-Question: Dan is Gabrielle's what?
-Context: The relations on the path from Lisa to Gabrielle are son,grandmother.
-Question: Gabrielle is Lisa's what?
-Context: The relations on the path from Gabrielle to Jose are son,son.
-Question: Jose is Gabrielle's what?
-Context: The relations on the path from Myrna to Jason are daughter,grandfather.
-Question: Jason is Myrna's what?
-Context: The relations on the path from Myrna to Guillermina are daughter,sister.
-Question: Guillermina is Myrna's what?
-Context: The relations on the path from Annette to Michael are husband,father.
-Question: Michael is Annette's what?
-Context: The relations on the path from Alma to Jason are husband,father.
-Question: Jason is Alma's what?
-Context: The relations on the path from David to Lewis are mother,son.
-Question: Lewis is David's what?
-Context: The relations on the path from Dan to Lisa are father,sister.
-Question: Lisa is Dan's what?
-Context: The relations on the path from Jose to Guillermina are mother,daughter.
-Question: Guillermina is Jose's what?
-Context: The relations on the path from Dorothy to Jason are daughter,grandfather.
-Question: Jason is Dorothy's what?
-Context: The relations on the path from Lisa to Jason are son,grandfather.
-Question: Jason is Lisa's what?
+Context: The relations on the path from Christopher to Jason are daughter,grandfather.
+Question: Jason is Christopher's what?
+Context: The relations on the path from Gabrielle to Joe are daughter,son.
+Question: Joe is Gabrielle's what?
+Context: The relations on the path from Angela to Gabrielle are father,mother.
+Question: Gabrielle is Angela's what?
+Context: The relations on the path from Myrna to Michael are daughter,uncle.
+Question: Michael is Myrna's what?
+Context: The relations on the path from Donna to Lisa are husband,mother.
+Question: Lisa is Donna's what?
+Context: The relations on the path from Vincent to Michelle are mother,daughter.
+Question: Michelle is Vincent's what?
+Context: The relations on the path from Dwight to Sheila are son,wife.
+Question: Sheila is Dwight's what?
+Context: The relations on the path from Gabrielle to Donald are granddaughter,brother.
+Question: Donald is Gabrielle's what?
+Context: The relations on the path from Christopher to Gabrielle are daughter,grandmother.
+Question: Gabrielle is Christopher's what?
+Context: The relations on the path from Asia to Gabrielle are father,mother.
+Question: Gabrielle is Asia's what?
+Context: The relations on the path from David to Dorothy are mother,sister.
+Question: Dorothy is David's what?
 Context: The relations on the path from Scott to Lewis are mother,son.
 Question: Lewis is Scott's what?
-Context: The relations on the path from Asia to Alma are brother,mother.
-Question: Alma is Asia's what?
+Context: The relations on the path from Jeffrey to Christopher are wife,father.
+Question: Christopher is Jeffrey's what?
+Context: The relations on the path from Jason to Lucille are daughter,daughter.
+Question: Lucille is Jason's what?
+Context: The relations on the path from Lucille to Gabrielle are father,mother.
+Question: Gabrielle is Lucille's what?
+Context: The relations on the path from Asia to Michael are sister,father.
+Question: Michael is Asia's what?
+Context: The relations on the path from Jennifer to James are father,brother.
+Question: James is Jennifer's what?
+Context: The relations on the path from Dwight to Vincent are brother,son.
+Question: Vincent is Dwight's what?
+Context: The relations on the path from David to Gabrielle are mother,mother.
+Question: Gabrielle is David's what?
+Context: The relations on the path from Gabrielle to Vincent are daughter,son.
+Question: Vincent is Gabrielle's what?
+Context: The relations on the path from Alma to David are sister,son.
+Question: David is Alma's what?
+Context: The relations on the path from Myrna to Guillermina are daughter,sister.
+Question: Guillermina is Myrna's what?
+Context: The relations on the path from Jennifer to Donald are father,son.
+Question: Donald is Jennifer's what?
+Context: The relations on the path from Marci to Dorothy are husband,mother.
+Question: Dorothy is Marci's what?
+Context: The relations on the path from Michael to Michelle are sister,daughter.
+Question: Michelle is Michael's what?
+Context: The relations on the path from Donald to Dorothy are father,sister.
+Question: Dorothy is Donald's what?
+Context: The relations on the path from Lewis to Dorothy are mother,sister.
+Question: Dorothy is Lewis's what?
 Context: The relations on the path from Scott to Gabrielle are brother,grandmother.
 Question: Gabrielle is Scott's what?
+Context: The relations on the path from Gabrielle to Jennifer are son,daughter.
+Question: Jennifer is Gabrielle's what?
+Context: The relations on the path from Aida to Michelle are mother,daughter.
+Question: Michelle is Aida's what?
+Context: The relations on the path from Jeffrey to Myrna are wife,mother.
+Question: Myrna is Jeffrey's what?
+Context: The relations on the path from Russell to Myrna are father,sister.
+Question: Myrna is Russell's what?
+Context: The relations on the path from Dwight to Christopher are son,uncle.
+Question: Christopher is Dwight's what?
+Context: The relations on the path from Annette to Alma are husband,mother.
+Question: Alma is Annette's what?
+Context: The relations on the path from Lisa to Michelle are sister,daughter.
+Question: Michelle is Lisa's what?
+Context: The relations on the path from Myrna to Dorothy are daughter,aunt.
+Question: Dorothy is Myrna's what?
+Context: The relations on the path from Dwight to Dorothy are son,aunt.
+Question: Dorothy is Dwight's what?
+Context: The relations on the path from Vincent to Gabrielle are father,mother.
+Question: Gabrielle is Vincent's what?
+Context: The relations on the path from Asia to James are father,brother.
+Question: James is Asia's what?
+Context: The relations on the path from Dorothy to Michelle are daughter,sister.
+Question: Michelle is Dorothy's what?
+Context: The relations on the path from James to Gabrielle are daughter,grandmother.
+Question: Gabrielle is James's what?
+Context: The relations on the path from Aida to Michael are mother,brother.
+Question: Michael is Aida's what?
+Context: The relations on the path from Jason to Scott are daughter,son.
+Question: Scott is Jason's what?
+Context: The relations on the path from James to Dan are daughter,brother.
+Question: Dan is James's what?
+Context: The relations on the path from Jason to Dan are daughter,son.
+Question: Dan is Jason's what?
+Context: The relations on the path from Gabrielle to Aida are son,daughter.
+Question: Aida is Gabrielle's what?
+Context: The relations on the path from Michelle to Aida are father,daughter.
+Question: Aida is Michelle's what?
+Context: The relations on the path from Myrna to Jeffrey are daughter,husband.
+Question: Jeffrey is Myrna's what?
+Context: The relations on the path from Alma to Jason are husband,father.
+Question: Jason is Alma's what?
+Context: The relations on the path from Aida to Myrna are mother,sister.
+Question: Myrna is Aida's what?
+Context: The relations on the path from Michael to Jason are son,grandfather.
+Question: Jason is Michael's what?
+Context: The relations on the path from Lisa to Gabrielle are son,grandmother.
+Question: Gabrielle is Lisa's what?
+Context: The relations on the path from Dorothy to Lisa are daughter,aunt.
+Question: Lisa is Dorothy's what?
+Context: The relations on the path from Angela to Jason are father,father.
+Question: Jason is Angela's what?
+Context: The relations on the path from Michelle to Dan are father,son.
+Question: Dan is Michelle's what?
+Context: The relations on the path from Gabrielle to Angela are son,daughter.
+Question: Angela is Gabrielle's what?
+Context: The relations on the path from Alma to Myrna are son,aunt.
+Question: Myrna is Alma's what?
+Context: The relations on the path from Dan to Jason are mother,father.
+Question: Jason is Dan's what?
+Context: The relations on the path from Gabrielle to Aida are daughter,daughter.
+Question: Aida is Gabrielle's what?
+Context: The relations on the path from Aida to Dan are mother,son.
+Question: Dan is Aida's what?
+Context: The relations on the path from Jose to Guillermina are mother,daughter.
+Question: Guillermina is Jose's what?
+Context: The relations on the path from Donna to Dwight are husband,father.
+Question: Dwight is Donna's what?
+Context: The relations on the path from David to Lewis are mother,son.
+Question: Lewis is David's what?
+Context: The relations on the path from Vincent to Gabrielle are mother,mother.
+Question: Gabrielle is Vincent's what?
+Context: The relations on the path from Michael to Gabrielle are son,grandmother.
+Question: Gabrielle is Michael's what?
+Context: The relations on the path from Michael to Myrna are son,aunt.
+Question: Myrna is Michael's what?
+Context: The relations on the path from Michael to Russell are son,brother.
+Question: Russell is Michael's what?
+Context: The relations on the path from Asia to Jennifer are father,daughter.
+Question: Jennifer is Asia's what?
+Context: The relations on the path from Donald to Jason are sister,grandfather.
+Question: Jason is Donald's what?
+Context: The relations on the path from Donald to Jennifer are father,daughter.
+Question: Jennifer is Donald's what?
+Context: The relations on the path from Russell to Donald are father,son.
+Question: Donald is Russell's what?
+Context: The relations on the path from Asia to Donald are father,son.
+Question: Donald is Asia's what?
+Context: The relations on the path from Dwight to Donald are brother,son.
+Question: Donald is Dwight's what?
+Context: The relations on the path from Dwight to Myrna are son,aunt.
+Question: Myrna is Dwight's what?
+Context: The relations on the path from Annette to Michael are husband,father.
+Question: Michael is Annette's what?
+Context: The relations on the path from Asia to Lisa are mother,sister.
+Question: Lisa is Asia's what?

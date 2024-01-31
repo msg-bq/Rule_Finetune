@@ -98,8 +98,7 @@ def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-1106", i
 
 if __name__ == '__main__':
     prompt = \
-'''Context: The relations on the path from Michael to Alfred are brother, son.
-Question: Alfred is Michael's what?
+'''Context: Lisa went shopping with her son Joe and her brother Michael.\nQuestion: Joe is Michael's what?
 Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually before you draw every conclusion.'''
 
 #     prompt = \
@@ -107,11 +106,12 @@ Answer: Let's think step by step. If you use some rules in the reasoning process
 # Question: Kecia is Norman's what?
 # Answer: Let's think step byx step. If you use some rules in the reasoning process, please write them with "<rule>xxx<rule>" format individually."""
 
-    print(prompt)
-    num_worker = 5
-    with concurrent.futures.ThreadPoolExecutor(max_workers=num_worker) as executor:
-        sub_response = [executor.submit(call_openai, prompt, model="gpt-4-1106-preview") for _ in range(num_worker)]
-
-        for r in as_completed(sub_response):
-            print(r.result())
-    # print(call_openai(prompt, model="gpt-4"))
+    # print(prompt)
+    # num_worker = 5
+    # with concurrent.futures.ThreadPoolExecutor(max_workers=num_worker) as executor:
+    #     sub_response = [executor.submit(call_openai, prompt, model="gpt-4-1106-preview") for _ in range(num_worker)]
+    #
+    #     for r in as_completed(sub_response):
+    #         print(r.result())
+    print(call_openai(prompt, model="gpt-3.5-turbo-1106",
+                      topN=5))

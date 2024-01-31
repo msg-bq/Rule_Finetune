@@ -22,17 +22,19 @@ def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trig
     """
     目前是直接用了autoCoT的写法
     """
-    input_text = input_text + "\n" + cot_trigger
+    llm_input = input_text + "\n" + cot_trigger
 
     max_length = 4096
     rationales_answers_pair = []
 
-    rationales = llm.generate_single_parallel(input_text=input_text, model="gpt-3.5-turbo-0613",#"gpt-4-1106-preview",
+    model = "gpt-3.5-turbo-1106"
+
+    rationales = llm.generate_single_parallel(input_text=llm_input, model=model,#"gpt-4-1106-preview",
                                               temperature=0.5, topN=5) # 可以传入一个try_cnt
 
     for r in rationales:
-        z2 = input_text + r + " " + direct_answer_trigger_for_zeroshot_cot
-        pred = llm.generate_single(input_text=z2, temperature=0.0)
+        z2 = input_text + "Answer: " + r + " " + direct_answer_trigger_for_zeroshot_cot
+        pred = llm.generate_single(input_text=z2, model=model, temperature=0.0)
 
         if pred:
             rationales_answers_pair.append((r, pred))

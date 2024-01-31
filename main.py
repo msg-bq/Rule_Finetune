@@ -67,8 +67,18 @@ def args_parse():
 
     args = parser.parse_args()
 
-    args.cot_trigger = '''Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually. '''\
-    '''Note that these rules should be true in general and concise.'''
+    args.cot_trigger = '''Answer: Let's think step by step. First rationale then answer.'''\
+                   '''If you use any prior knowledge or rules during the inference, write them in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
+                   '''Note that these knowledge should be true in general and concise. '''
+    # '''Answer: Let's think step by step. First rationale then answer.'''\
+    #                '''If you use any rules during the inference, write rules in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
+    #                '''Note that these rules should be true in general and concise. '''
+    # '''Answer: Let's think step by step. First rationale then answer.'''\
+    #                '''If you use any prior knowledge or rule during the inference, write rules in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
+    #                '''Note that these knowledge and rules should be true in general and concise. '''
+
+    # '''Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually. '''\
+    # '''Note that these rules should be true in general and concise.'''
     #     '''Answer: Let's think step by step. '''\
 # '''If you use some prior knowledge in the reasoning process, please surround the complete but concise meaning of knowledge with tag <B>xxx<E> individually. '''\
 # '''Note that these knowledge should be universally applicable, including objective truth, laws of nature, universal rules and so on.'''
