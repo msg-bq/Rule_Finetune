@@ -1,0 +1,1 @@
+{"question": "Context: The relations on the path from Lisa to Michelle are sister,daughter.\nQuestion: Michelle is Lisa's what?", "gold_label": "niece", "rationale": "Michelle is Lisa's sister's daughter, so Michelle is Lisa's niece.", "prediction": "niece"}

@@ -1,0 +1,21 @@
+{
+    "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?": 0.03333333333333334,
+    "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?": 0.044444444444444446,
+    "Context: The relations on the path from Myrna to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Myrna's what?": 0.044444444444444446,
+    "Context: The relations on the path from Michael to Myrna are son,aunt.\nQuestion: Myrna is Michael's what?": 0.03333333333333335,
+    "Context: The relations on the path from Jose to Guillermina are mother,daughter.\nQuestion: Guillermina is Jose's what?": 0.033333333333333354,
+    "Context: The relations on the path from Myrna to Aida are sister,daughter.\nQuestion: Aida is Myrna's what?": 0.03333333333333334,
+    "Context: The relations on the path from William to Myrna are wife,mother.\nQuestion: Myrna is William's what?": 0.03333333333333333,
+    "Context: The relations on the path from Myrna to Michael are daughter,uncle.\nQuestion: Michael is Myrna's what?": 0.033333333333333326,
+    "Context: The relations on the path from Angela to Guillermina are father,daughter.\nQuestion: Guillermina is Angela's what?": 0.033333333333333326,
+    "Context: The relations on the path from Russell to Myrna are father,sister.\nQuestion: Myrna is Russell's what?": 0.03333333333333334,
+    "Context: The relations on the path from Myrna to Jason are daughter,grandfather.\nQuestion: Jason is Myrna's what?": 0.03333333333333334,
+    "Context: The relations on the path from Aida to Myrna are mother,sister.\nQuestion: Myrna is Aida's what?": 0.03333333333333334,
+    "Context: The relations on the path from Myrna to Guillermina are daughter,sister.\nQuestion: Guillermina is Myrna's what?": 0.03333333333333334,
+    "Context: The relations on the path from Myrna to Gabrielle are daughter,grandmother.\nQuestion: Gabrielle is Myrna's what?": 0.03333333333333335,
+    "Context: The relations on the path from Myrna to David are sister,son.\nQuestion: David is Myrna's what?": 0.03333333333333335,
+    "Context: The relations on the path from Angela to Myrna are sister,mother.\nQuestion: Myrna is Angela's what?": 0.03333333333333334,
+    "Context: The relations on the path from Alfred to Myrna are wife,mother.\nQuestion: Myrna is Alfred's what?": 0.03333333333333334,
+    "Context: The relations on the path from Myrna to Dorothy are daughter,aunt.\nQuestion: Dorothy is Myrna's what?": 0.03333333333333334,
+    "Context: The relations on the path from Jeffrey to Myrna are wife,mother.\nQuestion: Myrna is Jeffrey's what?": 0.03333333333333334
+}

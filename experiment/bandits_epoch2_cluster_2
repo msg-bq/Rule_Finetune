@@ -1,0 +1,15 @@
+{
+    "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?": 0.05263157894736843,
+    "Context: The relations on the path from Scott to Dwight are brother,father.\nQuestion: Dwight is Scott's what?": 0.05263157894736842,
+    "Context: The relations on the path from Dwight to Myrna are son,aunt.\nQuestion: Myrna is Dwight's what?": 0.05263157894736843,
+    "Context: The relations on the path from Dwight to Gabrielle are son,grandmother.\nQuestion: Gabrielle is Dwight's what?": 0.05263157894736842,
+    "Context: The relations on the path from Alma to Dwight are son,uncle.\nQuestion: Dwight is Alma's what?": 0.05263157894736842,
+    "Context: The relations on the path from Donna to Dwight are husband,father.\nQuestion: Dwight is Donna's what?": 0.05263157894736842,
+    "Context: The relations on the path from Dwight to Jose are brother,son.\nQuestion: Jose is Dwight's what?": 0.05263157894736843,
+    "Context: The relations on the path from Dwight to Vincent are brother,son.\nQuestion: Vincent is Dwight's what?": 0.05263157894736842,
+    "Context: The relations on the path from Christopher to Dwight are daughter,uncle.\nQuestion: Dwight is Christopher's what?": 0.05263157894736843,
+    "Context: The relations on the path from Jose to Dwight are mother,brother.\nQuestion: Dwight is Jose's what?": 0.05263157894736843,
+    "Context: The relations on the path from Dwight to Jason are son,grandfather.\nQuestion: Jason is Dwight's what?": 0.05263157894736843,
+    "Context: The relations on the path from Dwight to Donald are brother,son.\nQuestion: Donald is Dwight's what?": 0.052631578947368404,
+    "Context: The relations on the path from Dwight to Dorothy are son,aunt.\nQuestion: Dorothy is Dwight's what?": 0.052631578947368404
+}

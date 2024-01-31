@@ -1,0 +1,1 @@
+{"question": "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?", "gold_label": "granddaughter", "rationale": "Guillermina is Jason's wife's granddaughter, so she is Jason's granddaughter as well.", "prediction": "granddaughter"}

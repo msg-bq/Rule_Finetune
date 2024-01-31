@@ -1,0 +1,1 @@
+{"question": "Context: The relations on the path from Myrna to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Myrna's what?", "gold_label": "son-in-law", "rationale": "Jeffrey is Myrna's son-in-law.", "prediction": "son-in-law"}

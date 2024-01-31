@@ -1,0 +1,1 @@
+{"question": "Context: The relations on the path from Vanessa to Donald are sister,brother.\nQuestion: Donald is Vanessa's what?", "gold_label": "brother", "rationale": "Donald is Vanessa's brother. <B>According to the given information, the relation between Vanessa and Donald is brother, which is a universally applicable term for a male sibling.</B>", "prediction": "brother"}

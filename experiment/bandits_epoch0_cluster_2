@@ -1,0 +1,8 @@
+{
+    "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?": 0.2857142857142857,
+    "Context: The relations on the path from Scott to Dwight are brother,father.\nQuestion: Dwight is Scott's what?": 0.14285714285714285,
+    "Context: The relations on the path from Dwight to Myrna are son,aunt.\nQuestion: Myrna is Dwight's what?": 0.14285714285714285,
+    "Context: The relations on the path from Dwight to Gabrielle are son,grandmother.\nQuestion: Gabrielle is Dwight's what?": 0.14285714285714285,
+    "Context: The relations on the path from Alma to Dwight are son,uncle.\nQuestion: Dwight is Alma's what?": 0.14285714285714285,
+    "Context: The relations on the path from Donna to Dwight are husband,father.\nQuestion: Dwight is Donna's what?": 0.14285714285714282
+}
