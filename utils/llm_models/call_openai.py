@@ -1,11 +1,13 @@
+import concurrent
+from concurrent.futures import as_completed
 from random import random
 from typing import Optional, List, Union
 import time
 import openai
 import tiktoken
 
-openai.api_base = "https://api.chatanywhere.com.cn"
-key_list = ["sk-0LsJe3iHrbu4HNOK01R7bDBloOlKdtHB92j8BuhS5uzrkM95"]
+openai.api_base = "https://api.chatanywhere.com.cn/v1"
+key_list = ["sk-z3z3xHLy1H8zfVl7TPz8pFuWbGayeINXJ9alEvp5fQ7O0FVO"]
 key_choose = 0
 
 encoding = tiktoken.get_encoding("cl100k_base")
@@ -30,7 +32,8 @@ def cnt_tokens(message):
     return cnt
 
 
-def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-0613", is_gpt3=False, **kwargs) -> str:
+def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-1106", is_gpt3=False, **kwargs) \
+        -> Union[str, List[str]]:
     """
     lbq
     List[str] GPT存在历史，str 不存在历史
@@ -38,12 +41,12 @@ def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-0613", i
     if 'topN' in kwargs:
         kwargs['n'] = kwargs.pop('topN')
 
-    max_supported_tokens = 8000 if model.startswith("gpt-4") else 4000
+    max_supported_tokens = 6000 if model.startswith("gpt-4") else 3000 # ≈3:4
 
-    if isinstance(input_text, list):
-        prompt = input_text[:max_supported_tokens]
+    if isinstance(input_text, str):
+        prompt = [{"role": "user", "content": " ".join(input_text.split(' ')[:max_supported_tokens])}]
     else:
-        prompt = [{"role": "user", "content": input_text[:max_supported_tokens]}]
+        prompt = input_text
 
 
     if 'max_length' in kwargs:
@@ -55,24 +58,60 @@ def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-0613", i
     global key_choose
     openai.api_key = key_list[key_choose]
 
-    while True:
+    try_call = 10
+    while try_call:
+        try_call -= 1
+        start_time = time.time()
         try:
             if is_gpt3:
                 result = openai.Completion.create(
                     model=model,
                     prompt=prompt,
                     **kwargs)
-                return result['choices'][0]['text']
+                # print("time:", time.time() - start_time)
+                if len(result.choices) == 1:
+                    return result.choices[0].text.strip()
+                else:
+                    return [c.text.strip() for c in result.choices]
+
             else:
                 completion = openai.ChatCompletion.create(
                     model=model,
                     messages=prompt,
                     **kwargs
                 )
+                # print("time:", time.time() - start_time)
 
-                return completion.choices[0].message['content'].strip()
+                if len(completion.choices) == 1:
+                    return completion.choices[0].message['content'].strip()
+                else:
+                    return [c.message['content'].strip() for c in completion.choices]
 
         except Exception as e:
-            print(e)
             time.sleep(20 + 10 * random())
             key_choose = (key_choose + 1) % len(key_list)
+
+    if 'n' in kwargs and kwargs['n'] == 1:
+        return ''
+    else:
+        return []
+
+if __name__ == '__main__':
+    prompt = \
+'''Context: The relations on the path from Michael to Alfred are brother, son.
+Question: Alfred is Michael's what?
+Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually before you draw every conclusion.'''
+
+#     prompt = \
+#     """Context: Florence and her husband Norman went to go ice skating with their daughter Marilyn. Marilyn's sister Janet could not go because she has a broken leg. Kecia went to the store with her sister Florence Chris loved going to the store with his mom Florence. She always bought him snacks Chris likes to visit his sister. Her name is Janet.
+# Question: Kecia is Norman's what?
+# Answer: Let's think step byx step. If you use some rules in the reasoning process, please write them with "<rule>xxx<rule>" format individually."""
+
+    print(prompt)
+    num_worker = 5
+    with concurrent.futures.ThreadPoolExecutor(max_workers=num_worker) as executor:
+        sub_response = [executor.submit(call_openai, prompt, model="gpt-4-1106-preview") for _ in range(num_worker)]
+
+        for r in as_completed(sub_response):
+            print(r.result())
+    # print(call_openai(prompt, model="gpt-4"))

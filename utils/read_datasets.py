@@ -1,7 +1,9 @@
 import os
-from typing import List
+from typing import List, Union
 
-from utils.read_funcs.CLUTRR import read_CLUTRR
+from utils.ExtraNameSpace import DatasetsReaderNameSpace
+import utils.read_funcs
+from utils.others import move_file_to_jsonl
 from utils.data import Example, DatasetLoader
 from operator import itemgetter
 
@@ -10,27 +12,38 @@ from operator import itemgetter
 最终使用的数据集，将被单独保存为train_preprocessed.jsonl, dev_preprocessed.jsonl, test_preprocessed.jsonl
 """
 
-read_func_mapping = {'CLUTRR': read_CLUTRR}
 
 # 加一个去重
 
-def read_preprocessed_data(path) -> List[dict]:
-    with open(path, 'r') as f:
+
+@DatasetsReaderNameSpace.register("Example")
+def read_func():
+    pass
+
+def read_preprocessed_data(path) -> List[dict]:     # 读取预处理
+    with open(path, 'r', encoding="GB18030") as f:
         data = [line.strip() for line in f.readlines()]
 
     data = list(set(data))
+
+    with open(path, 'w', encoding="GB18030") as f:
+        for sample in data:
+            f.write(sample + '\n')
+
     data = [eval(sample) for sample in data]
     return data
 
 
-def save_preprocessed_data(data, path):
+def save_preprocessed_data(data, path):    # 保存预处理
     dir_path = "/".join(path.split("/")[:-1])
     if not os.path.exists(dir_path):
         os.mkdir(dir_path)
 
-    with open(path, 'w') as f:
+    data = list(set([str(sample) for sample in data]))
+
+    with open(path, 'w', encoding="GB18030") as f:
         for sample in data:
-            f.write(str(sample) + '\n')
+            f.write(sample + '\n')
 
 
 def adjust_dataset_format(**kwags):
@@ -43,7 +56,7 @@ def adjust_dataset_format(**kwags):
     return kwags
 
 
-def duplicate_removal(dataset: DatasetLoader) -> DatasetLoader:
+def duplicate_removal(dataset: Union[List, DatasetLoader]) -> DatasetLoader:
     """
     对train, dev, test的读入进行去除，rationale的可以全保留
     """
@@ -55,12 +68,14 @@ def duplicate_removal(dataset: DatasetLoader) -> DatasetLoader:
             new_dataset.append(sample)
 
     return DatasetLoader(new_dataset)
- 
+
+
 def duplicate_removal_multi(**kwargs):
     for key, value in kwargs.items():
         if value:
             kwargs[key] = duplicate_removal(value)
     return kwargs
+
 
 def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
     data_dir = args.data_dir
@@ -70,16 +85,7 @@ def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
     test_path = os.path.join(data_dir, 'preprocessed_data/test_preprocessed.jsonl')
     valid_path = os.path.join(data_dir, 'preprocessed_data/valid_preprocessed.jsonl')
 
-    if os.path.exists(train_path) and os.path.exists(test_path):
-        train_dataset = read_preprocessed_data(train_path)
-        test_dataset = read_preprocessed_data(test_path)
-        if os.path.exists(valid_path):
-            valid_dataset = read_preprocessed_data(valid_path)
-        else:
-            valid_dataset = None
-
-    else:
-        read_func = read_func_mapping[args.dataset]
+    if not os.path.exists(train_path) or not os.path.exists(test_path):
         train_dataset, valid_dataset, test_dataset = read_func(data_dir)
 
         save_preprocessed_data(train_dataset, train_path)
@@ -87,10 +93,12 @@ def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
         if valid_dataset:
             save_preprocessed_data(valid_dataset, valid_path)
 
-    train_dataset, valid_dataset, test_dataset = \
-        itemgetter('train', 'valid', 'test')(duplicate_removal_multi(train=train_dataset,
-                                                                     valid=valid_dataset,
-                                                                     test=test_dataset))
+    train_dataset = read_preprocessed_data(train_path)
+    test_dataset = read_preprocessed_data(test_path)
+    if os.path.exists(valid_path):
+        valid_dataset = read_preprocessed_data(valid_path)
+    else:
+        valid_dataset = None
 
     train_dataset, valid_dataset, test_dataset = \
         itemgetter('train', 'valid', 'test')(adjust_dataset_format(train=train_dataset,
@@ -101,15 +109,13 @@ def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
 
 
 def read_rationales(args, **kwargs):
-    address_mapping = {}
-
-    for key, value in kwargs.items():
-        print(key)
-        if value:
-            for sample in value:
-                address_mapping[(sample.question.strip(), sample.gold_label.strip())] = sample
-
+    """
+    读取rationale，将其加入到对应的数据集中
+    """
     rationale_path = args.rationale_dir
+
+    move_file_to_jsonl(save_dir=os.path.join(args.data_dir, "rationale/parallel"),
+                       save_path=rationale_path)
 
     if os.path.exists(rationale_path):
         rationale_dataset = read_preprocessed_data(rationale_path)
@@ -120,14 +126,15 @@ def read_rationales(args, **kwargs):
             existed_sample.update(sample)
         """
         for sample in rationale_dataset:
-            key = (sample['question'].strip(), sample['gold_label'].strip())
-            if key in address_mapping:
-                existed_sample = address_mapping[key] # 有两类命名不统一，之后都得改改
-                # 1个是gold_ans和gold_label，另一个是answer和prediction
-
-                # if sample['prediction'] != existed_sample.rationale.prediction: #sample这个prediction还需要清洗
-                #或者用existed_sample.rationale.prediction in sample['prediction']
-                existed_sample.update(sample)
-
+            e = Example(**sample)
+            key = (e.question, e.gold_label)
+            for _, value in kwargs.items():
+                if value:
+                    existed_sample = value.find(key, None)
+                    # 有两类命名不统一，之后都得改改
+                    # 1个是gold_ans和gold_label，另一个是answer和prediction
+                    if existed_sample:
+                        existed_sample.update(sample, args) #update(e)应该更好
+                    break
 
     return itemgetter('train_dataset', 'valid_dataset', 'test_dataset')(kwargs)

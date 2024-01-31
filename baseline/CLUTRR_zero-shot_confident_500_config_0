@@ -1,0 +1,122 @@
+Namespace(data_dir='../data/CLUTRR', dataset='CLUTRR', prompt_type='zero-shot', rule_base_path='../experiment/rule_base_final', sample_strategy='confident_500')max_confident_num: 500
+rule_base:
+Grandparents have grandchildren.
+In most cases, a person's grandmother is the mother of one of their parents.
+Maternal grandmother is the mother of one's mother.
+Grandchildren are the children of one's children.
+Children of one's children are their grandchildren.
+Brother is a male sibling
+The child of one's child is their grandchild.
+Children of siblings are cousins to each other
+The child of my child is my grandchild.
+Grandparents' children are parents of their grandchildren
+In most cases, a father's father is a grandfather.
+Mothers have children
+Knowledge base (involved rules):
+In general, a father is the male parent of one's parent.
+Jason is Guillermina's grandfather.
+Parents have children
+Jason is the grandfather of Donald.
+Fathers often enjoy spending time with their children.
+Lisa is Scott's mother.
+Asia is Gabrielle's granddaughter.
+Marriage creates a relationship between the spouses and their respective families.
+Alma is Lucille's aunt.
+Family relationships are typically based on biological or legal connections.
+Jason is a grandparent to Scott.
+Family relationship: Mother and son
+Family members with the same parents are siblings
+Relationships are determined by blood or marriage.
+parent's mother is a grandparent
+Jason is Joe's grandfather.
+In general, a person's mother is their biological parent.
+Jason is Aida's grandfather.
+Jason is Lucille's grandfather.
+siblings of a parent are aunts or uncles to their sibling's children
+Mothers call their children to come upstairs.
+Lucille is Myrna's daughter.
+In a family, siblings share the same parents.
+Children have children, who are their grandchildren.
+Michael is the sibling of Guillermina's parent, making him her uncle.
+Family members share the same parents or one parent.
+Daughter's child is Jason's grandchild
+Jason is a common male name, typically belonging to an older generation.</rule>
+In general, a sibling of a person's parent is their uncle or aunt.
+Grandparents are older than their grandchildren.
+Myrna is the mother of Lucille and Guillermina.
+Father-son relationship
+In general, a person's father's father is their grandfather.
+Family relationship
+Parent's child is the grandparent of their child's child.
+Family relationships are determined by biological or legal connections.
+Parents have children.
+father's father is the grandfather
+Brother's son is nephew
+Parents are the biological or legal guardians of their children.
+Grand marshal is often an honorary title given to a respected person in a parade or event.
+In general, a person's mother is the parent who gave birth to them.
+Spouse's father is the father-in-law
+Nephews are the sons of one's siblings.
+Christopher is the father of Guillermina, who is married to William, making Christopher William's father-in-law.
+Brother's child is niece or nephew
+Alma is the mother of Donald and Jennifer.
+Sibling relationship
+Children who share the same parent are siblings.
+Mother's mother is the child's grandmother.
+mother-son relationship
+Jason is the father of Michael, who is Alma's husband.
+In general, a child's daughter's child is their grandchild.
+xxx
+parent's child is the grandparent of their child's child
+Your child's uncle is either your brother or your spouse's brother.
+Siblings are individuals who share at least one parent
+Brother of Myrna is Jose's uncle
+A sibling's child is called a niece or nephew.
+In general, a brother and sister have the same parents.
+Grandparents are the parents of one's parents
+Children are the offspring of their parents.
+Fathers have the authority to make decisions for their children
+Jason is Lisa's father.
+Family relationship rule
+Grandson is the son of one's child.
+Grandparents have grandchildren
+Your child's uncle is either your brother or your spouse's brother
+Family members with the same parents are siblings.
+Robert is married to Jennifer, who is Michael's daughter. Therefore, Robert is Michael's son-in-law.
+Michael is the sibling of Guillermina's parent, making him her uncle
+Marriage creates a relationship of son-in-law.
+Children's children are their grandchildren
+Parents have the authority to discipline their children.
+Children are typically taken to school by their parents or guardians.
+Brothers' children are your nieces or nephews
+Brothers' children are your nieces or nephews.
+Fathers are male parents.
+In general, a mother is a female parent.
+Male grandparents are called grandfathers.
+Marriage creates the relationship of son-in-law
+Grandparents' children are parents of their grandchildren.
+Children's grandparents are their parents' parents
+Siblings share at least one parent.
+Parents of one's parents are called grandparents.
+If Person A is the parent of Person B, and Person B is a sibling of Person C, then Person A is the parent of Person C.
+In general, a grandfather is the father of one's parent.
+Children of the same parent are siblings
+In general, a mother has a child.
+A person's mother is their biological parent.
+If Person A is the parent of Person B, and Person B is the spouse of Person C, then Person A is the parent-in-law of Person C.
+Marriage creates the relationship of son-in-law.
+A person's child's spouse is their child's parent-in-law.
+Aida's mother Dorothy is Myrna's sister.
+Grandparents are the parents of one's parents.
+Marriage creates a relationship between the spouses and their families
+Children of the same parent are siblings.
+Siblings of a parent are aunts or uncles to their sibling's children.
+Marriage creates a relationship between the spouses and their families.
+The child of one's sibling is one's niece or nephew.
+Children of the same parents are siblings to each other.
+Siblings of a parent are aunts or uncles to their sibling's children
+Children of the same parents are siblings
+Siblings share the same parents.
+Children of siblings are cousins to each other.
+Children of the same parents are siblings.
+Siblings are individuals who share at least one parent.

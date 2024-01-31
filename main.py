@@ -4,13 +4,14 @@ from RuleFinetune.RuleTrainer import Trainer
 from utils.llm import LLM, generate_func_mapping
 from utils.read_datasets import read_datasets, read_rationales
 import argparse
+from utils.ExtraNameSpace import NameSpace
 
 
 def args_parse():
     parser = argparse.ArgumentParser(description="Rule-Finetune")
 
     parser.add_argument("--dataset", type=str, default="CLUTRR",
-                        choices=["default", "CLUTRR"],  # default包含一个通用的默认格式输入，暂时先不写
+                        choices=["default", "CLUTRR", "STS-B", "LANG-8"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 
     parser.add_argument("--data_dir", type=str, default=None,
@@ -32,30 +33,52 @@ def args_parse():
     parser.add_argument("--multi_thread", type=bool, default=False,
                         help="whether to use multi-thread to accelerate")
 
-    parser.add_argument("--epoch", type=int, default=10,
+    parser.add_argument("--epoch", type=int, default=3,
                         help="epoch used for experiment")
 
     parser.add_argument("--topN", type=int, default=1,
                         help="output topN results in every call LLM.generate")
+
+    parser.add_argument("--train", type=bool, default=True,
+                        help="whether to train")
+
+    parser.add_argument("--eval", type=bool, default=False,
+                        help="whether to eval")
+
+    parser.add_argument("--test", type=bool, default=False,
+                        help="whether to test")
 
     parser.add_argument(
         "--debug", type=bool, default=True, help="debug mode")  # 这个参数源于autoCoT
 
     parser.add_argument("--random_seed", type=int, default=192, help="random seed")  # 这个参数源于autoCoT
 
-    parser.add_argument("--num_clusters", type=int, default=10,
+    parser.add_argument("--num_clusters", type=int, default=5,
                         help="the number of clusters for questions")
+
+    parser.add_argument(
+        "--encoder", type=str, default="all-MiniLM-L6-v2", help="which sentence-transformer encoder for clustering"
+    ) #源自autoCoT
+
+    parser.add_argument(
+        "--demo_save_dir", type=str, default='demosave', help="save dir for demo examples"
+    ) #源自autoCoT
 
     args = parser.parse_args()
 
-    args.cot_trigger = '''A: Let's solve this problem by splitting it into steps, every step should be given by 
-                       following format:\n''' \
-                       '''Step n:\n''' \
-                       '''Rule (Including commonsense knowledge rules): xxx(Should be concise, and give it directly)\n''' \
-                       '''Premises: xxx(as the antecedent of the rule)\n''' \
-                       '''Conclusion: xxx(only one conclusion)'''
+    args.cot_trigger = '''Answer: Let's think step by step. '''\
+'''If you use some knowledge in the reasoning process, please only surround the content of knowledge with tag <B>xxx<E> concisely and write it down individually. '''\
+'''Note that these knowledge should be universally applicable, including objective truth, laws of nature, universal rules and so on.'''
+#true in universal, general and concise.'''
 
-    args.direct_answer_trigger_for_zeroshot_cot = "The answer is"
+    pred_trigger = {"CLUTRR": "The correct answer is",
+                    "LANG-8": "The revised grammatically correct sentence is"}
+
+    args.pred_trigger = pred_trigger[args.dataset]
+
+    args.direct_answer_trigger_for_zeroshot_cot = args.pred_trigger
+
+    NameSpace._args = args
 
     return args
 
@@ -71,12 +94,18 @@ def main():
     """
 
     args = args_parse()
+    if not args.data_dir:
+        args.data_dir = f"./data/{args.dataset}"
 
     # 1. 读取数据集
     train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
-    if os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl"):
-        args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
+    if args.multi_thread:
+        if os.path.exists(os.path.join(args.data_dir, "rationale/ZeroShotCoTParallel.jsonl")):
+            args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoTParallel.jsonl")
+    else:
+        if os.path.exists(os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")):
+            args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
 
     if args.rationale_dir:
         train_dataset, valid_dataset, test_dataset = read_rationales(args,
@@ -90,13 +119,23 @@ def main():
     llm_model = LLM(generate_func)
 
     cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model) #topN是个小问题
-    cur_Trainer.cold_start()  # 存Answer的时候就clean一下
+
+    if args.train:    # 需要cold start的时候运行
+        cur_Trainer.cold_start()  # 存Answer的时候就clean一下
 
     # 2.3 进行训练
-    cur_Trainer.train()
+    if args.train:
+        cur_Trainer.train()
 
-    # 3. 评估
-    cur_Trainer.eval()
+    # # 3. 评估
+
+    # if args.eval:
+    #     cur_Trainer.eval()
+    #     cur_Trainer.evaluate(is_valid=True)
+    #
+    # if args.test:
+    #     cur_Trainer.eval()
+    #     cur_Trainer.evaluate(is_valid=False)
 
 
 if __name__ == '__main__':
@@ -111,3 +150,20 @@ if __name__ == '__main__':
     --llm_model
     gpt-3.5-turbo
     """
+    # data_dir = r"D:\DATA\lbq\git\Rule_Finetune\data\CLUTRR"
+    # if not os.path.exists(os.path.join(data_dir, "rationale/ZeroShotCoTParallel.jsonl")):
+    #     with open(os.path.join(data_dir, "rationale/ZeroShotCoTParallel.jsonl"), 'w') as f:
+    #         pass
+    #
+    # save_dir = os.path.join(data_dir, "rationale/parallel")
+    #
+    # for file in os.listdir(save_dir):
+    #     path = os.path.join(save_dir, file)
+    #     with open(path, 'r') as f:
+    #         lines = f.readlines()
+    #         with open(os.path.join(data_dir, "rationale/ZeroShotCoTParallel.jsonl"), 'a') as f:
+    #             for line in lines:
+    #                 if line.strip():
+    #                     f.write(line)
+    #
+    #     os.remove(path)
