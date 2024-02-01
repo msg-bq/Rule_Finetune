@@ -68,8 +68,8 @@ def args_parse():
     args = parser.parse_args()
 
     args.cot_trigger = '''Answer: Let's think step by step. First rationale then answer.'''\
-                   '''If you use any prior knowledge or rules during the inference, write them in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
-                   '''Note that these knowledge should be true in general and concise. '''
+                   '''If you use any prior knowledge or rule during the inference, write them briefly in "<Begin>xxx</End>" format. Only do this if you find them. ''' \
+                   '''Note that these rules should be true in general. '''
     # '''Answer: Let's think step by step. First rationale then answer.'''\
     #                '''If you use any rules during the inference, write rules in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
     #                '''Note that these rules should be true in general and concise. '''

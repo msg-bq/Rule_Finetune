@@ -33,7 +33,7 @@
 {'content': "Son-in-law is the husband of someone's daughter.", 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
 {'content': 'The relation "sister" indicates that two individuals share the same parents.', 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
 {'content': "Relation: granddaughter is the daughter of one's son or daughter", 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
-{'content': 'Relations: Brother is a sibling relation, daughter is a parent-child relation.', 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
+{'content': 'Relations: BroMichael is Lisa's son's uther is a sibling relation, daughter is a parent-child relation.', 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
 {'content': "Relation: Brother's grandmother is also grandmother", 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
 {'content': 'The relation "grandfather" is one generation above "father" and "brother"', 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
 {'content': 'In general, if two people are on the same path, they are related.', 'confidence': 1.0, 'success_used': 0, 'success_unused': 0, 'failure_used': 0, 'failure_unused': 0, 'source_questions': {'C'}}
