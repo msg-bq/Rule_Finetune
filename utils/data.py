@@ -13,6 +13,7 @@ import random
 from sentence_transformers import SentenceTransformer
 
 from utils.ExtraNameSpace import PredictionCleanNameSpace, RuleExtractionNameSpace
+import utils.extract_rule
 
 
 class Rule:
@@ -351,6 +352,7 @@ class Rationale:    # 修正到只有两个属性
         self.prediction = self.clean_prediction(prediction)
         self.rules = set()
 
+    @RuleExtractionNameSpace.register("Example")
     def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
         """
         从dataset中抽取出rules
