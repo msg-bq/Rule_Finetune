@@ -1,19 +1,17 @@
-from utils.ExtraNameSpace import ColdStartScoreNameSpace
+from utils.ExtraNameSpace import ScoreNameSpace
 
 
-@ColdStartScoreNameSpace.register("Default")
+@ScoreNameSpace.register("Default")
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     """
-    用于在cold_start阶段判断是否应当保留prediction对应的rationale
+    用于判断是否应当保留prediction对应的rationale
     """
     return prediction.strip() == gold_label.strip()
 
 
-@ColdStartScoreNameSpace.register("LANG_8")
+@ScoreNameSpace.register("LANG_8")
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     cleaned_pred = prediction.strip().replace(' ', '').lower()
     cleaned_gold = gold_label.strip().replace(' ', '').lower()
-    if cleaned_gold in cleaned_pred:
-        return True
 
-    return False
+    return cleaned_gold in cleaned_pred

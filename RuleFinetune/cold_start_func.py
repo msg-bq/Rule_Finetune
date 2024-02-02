@@ -8,12 +8,12 @@ import json
 from utils.data import DatasetLoader, Example, Rationale
 from utils.llm import LLM
 from utils.others import move_file_to_jsonl
-from utils.ExtraNameSpace import ColdStartScoreNameSpace
+from utils.ExtraNameSpace import ScoreNameSpace
 import utils.clean_prediction_func
 import utils.score
 
 
-@ColdStartScoreNameSpace.register("Example")
+@ScoreNameSpace.register("Example")
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     pass
 

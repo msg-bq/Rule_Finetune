@@ -75,7 +75,7 @@ class DatasetsReaderNameSpace(NameSpace):
 class PredictionCleanNameSpace(NameSpace):
     pass
 
-class ColdStartScoreNameSpace(NameSpace):
+class ScoreNameSpace(NameSpace):
     pass
 
 class RuleExtractionNameSpace(NameSpace):

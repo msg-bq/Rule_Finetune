@@ -4,6 +4,8 @@ import re
 from typing import List, Dict, Union, Tuple
 
 import numpy as np
+
+from utils.ExtraNameSpace import ScoreNameSpace
 # import torch
 
 from utils.data import DatasetLoader, Rule, Rationale
@@ -145,6 +147,10 @@ class ThompsonSampling(DemoBaseMAB):
 
         return k, demos
 
+@ScoreNameSpace.register("Example")
+def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
+    pass
+
 def demo_cluster(args, dataset: DatasetLoader):
     encoder = SentenceTransformer(args.encoder)
     # encoder = SentenceTransformer(generate_func_mapping[args.llm_model])
@@ -222,7 +228,7 @@ def demo_cluster(args, dataset: DatasetLoader):
             c_rationale = rationales[clustered_idx[i][min_idx]].strip()
             c_gold_ans = Rationale.clean_prediction(gold_labels[clustered_idx[i][min_idx]])
             c_pred_ans = predictions[clustered_idx[i][min_idx]].strip()
-            if c_gold_ans.strip().lower() != c_pred_ans.strip().lower():
+            if not is_high_quality_prediction(c_pred_ans, c_gold_ans):
                 continue
 
             if len(questions[clustered_idx[i][min_idx]].strip().split()) <= 300 and \
