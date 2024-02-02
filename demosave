@@ -1,197 +1,87 @@
 {
     "cluster_0": [
         {
-            "question": "Context: The relations on the path from Gabrielle to Jose are son,son.\nQuestion: Jose is Gabrielle's what?",
-            "rationale": "Jose is Gabrielle's grandson.",
+            "question": "Context: The relations on the path from Gabrielle to Dan are son,son.\nQuestion: Dan is Gabrielle's what?",
+            "rationale": "First, we know that the relation \"son\" indicates a parent-child relationship. So, if the path from Gabrielle to Dan includes two \"son\" relations, it means that Gabrielle is the mother of Dan. <Begin> Inheritance rule: In most cultures, the \"son\" relation indicates a male child's parentage, so if there are two \"son\" relations in the path, it likely means Gabrielle is the mother of Dan. </End> Answer: Dan is Gabrielle's son.",
             "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Dan are husband,grandson.\nQuestion: Dan is Gabrielle's what?",
-            "rationale": "Dan is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Angela are husband,granddaughter.\nQuestion: Angela is Gabrielle's what?",
-            "rationale": "Angela is Gabrielle's granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to David are husband,grandson.\nQuestion: David is Gabrielle's what?",
-            "rationale": "David is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Lucille are husband,granddaughter.\nQuestion: Lucille is Gabrielle's what?",
-            "rationale": "Lucille is Gabrielle's granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Donald are son,son.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "Donald is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Aida are daughter,daughter.\nQuestion: Aida is Gabrielle's what?",
-            "rationale": "Aida is Gabrielle's granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Jose's what?",
-            "rationale": "Gabrielle is Jose's sister, and Jose's grandmother.",
-            "gold_label": "grandmother"
         },
         {
             "question": "Context: The relations on the path from Gabrielle to Donald are husband,grandson.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "Donald is Gabrielle's grandson.",
+            "rationale": "First, we know that Donald is Gabrielle's husband. Then, we also know that Donald is the grandson. So, Donald is Gabrielle's husband and grandson. <Begin> In general, a person can have multiple relationships with another person, such as being both a husband and a grandson. </End> Therefore, Donald is Gabrielle's husband and grandson.",
             "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Donald's what?",
-            "rationale": "Gabrielle is Donald's sister, and she is also his grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Russell are son,son.\nQuestion: Russell is Gabrielle's what?",
-            "rationale": "Russell is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Asia are husband,granddaughter.\nQuestion: Asia is Gabrielle's what?",
-            "rationale": "Asia is Gabrielle's granddaughter.",
-            "gold_label": "granddaughter"
         }
     ],
     "cluster_1": [
         {
-            "question": "Context: The relations on the path from Jason to Michelle are granddaughter,sister.\nQuestion: Michelle is Jason's what?",
-            "rationale": "Michelle is Jason's sister.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Jose are wife,grandson.\nQuestion: Jose is Jason's what?",
-            "rationale": "Jose is Jason's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Michelle are wife,granddaughter.\nQuestion: Michelle is Jason's what?",
-            "rationale": "Michelle is Jason's granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
             "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
-            "rationale": "Lucille is Jason's granddaughter.",
+            "rationale": "First, Lucille is Jason's wife. Then, Lucille is also Jason's granddaughter. So, Lucille is Jason's wife and granddaughter. <Begin> Transitive property of relations </End> Therefore, Lucille is Jason's wife and granddaughter.",
             "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Vincent are wife,grandson.\nQuestion: Vincent is Jason's what?",
-            "rationale": "Vincent is Jason's grandson, based on the given information.",
-            "gold_label": "grandson"
         },
         {
             "question": "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?",
-            "rationale": "Jason is Russell's brother and grandfather, which means that Jason is both a sibling and an ancestor to Russell.",
+            "rationale": "Russell's brother is Jason, and Russell's grandfather is also Jason. Therefore, Jason is Russell's brother and grandfather. <Begin>Transitive property of relations</End> So, Jason is Russell's brother and grandfather.",
             "gold_label": "grandfather"
         },
         {
-            "question": "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?",
-            "rationale": "Guillermina is Jason's granddaughter.",
-            "gold_label": "granddaughter"
+            "question": "Context: The relations on the path from Aida to Jason are brother,grandfather.\nQuestion: Jason is Aida's what?",
+            "rationale": "First, Aida's brother is Jason, so Jason is Aida's brother. Second, Aida's grandfather is also Jason, so Jason is Aida's grandfather. <Begin> In general, a brother is a male sibling and a grandfather is the father of one's parent. </End> So, Jason is Aida's brother and grandfather.",
+            "gold_label": "grandfather"
         }
     ],
     "cluster_2": [
         {
-            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
-            "rationale": "Dwight is Lewis's father.",
-            "gold_label": "father"
+            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
+            "rationale": "First, we know that Alma is Jennifer's mother. Then, we also know that Alma is Jennifer's brother. This means Alma is Jennifer's mother and brother. Answer: Alma is Jennifer's mother and brother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Dorothy to Lisa are daughter,aunt.\nQuestion: Lisa is Dorothy's what?",
+            "rationale": "Lisa is Dorothy's daughter's aunt. <Begin> In general, a person's daughter's aunt is their sister. </End> So, Lisa is Dorothy's sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Dorothy to Scott are sister,son.\nQuestion: Scott is Dorothy's what?",
+            "rationale": "First, Dorothy's son is Scott, so Scott is Dorothy's son. Then, Dorothy's sister is also related to Scott, so Scott is Dorothy's nephew. <Begin> In general, a person's son is their child, and a person's sister's child is their nephew. </End> So, Scott is Dorothy's son and nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
+            "rationale": "Sheila is Lisa's son's wife. <Begin> Inference: In most cultures, a son's wife is referred to as a daughter-in-law. </End> So, Sheila is Lisa's daughter-in-law.",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
+            "rationale": "Michelle is Aida's sister. <Begin> According to the given information, the relations on the path from Aida to Michelle are brother, sister. In a sibling relationship, if one person is the sister, the other person is the brother or sister. </End> Therefore, Michelle is Aida's sister.",
+            "gold_label": "sister"
         }
     ],
     "cluster_3": [
         {
-            "question": "Context: The relations on the path from Michael to Joe are sister,son.\nQuestion: Joe is Michael's what?",
-            "rationale": "Joe is Michael's sister's son.",
-            "gold_label": "nephew"
+            "question": "Context: The relations on the path from Gabrielle to Dan are son,son.\nQuestion: Dan is Gabrielle's what?",
+            "rationale": "First, we know that the relation \"son\" indicates a parent-child relationship. So, if the path from Gabrielle to Dan includes two \"son\" relations, it means that Gabrielle is the mother of Dan. <Begin> Inheritance rule: In most cultures, the \"son\" relation indicates a male child's parentage, so if there are two \"son\" relations in the path, it likely means Gabrielle is the mother of Dan. </End> Answer: Dan is Gabrielle's son.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Context: The relations on the path from Michael to Robert are daughter,husband.\nQuestion: Robert is Michael's what?",
-            "rationale": "Robert is Michael's son-in-law.",
-            "gold_label": "son-in-law"
+            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
+            "rationale": "First, Lucille is Jason's wife. Then, Lucille is also Jason's granddaughter. So, Lucille is Jason's wife and granddaughter. <Begin> Transitive property of relations </End> Therefore, Lucille is Jason's wife and granddaughter.",
+            "gold_label": "granddaughter"
         },
         {
-            "question": "Context: The relations on the path from Lucille to Christopher are sister,father.\nQuestion: Christopher is Lucille's what?",
-            "rationale": "Christopher is Lucille's brother.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Christopher are sister,father.\nQuestion: Christopher is Jose's what?",
-            "rationale": "Christopher is Jose's brother.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Dan to Dorothy are sister,mother.\nQuestion: Dorothy is Dan's what?",
-            "rationale": "Dorothy is Dan's mother. <B>Mother is a relation that typically exists between a person and their offspring. In most cases, a mother is a female parent who has given birth to or raised a child.</B> In this context, the given relations indicate that Dorothy is related to Dan as both a sister and a mother, so she must be his mother.",
+            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
+            "rationale": "First, we know that Alma is Jennifer's mother. Then, we also know that Alma is Jennifer's brother. This means Alma is Jennifer's mother and brother. Answer: Alma is Jennifer's mother and brother.",
             "gold_label": "mother"
         },
         {
-            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
-            "rationale": "Sheila is Lisa's daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Russell are brother,son.\nQuestion: Russell is Dorothy's what?",
-            "rationale": "Russell is Dorothy's nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Vanessa are brother,sister.\nQuestion: Vanessa is Jennifer's what?",
-            "rationale": "Vanessa is Jennifer's sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Donald are sister,brother.\nQuestion: Donald is Jennifer's what?",
-            "rationale": "Donald is Jennifer's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Christopher's what?",
-            "rationale": "Jeffrey is Christopher's son-in-law.",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Lewis are brother,brother.\nQuestion: Lewis is Joe's what?",
-            "rationale": "Lewis is Joe's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
-            "rationale": "Michelle is Aida's sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Jennifer are sister,sister.\nQuestion: Jennifer is Donald's what?",
-            "rationale": "Jennifer is Donald's sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Vanessa are son,wife.\nQuestion: Vanessa is Alma's what?",
-            "rationale": "Vanessa is Alma's daughter-in-law.",
-            "gold_label": "daughter-in-law"
+            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
+            "rationale": "Dwight is Lewis's brother's father. <Begin> In general, a brother's father is also a father. </End> So, Dwight is Lewis's father.",
+            "gold_label": "father"
         }
     ],
     "cluster_4": [
         {
-            "question": "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?",
-            "rationale": "Angela is Myrna's daughter.",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?",
-            "rationale": "Myrna is Jose's sister and mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Myrna's what?",
-            "rationale": "Jeffrey is Myrna's son-in-law.",
-            "gold_label": "son-in-law"
+            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
+            "rationale": "Dwight is Lewis's brother's father. <Begin> In general, a brother's father is also a father. </End> So, Dwight is Lewis's father.",
+            "gold_label": "father"
         }
     ]
 }
