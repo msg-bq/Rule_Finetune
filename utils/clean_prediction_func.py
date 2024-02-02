@@ -22,7 +22,7 @@ def clean_prediction(self, prediction: str) -> str:
 
         return pred_words[0].strip()
 
-    tags = ['<B>', '<E>', '<rule>', '<retrieved_rule>', '<new_rule>']
+    tags = ['<Begin>', '</End>', '<rule>', '<retrieved_rule>', '<new_rule>']
     for tag in tags:
         if tag in prediction:
             return clean_prediction(self, prediction.split(tag)[0])

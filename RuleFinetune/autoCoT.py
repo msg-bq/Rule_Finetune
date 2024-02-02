@@ -362,46 +362,6 @@ def llm_n_shot_CoT(llm, added_rules: str, input_text: str, demos: str, **kwargs)
                   '''<retrieved_rule>tag and add the new rules into knowledge base by <new_rule> <new_rule> tag.
                   Examples: \n'''
 
-#     demos = """Context: Donald wanted to go visit his grandfather Jason. His dad Michael said okay and drove him to over to Jason house.
-# Question: Jason is Michael's what?
-# Answer: <retrieved_rule> Children's grandparents are their parents' parents <retrieved_rule> Given the context, Donald is visiting his grandfather Jason. Michael, Donald's father, is driving him there. According to the rule, if Jason is Donald's grandfather, then Jason must be Michael's father. Therefore, Jason is Michael's father. The answer is father.
-#
-# Context: Michael is taking his son Donald out for coffee. Donald invited his uncle Christopher to dinner
-# Question: Christopher is Michael's what?
-# Answer: <new_rule> Brothers' children are your nieces or nephews. <new_rule> <new_rule> Your child's uncle is either your brother or your spouse's brother. <new_rule> Given the context: Michael is taking his son Donald out for coffee, and Donald invited his uncle Christopher to dinner. Applying the rules: Since Christopher is Donald's uncle, we apply the second rule: Your child's uncle is either your brother or your spouse's brother. Since the relationship is through Michael's son, we can infer that Christopher is Michael's brother. Therefore, Christopher is Michael's brother. The answer is brother.
-#
-# Context: Christopher went out for pizza with his daughter Lucille and his brother Dwight.
-# Question: Lucille is Dwight's what?
-# Answer: <retrieved_rule> Children of siblings are cousins to each other. <retrieved_rule> <retrieved_rule> Siblings are individuals who share at least one parent. <retrieved_rule> <retrieved_rule> The child of one's sibling is one's niece or nephew. <retrieved_rule> Given the context: 1. Christopher is the father of Lucille. 2. Dwight is the brother of Christopher. Applying the rules: - Since Dwight is Christopher's brother, they are siblings (Rule 2). - Lucille, being the daughter of Christopher, is the child of Dwight's sibling (Christopher). - Therefore, Lucille is Dwight's niece (Rule 3). The answer is niece.
-#
-# Context: Michael and his son Donald went to the store to by bread. Donald took his brother Russell out to get drinks after a long work week.
-# Question: Russell is Michael's what?
-# Answer: <retrieved_rule> Children of the same parents are siblings to each other. <retrieved_rule> <new_rule> If Person A is the parent of Person B, and Person B is a sibling of Person C, then Person A is the parent of Person C. <new_rule> From the context: 1. Donald is Michael's son. 2. Donald took his brother Russell out. Applying the rules: - Since Donald is Michael's son, and Russell is Donald's brother, we apply the first rule and acknowledge that Donald and Russell are siblings. - Applying the second rule, since Michael is the parent of Donald, and Donald is a sibling of Russell, it follows that Michael is also the parent of Russell. Answer: Russell is Michael's son. The answer is son.
-#
-# Context: Jason went bike riding his grandson Joe. Joe's father Dwight was skateboarding.
-# Question: Jason is Dwight's what?
-# Answer: <retrieved_rule> Parents of one's parents are called grandparents. <retrieved_rule> <new_rule> Fathers are male parents. <new_rule> Since Joe is Jason's grandson, Jason must be the grandparent of Joe. Given that Dwight is Joe's father and therefore a male parent, we can deduce that Jason is Dwight's father or mother. Since the question asks specifically about Jason, who is involved in an activity with his grandson, it is most likely that Jason is male (although the information provided does not explicitly state Jason's gender). Assuming Jason is male: <new_rule> Male grandparents are called grandfathers. <new_rule> Therefore, Jason is Dwight's father. To summarize: Jason (grandfather of Joe) --> Dwight's father. The answer is father."""
-
-    demos = """Context: Asia is a proud sibling of the amazing Donald. Donald has mixed feelings towards his mother, Alma.
-Question: Alma is Asia's what?
-Answer: <retrieved_rule> If Asia is a sibling of Donald, then Asia and Donald have at least one parent in common. <retrieved_rule> <new_rule> If Donald has mixed feelings towards his mother, Alma, then Alma is Donald's mother. <new_rule> <new_rule> If Alma is Donald's mother and Asia is Donald's sibling, then Alma is also Asia's mother, assuming no step relationships or adoptions are mentioned. <new_rule> Therefore, Alma is Asia's mother. The answer is mother.
-
-Context: Lewis and his brother Scott are fighting again. Lisa took her son Scott to school this morning because he missed the bus.
-Question: Lewis is Lisa's what?
-Answer: <retrieved_rule> Lisa is Scott's mother. <retrieved_rule> <retrieved_rule> Scott is Lewis's brother. <retrieved_rule> <new_rule> If two people are siblings, they share the same parents. <new_rule> <new_rule> Therefore, if Lisa is Scott's mother and Scott is Lewis's brother, then Lisa is Lewis's mother. <new_rule> Answer: Lewis is Lisa's son. The answer is son.
-
-Context: Jason's wife, Gabrielle, could not figure why Jason was coming home so late. It turned out Jason's grandson, Dan, had asked Jason to teach him how to drive.
-Question: Dan is Gabrielle's what?
-Answer: <new_rule> If Jason is Dan's grandfather, then Dan is the child of one of Jason's children. <new_rule> <retrieved_rule> If Gabrielle is Jason's wife, and assuming that the family structure follows typical naming conventions without any step-relatives or adoptions, Gabrielle would be Dan's grandmother. <retrieved_rule> Given these rules, Dan is Gabrielle's grandson. The answer is grandson.
-
-Context: Dorothy and her daughter Aida went out to dinner. Aida took her uncle Michael to the grocery store.
-Question: Michael is Dorothy's what?
-Answer: <new_rule> If Aida is Dorothy's daughter and Aida took her uncle Michael to the grocery store, then Michael is the brother of one of Aida's parents. <new_rule> <new_rule> Since Aida is Dorothy's daughter, if Michael is Aida's uncle, then Michael must be Dorothy's brother. <new_rule> Answer: Michael is Dorothy's brother. The answer is brother.
-
-Context: Dorothy was so proud of her daughter Aida for getting straight A's this semester. Dorothy and her father Jason went for a hike in the mountains.
-Question: Jason is Aida's what?
-Answer: <retrieved_rule> Dorothy's father is Aida's grandfather. <retrieved_rule> Given the context, Jason is Dorothy's father. Therefore, applying the rule, Jason is Aida's grandfather. The answer is grandfather."""
-
     input_text = added_rules + \
                  demo_prompt + demos + '\n' + \
                  'Then, please answer this question: \n' + input_text.strip() + "\nAnswer: "
@@ -435,10 +395,15 @@ def prompt_rules(rules: List[Rule]) -> str:
     # out += 'Endeavor to adhere to these rules when responding to queries in <retrieved_rule>xxx<retrieved_rule> format. '
     # out += 'However, if adherence is unfeasible, you are permitted to establish your own rules in <new_rule>xxx<new_rule> format. '
 
+    # out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
+    #       '''try to use the provided knowledge whenever possible in <retrieved_knowledge>xxx<retrieved_knowledge> format. ''' \
+    #       '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
+    #       '''establish your own rules in <new_knowledge>xxx<new_knowledge> format.\n'''
+
     out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
-          '''try to use the provided knowledge whenever possible in <retrieved_knowledge>xxx<retrieved_knowledge> format. ''' \
+          '''try to use the provided knowledge whenever possible in <retrieved_rule>xxx<retrieved_rule> format. ''' \
           '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
-          '''establish your own rules in <new_knowledge>xxx<new_knowledge> format.\n'''
+          '''establish your own rules in <new_rule>xxx<new_rule> format.\n'''
 
     out += 'Knowledge base:\n'
     out += '\n'.join([
@@ -454,7 +419,8 @@ def prompt_demos(args, demos: str, added_rules: str) -> Tuple[str, str]:
     assert args.train | args.test
     demos = demos.replace("<retrieved_rule>", "<rule>")
     demos = demos.replace("<new_rule>", "<rule>")
-    demos = demos.replace("<B>", "<rule>").replace("<E>", "<rule>")
+    demos = demos.replace("<Begin>", "<rule>").replace("</Begin>", "<rule>").replace("</End>", "<rule>").replace("<End>", "<rule>")
+
 
     rule_pattern = re.compile(r"<rule>(.+?)<rule>")
     rules = rule_pattern.findall(demos)
