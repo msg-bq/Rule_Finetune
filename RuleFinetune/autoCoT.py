@@ -1,6 +1,7 @@
 import json
 import itertools, operator, random
 import re
+import threading
 from typing import List, Dict, Union, Tuple
 
 import numpy as np
@@ -59,6 +60,8 @@ class DemoBaseMAB:
         self.regret = 0.  # 当前步的累积懊悔
         self.actions = []  # 维护一个列表,记录每一步的动作
         self.regrets = []  # 维护一个列表,记录每一步的累积懊悔
+
+        self.lock = threading.Lock()
 
     def add_demo(self, demo: Demo):
         self.bandit.demos.append(demo)
@@ -125,9 +128,9 @@ class ThompsonSampling(DemoBaseMAB):
 
     def forward_step(self, topk: int = 5) -> List[int]:
         # 为并行的不同步做妥协。等待的话就会出现多个限速环节（因为希望第t个训练集可能用到t-x轮更新后的参数）
-        min_length = min(len(self._a), len(self._b), len(self.bandit.probs))
-        used_a = self._a[:min_length]
-        used_b = self._b[:min_length]
+        # min_length = min(len(self._a), len(self._b), len(self.bandit.probs))
+        used_a = self._a#[:min_length]
+        used_b = self._b#[:min_length]
         samples = np.random.beta(used_a, used_b)  # 按照Beta分布采样一组奖励样本
         # 选出采样奖励最大的前topk个拉杆
         k = np.argpartition(samples, -topk)[-topk:]

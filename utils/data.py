@@ -111,18 +111,6 @@ class RuleBase:
     #
     #     return sampled_rule_instance
 
-    def score(self, pred: str, gold: str) -> float:
-        """
-        比对prediction和gold_label打分，用于调整Rule confidence
-        """
-        edit_distance = Levenshtein.distance(pred, gold)
-        # if edit_distance == 0:
-        #     score = 1
-        # else:
-        #     score = - edit_distance / len(gold)
-        score = 1 - edit_distance / len(gold) # 估计版本没对齐
-        return score
-
     def _find_rule_class(self, added_rules: str, rules: List[str], question: 'Example') \
             -> Tuple[Set[Rule], Set[Rule]]:
         rules = [r.strip() for r in rules if r.strip() != '']
@@ -135,9 +123,8 @@ class RuleBase:
 
         return given_rules, extracted_rules
 
-    def _update_rule_score(self, given_rules: Set[Rule], extracted_rules: Set[Rule], question: 'Example') -> float:
-        score = self.score(question.rationale[-1].prediction, question.gold_label)
-
+    def _update_rule_score(self, given_rules: Set[Rule], extracted_rules: Set[Rule], question: 'Example',
+                           score: float) -> float:
         for rule in given_rules & extracted_rules:
             rule.confidence += 0.1
         for rule in given_rules - extracted_rules:
@@ -163,7 +150,8 @@ class RuleBase:
 
         return score
 
-    def update_rule(self, added_rules: str, rules: List[str], question: 'Example') -> Tuple[List[Rule], float]:
+    def update_rule(self, added_rules: str, rules: List[str], question: 'Example',
+                    score: float) -> List[Rule]:
         """
         需要字符串匹配，找到就返回，找不到就创建+返回
         :param added_rules: 答题时从rulebase中抽取的规则
@@ -172,9 +160,9 @@ class RuleBase:
         """
         given_rules, extracted_rules = self._find_rule_class(added_rules, rules, question)
 
-        score = self._update_rule_score(given_rules, extracted_rules, question)
+        self._update_rule_score(given_rules, extracted_rules, question)
 
-        return list(extracted_rules), score
+        return list(extracted_rules)
 
     def __add_rules(self, rule: str, question: str, score: float) -> Rule:
         rule_instance = Rule(content=rule, question=question, confidence=score)
@@ -280,7 +268,7 @@ class DisjointSetRuleBase(RuleBase):
         基于并查集拆成cluster
         """
         clusters = defaultdict(list)
-        for rule in list(self._rule_name_2_rule_instance.values())[:]: # 并行不同步的妥协，用个副本
+        for rule in list(self._rule_name_2_rule_instance.values()): # 并行不同步的妥协，用个副本，把[:]删了
             clusters[self.find(rule)].append(rule)
 
         return clusters
@@ -314,13 +302,14 @@ class DisjointSetRuleBase(RuleBase):
                 rule.failure_unused = failure_unused
                 rule.source_questions = source_questions
 
-    def update_rule(self, added_rules: str, rules: List[str], question: 'Example') -> Tuple[List[Rule], float]:
+    def update_rule(self, added_rules: str, rules: List[str], question: 'Example',
+                    score: float) -> List[Rule]:
         clusters = self.find_cluster() # 把这个放在create前面，为了减少并行带来的风险
 
         given_rules, extracted_rules = self._find_rule_class(added_rules, rules, question)
 
         for rule_1 in extracted_rules:
-            for rule_2 in list(self._rule_name_2_rule_instance.values())[:] + list(extracted_rules): # 不同步妥协
+            for rule_2 in list(self._rule_name_2_rule_instance.values()) + list(extracted_rules): # 不同步妥协，第一个变量[:]
                 if rule_1 is not rule_2:
                     self.create_edge(rule_1, rule_2)
 
@@ -329,9 +318,9 @@ class DisjointSetRuleBase(RuleBase):
         for rule in given_rules:
             new_given_rules = new_given_rules.union(clusters[self.find(rule)])
 
-        score = self._update_rule_score(new_given_rules, extracted_rules, question)
+        self._update_rule_score(new_given_rules, extracted_rules, question, score)
 
-        return list(extracted_rules), score
+        return list(extracted_rules)
 
     def sample_rules(self, rule_num=100, stages=None, proportion=None, do_not_use_question: str = None,
                      override_rules: List[Rule] = None) -> List[Rule]:

@@ -1,36 +1,14 @@
 {
     "cluster_0": [
         {
-            "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should be punctuated as \"Oh, my God!\" Revised sentence: \"Oh, my God!\" <Begin>Interjection</End> When expressing strong emotions, such as surprise or excitement, it is common to use an interjection followed by a comma.",
-            "gold_label": "Oh , My God !"
+            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The correct phrase is \"My teacher is going to move to change his job\" instead of \"My teacher is going to move to change his job.\" Revised sentence: My teacher is going to move to change his job. Begin: The verb \"move\" should be followed by the infinitive form of the verb \"to\" + base form of the verb. End: No other rules are violated.",
+            "gold_label": "My teacher is going to move to change his job ."
         },
-        {
-            "question": "Sentence: My dog !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence \"My dog !\" is incomplete and lacks a verb. Revised sentence: \"My dog is so cute!\" Begin: Imperative sentences should have a verb to make them complete.",
-            "gold_label": "My dog !"
-        },
-        {
-            "question": "Sentence: If my sentences are n't practical correct them .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors in the sentence: \"If my sentences are n't practical correct them.\" Revised sentence: \"If my sentences aren't practical, please correct them.\" Grammar rule: Use the correct punctuation to separate clauses in a conditional sentence.",
-            "gold_label": "If my sentences are n't practical , please correct them ."
-        },
-        {
-            "question": "Sentence: Her voice was hoarse and cracked .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is.",
-            "gold_label": "Her voice was hoarse and cracked ."
-        }
-    ],
-    "cluster_1": [
         {
             "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar error: The sentence should be punctuated as \"Oh, my God!\" Revised sentence: \"Oh, my God!\" <Begin>Interjection</End> When expressing strong emotions, such as surprise or excitement, it is common to use an interjection followed by a comma.",
             "gold_label": "Oh , My God !"
-        },
-        {
-            "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"about\" before \"counseling.\" The revised sentence is: I had to write about counseling. Revision: I had to write about counseling. Rule: The preposition \"about\" is unnecessary in this context. Explanation: The word \"write\" already implies that the subject is writing about something, so the use of \"about\" is redundant.",
-            "gold_label": "I had to write about counseling ."
         },
         {
             "question": "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -38,7 +16,29 @@
             "gold_label": "My mum is a great cook !"
         }
     ],
+    "cluster_1": [
+        {
+            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The correct phrase is \"My teacher is going to move to change his job\" instead of \"My teacher is going to move to change his job.\" Revised sentence: My teacher is going to move to change his job. Begin: The verb \"move\" should be followed by the infinitive form of the verb \"to\" + base form of the verb. End: No other rules are violated.",
+            "gold_label": "My teacher is going to move to change his job ."
+        }
+    ],
     "cluster_2": [
+        {
+            "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The sentence should be punctuated as \"Oh, my God!\" Revised sentence: \"Oh, my God!\" <Begin>Interjection</End> When expressing strong emotions, such as surprise or excitement, it is common to use an interjection followed by a comma.",
+            "gold_label": "Oh , My God !"
+        },
+        {
+            "question": "Sentence: If my sentences are n't practical correct them .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar errors in the sentence: \"If my sentences are n't practical correct them.\" Revised sentence: \"If my sentences aren't practical, please correct them.\" Grammar rule: Use the correct punctuation to separate clauses in a conditional sentence.",
+            "gold_label": "If my sentences are n't practical , please correct them ."
+        },
+        {
+            "question": "Sentence: My dog !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The sentence \"My dog !\" is incomplete and lacks a verb. Revised sentence: \"My dog is so cute!\" Begin: Imperative sentences should have a verb to make them complete.",
+            "gold_label": "My dog !"
+        },
         {
             "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence is the use of \"about\" before \"counseling.\" The revised sentence is: I had to write about counseling. Revision: I had to write about counseling. Rule: The preposition \"about\" is unnecessary in this context. Explanation: The word \"write\" already implies that the subject is writing about something, so the use of \"about\" is redundant.",
@@ -53,11 +53,6 @@
             "question": "Sentence: Let me write something and see if anyone can review it and give me some advice .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Revised sentence: Let me write something and see if anyone can review it and give me some advice. Grammar errors: There are no grammar errors in the original sentence.",
             "gold_label": "Let me write something and see if anyone can review it and give me some advice ."
-        },
-        {
-            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The correct phrase is \"My teacher is going to move to change his job\" instead of \"My teacher is going to move to change his job.\" Revised sentence: My teacher is going to move to change his job. Begin: The verb \"move\" should be followed by the infinitive form of the verb \"to\" + base form of the verb. End: No other rules are violated.",
-            "gold_label": "My teacher is going to move to change his job ."
         }
     ],
     "cluster_3": [
@@ -70,23 +65,28 @@
             "question": "Sentence: She was decent , not like Mariah Carey .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The original sentence \"She was decent , not like Mariah Carey\" is grammatically correct. There are no errors in this sentence. <Begin>There are no specific grammar errors in the original sentence.</End> Revised sentence: There is no need to revise the original sentence.",
             "gold_label": "She was decent , not like Mariah Carey ."
+        },
+        {
+            "question": "Sentence: Her voice was hoarse and cracked .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "There are no grammar errors in the sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is.",
+            "gold_label": "Her voice was hoarse and cracked ."
         }
     ],
     "cluster_4": [
         {
-            "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should be punctuated as \"Oh, my God!\" Revised sentence: \"Oh, my God!\" <Begin>Interjection</End> When expressing strong emotions, such as surprise or excitement, it is common to use an interjection followed by a comma.",
-            "gold_label": "Oh , My God !"
+            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The correct phrase is \"My teacher is going to move to change his job\" instead of \"My teacher is going to move to change his job.\" Revised sentence: My teacher is going to move to change his job. Begin: The verb \"move\" should be followed by the infinitive form of the verb \"to\" + base form of the verb. End: No other rules are violated.",
+            "gold_label": "My teacher is going to move to change his job ."
+        },
+        {
+            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The correct phrase is \"My teacher is going to move to change his job\" instead of \"My teacher is going to move to change his job.\" Revised sentence: My teacher is going to move to change his job. Begin: The verb \"move\" should be followed by the infinitive form of the verb \"to\" + base form of the verb. End: No other rules are violated.",
+            "gold_label": "My teacher is going to move to change his job ."
         },
         {
             "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar error: The sentence should be punctuated as \"Oh, my God!\" Revised sentence: \"Oh, my God!\" <Begin>Interjection</End> When expressing strong emotions, such as surprise or excitement, it is common to use an interjection followed by a comma.",
             "gold_label": "Oh , My God !"
-        },
-        {
-            "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"about\" before \"counseling.\" The revised sentence is: I had to write about counseling. Revision: I had to write about counseling. Rule: The preposition \"about\" is unnecessary in this context. Explanation: The word \"write\" already implies that the subject is writing about something, so the use of \"about\" is redundant.",
-            "gold_label": "I had to write about counseling ."
         },
         {
             "question": "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
