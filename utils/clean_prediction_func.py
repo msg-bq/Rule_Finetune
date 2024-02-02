@@ -2,7 +2,10 @@ from utils.ExtraNameSpace import PredictionCleanNameSpace
 import string
 
 
-#不知道类内的那个@classmethod能不能生效，我理解可以
+@PredictionCleanNameSpace.register("Default")
+def clean_prediction(self, prediction: str) -> str:
+    return prediction
+
 @PredictionCleanNameSpace.register("CLUTRR")
 def clean_prediction(self, prediction: str) -> str:
     """
@@ -28,3 +31,4 @@ def clean_prediction(self, prediction: str) -> str:
         return pred_words[-1][:-1]
 
     return pred_words[-1].strip()
+

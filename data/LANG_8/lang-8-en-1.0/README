@@ -1,0 +1,115 @@
+19 August 2012
+
+This README file described the Lang-8 Corpus of Learner English.
+
+
+INTRODUCTION
+============
+
+We scraped correction data of learner English from Lang-8 (http://lang-8.com),
+a SNS for language learning. The data was crawled in September 2011.  The
+scraping procedure is described in our IJCNLP 2011 paper (Mizumoto et al.,
+2011).
+
+We tokenized learners text by Stanford Parser and extracted candidate verb
+phrase using algorithm described in "how_to_ext_vp.txt". We divided the data
+into training and testing as described in our ACL 2012 paper (Tajiri et al.,
+2012).
+
+
+DATA FORMAT
+===========
+
+1. entries.(train|test)
+        We used "entries.train" and "entries.test" split, each of which
+        contains 100,000 and 1,000 entries, respectively.
+        Each line shows information of one sentence, and each entry is
+        separated by a blank line.
+
+        /* Description of each column */
+        Column            Description
+        -------------------------------------------------
+        1                 Number of correction
+        2                 Serial number
+        3                 the URL of the entry
+        4                 Sentence number. 0 is the title
+        5                 Sentence written by a learner of English
+        anything after 6  Corrected Sentences (If exists)
+
+Example:
+1       296282  http://lang-8.com/9416/journals/34829   21      I was watching TV while I drank some hot chocolate , yumyumyum !        I was watching TV while drinking some hot chocolate , yumyumyum !
+
+-------------------------------------------
+
+2. tense_asp.(train|test)
+        The files shows tense & aspect of each verb phrase, tagged by Stanford
+        Parser.
+
+        /* Description of each column */
+        Column          Description
+        1               Serial number (corresponding to that of entries.(train|test))
+        2               Start point of the verb phrase (word offset)
+        3               End point of the verb phrase (word offset)
+        4               Head word of the verb phrase
+        5               Tense & aspect before correction
+                        Tense (PST=past, PRS=present, FTR=future, INF=infinitive, -)
+                        Perfect (PFT=perfect, PTP=participle, -)
+                        Progressive (PRG=progressive, PTP=participle, -)
+        6               Tense & aspect after correction
+                        (Same as 5)
+
+Example:
+296282  2       3       watch   <PST_-_PRG>     <PST_-_PRG>
+296282  7       7       drink   <PST_-_->       <-_-_PTP>
+
+-------------------------------------------
+
+3. how_to_ext_vp.txt
+        The file describes how to extract candidate verb phrases from a
+        sentence.
+
+
+AUTHORS
+=======
+
+Toshikazu Tajiri, Tomoya Mizumoto, Mamoru Komachi, Masaaki Nagata and Yuji
+Matsumoto
+
+Any questions regarding the Lang-8 Corpus should be directed to 
+toshikazu.tajiri@gmail.com and komachi@is.naist.jp.
+
+
+REFERENCES
+==========
+
+If you are interested in the Lang-8 Corpus of English Learner,
+please cite this paper:
+
+Toshikazu Tajiri, Mamoru Komachi, Yuji Matsumoto. Tense and Aspect Error
+Correction for ESL Learners Using Global Context. In Proceedings of the 50th
+Annual Meeting of the Association for Computational Linguistics: Short Papers
+(oral), pp.192-202.  Jeju Island, Korea, July 2012.
+
+If you are interested in making learner corpora from the web,
+please cite this paper (data available upon request):
+
+Mizumoto Tomoya, Mamoru Komachi, Masaaki Nagata. Mining Revision Log of
+Language Learning SNS for Automated Japanese Error Correction of Second
+Language Learners.  In Proceedings of the 5th International Joint Conference
+on Natural Language Processing, pp.147-155. Chiang Mai, Thailand, November
+2011.
+
+
+LICENSE
+=======
+
+The corpus is distributed for research or educational purposes only, and is
+provided without any warranty. 
+
+
+ACKNOWLEDGMENTS
+===============
+
+We gratefully thank Yangyang Xi and Lang-8 contributors for sharing their
+data.
+

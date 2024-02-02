@@ -9,7 +9,7 @@ def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     return prediction.strip() == gold_label.strip()
 
 
-@ColdStartScoreNameSpace.register("LANG-8")
+@ColdStartScoreNameSpace.register("LANG_8")
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     cleaned_pred = prediction.strip().replace(' ', '').lower()
     cleaned_gold = gold_label.strip().replace(' ', '').lower()

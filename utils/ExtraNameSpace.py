@@ -37,8 +37,14 @@ class NameSpace:
         fn_name = cls._args.dataset
         name = func.register_key(fn_name=fn_name)
 
-        return cls.function_map.get(name)
+        fn = cls.function_map.get(name)
 
+        if not fn:
+            fn_name = "Default"
+            name = func.register_key(fn_name=fn_name)
+            fn = cls.function_map.get(name)
+
+        return fn
 
 class Function(object):
     def __init__(self, fn: Callable, space_cls):
@@ -70,28 +76,13 @@ class PredictionCleanNameSpace(NameSpace):
     pass
 
 class ColdStartScoreNameSpace(NameSpace):
-
-    @classmethod
-    def get(self, fn: Callable) -> Callable:
-        cls = ColdStartScoreNameSpace.get_instance()
-
-        func = Function(fn=fn, space_cls=self)
-        fn_name = cls._args.dataset
-        name = func.register_key(fn_name=fn_name)
-
-        fn = cls.function_map.get(name)
-
-        if not fn:
-            fn_name = "Default"
-            name = func.register_key(fn_name=fn_name)
-            fn = cls.function_map.get(name)
-
-        return fn
+    pass
 
 class RuleExtractionNameSpace(NameSpace):
+
     @classmethod
     def get(self, fn: Callable) -> Callable:
-        cls = ColdStartScoreNameSpace.get_instance()
+        cls = DatasetsReaderNameSpace.get_instance()
 
         func = Function(fn=fn, space_cls=self)
         fn_name = cls._args.cot_trigger_type

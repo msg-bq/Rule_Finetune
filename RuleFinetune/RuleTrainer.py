@@ -1,7 +1,6 @@
 import os.path
 import random
 from concurrent.futures import ThreadPoolExecutor
-from typing import List
 
 from RuleFinetune.autoCoT import demo_cluster, llm_n_shot_CoT, n_shot_prompt, DemoBaseMAB, Demo
 from RuleFinetune.cold_start_func import zero_shot_CoT

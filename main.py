@@ -12,8 +12,8 @@ from prompt import cot_trigger, pred_trigger
 def args_parse():
     parser = argparse.ArgumentParser(description="Rule-Finetune")
 
-    parser.add_argument("--dataset", type=str, default="CLUTRR",
-                        choices=["default", "CLUTRR", "STS-B", "LANG-8"],  # default包含一个通用的默认格式输入，暂时先不写
+    parser.add_argument("--dataset", type=str, default="LANG_8",
+                        choices=["default", "CLUTRR", "STS-B", "LANG_8"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 
     parser.add_argument("--data_dir", type=str, default=None,
@@ -67,8 +67,8 @@ def args_parse():
         "--demo_save_dir", type=str, default='demosave', help="save dir for demo examples"
     ) #源自autoCoT
 
-    parser.add_argument("--cot_trigger_type", type=str, default='default1',
-                        choices=['default1', 'default2', 'HtT'],
+    parser.add_argument("--cot_trigger_type", type=str, default='default3',
+                        choices=['default1', 'default2', 'default3', 'HtT'],
                         help="cot trigger type")
 
     args = parser.parse_args()
