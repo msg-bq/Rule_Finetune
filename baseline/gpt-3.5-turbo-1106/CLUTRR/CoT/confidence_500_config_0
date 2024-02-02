@@ -1,0 +1,458 @@
+Namespace(data_dir='../data/CLUTRR', dataset='CLUTRR', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_500')
+Context: The relations on the path from Alan to Anthony are daughter, uncle, son.
+Question: Anthony is Alan’s what?
+Answer:
+For daughter’s uncle, we have daughter’s uncle is brother. So the relations are reduced to brother, son.
+For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew.
+Therefore, the answer is nephew.
+
+Context: The relations on the path from Annie to Carlos are brother, mother, son.
+Question: Carlos is Annie’s what?
+Answer:
+For brother’s mother, we have brother’s mother is mother. So the relations are reduced to mother, son.
+For mother’s son, we have mother’s son is brother. So the relations are reduced to brother.
+Therefore, the answer is brother.
+
+Context: The relations on the path from Beverly to Michelle are father, daughter, aunt.
+Question: Michelle is Beverly’s what?
+Answer:
+For father’s daughter, we have father’s daughter is sister. So the relations are reduced to sister, aunt.
+For sister’s aunt, we have sister’s aunt is aunt. So the relations are reduced to aunt.
+Therefore, the answer is aunt.
+
+Context: The relations on the path from Lee to Jeanna are father, daughter, sister.
+Question: Jeanna is Lee’s what?
+Answer:
+For father’s daughter, we have father’s daughter is sister. So the relations are reduced to sister, sister.
+For sister’s sister, we have sister’s sister is sister. So the relations are reduced to sister.
+Therefore, the answer is sister.
+
+Context: The relations on the path from Craig to Molly are sister, father, mother.
+Question: Molly is Craig’s what?
+Answer:
+For sister’s father, we have sister’s father is father. So the relations are reduced to father, mother.
+For father’s mother, we have father’s mother is grandmother. So the relations are reduced to grandmother.
+Therefore, the answer is grandmother.
+max_confidence_num: 500
+rule_base:
+If the relations on the path from Michael to Russell are son, brother, then Russell is the sibling of one of Michael's parents.
+If the relations on the path from Michael to Russell are son, brother, then Russell is the brother of one of Michael's parents.
+If the relations on the path from Dwight to Lucille are brother, daughter, then Lucille is the daughter of one of Dwight's parents.
+If the relations on the path from James to Angela are brother, daughter, then Angela is the daughter of one of James's parents.
+If the relations on the path from Dorothy to Vincent are daughter, brother, then Vincent is the sibling of one of Dorothy's parents.
+If the relations on the path from James to Dan are daughter, brother, then Dan is the sibling of the person who is the daughter of James.
+If the relations on the path from James to Dan are daughter, brother, then Dan is the brother of one of James's parents.
+If the relations on the path from Alma to Lucille are sister, daughter, then Lucille is the daughter of one of Alma's parents.
+The relations on the path from Alma to Lucille are sister, daughter.
+Knowledge base:
+If the relations on the path from Dorothy to Jennifer are brother, daughter, then Jennifer is also the child of one of Dorothy's parents.
+If the relations on the path from Dorothy to Jennifer are brother, daughter, then Jennifer is the daughter of one of Dorothy's parents.
+If the relations on the path from Dorothy to Jennifer are brother, daughter, then Jennifer and Dorothy are siblings.
+If the relations on the path from Jennifer to Lisa are father, sister, then Lisa is the sibling of Jennifer.
+If the relations on the path from Jennifer to Lisa are father, sister, then Lisa is the daughter of Jennifer.
+If the relations on the path from Jennifer to Lisa are father, sister, then Lisa is the daughter of Jennifer's father.
+If the relations on the path from Aida to Myrna are mother, sister, then Myrna is also the child of Michelle, assuming no step relationships or adoptions are mentioned.
+If the relations on the path from Vanessa to Donald are sister, brother, then Vanessa and Donald are siblings.
+If the relations on the path from Scott to Dwight are brother, father, then Dwight is the son of one of Scott's parents.
+If the relations on the path from Scott to Dwight are brother, father, then Dwight is the son of Scott.
+If the relations on the path from Lewis to Dwight are brother, father, then Dwight is the son of Lewis.
+If the relations on the path from Guillermina to Christopher are sister, father, then Christopher is the son of one of Guillermina's parents.
+If the relations on the path from Guillermina to Christopher are sister, father, then Christopher is the son of one of Guillermina's siblings.
+If the relations on the path from David to Scott are brother, brother, then Scott and David are siblings.
+If the relations on the path from David to Scott are brother, brother, then David and Scott are siblings.
+If Dwight is the brother of Jose, then Dwight and Jose have at least one parent in common.
+If Jose is the son of Dwight, then Dwight is Jose's father.
+If Dwight is Jose's father and the brother of Jose, then Jose is also the son of Dwight.
+Therefore, if the relations on the path from Jose to Dwight are mother, brother, then Dwight is the sibling of Jose.
+If the relations on the path from Jose to Dwight are father, brother, then Dwight is the sibling of Jose.
+If the relations on the path from Dwight to Jose are brother, son, then Jose is the son of one of Dwight's parents.
+If the relations on the path from Jose to Dwight are mother, brother, then Dwight is the brother of one of Jose's parents.
+If the relations on the path from Jose to Dwight are father, brother, then Dwight is the son of one of Jose's children.
+If the relations on the path from Dwight to Donald are brother, son, then Donald is the son of one of Dwight's parents.
+If the relations on the path from Dwight to Donald are brother, son, then Donald is the son of Dwight.
+If the relations on the path from Myrna to Aida are sister, daughter, then Aida is the daughter of one of Myrna's parents.
+If the relations on the path from Aida to Myrna are mother, sister, then Myrna is the sister of one of Aida's parents.
+If the relations on the path from Myrna to Aida are sister, daughter, then Aida is the child of Myrna, assuming no step relationships or adoptions are mentioned.
+The relations on the path from Aida to Myrna are mother, sister.
+If the relations on the path from Donna to Lisa are husband, mother, then Lisa is the daughter of Donna.
+If the relations on the path from Donna to Lisa are husband, mother, then Lisa is the mother of one of Donna's children.
+If the relations on the path from Myrna to David are sister, son, then David is the son of one of Myrna's parents.
+If the relations on the path from Myrna to David are sister, son, then David is the son of one of Myrna's siblings.
+If the relations on the path from Christopher to Dwight are daughter, uncle, then Dwight is the brother of one of Christopher's parents.
+If the relations on the path from Dwight to Christopher are son, uncle, then Christopher is the brother of one of Dwight's parents.
+If Jason is Dorothy's father, and Dorothy is Lisa's mother, then Jason is Lisa's grandfather.
+The relations on the path from Aida to Michelle are mother, daughter.
+The relations on the path from Joe to Jason are mother, father.
+If the relations on the path from Joe to Jason are mother, father, then Jason is Joe's child.
+If the relations on the path from Joe to Jason are mother, father, then Jason is Joe's son.
+If Lisa is Scott's mother and Scott is Lewis's brother, then Lisa is Lewis's mother.
+If the relations on the path from Jose to Christopher are sister, father, then Christopher is the brother of one of Jose's parents.
+If the relations on the path from Jose to Christopher are sister, father, then Christopher is the son of Jose's father.
+If the relations on the path from Deborah to Lisa are husband, mother, then Lisa is the daughter of Deborah.
+If the relations on the path from Deborah to Lisa are husband, mother, then Lisa is the daughter of Deborah's husband.
+If the relations on the path from Alfred to Myrna are wife, mother, then Myrna is the daughter of Alfred.
+If the relations on the path from William to Christopher are wife, father, then Christopher is the son of William's wife.
+If the relations on the path from William to Christopher are wife, father, then Christopher is the father of one of William's children.
+If the relations on the path from William to Christopher are wife, father, then Christopher is the son of William.
+If the relations on the path from Jeffrey to Myrna are wife, mother, then Myrna is the daughter of one of Jeffrey's children.
+If the relations on the path from Dwight to Sheila are son, wife, then Sheila is Dwight's wife.
+If the relations on the path from Jose to Guillermina are mother, daughter, then Guillermina is the daughter of one of Jose's parents.
+If the relations on the path from Donna to Dwight are husband, father, then Dwight is the son of Donna.
+If the relations on the path from Donna to Dwight are husband, father, then Dwight is the father of one of Donna's children.
+If Dorothy is the sibling of one of Alma's parents, then Dorothy is the sibling of one of Alma's parents.
+If the relations on the path from Dwight to Myrna are son, aunt, then Myrna is the sister of one of Dwight's parents.
+If the relations on the path from Michael to Dorothy are wife, mother, then Dorothy is the wife of one of Michael's children.
+If Michael is the father of one of Annette's children, then Annette is the mother of Michael's child.
+Since Michael is Myrna's brother, and Myrna is Dorothy's daughter, then Michael must be Dorothy's son.
+If the relations on the path from David to Scott are mother, son, then Scott is the son of one of David's parents.
+If the relations on the path from David to Scott are mother, son, then David is the mother of Scott.
+The relations on the path from David to Scott are mother, son.
+If Lisa is Dorothy's daughter and Myrna is Lisa's aunt, then Myrna must be Dorothy's sibling.
+If Dwight is Sheila's son, then Sheila is the mother of one of Dwight's parents.
+If the relations on the path from Christopher to Jason are daughter, grandfather, then Jason is the grandfather of the person who is the daughter of Christopher.
+The relations on the path from Christopher to Jason are daughter, grandfather.
+If the relations on the path from Asia to Lisa are mother, sister, then Lisa is the daughter of Asia.
+If the relations on the path from Asia to Lisa are mother, sister, then Asia and Lisa must share the same mother.
+If the relations on the path from Asia to Lisa are mother, sister, then Lisa is the sister of one of Asia's parents.
+The relations on the path from Scott to Lewis are mother, son.
+If the relations on the path from Angela to Guillermina are father, daughter, then Guillermina is the daughter of Angela.
+The relations on the path from Angela to Guillermina are father, daughter.
+If Angela is the father of Guillermina, then Guillermina is Angela's daughter.
+If the relations on the path from Angela to Guillermina are father, daughter, then Guillermina is the daughter of Angela's father.
+If the relations on the path from Dwight to Jason are son, grandfather, then Jason is the grandfather of one of Dwight's parents.
+If the relations on the path from Dwight to Jason are son, grandfather, then Jason is the grandfather of the person who is the son of Dwight.
+If the relations on the path from Dwight to Jason are son, grandfather, then Jason is the grandfather of Dwight.
+If the relations on the path from Myrna to Gabrielle are daughter, grandmother, then Gabrielle is the grandmother of the person who is the daughter of Myrna.
+The relations on the path from Lisa to Jason are son, grandfather.
+If the relations on the path from Alma to Donald are daughter, brother, then Donald is the sibling of Alma.
+If the relations on the path from Alma to Donald are daughter, brother, then Donald is the brother of one of Alma's parents.
+If the relations on the path from Alma to Donald are daughter, brother, then Donald is the son of one of Alma's parents.
+If the relations on the path from James to Gabrielle are daughter, husband, then James is the husband of one of Gabrielle's children.
+If the relations on the path from Lisa to Michelle are sister, daughter, then Michelle is the daughter of one of Lisa's siblings.
+If the relations on the path from Lisa to Michelle are sister, daughter, then Michelle is the sibling of one of Lisa's parents.
+If the relations on the path from David to Lewis are mother, son, then David is Lewis's mother.
+If the relations on the path from David to Lewis are mother, son, then Lewis is the son of David's mother.
+If the relations on the path from Alma to Dwight are son, uncle, then Dwight is the brother of one of Alma's parents.
+If the relations on the path from Alma to Dwight are son, uncle, then Dwight is the son of one of Alma's parents.
+If Dwight is the brother of one of Alma's parents, then Dwight is Alma's son.
+If Dwight is Vincent's father and the brother of Vincent, then Vincent is also the son of Dwight.
+If the relations on the path from Dwight to Vincent are brother, son, then Vincent is the son of one of Dwight's parents.
+If the relations on the path from Gabrielle to Christopher are son, brother, then Christopher is the brother of one of Gabrielle's children.
+If Christopher is the brother of one of Gabrielle's children, and Gabrielle is the mother of one of Christopher's parents, then Christopher is the sibling of one of Gabrielle's children.
+The relations on the path from Vincent to Aida are mother, daughter.
+If the relations on the path from Vincent to Aida are mother, daughter, then Aida is Vincent's daughter.
+If the relations on the path from Jennifer to James are father, brother, then James is the brother of one of Jennifer's parents.
+If the relations on the path from Jennifer to James are father, brother, then James is the son of Jennifer's father.
+If the relations on the path from Jennifer to James are father, brother, then James is also the child of one of Jennifer's parents.
+If the relations on the path from Michael to Gabrielle are son, grandmother, then Gabrielle is the grandmother of the person who is the son of Michael.
+If the relations on the path from Michael to Gabrielle are son, grandmother, then Gabrielle is the grandmother of Michael.
+If the relations on the path from Dwight to Dorothy are son, aunt, then Dorothy is the sister of one of Dwight's parents.
+If Jason is James's father, then James is Jason's son.
+The relations on the path from Aida to Dan are mother, son.
+If the relations on the path from Lisa to Lewis are son, brother, then Lewis is the brother of one of Lisa's parents.
+If Lewis is the brother of one of Lisa's parents, then Lewis must be Lisa's sibling.
+If the relations on the path from Lewis to Lisa are brother, mother, then Lisa is the daughter of one of Lewis's parents.
+If the relations on the path from Lewis to Lisa are brother, mother, then Lisa is the sister of one of Lewis's parents.
+If the relations on the path from Lisa to Lewis are son, brother, then Lewis is Lisa's son.
+If Donald is Gabrielle's son, then David is Donald's son.
+If the relations on the path from Gabrielle to Jose are son, son, then Jose is also the child of one of Gabrielle's parents.
+If the relations on the path from Gabrielle to Jose are son, son, then Jose is the son of one of Gabrielle's children.
+Since Jose is the son of one of Gabrielle's children, then Gabrielle is Jose's parent.
+The relations on the path from Alma to Jason are husband, father.
+If the relations on the path from Alma to Jason are husband, father, then Jason is the father of one of Alma's children.
+If the relations on the path from Alma to Myrna are son, aunt, then Myrna is the sister of one of Alma's parents.
+If the relations on the path from Michelle to Dan are father, son, then Dan is the son of Michelle.
+The relations on the path from Vincent to Michelle are mother, daughter.
+If the relations on the path from James to Michelle are daughter, sister, then Michelle is the sibling of the person who is the daughter of James.
+If the relations on the path from Michael to Michelle are sister, daughter, then Michelle is the sibling of the person who is the daughter of Michael.
+If the relations on the path from James to Michelle are daughter, sister, then Michelle is the sibling of one of James's parents.
+If the relations on the path from Michael to Michelle are sister, daughter, then Michelle is the sibling of one of Michael's parents.
+If the relations on the path from James to Alma are daughter, aunt, then Alma is the sister of one of James's parents.
+If the relations on the path from Alma to James are sister, son, then James is the son of one of Alma's parents.
+If Donald and Gabrielle have at least one parent in common, and the relations on the path from Gabrielle to Jose are son, son, then Jose is also the child of one of Gabrielle's parents.
+If the relations on the path from Jason to Scott are daughter, son, then Scott is the sibling of the person who is the daughter of Jason.
+The relations on the path from Jason to Scott are daughter, son.
+If the relations on the path from Jason to Scott are daughter, son, then Scott is the son of one of Jason's children.
+If Donald is the sibling of Gabrielle and Dwight is Sheila's son, then Donald and Dwight have at least one parent in common.
+If the relations on the path from James to Alma are daughter, aunt, then Dorothy is the sister of one of Myrna's parents.
+If the relations on the path from Michael to Joe are sister, son, then Joe is the sibling of Michael.
+If the relations on the path from Joe to Michael are mother, brother, then Michael is the brother of one of Joe's parents.
+If the relations on the path from Michael to Joe are sister, son, then Joe is the son of one of Michael's parents.
+If the relations on the path from Michael to Joe are sister, son, then Joe is the brother of one of Michael's parents.
+If the relations on the path from Joe to Michael are mother, brother, then Michael is the son of one of Joe's parents.
+If the relations on the path from Myrna to Guillermina are daughter, sister, then Guillermina is the sister of one of Myrna's parents.
+The relations on the path from Asia to Gabrielle are father, mother.
+If the relations on the path from Asia to Gabrielle are father, mother, then Gabrielle is Asia's mother.
+If the relations on the path from Asia to Gabrielle are father, mother, then Gabrielle is Asia's parents.
+If Vincent is the brother of the granddaughter, then Vincent is the child of one of the parents of the granddaughter.
+If the relations on the path from Asia to Jennifer are father, daughter, then Jennifer is the daughter of Asia.
+If the relations on the path from Asia to Jennifer are father, daughter, then Jennifer is also the child of one of Asia's parents.
+If the relations on the path from Asia to Jennifer are father, daughter, then Jennifer is the daughter of Asia's father.
+If the relations on the path from Russell to Donald are father, son, then Donald is the son of Russell.
+The relations on the path from William to Myrna are wife, mother.
+If William is Myrna's husband and Myrna is the mother, then Myrna is the wife of one of William's children.
+If the relations on the path from William to Myrna are wife, mother, then Myrna is the daughter of one of William's children.
+If the relations on the path from Gabrielle to Dan are son, son, then Dan is the brother of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Dan are husband, grandson, then Dan is the grandson of Gabrielle's husband.
+If the relations on the path from Gabrielle to Dan are son, son, then Dan is the son of one of Gabrielle's children.
+If the relations on the path from Asia to Donald are father, son, then Donald is the son of Asia.
+If Aida is Michelle's daughter, and Dan is Aida's son, then Dan is Michelle's grandson.
+If the relations on the path from Gabrielle to Jennifer are son, daughter, then Jennifer is also the child of one of Gabrielle's parents.
+If the relations on the path from Gabrielle to Jennifer are son, daughter, then Jennifer is also the child of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Jennifer are son, daughter, then Jennifer is the daughter of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Russell are son, son, then Russell is also the child of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Russell are son, son, then Russell is the son of one of Gabrielle's children.
+If Gabrielle is the grandmother of Christopher, then Gabrielle is the mother of one of Christopher's parents.
+If the relations on the path from Jennifer to Donald are father, son, then Donald is the son of Jennifer's father.
+If the relations on the path from Jennifer to Donald are sister, brother, then Jennifer and Donald are siblings.
+If the relations on the path from Donald to Jennifer are sister, sister, then Jennifer and Donald are siblings.
+If the relations on the path from Donald to Jennifer are father, daughter, then Jennifer is Donald's daughter.
+If the relations on the path from Donald to Jennifer are father, sister, then Jennifer is the daughter of one of Donald's parents.
+If the relations on the path from Jennifer to Donald are father, son, then Donald is the son of one of Jennifer's parents.
+If the relations on the path from Donald to Jennifer are father, daughter, then Jennifer is the daughter of Donald.
+If the relations on the path from Jennifer to Donald are father, son, then Donald is Jennifer's son.
+If the relations on the path from Marci to Dorothy are husband, mother, then Marci is the husband of one of Dorothy's sons.
+If the relations on the path from Marci to Dorothy are husband, mother, then Dorothy is the mother of one of Marci's children.
+If the relations on the path from Marci to Dorothy are husband, mother, then Marci is the husband of one of Dorothy's children.
+If the relations on the path from Lucille to Christopher are sister, father, then Christopher is the son of one of Lucille's parents.
+If the relations on the path from Lucille to Christopher are sister, father, then Christopher is the brother of one of Lucille's parents.
+If the relations on the path from Lucille to Christopher are sister, father, then Christopher is the father of Lucille.
+The relations on the path from Annette to Alma are husband, mother.
+If the relations on the path from Annette to Alma are husband, mother, then Alma is the daughter of Annette.
+If the relations on the path from Gabrielle to Joe are daughter, son, then Joe is the sibling of Gabrielle.
+If the relations on the path from Joe to Gabrielle are mother, mother, then Gabrielle is the daughter of Joe's parents.
+If the relations on the path from Gabrielle to Joe are daughter, son, then Joe is the child of one of Gabrielle's children.
+If the relations on the path from Joe to Gabrielle are mother, mother, then Gabrielle is Joe's mother.
+If the relations on the path from Joe to Gabrielle are mother, mother, then Gabrielle is the mother of one of Joe's parents.
+If the relations on the path from Christopher to Gabrielle are daughter, grandmother, then Gabrielle is the grandmother of the person who is the daughter of Christopher.
+If the relations on the path from James to Gabrielle are daughter, grandmother, then Gabrielle is the grandmother of the person who is the daughter of James.
+Since the relations on the path from James to Gabrielle are daughter, grandmother, then Gabrielle is the grandmother of James.
+If Jason is Gabrielle's husband and Gabrielle is the mother of Myrna, then Jason is Myrna's father.
+The relations on the path from Annette to Michael are husband, father.
+If the relations on the path from Annette to Michael are husband, father, then Michael is the father of Annette's husband.
+If the relations on the path from Asia to James are father, brother, then James is the sibling of the person who is the daughter of Asia.
+If James is the sibling of the person who is the daughter of Asia, then James is also the child of one of Asia's parents.
+If the relations on the path from Asia to James are father, brother, then James is the brother of one of Asia's parents.
+If the relations on the path from Vincent to Gabrielle are father, mother, then Gabrielle is the daughter of Vincent.
+If the relations on the path from Gabrielle to Vincent are daughter, son, then Vincent is the son of one of Gabrielle's children.
+The relations on the path from Vincent to Gabrielle are mother, mother.
+If Vincent is Gabrielle's mother, then Gabrielle is Vincent's daughter.
+If the relations on the path from Vincent to Gabrielle are father, mother, then Gabrielle is Vincent's mother.
+If the relations on the path from Vincent to Gabrielle are father, mother, then Gabrielle is Vincent's daughter.
+If Gabrielle is the grandmother of Vincent, then Vincent is the child of one of Gabrielle's children.
+If the relations on the path from Vincent to Gabrielle are mother, mother, then Gabrielle is the mother of one of Vincent's parents.
+If the relations on the path from David to Gabrielle are mother, mother, then Gabrielle is the mother of one of David's parents.
+If the relations on the path from David to Gabrielle are mother, mother, then Gabrielle is the mother of David.
+If the relations on the path from David to Gabrielle are mother, mother, then Gabrielle is David's mother.
+If the relations on the path from Gabrielle to Guillermina are son, daughter, then Guillermina is the sibling of Gabrielle.
+If the relations on the path from Gabrielle to Guillermina are son, daughter, then Guillermina is the daughter of one of Gabrielle's children.
+If Aida is Michelle's mother, then Michelle is Aida's daughter.
+The relations on the path from Gabrielle to Aida are daughter, daughter.
+If Michelle is Aida's mother, then Aida is Michelle's daughter.
+If Aida is Michelle's mother, then Michelle is the daughter of one of Aida's parents.
+If Aida is Michelle's daughter, and the relations on the path from Gabrielle to Aida are son, daughter, then Aida is the daughter of one of Gabrielle's children.
+If Aida is Michelle's daughter, then Michelle is Aida's mother.
+If Gabrielle is Michelle's mother, then Michelle is the daughter of one of Aida's parents.
+If the relations on the path from Gabrielle to Aida are son, daughter, then Aida is the daughter of one of Gabrielle's children.
+If Aida is Michelle's daughter, then Aida is Michelle's daughter.
+If the relations on the path from Jason to Jennifer are grandson, sister, then Jennifer is also the child of one of Jason's children.
+If the relations on the path from Jason to Jennifer are grandson, sister, then Jennifer is the sister of one of Jason's parents.
+If the relations on the path from Jason to Jennifer are grandson, sister, then Jennifer and Jason are siblings.
+If the relations on the path from Gabrielle to Donald are granddaughter, brother, then Donald is the sibling of Gabrielle.
+If Donald is the sibling of Gabrielle, then they have at least one parent in common.
+If the relations on the path from Donald to Gabrielle are sister, grandmother, then Gabrielle is the grandmother of the person who is the sister of Donald.
+If the relations on the path from Gabrielle to Donald are granddaughter, brother, then Donald and Gabrielle have at least one parent in common.
+If the relations on the path from Donald to Gabrielle are sister, grandmother, then Donald and Gabrielle have at least one parent in common.
+If the relations on the path from Scott to James are mother, brother, then James is the son of Scott's mother.
+The relations on the path from Scott to James are brother, mother.
+If the relations on the path from Scott to James are brother, mother, then James is the brother of one of Scott's parents.
+If the relations on the path from Russell to Myrna are father, sister, then Myrna is the sister of one of Russell's parents.
+If the relations on the path from Myrna to Jason are daughter, grandfather, then Jason is the father of Myrna's parent.
+If the relations on the path from Myrna to Jason are daughter, grandfather, then Jason is the grandfather of Myrna.
+If Aida is Jason's daughter, then Jason is Aida's father.
+If the relations on the path from Lisa to Gabrielle are son, grandmother, then Gabrielle is the grandmother of Lisa.
+If the relations on the path from Lisa to Gabrielle are son, grandmother, then Gabrielle is the grandmother of the person who is the son of Lisa.
+If Jennifer is the sister of one of Jason's parents, then Jennifer must be Jason's daughter.
+If the relations on the path from Dwight to Gabrielle are son, grandmother, then Gabrielle is the grandmother of the person who is the son of Dwight.
+If the relations on the path from Dwight to Gabrielle are son, grandmother, then Gabrielle is the grandmother of Dwight.
+If Michael is the brother of one of Aida's parents, then Michael must be Aida's brother.
+If Aida is Michael's mother, then Michael must be Aida's son.
+If the relations on the path from Aida to Michael are mother, brother, then Michael is the brother of one of Aida's parents.
+If the relations on the path from Michael to Jason are son, grandfather, then Jason is Michael's grandfather.
+If the relations on the path from Jason to Michael are daughter, brother, then Michael is the brother of one of Jason's children.
+If the relations on the path from Michael to Jason are son, grandfather, then Jason is the grandfather of Michael.
+If the relations on the path from Jason to Michael are daughter, brother, then Michael is the brother of one of Jason's parents.
+The relations on the path from Jason to Michael are daughter, brother.
+If the relations on the path from Jason to Michael are daughter, brother, then Michael must be the brother of one of Jason's children.
+Since the relations on the path from Gabrielle to Donald are son, son, then Donald is the son of one of Gabrielle's children.
+Since the relations on the path from Gabrielle to Donald are husband, grandson, then Donald is the grandson of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Donald are son, son, then Donald is the son of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Donald are husband, grandson, then Donald is the grandson of one of Gabrielle's children.
+If Dorothy is Gabrielle's daughter, then they have at least one parent in common.
+If Gabrielle is Dorothy's daughter, then they have at least one parent in common.
+If the relations on the path from Aida to Christopher are father, brother, then Christopher is the brother of one of Aida's parents.
+If the relations on the path from Michael to Christopher are son, uncle, then Christopher is the brother of one of Michael's parents.
+If the relations on the path from Michael to Christopher are daughter, uncle, then Christopher is the brother of one of Michael's parents.
+If the relations on the path from Christopher to Aida are brother, daughter, then Aida is the daughter of one of Christopher's parents.
+If Aida is Christopher's sister and Michael is Aida's brother, then Christopher is also Michael's brother.
+If the relations on the path from Michael to Christopher are daughter, uncle, then Christopher is the daughter of one of Michael's siblings.
+If the relations on the path from Aida to Christopher are father, brother, then Christopher is also Michael's brother.
+If the relations on the path from Michael to Christopher are daughter, uncle, then Christopher is the daughter of one of Michael's parents.
+If Lisa is Dorothy's daughter and the relations on the path from Dorothy to Lisa are daughter, aunt, then Lisa is the daughter of one of Dorothy's siblings.
+If the relations on the path from Dorothy to Lisa are daughter, aunt, then Lisa is the sister of one of Dorothy's parents.
+If Jason is Dan's grandfather, then Jason is the father of one of Dan's parents.
+If Dan's relation to Jason is sister, then Dan is the child of one of Jason's children.
+If Dan's relation to Jason is sister, and Jason is Dan's grandfather, then Jason's child, who is Dan's parent, must be a female.
+The relations on the path from Dan to Jason are mother, father.
+If the relations on the path from Jason to Dan are daughter, son, then Dan is the child of one of Jason's children.
+If the relations on the path from Dan to Jason are sister, grandfather, then Jason is the grandfather of the person who is the sister of Dan.
+If the relations on the path from Dan to Jason are mother, father, then Jason is Dan's father.
+If the relations on the path from Jason to Dan are daughter, son, then Dan is the son of one of Jason's parents.
+If Jason is Dan's grandfather, then Dan is the child of one of Jason's children.
+The relations on the path from Dan to Jason are sister, grandfather.
+If the relations on the path from Dan to Jason are mother, father, then Jason is the father of Dan.
+The relations on the path from Jason to Dan are daughter, daughter.
+If the relations on the path from Jason to Dan are daughter, son, then Dan is the son of one of Jason's children.
+If the relations on the path from Myrna to Dorothy are daughter, aunt, then Dorothy is the sister of one of Myrna's parents.
+If the relations on the path from Dorothy to Myrna are daughter, aunt, then Myrna is the sister of one of Dorothy's parents.
+If the relations on the path from Lucille to Gabrielle are father, mother, then Gabrielle is Lucille's parents.
+The relations on the path from Lucille to Gabrielle are father, mother.
+If the relations on the path from Lucille to Gabrielle are father, mother, then Gabrielle is Lucille's mother.
+If the relations on the path from Donald to Dorothy are father, sister, then Dorothy is the daughter of one of Donald's parents.
+If the relations on the path from Donald to Dorothy are father, sister, then Dorothy is the sister of one of Donald's parents.
+If Aida is Gabrielle's daughter, then Gabrielle is Aida's mother.
+If Gabrielle is Aida's mother, then Gabrielle is the mother of Aida.
+If the relations on the path from Gabrielle to Lisa are son, sister, then Lisa is the sibling of Gabrielle.
+If the relations on the path from Gabrielle to Lisa are son, sister, then Lisa is the sister of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Lisa are son, sister, then Lisa is the daughter of one of Gabrielle's children.
+If the relations on the path from Jason to Lucille are daughter, daughter, then Lucille is the daughter of Jason's daughter.
+If Lucille is the daughter of Jason's daughter, then Lucille is Jason's granddaughter.
+The relations on the path from Jason to Lucille are daughter, daughter.
+If Lucille is Jason's daughter, then Jason is Lucille's father.
+If the relations on the path from Gabrielle to Angela are son, daughter, then Angela is the sibling of Gabrielle.
+If the relations on the path from Angela to Gabrielle are father, mother, then Gabrielle is the daughter of Angela's parents.
+If the relations on the path from Gabrielle to Angela are son, daughter, then Angela is the child of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Angela are husband, granddaughter, then Angela is the granddaughter of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Angela are son, daughter, then Angela is the daughter of one of Gabrielle's children.
+If the relations on the path from Angela to Gabrielle are father, mother, then Gabrielle is Angela's mother.
+The relations on the path from Gabrielle to Angela are husband, granddaughter.
+If Michelle is Aida's mother and Aida is Dorothy's daughter, then Michelle must be Dorothy's daughter as well.
+If Aida is Michelle's daughter, then Michelle must be Dorothy's daughter as well.
+If Gabrielle is Michelle's mother and Aida is Dorothy's daughter, then Michelle must be Dorothy's daughter as well.
+If the relations on the path from Asia to Michael are sister, father, then Michael is the brother of one of Asia's parents.
+If the relations on the path from Asia to Michael are brother, father, then Michael is also the child of one of Asia's parents.
+If the relations on the path from Asia to Michael are sister, father, then Michael is the father of Asia's sister.
+If the relations on the path from Asia to Michael are brother, father, then Michael is the father of Asia's brother.
+If the relations on the path from Asia to Michael are sister, father, then Michael is the father of Asia.
+If the relations on the path from Jennifer to Alma are brother, mother, then Alma is the mother of one of Jennifer's parents.
+If the relations on the path from Alma to Jennifer are son, sister, then Jennifer is also the child of one of Alma's parents.
+If the relations on the path from Jennifer to Alma are brother, mother, then Jennifer is the daughter of Alma.
+If the relations on the path from Alma to Jennifer are son, sister, then Jennifer is the sister of one of Alma's parents.
+If the relations on the path from Jennifer to Alma are brother, mother, then Jennifer is the daughter of one of Alma's parents.
+If the relations on the path from Alma to Jennifer are son, sister, then Jennifer is the sibling of one of Alma's children.
+Since Jason is Aida's father, if Christopher is the brother of one of Aida's parents, then Christopher must be Aida's uncle.
+If Christopher is the brother of one of Aida's parents, then Christopher must be Aida's uncle.
+If Russell is the son of one of Dorothy's siblings, and assuming no step relationships or adoptions are mentioned, then Russell must be Dorothy's nephew.
+If Aida is Christopher's sister, then they have at least one parent in common.
+If Jason is Lucille's grandfather's wife, then Jason is Lucille's grandfather.
+If the relations on the path from Alma to David are sister, son, then David is the son of one of Alma's parents.
+If Lucille is the granddaughter of Gabrielle's husband, then Lucille is the child of one of Gabrielle's children.
+If the relations on the path from Gabrielle to Lucille are husband, granddaughter, then Lucille is the granddaughter of one of Gabrielle's children.
+If the relations on the path from Russell to Jason are brother, grandfather, then Jason is the father of Russell's parent.
+If Scott is the son of one of Dorothy's siblings, and David is the son of one of Alma's parents, then Dorothy is the sibling of one of Alma's parents.
+If the relations on the path from Michael to Robert are daughter, husband, then Robert is the husband of one of Michael's daughters.
+If Aida is Dorothy's daughter, then they have at least one parent in common.
+If the relations on the path from Michael to Robert are daughter, husband, then Robert is the husband of Michael's daughter.
+If the relations on the path from Dorothy to Gabrielle are daughter, grandmother, then Gabrielle is the grandmother of the person who is the daughter of Dorothy.
+If the relations on the path from Gabrielle to Dorothy are daughter, grandmother, then Gabrielle is the grandmother of the person who is the daughter of Dorothy.
+If the relations on the path from Gabrielle to David are husband, grandson, then David is the grandson of one of Gabrielle's children.
+If the relations on the path from Jason to Lucille are wife, granddaughter, then Lucille is the granddaughter of one of Jason's children.
+If the relations on the path from Jeffrey to Christopher are wife, father, then Christopher is the son of Jeffrey's wife.
+If the relations on the path from Christopher to Jeffrey are daughter, husband, then Jeffrey is the husband of one of Christopher's children.
+If the relations on the path from Christopher to Jeffrey are daughter, husband, then Jeffrey is the husband of Christopher's daughter.
+The relations on the path from Angela to Myrna are sister, mother.
+If Jason is Guillermina's grandfather's wife, then Jason is Guillermina's grandfather.
+If Guillermina is the granddaughter of one of Jason's children, then Jason must be the grandfather of Guillermina.
+If the relations on the path from Gabrielle to Dorothy are son, sister, then Dorothy is the sibling of one of Gabrielle's children.
+If Aida is Dorothy's daughter and Jason is Dorothy's father, then Jason is Aida's grandfather.
+If Jason is Dorothy's father, and Dorothy is Aida's mother, then Jason is Aida's grandfather.
+If the relations on the path from Dorothy to Jason are daughter, grandfather, then Jason is Aida's grandfather.
+If the relations on the path from Jennifer to Vanessa are brother, sister, then Vanessa is also the child of one of Jennifer's parents.
+If the relations on the path from Jennifer to Vanessa are brother, sister, then Vanessa and Jennifer are siblings.
+If the relations on the path from Jennifer to Vanessa are brother, sister, then Jennifer and Vanessa are siblings.
+If the relations on the path from Alma to Vanessa are son, wife, then Vanessa is the wife of one of Alma's sons.
+If the relations on the path from Alma to Vanessa are son, wife, then Vanessa is the wife of one of Alma's children.
+If Michael is the brother of one of Aida's parents and also the brother of one of Lisa's parents, then Aida and Lisa share a parent.
+If Michael is the brother of one of Lisa's parents and also the brother of one of Aida's parents, then Aida and Lisa share a parent.
+If the relations on the path from Asia to Alma are brother, mother, then Asia and Alma must share the same mother.
+The relations on the path from Asia to Alma are brother, mother.
+If the relations on the path from Lisa to Sheila are son, wife, then Sheila is the wife of one of Lisa's children.
+The relations on the path from Dorothy to Jason are daughter, grandfather.
+The relations on the path from Dan to Dorothy are sister, mother.
+If the relations on the path from Dan to Dorothy are sister, mother, then Dorothy is the mother of Dan.
+If the relations on the path from David to Dorothy are mother, sister, then Dorothy is the sister of one of David's parents.
+If Guillermina is Christopher's sister, then they have at least one parent in common.
+Therefore, if Dan is Michelle's son, then Dan is the child of one of Gabrielle's children.
+The relations on the path from Aida to Michelle are brother, sister.
+If the relations on the path from Michael to Myrna are son, aunt, then Myrna is the sister of one of Michael's parents.
+If the relations on the path from Myrna to Michael are daughter, uncle, then Michael is the brother of one of Myrna's parents.
+Since Michael is the brother of one of Myrna's parents, then Michael must be Myrna's brother.
+If Michael is the brother of one of Myrna's parents, then Michael must be Myrna's uncle.
+If the relations on the path from Donald to Jason are sister, grandfather, then Jason is the father of Donald's parent.
+If the relations on the path from Donald to Jason are sister, grandfather, then Jason is the grandfather of the person who is the sister of Donald.
+The relations on the path from Jason to James are daughter, husband.
+If the relations on the path from James to Jason are wife, father, then Jason is the father of James's wife.
+If the relations on the path from Jason to James are daughter, husband, then James is the husband of one of Jason's children.
+If the relations on the path from Jason to James are daughter, husband, then James is the husband of Jason's daughter.
+If the relations on the path from Jason to Vincent are wife, grandson, then Vincent is the grandson of one of Jason's children.
+If the relations on the path from Jason to Vincent are granddaughter, brother, then Vincent is the brother of one of Jason's children.
+If the relations on the path from Jason to Vincent are granddaughter, brother, then Vincent and the granddaughter share the same parents.
+If Dorothy is Gabrielle's daughter, then Gabrielle is the mother of Dorothy.
+If the relations on the path from Jason to Guillermina are wife, granddaughter, then Guillermina is the granddaughter of Jason's wife.
+If the relations on the path from Jason to Guillermina are wife, granddaughter, then Guillermina is the granddaughter of one of Jason's children.
+If the relations on the path from Guillermina to Gabrielle are sister, grandmother, then Gabrielle is the grandmother of the person who is the sister of Guillermina.
+If the relations on the path from Guillermina to Gabrielle are sister, grandmother, then Gabrielle is the grandmother of Guillermina.
+If the relations on the path from Jennifer to Gabrielle are brother, grandmother, then Gabrielle is the grandmother of the person who is the brother of Jennifer.
+If the relations on the path from Jennifer to Gabrielle are brother, grandmother, then Gabrielle is the grandmother of the person who is the sister of Jennifer.
+The relations on the path from Aida to Jason are brother, grandfather.
+If the relations on the path from Aida to Jason are brother, grandfather, then Jason is the grandfather of the person who is the brother of Aida.
+If the relations on the path from Jason to Dorothy are son, sister, then Dorothy is the sibling of one of Jason's parents.
+If the relations on the path from Jason to Dorothy are son, sister, then Dorothy is the sister of one of Jason's parents.
+If Annette is married to someone and Alma is the mother of that person, then Alma is the mother-in-law of Annette.
+If Alma is married to someone and Alma is the mother of that person, then Alma is the mother-in-law of Annette.
+If Gabrielle is Jason's wife, and assuming that the family structure follows typical naming conventions without any step-relatives or adoptions, Gabrielle would be Dan's grandmother.
+If Gabrielle is the grandmother of Michelle, and Michelle is the sibling of one of Dorothy's parents, then Gabrielle must be the parent of one of Michelle's parents.
+If Dan is Michelle's son, and Michelle is the sibling of one of Dorothy's parents, then Gabrielle must be the parent of one of Michelle's parents.
+If the relations on the path from Jason to Michelle are wife, granddaughter, then Michelle is the granddaughter of one of Jason's children.
+If the relations on the path from Jason to Michelle are granddaughter, sister, then Michelle is the sibling of one of Jason's children.
+The relations on the path from Aida to Jason are mother, father.
+The relations on the path from Jason to Aida are daughter, daughter.
+If the relations on the path from Scott to Gabrielle are brother, grandmother, then Gabrielle is the grandmother of the person who is the brother of Scott.
+If the relations on the path from Angela to Jason are father, father, then Jason is the father of Angela's father.
+If Jason is the father of Angela's father, then Jason is Angela's grandfather.
+If the relations on the path from Lisa to Scott are brother, mother, then Lisa is the mother of Scott.
+If the relations on the path from Scott to Lisa are brother, mother, then Lisa is the mother of Scott.
+If the relations on the path from Kevin to James are wife, father, then James is the father of Kevin's wife.
+If the relations on the path from Lewis to Gabrielle are brother, grandmother, then Gabrielle is the grandmother of the person who is the brother of Lewis.
+If the relations on the path from Dorothy to Russell are brother, son, then Russell is the son of one of Dorothy's siblings.
+If the relations on the path from Jason to Jose are wife, grandson, then Jose is the grandson of one of Jason's children.
+If the relations on the path from Joe to Lewis are brother, brother, then Joe and Lewis are siblings.
+If Lucille is the granddaughter of one of Gabrielle's children, then Gabrielle is Lucille's grandmother.
+If Angela is Myrna's sister and Myrna is Angela's mother, then Myrna is also the mother of one of Angela's children.
+If Aida is Dorothy's daughter and Aida took her uncle Michael to the grocery store, then Michael is the brother of one of Aida's parents.
+Since Aida is Dorothy's daughter, if Michael is Aida's uncle, then Michael must be Dorothy's brother.
+If Aida is Dorothy's daughter and Michael is Aida's uncle, then Michael must be Dorothy's brother.
+If Myrna is Gabrielle's daughter, then Gabrielle is the mother of Myrna.
+If the relations on the path from Jose to Gabrielle are sister, grandmother, then Gabrielle is the grandmother of the person who is the sister of Jose.
+If the relations on the path from Jennifer to Jason are father, father, then Jason is the father of Jennifer's father.
+If Jennifer and Donald are siblings, then they have at least one parent in common.
+If Donald is the sibling of Jennifer, then they have at least one parent in common.
+If the relations on the path from Lisa to Michael are son, uncle, then Michael is the brother of one of Lisa's parents.
+If the relations on the path from Lewis to Dorothy are mother, sister, then Dorothy is the sister of one of Lewis's parents.
+If the relations on the path from Gabrielle to Asia are husband, granddaughter, then Asia is the granddaughter of one of Gabrielle's children.
+If the relations on the path from Dorothy to Michelle are daughter, sister, then Michelle is the sibling of one of Dorothy's parents.
+If the relations on the path from Dorothy to Scott are sister, son, then Scott is the son of one of Dorothy's siblings.
+If the relations on the path from Jose to Jason are father, father, then Jason is the father of Jose's father.
+If two people are siblings, they share the same parents.
+If Gabrielle is Donald's grandmother, then Donald is the child of one of Gabrielle's children.
+测试集上的准确率为：0.28187919463087246

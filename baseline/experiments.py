@@ -12,18 +12,21 @@ from utils.read_datasets import read_datasets
 from prompts import dataset_prompt
 from utils.sub_score import parse_response
 
-import utils.sub_score as score_py
+import utils
+
+# import utils.sub_score as score_py
+
+import utils.ExtraNameSpace as ExtraNameSpace
 
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
 parser.add_argument("--dataset", type=str, default="CLUTRR",
                         choices=["default", "CLUTRR", "STS-B", "LANG-8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
-
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-parser.add_argument("--prompt_type", type=str, default="CoT_rule",
+parser.add_argument("--prompt_type", type=str, default="zero-shot",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
@@ -37,14 +40,17 @@ parser.add_argument("--dataset_type", type=str, default="test",
                         choices=["train", "valid", "test"],
                         help="dataset type used for experiment")
 
-parser.add_argument("--model", type=str, default="gpt-3.5-turbo-1106",
-                        choices=["gpt-3.5-turbo-1106", "gpt-3.5-turbo-0613", "gpt-4-1106-preview"],
+parser.add_argument("--model", type=str, default="gpt-3.5-turbo",
+                        choices=["gpt-3.5-turbo-1106", "gpt-3.5-turbo-0613", "gpt-3.5-turbo",
+                                 "gpt-4-1106-preview"],
                         help="model used for experiment")
 
 args = parser.parse_args()
 
 if not args.data_dir:
     args.data_dir = "../data/" + args.dataset
+
+ExtraNameSpace.NameSpace._args = args
 
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
@@ -53,10 +59,18 @@ with open(args.rule_base_path, encoding="utf8") as f:
     rules = [l for l in f.readlines() if l.strip()]
     rule_base.read_rules(rules)
 
+dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"
+if not os.path.exists(dir_path):
+    os.makedirs(dir_path)
+
 num_suffix = 0
-while os.path.exists(f"./{args.dataset}_{args.prompt_type}_{args.sample_strategy}_{num_suffix}.txt"):
+while os.path.exists(f"{dir_path}/{args.sample_strategy}_{num_suffix}.txt"):
     num_suffix += 1
-config_save_path = f"./{args.dataset}_{args.prompt_type}_{args.sample_strategy}_config_{num_suffix}"
+config_save_path = f"{dir_path}/{args.sample_strategy}_config_{num_suffix}"
+
+while os.path.exists(f"{dir_path}/{args.sample_strategy}_{num_suffix}.txt"):
+    num_suffix += 1
+save_path = f"{dir_path}/{args.sample_strategy}_{num_suffix}.txt"
 
 with open(config_save_path, 'w', encoding="utf8") as f:
     f.write(str(args)+'\n')
@@ -84,6 +98,9 @@ with open(config_save_path, 'w', encoding="utf8") as f:
             f.write(rule.content + '\n')
     else:
         raise NotImplementedError("sample strategy not implemented")
+
+with open(save_path, 'w', encoding="utf8") as f:
+    pass
 
 def eval_step(args, example: Example):
     global rule_base
@@ -118,19 +135,14 @@ def eval_step(args, example: Example):
     rationale = example.parse_response(response)
     prediction = Rationale.clean_prediction(rationale['prediction'])
 
-    try:
-        score = parse_response(question=example.question, response=response,
-                           added_rules="\n".join([rn.content for rn in sampled_rules]))
-    except:
-        score = 0
-
+    # try:
+    #     score = parse_response(question=example.question, response=response,
+    #                        added_rules="\n".join([rn.content for rn in sampled_rules]))
+    # except:
+    #     score = 0
+    score = 0
     print(rationale, prediction, example.gold_label, score)
     return rationale, prediction, example.gold_label, score
-
-num_suffix = 0
-while os.path.exists(f"./{args.dataset}_{args.prompt_type}_{args.sample_strategy}_{num_suffix}.txt"):
-    num_suffix += 1
-save_path = f"./{args.dataset}_{args.prompt_type}_{args.sample_strategy}_{num_suffix}.txt"
 
 correct_cnt = 0
 scores = []
@@ -154,15 +166,18 @@ with ThreadPoolExecutor(max_workers=200) as executor:
 
         scores.append(score)
 
-print(f"测试集上的准确率为：{correct_cnt / len(final_dataset)}")
+accuracy = correct_cnt / len(final_dataset)
+print(f"测试集上的准确率为：{accuracy}")
+with open(config_save_path, 'a', encoding="utf8") as f:
+    f.write(f"测试集上的准确率为：{accuracy}\n")
 
-print("=====================")
-for key in ["step_relation_path", "length_reduce", "first_two_relations", "rule_retrieve", "step_inference_accuracy"]:
-    success_key_score = [score[key] for score in scores if key in score]
-    s = []
-    for i in success_key_score:
-        s.extend(i)
-
-    print(key, sum(s)/len(s))
-    if len(success_key_score):
-        print(key, sum(success_key_score)/len(success_key_score))
+# print("=====================")
+# for key in ["step_relation_path", "length_reduce", "first_two_relations", "rule_retrieve", "step_inference_accuracy"]:
+#     success_key_score = [score[key] for score in scores if key in score]
+#     s = []
+#     for i in success_key_score:
+#         s.extend(i)
+#
+#     print(key, sum(s)/len(s))
+#     if len(success_key_score):
+#         print(key, sum(success_key_score)/len(success_key_score))

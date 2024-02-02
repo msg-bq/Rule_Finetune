@@ -12,7 +12,7 @@ import random
 
 from sentence_transformers import SentenceTransformer
 
-from utils.ExtraNameSpace import PredictionCleanNameSpace
+from utils.ExtraNameSpace import PredictionCleanNameSpace, RuleExtractionNameSpace
 
 
 class Rule:
@@ -355,15 +355,7 @@ class Rationale:    # 修正到只有两个属性
         """
         从dataset中抽取出rules
         """
-        if self.rules:
-            return self.rules
-
-        rule_pattern = re.compile(r"<Begin>(.+?)</End>")
-        rules = rule_pattern.findall(self.rationale)
-        rules = [r.strip() for r in rules if len(r.split()) > 2 and r.strip() != '']
-        self.rules = set(rules)
-
-        return rules
+        pass
 
     def extract_rules_training(self) -> List[str]:
         """

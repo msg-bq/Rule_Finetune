@@ -6,6 +6,8 @@ from utils.read_datasets import read_datasets, read_rationales
 import argparse
 from utils.ExtraNameSpace import NameSpace
 
+from prompt import cot_trigger, pred_trigger
+
 
 def args_parse():
     parser = argparse.ArgumentParser(description="Rule-Finetune")
@@ -65,28 +67,13 @@ def args_parse():
         "--demo_save_dir", type=str, default='demosave', help="save dir for demo examples"
     ) #源自autoCoT
 
+    parser.add_argument("--cot_trigger_type", type=str, default='default1',
+                        choices=['default1', 'default2', 'HtT'],
+                        help="cot trigger type")
+
     args = parser.parse_args()
 
-    args.cot_trigger = '''Answer: Let's think step by step. First rationale then answer.'''\
-                   '''If you use any prior knowledge or rule during the inference, write them briefly in "<Begin>xxx</End>" format. Only do this if you find them. ''' \
-                   '''Note that these rules should be true in general. '''
-    # '''Answer: Let's think step by step. First rationale then answer.'''\
-    #                '''If you use any rules during the inference, write rules in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
-    #                '''Note that these rules should be true in general and concise. '''
-    # '''Answer: Let's think step by step. First rationale then answer.'''\
-    #                '''If you use any prior knowledge or rule during the inference, write rules in "<Begin>xxx</End>" format. Only do this if you find rules. ''' \
-    #                '''Note that these knowledge and rules should be true in general and concise. '''
-
-    # '''Answer: Let's think step by step. If you use some rules in the reasoning process, please write them in "<rule>xxx<rule>" format individually. '''\
-    # '''Note that these rules should be true in general and concise.'''
-    #     '''Answer: Let's think step by step. '''\
-# '''If you use some prior knowledge in the reasoning process, please surround the complete but concise meaning of knowledge with tag <B>xxx<E> individually. '''\
-# '''Note that these knowledge should be universally applicable, including objective truth, laws of nature, universal rules and so on.'''
-#true in universal, general and concise.'''
-
-    pred_trigger = {"CLUTRR": "The answer is",
-                    "LANG-8": "The revised grammatically correct sentence is"}
-
+    args.cot_trigger = cot_trigger[args.cot_trigger_type]
     args.pred_trigger = pred_trigger[args.dataset]
 
     args.direct_answer_trigger_for_zeroshot_cot = args.pred_trigger

@@ -87,3 +87,21 @@ class ColdStartScoreNameSpace(NameSpace):
             fn = cls.function_map.get(name)
 
         return fn
+
+class RuleExtractionNameSpace(NameSpace):
+    @classmethod
+    def get(self, fn: Callable) -> Callable:
+        cls = ColdStartScoreNameSpace.get_instance()
+
+        func = Function(fn=fn, space_cls=self)
+        fn_name = cls._args.cot_trigger_type
+        name = func.register_key(fn_name=fn_name)
+
+        fn = cls.function_map.get(name)
+
+        if not fn:
+            fn_name = "Default"
+            name = func.register_key(fn_name=fn_name)
+            fn = cls.function_map.get(name)
+
+        return fn
