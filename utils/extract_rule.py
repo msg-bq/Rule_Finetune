@@ -1,12 +1,11 @@
 import re
 from typing import Union, Set, List
 
-from ExtraNameSpace import RuleExtractionNameSpace
-from utils.data import Rationale
+from utils.ExtraNameSpace import RuleExtractionNameSpace
 
 
 @RuleExtractionNameSpace.register("default1")
-def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
+def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
 
@@ -18,7 +17,7 @@ def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
     return rules
 
 @RuleExtractionNameSpace.register("default2")
-def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
+def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
 
@@ -30,7 +29,7 @@ def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
     return rules
 
 @RuleExtractionNameSpace.register("default3")
-def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
+def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
 
@@ -42,7 +41,7 @@ def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
     return rules
 
 @RuleExtractionNameSpace.register("HtT_version")
-def extract_rules_cold_start(self: Rationale) -> Union[Set[str], List[str]]:
+def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
 

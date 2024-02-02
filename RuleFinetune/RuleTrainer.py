@@ -34,7 +34,6 @@ class Trainer:
 
         self.rule_base.save(f"./data/{self.args.dataset}/rule_base_cold")
         print("完成cold start")
-        exit()
 
     def forward(self, example, demos, added_rules):
         """
