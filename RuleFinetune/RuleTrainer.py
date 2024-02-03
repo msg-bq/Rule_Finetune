@@ -70,11 +70,11 @@ class Trainer:
         比对prediction和gold_label打分，用于调整Rule confidence
         """
         edit_distance = Levenshtein.distance(pred, gold)
-        # if edit_distance == 0:
-        #     score = 1
-        # else:
-        #     score = - edit_distance / len(gold)
-        score = 1 - edit_distance / len(gold) # 估计版本没对齐
+        if edit_distance == 0:
+            score = 1
+        else:
+            score = - edit_distance / max(len(pred), len(gold))
+        # score = 1 - edit_distance / max(len(pred), len(gold)) # 估计版本没对齐
         return score
 
     def backward(self, example: Example, added_rules: str, bandit: DemoBaseMAB, score: float, k: List[int]):
@@ -137,23 +137,11 @@ class Trainer:
         #     f.write(str(added_rules))
 
     def train(self):
-        """
-        1. cold start
-        for _ in range(epoch):
-            2. forward
-            3. backward
-            (可能还包括验证集)
-        """
         bandits, question2cluster = demo_cluster(self.args, self.train_dataset)
         # 这个地方还不好替换成别的方案，封装的不是特别特别充分
 
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
-
-            # demos, question2cluster = demo_cluster(self.args, self.train_dataset)  # 每一轮的开头，构造本轮所使用的n-shot CoT
-            # with open(f"./experiment/demos_epoch{ep}", 'w', encoding="utf8") as f:
-            #     f.write(str(demos))
-            # 这部分可以改成原始的demo做尝试
 
             with ThreadPoolExecutor(max_workers=200) as executor:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])

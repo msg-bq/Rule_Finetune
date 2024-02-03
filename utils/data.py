@@ -268,7 +268,7 @@ class DisjointSetRuleBase(RuleBase):
         基于并查集拆成cluster
         """
         clusters = defaultdict(list)
-        for rule in list(self._rule_name_2_rule_instance.values()): # 并行不同步的妥协，用个副本，把[:]删了
+        for rule in list(self._rule_name_2_rule_instance.values()): # 并行不同步的妥协，用个副本[:]
             clusters[self.find(rule)].append(rule)
 
         return clusters
@@ -309,7 +309,7 @@ class DisjointSetRuleBase(RuleBase):
         given_rules, extracted_rules = self._find_rule_class(added_rules, rules, question)
 
         for rule_1 in extracted_rules:
-            for rule_2 in list(self._rule_name_2_rule_instance.values()) + list(extracted_rules): # 不同步妥协，第一个变量[:]
+            for rule_2 in list(self._rule_name_2_rule_instance.values()) + list(extracted_rules): # 不同步妥协[:]
                 if rule_1 is not rule_2:
                     self.create_edge(rule_1, rule_2)
 
