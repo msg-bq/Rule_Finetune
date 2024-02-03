@@ -74,7 +74,7 @@ class Trainer:
             score = 1
         else:
             score = - edit_distance / max(len(pred), len(gold))
-        # score = 1 - edit_distance / max(len(pred), len(gold)) # 估计版本没对齐
+        # score = 1 - 2 * edit_distance / max(len(pred), len(gold)) # 估计版本没对齐
         return score
 
     def backward(self, example: Example, added_rules: str, bandit: DemoBaseMAB, score: float, k: List[int]):
