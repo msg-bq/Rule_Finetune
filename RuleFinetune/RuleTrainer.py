@@ -143,11 +143,12 @@ class Trainer:
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
 
-            with ThreadPoolExecutor(max_workers=200) as executor:
+            with ThreadPoolExecutor(max_workers=4) as executor:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 
                 losses = [future.result() for future in futures if future.result() and future.result() != -1]
+                losses = [(l + 1) / 2 for l in losses]
                 # None对应样例、-1对应输出没有rationale的样例
                 print(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调
                 # 其实训练集的信息是会被过拟合记住的，所以那个要求sample rule的时候不能用来源question的规则

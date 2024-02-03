@@ -49,4 +49,5 @@ cot_trigger = {'default1': default1, 'default2': default2, 'default3': default3,
 # -----------------------------------------------------------------
 
 pred_trigger = {"CLUTRR": "The answer is",
-                "LANG_8": "The revised grammatically correct sentence is"}
+                "LANG_8": "The revised grammatically correct sentence is",
+                "STS_B": "The sentiment of the review is"}

@@ -1,11 +1,14 @@
 {
-    "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.15,
-    "Sentence: She was decent , not like Mariah Carey .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.15,
-    "Sentence: I rather be working outside than be a housewife .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.10000000000000002,
-    "Sentence: When she is basking she looks very comfortable .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.10000000000000002,
-    "Sentence: Being a housewife is really tough .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.10000000000000002,
-    "Sentence: Cooking is not her profession , she is a housewife .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.09999999999999999,
-    "Sentence: I hope she would come back to the scene as a diva again , even not like her heyday .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.10000000000000002,
-    "Sentence: She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.09999999999999999,
-    "Sentence: I have ate at hotels and expensive meals but they are nothing like what she cooks .\nQuestion: What's the grammar errors and revised sentence of above sentence?": 0.09999999999999999
+    "Review: the plot is nothing but boilerplate clichés from start to finish , \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: the character dramas , which never reach satisfying conclusions \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: a plot cobbled together from largely flat and uncreative moments \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world \nQuestion: What's the sentiment of above review?": 0.0666666666666667,
+    "Review: the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \nQuestion: What's the sentiment of above review?": 0.0761904761904762,
+    "Review: it 's too harsh to work as a piece of storytelling , \nQuestion: What's the sentiment of above review?": 0.0666666666666667,
+    "Review: on the worst revenge-of-the-nerds clichés the filmmakers could dredge up \nQuestion: What's the sentiment of above review?": 0.06666666666666671,
+    "Review: realistic portrayal \nQuestion: What's the sentiment of above review?": 0.06666666666666668,
+    "Review: 's remarkable procession of sweeping pictures that have reinvigorated the romance genre . \nQuestion: What's the sentiment of above review?": 0.06666666666666668,
+    "Review: caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty . \nQuestion: What's the sentiment of above review?": 0.06666666666666668
 }

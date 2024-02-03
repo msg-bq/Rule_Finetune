@@ -21,7 +21,7 @@ import utils.ExtraNameSpace as ExtraNameSpace
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
 parser.add_argument("--dataset", type=str, default="CLUTRR",
-                        choices=["default", "CLUTRR", "STS-B", "LANG-8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
+                        choices=["default", "CLUTRR", "STS_B", "LANG-8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")

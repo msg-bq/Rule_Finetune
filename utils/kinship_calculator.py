@@ -711,7 +711,10 @@ def main(input_text):
 
 # main("brother's brother")
 
-def kenship_calculator(input_text: str):
+def kinship_calculator(input_text: str):
+    """
+    sister'sister is sister
+    """
     pattern = re.compile(r"(.*)'s (.*) is (.*)")
     match = pattern.match(input_text)
 

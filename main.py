@@ -13,7 +13,7 @@ def args_parse():
     parser = argparse.ArgumentParser(description="Rule-Finetune")
 
     parser.add_argument("--dataset", type=str, default="LANG_8",
-                        choices=["default", "CLUTRR", "STS-B", "LANG_8"],  # default包含一个通用的默认格式输入，暂时先不写
+                        choices=["default", "CLUTRR", "STS_B", "LANG_8"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 
     parser.add_argument("--data_dir", type=str, default=None,
