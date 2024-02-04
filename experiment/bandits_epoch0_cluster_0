@@ -1,11 +1,8 @@
 {
-    "Review: the plot is nothing but boilerplate clichés from start to finish , \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: the character dramas , which never reach satisfying conclusions \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: a plot cobbled together from largely flat and uncreative moments \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world \nQuestion: What's the sentiment of above review?": 0.09090909090909091,
-    "Review: the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \nQuestion: What's the sentiment of above review?": 0.10389610389610389,
-    "Review: it 's too harsh to work as a piece of storytelling , \nQuestion: What's the sentiment of above review?": 0.09090909090909091,
-    "Review: on the worst revenge-of-the-nerds clichés the filmmakers could dredge up \nQuestion: What's the sentiment of above review?": 0.09090909090909093
+    "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?": 0.17857142857142858,
+    "Context: The relations on the path from Angela to Myrna are sister,mother.\nQuestion: Myrna is Angela's what?": 0.17857142857142858,
+    "Context: The relations on the path from Myrna to Dorothy are daughter,aunt.\nQuestion: Dorothy is Myrna's what?": 0.17857142857142858,
+    "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?": 0.17857142857142858,
+    "Context: The relations on the path from Myrna to Guillermina are daughter,sister.\nQuestion: Guillermina is Myrna's what?": 0.14285714285714288,
+    "Context: The relations on the path from Aida to Myrna are mother,sister.\nQuestion: Myrna is Aida's what?": 0.14285714285714285
 }

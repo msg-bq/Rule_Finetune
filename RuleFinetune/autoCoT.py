@@ -234,6 +234,16 @@ def demo_cluster(args, dataset: DatasetLoader):
             if not is_high_quality_prediction(c_pred_ans, c_gold_ans):
                 continue
 
+            sign = False
+            rule_tag = ['<Begin>', '<End>', '<rule>', '<retrieved_rule>', '<new_rule>']
+            for tag in rule_tag:
+                if tag in c_rationale:
+                    sign = True
+                    break
+
+            if not sign:
+                continue
+
             if len(questions[clustered_idx[i][min_idx]].strip().split()) <= 300 and \
                     c_pred_ans != "":  # 太长的样例也放不下
 
