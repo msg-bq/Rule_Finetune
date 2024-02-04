@@ -1,43 +1,142 @@
 {
-    "Context: The relations on the path from Jennifer to Jason are father,father.\nQuestion: Jason is Jennifer's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jason to James are daughter,husband.\nQuestion: James is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from Michael to Christopher are son,uncle.\nQuestion: Christopher is Michael's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jason to Michelle are granddaughter,sister.\nQuestion: Michelle is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from Michael to Robert are daughter,husband.\nQuestion: Robert is Michael's what?": 0.016393442622950827,
-    "Context: The relations on the path from Dan to Jason are sister,grandfather.\nQuestion: Jason is Dan's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jason to Michelle are wife,granddaughter.\nQuestion: Michelle is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jason to Jose are wife,grandson.\nQuestion: Jose is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jason to Aida are daughter,daughter.\nQuestion: Aida is Jason's what?": 0.01639344262295082,
-    "Context: The relations on the path from Lisa to Michael are son,uncle.\nQuestion: Michael is Lisa's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jose to Christopher are sister,father.\nQuestion: Christopher is Jose's what?": 0.016939890710382516,
-    "Context: The relations on the path from Christopher to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Christopher's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jason to Vincent are wife,grandson.\nQuestion: Vincent is Jason's what?": 0.01639344262295082,
-    "Context: The relations on the path from Aida to Jason are brother,grandfather.\nQuestion: Jason is Aida's what?": 0.016393442622950824,
-    "Context: The relations on the path from Lucille to Christopher are sister,father.\nQuestion: Christopher is Lucille's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?": 0.016393442622950827,
-    "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jennifer to Vanessa are brother,sister.\nQuestion: Vanessa is Jennifer's what?": 0.01639344262295082,
-    "Context: The relations on the path from Christopher to Aida are brother,daughter.\nQuestion: Aida is Christopher's what?": 0.016939890710382516,
-    "Context: The relations on the path from Jennifer to Donald are sister,brother.\nQuestion: Donald is Jennifer's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?": 0.01639344262295082,
-    "Context: The relations on the path from Jennifer to Donald are father,son.\nQuestion: Donald is Jennifer's what?": 0.016939890710382516,
-    "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?": 0.016393442622950824,
-    "Context: The relations on the path from Joe to Lewis are brother,brother.\nQuestion: Lewis is Joe's what?": 0.016939890710382516,
-    "Context: The relations on the path from David to Scott are brother,brother.\nQuestion: Scott is David's what?": 0.016393442622950824,
-    "Context: The relations on the path from Donald to Jennifer are sister,sister.\nQuestion: Jennifer is Donald's what?": 0.016393442622950817,
-    "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?": 0.016393442622950824,
-    "Context: The relations on the path from Vanessa to Donald are sister,brother.\nQuestion: Donald is Vanessa's what?": 0.016393442622950824,
-    "Context: The relations on the path from Guillermina to Christopher are sister,father.\nQuestion: Christopher is Guillermina's what?": 0.016939890710382516,
-    "Context: The relations on the path from Asia to Michael are brother,father.\nQuestion: Michael is Asia's what?": 0.016939890710382516,
-    "Context: The relations on the path from Lisa to Jason are son,grandfather.\nQuestion: Jason is Lisa's what?": 0.016393442622950827,
-    "Context: The relations on the path from Aida to Michelle are mother,daughter.\nQuestion: Michelle is Aida's what?": 0.016393442622950824,
-    "Context: The relations on the path from Lisa to Lewis are son,brother.\nQuestion: Lewis is Lisa's what?": 0.016393442622950827,
-    "Context: The relations on the path from Angela to Guillermina are father,daughter.\nQuestion: Guillermina is Angela's what?": 0.016393442622950824,
-    "Context: The relations on the path from Jason to Michael are daughter,brother.\nQuestion: Michael is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from James to Michelle are daughter,sister.\nQuestion: Michelle is James's what?": 0.016393442622950824,
-    "Context: The relations on the path from James to Dan are daughter,brother.\nQuestion: Dan is James's what?": 0.01639344262295082,
-    "Context: The relations on the path from Jason to Lucille are daughter,daughter.\nQuestion: Lucille is Jason's what?": 0.016393442622950824,
-    "Context: The relations on the path from Donald to Jason are sister,grandfather.\nQuestion: Jason is Donald's what?": 0.01639344262295082,
-    "Context: The relations on the path from Angela to Jason are father,father.\nQuestion: Jason is Angela's what?": 0.01639344262295082,
-    "Context: The relations on the path from Michael to Joe are sister,son.\nQuestion: Joe is Michael's what?": 0.01639344262295082
+    "James is Jason's daughter's husband. Therefore, James is Jason's son-in-law. <Begin>In general, the husband of one's daughter is referred to as a son-in-law.</End>": [
+        8.4747335997336,
+        6.5252664002664
+    ],
+    "First, we know that the relation \"father\" indicates a parent-child relationship. So, if Jason is Jennifer's father's father, then Jason is Jennifer's grandfather. <Begin>In general, the relation \"father\" indicates a parent-child relationship, so the father of Jennifer is the grandfather of Jason.</End>": [
+        2.9330669330669323,
+        5.066933066933067
+    ],
+    "Jason is Dan's sister's grandfather, so Jason is Dan's grandfather. <Begin> In a family tree, the parent of one's parent is their grandparent. </End>": [
+        4.231143856143856,
+        4.768856143856144
+    ],
+    "Jose is Jason's grandson. <Begin> In general, a grandson is the child of one's son or daughter. </End>": [
+        9.42594905094905,
+        5.574050949050949
+    ],
+    "Michelle is Jason's granddaughter. <Begin> In a family tree, a granddaughter is the child of one's child. </End>": [
+        6.467532467532468,
+        4.532467532467533
+    ],
+    "Michelle is Jason's granddaughter. <Begin>In general, a granddaughter is the child of one's son or daughter.</End>": [
+        3.6634615384615383,
+        3.3365384615384617
+    ],
+    "Aida is Jason's granddaughter. <Begin> In many cultures, the daughter of a daughter is considered a granddaughter. </End>": [
+        3.3657592407592407,
+        4.634240759240759
+    ],
+    "First, Russell's brother is Jason. So, Jason is Russell's brother. Secondly, Russell's grandfather is also Jason. So, Jason is also Russell's grandfather. Therefore, Jason is Russell's brother and grandfather. <Begin> In a family tree, a person can have multiple relations to another person based on different family connections. </End>": [
+        7.283216783216783,
+        4.716783216783217
+    ],
+    "Lucille is Jason's granddaughter. <Begin>In a family tree, a granddaughter is the child of one's son or daughter.</End>": [
+        2.167832167832168,
+        2.832167832167832
+    ],
+    "Vincent is Jason's grandson. <Begin>In general, a grandson is the child of one's son or daughter.</End>": [
+        4.25058275058275,
+        3.7494172494172497
+    ],
+    "Guillermina is Jason's granddaughter. <Begin> In general, the granddaughter is the child of one's son or daughter.</End>": [
+        2.699300699300699,
+        3.300699300699301
+    ],
+    "Robert is Michael's daughter's husband. Therefore, Robert is Michael's son-in-law. <Begin>In general, a husband of someone's daughter is their son-in-law.</End>": [
+        3.7132867132867133,
+        3.2867132867132867
+    ],
+    "1. Aida's brother is Jason. 2. Aida's grandfather is Jason. Therefore, Jason is Aida's brother and grandfather. <Begin> In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather. </End>": [
+        1.7582417582417584,
+        4.241758241758242
+    ],
+    "First, Christopher's daughter is Jeffrey's wife. Then, Jeffrey is Christopher's son-in-law. <Begin> In general, a husband is the son-in-law of his wife's parents. </End> So, Jeffrey is Christopher's son-in-law.": [
+        4.140234765234766,
+        3.859765234765235
+    ],
+    "Jason is Donald's grandfather. <retrieved_rule> In a family tree, the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
+        11.856143856143856,
+        4.143856143856144
+    ],
+    "Myrna is Jeffrey's mother. <retrieved_rule> In a family tree, the relation of mother indicates a parent-child relationship. <retrieved_rule>": [
+        1.2678571428571428,
+        2.732142857142857
+    ],
+    "Jason is Aida's grandfather. <retrieved_rule> In a family tree, the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
+        1.2916666666666665,
+        2.7083333333333335
+    ],
+    "Scott is Jason's grandson. <retrieved_rule> In general, a grandson is the child of one's son or daughter. <retrieved_rule>": [
+        4.854978354978355,
+        3.1450216450216453
+    ],
+    "Jason is Myrna's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        6.849358974358974,
+        4.1506410256410255
+    ],
+    "Jason is Christopher's grandfather. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        4.688311688311688,
+        2.311688311688312
+    ],
+    "Jason is Angela's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        8.46590909090909,
+        2.534090909090909
+    ],
+    "Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        7.545454545454545,
+        1.4545454545454546
+    ],
+    "Jason is Jennifer's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        8.46590909090909,
+        2.534090909090909
+    ],
+    "Aida is Jason's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\", the second \"daughter\" indicates the relationship of Aida to her parent, who is the daughter of Jason. <retrieved_rule>": [
+        4.230769230769231,
+        1.7692307692307692
+    ],
+    "James is Jason's son-in-law. <retrieved_rule> In general, a husband of someone's daughter is their son-in-law. <retrieved_rule>": [
+        4.090909090909091,
+        1.9090909090909092
+    ],
+    "Michelle is James's daughter. <retrieved_rule> The relations \"sister, sister\" indicate that Jennifer and Donald share the same parents, making them siblings. <retrieved_rule>": [
+        1.0909090909090908,
+        1.9090909090909092
+    ],
+    "Jason is Jose's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        4.1678321678321675,
+        2.8321678321678325
+    ],
+    "James is Jennifer's uncle. <retrieved_rule> Inference rule: If two people are connected by the relation \"brother,\" they are siblings. <retrieved_rule>": [
+        2.605769230769231,
+        2.394230769230769
+    ],
+    "Jeffrey is Christopher's daughter's husband. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Robert is Michael's son-in-law. <retrieved_rule> A husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
+        1.4519230769230769,
+        2.5480769230769234
+    ],
+    "Jason is Dan's grandfather. <retrieved_rule> In a family tree, the relation of sister indicates sharing the same parents, while the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Michelle is Jason's granddaughter. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        1.2307692307692308,
+        1.7692307692307692
+    ],
+    "Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, a husband's father is also the father of the husband's spouse. <retrieved_rule>": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Christopher is Jeffrey's son. <retrieved_rule> In a family tree, a father is the male parent of a child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Jason is Michael's father. <retrieved_rule> In the relation \"son, grandfather\", the first \"son\" indicates the relationship of Michael to his parent, who is the son of Jason. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
 }

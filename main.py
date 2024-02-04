@@ -8,6 +8,8 @@ from utils.ExtraNameSpace import NameSpace
 
 from prompt import cot_trigger, pred_trigger
 
+from logger import logger
+
 
 def args_parse():
     parser = argparse.ArgumentParser(description="Rule-Finetune")
@@ -36,7 +38,7 @@ def args_parse():
     parser.add_argument("--multi_thread", type=bool, default=False,
                         help="whether to use multi-thread to accelerate")
 
-    parser.add_argument("--epoch", type=int, default=3,
+    parser.add_argument("--epoch", type=int, default=10,
                         help="epoch used for experiment")
 
     parser.add_argument("--topN", type=int, default=1,
@@ -79,6 +81,8 @@ def args_parse():
     args.direct_answer_trigger_for_zeroshot_cot = args.pred_trigger
 
     NameSpace._args = args
+
+    logger.info(f"args: {args}")
 
     return args
 

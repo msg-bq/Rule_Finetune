@@ -10,6 +10,8 @@ from utils.data import RuleBase, DatasetLoader, Example, Rationale, DisjointSetR
 from utils.llm import LLM
 import Levenshtein
 
+from logger import logger
+
 
 class Trainer:
     def __init__(self, args, train_dataset: DatasetLoader, valid_dataset: DatasetLoader, test_dataset: DatasetLoader,
@@ -37,7 +39,7 @@ class Trainer:
             self.rule_base._add_rules(rules, data.question)
 
         self.rule_base.save(f"./data/{self.args.dataset}/rule_base_cold")
-        print("完成cold start")
+        logger.info("完成cold start")
 
     def forward(self, example, demos, added_rules):
         """
@@ -153,7 +155,7 @@ class Trainer:
                 losses = [future.result() for future in futures if future.result() and future.result() != -1]
                 losses = [(l + 1) / 2 for l in losses]
                 # None对应样例、-1对应输出没有rationale的样例
-                print(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调
+                logger.info(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调
 
                 with open(save_path, 'a', encoding="utf8") as f:
                     f.write(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}\n")
@@ -232,7 +234,7 @@ class Trainer:
                 if prediction == gold_label:
                     correct_cnt += 1
 
-        print(f"{eval_type}集上的准确率为：{correct_cnt / len(datasets)}")
+        logger.info(f"{eval_type}集上的准确率为：{correct_cnt / len(datasets)}")
 
     def test(self):
         pass
