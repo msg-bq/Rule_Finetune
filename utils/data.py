@@ -309,7 +309,7 @@ class DisjointSetRuleBase(RuleBase):
         given_rules, extracted_rules = self._find_rule_class(added_rules, rules, question)
 
         for rule_1 in extracted_rules:
-            for rule_2 in list(self._rule_name_2_rule_instance.values()) + list(extracted_rules): # 不同步妥协[:]
+            for rule_2 in list(self._rule_name_2_rule_instance.values()) + list(extracted_rules): # 不同步妥协
                 if rule_1 is not rule_2:
                     self.create_edge(rule_1, rule_2)
 

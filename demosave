@@ -1,357 +1,67 @@
 {
     "cluster_0": [
         {
-            "question": "Review: the plot is nothing but boilerplate clichés from start to finish , \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Common knowledge</End> tells us that boilerplate clichés are often seen as unoriginal and uninspired, leading to a negative sentiment.",
-            "gold_label": "negative"
+            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
+            "rationale": "First, Lucille is Jason's wife. Then, Lucille is also Jason's granddaughter. So, Lucille is Jason's wife and granddaughter. <Begin> Transitive property of relations </End> Therefore, Lucille is Jason's wife and granddaughter.",
+            "gold_label": "granddaughter"
         },
         {
-            "question": "Review: the character dramas , which never reach satisfying conclusions \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, expressing disappointment with character dramas that fail to provide satisfying conclusions. <Begin>Knowledge</End>: The sentiment is based on the subjective opinion of the reviewer, who found the lack of satisfying conclusions to be a negative aspect of the character dramas.",
-            "gold_label": "negative"
+            "question": "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?",
+            "rationale": "Russell's brother is Jason, and Russell's grandfather is also Jason. Therefore, Jason is Russell's brother and grandfather. <Begin>Transitive property of relations</End> So, Jason is Russell's brother and grandfather.",
+            "gold_label": "grandfather"
         },
         {
-            "question": "Review: a plot cobbled together from largely flat and uncreative moments \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End>: The review is based on the objective assessment of the plot and its moments.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Universal truth</End> It does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin> Knowledge </End> The reviewer found the story to be sketchy and the narrative style frustrating, making it difficult to piece the story together.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as it criticizes the story for not having a clear or meaningful direction. <Begin>Universal truth</End>: The review is based on the universal understanding of the purpose of a shaggy dog story, which is to lead to a pointless or anticlimactic ending. <Begin>Universal rules</End>: The review follows the universal rule that a story should have a clear and meaningful direction, and criticizes the shaggy dog story for not meeting this standard.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative or critical. It describes the movie as sour and explores the emptiness of the 1920s, suggesting a lack of fulfillment or purpose. The ending is described as questioning the meaning of it all. <Begin>Universal truth</End> The sentiment of the review is based on the interpretation of the movie's themes and ending, which are subjective and open to individual interpretation.",
-            "gold_label": "negative"
+            "question": "Context: The relations on the path from Aida to Jason are brother,grandfather.\nQuestion: Jason is Aida's what?",
+            "rationale": "First, Aida's brother is Jason, so Jason is Aida's brother. Second, Aida's grandfather is also Jason, so Jason is Aida's grandfather. <Begin> In general, a brother is a male sibling and a grandfather is the father of one's parent. </End> So, Jason is Aida's brother and grandfather.",
+            "gold_label": "grandfather"
         }
     ],
     "cluster_1": [
         {
-            "question": "Review: a good one \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Universal truth</End> - The sentiment of the review is positive because the reviewer found the product to be good. <Begin>Common knowledge</End> - The sentiment of the review is positive as the reviewer had a good experience with the product. <Begin>Objective truth</End> - The sentiment of the review is positive based on the reviewer's assessment of the product's quality.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Dorothy to Lisa are daughter,aunt.\nQuestion: Lisa is Dorothy's what?",
+            "rationale": "Lisa is Dorothy's daughter's aunt. <Begin> In general, a person's daughter's aunt is their sister. </End> So, Lisa is Dorothy's sister.",
+            "gold_label": "sister"
         },
         {
-            "question": "Review: , compelling \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Objective truth</End> can be used to determine the sentiment of the review.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Dorothy to Scott are sister,son.\nQuestion: Scott is Dorothy's what?",
+            "rationale": "First, Dorothy's son is Scott, so Scott is Dorothy's son. Then, Dorothy's sister is also related to Scott, so Scott is Dorothy's nephew. <Begin> In general, a person's son is their child, and a person's sister's child is their nephew. </End> So, Scott is Dorothy's son and nephew.",
+            "gold_label": "nephew"
         },
         {
-            "question": "Review: silly , outrageous , ingenious \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it describes the subject as being both outrageous and ingenious. <Begin>Knowledge</End> The sentiment of the review is positive, as it describes the subject as being both outrageous and ingenious.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
+            "rationale": "Sheila is Lisa's son's wife. <Begin> Inference: In most cultures, a son's wife is referred to as a daughter-in-law. </End> So, Sheila is Lisa's daughter-in-law.",
+            "gold_label": "daughter-in-law"
         },
         {
-            "question": "Review: far less sophisticated and \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End>: The review expresses a subjective opinion about the lack of sophistication in something. <Begin>Common knowledge</End>: The review is critical and implies a sense of disappointment.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: 's a lousy one at that \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal knowledge</End>: The sentiment is negative because the reviewer used the word \"lousy\" to describe the subject of the review. <Begin>Common knowledge</End>: The sentiment is negative because the reviewer expressed dissatisfaction with the subject of the review. <Begin>Objective truth</End>: The sentiment is negative because the reviewer's language and tone convey disappointment or disapproval.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: sit through , \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End> - The review expresses a negative experience with having to \"sit through\" something, indicating a lack of enjoyment or satisfaction.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: a welcome relief \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Knowledge</End> A welcome relief is a positive and welcoming experience.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: irritates and \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Knowledge</End>: Irritation is a common negative emotion experienced when something causes annoyance or discomfort.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: seem fresh \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Objective truth</End>: The review is positive because the product is described as fresh, indicating a positive experience. <Begin>Universal rules</End>: The sentiment is universally positive as it is based on the perception of freshness, which is generally considered a positive attribute. <Begin>Laws of nature</End>: The sentiment is based on the natural perception of freshness, which generally evokes positive feelings.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: funny yet \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it describes the content as funny. <Begin>Knowledge</End> The sentiment of a review can be determined by analyzing the language and context used in the text. In this case, the description of the content as funny indicates a positive sentiment.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: contains very few laughs and even less surprises \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal rule of comedy</End>: Comedy is subjective and what one person finds funny, another may not. <Begin>Universal truth</End>: Surprises and twists are often expected in entertainment to keep the audience engaged.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: overlong , and bombastic \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Knowledge</End> The reviewer found the length and excessive style of the subject to be overwhelming and unappealing.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: gorgeous and deceptively minimalist \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Knowledge</End> Gorgeous and deceptively minimalist.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: with his usual intelligence and subtlety \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Intelligence</End>: The reviewer is praising the individual for their intellectual abilities. <Begin>Subtlety</End>: The reviewer is acknowledging the individual's ability to approach things in a delicate and nuanced manner.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: provide its keenest pleasures \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it is describing the keenest pleasures provided by something. <Begin>Universal truth</End> - The review is based on the universal truth that pleasure is a positive experience. <Begin>Universal rules</End> - It follows the universal rule that people seek out and enjoy pleasure.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: altogether too slight to be called any kind of masterpiece \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, suggesting that the work being reviewed is not impressive enough to be considered a masterpiece. <Begin>Common knowledge</End>: A masterpiece is typically considered to be a work of outstanding artistry, skill, or workmanship.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: the part where nothing 's happening , \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, indicating boredom or dissatisfaction with the lack of action or events in a particular part of something. <Begin>Universal truth</End> - The sentiment of the review is negative, indicating boredom or dissatisfaction with the lack of action or events in a particular part of something.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: many pointless \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Objective truth</End>: The review expresses a subjective opinion about the pointlessness of something. <Begin>Universal rules</End>: The review reflects a personal perspective on the lack of purpose or value in something.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: overbearing and over-the-top \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, indicating that the subject being reviewed is excessive and overwhelming in its approach. <Begin>Knowledge</End>: Overbearing and over-the-top are generally considered negative traits in most contexts.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: clumsy dialogue , heavy-handed phoney-feeling sentiment , \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, with the reviewer expressing dissatisfaction with the dialogue and sentiment of the work being reviewed. <Begin>Universal truth</End>: The sentiment is based on the universal standard of what constitutes good dialogue and genuine emotion in writing. <Begin>Objective truth</End>: The reviewer objectively finds the dialogue and sentiment to be clumsy and heavy-handed. <Begin>Universal rules</End>: The review follows the universal rule of providing a critical assessment of the dialogue and sentiment in the work.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: very good viewing alternative \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Universal truth</End>: The review expresses a positive opinion about the viewing alternative. <Begin>Common understanding</End>: The reviewer found the alternative to be very good. <Begin>Objective assessment</End>: The reviewer's sentiment towards the viewing alternative is favorable.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: excruciatingly unfunny and pitifully unromantic \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, indicating that the content being reviewed is not humorous and lacks any romantic appeal. <Begin>Universal truth</End>: The sentiment of humor and romance is subjective and can vary from person to person. <Begin>Universal rules</End>: Humor and romance are often considered important elements in entertainment and storytelling. <Begin>Laws of nature</End>: Human emotions and reactions to humor and romance are influenced by psychological and social factors.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: with color and depth , and rather a good time \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the above review is positive. <Begin>Universal truth</End>: The review expresses a positive experience with the use of color and depth. <Begin>Emotional knowledge</End>: The reviewer had a good time and enjoyed the experience.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: wide-awake all the way through \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the person was alert and engaged throughout the experience. <Begin>Objective truth</End>: The review is based on the person's personal experience and perception of the event. <Begin>Universal rules</End>: The review reflects the person's general expectation of being engaged and alert during the experience.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: of the most highly-praised disappointments i \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Knowledge</End> Highly-praised disappointments are often considered to be negative experiences, as they do not meet the high expectations set by their praise.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: no lika da \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End>: The review expresses a dislike or dissatisfaction with something.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: on all cylinders \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Knowledge</End>: \"on all cylinders\" is a common expression meaning operating at maximum efficiency or capacity.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: well-rounded tribute \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the tribute is comprehensive and covers all aspects well. <Begin>Objective truth</End> and <Begin>universal rules</End> can be applied to understand that the review is expressing a favorable opinion about the tribute.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: as they come , already having been recycled more times than i 'd care to count \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as the reviewer is expressing frustration or exhaustion with the product or situation. <Begin>Universal truth</End>: The sentiment of a review can be determined by analyzing the language and tone used by the reviewer. <Begin>Common knowledge</End>: Negative sentiment is often expressed through words or phrases that convey displeasure or frustration.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: yet this grating showcase \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Knowledge</End> Universal truth is that the showcase is grating and not enjoyable.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: rich and sudden wisdom \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, expressing admiration for the sudden wisdom that is described as rich. <Begin>Objective truth</End> and <Begin>universal rules</End> can help us understand and appreciate the value of sudden wisdom and recognize its impact on our lives.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: , plodding picture \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Objective truth</End>: The review expresses a subjective opinion about the film being plodding, but it is universally applicable that the sentiment is negative. <Begin>Universal rules</End>: It is a universal rule that the sentiment of a review can be positive, negative, or neutral, and in this case, it is negative.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: 's pleasant enough -- and oozing with attractive men \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is generally positive. <Begin>Knowledge</End> Attractive men are generally considered pleasant and appealing.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: lost in the translation this time \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is one of frustration or disappointment. The reviewer feels that something important was not properly conveyed or understood due to a language barrier or other communication issue. <Begin>Some knowledge</End> that could be used in the reasoning process is the understanding that miscommunication can lead to frustration and disappointment, and the fact that language barriers can hinder effective communication.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: that 's so sloppily written and cast that you can not believe anyone more central to the creation of bugsy than the caterer \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Knowledge</End>: It is generally expected that a well-written and well-cast creation should have key individuals more central to its creation than a caterer.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: extraordinary faith \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the faith being discussed is exceptional or remarkable in some way. <Begin> Prior knowledge <End> does not seem to be necessary in determining the sentiment of the review.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: enriched by an imaginatively mixed cast of antic spirits \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Knowledge</End> of the fact that a mixed cast of spirits can enhance a performance and create an imaginative atmosphere.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
+            "rationale": "Michelle is Aida's sister. <Begin> According to the given information, the relations on the path from Aida to Michelle are brother, sister. In a sibling relationship, if one person is the sister, the other person is the brother or sister. </End> Therefore, Michelle is Aida's sister.",
+            "gold_label": "sister"
         }
     ],
     "cluster_2": [
         {
-            "question": "Review: oblivious to the existence of this film \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as the person is expressing that they were completely unaware of the film's existence. <Begin>Objective truth</End> is that the person did not know about the film, which is a universally applicable fact.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: speak for it while it forces you to ponder anew what a movie can be \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive and thought-provoking. It suggests that the movie challenges traditional notions of what a movie can be and encourages the viewer to consider new possibilities. <Begin>Objective truth</End> and <Begin>universal rules</End> can help us understand the sentiment of the review by providing a framework for evaluating the impact and significance of the movie.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: rich veins of funny stuff in this movie \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>It is universally known that humor is subjective, and what one person finds funny, another may not.</End> However, the review indicates that there are \"rich veins of funny stuff\" in the movie, suggesting that the humor is abundant and likely to appeal to a wide audience.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: are n't many conclusive answers in the film \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as it suggests that the film does not provide clear or satisfying answers. <Begin>Universal truth</End>: The sentiment of the review is based on the lack of conclusive answers in the film, which can be universally understood as a negative aspect.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: that final , beautiful scene \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive and appreciative. It suggests that the final scene of something, likely a movie or a show, is beautiful and impactful. <Begin>Universal rule</End> It is universally acknowledged that beauty is subjective, and what one person finds beautiful, another may not.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: are more deeply thought through than in most ` right-thinking ' films \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the film's themes and ideas are more carefully considered than in typical \"right-thinking\" films. <Begin>Universal truth</End>: The reviewer's sentiment is based on the universally applicable standard of thoughtful consideration in film themes and ideas. <Begin>Objective truth</End>: The reviewer's opinion is based on their objective assessment of the depth of thought in the film, compared to others in the same category. <Begin>Universal rules</End>: The sentiment of the review is based on the universal rule that thoughtful consideration and depth of ideas are important factors in evaluating a film.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: 's a very tasteful rock and roll movie . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the movie is enjoyable and well-executed. <Begin> The knowledge of what constitutes tasteful rock and roll music </End> may have influenced the reviewer's opinion.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: more than another `` best man '' clone by weaving a theme throughout this funny film \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it praises the film for being more than just a clone of other \"best man\" movies and commends its use of a central theme throughout the story. <Begin>Universal truth</End> The sentiment of a review can be determined by analyzing the language and tone used to describe the subject matter. In this case, words like \"praises\" and \"commends\" indicate a positive sentiment.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: after you laugh once ( maybe twice ) , you will have completely forgotten the movie by the time you get back to your car in the parking lot . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End>: The review is based on the universal truth that laughter does not necessarily equate to a memorable or enjoyable movie experience. <Begin>Universal rules</End>: The review reflects the universal rule that a movie should leave a lasting impression on its audience.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: build some robots , haul 'em to the theater with you for the late show , and put on your own mystery science theatre 3000 tribute to what is almost certainly going to go down as the worst -- and only -- killer website movie of this or any other year \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative and sarcastic. The reviewer is suggesting that the movie is likely to be terrible and is making a humorous suggestion for how to make the experience more enjoyable. <Begin>Universal truth</End>: The sentiment of the review is based on the subjective opinion of the reviewer and may not be universally applicable.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: addition to sporting one of the worst titles in recent cinematic history \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin> Knowledge of the general consensus on the quality of the movie title </End> suggests that it is widely regarded as being poorly chosen.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: , though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. <Begin>Universal truth</End> It is universally true that the sentiment of the review is negative because the reviewer expresses disappointment with the actors' inability to generate enough heat in the comedy.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: alternating between facetious comic parody and pulp melodrama , this smart-aleck movie ... tosses around some intriguing questions about the difference between human and android life \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. It describes the movie as smart and intriguing, with a mix of humor and melodrama. <Begin>Knowledge</End> The sentiment can be inferred from the use of words like \"smart-aleck\" and \"intriguing\" in the review, which generally indicate a positive opinion.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
+            "rationale": "Dwight is Lewis's brother's father. <Begin> In general, a brother's father is also a father. </End> So, Dwight is Lewis's father.",
+            "gold_label": "father"
         }
     ],
     "cluster_3": [
         {
-            "question": "Review: to be as subtle and touching as the son 's room \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it is praising the subtlety and touching nature of the film \"The Son's Room.\" <Begin>Universal knowledge</End>: The sentiment of a review can be determined by the language and tone used to describe the subject.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: if anything , see it for karen black , who camps up a storm as a fringe feminist conspiracy theorist named dirty dick . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it highlights Karen Black's performance as a standout in the film. <Begin>Knowledge</End> The sentiment of a review can be determined by analyzing the language and tone used to describe the subject.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: a lively and engaging examination of how similar obsessions can dominate a family . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it describes the examination as \"lively and engaging.\" <Begin>Knowledge</End> The sentiment of a review can be determined by analyzing the language and tone used in the text. In this case, the use of words like \"lively\" and \"engaging\" indicates a positive sentiment.",
-            "gold_label": "positive"
+            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
+            "rationale": "First, we know that Alma is Jennifer's mother. Then, we also know that Alma is Jennifer's brother. This means Alma is Jennifer's mother and brother. Answer: Alma is Jennifer's mother and brother.",
+            "gold_label": "mother"
         }
     ],
     "cluster_4": [
         {
-            "question": "Review: as if trying to grab a lump of play-doh , the harder that liman tries to squeeze his story \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, indicating that the liman's story is difficult to grasp or understand. <Begin> Universal truth </End> The sentiment of a review is based on the language and tone used in the text. <Begin> Common knowledge </End> Negative language such as \"trying to grab a lump of play-doh\" and \"the harder that liman tries to squeeze his story\" indicates a negative sentiment.",
-            "gold_label": "negative"
+            "question": "Context: The relations on the path from Gabrielle to Dan are son,son.\nQuestion: Dan is Gabrielle's what?",
+            "rationale": "First, we know that the relation \"son\" indicates a parent-child relationship. So, if the path from Gabrielle to Dan includes two \"son\" relations, it means that Gabrielle is the mother of Dan. <Begin> Inheritance rule: In most cultures, the \"son\" relation indicates a male child's parentage, so if there are two \"son\" relations in the path, it likely means Gabrielle is the mother of Dan. </End> Answer: Dan is Gabrielle's son.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Review: fashioning an engrossing entertainment out \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, as it describes the entertainment as engrossing. <Begin>Objective truth</End>: The review is based on the objective assessment of the entertainment's ability to captivate and engage the audience. <Begin>Universal rules</End>: The review reflects a universally applicable standard for what makes entertainment engrossing, suggesting that it has broad appeal.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: no one involved , save dash , shows the slightest aptitude for acting \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, indicating that the acting skills of the individuals involved are lacking. <Begin>Knowledge</End>: The sentiment is based on the subjective opinion of the reviewer.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: elvira fans could hardly ask for more . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. <Begin>Elvira fans<End> could hardly ask for more.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: cross swords with the best of them and \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive, indicating that the product or experience being reviewed allows the user to compete or engage in a challenging activity with skilled opponents. <Begin>Objective truth</End>: The review is based on the objective experience of the user, indicating that the product or experience has the capability to provide a challenging and competitive environment. <Begin>Universal rules</End>: The review reflects a universal understanding of competition and skill, indicating that the sentiment is applicable across different contexts and scenarios.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: like one of ( spears ' ) music videos in content -- except that it goes on for at least 90 more minutes and , worse , that you have to pay if you want to see it \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as the reviewer is expressing disappointment with the length and cost of the music video. <Begin>Universal Rule</End> - People generally expect music videos to be a certain length, and may be frustrated if they are much longer than expected. <Begin>Objective Truth</End> - Most people prefer to access content for free, rather than having to pay for it.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: is one big excuse to play one lewd scene after another . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as it criticizes the content of the film for being primarily focused on lewd scenes rather than a meaningful plot or story. <Begin>Universal Rule</End> It is generally expected that films should have a well-developed plot and meaningful content rather than relying solely on lewd scenes for entertainment.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: the corporate circus that is the recording industry in the current climate of mergers and downsizing \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, expressing a critical view of the corporate circus that the recording industry has become due to mergers and downsizing. It suggests that the current climate is not conducive to the industry's success. <Begin> The recording industry has seen a number of mergers and acquisitions in recent years, leading to a smaller number of major players in the market. This has resulted in a more corporate and bureaucratic environment, which can be detrimental to the creative and artistic aspects of the industry. </End> <Begin> Downsizing within the recording industry has also led to job losses and a more competitive and cutthroat environment for those remaining in the industry. This can create a sense of instability and uncertainty for employees, as well as potentially impacting the quality of the music being produced. </End> Overall, the review reflects a sentiment of concern and dissatisfaction with the current state of the recording industry.",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: nicks and steinberg match their own creations for pure venality -- that 's giving it the old college try . \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative, as it criticizes the creators for their venality. <Begin>Knowledge</End> The sentiment of a review can be determined by analyzing the language and tone used in the text. This is a universally applicable method for understanding the sentiment of a piece of writing.",
-            "gold_label": "negative"
+            "question": "Context: The relations on the path from Gabrielle to Donald are husband,grandson.\nQuestion: Donald is Gabrielle's what?",
+            "rationale": "First, we know that Donald is Gabrielle's husband. Then, we also know that Donald is the grandson. So, Donald is Gabrielle's husband and grandson. <Begin> In general, a person can have multiple relationships with another person, such as being both a husband and a grandson. </End> Therefore, Donald is Gabrielle's husband and grandson.",
+            "gold_label": "grandson"
         }
     ]
 }

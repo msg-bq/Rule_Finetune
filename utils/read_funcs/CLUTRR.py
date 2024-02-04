@@ -81,7 +81,7 @@ question_template = '''Context: The relations on the path from {query[0]} to {qu
 
 def read_CLUTRR_data(path):
     train_task = '1.2,1.3'  # 有不同的拆分方案，不过我们只拿这个做实验
-    test_task = '1.4,1.5,1.6,1.7,1.8,1.9,1.10' #1.2,1.3,
+    test_task = '1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10' #1.2,1.3,
 
     train_file = f'{train_task}_train.csv'
     test_files = [f'{task.strip()}_test.csv' for task in test_task.split(',')]
@@ -131,13 +131,18 @@ def read_func(data_dir):
     sampling_train_data = build_samples(train_data.to_dict(orient='records'))
     final_train_datasets = build_datasets_from_samples(sampling_train_data, question_template)[:200]
 
-    test_data = [test_data[i][keys] for i in range(len(test_data))]
+    # test_data = [test_data[i][keys] for i in range(len(test_data))]
     proportional_sampling = [8, 18, 31, 25, 16, 21, 30, 26, 25]  # 每个测试集所抽出的数量
     sampling_test_data = []
+    test_task = '1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,1.10'  # 1.2,1.3,
+    test_files = [f'{task.strip()}_test.csv' for task in test_task.split(',')]
     for i in range(len(test_data)):
         samples = test_data[i].sample(proportional_sampling[i], random_state=42)
+        save_path = f"./baseline/EdgeTransformer/data/{test_files[i]}"
+        samples.to_csv(save_path, index=False, header=True)
         samples = samples.to_dict(orient='records')
         sampling_test_data.extend(samples)
+    exit()
 
     sampling_test_data = build_samples(sampling_test_data)
     final_test_datasets = build_datasets_from_samples(sampling_test_data, question_template)

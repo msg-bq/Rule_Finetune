@@ -177,8 +177,8 @@ def demo_cluster(args, dataset: DatasetLoader):
             for r in example.Top_k_rationale(k=1):
                 c_rationale = r.rationale
                 c_pred_ans = r.prediction
-                c_rationale = c_rationale.replace("Answer: Let's think step by step.",
-                                                  "Let's think step by step.")  # 虽然应该不会被触发
+                c_rationale = c_rationale
+
                 rationales.append(c_rationale)
                 predictions.append(c_pred_ans)
         else:

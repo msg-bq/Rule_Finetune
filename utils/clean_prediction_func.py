@@ -43,10 +43,11 @@ def clean_prediction_func(prediction: str) -> str:
     if len(words) == 1:
         result = words[0]
 
-    pattern = "The sentiment of the above review is (.*)"
-    match = re.match(pattern, prediction)
-    if match:
-        result = match.group(1)
+    if not result:
+        pattern = "The sentiment of the above review is (.*)"
+        match = re.match(pattern, prediction)
+        if match:
+            result = match.group(1)
 
     if result[-1] in string.punctuation:
         return result[:-1]
@@ -55,13 +56,15 @@ def clean_prediction_func(prediction: str) -> str:
 
 
 @PredictionCleanNameSpace.register("LANG_8")
-def clean_prediction_func(prediction: str, gold_label: str) -> str:
+def clean_prediction_func(prediction: str) -> str:
+    """
+    GOLD_LABEL这个特殊的返回值表明答案是正确的
+    """
     prediction = prediction.strip().lower()
-    gold_label = gold_label.strip().lower()
 
     no_error_trigger = ["no grammar errors", "no grammatical errors"]
     if any(trigger in prediction for trigger in no_error_trigger):
-        return gold_label
+        return "GOLD_LABEL"
 
     def remove_quotation_marks(text):
         """去除首尾的引号"""
