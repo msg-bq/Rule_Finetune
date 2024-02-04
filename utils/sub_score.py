@@ -8,7 +8,7 @@ from collections import defaultdict
 from typing import List, Union
 
 from utils.data import RuleBase
-from utils.kinship_calculator import kenship_calculator
+from utils.kinship_calculator import kinship_calculator
 
 rule_base = RuleBase()
 used_rules_cnt = defaultdict(lambda: 0)

@@ -1,200 +1,200 @@
-{'question': "Review: infectiously \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the movie is almost completely lacking in suspense , surprise and consistent emotional conviction . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: grievous but \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: cinematic bon bons \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: by far the worst movie of the year \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: as a young woman of great charm , generosity and diplomacy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: about as interesting \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: delivers what it promises : a look at the `` wild ride '' that ensues when brash young men set out to conquer the online world with laptops , cell phones and sketchy business plans \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: inane and awful \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: so much like a young robert deniro \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: hate to tear your eyes away from the images long enough to read the subtitles \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: a $ 40 million version of a game \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: strung-together moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: far less sophisticated and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the character dramas , which never reach satisfying conclusions \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: disney again ransacks its archives for a quick-buck sequel . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: sharply \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: skip this dreck , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the year 's best and most unpredictable comedy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: bring tissues . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: rich veins of funny stuff in this movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: silly , outrageous , ingenious \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: would have liked it more if it had just gone that one step further \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: fashioning an engrossing entertainment out \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: redundant concept \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: respectable new one \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: i hate it . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: lend some dignity to a dumb story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: covers this territory with wit and originality , suggesting that with his fourth feature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
 {'question': "Review: the part where nothing 's happening , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: well-thought stunts or \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: eats , meddles , argues , laughs , kibbitzes and fights \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: to be as subtle and touching as the son 's room \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: 's pleasant enough -- and oozing with attractive men \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: yet this grating showcase \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: justify a theatrical simulation of the death camp of auschwitz ii-birkenau \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: overlong , and bombastic \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: that 's far too tragic to merit such superficial treatment \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the picture runs a mere 84 minutes , but it 's no glance . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: are an absolute joy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a welcome relief \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: as a fringe feminist conspiracy theorist \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the plot is nothing but boilerplate clich¨¦s from start to finish , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: hide new secretions from the parental units \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: contains no wit , only labored gags \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: collapse \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: with his usual intelligence and subtlety \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: takes a classic story , casts attractive and talented actors and uses a magnificent landscape to create a feature film that is wickedly fun to watch . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
 {'question': "Review: demonstrates that the director of such hollywood blockbusters as patriot games can still turn out a small , personal film with an emotional wallop . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: extraordinary faith \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: it 's about issues most adults have to face in marriage and i think that 's what i liked about it -- the real issues tucked between the silly and crude storyline \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: in memory \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: on the worst revenge-of-the-nerds clich¨¦s the filmmakers could dredge up \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: pokes , provokes , takes expressionistic license \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: funny yet \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: by far the worst movie of the year \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
 {'question': "Review: , sometimes beautiful adaptation \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
 {'question': "Review: hawaiian shirt \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: sit through , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: spiffy animated feature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: build some robots , haul 'em to the theater with you for the late show , and put on your own mystery science theatre 3000 tribute to what is almost certainly going to go down as the worst -- and only -- killer website movie of this or any other year \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: of saucy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a lively and engaging examination of how similar obsessions can dominate a family . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: addition to sporting one of the worst titles in recent cinematic history \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: enriched by an imaginatively mixed cast of antic spirits \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: strung-together moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: unpretentious , charming , quirky , original \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: to the dustbin of history \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: that underscore the importance of family tradition and familial community \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: funny yet \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: as they come , already having been recycled more times than i 'd care to count \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: on all cylinders \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a good one \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: do n't work in concert \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: gorgeous and deceptively minimalist \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: equals the original and in some ways even betters it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: it 's too harsh to work as a piece of storytelling , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: oblivious to the existence of this film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: no apparent joy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: overbearing and over-the-top \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: sounds like a cruel deception carried out by men of marginal intelligence , with reactionary ideas about women and a total lack of empathy . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: based on a true and historically significant story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: khouri manages , with terrific flair , to keep the extremes of screwball farce and blood-curdling family intensity on one continuum . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: bring tissues . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: proves a lovely trifle that , unfortunately , is a little too in love with its own cuteness . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: pays earnest homage to turntablists \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: proves once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: are n't many conclusive answers in the film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the film 's mid-to-low budget is betrayed by the surprisingly shoddy makeup work . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: provide its keenest pleasures \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: contrived , well-worn situations \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: contains no wit , only labored gags \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
 {'question': "Review: a passable date film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: is pretty damned funny . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: realistic portrayal \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: would have liked it more if it had just gone that one step further \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: there 's something poignant about an artist of 90-plus years taking the effort to share his impressions of life and loss and time and art with us . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: is effective if you stick with it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: pokes , provokes , takes expressionistic license \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: weak and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: though ford and neeson capably hold our interest , but its just not a thrilling movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: irritates and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: in world cinema \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: remains utterly satisfied to remain the same throughout \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: acted and directed , it 's clear that washington most certainly has a new career ahead of him \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: no lika da \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: i hate it . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the year 's best and most unpredictable comedy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: heroes \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: men in black ii achieves ultimate insignificance -- it 's the sci-fi comedy spectacle as whiffle-ball epic . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: as a director , eastwood is off his game \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: very good viewing alternative \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a depressed fifteen-year-old 's suicidal poetry \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: if anything , see it for karen black , who camps up a storm as a fringe feminist conspiracy theorist named dirty dick . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: just one that could easily wait for your pay per view dollar \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: disappointments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: extraordinary faith \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: we never feel anything for these characters \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: it does n't follow the stale , standard , connect-the-dots storyline which has become commonplace in movies that explore the seamy underbelly of the criminal world \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a plot cobbled together from largely flat and uncreative moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: enables shafer to navigate spaces both large ... and small ... with considerable aplomb \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: wide-awake all the way through \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: have i seen a film so willing to champion the fallibility of the human heart \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: lost in the translation this time \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: of the most highly-praised disappointments i \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: , though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the action is stilted \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: goes to absurd lengths \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: sometimes dry \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: it is supremely unfunny and unentertaining to watch middle-age and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: on the worst revenge-of-the-nerds clich¨¦s the filmmakers could dredge up \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: seem fresh \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: rich and sudden wisdom \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: after you laugh once ( maybe twice ) , you will have completely forgotten the movie by the time you get back to your car in the parking lot . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the character dramas , which never reach satisfying conclusions \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: well-rounded tribute \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: is one big excuse to play one lewd scene after another . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: a muddle splashed with bloody beauty as vivid as any scorsese has ever given us . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: it 's about issues most adults have to face in marriage and i think that 's what i liked about it -- the real issues tucked between the silly and crude storyline \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a beautifully \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: contains very few laughs and even less surprises \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: fashioning an engrossing entertainment out \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the promise of digital filmmaking \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: 's a lousy one at that \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: shot on ugly digital video \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: hopeless \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the greatest musicians \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: many pointless \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: film to affirm love 's power to help people endure almost unimaginable horror \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: 's remarkable procession of sweeping pictures that have reinvigorated the romance genre . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: think of this dog of a movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: generates \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: starts off so bad that you feel like running out screaming \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: excruciatingly unfunny and pitifully unromantic \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: , it serves as a workable primer for the region 's recent history , and would make a terrific 10th-grade learning tool . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the direction has a fluid , no-nonsense authority , and the performances by harris , phifer and cam ` ron seal the deal . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: that final , beautiful scene \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: are more deeply thought through than in most ` right-thinking ' films \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a smile on your face \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: disney again ransacks its archives for a quick-buck sequel . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: watching this digital-effects-heavy , supposed family-friendly comedy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: comes from the brave , uninhibited performances \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: that loves its characters and communicates something rather beautiful about human nature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: so many of the challenges it poses for itself that one can forgive the film its flaws \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: saw how bad this movie was \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: it 's robert duvall ! \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
 {'question': "Review: 's a very tasteful rock and roll movie . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: takes a classic story , casts attractive and talented actors and uses a magnificent landscape to create a feature film that is wickedly fun to watch . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a $ 40 million version of a game \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: for those moviegoers who complain that ` they do n't make movies like they used to anymore \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: elvira fans could hardly ask for more . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: spiffy animated feature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: a smile on your face \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: yet this grating showcase \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
 {'question': "Review: the storylines are woven together skilfully , the magnificent swooping aerial shots are breathtaking , and the overall experience is awesome . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: skip this dreck , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: some movies suck you in despite their flaws , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: swimming is above all about a young woman 's face , and by casting an actress whose face projects that woman 's doubts and yearnings , it succeeds . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: speak for it while it forces you to ponder anew what a movie can be \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: lend some dignity to a dumb story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: cross swords with the best of them and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: clumsy dialogue , heavy-handed phoney-feeling sentiment , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: , plodding picture \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: , like life , is n't much fun without the highs and lows \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the problem with the film is whether these ambitions , laudable in themselves , justify a theatrical simulation of the death camp of auschwitz ii-birkenau . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: just too silly \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: in this wildly uneven movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: absolutely and completely ridiculous and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: cold movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: rich veins of funny stuff in this movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: respectable new one \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: altogether too slight to be called any kind of masterpiece \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: redundant concept \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: derivative and hammily \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: imax in short \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: sharply \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: that 's so sloppily written and cast that you can not believe anyone more central to the creation of bugsy than the caterer \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: silly , outrageous , ingenious \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: very well-written and very well-acted . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: no one involved , save dash , shows the slightest aptitude for acting \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: far less sophisticated and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: nicks and steinberg match their own creations for pure venality -- that 's giving it the old college try . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: being able to hit on a 15-year old when you 're over 100 \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: starts with a legend \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: most audacious , outrageous , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: , compelling \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: will find little of interest in this film , which is often preachy and poorly acted \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: brings the proper conviction to his role as ( jason bourne ) . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: a doa \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: more than another `` best man '' clone by weaving a theme throughout this funny film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: , generous and subversive artworks \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: alternating between facetious comic parody and pulp melodrama , this smart-aleck movie ... tosses around some intriguing questions about the difference between human and android life \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: covers this territory with wit and originality , suggesting that with his fourth feature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: ( vainly , i think ) \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: reveals how important our special talents can be when put in service of of others . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: those so-so films that could have been much better \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: as if trying to grab a lump of play-doh , the harder that liman tries to squeeze his story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: with color and depth , and rather a good time \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: in memory \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: the horrors \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: at its best moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
-{'question': "Review: like one of ( spears ' ) music videos in content -- except that it goes on for at least 90 more minutes and , worse , that you have to pay if you want to see it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
-{'question': "Review: the corporate circus that is the recording industry in the current climate of mergers and downsizing \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: no apparent joy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: as a young woman of great charm , generosity and diplomacy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the movie is almost completely lacking in suspense , surprise and consistent emotional conviction . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
 {'question': "Review: , this gender-bending comedy is generally quite funny . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: so many of the challenges it poses for itself that one can forgive the film its flaws \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: nicks and steinberg match their own creations for pure venality -- that 's giving it the old college try . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: as a director , eastwood is off his game \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: infectiously \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: , it serves as a workable primer for the region 's recent history , and would make a terrific 10th-grade learning tool . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the promise of digital filmmaking \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: are more deeply thought through than in most ` right-thinking ' films \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: brings the proper conviction to his role as ( jason bourne ) . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: about as interesting \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: justify a theatrical simulation of the death camp of auschwitz ii-birkenau \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: 's pleasant enough -- and oozing with attractive men \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: comes from the brave , uninhibited performances \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: seem fresh \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: as if trying to grab a lump of play-doh , the harder that liman tries to squeeze his story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: watching this digital-effects-heavy , supposed family-friendly comedy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: are an absolute joy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: ( vainly , i think ) \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: that final , beautiful scene \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: so much like a young robert deniro \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: for those moviegoers who complain that ` they do n't make movies like they used to anymore \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: ... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: is effective if you stick with it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: , compelling \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: heroes \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: that 's so sloppily written and cast that you can not believe anyone more central to the creation of bugsy than the caterer \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: excruciatingly unfunny and pitifully unromantic \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: oblivious to the existence of this film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: 's remarkable procession of sweeping pictures that have reinvigorated the romance genre . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: in this wildly uneven movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: starts with a legend \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: is pretty damned funny . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: elvira fans could hardly ask for more . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: cinematic bon bons \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: proves once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: realistic portrayal \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: saw how bad this movie was \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: addition to sporting one of the worst titles in recent cinematic history \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: based on a true and historically significant story \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: remains utterly satisfied to remain the same throughout \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: at its best moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: speak for it while it forces you to ponder anew what a movie can be \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: cold movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a beautifully \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: caruso sometimes descends into sub-tarantino cuteness ... but for the most part he makes sure the salton sea works the way a good noir should , keeping it tight and nasty . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: those so-so films that could have been much better \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: , though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: it 's too harsh to work as a piece of storytelling , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: weak and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: irritates and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: is one big excuse to play one lewd scene after another . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: do n't work in concert \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: no one involved , save dash , shows the slightest aptitude for acting \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: well-thought stunts or \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: as a fringe feminist conspiracy theorist \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: most audacious , outrageous , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: swimming is above all about a young woman 's face , and by casting an actress whose face projects that woman 's doubts and yearnings , it succeeds . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: if anything , see it for karen black , who camps up a storm as a fringe feminist conspiracy theorist named dirty dick . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: sit through , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: alternating between facetious comic parody and pulp melodrama , this smart-aleck movie ... tosses around some intriguing questions about the difference between human and android life \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: that underscore the importance of family tradition and familial community \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: hopeless \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: rich and sudden wisdom \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the story of trouble every day ... is so sketchy it amounts to little more than preliminary notes for a science-fiction horror film , and the movie 's fragmentary narrative style makes piecing the story together frustrating difficult . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: we never feel anything for these characters \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: though ford and neeson capably hold our interest , but its just not a thrilling movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: grievous but \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: disappointments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: enables shafer to navigate spaces both large ... and small ... with considerable aplomb \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the corporate circus that is the recording industry in the current climate of mergers and downsizing \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a doa \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: gorgeous and deceptively minimalist \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: a muddle splashed with bloody beauty as vivid as any scorsese has ever given us . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: men in black ii achieves ultimate insignificance -- it 's the sci-fi comedy spectacle as whiffle-ball epic . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a good one \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: wide-awake all the way through \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: it 's robert duvall ! \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: equals the original and in some ways even betters it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: unpretentious , charming , quirky , original \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: after you laugh once ( maybe twice ) , you will have completely forgotten the movie by the time you get back to your car in the parking lot . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: acted and directed , it 's clear that washington most certainly has a new career ahead of him \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: hide new secretions from the parental units \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: more than another `` best man '' clone by weaving a theme throughout this funny film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: in world cinema \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: are n't many conclusive answers in the film \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: many pointless \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: like one of ( spears ' ) music videos in content -- except that it goes on for at least 90 more minutes and , worse , that you have to pay if you want to see it \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the action is stilted \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: , generous and subversive artworks \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: inane and awful \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: well-rounded tribute \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: of the most highly-praised disappointments i \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: goes to absurd lengths \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: overbearing and over-the-top \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: clumsy dialogue , heavy-handed phoney-feeling sentiment , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: pays earnest homage to turntablists \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: shot on ugly digital video \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: eats , meddles , argues , laughs , kibbitzes and fights \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the direction has a fluid , no-nonsense authority , and the performances by harris , phifer and cam ` ron seal the deal . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: collapse \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the plot is nothing but boilerplate clich¨¦s from start to finish , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: contrived , well-worn situations \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: enriched by an imaginatively mixed cast of antic spirits \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: contains very few laughs and even less surprises \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a lively and engaging examination of how similar obsessions can dominate a family . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: reveals how important our special talents can be when put in service of of others . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: to the dustbin of history \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: overlong , and bombastic \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: lost in the translation this time \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: as they come , already having been recycled more times than i 'd care to count \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the picture runs a mere 84 minutes , but it 's no glance . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: think of this dog of a movie \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: absolutely and completely ridiculous and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: it is supremely unfunny and unentertaining to watch middle-age and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: , plodding picture \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: that loves its characters and communicates something rather beautiful about human nature \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the greatest musicians \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: just too silly \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: imax in short \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: , like life , is n't much fun without the highs and lows \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: provide its keenest pleasures \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: generates \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: the film 's mid-to-low budget is betrayed by the surprisingly shoddy makeup work . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: derivative and hammily \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: khouri manages , with terrific flair , to keep the extremes of screwball farce and blood-curdling family intensity on one continuum . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: that 's far too tragic to merit such superficial treatment \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: have i seen a film so willing to champion the fallibility of the human heart \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: of saucy \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: film to affirm love 's power to help people endure almost unimaginable horror \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: sounds like a cruel deception carried out by men of marginal intelligence , with reactionary ideas about women and a total lack of empathy . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: build some robots , haul 'em to the theater with you for the late show , and put on your own mystery science theatre 3000 tribute to what is almost certainly going to go down as the worst -- and only -- killer website movie of this or any other year \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a plot cobbled together from largely flat and uncreative moments \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: very well-written and very well-acted . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: altogether too slight to be called any kind of masterpiece \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the horrors \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: proves a lovely trifle that , unfortunately , is a little too in love with its own cuteness . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: a welcome relief \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: with his usual intelligence and subtlety \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: a depressed fifteen-year-old 's suicidal poetry \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: 's a lousy one at that \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: just one that could easily wait for your pay per view dollar \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: cross swords with the best of them and \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: on all cylinders \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: sometimes dry \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: delivers what it promises : a look at the `` wild ride '' that ensues when brash young men set out to conquer the online world with laptops , cell phones and sketchy business plans \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: very good viewing alternative \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: hate to tear your eyes away from the images long enough to read the subtitles \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: with color and depth , and rather a good time \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: will find little of interest in this film , which is often preachy and poorly acted \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: to be as subtle and touching as the son 's room \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: some movies suck you in despite their flaws , \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: there 's something poignant about an artist of 90-plus years taking the effort to share his impressions of life and loss and time and art with us . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'positive'}
+{'question': "Review: being able to hit on a 15-year old when you 're over 100 \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: the problem with the film is whether these ambitions , laudable in themselves , justify a theatrical simulation of the death camp of auschwitz ii-birkenau . \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: no lika da \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}
+{'question': "Review: starts off so bad that you feel like running out screaming \nQuestion: What's the sentiment of above review?\n", 'gold_label': 'negative'}

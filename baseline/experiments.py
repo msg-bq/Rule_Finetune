@@ -20,8 +20,8 @@ import utils.ExtraNameSpace as ExtraNameSpace
 
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
-parser.add_argument("--dataset", type=str, default="CLUTRR",
-                        choices=["default", "CLUTRR", "STS_B", "LANG-8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
+parser.add_argument("--dataset", type=str, default="LANG_8",
+                        choices=["default", "CLUTRR", "STS_B", "LANG_8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
@@ -40,7 +40,7 @@ parser.add_argument("--dataset_type", type=str, default="test",
                         choices=["train", "valid", "test"],
                         help="dataset type used for experiment")
 
-parser.add_argument("--model", type=str, default="gpt-3.5-turbo",
+parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613",
                         choices=["gpt-3.5-turbo-1106", "gpt-3.5-turbo-0613", "gpt-3.5-turbo",
                                  "gpt-4-1106-preview"],
                         help="model used for experiment")
@@ -158,7 +158,7 @@ with ThreadPoolExecutor(max_workers=200) as executor:
     futures = [executor.submit(eval_step, args, example) for example in final_dataset]
     for future in futures:
         rationale, prediction, gold_label, score = future.result()
-        if prediction == gold_label:
+        if prediction.lower() == gold_label.lower():
             correct_cnt += 1
 
         with open(save_path, 'a', encoding="utf8") as f:
