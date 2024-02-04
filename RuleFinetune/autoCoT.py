@@ -235,7 +235,6 @@ def demo_cluster(args, dataset: DatasetLoader):
                 continue
 
             if len(questions[clustered_idx[i][min_idx]].strip().split()) <= 300 and \
-                    c_rationale[-1] == "." and \
                     c_pred_ans != "":  # 太长的样例也放不下
 
                 c_question = questions[clustered_idx[i][min_idx]]
