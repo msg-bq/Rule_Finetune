@@ -110,7 +110,7 @@ class DemoBaseMAB:
         # 保存相关信息
         with open(save_path, 'w', encoding="utf-8") as write_f:
             # demo+对应的概率
-            demo_prob = {self.bandit.demos[i].question: self.bandit.probs[i] for i in range(self.bandit.K)}
+            demo_prob = {self.bandit.demos[i].rationale: self.bandit.probs[i] for i in range(self.bandit.K)}
             json.dump(demo_prob, write_f, indent=4, ensure_ascii=False)
 
 

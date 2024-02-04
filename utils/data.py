@@ -293,6 +293,10 @@ class DisjointSetRuleBase(RuleBase):
                 source_questions = source_questions.union(rule.source_questions)
 
             confidence /= len(clusters[cluster])
+            success_unused /= len(clusters[cluster])
+            success_used /= len(clusters[cluster])
+            failure_unused /= len(clusters[cluster])
+            failure_used /= len(clusters[cluster])
 
             for rule in clusters[cluster]:
                 rule.confidence = confidence
