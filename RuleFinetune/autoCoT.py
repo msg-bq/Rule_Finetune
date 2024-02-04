@@ -1,5 +1,5 @@
 import json
-import itertools, operator, random
+import random
 import re
 import threading
 from typing import List, Dict, Union, Tuple
@@ -48,9 +48,6 @@ class DemoBase:
         self.demos = demos
 
         self.K = len(demos)
-        self.probs = np.array([1 / self.K] * self.K)  # 每个臂的获奖概率
-        self.best_idx = np.argmax(self.probs)  # 获奖概率最大的拉杆
-        self.best_prob = self.probs[self.best_idx]  # 最大的获奖概率
 
 class DemoBaseMAB:
     def __init__(self, bandit: DemoBase): # 可能需要做一个add bandit的操作，也可以就用zero的
@@ -58,25 +55,14 @@ class DemoBaseMAB:
         self.counts = np.zeros(self.bandit.K) # 每根拉杆的尝试次数
 
         self.regret = 0.  # 当前步的累积懊悔
-        self.actions = []  # 维护一个列表,记录每一步的动作
-        self.regrets = []  # 维护一个列表,记录每一步的累积懊悔
+        self.actions = [] # 维护一个列表,记录每一步的动作
 
         self.lock = threading.Lock()
 
     def add_demo(self, demo: Demo):
         self.bandit.demos.append(demo)
         self.bandit.K += 1
-        # 将新引入的demo赋予一个初始概率
-        self.bandit.probs = np.append(self.bandit.probs, 1 / self.bandit.K)
-        self.bandit.probs /= np.sum(self.bandit.probs)
-        self.bandit.best_idx = np.argmax(self.bandit.probs)
-        self.bandit.best_prob = self.bandit.probs[self.bandit.best_idx]
         self.counts = np.append(self.counts, 0)
-
-    def update_regret(self, k):
-        # 计算累积懊悔并保存,k为本次动作选择的拉杆的编号
-        self.regret += self.bandit.best_prob - self.bandit.probs[k]
-        self.regrets.append(self.regret)
 
     def forward_step(self, topk: int = 5):
         # 返回当前动作选择哪一根拉杆,由每个具体的策略实现
@@ -100,18 +86,10 @@ class DemoBaseMAB:
         self.backward_step(k, r)
         for i in range(len(k)):
             self.counts[k[i]] += 1
-            self.update_regret(k[i])
             self.actions.append(k[i])
 
     def sample_demos(self, topk: int = 5) -> Tuple[List[int], List[Demo]]:
         raise NotImplementedError
-
-    def save(self, save_path):
-        # 保存相关信息
-        with open(save_path, 'w', encoding="utf-8") as write_f:
-            # demo+对应的概率
-            demo_prob = {self.bandit.demos[i].rationale: self.bandit.probs[i] for i in range(self.bandit.K)}
-            json.dump(demo_prob, write_f, indent=4, ensure_ascii=False)
 
 
 class ThompsonSampling(DemoBaseMAB):
@@ -127,7 +105,6 @@ class ThompsonSampling(DemoBaseMAB):
         self._b = np.append(self._b, 1)
 
     def forward_step(self, topk: int = 5) -> List[int]:
-        # 为并行的不同步做妥协。等待的话就会出现多个限速环节（因为希望第t个训练集可能用到t-x轮更新后的参数）
         # min_length = min(len(self._a), len(self._b), len(self.bandit.probs))
         used_a = self._a#[:min_length]
         used_b = self._b#[:min_length]
@@ -149,6 +126,13 @@ class ThompsonSampling(DemoBaseMAB):
         demos = [self.bandit.demos[i] for i in k]
 
         return k, demos
+
+    def save(self, save_path):
+        # 保存相关信息
+        with open(save_path, 'w', encoding="utf-8") as write_f:
+            # demo+对应的概率
+            demo_prob = {self.bandit.demos[i].rationale: (self._a[i], self._b[i]) for i in range(self.bandit.K)}
+            json.dump(demo_prob, write_f, indent=4, ensure_ascii=False)
 
 @ScoreNameSpace.register("Example")
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
