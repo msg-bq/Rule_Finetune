@@ -81,9 +81,9 @@ def clean_prediction_func(prediction: str, gold_label: str) -> str:
     pattern6 = "however, a revised version of the sentence could be:(.*)"
     pattern7 = "revised sentence:(.*)"
     pattern8 = "the revised sentence should be:(.*)"
-    pattern9 = "The correct sentence is:(.*)" # 最好是用""把每个(.*)包起来
+    pattern9 = "The correct sentence is:(.*)" # 最好是用""把每个(.*)包起来，不过有少数确实没有引号
 
-    pattern_list = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8]
+    pattern_list = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8, pattern9]
     for pattern in pattern_list:
         # 以\n或结束符结束
         pattern += "(\n|$)"
