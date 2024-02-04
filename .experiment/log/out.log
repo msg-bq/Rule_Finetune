@@ -3,3 +3,5 @@
 2024-02-04 17:54:14,685 - C:\Users\lbq\Documents\GitHub\Rule_Finetune\RuleFinetune\RuleTrainer.py[line:42] - INFO: 完成cold start
 2024-02-04 17:55:37,250 - C:\Users\lbq\Documents\GitHub\Rule_Finetune\RuleFinetune\RuleTrainer.py[line:158] - INFO: epoch0的平均score为：0.6024444231891043
 2024-02-04 17:57:24,188 - C:\Users\lbq\Documents\GitHub\Rule_Finetune\RuleFinetune\RuleTrainer.py[line:158] - INFO: epoch1的平均score为：0.6945238365970077
+2024-02-04 17:59:07,669 - C:\Users\lbq\Documents\GitHub\Rule_Finetune\RuleFinetune\RuleTrainer.py[line:158] - INFO: epoch2的平均score为：0.7159410862769072
+2024-02-04 18:00:41,819 - C:\Users\lbq\Documents\GitHub\Rule_Finetune\RuleFinetune\RuleTrainer.py[line:158] - INFO: epoch3的平均score为：0.7028720579140747
