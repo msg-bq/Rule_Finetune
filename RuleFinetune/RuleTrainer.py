@@ -139,6 +139,9 @@ class Trainer:
     def train(self):
         bandits, question2cluster = demo_cluster(self.args, self.train_dataset)
         # 这个地方还不好替换成别的方案，封装的不是特别特别充分
+        save_path = f"./experiment/train_loss.txt"
+        with open(save_path, 'w', encoding="utf8") as f:
+            pass
 
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
@@ -151,6 +154,9 @@ class Trainer:
                 losses = [(l + 1) / 2 for l in losses]
                 # None对应样例、-1对应输出没有rationale的样例
                 print(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调
+
+                with open(save_path, 'a', encoding="utf8") as f:
+                    f.write(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}\n")
                 # 其实训练集的信息是会被过拟合记住的，所以那个要求sample rule的时候不能用来源question的规则
                 # 这条限制，是可以保留或者说可控的。这种过拟合也比参数微调方便控制
 
