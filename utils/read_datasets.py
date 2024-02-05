@@ -39,8 +39,6 @@ def save_preprocessed_data(data, path):    # 保存预处理
     if not os.path.exists(dir_path):
         os.mkdir(dir_path)
 
-    data = list(set([str(sample) for sample in data]))
-
     with open(path, 'w', encoding="GB18030") as f:
         for sample in data:
             f.write(sample + '\n')

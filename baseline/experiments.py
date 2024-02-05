@@ -20,13 +20,13 @@ import utils.ExtraNameSpace as ExtraNameSpace
 
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
-parser.add_argument("--dataset", type=str, default="CLUTRR",
+parser.add_argument("--dataset", type=str, default="LANG_8",
                         choices=["default", "CLUTRR", "STS_B", "LANG_8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-parser.add_argument("--prompt_type", type=str, default="CoT_rule",
+parser.add_argument("--prompt_type", type=str, default="zero-shot",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
@@ -54,7 +54,8 @@ ExtraNameSpace.NameSpace._args = args
 
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
-rule_base = DisjointSetRuleBase()
+rule_base = RuleBase()
+args.rule_base_path = '../data/LANG_8/rule_base_cold'
 rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"

@@ -165,4 +165,5 @@ dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'CoT': CLUTRR_five_shot_symbolic,
                              'CoT_rule': CLUTRR_five_shot_rule_symbolic,
                              'CoT_HtT': CLUTRR_five_shot_symbolic_HtT,},
-                  }
+                  'LANG_8': {'rule_instruction': rule_instruction,
+                             'CoT_rule': ""}}

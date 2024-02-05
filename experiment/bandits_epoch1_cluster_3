@@ -1,613 +1,1893 @@
 {
-    "Donald is Dwight's son. <Begin> In a sister-son relationship, the son is the nephew of the sister. </End>": [
-        18.482142857142858,
-        8.517857142857142
+    "James is Michael's brother. <Begin> In general, siblings share at least one parent. </End>": [
+        2.1236263736263736,
+        5.876373626373627
     ],
-    "Dwight is Michael's brother. <Begin> In a sibling relationship, a brother is a male sibling of another person.</End>": [
-        5.553571428571429,
-        4.446428571428571
+    "First, Christopher's sister is Joe's mother. So, Joe is Christopher's nephew. <Begin> In general, the child of a sibling is a nephew or niece. </End>": [
+        4.648351648351649,
+        6.35164835164835
     ],
-    "Rationale: 1. The relation \"son\" means that Lewis is the child of Dwight. 2. The relation \"brother\" means that Dwight and Lewis have at least one parent in common. Answer: Lewis is Dwight's son. <Begin> In general, the relation \"son\" indicates a parent-child relationship. </End>": [
-        8.267857142857142,
-        4.732142857142858
+    "Jeffrey is Christopher's son. <Begin> In a family relationship, a son is the offspring of the father. </End>": [
+        5.708333333333333,
+        6.291666666666666
     ],
-    "Dwight is Joe's brother's father. Therefore, Dwight is Joe's father. <Begin> In general, the father of a person's brother is also their father. </End>": [
-        25.696428571428573,
-        9.303571428571427
+    "Kevin's brother is James, and Kevin's father is also James. Therefore, James is Kevin's brother and father. <Begin> In a family, a person can be both a brother and a father to another person. </End>": [
+        4.285714285714286,
+        4.714285714285714
     ],
-    "Dwight is David's brother's father. <Begin> A person's brother's father is also their father. </End> So, Dwight is David's father.": [
-        19.57142857142857,
-        8.428571428571427
+    "Vanessa is Michael's son's wife. Therefore, Vanessa is Michael's daughter-in-law. <Begin>In general, the spouse of one's child is referred to as their daughter-in-law or son-in-law.</End>": [
+        17.16529304029304,
+        10.83470695970696
     ],
-    "Dwight is Alma's son's uncle. Therefore, Dwight is Alma's brother or brother-in-law. <Begin> In this context, the relationship of uncle is established through the son, so Dwight must be the brother of Alma. </End>": [
-        12.886904761904761,
+    "Kevin is James's daughter's husband. Therefore, Kevin is James's son-in-law. <Begin> In many cultures, the husband of one's daughter is referred to as a son-in-law. </End>": [
+        19.779304029304026,
+        12.220695970695973
+    ],
+    "Michelle is Myrna's brother's daughter. <Begin> In general, a brother's daughter is a niece. </End> So, Michelle is Myrna's niece.": [
+        11.439102564102562,
+        7.560897435897437
+    ],
+    "Lucille is Dorothy's sister's daughter. Therefore, Lucille is Dorothy's niece. <Begin> Inference rule: The daughter of a sibling is a niece. </End>": [
+        6.903846153846153,
+        8.096153846153847
+    ],
+    "First, we know that the relationship between Dorothy and Christopher is that of brother and sister. Therefore, Christopher is Dorothy's brother. <Begin>In general, siblings share the same parents.</End>": [
+        4.904761904761904,
+        5.095238095238096
+    ],
+    "First, we know that the relation \"sister\" means that two individuals share the same parents. So, if Alfred is Dorothy's sister's son, then Alfred is Dorothy's nephew. <Begin> Inference rule: The son of a sister is a nephew. </End>": [
+        5.431318681318682,
+        7.568681318681318
+    ],
+    "Dorothy is Theresa's sister. <Begin> In general, siblings share the same parents, so if Theresa and Dorothy have the same mother, they are sisters. </End>": [
+        5.125,
+        5.875
+    ],
+    "Michael is Russell's brother. <Begin>In general, siblings share the same parents</End>": [
+        4.761904761904762,
+        6.238095238095238
+    ],
+    "Guillermina is Christopher's daughter. <Begin> In a family relationship, a daughter is the female child of a parent. </End>": [
+        6.18956043956044,
+        4.81043956043956
+    ],
+    "Donald is Vanessa's brother, as they share a sibling relationship. <Begin> In general, siblings share the same parents. </End>": [
+        4.113095238095238,
+        5.886904761904761
+    ],
+    "First, we know that the relations on the path from Christopher to Chad are sister and son. So, Christopher's sister is the mother of Chad, and Christopher's son is also the brother of Chad. Therefore, Chad is Christopher's nephew. <Begin> In general, the child of a person's sibling is their nephew or niece. </End>": [
+        7.748626373626375,
+        7.251373626373626
+    ],
+    "James is Myrna's brother. <Begin> In many cultures, siblings share a close bond and are considered family members. </End>": [
+        7.957417582417583,
+        6.042582417582417
+    ],
+    "Myrna is William's mother, as she is one step away from William on the path and the relation on that step is mother. <Begin> In general, a person's mother is one step away on the path of relations. </End>": [
+        26.133241758241756,
+        13.866758241758243
+    ],
+    "The relation \"daughter\" indicates that Myrna is the parent of William. The relation \"brother\" indicates that William is a sibling of Myrna. Putting these together, William is Myrna's son. <Begin> In general, the relation \"brother\" indicates a sibling relationship, and the relation \"daughter\" indicates a parent-child relationship. </End>": [
+        14.785714285714285,
+        8.214285714285714
+    ],
+    "Chad is Annette's brother. <Begin> In most cases, siblings are of the same generation and have at least one parent in common. </End>": [
+        16.83241758241758,
+        10.16758241758242
+    ],
+    "Kevin is Theresa's brother. <Begin> In general, siblings share at least one common parent. </End>": [
+        20.41254578754579,
+        10.587454212454213
+    ],
+    "Alfred is Anna's brother. <Begin> In general, if the relations on the path from Anna to Alfred are brother, brother, then Alfred is Anna's brother. </End>": [
+        20.70238095238095,
+        12.297619047619047
+    ],
+    "Asia is Jennifer's sister. <Begin>Transitive property of equality</End>": [
+        14.630494505494505,
+        8.369505494505495
+    ],
+    "First, Myrna is Guillermina's mother. Then, Myrna is also Guillermina's husband's mother-in-law. Therefore, Myrna is Guillermina's mother and mother-in-law. <Begin> In general, a person's mother is also their spouse's mother-in-law. </End>": [
+        23.975732600732602,
+        13.024267399267401
+    ],
+    "Russell is Myrna's nephew. <new_rule> Inference rule: The son of a sister is a nephew. <new_rule>": [
+        17.095512820512816,
+        10.90448717948718
+    ],
+    "Sheila is Donna's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule>": [
+        11.148351648351648,
+        7.851648351648352
+    ],
+    "Christopher is James's son's uncle. Therefore, Christopher is James's brother. <retrieved_rule> In general, a person's son's uncle is the person's brother. <retrieved_rule>": [
+        19.607142857142854,
+        11.392857142857142
+    ],
+    "Angela is James's niece. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship, and the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> <new_rule> Inference rule: The son of a sister is a nephew. <new_rule> Therefore,": [
+        3.2083333333333335,
+        4.791666666666666
+    ],
+    "Aida is Vincent's daughter. <retrieved_rule> In a family relationship, a daughter is the female child of a parent. <retrieved_rule> Therefore,": [
+        15.8003663003663,
+        10.1996336996337
+    ],
+    "Deborah is Sheila's sister. <new_rule> In general, if the relations on the path from Sheila to Deborah are sister, sister, then Deborah is Sheila's sister. <new_rule>": [
+        8.217032967032967,
+        7.782967032967033
+    ],
+    "James is Vincent's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        11.517857142857142,
+        8.482142857142858
+    ],
+    "Asia is Russell's sister. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule>": [
+        5.404304029304029,
+        6.595695970695971
+    ],
+    "Alfred is Angela's brother. <retrieved_rule> In general, siblings share at least one common parent. <retrieved_rule>": [
+        10.023809523809522,
+        8.976190476190476
+    ],
+    "Jeffrey is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        13.607142857142858,
+        10.392857142857142
+    ],
+    "Dan is Kevin's brother. <retrieved_rule> In general, if the relations on the path from Kevin to Dan are brother, brother, then Dan is Kevin's brother. <retrieved_rule>": [
+        6.029761904761905,
+        6.970238095238095
+    ],
+    "Dorothy is Marci's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        10.729395604395606,
+        8.270604395604396
+    ],
+    "Donna is Michael's niece. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule>": [
+        4.303113553113554,
+        6.696886446886446
+    ],
+    "Michael is James's son's uncle. Therefore, Michael is James's brother. <retrieved_rule> In general, a person's son's uncle is the person's brother. <retrieved_rule>": [
+        2.3626373626373622,
+        4.637362637362638
+    ],
+    "Jeffrey is Christopher's son-in-law. <retrieved_rule> In general, a person's daughter's husband is their son-in-law. <retrieved_rule>": [
+        11.958333333333332,
+        9.041666666666666
+    ],
+    "Vanessa is Christopher's niece. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        19.03937728937729,
+        10.960622710622712
+    ],
+    "Vanessa is Michael's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        13.853571428571426,
+        9.146428571428569
+    ],
+    "Dan is Dorothy's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        5.2554945054945055,
+        6.7445054945054945
+    ],
+    "Micheal is Dorothy's son-in-law. <retrieved_rule> In general, the spouse of one's daughter is referred to as a son-in-law. <retrieved_rule>": [
+        11.535256410256409,
+        8.46474358974359
+    ],
+    "Michael is Myrna's son's uncle. Therefore, Michael is Myrna's brother. <retrieved_rule> In general, a person's son's uncle is the person's brother. <retrieved_rule>": [
+        1.8914835164835164,
+        4.108516483516484
+    ],
+    "Lucille is Christopher's daughter-in-law. <retrieved_rule> In general, a son's wife is the daughter-in-law of the son's mother. <retrieved_rule>": [
+        16.357142857142854,
+        8.642857142857144
+    ],
+    "Russell is James's nephew. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        8.18076923076923,
+        5.81923076923077
+    ],
+    "Chad is Annette's brother. <retrieved_rule> In general, if the relations on the path from Annette to Chad are sister, brother, then Chad is Annette's brother. <retrieved_rule>": [
+        7.2138278388278385,
+        6.7861721611721615
+    ],
+    "Aida is Vincent's sister. <retrieved_rule> In general, if the relations on the path from Vincent to Aida are brother, sister, then Aida is Vincent's sister. <retrieved_rule>": [
+        4.375,
+        5.625
+    ],
+    "Dorothy is Angela's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        11.898443223443223,
+        7.101556776556777
+    ],
+    "Chad is Myrna's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        3.2664835164835164,
+        4.733516483516484
+    ],
+    "Jennifer is Christopher's niece. <retrieved_rule> In general, a person's brother's daughter is their niece. <retrieved_rule>": [
+        17.217032967032967,
+        9.782967032967033
+    ],
+    "Donna is James's niece. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" indicates a sibling relationship. <retrieved_rule>": [
+        4.362637362637362,
+        4.637362637362638
+    ],
+    "Dorothy is Christopher's sister. <new_rule> In general, if the relations on the path from Christopher to Dorothy are brother, sister, then Dorothy is Christopher's sister. <new_rule>": [
+        4.035714285714286,
+        4.964285714285714
+    ],
+    "Myrna is Guillermina's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.355769230769231,
+        4.644230769230769
+    ],
+    "Kevin is Theresa's brother. <retrieved_rule> In general, if the relations on the path from Theresa to Kevin are sister, brother, then": [
+        13.124542124542122,
+        9.875457875457876
+    ],
+    "Myrna is Jose's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule>": [
+        10.46620879120879,
+        8.53379120879121
+    ],
+    "Theresa is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        6.178571428571429,
+        6.821428571428571
+    ],
+    "Dan is Theresa's brother. <retrieved_rule> In general, if the relations on the path from Theresa to Dan are sister, brother, then": [
+        7.136904761904763,
+        6.863095238095238
+    ],
+    "Dorothy is Michael's sister. <retrieved_rule> In general, if the relations on the path from Michael to Dorothy are brother, sister, then Dorothy is Michael's sister. <retrieved_rule>": [
+        13.988095238095237,
+        10.011904761904763
+    ],
+    "Lewis is Joe's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule>": [
+        1.5288461538461537,
+        4.471153846153847
+    ],
+    "Anna is Myrna's daughter-in-law. <retrieved_rule> In general, a son's wife is the daughter-in-law of the son's mother. <retrieved_rule>": [
+        5.092490842490842,
+        5.907509157509158
+    ],
+    "Sheila is Scott's sister. <retrieved_rule> In general, if the relations on the path from Scott to Sheila are brother, sister, then": [
+        3.886904761904762,
         6.113095238095238
     ],
-    "Alma is Dwight's daughter's aunt. Therefore, Alma is Dwight's sister or sister-in-law. <retrieved_rule> In a sibling relationship, the children of one's siblings are one's nieces or nephews. <retrieved_rule>": [
-        15.273809523809522,
-        6.726190476190476
+    "Alfred is Michael's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        2.0146520146520146,
+        4.985347985347985
     ],
-    "Dwight is Lewis's father-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        16.995238095238093,
-        7.004761904761905
+    "Lewis is Myrna's nephew. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule> Therefore,": [
+        5.574633699633701,
+        6.425366300366299
     ],
-    "Dwight is Sheila's father. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
-    ],
-    "Dwight is Deborah's husband's father. Therefore, Dwight is Deborah's father-in-law. <retrieved_rule> In general, a person's mother is also their spouse's mother-in-law. <retrieved_rule>": [
-        9.577380952380953,
-        4.4226190476190474
-    ],
-    "David is Dwight's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
-        2.3095238095238093,
-        3.6904761904761907
-    ],
-    "Donna is Dwight's son's wife. Therefore, Donna is Dwight's daughter-in-law. <retrieved_rule> In general, a son's wife is the daughter-in-law of the son's mother. <retrieved_rule>": [
-        15.82738095238095,
-        5.172619047619047
-    ],
-    "Dwight is Sheila's husband's father. Therefore, Dwight is Sheila's father-in-law. <retrieved_rule> In general, a person's mother is also their spouse's mother-in-law. <retrieved_rule>": [
-        2.3095238095238093,
-        3.6904761904761907
-    ],
-    "Dwight is Scott's brother's father. Therefore, Dwight is Scott's father. <retrieved_rule> A person's brother's father is also their father. <retrieved_rule>": [
-        10.476190476190476,
-        5.523809523809524
-    ],
-    "Dwight is James's brother. <retrieved_rule> In a sibling relationship, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule>": [
-        6.595238095238096,
-        4.404761904761905
-    ],
-    "Anna is Dwight's sister's daughter. Therefore, Anna is Dwight's niece. <retrieved_rule> Inference rule: The daughter of a sibling is a niece. <retrieved_rule>": [
-        12.428571428571427,
-        4.571428571428571
-    ],
-    "Dwight is Scott's father-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        14.69047619047619,
-        4.30952380952381
-    ],
-    "Christopher is Dwight's son's uncle. Therefore, Christopher is Dwight's brother or brother-in-law. <retrieved_rule> In this context, the relationship of uncle is established through the son, so Christopher must be the brother of Dwight. <retrieved_rule>": [
-        11.761904761904761,
-        6.238095238095237
-    ],
-    "Dwight is Jason's son. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule> Therefore,": [
-        11.519047619047619,
-        5.480952380952381
-    ],
-    "Joe is Dwight's daughter's brother. Therefore, Joe is Dwight's son. <retrieved_rule> In general, if the relations on the path from Myrna to James are sister, brother, then James is Myrna's brother. <retrieved_rule>": [
-        1.4761904761904763,
-        3.5238095238095237
-    ],
-    "Scott is Dwight's son's brother. Therefore, Scott is Dwight's son. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule>": [
-        9.904761904761905,
-        4.095238095238096
-    ],
-    "Vincent is Dwight's sister's son. Therefore, Vincent is Dwight's nephew. <new_rule> Inference rule: The son of a sibling is a nephew. <new_rule>": [
-        2.3966450216450217,
-        3.6033549783549783
-    ],
-    "Dwight is Michelle's brother's father. Therefore, Dwight is Michelle's father. <new_rule> In general, the father of a person's brother is also their father. <new_rule>": [
-        10.75974025974026,
-        4.240259740259741
-    ],
-    "Dwight is Joe's brother's son. Therefore, Dwight is Joe's nephew. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule>": [
-        7.225732600732601,
-        5.774267399267399
-    ],
-    "Lucille is Dwight's brother's daughter. Therefore, Lucille is Dwight's niece. <retrieved_rule> In a sibling relationship, the children of one's siblings are one's nieces or nephews. <retrieved_rule>": [
-        14.423809523809522,
-        6.576190476190476
-    ],
-    "Joe is Dwight's daughter's husband. Therefore, Joe is Dwight's son-in-law. <retrieved_rule> In general, a husband of one's daughter is referred to as a son-in-law. <retrieved_rule>": [
-        5.571428571428571,
-        4.428571428571429
-    ],
-    "Dorothy is Dwight's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule>": [
-        7.2857142857142865,
-        4.714285714285714
-    ],
-    "Dwight is Myrna's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        7.476190476190476,
-        3.5238095238095237
-    ],
-    "Donald is Dwight's nephew. <retrieved_rule> In a sibling relationship, the child of one's child is their grandchild. <retrieved_rule>": [
-        11.30952380952381,
-        3.6904761904761907
-    ],
-    "Dwight is Dorothy's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule>": [
-        3.7142857142857144,
-        3.2857142857142856
-    ],
-    "Dwight is Sheila's brother's father. Therefore, Dwight is Sheila's father. <new_rule> In general, the father of a person's brother is also their father. <new_rule>": [
-        25.41785714285714,
-        8.582142857142856
-    ],
-    "Micheal is Dwight's sister's son. Therefore, Micheal is Dwight's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule>": [
-        4.815018315018315,
-        4.184981684981684
-    ],
-    "Robert is Dwight's son. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
-        10.11904761904762,
-        4.880952380952381
-    ],
-    "Dwight is Michele's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule>": [
-        1.1428571428571428,
-        2.857142857142857
-    ],
-    "Sheila is Dwight's wife's daughter. Therefore, Sheila is Dwight's stepdaughter. <retrieved_rule> In general, the relation \"wife\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        8.571428571428571,
-        5.428571428571428
-    ],
-    "James is Dwight's daughter's uncle. Therefore, James is Dwight's brother or brother-in-law. <retrieved_rule> In this context, the relationship of uncle is established through the daughter, so James must be the brother of Dwight. <retrieved_rule>": [
-        10.82738095238095,
+    "Vanessa is Myrna's niece. <retrieved_rule> In general, the children of one's siblings are one's nieces or nephews. <retrieved_rule>": [
+        4.8273809523809526,
         6.1726190476190474
     ],
-    "Dwight is Christopher's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule>": [
-        2.7083333333333335,
-        3.2916666666666665
+    "Vanessa is Jennifer's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule>": [
+        4.375,
+        5.625
     ],
-    "William is Dwight's brother's son. Therefore, William is Dwight's nephew. <retrieved_rule> The son of a sibling is a nephew. <retrieved_rule>": [
-        1.2857142857142856,
-        2.7142857142857144
+    "James is Aida's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        4.494047619047619,
+        5.5059523809523805
     ],
-    "Dwight is Myrna's brother. <retrieved_rule> In general, if the relations on the path from Myrna to Dwight are brother, brother, then Dwight is Myrna's brother. <retrieved_rule>": [
-        4.095238095238096,
-        3.9047619047619047
+    "Dorothy is Vincent's sister. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"mother\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.8511904761904763,
+        4.148809523809524
     ],
-    "Dwight is James's daughter's uncle. Therefore, Dwight is James's brother or brother-in-law. <retrieved_rule> In this context, the relationship of uncle is established through the daughter, so Dwight must be the brother of James. <retrieved_rule>": [
-        2.142857142857143,
-        3.857142857142857
+    "Myrna is Alfred's mother-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        8.458333333333332,
+        6.541666666666666
     ],
-    "Myrna is Dwight's sister. <retrieved_rule> In this context, the relationship of brother is established through the sister. <retrieved_rule>": [
-        2.476190476190476,
-        3.523809523809524
+    "Jennifer is Russell's sister. <retrieved_rule> In general, if the relations on the path from Russell to Jennifer are brother, sister, then Jennifer is Russell's sister. <retrieved_rule>": [
+        2.6678571428571427,
+        4.332142857142857
     ],
-    "Scott is Dwight's son. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule> Therefore,": [
-        5.813311688311689,
-        4.186688311688312
+    "Myrna is William's sister. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        7.8809523809523805,
+        7.119047619047619
     ],
-    "Myrna is Dwight's sister. <retrieved_rule> In this context, the relationship of sister is established through the sister. <retrieved_rule>": [
-        9.005494505494505,
-        4.9945054945054945
+    "Lewis is David's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        6.303113553113554,
+        5.696886446886446
     ],
-    "Lewis is Dwight's daughter's husband. Therefore,": [
-        7.608766233766232,
-        3.3912337662337664
+    "Alfred is Dorothy's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
+        9.002380952380953,
+        7.997619047619048
     ],
-    "Dwight is Christopher's brother. <retrieved_rule> In general, the relationship of brother is established through the sister, so Dwight must be Russell's brother. <retrieved_rule>": [
-        9.43452380952381,
-        4.565476190476191
+    "James is Myrna's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        9.192765567765568,
+        7.8072344322344325
     ],
-    "Dwight is Alma's son's uncle. Therefore, Dwight is Alma's brother. <new_rule> In a family tree, the brother of one person's parent is their uncle. <new_rule>": [
-        3.880952380952381,
-        3.119047619047619
+    "Vanessa is Myrna's niece. <new_rule> In general, a person's brother's daughter is their niece. <new_rule>": [
+        2.5164835164835164,
+        4.483516483516484
     ],
-    "Michelle is Dwight's brother's daughter. Therefore,": [
-        5.362637362637363,
-        4.637362637362637
+    "Myrna is Jeffrey's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule>": [
+        13.964285714285712,
+        10.035714285714286
     ],
-    "Dwight is Dorothy's brother. <retrieved_rule> In general, the relation \"son, uncle\" implies that the uncle is also the brother of the person. <retrieved_rule>": [
-        5.142857142857142,
-        2.857142857142857
+    "Michael is Christopher's brother. <retrieved_rule> In general, if the relations on the path from Christopher to Michael are sister, brother, then": [
+        4.178571428571429,
+        6.821428571428571
     ],
-    "Dwight is Deborah's father. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule> Therefore,": [
-        7.974025974025975,
-        4.025974025974026
+    "Aida is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        16.38095238095238,
+        8.619047619047619
     ],
-    "Donald is Dwight's sister's son. Therefore, Donald is Dwight's nephew. <retrieved_rule> In a sibling relationship, the child of one's child is their grandchild. <retrieved_rule>": [
-        8.36047286047286,
-        5.63952713952714
+    "Chad is Christopher's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
+        2.553113553113553,
+        5.446886446886447
     ],
-    "Dwight is James's brother. <retrieved_rule> In this context, the relationship of brother is established through the sister, so James must be the brother of Alma. <retrieved_rule>": [
-        2.6223776223776225,
-        2.3776223776223775
+    "Dorothy is Micheal's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        15.175366300366301,
+        8.8246336996337
     ],
-    "Dwight is Donna's father's son. Therefore, Dwight is Donna's brother. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        12.26569264069264,
-        4.734307359307359
+    "Chad is Vanessa's brother. <retrieved_rule> In general, if the relations on the path from Vanessa to Chad are sister, brother, then": [
+        10.640109890109889,
+        8.35989010989011
     ],
-    "Dwight is Donna's father-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        1.612121212121212,
-        2.3878787878787877
+    "Lewis is James's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
+        1.6083333333333334,
+        4.391666666666667
     ],
-    "David is Dwight's daughter's husband. Therefore, David is Dwight's son-in-law. <retrieved_rule> In general, the relation \"husband\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        3.212121212121212,
-        2.787878787878788
+    "Aida is Myrna's niece. <retrieved_rule> In general, a person's brother's daughter is their niece. <retrieved_rule>": [
+        1.7852564102564101,
+        4.214743589743589
     ],
-    "Dwight is Christopher's brother. <retrieved_rule> In general, the relation \"son, uncle\" implies that the uncle is also the brother of the person. <retrieved_rule>": [
-        5.050949050949051,
-        3.9490509490509496
+    "Michael is Christopher's uncle. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle. <retrieved_rule>": [
+        2.6607142857142856,
+        4.339285714285714
     ],
-    "Gabrielle is Dwight's mother. <retrieved_rule> The relation \"son\" indicates a parent-child relationship, so David is Chad's son. <retrieved_rule> Therefore,": [
-        6.166666666666666,
-        2.8333333333333335
+    "Kevin is Christopher's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
+        1.937728937728938,
+        4.062271062271062
     ],
-    "Dwight is Deborah's brother's father. Therefore, Dwight is Deborah's grandfather. <new_rule> Inference rule: The father of a sibling is a grandparent. <new_rule>": [
-        11.450216450216448,
-        5.54978354978355
+    "James is Myrna's brother. <retrieved_rule> In general, if the relations on the path from Myrna to James are brother, brother, then": [
+        2.6845238095238093,
+        3.3154761904761907
     ],
-    "Sheila is Dwight's wife. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        2.2857142857142856,
-        2.7142857142857144
+    "Lucille is Myrna's daughter-in-law. <retrieved_rule> In general, the spouse of one's son is referred to as a daughter-in-law. <retrieved_rule>": [
+        3.312728937728938,
+        4.687271062271062
     ],
-    "Dwight is Jose's uncle. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        4.410714285714286,
-        4.589285714285714
+    "Annette is Michael's daughter. <new_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        2.75,
+        4.25
     ],
-    "Jason is Dwight's son's grandfather. Therefore, Jason is Dwight's father. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
-        2.714285714285714,
-        3.285714285714286
+    "Dan is Michael's nephew. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        6.493589743589744,
+        7.506410256410256
     ],
-    "Dwight is Donna's brother's father. Therefore, Dwight is Donna's grandfather. <retrieved_rule> Inference rule: The father of a sibling is a grandparent. <retrieved_rule>": [
-        3.7523809523809524,
-        3.2476190476190476
-    ],
-    "Deborah is Dwight's son's wife. Therefore, Deborah is Dwight's daughter-in-law. <retrieved_rule> In general, a son's wife is the daughter-in-law of the son's mother. <retrieved_rule>": [
-        13.285714285714285,
-        4.714285714285714
-    ],
-    "Dwight is Michael's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
-    ],
-    "Alma is Dwight's sister. <retrieved_rule> In this context, the relationship of sister is established through the sister. <retrieved_rule>": [
-        3.142857142857143,
-        1.8571428571428572
-    ],
-    "Michelle is Dwight's sister's daughter. Therefore, Michelle is Dwight's niece. <retrieved_rule> In a sister-daughter relationship, the daughter is the niece of the sister. <retrieved_rule>": [
-        3.4761904761904763,
-        2.5238095238095237
-    ],
-    "Joe is Dwight's son's father. Therefore, Joe is Dwight's husband. <retrieved_rule> In general, the relation \"husband\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        10.660714285714285,
-        5.339285714285714
-    ],
-    "Dorothy is Dwight's daughter's aunt. Therefore, Dorothy is Dwight's sister. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule>": [
-        12.942857142857143,
-        5.057142857142857
-    ],
-    "Christopher is Dwight's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule> Therefore,": [
-        3.283549783549783,
-        3.716450216450217
-    ],
-    "Russell is Dwight's brother's son. Therefore, Russell is Dwight's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule>": [
-        5.928571428571429,
-        4.071428571428571
-    ],
-    "James is Dwight's son's uncle. Therefore, James is Dwight's brother or brother-in-law. <retrieved_rule> In this context, the relationship of uncle is established through the son, so James must be the brother of Dwight. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
-    ],
-    "Scott is Dwight's daughter's husband. Therefore, Scott is Dwight's son-in-law. <retrieved_rule> In general, the relation \"husband\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        12.45238095238095,
-        4.5476190476190474
-    ],
-    "Dwight is David's father. <retrieved_rule> In general, a son is the male child of a parent. <retrieved_rule>": [
-        2.0,
-        2.0
-    ],
-    "Dwight is Alma's daughter's uncle. Therefore, Dwight is Alma's brother. <new_rule> In this context, the relationship of uncle is established through the daughter, so Dwight must be the brother of Alma. <new_rule>": [
-        6.729978354978355,
-        3.2700216450216453
-    ],
-    "Gabrielle is Dwight's daughter's grandmother. Therefore, Gabrielle is Dwight's mother. <retrieved_rule> In the relation \"daughter, grandmother\" the first \"daughter\" indicates a parent-child relationship, and the second \"grandmother\" indicates the relation of the person to the child's parent. <retrieved_rule>": [
-        5.5054945054945055,
-        3.4945054945054945
-    ],
-    "Dwight is Alma's brother. <retrieved_rule> In general, the relationship of brother is established through the sister, so Dwight must be Russell's brother. <retrieved_rule>": [
-        6.517857142857143,
+    "Deborah is Michele's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.5178571428571428,
         3.482142857142857
     ],
-    "Dwight is Michelle's father's brother. Therefore, Dwight is Michelle's uncle. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule>": [
-        5.6304945054945055,
-        3.3695054945054945
+    "Michael is Asia's nephew. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        6.2023809523809526,
+        5.7976190476190474
     ],
-    "James is Dwight's sister's brother. Therefore, James is Dwight's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so James and Dwight are siblings. <retrieved_rule>": [
-        3.442857142857143,
-        2.557142857142857
+    "Dorothy is Aida's sister. <retrieved_rule> In general, if the relations on the path from Aida to Dorothy are sister, mother, then Dorothy is Aida's sister. <retrieved_rule>": [
+        1.6607142857142856,
+        5.339285714285714
     ],
-    "Dorothy is Dwight's sister. <new_rule> In a son-aunt relationship, the aunt is the sister of the father or mother of the son. <new_rule> Therefore,": [
-        2.773351648351648,
-        3.226648351648352
+    "Michael is Robert's nephew. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
+        2.4000000000000004,
+        5.6
     ],
-    "Deborah is Dwight's daughter's stepmother. Therefore, Deborah is Dwight's stepdaughter. <retrieved_rule> In general, the relation \"husband\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        1.0,
-        2.0
+    "James is Aida's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
+        4.451923076923077,
+        4.548076923076923
     ],
-    "Michele is Dwight's son's wife. Therefore, Michele is Dwight's daughter-in-law. <retrieved_rule> In general, a son's wife is the daughter-in-law of the son's mother. <retrieved_rule>": [
-        2.7142857142857144,
-        3.2857142857142856
+    "Theresa is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.354395604395605,
+        5.645604395604395
     ],
-    "Michele is Dwight's daughter's sister. Therefore, Michele is Dwight's daughter or daughter-in-law. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Myrna is the daughter of Gabrielle's daughter. <retrieved_rule>": [
-        1.2857142857142856,
-        2.7142857142857144
+    "Deborah is Joe's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule>": [
+        5.4317765567765575,
+        6.5682234432234425
     ],
-    "Alma is Dwight's daughter's aunt. Therefore, Alma is Dwight's sister. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule>": [
-        5.451923076923077,
-        2.5480769230769234
+    "Michelle is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.638095238095238,
+        6.361904761904762
     ],
-    "Jose is Dwight's brother's son. Therefore, Jose is Dwight's nephew. <retrieved_rule> In general, a person's brother's child is their niece or nephew. <retrieved_rule>": [
-        6.142857142857142,
-        2.857142857142857
+    "Angela is Alfred's daughter. <retrieved_rule> In the relation \"daughter\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule>": [
+        7.1717032967032965,
+        6.8282967032967035
     ],
-    "Dwight is Deborah's husband's father. Therefore, Dwight is Deborah's father-in-law. <retrieved_rule> In general, the relation \"husband\" followed by \"father\" indicates a father-in-law relationship. <retrieved_rule>": [
-        15.553571428571427,
-        5.446428571428571
+    "Dorothy is Kevin's mother-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        6.4369047619047635,
+        6.5630952380952365
     ],
-    "Dwight is Sheila's husband's father. Therefore, Dwight is Sheila's father-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        4.485714285714286,
-        3.5142857142857142
+    "Anna is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.6845238095238093,
+        4.315476190476191
     ],
-    "Dwight is Scott's brother's father. Therefore, Dwight is Scott's father. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule>": [
-        3.142857142857143,
-        2.857142857142857
+    "Robert is Christopher's nephew. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule>": [
+        7.752747252747253,
+        7.247252747252747
     ],
-    "Dwight is James's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        2.4678571428571425,
-        3.5321428571428575
+    "Alfred is Angela's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        7.953846153846153,
+        6.046153846153846
     ],
-    "Anna is Dwight's sister's daughter. Therefore, Anna is Dwight's niece. <retrieved_rule> In a sister-daughter relationship, the daughter is the niece of the sister. <retrieved_rule>": [
-        12.487637362637361,
-        4.512362637362637
+    "David is James's nephew. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        1.708333333333333,
+        4.291666666666667
     ],
-    "Dwight is Jason's wife's son. Therefore, Dwight is Jason's stepson. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Guillermina is Christopher's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Vincent are siblings. <retrieved_rule>": [
+        7.258241758241758,
+        7.741758241758242
     ],
-    "Christopher is Dwight's uncle. <retrieved_rule> In a son-aunt relationship, the aunt is the sister of the father or mother of the son. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Jeffrey is Christopher's son. <retrieved_rule> In the relation \"son\" followed by \"son\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        19.184523809523807,
+        9.81547619047619
     ],
-    "Joe is Dwight's son-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
-        10.124542124542124,
-        3.875457875457876
-    ],
-    "Joe is Dwight's daughter's brother. Therefore, Joe is Dwight's son. <retrieved_rule> In the relation \"daughter, brother\" the first \"daughter\" indicates a parent-child relationship, and the second \"brother\" implies that the two individuals are siblings, so Joe is the son of Dwight. <retrieved_rule>": [
-        10.333333333333332,
-        3.6666666666666665
-    ],
-    "Dwight is Michelle's brother. <retrieved_rule> The relation \"brother\" implies that the two individuals are siblings, so Jason and Jose are siblings. <retrieved_rule>": [
-        1.5857142857142856,
-        3.4142857142857146
-    ],
-    "Lucille is Dwight's sister's daughter. Therefore, Lucille is Dwight's niece. <retrieved_rule> In a sister-daughter relationship, the daughter is the niece of the sister. <retrieved_rule>": [
-        5.50952380952381,
-        3.490476190476191
-    ],
-    "Dwight is Myrna's daughter's uncle. Therefore, Dwight is Myrna's brother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"uncle\" indicates a sibling relationship. <retrieved_rule>": [
-        7.375,
-        3.625
-    ],
-    "Jason is Dwight's daughter's grandfather. Therefore, Jason is Dwight's father. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"grandfather\" indicates the relation of the person to the child's parent. <retrieved_rule>": [
-        5.871428571428571,
-        2.1285714285714286
-    ],
-    "Dorothy is Dwight's sister. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        12.142857142857142,
+    "Marci is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule>": [
+        4.142857142857142,
         4.857142857142858
     ],
-    "Dwight is Myrna's brother. <retrieved_rule> In general, the relationship of brother is established through the sister, so Dwight must be Myrna's brother. <retrieved_rule>": [
-        2.267857142857143,
-        2.732142857142857
+    "Russell is Jennifer's brother. <retrieved_rule> In general, if the relations on the path from Russell to Jennifer are brother, sister, then Jennifer is Russell's sister. <retrieved_rule>": [
+        3.452380952380952,
+        5.5476190476190474
     ],
-    "Donald is Dwight's nephew. <retrieved_rule> In general, the relation \"brother\" followed by \"son\" indicates an uncle-nephew relationship. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Christopher is Alfred's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        6.125,
+        5.875
     ],
-    "Dwight is Dorothy's brother. <retrieved_rule> In general, the relationship of brother is established through the mother, so Dwight must be Russell's brother. <retrieved_rule> Therefore,": [
-        7.999999999999999,
-        3.0
+    "Michael is Asia's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        9.368589743589743,
+        7.631410256410256
     ],
-    "Dwight is Sheila's brother's father. Therefore, Dwight is Sheila's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, so Jason is Aida's son. <retrieved_rule>": [
-        1.125,
-        1.875
+    "Jose is Myrna's son. <retrieved_rule> In the relation \"son\" followed by \"son\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        4.017857142857142,
+        5.982142857142858
     ],
-    "Micheal is Dwight's sister's son. Therefore, Micheal is Dwight's nephew. <retrieved_rule> In this context, the relationship of sister is established through the sister. <retrieved_rule>": [
-        6.285714285714286,
-        2.7142857142857144
+    "Lewis is Michele's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        9.874542124542126,
+        7.125457875457876
     ],
-    "Robert is Dwight's sister's son. Therefore, Robert is Dwight's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule>": [
-        4.476190476190476,
-        2.5238095238095237
+    "Jennifer is Russell's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        8.49404761904762,
+        6.5059523809523805
     ],
-    "Dwight is Michele's father. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Michele and Dwight are siblings. <retrieved_rule>": [
-        5.267857142857143,
-        2.732142857142857
+    "Kevin is Dorothy's son-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        6.7976190476190474,
+        5.2023809523809526
     ],
-    "James is Dwight's daughter's uncle. Therefore, James is Dwight's brother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"uncle\" indicates a sibling relationship. <retrieved_rule>": [
-        1.4761904761904763,
-        2.5238095238095237
+    "Alfred is Christopher's son. <retrieved_rule> In the relation \"son\" followed by \"son\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        1.676190476190476,
+        3.323809523809524
     ],
-    "Dwight is Christopher's brother. <new_rule> In general, the relationship of brother is established through the sister, so Dwight must be Russell's brother. <new_rule>": [
-        1.1428571428571428,
-        2.857142857142857
+    "Asia is Annette's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule>": [
+        8.8,
+        5.2
     ],
-    "William is Dwight's brother's son. Therefore, William is Dwight's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Theresa is the granddaughter of Gabrielle. <retrieved_rule>": [
-        6.59478021978022,
-        3.4052197802197806
+    "James is Theresa's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.0595238095238093,
+        4.940476190476191
     ],
-    "Dwight is Lewis's brother's father. Therefore, Dwight is Lewis's father. <retrieved_rule> In a sibling relationship, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        5.517857142857143,
-        2.482142857142857
+    "Donna is Sheila's sister. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        5.309065934065934,
+        4.690934065934066
     ],
-    "Myrna is Dwight's sister's daughter. Therefore, Myrna is Dwight's niece. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule>": [
-        7.166666666666667,
-        1.8333333333333335
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Vincent are siblings. <retrieved_rule>": [
+        5.392857142857142,
+        5.607142857142858
     ],
-    "Dwight is Myrna's brother. Therefore, Dwight is Myrna's brother. <retrieved_rule> In general, the relationship of brother is established through the sister, so Dwight must be Myrna's brother. <retrieved_rule>": [
-        5.0,
-        2.0
+    "Annette is Russell's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        7.410714285714286,
+        6.5892857142857135
     ],
-    "Myrna is Dwight's sister. <new_rule> In general, the relationship of sister is established through the mother, so Dwight must be Myrna's brother. <new_rule> Therefore,": [
-        2.375,
-        1.625
+    "Donald is Vanessa's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        10.069047619047618,
+        8.93095238095238
     ],
-    "Dwight is Michael's brother. Therefore,": [
-        1.0,
-        2.0
+    "Jose is Christopher's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.9464285714285712,
+        5.053571428571428
     ],
-    "Christopher is Dwight's brother. <new_rule> In general, siblings share the same parents. <new_rule>": [
-        4.0,
-        2.0
+    "Donald is Jennifer's brother. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        5.591208791208791,
+        5.408791208791209
     ],
-    "Scott is Dwight's son's wife. Therefore, Scott is Dwight's son-in-law. <retrieved_rule> The relation \"wife, son\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
-        2.142857142857143,
-        2.857142857142857
+    "Kevin is Vincent's brother. <retrieved_rule> In general, if the relations on the path from Kevin to Dan are brother, brother, then Dan is Kevin's brother. <retrieved_rule> Therefore,": [
+        1.9162087912087913,
+        4.083791208791209
     ],
-    "Myrna is Dwight's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Michele and Dwight are siblings. <retrieved_rule>": [
-        3.125,
-        1.875
+    "Sheila is Michele's sister. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        4.125,
+        4.875
     ],
-    "Lewis is Dwight's daughter's husband. Therefore, Lewis is Dwight's son-in-law. <retrieved_rule> In general, the relation \"husband\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule>": [
-        1.0,
-        1.0
+    "Myrna is Chad's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Joe are siblings. <retrieved_rule>": [
+        16.647893772893774,
+        10.352106227106228
     ],
-    "Dwight is Christopher's brother. <retrieved_rule> In general, the relationship of brother is established through the sister, so Dwight must be Myrna's brother. <retrieved_rule>": [
-        2.3333333333333335,
-        2.6666666666666665
+    "Michelle is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.96978021978022,
+        6.03021978021978
     ],
-    "Dwight is Alma's son's uncle. Therefore, Dwight is Alma's brother. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        3.0,
-        1.0
+    "Vincent is Dorothy's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        3.142857142857143,
+        5.857142857142857
     ],
-    "Dwight is Dorothy's brother. Therefore, Dwight is Dorothy's brother. <retrieved_rule> In a sibling relationship, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        1.0,
-        2.0
+    "Christopher is Jose's wife's father. Therefore, Christopher is Jose's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        11.288095238095238,
+        7.711904761904762
     ],
-    "Dwight is Deborah's father's sister. Therefore, Dwight is Deborah's aunt. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, so Deborah is the daughter of Dwight's parent. <retrieved_rule>": [
-        2.0769230769230766,
-        1.9230769230769231
+    "Michelle is Dan's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        6.996428571428572,
+        7.003571428571428
     ],
-    "Donald is Dwight's nephew. <retrieved_rule> In this context, the relationship of sister is established through the sister. <retrieved_rule>": [
-        7.142857142857142,
-        1.8571428571428572
+    "Myrna is Dorothy's sister. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        5.34478021978022,
+        5.65521978021978
     ],
-    "Dwight is James's brother. <retrieved_rule> In general, siblings share the same parents. <retrieved_rule>": [
-        3.914285714285714,
-        3.085714285714286
+    "Jennifer is Donald's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        8.08882783882784,
+        7.911172161172161
     ],
-    "Dwight is Donna's sister's father. Therefore, Dwight is Donna's father. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Michael is Chad's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        1.375,
+        4.625
     ],
-    "Dwight is James's son's uncle. Therefore, Dwight is James's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" indicates a sibling relationship. <retrieved_rule>": [
-        6.0,
-        2.0
+    "Michael is Annette's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
+        7.91025641025641,
+        6.089743589743589
     ],
-    "Dwight is Dorothy's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Michelle is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        9.160714285714286,
+        6.839285714285714
     ],
-    "Dwight is Donna's husband's father. Therefore, Dwight is Donna's father-in-law. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
+    "Asia is Jennifer's sister. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship. <retrieved_rule>": [
+        7.735714285714287,
+        6.264285714285714
+    ],
+    "Jeffrey is Myrna's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"brother\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        5.010714285714286,
+        6.989285714285714
+    ],
+    "Jennifer is Donald's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule>": [
+        4.951923076923077,
+        6.048076923076923
+    ],
+    "Lucille is Angela's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        6.74404761904762,
+        6.2559523809523805
+    ],
+    "Lucille is Angela's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.321428571428571,
+        4.678571428571429
+    ],
+    "Joe is Michael's nephew. <new_rule> In a sister-son relationship, the son is the nephew of the sister. <new_rule>": [
+        3.384523809523809,
+        4.6154761904761905
+    ],
+    "Alfred is Christopher's son-in-law. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
+        5.40934065934066,
+        5.59065934065934
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        9.668589743589743,
+        7.331410256410257
+    ],
+    "Dorothy is Kevin's sister. <retrieved_rule> In general, if the relations on the path from Michael to Dorothy are brother, sister, then Dorothy is Michael's sister. <retrieved_rule> Therefore,": [
+        7.445970695970697,
+        6.554029304029303
+    ],
+    "Chad is Michael's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        12.124999999999998,
+        7.874999999999999
+    ],
+    "Donna is Deborah's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        2.75,
+        5.25
+    ],
+    "Dorothy is Myrna's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        5.75,
+        5.25
+    ],
+    "David is Lewis's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule>": [
+        5.964285714285714,
+        5.035714285714286
+    ],
+    "James is Michelle's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        4.574999999999999,
+        6.425
+    ],
+    "Myrna is Angela's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        11.589285714285714,
+        8.410714285714286
+    ],
+    "Guillermina is Myrna's daughter-in-law. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        6.166208791208791,
+        4.833791208791209
+    ],
+    "Aida is Christopher's sister. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        5.686446886446887,
+        6.313553113553113
+    ],
+    "Myrna is James's sister. <retrieved_rule> In general, if the relations on the path from Sheila to Deborah are sister, sister, then Deborah is Sheila's sister. <retrieved_rule> Therefore,": [
+        1.6282051282051282,
+        4.371794871794872
+    ],
+    "Myrna is Marci's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        7.66620879120879,
+        7.333791208791209
+    ],
+    "Guillermina is Jeffrey's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        4.2023809523809526,
+        4.7976190476190474
+    ],
+    "Marci is Christopher's niece. <retrieved_rule> In general, the daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        3.6088827838827835,
+        7.391117216117216
+    ],
+    "Scott is David's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule> Therefore,": [
+        2.5678571428571426,
+        4.432142857142857
+    ],
+    "Dorothy is Sheila's sister. <retrieved_rule> In general, if the relations on the path from Michael to Dorothy are brother, sister, then Dorothy is Michael's sister. <retrieved_rule> Therefore,": [
+        9.5,
+        6.5
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        11.522435897435896,
+        8.477564102564102
+    ],
+    "Lucille is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.517857142857143,
+        3.482142857142857
+    ],
+    "Dorothy is Michael's aunt. <retrieved_rule> In general, a person's son's uncle is their brother. <retrieved_rule> Therefore,": [
+        2.071428571428571,
+        4.928571428571429
+    ],
+    "James is Micheal's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        7.315476190476192,
+        6.684523809523808
+    ],
+    "Vanessa is Donald's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule>": [
+        2.4285714285714284,
+        4.571428571428571
+    ],
+    "Myrna is Jennifer's daughter. <new_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"father\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        8.017857142857142,
+        5.982142857142858
+    ],
+    "James is Michael's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        14.696428571428571,
+        9.303571428571429
+    ],
+    "Lucille is Christopher's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.2857142857142856,
+        3.7142857142857144
+    ],
+    "Theresa is James's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule>": [
+        4.296703296703296,
+        4.7032967032967035
+    ],
+    "David is Myrna's nephew. <retrieved_rule> Inference rule: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        2.4285714285714284,
+        4.571428571428571
+    ],
+    "Myrna is Angela's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        1.9464285714285712,
+        5.053571428571428
+    ],
+    "Christopher is Michael's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Joe are siblings. <retrieved_rule>": [
         2.2857142857142856,
         3.7142857142857144
     ],
-    "Dwight is Jose's mother's son. Therefore, Dwight is Jose's brother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Dwight is Jose's brother. <retrieved_rule>": [
-        4.142857142857142,
-        1.8571428571428572
+    "Christopher is Dorothy's brother. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        3.375,
+        4.625
     ],
-    "David is Dwight's son-in-law. <retrieved_rule> In general, the relation \"husband\" indicates a spousal relationship. <retrieved_rule> Therefore,": [
-        1.125,
-        1.875
+    "James is Christopher's uncle. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        2.923809523809524,
+        4.076190476190476
     ],
-    "Dwight is Christopher's uncle. <retrieved_rule> In a sister-daughter relationship, the daughter is the niece of the sister. <retrieved_rule>": [
-        3.2,
-        1.8
+    "Chad is Jennifer's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.5416666666666665,
+        4.458333333333334
     ],
-    "Gabrielle is Dwight's son's grandmother. Therefore, Gabrielle is Dwight's mother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Dwight. <retrieved_rule>": [
+    "Dan is Michelle's son. <retrieved_rule> In general, a son is the male child of a parent. <retrieved_rule> Therefore,": [
+        4.285714285714286,
+        4.714285714285714
+    ],
+    "Myrna is William's niece. <new_rule> Inference: The son of a sister is a nephew. <new_rule> Therefore,": [
+        5.164285714285715,
+        5.835714285714285
+    ],
+    "Scott is Dorothy's nephew. <retrieved_rule> Inference rule: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        6.118681318681319,
+        6.881318681318681
+    ],
+    "James is Marci's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule> Therefore,": [
+        4.946428571428572,
+        5.053571428571428
+    ],
+    "Kevin is Micheal's son. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule> Therefore,": [
+        3.0357142857142856,
+        4.964285714285714
+    ],
+    "Michael is Donald's father. <retrieved_rule> A person's brother's father is also their father. <retrieved_rule> Therefore,": [
+        8.28021978021978,
+        6.71978021978022
+    ],
+    "Donald is Michael's son. <retrieved_rule> In the relation \"son, son\" the first \"son\" indicates a parent-child relationship, and the second \"son\" indicates a parent-child relationship, making Donald the son of Michael's child. <retrieved_rule>": [
+        7.875,
+        6.124999999999999
+    ],
+    "Dorothy is Myrna's sister. <new_rule> In general, the relation \"sister\" indicates a sibling relationship. <new_rule> Therefore,": [
+        1.9574175824175821,
+        6.042582417582418
+    ],
+    "Dan is James's son's uncle. Therefore, Dan is James's brother. <retrieved_rule> In general, a person's son's uncle is the person's brother. <retrieved_rule>": [
+        2.6607142857142856,
+        4.339285714285714
+    ],
+    "Donna is Christopher's niece. <retrieved_rule> Inference rule: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        3.71978021978022,
+        5.28021978021978
+    ],
+    "Kevin is Dan's brother. <retrieved_rule> In general, if the relations on the path from Dan to Kevin are sister, brother, then": [
+        6.262728937728937,
+        5.737271062271063
+    ],
+    "Christopher is Alfred's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Joe are siblings. <retrieved_rule> Therefore,": [
+        3.125,
+        4.875
+    ],
+    "Dorothy is Theresa's mother-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule> Therefore,": [
+        3.892857142857143,
+        5.107142857142858
+    ],
+    "Anna is William's sister. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        2.654761904761904,
+        4.345238095238096
+    ],
+    "Robert is Michael's son-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        2.21978021978022,
+        3.78021978021978
+    ],
+    "Christopher is Guillermina's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        2.7472527472527473,
+        4.252747252747253
+    ],
+    "Asia is Michael's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Joe are siblings. <retrieved_rule> Therefore,": [
+        2.8511904761904763,
+        4.148809523809524
+    ],
+    "Guillermina is Christopher's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        4.344780219780219,
+        5.655219780219781
+    ],
+    "Myrna is Jose's mother. <new_rule> In general, the relation \"mother\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        5.050824175824176,
+        5.949175824175824
+    ],
+    "Micheal is Theresa's son. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.5416666666666665,
+        4.458333333333334
+    ],
+    "Dan is Michelle's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        10.20238095238095,
+        6.7976190476190474
+    ],
+    "Angela is Anna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.75,
+        4.25
+    ],
+    "Michael is Russell's brother. <retrieved_rule> In general, if the relations on the path from Russell to Michael are brother, father, then": [
+        1.923809523809524,
+        4.076190476190476
+    ],
+    "Angela is Christopher's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        10.050732600732601,
+        6.9492673992673994
+    ],
+    "William is Myrna's son-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        4.458333333333333,
+        4.541666666666667
+    ],
+    "Jennifer is Dorothy's niece. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        6.718864468864469,
+        7.28113553113553
+    ],
+    "Guillermina is Angela's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        3.369047619047619,
+        4.630952380952381
+    ],
+    "Christopher is Dorothy's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        1.3583333333333332,
+        3.6416666666666666
+    ],
+    "Aida is Theresa's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        16.936446886446884,
+        9.063553113553112
+    ],
+    "Deborah is Christopher's niece. <new_rule> Inference rule: The son of a sister is a nephew. <new_rule> Therefore,": [
+        5.55952380952381,
+        5.440476190476191
+    ],
+    "Michelle is Kevin's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Vanessa and Jennifer are siblings. <retrieved_rule> Therefore,": [
+        2.4952380952380953,
+        4.504761904761905
+    ],
+    "Russell is Dorothy's nephew. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        4.410714285714285,
+        4.589285714285714
+    ],
+    "William is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.646062271062272,
+        5.353937728937728
+    ],
+    "Dorothy is Lucille's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.6813186813186811,
+        3.3186813186813184
+    ],
+    "Kevin is James's son-in-law. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.8804945054945053,
+        4.1195054945054945
+    ],
+    "Jennifer is Russell's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        12.95238095238095,
+        8.047619047619047
+    ],
+    "Christopher is Guillermina's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.958150183150183,
+        4.041849816849817
+    ],
+    "David is Joe's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule> Therefore,": [
+        4.345238095238096,
+        5.654761904761904
+    ],
+    "Alfred is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.96978021978022,
+        4.03021978021978
+    ],
+    "Dan is Dorothy's son-in-law. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"husband\" indicates a spouse relationship. Therefore,": [
+        3.8804945054945055,
+        4.1195054945054945
+    ],
+    "Myrna is Vanessa's daughter. <new_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <new_rule>": [
+        5.498626373626374,
+        5.501373626373626
+    ],
+    "Scott is Dorothy's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule> Therefore,": [
+        9.283333333333333,
+        6.716666666666667
+    ],
+    "Michele is Donna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.851190476190476,
+        4.148809523809524
+    ],
+    "Annette is Dorothy's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        11.445970695970697,
+        8.554029304029305
+    ],
+    "Robert is Vanessa's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.6607142857142856,
+        4.339285714285714
+    ],
+    "Lucille is Dorothy's niece. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        4.511904761904761,
+        4.488095238095239
+    ],
+    "Christopher is James's brother. <retrieved_rule> In general, if the relations on the path from Kevin to Dan are brother, brother, then Dan is Kevin's brother. <retrieved_rule> Therefore,": [
         1.1428571428571428,
-        1.8571428571428572
+        2.857142857142857
     ],
-    "Dwight is Deborah's father. <new_rule> In the relation \"brother, father\" the first \"brother\" is the sibling of the second \"father\", making Jason the grandfather of Lewis. <new_rule> Therefore,": [
-        1.1666666666666665,
-        1.8333333333333335
+    "Michael is Christopher's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" implies that the two individuals are siblings, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        4.729395604395605,
+        5.270604395604395
     ],
-    "Sheila is Dwight's wife's son. Therefore, Sheila is Dwight's stepson. <retrieved_rule> In a husband-wife relationship, the husband is the father of their children. <retrieved_rule>": [
+    "Myrna is Vincent's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Joe are siblings. <retrieved_rule> Therefore,": [
+        1.5,
+        3.5
+    ],
+    "Alfred is Anna's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule> Therefore,": [
+        9.820054945054945,
+        7.179945054945056
+    ],
+    "Dorothy is Michael's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        9.666208791208792,
+        7.333791208791209
+    ],
+    "Myrna is Michelle's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule>": [
+        12.809065934065934,
+        9.190934065934067
+    ],
+    "Lewis is David's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        6.743131868131868,
+        6.256868131868132
+    ],
+    "Angela is Christopher's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.03434065934066,
+        4.96565934065934
+    ],
+    "Robert is Michael's grandson. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule> Therefore,": [
+        3.659340659340659,
+        5.34065934065934
+    ],
+    "Dorothy is Donald's aunt. <retrieved_rule> In general, if the relations on the path from Annette to Chad are sister, brother, then Chad is Annette's brother. <retrieved_rule> Therefore,": [
+        14.068589743589744,
+        7.931410256410257
+    ],
+    "Dorothy is William's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        2.2710622710622714,
+        4.728937728937728
+    ],
+    "Jennifer is Annette's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"granddaughter\" means the person is the granddaughter of the other. <retrieved_rule> Therefore,": [
+        5.718864468864469,
+        5.281135531135531
+    ],
+    "Michael is Vanessa's father. <retrieved_rule> In general, if the relations on the path from Sheila to Dwight are sister, father, then Dwight is Sheila's brother. <retrieved_rule> Therefore,": [
+        5.4006410256410255,
+        4.5993589743589745
+    ],
+    "Asia is Christopher's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        13.862637362637361,
+        9.137362637362637
+    ],
+    "Aida is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        3.78525641025641,
+        5.214743589743589
+    ],
+    "James is Michael's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        4.029761904761905,
+        4.970238095238095
+    ],
+    "Annette is Myrna's niece. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        7.125,
+        5.875
+    ],
+    "Kevin is James's son. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        8.068681318681318,
+        6.931318681318682
+    ],
+    "Michelle is Myrna's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        2.452380952380952,
+        2.547619047619048
+    ],
+    "Sheila is Donna's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.731684981684982,
+        7.268315018315018
+    ],
+    "Marci is Dorothy's daughter-in-law. <retrieved_rule> The relations on the path from Dorothy to Marci are son, wife. <retrieved_rule> Therefore,": [
+        13.223901098901097,
+        7.776098901098901
+    ],
+    "James is Michelle's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        8.285347985347984,
+        7.714652014652014
+    ],
+    "Christopher is Angela's brother. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        10.225274725274723,
+        7.774725274725275
+    ],
+    "Vanessa is Dorothy's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        3.5535714285714284,
+        4.446428571428571
+    ],
+    "Myrna is Angela's mother. <new_rule> In general, the relation \"mother\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        7.3388278388278385,
+        6.6611721611721615
+    ],
+    "Dorothy is Vanessa's aunt. <retrieved_rule> In general, if the relations on the path from Sheila to Dwight are sister, father, then Dwight is Sheila's brother. <retrieved_rule> Therefore,": [
+        8.586538461538462,
+        6.413461538461538
+    ],
+    "James is Myrna's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" implies that the two individuals are siblings, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        17.538095238095238,
+        7.461904761904762
+    ],
+    "Scott is Myrna's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        22.458791208791208,
+        10.54120879120879
+    ],
+    "James is Dan's brother. <retrieved_rule> In general, if the relations on the path from Dan to James are sister, father, then": [
+        8.56547619047619,
+        6.434523809523809
+    ],
+    "Scott is Michael's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" implies that the two individuals are siblings, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        1.5947802197802199,
+        3.40521978021978
+    ],
+    "Chad is Dorothy's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" implies that the two individuals are siblings, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        4.675,
+        4.325
+    ],
+    "Myrna is Michael's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        14.610347985347984,
+        7.389652014652015
+    ],
+    "Marci is Christopher's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        12.312637362637362,
+        7.687362637362638
+    ],
+    "Myrna is Michele's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so": [
+        5.194047619047619,
+        5.805952380952381
+    ],
+    "Micheal is Dorothy's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ],
-    "Lewis is Dwight's daughter's brother. Therefore, Lewis is Dwight's son. <retrieved_rule> In the relation \"daughter, brother\" the first \"daughter\" indicates a parent-child relationship, and the second \"brother\" implies that the two individuals are siblings, so Lewis is the son of Dwight. <retrieved_rule>": [
-        5.142857142857143,
-        1.8571428571428572
+    "Angela is James's niece. <new_rule> Inference: The daughter of a sibling is a niece. <new_rule> Therefore,": [
+        6.438095238095238,
+        3.5619047619047617
     ],
-    "Dan is Dwight's nephew. <retrieved_rule> In general, a person's brother's child is their niece or nephew. <retrieved_rule>": [
-        3.7380952380952377,
-        2.261904761904762
+    "Russell is Myrna's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        11.249542124542122,
+        6.750457875457875
     ],
-    "Dwight is Jose's brother. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule>": [
+    "Sheila is Donna's sister. <new_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Russell's sister, then Russell is also Alma's sister. <new_rule> Therefore,": [
+        4.136904761904762,
+        4.863095238095238
+    ],
+    "Christopher is James's nephew. <retrieved_rule> Inference rule: The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        5.4226190476190474,
+        5.5773809523809526
+    ],
+    "Lucille is Guillermina's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Lucille is Guillermina's daughter. <retrieved_rule> Therefore,": [
+        9.790018315018315,
+        7.209981684981686
+    ],
+    "Chad is James's nephew. <retrieved_rule> In general, a brother's daughter is a niece. <retrieved_rule> Therefore,": [
+        3.291208791208791,
+        5.708791208791209
+    ],
+    "Deborah is Sheila's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        5.8273809523809526,
+        5.1726190476190474
+    ],
+    "Christopher is Angela's brother. <retrieved_rule> In general, if the relations on the path from Angela to Christopher are brother, father, then Christopher is Angela's brother. <retrieved_rule> Therefore,": [
+        3.8130952380952383,
+        4.186904761904762
+    ],
+    "Anna is Alfred's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.8269230769230766,
+        4.173076923076923
+    ],
+    "Asia is Russell's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        4.857142857142857,
+        4.142857142857143
+    ],
+    "Christopher is Anna's son. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.043589743589743,
+        5.956410256410257
+    ],
+    "Michael is Myrna's brother. <retrieved_rule> In general, if the relations on the path from Myrna to Michael are brother, brother, then Michael is Myrna's brother. <retrieved_rule> Therefore,": [
+        5.062728937728939,
+        4.937271062271061
+    ],
+    "Guillermina is Jose's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        11.342857142857142,
+        7.6571428571428575
+    ],
+    "Lucille is Christopher's daughter-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        10.404761904761903,
+        7.595238095238095
+    ],
+    "Alfred is Angela's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        6.127380952380952,
+        4.872619047619047
+    ],
+    "Jeffrey is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so if Scott is Lisa's son, then Lisa is also Scott's mother. <retrieved_rule> Therefore,": [
+        6.707875457875457,
+        5.292124542124543
+    ],
+    "Michael is James's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        5.785714285714286,
+        5.214285714285714
+    ],
+    "James is Kevin's father. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        1.3095238095238093,
+        3.6904761904761907
+    ],
+    "Jeffrey is Christopher's son-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        3.1222527472527473,
+        4.877747252747253
+    ],
+    "Dorothy is Michael's sister. <retrieved_rule> In general, if the relations on the path from Russell to Jennifer are brother, sister, then Jennifer is Russell's sister. <retrieved_rule> Therefore,": [
+        7.309065934065934,
+        6.690934065934067
+    ],
+    "Vanessa is Christopher's niece. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        4.166666666666666,
+        2.8333333333333335
+    ],
+    "Donna is Michael's niece. <retrieved_rule> In general, the daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        6.777014652014652,
+        6.222985347985348
+    ],
+    "Vanessa is Michael's daughter-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        8.895970695970696,
+        7.1040293040293045
+    ],
+    "Dan is Dorothy's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        9.601190476190474,
+        6.398809523809524
+    ],
+    "Dorothy is Myrna's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        10.921703296703297,
+        8.078296703296703
+    ],
+    "Michael is Myrna's brother. <retrieved_rule> In this context, the relationship of uncle is established through the daughter, so Dwight must be the brother of Myrna. <retrieved_rule> Therefore,": [
+        2.951923076923077,
+        4.048076923076923
+    ],
+    "Russell is James's nephew. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        2.517857142857143,
+        4.482142857142858
+    ],
+    "Chad is Annette's brother. <retrieved_rule> Siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        6.4107142857142865,
+        6.589285714285714
+    ],
+    "Aida is Vincent's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        8.017857142857142,
+        6.982142857142858
+    ],
+    "Donna is James's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        2.4583333333333335,
+        4.541666666666666
+    ],
+    "Dorothy is Angela's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        5.642857142857142,
+        5.357142857142858
+    ],
+    "Jennifer is Christopher's niece. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        3.2234432234432235,
+        4.7765567765567765
+    ],
+    "Chad is Dorothy's nephew. <retrieved_rule> In general, a person's brother's child is their niece or nephew. <retrieved_rule> Therefore,": [
+        1.6813186813186811,
+        3.3186813186813184
+    ],
+    "Russell is Jennifer's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.3095238095238093,
+        2.6904761904761907
+    ],
+    "Dorothy is Christopher's sister. <retrieved_rule> In general, if the relations on the path from Michael to Dorothy are brother, sister, then Dorothy is Michael's sister. <retrieved_rule> Therefore,": [
+        12.631776556776558,
+        7.368223443223443
+    ],
+    "Michael is James's uncle. <retrieved_rule> In general, the relation \"uncle\" is established through the son, so Christopher must be the brother of Dorothy. <retrieved_rule> Therefore,": [
+        2.875,
+        3.125
+    ],
+    "Kevin is Theresa's brother. <retrieved_rule> In general, if the relations on the path from Theresa to Kevin are sister, brother, then Kevin is Theresa's brother. <retrieved_rule> Therefore,": [
+        6.375,
+        6.625000000000001
+    ],
+    "Theresa is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        10.80430402930403,
+        7.195695970695971
+    ],
+    "Dan is Theresa's brother. <retrieved_rule> In general, if the relations on the path from Sheila to Deborah are sister, sister, then Deborah is Sheila's sister. <retrieved_rule> Therefore,": [
+        4.6690476190476184,
+        5.330952380952381
+    ],
+    "Scott is Donna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.2023809523809526,
+        5.7976190476190474
+    ],
+    "Lewis is Joe's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule> Therefore,": [
+        7.112637362637362,
+        5.887362637362638
+    ],
+    "Anna is Myrna's daughter-in-law. <new_rule> In a son-wife relationship, the wife is the daughter-in-law of the son's parent. <new_rule> Therefore,": [
+        4.142857142857143,
+        4.857142857142857
+    ],
+    "Lucille is Michael's sister. <retrieved_rule> In general, if the relations on the path from Michael to Dorothy are brother, sister, then Dorothy is Michael's sister. <retrieved_rule> Therefore,": [
+        2.8035714285714284,
+        4.196428571428571
+    ],
+    "James is Theresa's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, so if Alma is Myrna's sister, then Myrna is also Alma's sister. <retrieved_rule> Therefore,": [
+        13.148809523809524,
+        6.851190476190476
+    ],
+    "Michael is Russell's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule> Therefore,": [
+        3.7083333333333335,
+        4.291666666666666
+    ],
+    "Sheila is Scott's sister. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        1.9391025641025643,
+        4.060897435897435
+    ],
+    "Vanessa is Jennifer's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        2.4285714285714284,
+        4.571428571428571
+    ],
+    "Lewis is Myrna's nephew. <retrieved_rule> In a sister-son relationship, the son is the nephew of the sister. <retrieved_rule> Therefore,": [
+        2.136904761904762,
+        3.863095238095238
+    ],
+    "Vanessa is Myrna's niece. <retrieved_rule> The daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        6.43956043956044,
+        5.56043956043956
+    ],
+    "Dorothy is Vincent's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if the relations on the path from Sheila to Dwight are sister, father, then Dwight is Sheila's brother. <retrieved_rule> Therefore,": [
+        10.310347985347985,
+        7.6896520146520135
+    ],
+    "Aida is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.333333333333333,
+        4.666666666666667
+    ],
+    "Theresa is Dorothy's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.267857142857143,
+        3.732142857142857
+    ],
+    "Russell is Myrna's brother's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        5.582875457875459,
+        7.417124542124541
+    ],
+    "Myrna is Alfred's mother-in-law. <retrieved_rule> In general, a person's mother is one step away on the path of relations. <retrieved_rule> Therefore,": [
+        3.416666666666667,
+        3.583333333333333
+    ],
+    "Myrna is Sheila's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.317857142857142,
+        4.682142857142857
+    ],
+    "Jennifer is Russell's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Vanessa and Jennifer are siblings. <retrieved_rule> Therefore,": [
+        2.1666666666666665,
+        3.8333333333333335
+    ],
+    "Myrna is William's sister. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        1.0666666666666667,
+        2.9333333333333336
+    ],
+    "Myrna is James's sister. <retrieved_rule> In general, the relation \"aunt\" indicates that Alma is the sister of James's parent. <retrieved_rule> Therefore,": [
+        6.178113553113553,
+        5.821886446886448
+    ],
+    "Asia is Jennifer's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        5.7857142857142865,
+        6.2142857142857135
+    ],
+    "Michelle is Aida's sister. <retrieved_rule> In general, if the relations on the path from Aida to Michelle are brother, sister, then": [
+        6.4107142857142865,
+        5.589285714285714
+    ],
+    "Vanessa is Myrna's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        7.279761904761905,
+        4.720238095238095
+    ],
+    "James is Myrna's brother. <retrieved_rule> In general, if the relations on the path from Myrna to James are sister, brother, then James is Myrna's brother. <retrieved_rule> Therefore,": [
+        6.934523809523809,
+        6.065476190476191
+    ],
+    "Myrna is Jeffrey's sister. <new_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <new_rule> Therefore,": [
+        6.126190476190476,
+        4.873809523809524
+    ],
+    "Myrna is Guillermina's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Myrna is Guillermina's daughter. <retrieved_rule> Therefore,": [
+        1.8959706959706957,
+        4.1040293040293045
+    ],
+    "Russell is Annette's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        8.709523809523809,
+        5.29047619047619
+    ],
+    "Donna is Dorothy's niece. <retrieved_rule> The daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        8.255494505494505,
+        6.744505494505494
+    ],
+    "Michael is Annette's brother. <retrieved_rule> In general, if the relations on the path from Myrna to Michael are brother, brother, then Michael is Myrna's brother. <retrieved_rule> Therefore,": [
+        5.651190476190476,
+        6.348809523809524
+    ],
+    "Chad is Christopher's nephew. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule> Therefore,": [
+        3.4345238095238093,
+        5.565476190476191
+    ],
+    "Jose is Myrna's son. <new_rule> In this context, the relationship of father is established through the brother, so Dwight must be the father of Scott. <new_rule> Therefore,": [
+        1.2197802197802197,
+        3.78021978021978
+    ],
+    "Chad is Vanessa's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        2.3095238095238093,
+        3.6904761904761907
+    ],
+    "Annette is Michael's daughter. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        10.731227106227104,
+        7.268772893772893
+    ],
+    "Jose is Dorothy's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        5.125,
+        3.875
+    ],
+    "Michelle is Aida's daughter. <new_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <new_rule> Therefore,": [
+        1.452380952380952,
+        3.547619047619048
+    ],
+    "Dan is Michael's nephew. <retrieved_rule> In general, a person's brother's child is their niece or nephew. <retrieved_rule> Therefore,": [
+        2.4999999999999996,
+        4.5
+    ],
+    "Asia is Jennifer's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule> Therefore,": [
+        12.017857142857142,
+        6.982142857142857
+    ],
+    "Dorothy is Christopher's sister. <retrieved_rule> In general, if the relations on the path from Christopher to Dorothy are brother, sister, then Dorothy is Christopher's sister. <retrieved_rule> Therefore,": [
+        3.541666666666666,
+        4.458333333333334
+    ],
+    "Dorothy is Michelle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so if Alma is Chad's mother, then Chad is Alma's son. <retrieved_rule> Therefore,": [
+        5.411446886446885,
+        5.588553113553114
+    ],
+    "Sheila is Scott's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.388095238095238,
+        4.611904761904762
+    ],
+    "Jennifer is Annette's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        5.434523809523809,
+        4.565476190476191
+    ],
+    "Theresa is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        1.6852564102564103,
+        4.31474358974359
+    ],
+    "Deborah is Joe's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        5.780952380952381,
+        5.219047619047619
+    ],
+    "Michelle is James's daughter-in-law. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        4.541666666666667,
+        4.458333333333333
+    ],
+    "Angela is Alfred's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        4.20952380952381,
+        3.7904761904761908
+    ],
+    "Sheila is David's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule> Therefore,": [
+        6.059523809523809,
+        4.940476190476191
+    ],
+    "Angela is James's niece. <retrieved_rule> In general, the daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        2.827380952380952,
+        4.1726190476190474
+    ],
+    "Anna is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.3095238095238093,
+        3.6904761904761907
+    ],
+    "Robert is Christopher's nephew. <retrieved_rule> In general, the child of a person's sibling is their nephew or niece. <retrieved_rule> Therefore,": [
+        8.059065934065934,
+        6.940934065934066
+    ],
+    "Christopher is William's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        2.2884615384615383,
+        3.7115384615384617
+    ],
+    "Guillermina is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <retrieved_rule> Therefore,": [
+        3.6595238095238094,
+        5.34047619047619
+    ],
+    "David is James's nephew. <retrieved_rule> In general, the son of a daughter is a grandson. <retrieved_rule> Therefore,": [
+        3.7102564102564104,
+        4.28974358974359
+    ],
+    "Christopher is James's nephew. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        7.146978021978022,
+        6.853021978021978
+    ],
+    "Guillermina is Christopher's sister. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        10.368131868131865,
+        6.631868131868131
+    ],
+    "Jeffrey is Christopher's son. <retrieved_rule> In the relation \"son, son\" the first \"son\" indicates a parent-child relationship, and the second \"son\" indicates a parent-child relationship, making Alfred the son of Gabrielle's child. <retrieved_rule> Therefore,": [
+        1.4761904761904763,
+        3.5238095238095237
+    ],
+    "Marci is Dorothy's daughter. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        3.8416666666666663,
+        4.158333333333333
+    ],
+    "Russell is Jennifer's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        2.5508241758241756,
+        3.449175824175824
+    ],
+    "Myrna is Alfred's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if the relations on the path from Sheila to Dwight are sister, father, then Dwight is Sheila's brother. <retrieved_rule> Therefore,": [
+        3.4483516483516485,
+        4.551648351648352
+    ],
+    "Michael is Christopher's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        5.981227106227107,
+        6.018772893772893
+    ],
+    "Lewis is Michele's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michele's sister, then Michele is also Alma's sister. <retrieved_rule> Therefore,": [
+        1.5178571428571428,
+        2.482142857142857
+    ],
+    "Christopher is Alfred's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        5.201923076923077,
+        4.798076923076923
+    ],
+    "Michael is Asia's brother. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        2.7376373626373627,
+        4.262362637362637
+    ],
+    "Jose is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        4.686446886446887,
+        5.313553113553113
+    ],
+    "Jennifer is Russell's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.579761904761905,
+        4.420238095238096
+    ],
+    "Asia is Annette's sister. <retrieved_rule> In general, if the relations on the path from Annette to Asia are brother, sister, then": [
+        9.755036630036628,
+        7.2449633699633695
+    ],
+    "Donna is Sheila's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        6.162179487179486,
+        4.837820512820514
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        3.017857142857143,
+        3.982142857142857
+    ],
+    "Christopher is Jeffrey's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, and the relation \"son\" indicates a parent-child relationship, making Joe the son of David. <retrieved_rule> Therefore,": [
+        2.4519230769230766,
+        3.5480769230769234
+    ],
+    "Micheal is Marci's son. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so if the relations on the path from Scott to Michael are mother, brother, then Michael is Scott's brother. <retrieved_rule> Therefore,": [
+        2.4102564102564097,
+        4.58974358974359
+    ],
+    "Annette is Russell's sister. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        7.192857142857142,
+        4.807142857142857
+    ],
+    "James is Michael's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" implies that the two individuals are siblings, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        15.987637362637361,
+        9.012362637362637
+    ],
+    "Michael is Annette's brother. <retrieved_rule> In general, if the relations on the path from Sheila to Dwight are sister, father, then Dwight is Sheila's brother. <retrieved_rule> Therefore,": [
+        1.827380952380952,
+        4.1726190476190474
+    ],
+    "Kevin is Vincent's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule> Therefore,": [
+        1.7486263736263736,
+        4.251373626373626
+    ],
+    "Donald is Jennifer's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        3.113095238095238,
+        3.886904761904762
+    ],
+    "Sheila is Michele's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        1.5416666666666665,
+        3.4583333333333335
+    ],
+    "Donald is Vanessa's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <retrieved_rule> Therefore,": [
+        3.946428571428571,
+        4.053571428571429
+    ],
+    "Michelle is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        12.027380952380952,
+        6.972619047619047
+    ],
+    "Christopher is Lucille's son. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        1.2197802197802199,
+        2.78021978021978
+    ],
+    "Jennifer is Donald's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so if the relations on the path from Kevin to Gabrielle are father, mother, then Gabrielle is Kevin's daughter. <retrieved_rule> Therefore,": [
+        5.34478021978022,
+        4.65521978021978
+    ],
+    "Dorothy is Dan's niece. <retrieved_rule> Inference: The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        9.434523809523808,
+        5.565476190476191
+    ],
+    "Michael is Donald's father-in-law. <retrieved_rule> In general, a person's father is also their spouse's father-in-law. <retrieved_rule>": [
+        9.61547619047619,
+        5.3845238095238095
+    ],
+    "Michael is Asia's son. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        3.5,
+        4.5
+    ],
+    "Jennifer is Donald's sister. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings. <retrieved_rule> Therefore,": [
+        3.017857142857143,
+        3.982142857142857
+    ],
+    "Russell is Michael's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        2.9852564102564108,
+        4.014743589743589
+    ],
+    "Jeffrey is Myrna's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so if Scott is Lisa's son, then Lisa is also Scott's mother. <retrieved_rule> Therefore,": [
+        3.517857142857143,
+        3.482142857142857
+    ],
+    "Lucille is Angela's sister. <retrieved_rule> In general, if the relations on the path from Angela to Lucille are brother, sister, then": [
+        3.9697802197802194,
+        5.03021978021978
+    ],
+    "Lucille is Angela's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so if the relations on the path from Kevin to Gabrielle are father, mother, then Gabrielle is Kevin's daughter. <retrieved_rule> Therefore,": [
+        2.6607142857142856,
+        3.3392857142857144
+    ],
+    "Alfred is Christopher's son-in-law. <retrieved_rule> In general, the wife of a person's child is their child-in-law. <retrieved_rule> Therefore,": [
+        10.237637362637363,
+        6.762362637362638
+    ],
+    "Michelle is Dorothy's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <retrieved_rule> Therefore,": [
+        6.166666666666667,
+        5.833333333333333
+    ],
+    "Aida is Michelle's sister. <retrieved_rule> In general, if the relations on the path from Michelle to Aida are brother, sister, then": [
+        3.517857142857143,
+        3.482142857142857
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"husband\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        5.517857142857143,
+        4.482142857142857
+    ],
+    "Annette is Robert's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.9519230769230766,
+        4.048076923076923
+    ],
+    "Dorothy is Myrna's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        2.1538461538461533,
+        3.8461538461538463
+    ],
+    "Dorothy is Kevin's sister. <retrieved_rule> In general, if the relations on the path from Kevin to Dorothy are brother, mother, then Dorothy is Kevin's sister. <retrieved_rule> Therefore,": [
+        5.2023809523809526,
+        4.7976190476190474
+    ],
+    "Anna is Myrna's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Alma is Russell's sister, then Russell is also Alma's sister. <retrieved_rule> Therefore,": [
+        3.8255494505494503,
+        4.17445054945055
+    ],
+    "James is Vincent's father. <retrieved_rule> In general, the relation \"father\" indicates a parent-child relationship, so Marci is Dorothy's daughter. <retrieved_rule> Therefore,": [
+        2.452380952380952,
+        3.547619047619048
+    ],
+    "David is Lewis's brother. <retrieved_rule> In this context, the relationship of brother is established through the son, so David must be the son of Dwight. <retrieved_rule> Therefore,": [
+        8.704761904761904,
+        6.295238095238096
+    ],
+    "Guillermina is Myrna's daughter-in-law. <retrieved_rule> The relations on the path from Myrna to Guillermina are son, wife. <retrieved_rule> Therefore,": [
+        7.398809523809525,
+        5.601190476190475
+    ],
+    "Aida is Christopher's niece. <retrieved_rule> In general, the child of a sibling is a nephew or niece. <retrieved_rule> Therefore,": [
+        5.3076923076923075,
+        5.6923076923076925
+    ],
+    "Guillermina is Jeffrey's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.862637362637363,
+        5.137362637362637
+    ],
+    "Robert is Vanessa's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        3.6999999999999997,
+        5.300000000000001
+    ],
+    "Donna is Dorothy's niece. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        5.684523809523809,
+        6.315476190476191
+    ],
+    "Dan is James's son-in-law. <retrieved_rule> In general, the wife of a person's child is their child-in-law. <retrieved_rule> Therefore,": [
+        1.8035714285714284,
+        4.196428571428571
+    ],
+    "Myrna is James's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Myrna's sister, then Myrna is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.176190476190476,
+        4.823809523809524
+    ],
+    "Dan is Vincent's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so if the relations on the path from Kevin to Dan are brother, brother, then Dan is Kevin's brother. <retrieved_rule> Therefore,": [
+        2.41025641025641,
+        4.58974358974359
+    ],
+    "Scott is David's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        1.708333333333333,
+        3.291666666666667
+    ],
+    "Dan is Christopher's nephew. <retrieved_rule> In general, the son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        3.342857142857143,
+        4.657142857142857
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <retrieved_rule> Therefore,": [
+        2.4916666666666663,
+        3.5083333333333337
+    ],
+    "Lucille is Jose's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        3.033333333333333,
+        3.966666666666667
+    ],
+    "Michelle is Michael's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
+        5.89478021978022,
+        4.10521978021978
+    ],
+    "Vanessa is Donald's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal. <retrieved_rule> Therefore,": [
+        2.2178571428571425,
+        3.7821428571428575
+    ],
+    "James is Michael's brother. <retrieved_rule> In general, if the relations on the path from Theresa to James are sister, father, then James is Theresa's brother. <retrieved_rule> Therefore,": [
+        2.75,
+        4.25
+    ],
+    "Theresa is Michelle's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, and the relation \"daughter\" indicates a parent-child relationship, so if the relations on the path from Kevin to Gabrielle are father, mother, then Gabrielle is Kevin's daughter. <retrieved_rule> Therefore,": [
         1.1428571428571428,
-        1.8571428571428572
+        3.857142857142857
     ],
-    "Jason is Dwight's son's grandfather. Therefore, Jason is Dwight's father. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Jason the grandfather of Dwight. <retrieved_rule>": [
-        1.1428571428571428,
-        1.8571428571428572
+    "Lucille is Christopher's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <retrieved_rule> Therefore,": [
+        1.333333333333333,
+        3.666666666666667
     ],
-    "Alma is Dwight's sister. <retrieved_rule> In general, siblings share the same parents. <retrieved_rule>": [
-        1.4285714285714284,
-        2.5714285714285716
+    "Chad is Christopher's nephew. <retrieved_rule> In general, a brother's son is a nephew. <retrieved_rule> Therefore,": [
+        1.3864468864468862,
+        3.613553113553114
     ],
-    "Joe is Dwight's son. <retrieved_rule> In the relation \"wife, son\" the second \"son\" indicates a parent-child relationship, and the first \"wife\" implies a spousal relationship. <retrieved_rule>": [
+    "Donald is Michael's son-in-law. <retrieved_rule> In general, the wife of a person's child is their child-in-law. <retrieved_rule>": [
+        2.267857142857143,
+        3.732142857142857
+    ],
+    "Vincent is Myrna's nephew. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship, making Vincent the son of Myrna's brother. <retrieved_rule> Therefore,": [
+        4.5054945054945055,
+        5.4945054945054945
+    ],
+    "Robert is Annette's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        2.3626373626373622,
+        3.6373626373626378
+    ],
+    "Christopher is Michael's brother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        5.8383699633699635,
+        5.1616300366300365
+    ],
+    "William is Michael's nephew. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship, making William the son of Michael's sister. <retrieved_rule> Therefore,": [
+        3.3205128205128203,
+        4.67948717948718
+    ],
+    "Christopher is Dorothy's brother. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.565018315018315,
+        4.434981684981685
+    ],
+    "Jose is Myrna's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"son\" indicates a parent-child relationship, making Jose the son of Myrna's brother. <retrieved_rule> Therefore,": [
+        2.791208791208791,
+        3.208791208791209
+    ],
+    "Dan is Michelle's son. <new_rule> In general, the relation \"son\" indicates a parent-child relationship, so if the relations on the path from Michelle to Dan are father, son, then": [
+        1.2916666666666665,
+        3.7083333333333335
+    ],
+    "Donald is Dorothy's nephew. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship, making Donald the son of Dorothy's brother. <retrieved_rule> Therefore,": [
+        2.9761904761904763,
+        4.023809523809524
+    ],
+    "Micheal is Kevin's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"mother\" indicates a parent-child relationship, so if the relations on the path from Kevin to Micheal are mother, son, then Micheal is Kevin's son. <retrieved_rule> Therefore,": [
+        2.1904761904761902,
+        3.8095238095238098
+    ],
+    "Scott is Dorothy's nephew. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship, making Scott the son of Dorothy's sister. <retrieved_rule> Therefore,": [
+        6.978113553113553,
+        5.021886446886447
+    ],
+    "Donald is Michael's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        1.5178571428571428,
+        2.482142857142857
+    ],
+    "Dorothy is Myrna's sister. <new_rule> In general, the relation \"sister\" is reciprocal, so if Vanessa is Jennifer's sister, then Jennifer is also Vanessa's sister. <new_rule> Therefore,": [
+        6.038095238095238,
+        4.961904761904762
+    ],
+    "Kevin is Dan's brother. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"brother\" indicates a sibling relationship, so Kevin is Dan's brother. <retrieved_rule> Therefore,": [
+        2.2205128205128197,
+        3.7794871794871794
+    ],
+    "Micheal is Marci's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"father\" indicates a parent-child relationship, making Micheal the son of Marci. <retrieved_rule> Therefore,": [
+        5.232142857142858,
+        4.767857142857142
+    ],
+    "Michele is Myrna's niece. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so if Alma is Michelle's sister, then Michelle is also Alma's sister. <retrieved_rule> Therefore,": [
         2.0,
-        1.0
+        4.0
     ],
-    "Michelle is Dwight's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so": [
+    "Robert is Michael's son-in-law. <retrieved_rule> In general, the wife of a person's child is their child-in-law. <retrieved_rule> Therefore,": [
+        4.333333333333334,
+        3.666666666666667
+    ],
+    "Asia is Michael's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" indicates a sibling relationship, so if the relations on the path from Michael to Asia are son, sister, then Asia is Michael's daughter. <retrieved_rule> Therefore,": [
+        3.8511904761904763,
+        3.1488095238095237
+    ],
+    "Myrna is Jose's wife. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        3.0
+    ],
+    "Kevin is Dorothy's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"husband\" implies a spouse relationship, so if the relations on the path from Dorothy to Kevin are husband, son, then Kevin is Dorothy's son. <retrieved_rule> Therefore,": [
+        2.75,
+        3.25
+    ],
+    "Aida is Myrna's niece. <retrieved_rule> The daughter of a sister is a niece. <retrieved_rule> Therefore,": [
+        2.591666666666667,
+        4.408333333333333
+    ],
+    "Angela is Anna's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Michelle is Aida's daughter. <retrieved_rule> Therefore,": [
+        2.517857142857143,
+        3.482142857142857
+    ],
+    "Jennifer is Dorothy's niece. <retrieved_rule> In general, the child of a person's sibling is their nephew or niece. <retrieved_rule> Therefore,": [
+        5.309523809523809,
+        4.690476190476191
+    ],
+    "Guillermina is Angela's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Myrna's sister, then Myrna is also Alma's sister. <retrieved_rule> Therefore,": [
+        3.25,
+        3.75
+    ],
+    "Christopher is Dorothy's brother. <retrieved_rule> In general, if the relations on the path from Christopher to Lucille are daughter, sister, then Lucille is Christopher's sister. <retrieved_rule> Therefore,": [
+        2.791208791208791,
+        4.208791208791209
+    ],
+    "Deborah is Christopher's niece. <retrieved_rule> In general, the child of a person's sibling is their nephew or niece. <retrieved_rule> Therefore,": [
+        2.5845238095238097,
+        3.4154761904761908
+    ],
+    "Michelle is Kevin's sister. <retrieved_rule> In general, if the relations on the path from Kevin to Michelle are brother, sister, then": [
+        1.4345238095238093,
+        3.5654761904761907
+    ],
+    "Russell is Dorothy's nephew. <retrieved_rule> The son of a sister is a nephew. <retrieved_rule> Therefore,": [
+        1.2197802197802197,
+        3.78021978021978
+    ],
+    "Deborah is Dorothy's niece. <retrieved_rule> In general, the child of a person's sibling is their nephew or niece. <retrieved_rule> Therefore,": [
+        4.841666666666667,
+        4.158333333333333
+    ],
+    "James is Marci's brother. <retrieved_rule> In general, if the relations on the path from Myrna to James are sister, brother, then James is Myrna's brother. <retrieved_rule> Therefore,": [
+        3.7857142857142856,
+        4.214285714285714
+    ],
+    "William is Myrna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        3.9642857142857144,
+        4.035714285714286
+    ],
+    "Myrna is Lucille's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Angela is Alfred's daughter. <retrieved_rule> Therefore,": [
+        1.2916666666666665,
+        2.7083333333333335
+    ],
+    "Kevin is James's son-in-law. <retrieved_rule> In general, the wife of a person's child is their child-in-law. <retrieved_rule>": [
+        2.017857142857143,
+        3.982142857142857
+    ],
+    "Jennifer is Russell's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        2.2435897435897436,
+        3.756410256410257
+    ],
+    "Angela is Myrna's daughter-in-law. <retrieved_rule> The spouse of a son is a daughter-in-law. <retrieved_rule> Therefore,": [
+        2.5769230769230766,
+        3.4230769230769234
+    ],
+    "Vanessa is Chad's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"father\" indicates a parent-child relationship, so if the relations on the path from Chad to Vanessa are father, daughter, then Vanessa is Chad's daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        3.0
+    ],
+    "David is Joe's brother. <retrieved_rule> In this context, the relationship of brother is established through the son, so David must be the son of Dwight. <retrieved_rule> Therefore,": [
+        1.6428571428571428,
+        3.357142857142857
+    ],
+    "Dan is Dorothy's son. <retrieved_rule> In the relation \"daughter, husband\" the first \"daughter\" indicates a parent-child relationship, and the second \"husband\" implies a spouse relationship, so": [
+        2.7916666666666665,
+        4.208333333333334
+    ],
+    "Christopher is James's brother. <retrieved_rule> In general, if the relations on the path from Angela to Christopher are brother, father, then Christopher is Angela's brother. <retrieved_rule> Therefore,": [
+        2.142857142857143,
+        1.8571428571428572
+    ],
+    "Alfred is Anna's brother. <retrieved_rule> In general, siblings can be either brothers or sisters. <retrieved_rule> Therefore,": [
+        1.2678571428571428,
+        2.732142857142857
+    ],
+    "Dorothy is Michael's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        2.4345238095238093,
+        3.5654761904761907
+    ],
+    "Micheal is Myrna's nephew. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so if Alma is Russell's sister, then Russell is also Alma's sister. <retrieved_rule> Therefore,": [
+        4.708333333333333,
+        3.291666666666667
+    ],
+    "Myrna is Michelle's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Myrna's sister, then Myrna is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.0892857142857144,
+        3.910714285714286
+    ],
+    "Lewis is David's brother. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        1.5416666666666665,
+        2.4583333333333335
+    ],
+    "Robert is Michael's son. <new_rule>Transitive property: if A is related to B and B is related to C, then A is related to C. <new_rule> Therefore,": [
+        2.8095238095238093,
+        4.190476190476191
+    ],
+    "Donna is Scott's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        3.6845238095238093,
+        3.3154761904761907
+    ],
+    "Dorothy is Donald's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Sheila is Dorothy's sister, then Dorothy is also Sheila's sister. <retrieved_rule> Therefore,": [
+        2.659340659340659,
+        3.340659340659341
+    ],
+    "Donna is Deborah's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"granddaughter\" means the person is the granddaughter of the other. <retrieved_rule> Therefore,": [
+        1.2307692307692308,
+        1.7692307692307692
+    ],
+    "Asia is Christopher's niece. <retrieved_rule> In general, the child of a person's sibling is their nephew or niece. <retrieved_rule> Therefore,": [
+        2.0,
+        3.0
+    ],
+    "James is Michael's brother. <retrieved_rule> In general, if the relations on the path from Michael to James are sister, brother, then": [
+        2.648351648351648,
+        3.351648351648352
+    ],
+    "Joe is Myrna's nephew. <retrieved_rule> In general, a brother's son is a nephew. <retrieved_rule> Therefore,": [
+        2.4519230769230766,
+        2.5480769230769234
+    ],
+    "Aida is Michelle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"granddaughter\" means the person is the granddaughter of the other. <retrieved_rule> Therefore,": [
+        1.1666666666666665,
+        1.8333333333333335
+    ],
+    "Dan is Kevin's brother. <retrieved_rule> In general, if the relations on the path from Lewis to David are brother, brother, then David is Lewis's brother. <retrieved_rule> Therefore,": [
+        1.375,
+        2.625
+    ],
+    "Kevin is James's son. <retrieved_rule> In the relation \"wife, son\" the first \"wife\" indicates a spouse relationship, and the second \"son\" indicates a parent-child relationship, making James the son of Jason's spouse. <retrieved_rule> Therefore,": [
+        1.375,
+        2.625
+    ],
+    "Annette is Myrna's niece. <retrieved_rule> Inference: The daughter of a sibling is a niece. <retrieved_rule> Therefore,": [
+        2.2857142857142856,
+        2.7142857142857144
+    ],
+    "Marci is Dorothy's daughter-in-law. <retrieved_rule> In general, the relation \"wife\" indicates a spouse relationship. <retrieved_rule> Therefore,": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Anna is William's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal. <retrieved_rule> Therefore,": [
+        5.517857142857143,
+        2.482142857142857
+    ],
+    "Joe is Christopher's nephew. <retrieved_rule> In general, the relation \"sister\" indicates a sibling relationship, and the relation \"son\" indicates a parent-child relationship, so if the relations on the path from Christopher to Joe are sister, son, then": [
+        1.375,
+        1.625
+    ],
+    "Angela is Lucille's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
         1.1428571428571428,
         1.8571428571428572
     ],
-    "Dorothy is Dwight's sister. <new_rule> In a family tree, the brother of one person's parent is their uncle. Therefore, the sister of one person's parent is their aunt. <new_rule>": [
-        3.1666666666666665,
-        1.8333333333333335
+    "Donald is Asia's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Jason and Annette are siblings. <retrieved_rule> Therefore,": [
+        1.4107142857142856,
+        2.5892857142857144
     ],
-    "Christopher is Dwight's uncle. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle. <retrieved_rule>": [
-        1.1666666666666665,
-        1.8333333333333335
+    "Angela is Christopher's daughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" indicates a parent-child relationship, and the second \"daughter\" indicates a parent-child relationship, making Angela the daughter of Gabrielle's child. <retrieved_rule> Therefore,": [
+        1.1428571428571428,
+        1.8571428571428572
     ],
-    "Russell is Dwight's brother's son. Therefore, Russell is Dwight's nephew. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        2.3333333333333335,
-        1.6666666666666665
-    ],
-    "Scott is Dwight's son-in-law. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"husband\" indicates a spousal relationship. <retrieved_rule> Therefore,": [
-        3.0,
-        2.0
-    ],
-    "David is Dwight's son's brother. Therefore, David is Dwight's son. <retrieved_rule> In the relation \"son, brother\" the first \"son\" indicates a parent-child relationship, and the second \"brother\" implies that the two individuals are siblings, so Lewis is the son of Dwight. <retrieved_rule>": [
-        1.1666666666666665,
-        1.8333333333333335
-    ],
-    "Lewis is Dwight's brother. <retrieved_rule> In general, siblings share the same parents. <retrieved_rule>": [
+    "Marci is James's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
         3.0,
         1.0
     ],
-    "Dwight is Alma's brother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"uncle\" indicates a sibling relationship. <retrieved_rule>": [
+    "Scott is Myrna's nephew. <retrieved_rule> In general, the relation \"sister\" is reciprocal. <retrieved_rule> Therefore,": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "Myrna is Aida's daughter. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "Myrna is Michael's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ],
-    "Gabrielle is Dwight's mother. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
-        4.0,
-        1.0
-    ],
-    "Dwight is Alma's brother. <retrieved_rule> In general, siblings have the relation of brother or sister. <retrieved_rule>": [
-        2.0,
-        1.0
-    ],
-    "James is Dwight's brother. <retrieved_rule> In general, if the relations on the path from Anna to Alfred are brother, brother, then Alfred is Anna's brother. <retrieved_rule> Therefore,": [
+    "William is Anna's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ],
-    "Dwight is Theresa's father's brother. Therefore, Dwight is Theresa's uncle. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"uncle\" indicates a sibling relationship. <retrieved_rule>": [
+    "Marci is Christopher's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ],
-    "Dwight is Lewis's brother's father. Therefore, Dwight is Lewis's father. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"father\" indicates a parent-child relationship. <retrieved_rule>": [
-        1.0,
-        1.0
-    ],
-    "Michele is Dwight's son's wife. Therefore, Michele is Dwight's daughter-in-law. <new_rule> The spouse of a grandchild is a grandchild-in-law. <new_rule>": [
-        1.0,
-        1.0
-    ],
-    "Michele is Dwight's daughter's sister. Therefore, Michele is Dwight's daughter. <retrieved_rule> In the relation \"daughter, sister\" the first \"daughter\" indicates a parent-child relationship, making Michele the daughter of Dwight. <retrieved_rule>": [
+    "Scott is Michael's brother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Scott is the son of Dorothy's sister. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ]
