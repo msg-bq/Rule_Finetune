@@ -1,30 +1,38 @@
 {
     "Christopher is Dwight's son's uncle. <Begin> Inference Rule: A person's son's uncle is the person's brother. </End> Answer: Christopher is Dwight's brother.": [
-        4.389135864135865,
-        9.610864135864135
+        5.385347985347985,
+        7.614652014652014
     ],
     "Dwight is Scott's brother because they share the same father. <Begin> In general, siblings share the same parents. </End>": [
-        5.389135864135865,
-        9.610864135864135
+        4.671062271062271,
+        5.3289377289377295
     ],
     "Gabrielle is Dwight's son's grandmother. <Begin> In most cases, a person's son's grandmother would be the person's mother. </End> So, Gabrielle is Dwight's mother.": [
-        5.389135864135865,
-        9.610864135864135
+        4.956776556776557,
+        5.043223443223443
     ],
     "Dorothy is Dwight's aunt. <Begin> A son's aunt is his father's sister or mother's sister. </End>": [
-        4.9546120546120545,
-        7.0453879453879455
+        4.318681318681318,
+        6.681318681318681
     ],
     "Dwight is Lewis's brother's father. <Begin> In general, the father is the parent of a sibling. </End>": [
-        5.389135864135865,
-        8.610864135864135
+        5.443681318681318,
+        6.556318681318681
     ],
-    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
-        2.4345238095238093,
-        4.565476190476191
+    "Myrna is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        4.905952380952381,
+        7.094047619047619
     ],
-    "Christopher is Dwight's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
-        1.0,
-        1.0
+    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule> Therefore, Dwight is Alma's brother.": [
+        3.6202380952380953,
+        4.379761904761905
+    ],
+    "Jason is Dwight's son's grandfather. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule> Therefore, Jason is Dwight's father.": [
+        2.125,
+        1.875
+    ],
+    "Dorothy is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule> Therefore, Dorothy is Dwight's sister.": [
+        1.125,
+        1.875
     ]
 }

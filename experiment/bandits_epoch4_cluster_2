@@ -1,0 +1,86 @@
+{
+    "Angela is Myrna's daughter and sister. Therefore, Angela is Myrna's daughter. <Begin> In a family tree, a daughter is a female offspring of a parent. </End>": [
+        6.547286047286047,
+        14.452713952713953
+    ],
+    "Myrna is Angela's sister because they share the same mother. <Begin> In general, siblings share at least one parent. </End>": [
+        9.72036297036297,
+        13.27963702963703
+    ],
+    "Dorothy is Myrna's daughter's aunt. <Begin> In the family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Dorothy is Myrna's sister.": [
+        9.612762237762238,
+        14.387237762237762
+    ],
+    "Myrna is Jose's mother. <Begin> In general, a sister is a female sibling and a mother is a female parent. </End>": [
+        10.448018648018646,
+        14.551981351981352
+    ],
+    "Guillermina is Myrna's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        2.6538461538461537,
+        4.346153846153847
+    ],
+    "Myrna is Alma's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        13.8018315018315,
+        13.1981684981685
+    ],
+    "Guillermina is Jose's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        11.436446886446886,
+        9.563553113553112
+    ],
+    "Angela is Myrna's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Myrna is Russell's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        1.375,
+        1.625
+    ],
+    "David is Myrna's nephew. <retrieved_rule> In a sibling relationship, a brother is a male sibling of a person. <retrieved_rule>": [
+        8.85576923076923,
+        8.14423076923077
+    ],
+    "Myrna is Dorothy's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        5.83525641025641,
+        6.16474358974359
+    ],
+    "Dorothy is Myrna's mother. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        5.666666666666666,
+        4.333333333333334
+    ],
+    "Michael is Myrna's brother. <retrieved_rule> In a sibling relationship, a brother and sister are related as siblings. <retrieved_rule>": [
+        9.48076923076923,
+        7.51923076923077
+    ],
+    "Jeffrey is Myrna's son-in-law. <retrieved_rule> In general, a husband is the son-in-law of his wife's parents. <retrieved_rule>": [
+        3.6602564102564106,
+        6.339743589743589
+    ],
+    "Dorothy is Myrna's sister. <retrieved_rule> A daughter is a female offspring of a parent. <retrieved_rule>": [
+        9.28076923076923,
+        5.71923076923077
+    ],
+    "Angela is Myrna's daughter. <new_rule> In a family tree, a daughter is a female offspring of a parent. <new_rule>": [
+        5.951923076923077,
+        4.048076923076923
+    ],
+    "Myrna is Angela's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule>": [
+        1.376923076923077,
+        2.623076923076923
+    ],
+    "Myrna is Michael's sister. <retrieved_rule> A son's uncle is the person's brother. <retrieved_rule>": [
+        3.1269230769230765,
+        3.8730769230769235
+    ],
+    "Myrna is Alma's sister. <retrieved_rule> A son's uncle is the person's brother. <retrieved_rule>": [
+        1.4519230769230769,
+        2.5480769230769234
+    ],
+    "Jason is Myrna's father. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule>": [
+        1.5,
+        2.5
+    ],
+    "Myrna is Alma's sister. <retrieved_rule> In a sibling relationship, a brother and sister are related as siblings. <retrieved_rule>": [
+        2.0,
+        1.0
+    ]
+}

@@ -2,4 +2,520 @@ Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', mode
 
 max_confidence_num: 500
 rule_base:
-测试集上的准确率为：0.0
+In general, a son is the male child of a parent.
+We used the fact that the relation "mother" is on the path from Donna to Lisa. This means that Lisa is Donna's daughter.
+In the relation "husband, father", the second "father" indicates the relationship of Michael to his parent, who is the father of the husband.
+In the relation "son, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Jason.
+In the relation "sister, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Jason.
+In the relation "daughter, uncle", the first "daughter" indicates the relationship of Michael to his parent, who is the daughter of Gabrielle.
+In the relation "son, mother", the first "son" indicates the relationship of Lewis to his parent, who is the son of Gabrielle.
+In general, a person's mother's sister is their aunt.
+We know that the relation "mother" indicates a parent-child relationship.
+In the given relations, "mother" indicates a parent-child relationship.
+We used the rule that the relation "mother" indicates a parent-child relationship.
+The relation "mother" indicates a parent-child relationship.
+In the relation "mother" indicates a parent-child relationship.
+We can use the fact that the relation "mother" indicates a parent-child relationship.
+In the relation "daughter, husband", the second "husband" indicates the relationship of Lisa to her parent, who is the husband of Gabrielle.
+Knowledge base:
+In the relation "mother, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Vincent.
+We can use the fact that the relation "son" is on the path from Dorothy to Russell. This means that Russell is Dorothy's son.
+We used the rule that the relation "son" is on the path from Dorothy to Russell. This means that Russell is Dorothy's son.
+In general, the relation "father" indicates a parent-child relationship.
+We used the rule that the relation "father" indicates a parent-child relationship.
+We used the fact that the relation "father" indicates a parent-child relationship.
+In the relation "father" indicates a parent-child relationship.
+The relation "father" indicates a parent-child relationship.
+In general, the relation "father" indicates a parent-child relationship, so the father of someone's son is also their father.
+In the given relations, "brother" is the relation between Dorothy and her sibling, and "son" is the relation between Dorothy and Russell.
+We know that the relation "wife" is not directly related to William, so we can skip this relation. However, a daughter is directly related to a mother, so we can infer that Myrna is William's daughter.
+In general, the relation of brother implies a sibling relationship, and the relation of daughter implies a parent-child relationship.
+In general, the son of someone's brother is their nephew.
+In the relation "mother, brother", the second "brother" indicates the relationship of Michael to his parent, who is the brother of Aida.
+In a family tree, the child of a person's spouse is their stepchild.
+In the relation "sister, son", the first "sister" indicates the relationship of Lucille to her parent, who is the daughter of Alma.
+In general, the relation "father" indicates a parent-child relationship, so the father of Jennifer is the grandfather of Jason.
+In general, if two individuals share the same mother, they are siblings.
+If two individuals share the same mother, they are siblings.
+In the relation "husband, mother", the second "mother" indicates the relationship of Lisa to her parent, who is the mother of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of Lisa to her parent, who is the mother of Gabrielle.
+We can use the fact that a person's brother's father is the person's father.
+We used the fact that a person's brother's father is the person's father.
+In the family tree, the relation "wife" indicates a spouse relationship, so Dorothy is Micheal's spouse.
+We used the rule that the relation "wife" is not directly related to Jeffrey, so we can skip this relation. However, a daughter is directly related to a mother, so we can infer that Myrna is Jeffrey's daughter.
+We used the fact that the relation "wife" is not directly related to Jeffrey, so we can skip this relation. However, a daughter is directly related to a mother, so we can infer that Myrna is Jeffrey's daughter.
+In the relation "son, brother", the second "brother" indicates the relationship of Russell to his parent, who is the brother of Michael.
+In the relation "wife, mother," the second "mother" indicates the relationship of Dorothy to her parent, who is the mother of Gabrielle.
+We used the rule that the relation "son" is on the path from Alma to David.
+We used the rule that the relation "son" is on the path from Alma to David. This means that David is Alma's son.
+We used the fact that the relation "daughter" is on the path from Alma to David. This means that David is Alma's son.
+We used the fact that a son is the child of a parent, and an uncle is the brother of one's parent.
+In the relation "mother, father", the second "father" indicates the relationship of Dan to his parent, who is the father of Jason.
+We know that the relation "son" is on the path from Alma to Jennifer. This means that Jennifer is Alma's daughter.
+We used the rule that the relation "son" is on the path from Alma to Jennifer. This means that Jennifer is Alma's daughter.
+We used the fact that the relation "son" is on the path from Alma to Jennifer. This means that Jennifer is Alma's daughter.
+We can use the fact that the relation "son" is on the path from Alma to Jennifer. This means that Jennifer is Alma's daughter.
+We used the rule that the father of someone's sister is also their father.
+We used the rule that the father of someone's spouse is also their father.
+We used the rule that the father of someone's son is also their father.
+We used the rule that a husband's father is also the father of the husband's spouse.
+We used the rule that the father of someone's daughter is also their father.
+We used the rule that the father of someone's brother is also their father.
+We used the rule that in the relation "sister, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Asia.
+In the relation "sister, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Asia.
+In the relation "sister, father," the second "father" indicates the relationship of Michael to his parent, who is the father of Asia.
+In the relation "brother, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Asia.
+In the relation "wife, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Asia.
+In general, the father is the parent of a sibling.
+We used the rule that in the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Jose.
+In the relation "sister, father," the second "father" indicates the relationship of Christopher to his parent, who is the father of Jose.
+In the relation "wife, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Gabrielle.
+In the relation "father, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the son of Gabrielle.
+In the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the son of Gabrielle.
+In the relation "son, uncle", the second "uncle" indicates the relationship of Christopher to his parent, who is the son of Gabrielle.
+In general, siblings share at least one parent.
+In general, siblings share at least one parent, and mothers have children.
+In general, siblings share the same parents.
+In the relation "daughter, uncle", the first "daughter" indicates the relationship of Christopher to his parent, who is the daughter of Jason.
+In the relation "son, uncle", the first "son" indicates the relationship of Christopher to his parent, who is the daughter of Jason.
+In the relation "father, daughter", the second "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Asia.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Asia.
+In general, a sister is a female sibling and a mother is a female parent.
+In general, the mother of someone's son is also their mother.
+In the relation "wife, father", the second "father" indicates the relationship of Jason to his parent, who is the father of Gabrielle.
+In the relation "husband, father", the second "father" indicates the relationship of Jason to his parent, who is the father of Gabrielle.
+In the relation "sister, father", the first "sister" indicates the relationship of Lucille to her parent, who is the sister of Christopher.
+In the relation "son, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Lucille.
+In the relation "daughter, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Lucille.
+We used the rule that in the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Lucille.
+In the relation "wife, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Lucille.
+In the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Lucille.
+In the relation "father," the second "father" indicates the relationship of Christopher to his parent, who is the father of Lucille.
+Aida is the daughter of Gabrielle's son or daughter, so Aida is Gabrielle's granddaughter.
+In general, the son of Jennifer's father is her brother.
+In the relation "brother, mother", the second "mother" indicates the relationship of Alma to her parent, who is the mother of Gabrielle.
+We can use the fact that a brother is a male sibling, and a daughter is a female offspring.
+We used the fact that a brother is a male sibling, and a daughter is a female offspring.
+In general, the spouse of one's child is referred to as a daughter-in-law or son-in-law.
+In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather.
+In many cultures, a person can be both a brother and a father to someone, such as in the case of half-siblings or step-siblings.
+In a family tree, a person can have multiple relations to another person based on different family connections.
+In general, the relation "father" indicates a parent-child relationship, so the father of James is the grandfather of Kevin.
+We know that the relation "father" indicates a parent-child relationship, so the father of James is the grandfather of Kevin.
+In the relation "wife, father", the second "father" indicates the relationship of James to his parent, who is the father of Kevin.
+In the relation "father" indicates a parent-child relationship, so the father of James is the grandfather of Kevin.
+In the relation "brother, father", the second "father" indicates the relationship of James to his parent, who is the father of Kevin.
+Inference: According to the given relation, Scott is David's brother.
+In a sibling relationship, the gender of the individuals is different.
+In most cultures, a female sibling of another female is referred to as a sister.
+Transitive property of relations
+In many cultures, the spouse's family is considered part of one's own family.
+In the relation "daughter," the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Michael.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Michael.
+In the relation "granddaughter, brother", the second "brother" indicates the relationship of Vincent to his parent, who is the brother of Lucille.
+We used the rule that the relation "father" is on the path from Dan to Lisa. This means that Dan is Lisa's father.
+We know that the relation "father" is on the path from Dan to Lisa. This means that Dan is Lisa's father.
+We can use the fact that the relation "father" is on the path from Dan to Lisa. This means that Dan is Lisa's father.
+In the relation "son, brother," the second "brother" indicates the relationship of Dwight to his parent, who is the son of Gabrielle.
+In the relation "brother," the second "brother" indicates the relationship of Dwight to his parent, who is the son of Gabrielle.
+In the relation "daughter," the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Myrna.
+In the relation "daughter, aunt", the first "daughter" indicates the relationship of Aida to her parent, who is the daughter of Myrna.
+In the relation "daughter, sister", the first "daughter" indicates the relationship of Aida to her parent, who is the daughter of Myrna.
+We used the rule that if A is B's sister and C is B's father, then C is A's father.
+In the relation "daughter, sister", the second "sister" indicates the relationship of Angela to her parent, who is the daughter of Myrna.
+In the relation "daughter, sister", the first "daughter" indicates the relationship of Angela to her parent, who is the daughter of Myrna.
+In the relation "son, sister", the second "sister" indicates the relationship of Angela to her parent, who is the daughter of Myrna.
+We used the rule that in the relation "sister, daughter", the second "daughter" indicates the relationship of Angela to her parent, who is the daughter of Gabrielle.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Angela to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Angela to her parent, who is the daughter of Gabrielle.
+Inference: Niece is the daughter of one's brother or sister.
+Inference Rule: Niece is the daughter of one's brother or sister.
+In the inference, niece is the daughter of one's brother or sister.
+In the relation "brother, grandmother", the second "grandmother" indicates the relationship of Lewis to his parent, who is the son of Gabrielle.
+In the relation "sister, father", the first "sister" indicates the relationship of Asia to her parent, who is the sister of Michael.
+In the relation "father, brother", the second "brother" indicates the relationship of Dwight to his parent, who is the brother of Jose's parent.
+We can use the fact that a husband is a spouse.
+We used the fact that a husband is considered a spouse.
+A son's aunt is his father's sister or mother's sister.
+In a family tree, a son's aunt is his father's sister or mother's sister.
+In a family tree, the sibling of a person's parent is their uncle or aunt.
+In the family tree, the sibling of a person's parent is their uncle or aunt.
+A person's son's aunt is the person's sister.
+In the relation "father, mother", the second "mother" indicates the relationship of Angela to her parent, who is the mother of Gabrielle.
+In the relation "sister, mother", the second "mother" indicates the relationship of Angela to her parent, who is the mother of Gabrielle.
+In the relation "son, mother", the second "mother" indicates the relationship of Angela to her parent, who is the mother of Gabrielle.
+In the relation "father, mother", the first "father" indicates the relationship of Angela to her parent, who is the father of Gabrielle.
+We used the rule that the relation "mother" is on the path from Angela to her parent, who is the mother of Gabrielle. This means that Angela is Gabrielle's mother.
+We used the fact that the relation "mother" is on the path from Angela to her parent, who is the mother of Gabrielle. This means that Angela is Gabrielle's mother.
+In the relation "mother" is on the path from Angela to her parent, who is the mother of Gabrielle. This means that Angela is Gabrielle's mother.
+In the relation "son, brother", the second "brother" indicates the relationship of Lewis to his parent, who is the brother of Michael.
+In general, a husband is considered a spouse.
+Inference rule: The relation "granddaughter" indicates that Angela is the child of Gabrielle's child.
+In the relation "granddaughter" indicates that Angela is the child of Gabrielle's child.
+The relation "granddaughter" indicates that Angela is the child of Gabrielle's child.
+In general, a grandmother is the mother of one's parent.
+In general, a grandmother is the parent of one's parent.
+In the relation "wife's mother," we know that a wife's mother is also the mother of the husband's spouse.
+The relation "wife's mother" indicates that a wife's mother is also the mother of the husband's spouse.
+In the relation "wife's mother" indicates that a wife's mother is also the mother of the husband's spouse.
+In the relation "son, grandmother", the first "son" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Gabrielle.
+The relation "son, grandfather" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, grandfather", the first "son" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, grandfather" the first "son" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, grandmother", the second "grandmother" indicates the relationship of Michael to his parent, who is the grandson of Gabrielle.
+In the relation "mother, father", the second "father" indicates the relationship of Michael to his parent, who is the father of Gabrielle.
+In the relation "son, grandmother", the second "son" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, uncle", the second "uncle" indicates the relationship of Michael to his parent, who is the daughter of Gabrielle.
+In the relation "son, mother", the second "son" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "son, grandfather" indicates the relationship of Michael to his parent, who is the son of Gabrielle.
+In the relation "mother, father", the first "mother" indicates the relationship of Asia to her parent, who is the mother of Gabrielle.
+In the relation "mother, mother", the first "mother" indicates the relationship of Asia to her parent, who is the mother of Gabrielle.
+In the relation "sister, mother", the second "mother" indicates the relationship of Asia to her parent, who is the mother of Gabrielle.
+In the relation "mother, sister", the first "mother" indicates the relationship of Asia to her parent, who is the mother of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of Asia to her parent, who is the mother of Gabrielle.
+In the relation "son, grandmother", the first "son" indicates the relationship of Dwight to his parent, who is the son of Gabrielle.
+In the relation "son, grandfather", the first "son" indicates the relationship of Dwight to his parent, who is the son of Gabrielle.
+The relation "son" is the relation between Dwight and his parent, who is the son of Gabrielle.
+In the given relations, "husband" is not directly related to Donald, so we can skip this relation. However, a grandson is directly related to Gabrielle, so we can infer that Donald is Gabrielle's grandson.
+We used the rule that the relation "husband" is not directly related to Donald, so we can skip this relation. However, a grandson is directly related to Gabrielle, so we can infer that Donald is Gabrielle's grandson.
+In the relation "son, uncle", the second "uncle" indicates the relationship of Michael to his parent, who is the brother of Lisa's parent.
+In the relation "daughter, uncle", the second "uncle" indicates the relationship of Michael to his parent, who is the brother of Lisa's parent.
+We used the rule that in the relation "sister, sister", the second "sister" indicates the relationship of Jennifer to her parent, who is the sister of Michael's parent.
+In the relation "sister, grandmother", the first "sister" indicates the relationship of Jose to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, grandmother", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, daughter", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, brother", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, sister", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "sister, mother", the second "mother" indicates the relationship of Myrna to her parent, who is the mother of Gabrielle.
+In the relation "sister, daughter", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of Myrna to her parent, who is the mother of Gabrielle.
+In the relation "mother, sister", the second "sister" indicates the relationship of Myrna to her parent, who is the mother of Gabrielle.
+In the relation "daughter, grandfather", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "son, aunt", the second "aunt" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, uncle", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, aunt", the second "aunt" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, aunt", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Gabrielle.
+Inference rule: In a family tree, the sibling of a person's parent is their uncle or aunt.
+Inference Rule: In a family tree, the sibling of a person's parent is their uncle or aunt.
+In the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Asia.
+In the relation "father, sister", the second "father" indicates the relationship of Christopher to his parent, who is the father of Asia.
+In the relation "father, sister", the second "sister" indicates the relationship of Christopher to his parent, who is the sister of Asia.
+In the relation "sister, son", the second "son" indicates the relationship of Scott to his parent, who is the son of Gabrielle.
+In the relation "mother, son", the second "son" indicates the relationship of Scott to his parent, who is the son of Gabrielle.
+In the relation "daughter, son", the second "son" indicates the relationship of Scott to his parent, who is the son of Gabrielle.
+In the relations "son, daughter", the second "son" indicates the relationship of Scott to his parent, who is the son of Gabrielle.
+We know that the relation "sister" is on the path from Asia to Lisa. This means that Lisa is Asia's daughter.
+We used the fact that the relation "sister" is on the path from Asia to Lisa. This means that Lisa is Asia's daughter.
+In the relation "daughter, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Jason.
+In the relation "brother, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Jason.
+In the relation "father, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Jason.
+In general, a daughter is a female offspring of a parent.
+In the relation "wife," Myrna is the wife of Alfred's son.
+In the relation "daughter's aunt," the aunt can be the sister of the daughter's parent.
+In a sibling relationship, a brother is a male sibling of a person.
+In a sibling relationship, a brother and sister are related as siblings.
+In the relation "father, mother", the second "mother" indicates the relationship of Gabrielle to her parent, who is the mother of Lucille.
+In the relation "mother, mother", the first "mother" indicates the relationship of Gabrielle to her parent, who is the mother of Lucille.
+We can use the fact that the relation "father" indicates a parent-child relationship, so the father of Gabrielle is also the father of Lucille.
+We know that the relation "father" indicates a parent-child relationship, so the father of Gabrielle is also the father of Lucille.
+In the relation "sister, mother", the second "mother" indicates the relationship of Gabrielle to her parent, who is the mother of Lucille.
+We know that the relation "mother" indicates a parent-child relationship, so the father of Gabrielle is also the father of Lucille.
+In the relation "husband, mother", the second "mother" indicates the relationship of Gabrielle to her parent, who is the mother of Lucille.
+In the relation "father, mother", the second "mother" indicates the relationship of Gabrielle to her parent, who is the mother of Lucille's parent.
+In the relation "father, mother", the first "father" indicates the relationship of Lucille to her parent, who is the father of Gabrielle.
+In general, a mother is the parent of one's parent.
+In general, a mother is the mother of one's parent.
+In the relation "brother, grandmother", the second "grandmother" indicates the relationship of Gabrielle to her parent, who is the mother of Scott's parent.
+In the relation "sister, grandmother", the second "grandmother" indicates the relationship of Gabrielle to her parent, who is the mother of Scott's parent.
+In the relation "sister, grandmother", the first "sister" indicates the relationship of Gabrielle to her parent, who is the sister of Michael's parent.
+In the relation "sister, son", the first "sister" indicates the relationship of Gabrielle to her parent, who is the sister of Michael's parent.
+Inference: In the given relations, "daughter" is the relation between Dorothy and her parent, and "grandfather" is the relation between Dorothy and Jason.
+In the given relations, "daughter" is the relation between Dorothy and her parent, and "grandfather" is the relation between Dorothy and Jason.
+In a family tree, a brother is a male sibling of a person.
+In the relation "son, grandfather", the first "son" indicates the relationship of Michael to his parent, who is the son of Jason.
+In the relation "son, grandmother", the first "son" indicates the relationship of Michael to his parent, who is the son of Jason.
+We used the rule that in the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Guillermina.
+In the relation "sister, father", the second "father" indicates the relationship of Christopher to his parent, who is the father of Guillermina.
+In the relation "daughter, sister", the second "sister" indicates the relationship of Guillermina to her parent, who is the daughter of Myrna.
+In the relation "sister, brother", the first "sister" indicates the relationship of Guillermina to her parent, who is the daughter of Myrna.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Guillermina to her parent, who is the daughter of Myrna.
+In the relation "son, sister", the second "sister" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+In the relation "sister, mother", the first "sister" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+In the relation "sister, son", the second "son" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+In the relation "sister, daughter", the first "sister" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+In the relation "father, sister", the second "sister" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+We used the rule that in the relation "sister, daughter", the first "sister" indicates the relationship of Lisa to her parent, who is the sister of Christopher.
+A husband's father is also the father of the husband's spouse.
+We can use the fact that a husband's father is also the father of the husband's spouse.
+In the relation "husband's father," we know that a husband's father is also the father of the husband's spouse.
+We know that a husband's father is also the father of the husband's spouse.
+In the relation "husband, mother", we know that a husband's father is also the father of the husband's spouse.
+In the relation "wife's father," we know that a husband's father is also the father of the husband's spouse.
+In the relation "son, sister", the second "sister" indicates the relationship of Dorothy to her parent, who is the sister of Michael's parent.
+In the relation "grandson, sister", the second "sister" indicates the relationship of Dorothy to her parent, who is the sister of Michael's parent.
+In the relation "husband," Lisa is the wife of Donna's son.
+In the given relations, "husband," Lisa is the wife of Donna's son.
+In the relation "brother, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Christopher.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Christopher.
+We can use the fact that the relation "father" indicates a parent-child relationship, so the father of Gabrielle is also the father of Vincent.
+The relation "father" indicates a parent-child relationship, so the father of Gabrielle is also the father of Vincent.
+In the relation "daughter, grandmother", the first "daughter" indicates the relationship of James to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, brother", the first "daughter" indicates the relationship of James to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, sister", the first "daughter" indicates the relationship of James to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, husband", the first "daughter" indicates the relationship of James to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, aunt", the first "daughter" indicates the relationship of James to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, grandmother", the first "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Gabrielle.
+In general, a husband is considered a spouse, and a grandson is the child of one's child.
+We used the rule that a husband is considered a spouse, and a grandson is the child of one's child.
+A husband is a spouse, and a grandson is the son of a child.
+We know that a husband is a spouse, and a grandson is the son of a child.
+In the rule that a husband is a spouse, and a grandson is the son of a child.
+A husband is a spouse, and a granddaughter is the child of a child.
+A husband is a spouse, and a grandson is the child of a child.
+In the relation "daughter, grandfather", the first "daughter" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In a family tree, the relation "daughter, grandfather" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, sister", the first "daughter" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, grandmother", the first "daughter" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the given relations, "husband" is not directly related to Lucille, so we can skip this relation. However, a granddaughter is directly related to Gabrielle, so we can infer that Lucille is Gabrielle's granddaughter.
+Inference based on the given relations daughter and sister.
+Inference based on the given relations mother and daughter.
+Inference rule: The relation "granddaughter" indicates that Asia is the child of Gabrielle's child.
+In the relation "granddaughter" indicates that Asia is the child of Gabrielle's child.
+In general, the husband of one's daughter is referred to as a son-in-law.
+In general, a husband of someone's daughter is their son-in-law.
+In general, a person who is both a sister and a mother to someone is their mother.
+In the relation "sister, daughter", the first "sister" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent.
+In the relation "father, sister", the second "sister" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent.
+In the given relations, "son" is the relation between Dorothy and Michael, so we can infer that Michael is Dorothy's brother.
+In general, a husband is the son-in-law of his wife's parents.
+In most cases, a person's son's grandmother would be the person's mother.
+In most cases, a person's son's grandfather would be the person's father.
+In the relation "wife, granddaughter", the first "wife" indicates the relationship of Michelle to her parent, who is the wife of Lisa's son.
+In the relation "mother, mother", the second "mother" indicates the relationship of David to his parent, who is the daughter of Gabrielle.
+In the relation "mother," the second "mother" indicates the relationship of David to his parent, who is the daughter of Gabrielle.
+In the relation "sister, mother", the second "mother" indicates the relationship of David to his parent, who is the daughter of Gabrielle.
+In the relation "sister, son", the second "son" indicates the relationship of David to his parent, who is the son of Gabrielle.
+In the relation "mother, son", the second "son" indicates the relationship of David to his parent, who is the son of Gabrielle.
+In the relation "husband, grandson", the second "grandson" indicates the relationship of David to his parent, who is the grandson of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of David to his parent, who is the daughter of Gabrielle.
+In the relation "sister, son," the second "son" indicates the relationship of David to his parent, who is the son of Gabrielle.
+We used the rule that in the relation "son, mother", the first "son" indicates the relationship of David to his parent, who is the son of Gabrielle.
+In the relation "mother, mother", the first "mother" indicates the relationship of David to his parent, who is the mother of Gabrielle.
+In the relation "husband, grandson", the second "grandson" indicates the relationship of David to his parent, who is the son of Gabrielle.
+In the relation "wife, granddaughter", the second "granddaughter" indicates the relationship of David to his parent, who is the son of Gabrielle.
+In the relation "son, sister", the second "sister" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "daughter, uncle", the second "uncle" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "son, uncle", the second "uncle" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "son, aunt", the second "aunt" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "daughter, aunt," the second "aunt" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "daughter, aunt," the first "daughter" indicates the relationship of Dorothy to her parent, who is the daughter of Jason.
+In the relation "father, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Michael.
+In the relation "son, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Michael.
+In the relation "daughter, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Michael.
+In the relation "father, sister", the second "sister" indicates the relationship of Christopher to his parent, who is the sister of Michael's parent.
+In the relation "sister, brother", the second "brother" indicates the relationship of Christopher to his parent, who is the brother of Michael.
+In the relation "daughter, son", the second "son" indicates the relationship of Vincent to his parent, who is the son of Gabrielle.
+In the relation "mother, mother", the first "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "mother, brother", the first "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "mother, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "husband, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "wife, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "brother, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "daughter, son", the first "daughter" indicates the relationship of Vincent to his parent, who is the daughter of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Vincent to his parent, who is the son of Gabrielle.
+In the relation "daughter, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the daughter of Gabrielle.
+In the relation "daughter," the second "daughter" indicates the relationship of Vincent to his parent, who is the daughter of Gabrielle.
+In the relation "father, mother", the second "mother" indicates the relationship of Vincent to his parent, who is the mother of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relations "son," the second "son" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relations "son, son", the second "son" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relation "son, son", the first "son" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relations "son, daughter", the first "son" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relation "son, grandson", the second "grandson" indicates the relationship of Jose to his parent, who is the son of Gabrielle.
+In the relation "son, son", the second "son" indicates the relationship of Donald to his father, who is the son of Gabrielle.
+In the relation "son, son", the second "son" indicates the relationship of Dan to his father, who is the son of Gabrielle.
+In the relation "son, son", the second "son" indicates the relationship of Donald to his parent, who is the son of Gabrielle.
+In the relation "son, son", the first "son" indicates the relationship of Dan to his parent, who is the son of Gabrielle.
+In the relation "mother, son", the second "son" indicates the relationship of Dan to his parent, who is the son of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Dan to his parent, who is the son of Gabrielle.
+In the relation "son of Jennifer's father", the second "son" indicates the relationship of Donald to his parent, who is the son of Gabrielle.
+In the relation "son, father", the first "son" indicates the relationship of Donald to his parent, who is the son of Gabrielle.
+In the relation "son, son", the second "son" indicates the relationship of Dan to his parent, who is the son of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Donald to his parent, who is the son of Gabrielle.
+In the given relations, "son" is the relation between Dan and his parent, who is the son of Gabrielle.
+In the relation "sister, son", the second "son" indicates the relationship of Dorothy to her parent, who is the son of Gabrielle.
+In the relation "son, aunt", the second "aunt" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the relation "son, aunt," the second "aunt" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the relation "son, sister", the second "sister" indicates the relationship of Dorothy to her parent, who is the daughter of Gabrielle.
+In the relation "son, sister", the second "son" indicates the relationship of Dorothy to her parent, who is the son of Gabrielle.
+In the relation "son, sister", the second "sister" indicates the relationship of Lisa to her parent, who is the daughter of Gabrielle.
+In the relation "son, grandmother", the second "son" indicates the relationship of Lisa to her parent, who is the son of Gabrielle.
+In the relation "son, grandmother", the first "son" indicates the relationship of Lisa to her parent, who is the son of Gabrielle.
+In the relations "son, sister", the second "sister" indicates the relationship of Lisa to her parent, who is the daughter of Gabrielle.
+In the relation "father, sister", the second "sister" indicates the relationship of Lisa to her parent, who is the daughter of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Lisa to her parent, who is the son of Gabrielle.
+In the relation "sister, son", the second "son" indicates the relationship of Joe to his parent, who is the son of Michael.
+In the relation "son, brother", the second "son" indicates the relationship of Joe to his parent, who is the son of Michael.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Lisa.
+In the relations "sister, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Lisa.
+In the relation "daughter, sister", the second "sister" indicates the relationship of Michelle to her parent, who is the daughter of Lisa.
+We used the rule that in the relation "sister, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Lisa.
+We used the fact that the relation "brother" is on the path from Russell to Michael. This means that Michael is Russell's brother.
+In the relation "son, son", the second "son" indicates the relationship of Russell to his father, who is the son of Gabrielle.
+In the relations "son, son", the second "son" indicates the relationship of Russell to his father, who is the son of Gabrielle.
+In the relation "son," the second "son" indicates the relationship of Russell to his parent, who is the son of Gabrielle.
+In the relation "son, son", the first "son" indicates the relationship of Russell to his parent, who is the son of Gabrielle.
+In the relation "daughter, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relations "son, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relations "son, daughter", the first "son" indicates the relationship of Aida to her parent, who is the son of Gabrielle.
+We used the fact that the relation "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, daughter", the first "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relation "mother, daughter", the second "daughter" indicates the relationship of Aida to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the first "son" indicates the relationship of Aida to her parent, who is the son of Gabrielle.
+We used the rule that the relation "son" is on the path from Alma to Donald. This means that Donald is Alma's son.
+The relation "son" is on the path from Alma to Donald. This means that Donald is Alma's son.
+We can use the fact that the relation "son" is on the path from Alma to Donald. This means that Donald is Alma's son.
+In general, the relation "daughter" followed by "daughter" indicates a grandparent-grandchild relationship.
+Rule: In a family tree, the relation of sister indicates sharing the same parents, while the relation of grandmother indicates one individual being the mother of another individual's parent.
+In a family tree, the relation of sister indicates sharing the same parents, while the relation of mother indicates a parent-child relationship.
+In a family tree, the relation of sister indicates sharing the same parents, while the relation of daughter indicates a parent-child relationship.
+The relation "daughter" indicates a parent-child relationship.
+In a family tree, the relation of grandmother indicates one individual being the mother of another individual's parent.
+In a family tree, the relation of mother indicates a parent-child relationship.
+In a family tree, the relation of daughter indicates a parent-child relationship.
+In a family tree, the relation "daughter, daughter" indicates a grandparent-grandchild relationship.
+In a family tree, the relation of sister indicates sharing the same parents, while the relation of grandmother indicates one individual being the mother of another individual's parent.
+In general, the relation of sister indicates sharing the same parents, while the relation of daughter indicates a parent-child relationship.
+In a family tree, the relation of brother indicates sharing the same parents, while the relation of grandfather indicates one individual being the parent of another individual's parent.
+In a family tree, the relation "daughter, grandfather" indicates a parent-child relationship.
+In a family tree, the relation "daughter, brother" indicates a parent-child relationship.
+In the relation "daughter, brother" indicates a parent-child relationship.
+In a family tree, the relation "brother" indicates a sibling relationship, and the relation "grandfather" indicates the parent of one's parent.
+In a family tree, the relation "father, sister" indicates a parent-child relationship.
+In the family tree, the relation of daughter indicates a parent-child relationship.
+In a family tree, the relation "son, grandfather" indicates a parent-child relationship.
+In the relation "son, aunt", the second "aunt" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent.
+In the relation "son, uncle", the second "uncle" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent.
+In the relation "daughter, uncle", the second "uncle" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent.
+In the relation "daughter, uncle", the first "daughter" indicates the relationship of Myrna to her parent, who is the daughter of Michael's parent.
+In the relation "daughter, daughter", the second "daughter" indicates the relationship of Guillermina to her parent, who is the daughter of Gabrielle.
+In the relation "sister," the second "sister" indicates the relationship of Guillermina to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Guillermina to her parent, who is the daughter of Gabrielle.
+In the relation "mother, daughter", the second "daughter" indicates the relationship of Guillermina to her parent, who is the daughter of Gabrielle.
+In the relation "sister, grandmother", the second "grandmother" indicates the relationship of Guillermina to her parent, who is the mother of Gabrielle.
+In the relation "daughter, grandmother", the second "grandmother" indicates the relationship of Guillermina to her parent, who is the mother of Gabrielle.
+In the relation "sister, grandfather", the second "grandfather" indicates the relationship of Guillermina to her parent, who is the mother of Gabrielle.
+In the relations "son, daughter", the second "daughter" indicates the relationship of Guillermina to her parent, who is the daughter of Gabrielle.
+In the relation "brother, grandfather", the second "grandfather" indicates the relationship of Guillermina to her parent, who is the mother of Gabrielle.
+In the relation "daughter, son", the first "daughter" indicates the relationship of Joe to his parent, who is the daughter of Gabrielle.
+In the relation "sister, son", the second "son" indicates the relationship of Joe to his parent, who is the son of Gabrielle.
+In the relation "daughter, son", the second "son" indicates the relationship of Joe to his parent, who is the son of Gabrielle.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Joe to his parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Joe to his parent, who is the daughter of Gabrielle.
+In the relation "mother, mother", the second "mother" indicates the relationship of Joe to his parent, who is the daughter of Gabrielle.
+In the relation "brother, mother", the second "mother" indicates the relationship of Joe to his parent, who is the mother of Gabrielle.
+In the relation "mother, brother", the second "mother" indicates the relationship of Joe to his parent, who is the mother of Gabrielle.
+In the relation "son, daughter", the second "son" indicates the relationship of Joe to his parent, who is the son of Gabrielle.
+In the relation "daughter," the second "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the second "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Gabrielle.
+In the relation "son, sister", the second "sister" indicates the relationship of Jennifer to her parent, who is the daughter of Gabrielle.
+In the relations "son, daughter", the second "daughter" indicates the relationship of Jennifer to her parent, who is the daughter of Gabrielle.
+In the relation "son, daughter", the first "son" indicates the relationship of Jennifer to her parent, who is the son of Gabrielle.
+We know that a husband is not directly related to Asia, so we can skip this relation. However, a granddaughter is directly related to Gabrielle, so we can infer that Asia is Gabrielle's granddaughter.
+In the given relations, "husband" is not directly related to Asia, so we can skip this relation. However, a granddaughter is directly related to Gabrielle, so we can infer that Asia is Gabrielle's granddaughter.
+In the relation "daughter," the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Gabrielle.
+In the relation "sister," the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Gabrielle.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Gabrielle.
+In the relation "mother, daughter", the second "daughter" indicates the relationship of Michelle to her parent, who is the daughter of Gabrielle.
+In the given relations, "husband" is not directly related to Angela, so we can skip this relation. However, a granddaughter is directly related to Gabrielle, so we can infer that Angela is Gabrielle's granddaughter.
+In the given relations, "husband" is not directly related to Dan, so we can skip this relation. However, a grandson is directly related to Gabrielle, so we can infer that Dan is Gabrielle's grandson.
+In the relation "sister, son", the second "son" indicates the relationship of David to his parent, who is the son of Myrna.
+In the relation "son, sister", the second "son" indicates the relationship of David to his parent, who is the son of Myrna.
+In the relation "son, brother", the second "son" indicates the relationship of David to his parent, who is the son of Myrna.
+In the relation "son, daughter", the second "daughter" indicates the relationship of David to his parent, who is the daughter of Myrna.
+In the relation "mother" is on the path from Joe to his parent, who is the mother of Gabrielle. This means that Gabrielle is Joe's grandmother.
+In the relation "son, grandmother", the first "son" indicates the relationship of Lisa to her parent, who is the son of Jason.
+In the relation "son, grandfather", the first "son" indicates the relationship of Lisa to her parent, who is the son of Jason.
+In the relation "son, aunt", the first "son" indicates the relationship of Lisa to her parent, who is the son of Jason.
+In the relations "daughter, brother", the second "brother" indicates the relationship of Michael to his parent, who is the brother of Lucille.
+In the relation "daughter, brother", the first "daughter" indicates the relationship of Jason to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, son", the first "daughter" indicates the relationship of Jason to his parent, who is the daughter of Gabrielle.
+In the relation "son, grandfather", the first "son" indicates the relationship of Jason to his parent, who is the daughter of Gabrielle.
+In the relation "son, grandfather", the first "son" indicates the relationship of Jason to his parent, who is the son of Gabrielle.
+In a family tree, a father is a male parent of a child.
+In a family tree, a granddaughter is the child of one's child.
+In a family tree, a granddaughter is the child of one's son or daughter.
+In a family tree, a son is the male child of a parent.
+In a family tree, a father is the male parent of a child.
+In a family tree, a grandson is the child of one's son or daughter.
+In a family tree, a son is the child of one's son or daughter.
+In the given relations, "son" is the relation between Christopher and his parent, who is the son of Gabrielle.
+In general, a grandson is the child of one's son or daughter.
+A grandson is the child of one's son or daughter.
+In the relations "son, wife", the second "wife" indicates the relationship of Sheila to her parent, who is the wife of Lisa's son.
+In the relation "son, wife", the second "wife" indicates the relationship of Sheila to her parent, who is the wife of Lisa's son.
+In most cases, an uncle is the brother of one's parent.
+In general, an uncle is the brother of one's parent.
+In the relation "husband," Lisa is the wife of Deborah's son.
+Inference rule: A husband is a spouse, and a grandson is the son of a child.
+Inference rule: A husband is a spouse, and a granddaughter is the child of a child.
+In a family tree, a daughter's aunt can be the sister of the daughter's parent.
+In the family tree, a daughter's aunt can be the sister of the daughter's parent.
+In the family tree, a daughter's uncle can be the brother of the daughter's parent.
+In a family tree, the daughter's aunt can be the sister of the daughter's parent.
+In many cultures, the daughter of a daughter is considered a granddaughter.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Lucille to her parent, who is the daughter of Gabrielle.
+In the relations "son, daughter", the second "daughter" indicates the relationship of Lucille to her parent, who is the daughter of Gabrielle.
+In the relation "sister, daughter", the first "daughter" indicates the relationship of Lucille to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, aunt," the first "daughter" indicates the relationship of Lucille to her parent, who is the daughter of Gabrielle.
+In the relation "daughter, grandmother", the first "daughter" indicates the relationship of Christopher to his parent, who is the daughter of Gabrielle.
+In the relation "daughter, grandfather", the first "daughter" indicates the relationship of Christopher to his parent, who is the daughter of Gabrielle.
+Inference rule: If two people are connected by the relation "brother," they are siblings.
+Inference Rule: If two people are connected by the relation "brother," they are siblings.
+In the relation "son," Vanessa is the wife of Alma's son.
+Inference: The relations "sister, sister" indicate that Jennifer and Donald share the same parents, making them siblings.
+The relations "sister, sister" indicate that Jennifer and Donald share the same parents, making them siblings.
+In the relations "sister, sister" indicate that Jennifer and Donald share the same parents, making them siblings.
+In the relation "sister, sister" indicate that Jennifer and Donald share the same parents, making them siblings.
+In the relation "sister, brother" indicate that Jennifer and Donald share the same parents, making them siblings.
+In the relation "daughter, brother", the second "brother" indicates the relationship of Dan to his parent, who is the brother of Lucille.
+In the relation "son, brother", the second "brother" indicates the relationship of Dan to his parent, who is the brother of Lucille.
+In the relations "sister, brother" indicate that Vanessa and Donald share the same parents, making them siblings.
+In the relations "granddaughter, brother", the first "granddaughter" indicates the relationship of Donald to his parent, who is the daughter of Gabrielle.
+In the relation "grandson, sister", the first "grandson" indicates the relationship of Donald to his parent, who is the daughter of Gabrielle.
+Since Michael is Lisa's uncle, and in most cases, an uncle is the brother of one's parent, then Michael is the brother of Lisa's parent, who is Lisa's father.
+Rule: In a parent-child relationship, the child's child is the grandchild of the parent.
+In a parent-child relationship, the child's child is the grandchild of the parent.
+We used the rule that in a parent-child relationship, the child's child is the grandchild of the parent.
+In the relation "sister, daughter", the second "daughter" indicates the relationship of Lucille to her parent, who is the daughter of Alma.
+Inference: In most cases, an uncle is the brother of one's parent.
+Inference Rule: A person's son's uncle is the person's brother.
+Inference Rule: A person's brother's father is the person's father.
+Inference rule: A person's brother's father is the person's father.
+Inference Rule: A person's son's aunt is the person's sister.
+In the inference rule, "A person's son's uncle is the person's brother."
+In general, the granddaughter is the child of one's son or daughter.
+In general, a granddaughter is the child of one's son or daughter.
+In a family tree, a daughter is a female offspring of a parent.
+We can use the fact that a husband is a spouse, and a grandson is the son of a child.
+We can use the fact that the parent of one's parent is their grandparent.
+We used the fact that the parent of one's parent is their grandparent.
+In general, a grandfather is the parent of one's parent.
+In a family tree, the parent of one's parent is their grandparent.
+In the family tree, the parent of one's parent is their grandparent.
+In a family tree, a grandfather is the parent of one's parent.
+In general, a person's sibling can also be a grandparent to their children.
+We used the rule that if two people are connected by the relation "brother," they are siblings.
+In a family tree, a husband's father is also the father of the husband's spouse.
+Niece is the daughter of one's brother or sister.
+We know that a husband is considered a spouse.
+If two people are connected by the relation "brother," they are siblings.
+In general, if two people are connected by the relation "brother," they are siblings.
+We know that if two people are connected by the relation "brother," they are siblings.
+We can use the fact that if two people are connected by the relation "brother," they are siblings.
+测试集上的准确率为：0.2663316582914573

@@ -24,7 +24,7 @@ class Rule:
         self.success_unused = 0
         self.failure_used = 0
         self.failure_unused = 0
-        self.source_questions = {question}   # rule来源于哪些question
+        self.source_questions = {question} if question else set() # rule来源于哪些question
 
     def read_rule(self, rule: Dict):
         if 'content' not in rule:
@@ -160,7 +160,7 @@ class RuleBase:
         """
         given_rules, extracted_rules = self._find_rule_class(added_rules, rules, question)
 
-        self._update_rule_score(given_rules, extracted_rules, question)
+        self._update_rule_score(given_rules, extracted_rules, question, score)
 
         return list(extracted_rules)
 
@@ -182,6 +182,9 @@ class RuleBase:
         if isinstance(rules, str):
             return self.__add_rules(rules, questions, scores)
         elif isinstance(rules, list):
+            if isinstance(questions, str):
+                questions = [questions] * len(rules)
+
             new_rule_instances = [self.__add_rules(rule, question, score) for
                                   rule, question, score in zip(rules, questions, scores)]
             return new_rule_instances
@@ -189,10 +192,7 @@ class RuleBase:
     def __len__(self):
         return len(self._rule_name_2_rule_instance)
 
-    def read_rules(self, rules: Union[List[Dict], List[str]]):
-        """
-        读入的是完整的rules，{'rule': "Guillermina is Christopher's daughter.", 'confidence': -22.23923742923761, 'success_used': 0, 'success_unused': 97, 'failure_used': 17, 'failure_unused': 674}
-        """
+    def _read_rules(self, rules: Union[List[Dict], List[str]]):
         for rule_dict in rules:
             if isinstance(rule_dict, str):
                 rule_dict = eval(rule_dict)
@@ -200,6 +200,18 @@ class RuleBase:
             rule = Rule(content="", question="").read_rule(rule_dict)
             self._rule_name_2_rule_instance[rule.content] = rule    # 这里应该有一个存在就不读入了的函数。
             # 或者说这里本就应该调取update来完成存储。不过暂时先这样，因为目前的update还不够灵活
+
+    def read_rules(self, rule_base_path: str):
+        """
+        读入的是完整的rules，{'rule': "Guillermina is Christopher's daughter.", 'confidence': -22.23923742923761, 'success_used': 0, 'success_unused': 97, 'failure_used': 17, 'failure_unused': 674}
+        """
+        with open(rule_base_path, 'r') as f:
+            rules = [l for l in f.readlines() if l.strip()]
+            self._read_rules(rules)
+
+    def broadcast_rule_info(self):
+        """可能存在的同步需求"""
+        pass
 
     def save(self, save_path: str):
         with open(save_path, 'w') as f:
@@ -254,6 +266,9 @@ class DisjointSetRuleBase(RuleBase):
         return rule_embedding
 
     def create_edge(self, rule_1, rule_2):
+        if rule_1 is rule_2:
+            return
+
         threshold = 0.9
         rule_1_embedding = self.get_rule_embedding(rule_1)
         rule_2_embedding = self.get_rule_embedding(rule_2)
@@ -273,7 +288,10 @@ class DisjointSetRuleBase(RuleBase):
 
         return clusters
 
-    def average_rule_confidence(self):
+    def broadcast_rule_info(self):
+        """
+        对于并查集，主要就是平均每个集合内的rule的confidence等信息
+        """
         clusters = self.find_cluster()
 
         for cluster in clusters:
@@ -334,6 +352,41 @@ class DisjointSetRuleBase(RuleBase):
 
         return super().sample_rules(rule_num, stages, proportion, do_not_use_question, override_rules)
 
+    def save(self, save_path: str):
+        self.broadcast_rule_info()
+        clusters = self.find_cluster()
+
+        with open(save_path, 'w') as f:
+            for cluster in clusters:
+                rules = clusters[cluster]
+                degree_of_rules = {r1: sum([self.adjacency_matrix[r1][r2] for r2 in rules]) for r1 in rules}
+                rules.sort(key=lambda x: degree_of_rules[x], reverse=True)
+                out = [r.__dict__ for r in rules]
+
+                f.write(str(out) + '\n')
+
+        # 保存father，其他的到读取时候再生成
+        with open(save_path + "_father", 'w') as f:
+            save_father = {rule.content: self.father[rule].content for rule in self.father}
+            f.write(str(save_father))
+
+    def read_rules(self, rule_base_path: str):
+        """
+        读入的是完整的rules，{'rule': "Guillermina is Christopher's daughter.", 'confidence': -22.23923742923761, 'success_used': 0, 'success_unused': 97, 'failure_used': 17, 'failure_unused': 674}
+        """
+        with open(rule_base_path, 'r') as f:
+            clusters = [eval(l) for l in f.readlines() if l.strip()]
+            for cluster in clusters:
+                self._read_rules(cluster)
+
+        with open(rule_base_path + "_father", 'r') as f:
+            father = eval(f.read())
+            for rule in self._rule_name_2_rule_instance:
+                self.father[self._rule_name_2_rule_instance[rule]] = self._rule_name_2_rule_instance[father[rule]]
+
+        for rule in self._rule_name_2_rule_instance.values():
+            for rule_2 in self._rule_name_2_rule_instance.values():
+                self.create_edge(rule, rule_2)
 
 class Rationale:    # 修正到只有两个属性
     """

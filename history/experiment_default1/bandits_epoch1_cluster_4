@@ -1,0 +1,58 @@
+{
+    "Christopher is Dwight's son's uncle. <Begin> Inference Rule: A person's son's uncle is the person's brother. </End> Answer: Christopher is Dwight's brother.": [
+        4.67485014985015,
+        10.325149850149849
+    ],
+    "Dwight is Scott's brother because they share the same father. <Begin> In general, siblings share the same parents. </End>": [
+        9.469721944721945,
+        14.530278055278057
+    ],
+    "Gabrielle is Dwight's son's grandmother. <Begin> In most cases, a person's son's grandmother would be the person's mother. </End> So, Gabrielle is Dwight's mother.": [
+        9.55580253080253,
+        11.44419746919747
+    ],
+    "Dorothy is Dwight's aunt. <Begin> A son's aunt is his father's sister or mother's sister. </End>": [
+        8.154245754245755,
+        11.845754245754247
+    ],
+    "Dwight is Lewis's brother's father. <Begin> In general, the father is the parent of a sibling. </End>": [
+        10.588769563769564,
+        12.411230436230436
+    ],
+    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        7.181776556776557,
+        6.8182234432234425
+    ],
+    "Christopher is Dwight's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        6.032967032967033,
+        3.967032967032967
+    ],
+    "Sheila is Dwight's son's wife. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
+        4.738095238095237,
+        5.261904761904762
+    ],
+    "Jason is Dwight's grandfather. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule>": [
+        4.285714285714286,
+        3.7142857142857144
+    ],
+    "Dwight is Donna's husband's father. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
+        2.333333333333333,
+        2.666666666666667
+    ],
+    "Dwight is Lewis's brother's father. <new_rule> Inference Rule: A person's brother's father is the person's father. <new_rule>": [
+        3.3095238095238093,
+        2.6904761904761907
+    ],
+    "Lucille is Dwight's sister's daughter. <retrieved_rule> A husband's father is also the father of the husband's spouse. <retrieved_rule>": [
+        1.1666666666666665,
+        1.8333333333333335
+    ],
+    "Gabrielle is Dwight's grandmother. <retrieved_rule> In most cases, a person's son's grandmother would be the person's mother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Dorothy is Dwight's son's aunt. <retrieved_rule> In a family tree, a son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

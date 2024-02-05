@@ -1,90 +1,90 @@
 {
     "Christopher is Dwight's son's uncle. <Begin> Inference Rule: A person's son's uncle is the person's brother. </End> Answer: Christopher is Dwight's brother.": [
-        4.67485014985015,
-        10.325149850149849
+        10.07106227106227,
+        9.928937728937727
     ],
     "Dwight is Scott's brother because they share the same father. <Begin> In general, siblings share the same parents. </End>": [
-        9.546645021645022,
-        15.45335497835498
+        9.279395604395605,
+        8.720604395604395
     ],
     "Gabrielle is Dwight's son's grandmother. <Begin> In most cases, a person's son's grandmother would be the person's mother. </End> So, Gabrielle is Dwight's mother.": [
-        10.889135864135863,
-        13.110864135864137
+        14.331776556776557,
+        7.668223443223443
     ],
     "Dorothy is Dwight's aunt. <Begin> A son's aunt is his father's sister or mother's sister. </End>": [
-        9.297102897102898,
-        12.702897102897104
+        5.860347985347985,
+        9.139652014652015
     ],
     "Dwight is Lewis's brother's father. <Begin> In general, the father is the parent of a sibling. </End>": [
-        10.88043623043623,
-        14.11956376956377
+        12.337728937728938,
+        10.662271062271062
     ],
-    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+    "Myrna is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        6.972619047619047,
+        9.027380952380952
+    ],
+    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule> Therefore, Dwight is Alma's brother.": [
+        5.500000000000001,
+        4.5
+    ],
+    "Jason is Dwight's son's grandfather. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule> Therefore, Jason is Dwight's father.": [
+        7.952380952380952,
+        5.047619047619048
+    ],
+    "Dorothy is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule> Therefore, Dorothy is Dwight's sister.": [
+        6.810714285714285,
+        4.189285714285714
+    ],
+    "Dwight is Donna's husband's father. <retrieved_rule> In the relation \"husband, father\", the second \"father\" indicates the relationship of Jeffrey to his father, making Christopher his father. <retrieved_rule> Therefore, Dwight is Donna's father-in-law.": [
+        8.285714285714285,
+        2.7142857142857144
+    ],
+    "Christopher is Dwight's son's uncle. <new_rule> Inference Rule: A person's son's uncle is the person's brother. <new_rule> Therefore, Christopher is Dwight's brother.": [
+        4.166666666666667,
+        3.8333333333333335
+    ],
+    "Dwight is Lewis's father. <retrieved_rule> In the relation \"son, brother\", the second \"brother\" indicates that Christopher is the child of Gabrielle's sibling. <retrieved_rule> Therefore, Dwight is Lewis's father.": [
+        2.2857142857142856,
+        2.7142857142857144
+    ],
+    "Donald is Dwight's brother's son. <retrieved_rule> In general, the child of one's sibling is referred to as a nephew or niece. <retrieved_rule> Therefore, Donald is Dwight's nephew.": [
+        1.619047619047619,
+        2.380952380952381
+    ],
+    "Dwight is Jose's mother's brother. <retrieved_rule> In general, the relation \"brother\" followed by \"mother\" indicates the relationship of Vincent to his mother, who is the daughter of Gabrielle. <retrieved_rule> Therefore, Dwight is Jose's uncle.": [
+        4.5,
+        2.5
+    ],
+    "Dorothy is Dwight's son's aunt. <retrieved_rule> Niece is the daughter of one's brother or sister. <retrieved_rule> Therefore, Dorothy is Dwight's sister.": [
+        3.1666666666666665,
+        2.8333333333333335
+    ],
+    "Lucille is Dwight's brother's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule> Therefore, Lucille is Dwight's niece.": [
+        6.0,
+        1.0
+    ],
+    "Myrna is Dwight's son's aunt. <retrieved_rule> Niece is the daughter of one's brother or sister. <retrieved_rule> Therefore, Myrna is Dwight's sister.": [
+        1.1666666666666665,
+        1.8333333333333335
+    ],
+    "Dwight is Christopher's daughter's uncle. <retrieved_rule> In a parent-child relationship, the child's child is the grandchild of the parent. <retrieved_rule> Therefore, Dwight is Christopher's brother.": [
+        2.0,
+        2.0
+    ],
+    "Dwight is Jose's father's brother. <retrieved_rule> In general, the relation \"brother\" indicates the relationship of Michael to his mother, who is the daughter of Aida. <retrieved_rule> Therefore, Dwight is Jose's uncle.": [
+        2.0,
+        1.0
+    ],
+    "Dwight is Jose's mother's brother. <retrieved_rule> In the relation \"mother, brother\", the second \"brother\" indicates the relationship of Vincent to his mother, who is the daughter of Gabrielle. <retrieved_rule> Therefore, Dwight is Jose's uncle.": [
+        1.2857142857142856,
+        1.7142857142857144
+    ],
+    "Dwight is Scott's father. <retrieved_rule> In the relation \"son, brother\", the second \"brother\" indicates that Christopher is the child of Gabrielle's sibling. <retrieved_rule> Therefore, Dwight is Scott's father.": [
         1.0,
         1.0
     ],
-    "Christopher is Dwight's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+    "Sheila is Dwight's son's wife. <retrieved_rule> In general, a husband is considered a spouse. <retrieved_rule> Therefore, Sheila is Dwight's daughter-in-law.": [
         1.0,
-        1.0
-    ],
-    "Sheila is Dwight's son's wife. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
-        8.029761904761905,
-        6.970238095238095
-    ],
-    "Jason is Dwight's grandfather. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule>": [
-        6.5054945054945055,
-        5.4945054945054945
-    ],
-    "Dwight is Donna's husband's father. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
-        3.6249999999999996,
-        4.375
-    ],
-    "Dwight is Lewis's brother's father. <new_rule> Inference Rule: A person's brother's father is the person's father. <new_rule>": [
-        10.164502164502164,
-        4.835497835497836
-    ],
-    "Lucille is Dwight's sister's daughter. <retrieved_rule> A husband's father is also the father of the husband's spouse. <retrieved_rule>": [
-        3.712121212121212,
-        2.287878787878788
-    ],
-    "Gabrielle is Dwight's grandmother. <retrieved_rule> In most cases, a person's son's grandmother would be the person's mother. <retrieved_rule>": [
-        2.2435897435897436,
-        2.7564102564102564
-    ],
-    "Dorothy is Dwight's son's aunt. <retrieved_rule> In a family tree, a son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
-        3.476190476190476,
-        3.523809523809524
-    ],
-    "Sheila is Dwight's son's wife. <retrieved_rule> In the relations \"son,\" the second \"son\" indicates the relationship of Jose to his parent, who is the son of Gabrielle. <retrieved_rule>": [
-        5.076923076923077,
-        1.9230769230769231
-    ],
-    "Dwight is Jose's son's brother. <retrieved_rule> In the relation \"son, brother,\" the second \"brother\" indicates the relationship of Dwight to his parent, who is the son of Gabrielle. <retrieved_rule>": [
-        2.125,
-        1.875
-    ],
-    "Dwight is Christopher's daughter's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
-        2.0,
-        1.0
-    ],
-    "Dwight is Scott's brother's father. <new_rule> Inference Rule: A person's brother's father is the person's father. <new_rule>": [
-        2.0,
-        1.0
-    ],
-    "Lucille is Dwight's brother's daughter. <retrieved_rule> In a family tree, a brother is a male sibling of a person. <retrieved_rule>": [
-        3.0,
-        1.0
-    ],
-    "Donald is Dwight's brother's son. <retrieved_rule> If two people are connected by the relation \"brother,\" they are siblings. <retrieved_rule>": [
-        2.5454545454545454,
-        1.4545454545454546
-    ],
-    "Gabrielle is Dwight's son's grandmother. <retrieved_rule> In the relation \"son, grandfather\", the first \"son\" indicates the relationship of Michael to his parent, who is the son of Jason. <retrieved_rule>": [
-        2.0,
-        1.0
-    ],
-    "Dorothy is Dwight's son's aunt. <retrieved_rule> In the relation \"son, aunt\", the second \"aunt\" indicates the relationship of Myrna to her parent, who is the sister of Michael's parent. <retrieved_rule>": [
-        2.0,
         1.0
     ]
 }

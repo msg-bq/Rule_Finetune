@@ -5,14 +5,14 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 from baseline.rule_sample import sample_rule_strategy
-from utils.data import Rationale, Example, RuleBase
+from utils.data import Rationale, Example, RuleBase, DisjointSetRuleBase
 from utils.llm_models.call_openai import call_openai
 from utils.read_datasets import read_datasets
 
 from prompts import dataset_prompt
 from utils.sub_score import parse_response
 
-import utils
+import utils.clean_prediction_func
 
 # import utils.sub_score as score_py
 
@@ -20,17 +20,17 @@ import utils.ExtraNameSpace as ExtraNameSpace
 
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
-parser.add_argument("--dataset", type=str, default="LANG_8",
+parser.add_argument("--dataset", type=str, default="CLUTRR",
                         choices=["default", "CLUTRR", "STS_B", "LANG_8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-parser.add_argument("--prompt_type", type=str, default="zero-shot",
+parser.add_argument("--prompt_type", type=str, default="CoT_rule",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
-parser.add_argument("--sample_strategy", type=str, default="confidence_500", #"confidence_num"
+parser.add_argument("--sample_strategy", type=str, default="confidence_1800", #"confidence_num"
                     help="sample rule strategy used for experiment")
 
 parser.add_argument("--rule_base_path", type=str, default="../experiment/rule_base_final",
@@ -40,7 +40,7 @@ parser.add_argument("--dataset_type", type=str, default="test",
                         choices=["train", "valid", "test"],
                         help="dataset type used for experiment")
 
-parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613",
+parser.add_argument("--model", type=str, default="gpt-3.5-turbo-1106",
                         choices=["gpt-3.5-turbo-1106", "gpt-3.5-turbo-0613", "gpt-3.5-turbo",
                                  "gpt-4-1106-preview"],
                         help="model used for experiment")
@@ -54,10 +54,8 @@ ExtraNameSpace.NameSpace._args = args
 
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
-rule_base = RuleBase()
-with open(args.rule_base_path, encoding="utf8") as f:
-    rules = [l for l in f.readlines() if l.strip()]
-    rule_base.read_rules(rules)
+rule_base = DisjointSetRuleBase()
+rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"
 if not os.path.exists(dir_path):
@@ -158,7 +156,7 @@ with ThreadPoolExecutor(max_workers=200) as executor:
     futures = [executor.submit(eval_step, args, example) for example in final_dataset]
     for future in futures:
         rationale, prediction, gold_label, score = future.result()
-        if prediction.lower() == gold_label.lower():
+        if prediction.lower() == gold_label.lower() or prediction == "GOLD_LABEL":
             correct_cnt += 1
 
         with open(save_path, 'a', encoding="utf8") as f:

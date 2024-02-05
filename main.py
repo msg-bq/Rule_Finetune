@@ -1,6 +1,7 @@
 import os.path
 
 from RuleFinetune.RuleTrainer import Trainer
+from utils.data import DisjointSetRuleBase
 from utils.llm import LLM, generate_func_mapping
 from utils.read_datasets import read_datasets, read_rationales
 import argparse
@@ -38,7 +39,7 @@ def args_parse():
     parser.add_argument("--multi_thread", type=bool, default=False,
                         help="whether to use multi-thread to accelerate")
 
-    parser.add_argument("--epoch", type=int, default=10,
+    parser.add_argument("--epoch", type=int, default=5,
                         help="epoch used for experiment")
 
     parser.add_argument("--topN", type=int, default=1,
@@ -122,7 +123,8 @@ def main():
     generate_func = generate_func_mapping[args.llm_model]
     llm_model = LLM(generate_func)
 
-    cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model) #topN是个小问题
+    cur_Trainer = Trainer(args, train_dataset, valid_dataset, test_dataset, llm_model,
+                          rule_base=DisjointSetRuleBase()) #topN是个小问题
 
     if args.train:    # 需要cold start的时候运行
         cur_Trainer.cold_start()  # 存Answer的时候就clean一下

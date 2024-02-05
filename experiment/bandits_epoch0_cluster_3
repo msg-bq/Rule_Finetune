@@ -1,66 +1,174 @@
 {
-    "Michelle is Dorothy's sister. <Begin>Inference based on the given relations daughter and sister.</End>": [
-        7.795454545454545,
-        4.204545454545455
-    ],
     "First, Dorothy's brother is Jennifer's father. Then, Jennifer is Dorothy's niece. <Begin>We can use the fact that a brother is a male sibling, and a daughter is a female offspring.</End> So, Jennifer is Dorothy's niece.": [
-        1.375,
-        3.625
+        4.201923076923077,
+        3.7980769230769234
     ],
     "Lisa is Dorothy's daughter's aunt. <Begin> In a family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Lisa is Dorothy's sister.": [
-        1.9204545454545454,
-        4.079545454545455
+        2.5137362637362637,
+        4.486263736263736
+    ],
+    "Michelle is Dorothy's sister. <Begin>Inference based on the given relations daughter and sister.</End>": [
+        6.488095238095238,
+        4.511904761904763
+    ],
+    "Michael is Lisa's son's uncle. Therefore, Michael is Lisa's brother or Lisa's sister's husband. <Begin> Inference rule: In a family tree, the sibling of a person's parent is their uncle or aunt. </End> So, Michael is Lisa's brother.": [
+        5.115384615384615,
+        4.884615384615385
+    ],
+    "Alma is Jennifer's sister. <Begin> In general, if two individuals share the same mother, they are siblings. </End>": [
+        3.5769230769230766,
+        3.4230769230769234
     ],
     "1. Dan and Dorothy share a parent, making them siblings. 2. Dorothy is also a mother, which means she has a child. Therefore, Dorothy is Dan's sister and also his mother. <Begin> In general, siblings share at least one parent, and mothers have children. </End>": [
-        1.0,
-        3.0
+        1.9166666666666665,
+        3.0833333333333335
     ],
-    "Jason is Dorothy's grandfather. <Begin> Inference: In the given relations, \"daughter\" is the relation between Dorothy and her parent, and \"grandfather\" is the relation between Dorothy and Jason. <End>": [
-        3.75,
-        3.25
+    "Christopher is Lucille's father. <Begin> In a family tree, a father is a male parent of a child. </End>": [
+        7.080128205128205,
+        4.919871794871795
     ],
-    "First, Dorothy's daughter is Vincent's sister. Then, Vincent's brother is Dorothy's son. So, Vincent is Dorothy's son. <Begin> In general, the relation of brother implies a sibling relationship, and the relation of daughter implies a parent-child relationship. </End>": [
-        4.375,
+    "Sheila is Lisa's son's wife. Therefore, Sheila is Lisa's daughter-in-law. <Begin>In general, the spouse of one's child is referred to as a daughter-in-law or son-in-law.</End>": [
+        13.0,
+        5.0
+    ],
+    "Vanessa is Jennifer's sister. <Begin> In a sibling relationship, a brother and sister are related as siblings. </End>": [
+        6.853021978021979,
+        6.146978021978022
+    ],
+    "Donald is Jennifer's brother. <Begin> In a sibling relationship, a brother is a male sibling of a person. </End>": [
+        1.375,
         2.625
     ],
-    "Dorothy is Myrna's daughter's aunt. <Begin> In the family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Dorothy is Myrna's sister.": [
-        8.063311688311689,
-        2.936688311688312
+    "First, Dorothy's daughter is Vincent's sister. Then, Vincent's brother is Dorothy's son. So, Vincent is Dorothy's son. <Begin> In general, the relation of brother implies a sibling relationship, and the relation of daughter implies a parent-child relationship. </End>": [
+        1.7403846153846154,
+        3.2596153846153846
+    ],
+    "Michelle is Aida's sister. <Begin> In most cultures, a female sibling of another female is referred to as a sister. </End>": [
+        6.35576923076923,
+        4.64423076923077
+    ],
+    "First, we know that the relation between Jennifer and Donald is father,son. This means that Donald is the son of Jennifer's father. So, in relation to Jennifer, Donald is her brother. <Begin>In general, the son of Jennifer's father is her brother.</End>": [
+        4.666666666666666,
+        3.3333333333333335
+    ],
+    "Vanessa is Alma's daughter-in-law. <Begin>In the relation \"son,\" Vanessa is the wife of Alma's son. </End>": [
+        3.083333333333333,
+        4.916666666666667
     ],
     "1. Vincent and Dorothy share the relation \"sister\" - this means they are siblings. 2. Dorothy is also related to Vincent as \"mother\" - this means Dorothy is Vincent's mother. So, Dorothy is Vincent's mother. <Begin>In general, a person who is both a sister and a mother to someone is their mother.</End>": [
-        5.063311688311688,
-        4.936688311688312
+        4.674908424908425,
+        4.325091575091575
     ],
-    "Lisa is Dorothy's daughter's aunt. <retrieved_rule> In the family tree, a daughter's aunt can be the sister of the daughter's parent. <retrieved_rule> So, Lisa is Dorothy's sister.": [
-        6.688311688311688,
-        2.311688311688312
+    "Lewis is Joe's brother. <Begin> Inference rule: If two people are connected by the relation \"brother,\" they are siblings.</End>": [
+        6.946428571428572,
+        6.053571428571428
     ],
-    "Gabrielle is Dorothy's grandmother. <retrieved_rule> In general, a grandmother is the mother of one's parent. <retrieved_rule>": [
-        3.875,
-        3.125
+    "Donald is Vanessa's brother. <Begin>In general, siblings share at least one parent.</End>": [
+        4.455128205128204,
+        4.544871794871795
     ],
-    "Dorothy is Marci's mother-in-law. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule> So,": [
-        3.642857142857143,
-        3.357142857142857
+    "Jennifer is Donald's sister. <Begin> Inference: The relations \"sister, sister\" indicate that Jennifer and Donald share the same parents, making them siblings. </End>": [
+        3.3333333333333335,
+        2.6666666666666665
     ],
-    "Myrna is Dorothy's daughter's aunt. <retrieved_rule> In the family tree, a daughter's aunt can be the sister of the daughter's parent. <retrieved_rule> So, Myrna is Dorothy's sister.": [
-        1.125,
-        1.875
+    "Asia's mother is Lisa's mother, and Asia's sister is Lisa's sister. Therefore, Lisa is Asia's sister. <Begin> In general, a person's mother's sister is their aunt. </End>": [
+        7.945054945054944,
+        5.054945054945055
     ],
-    "Dorothy is Dan's mother. <retrieved_rule> In general, a person who is both a sister and a mother to someone is their mother. <retrieved_rule>": [
-        2.75,
-        2.25
+    "Asia's brother is Michael, and Asia's father is also Michael. Therefore, Michael is Asia's brother and father. <Begin> In many cultures, a person can be both a brother and a father to someone, such as in the case of half-siblings or step-siblings. </End>": [
+        7.271062271062272,
+        5.728937728937729
     ],
-    "Jason is Dorothy's grandfather. <retrieved_rule> In general, a grandfather is the parent of one's parent. <retrieved_rule>": [
-        2.267857142857143,
+    "Michelle is James's daughter's sister. Therefore, Michelle is James's daughter. <new_rule> In a family tree, the relation \"daughter\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <new_rule> So, Michelle is James's granddaughter.": [
+        8.896062271062272,
+        5.103937728937729
+    ],
+    "Jennifer is Donald's sister. <retrieved_rule> In a sibling relationship, a brother and sister are related as siblings. <retrieved_rule>": [
+        2.4761904761904763,
+        2.5238095238095237
+    ],
+    "Michael is Dorothy's brother. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        4.826923076923077,
+        3.1730769230769234
+    ],
+    "Joe is Michael's nephew. <retrieved_rule> In a family tree, the relation of sister indicates sharing the same parents, while the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
+        4.146062271062271,
+        3.853937728937729
+    ],
+    "Jennifer is Asia's daughter. <retrieved_rule> In general, the mother of someone's son is also their mother. <retrieved_rule>": [
+        6.9107142857142865,
+        5.089285714285714
+    ],
+    "Donald is Jennifer's brother. <retrieved_rule> In general, the son of Jennifer's father is her brother. <retrieved_rule>": [
+        8.476190476190476,
+        5.523809523809524
+    ],
+    "Dorothy is Vincent's mother. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        2.8095238095238093,
+        4.190476190476191
+    ],
+    "Michelle is Michael's sister's daughter. Therefore, Michelle is Michael's niece. <retrieved_rule> In the relation \"daughter, daughter\", the second \"daughter\" indicates the relationship of Michelle to her parents, making her the daughter of Michael's sibling. <retrieved_rule>": [
+        4.446428571428571,
+        3.5535714285714284
+    ],
+    "Vanessa is Jennifer's sister. <retrieved_rule> The relations \"sister, sister\" indicate that Jennifer and Vanessa share the same parents, making them siblings. <retrieved_rule>": [
+        5.017857142857142,
+        3.982142857142857
+    ],
+    "Dorothy is David's sister. <retrieved_rule> In general, siblings share at least one parent. <retrieved_rule>": [
+        1.3095238095238093,
+        2.6904761904761907
+    ],
+    "Michelle is Aida's sister. <retrieved_rule> In a sibling relationship, a brother and sister are related as siblings. <retrieved_rule>": [
+        2.21978021978022,
+        2.78021978021978
+    ],
+    "Donald is Vanessa's brother. <retrieved_rule> The relations \"sister, sister\" indicate that Jennifer and Vanessa share the same parents, making them siblings. <retrieved_rule>": [
+        1.8571428571428572,
+        3.142857142857143
+    ],
+    "Michael is Asia's brother's father. Therefore, Michael is Asia's brother. <retrieved_rule> The relations \"sister, sister\" indicate that Jennifer and Vanessa share the same parents, making them siblings. <retrieved_rule>": [
+        2.41025641025641,
+        2.58974358974359
+    ],
+    "Lisa is Dorothy's daughter's aunt. Therefore, Lisa is Dorothy's sister or brother's sister. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        1.4519230769230769,
+        2.5480769230769234
+    ],
+    "David is Alma's nephew. <new_rule> In general, the child of one's sibling is referred to as a nephew or niece. <new_rule>": [
+        2.4583333333333335,
+        3.5416666666666665
+    ],
+    "Alma is Jennifer's mother. <retrieved_rule> In the relation \"son, mother\", the second \"mother\" indicates the relationship of Joe to his mother, who is the daughter of Gabrielle. <retrieved_rule>": [
+        1.4519230769230769,
+        2.5480769230769234
+    ],
+    "Scott is Dorothy's nephew. <retrieved_rule> In general, the child of one's sibling is referred to as a nephew or niece. <retrieved_rule>": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Michelle is Dorothy's daughter. <retrieved_rule> In the relation \"daughter, daughter\", the second \"daughter\" indicates the relationship of Michelle to her parents, making her the daughter of Dorothy's sibling. <retrieved_rule>": [
+        2.2019230769230766,
+        2.7980769230769234
+    ],
+    "Jennifer is Alma's daughter. <retrieved_rule> In the relation \"son, daughter\", the second \"daughter\" indicates the relationship of Jennifer to her mother, who is the daughter of Gabrielle. <retrieved_rule>": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Dorothy is Michael's wife's mother. Therefore, Dorothy is Michael's mother-in-law. <new_rule> In general, the mother of one's spouse is referred to as a mother-in-law. <new_rule>": [
+        1.2678571428571428,
         2.732142857142857
     ],
-    "Michael is Dorothy's daughter's uncle. <new_rule> In the family tree, a daughter's uncle can be the brother of the daughter's parent. <new_rule> So, Michael is Dorothy's brother.": [
-        1.0,
-        1.0
+    "Dorothy is Dan's mother. <retrieved_rule> In a family tree, the relation \"sister\" followed by \"mother\" indicates the relationship of Vincent to his mother, who is the daughter of Gabrielle. <retrieved_rule>": [
+        1.1428571428571428,
+        1.8571428571428572
     ],
-    "Dorothy is Jason's mother. <retrieved_rule> In general, the mother of someone's son is also their mother. <retrieved_rule>": [
-        1.0,
-        1.0
+    "Donald is Alma's son. <retrieved_rule> In general, the son of someone's father is their brother. <retrieved_rule>": [
+        2.8511904761904763,
+        3.1488095238095237
+    ],
+    "Vincent is Dorothy's son. <retrieved_rule> In general, the son of someone's father is their brother. <retrieved_rule>": [
+        1.5178571428571428,
+        2.482142857142857
     ]
 }

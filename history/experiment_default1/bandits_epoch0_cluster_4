@@ -1,0 +1,30 @@
+{
+    "Christopher is Dwight's son's uncle. <Begin> Inference Rule: A person's son's uncle is the person's brother. </End> Answer: Christopher is Dwight's brother.": [
+        4.389135864135865,
+        9.610864135864135
+    ],
+    "Dwight is Scott's brother because they share the same father. <Begin> In general, siblings share the same parents. </End>": [
+        5.389135864135865,
+        9.610864135864135
+    ],
+    "Gabrielle is Dwight's son's grandmother. <Begin> In most cases, a person's son's grandmother would be the person's mother. </End> So, Gabrielle is Dwight's mother.": [
+        5.389135864135865,
+        9.610864135864135
+    ],
+    "Dorothy is Dwight's aunt. <Begin> A son's aunt is his father's sister or mother's sister. </End>": [
+        4.9546120546120545,
+        7.0453879453879455
+    ],
+    "Dwight is Lewis's brother's father. <Begin> In general, the father is the parent of a sibling. </End>": [
+        5.389135864135865,
+        8.610864135864135
+    ],
+    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        2.4345238095238093,
+        4.565476190476191
+    ],
+    "Christopher is Dwight's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

@@ -1,190 +1,6 @@
 {
     "cluster_0": [
         {
-            "question": "Context: The relations on the path from Lisa to Michael are son,uncle.\nQuestion: Michael is Lisa's what?",
-            "rationale": "Michael is Lisa's son's uncle. Therefore, Michael is Lisa's brother or Lisa's sister's husband. <Begin> Inference rule: In a family tree, the sibling of a person's parent is their uncle or aunt. </End> So, Michael is Lisa's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Christopher are son,uncle.\nQuestion: Christopher is Michael's what?",
-            "rationale": "Christopher is Michael's son's uncle. Therefore, Christopher is Michael's brother. <Begin>Inference: In most cases, an uncle is the brother of one's parent.</End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
-            "rationale": "Alma is Jennifer's sister. <Begin> In general, if two individuals share the same mother, they are siblings. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Christopher are sister,father.\nQuestion: Christopher is Jose's what?",
-            "rationale": "First, we know that the relations on the path from Jose to Christopher are sister and father. So, if we start with Jose, his sister's father would also be his father. Therefore, Christopher is Jose's father. <Begin>We used the rule that the father of someone's sister is also their father.</End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
-            "rationale": "Sheila is Lisa's son's wife. Therefore, Sheila is Lisa's daughter-in-law. <Begin>In general, the spouse of one's child is referred to as a daughter-in-law or son-in-law.</End>",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Lucille to Christopher are sister,father.\nQuestion: Christopher is Lucille's what?",
-            "rationale": "Christopher is Lucille's father. <Begin> In a family tree, a father is a male parent of a child. </End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Aida are brother,daughter.\nQuestion: Aida is Christopher's what?",
-            "rationale": "Aida is Christopher's brother's daughter. So, Aida is Christopher's niece. <Begin>Inference: Niece is the daughter of one's brother or sister.</End>",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Vanessa are brother,sister.\nQuestion: Vanessa is Jennifer's what?",
-            "rationale": "Vanessa is Jennifer's sister. <Begin> In a sibling relationship, a brother and sister are related as siblings. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Myrna are sister,mother.\nQuestion: Myrna is Angela's what?",
-            "rationale": "Myrna is Angela's sister because they share the same mother. <Begin> In general, siblings share at least one parent. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Donald are sister,brother.\nQuestion: Donald is Jennifer's what?",
-            "rationale": "Donald is Jennifer's brother. <Begin> In a sibling relationship, a brother is a male sibling of a person. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
-            "rationale": "Michelle is Aida's sister. <Begin> In most cultures, a female sibling of another female is referred to as a sister. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?",
-            "rationale": "Angela is Myrna's daughter and sister. Therefore, Angela is Myrna's daughter. <Begin> In a family tree, a daughter is a female offspring of a parent. </End>",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?",
-            "rationale": "Myrna is Jose's mother. <Begin> In general, a sister is a female sibling and a mother is a female parent. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Vanessa are son,wife.\nQuestion: Vanessa is Alma's what?",
-            "rationale": "Vanessa is Alma's daughter-in-law. <Begin>In the relation \"son,\" Vanessa is the wife of Alma's son. </End>",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Donald are father,son.\nQuestion: Donald is Jennifer's what?",
-            "rationale": "First, we know that the relation between Jennifer and Donald is father,son. This means that Donald is the son of Jennifer's father. So, in relation to Jennifer, Donald is her brother. <Begin>In general, the son of Jennifer's father is her brother.</End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Lewis are brother,brother.\nQuestion: Lewis is Joe's what?",
-            "rationale": "Lewis is Joe's brother. <Begin> Inference rule: If two people are connected by the relation \"brother,\" they are siblings.</End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Donald are sister,brother.\nQuestion: Donald is Vanessa's what?",
-            "rationale": "Donald is Vanessa's brother. <Begin>In general, siblings share at least one parent.</End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Guillermina to Christopher are sister,father.\nQuestion: Christopher is Guillermina's what?",
-            "rationale": "First, we know that the relation \"sister\" is on the path from Guillermina to Christopher. This means that Guillermina is Christopher's sister. Next, we know that the relation \"father\" is also on the path from Guillermina to Christopher. This means that Christopher is Guillermina's father. So, Christopher is Guillermina's father. <Begin>We used the rule that if A is B's sister and C is B's father, then C is A's father.</End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from David to Scott are brother,brother.\nQuestion: Scott is David's what?",
-            "rationale": "Scott is David's brother. <Begin> Inference: According to the given relation, Scott is David's brother. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Jennifer are sister,sister.\nQuestion: Jennifer is Donald's what?",
-            "rationale": "Jennifer is Donald's sister. <Begin> Inference: The relations \"sister, sister\" indicate that Jennifer and Donald share the same parents, making them siblings. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Asia to Lisa are mother,sister.\nQuestion: Lisa is Asia's what?",
-            "rationale": "Asia's mother is Lisa's mother, and Asia's sister is Lisa's sister. Therefore, Lisa is Asia's sister. <Begin> In general, a person's mother's sister is their aunt. </End>",
-            "gold_label": "aunt"
-        },
-        {
-            "question": "Context: The relations on the path from Asia to Michael are brother,father.\nQuestion: Michael is Asia's what?",
-            "rationale": "Asia's brother is Michael, and Asia's father is also Michael. Therefore, Michael is Asia's brother and father. <Begin> In many cultures, a person can be both a brother and a father to someone, such as in the case of half-siblings or step-siblings. </End>",
-            "gold_label": "father"
-        }
-    ],
-    "cluster_1": [
-        {
-            "question": "Context: The relations on the path from Jason to James are daughter,husband.\nQuestion: James is Jason's what?",
-            "rationale": "James is Jason's daughter's husband. Therefore, James is Jason's son-in-law. <Begin>In general, the husband of one's daughter is referred to as a son-in-law.</End>",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Jason are father,father.\nQuestion: Jason is Jennifer's what?",
-            "rationale": "First, we know that the relation \"father\" indicates a parent-child relationship. So, if Jason is Jennifer's father's father, then Jason is Jennifer's grandfather. <Begin>In general, the relation \"father\" indicates a parent-child relationship, so the father of Jennifer is the grandfather of Jason.</End>",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Dan to Jason are sister,grandfather.\nQuestion: Jason is Dan's what?",
-            "rationale": "Jason is Dan's sister's grandfather, so Jason is Dan's grandfather. <Begin> In a family tree, the parent of one's parent is their grandparent. </End>",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Jose are wife,grandson.\nQuestion: Jose is Jason's what?",
-            "rationale": "Jose is Jason's grandson. <Begin> In general, a grandson is the child of one's son or daughter. </End>",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Michelle are granddaughter,sister.\nQuestion: Michelle is Jason's what?",
-            "rationale": "Michelle is Jason's granddaughter. <Begin> In a family tree, a granddaughter is the child of one's child. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Michelle are wife,granddaughter.\nQuestion: Michelle is Jason's what?",
-            "rationale": "Michelle is Jason's granddaughter. <Begin>In general, a granddaughter is the child of one's son or daughter.</End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Aida are daughter,daughter.\nQuestion: Aida is Jason's what?",
-            "rationale": "Aida is Jason's granddaughter. <Begin> In many cultures, the daughter of a daughter is considered a granddaughter. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?",
-            "rationale": "First, Russell's brother is Jason. So, Jason is Russell's brother. Secondly, Russell's grandfather is also Jason. So, Jason is also Russell's grandfather. Therefore, Jason is Russell's brother and grandfather. <Begin> In a family tree, a person can have multiple relations to another person based on different family connections. </End>",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
-            "rationale": "Lucille is Jason's granddaughter. <Begin>In a family tree, a granddaughter is the child of one's son or daughter.</End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Vincent are wife,grandson.\nQuestion: Vincent is Jason's what?",
-            "rationale": "Vincent is Jason's grandson. <Begin>In general, a grandson is the child of one's son or daughter.</End>",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?",
-            "rationale": "Guillermina is Jason's granddaughter. <Begin> In general, the granddaughter is the child of one's son or daughter.</End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Robert are daughter,husband.\nQuestion: Robert is Michael's what?",
-            "rationale": "Robert is Michael's daughter's husband. Therefore, Robert is Michael's son-in-law. <Begin>In general, a husband of someone's daughter is their son-in-law.</End>",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Aida to Jason are brother,grandfather.\nQuestion: Jason is Aida's what?",
-            "rationale": "1. Aida's brother is Jason. 2. Aida's grandfather is Jason. Therefore, Jason is Aida's brother and grandfather. <Begin> In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather. </End>",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Christopher's what?",
-            "rationale": "First, Christopher's daughter is Jeffrey's wife. Then, Jeffrey is Christopher's son-in-law. <Begin> In general, a husband is the son-in-law of his wife's parents. </End> So, Jeffrey is Christopher's son-in-law.",
-            "gold_label": "son-in-law"
-        }
-    ],
-    "cluster_2": [
-        {
             "question": "Context: The relations on the path from Gabrielle to Dan are husband,grandson.\nQuestion: Dan is Gabrielle's what?",
             "rationale": "First, we know that Dan is the husband of Gabrielle, so he is her spouse. Next, we know that Dan is also the grandson of Gabrielle, which means that Gabrielle is Dan's grandmother. Therefore, Dan is Gabrielle's grandson. <Begin> In general, a husband is considered a spouse, and a grandson is the child of one's child. </End>",
             "gold_label": "grandson"
@@ -215,14 +31,14 @@
             "gold_label": "granddaughter"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to Donald are son,son.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "First, we know that the relation \"son\" indicates a parent-child relationship. Since the path from Gabrielle to Donald includes two \"son\" relations, we can infer that Donald is Gabrielle's grandson. <Begin> Rule: In a parent-child relationship, the child's child is the grandchild of the parent. </End> Therefore, Donald is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
             "question": "Context: The relations on the path from Gabrielle to Aida are daughter,daughter.\nQuestion: Aida is Gabrielle's what?",
             "rationale": "Aida is Gabrielle's granddaughter. <Begin>In general, the relation \"daughter\" followed by \"daughter\" indicates a grandparent-grandchild relationship.</End>",
             "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Donald are son,son.\nQuestion: Donald is Gabrielle's what?",
+            "rationale": "First, we know that the relation \"son\" indicates a parent-child relationship. Since the path from Gabrielle to Donald includes two \"son\" relations, we can infer that Donald is Gabrielle's grandson. <Begin> Rule: In a parent-child relationship, the child's child is the grandchild of the parent. </End> Therefore, Donald is Gabrielle's grandson.",
+            "gold_label": "grandson"
         },
         {
             "question": "Context: The relations on the path from Joe to Gabrielle are mother,mother.\nQuestion: Gabrielle is Joe's what?",
@@ -230,14 +46,14 @@
             "gold_label": "grandmother"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to Donald are granddaughter,brother.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "Gabrielle's brother is Donald's granddaughter. So, Donald is Gabrielle's grandson. <Begin> In a sibling relationship, the gender of the individuals is different. </End>",
-            "gold_label": "grandson"
-        },
-        {
             "question": "Context: The relations on the path from Lisa to Gabrielle are son,grandmother.\nQuestion: Gabrielle is Lisa's what?",
             "rationale": "Gabrielle is Lisa's son's grandmother. Therefore, Gabrielle is Lisa's mother. <Begin> In general, the mother of someone's son is also their mother. </End>",
             "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Donald are granddaughter,brother.\nQuestion: Donald is Gabrielle's what?",
+            "rationale": "Gabrielle's brother is Donald's granddaughter. So, Donald is Gabrielle's grandson. <Begin> In a sibling relationship, the gender of the individuals is different. </End>",
+            "gold_label": "grandson"
         },
         {
             "question": "Context: The relations on the path from Jose to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Jose's what?",
@@ -270,12 +86,131 @@
             "gold_label": "granddaughter"
         }
     ],
-    "cluster_3": [
+    "cluster_1": [
         {
-            "question": "Context: The relations on the path from Dorothy to Michelle are daughter,sister.\nQuestion: Michelle is Dorothy's what?",
-            "rationale": "Michelle is Dorothy's sister. <Begin>Inference based on the given relations daughter and sister.</End>",
+            "question": "Context: The relations on the path from Jason to James are daughter,husband.\nQuestion: James is Jason's what?",
+            "rationale": "James is Jason's daughter's husband. Therefore, James is Jason's son-in-law. <Begin>In general, the husband of one's daughter is referred to as a son-in-law.</End>",
+            "gold_label": "son-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Jason are father,father.\nQuestion: Jason is Jennifer's what?",
+            "rationale": "First, we know that the relation \"father\" indicates a parent-child relationship. So, if Jason is Jennifer's father's father, then Jason is Jennifer's grandfather. <Begin>In general, the relation \"father\" indicates a parent-child relationship, so the father of Jennifer is the grandfather of Jason.</End>",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Dan to Jason are sister,grandfather.\nQuestion: Jason is Dan's what?",
+            "rationale": "Jason is Dan's sister's grandfather, so Jason is Dan's grandfather. <Begin> In a family tree, the parent of one's parent is their grandparent. </End>",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Jose are wife,grandson.\nQuestion: Jose is Jason's what?",
+            "rationale": "Jose is Jason's grandson. <Begin> In general, a grandson is the child of one's son or daughter. </End>",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Michelle are granddaughter,sister.\nQuestion: Michelle is Jason's what?",
+            "rationale": "Michelle is Jason's granddaughter. <Begin> In a family tree, a granddaughter is the child of one's child. </End>",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Aida are daughter,daughter.\nQuestion: Aida is Jason's what?",
+            "rationale": "Aida is Jason's granddaughter. <Begin> In many cultures, the daughter of a daughter is considered a granddaughter. </End>",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Michelle are wife,granddaughter.\nQuestion: Michelle is Jason's what?",
+            "rationale": "Michelle is Jason's granddaughter. <Begin>In general, a granddaughter is the child of one's son or daughter.</End>",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Vincent are wife,grandson.\nQuestion: Vincent is Jason's what?",
+            "rationale": "Vincent is Jason's grandson. <Begin>In general, a grandson is the child of one's son or daughter.</End>",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?",
+            "rationale": "First, Russell's brother is Jason. So, Jason is Russell's brother. Secondly, Russell's grandfather is also Jason. So, Jason is also Russell's grandfather. Therefore, Jason is Russell's brother and grandfather. <Begin> In a family tree, a person can have multiple relations to another person based on different family connections. </End>",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Michael to Christopher are son,uncle.\nQuestion: Christopher is Michael's what?",
+            "rationale": "Christopher is Michael's son's uncle. Therefore, Christopher is Michael's brother. <Begin>Inference: In most cases, an uncle is the brother of one's parent.</End>",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
+            "rationale": "Lucille is Jason's granddaughter. <Begin>In a family tree, a granddaughter is the child of one's son or daughter.</End>",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Michael to Robert are daughter,husband.\nQuestion: Robert is Michael's what?",
+            "rationale": "Robert is Michael's daughter's husband. Therefore, Robert is Michael's son-in-law. <Begin>In general, a husband of someone's daughter is their son-in-law.</End>",
+            "gold_label": "son-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Aida to Jason are brother,grandfather.\nQuestion: Jason is Aida's what?",
+            "rationale": "1. Aida's brother is Jason. 2. Aida's grandfather is Jason. Therefore, Jason is Aida's brother and grandfather. <Begin> In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather. </End>",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Dorothy to Jason are daughter,grandfather.\nQuestion: Jason is Dorothy's what?",
+            "rationale": "Jason is Dorothy's grandfather. <Begin> Inference: In the given relations, \"daughter\" is the relation between Dorothy and her parent, and \"grandfather\" is the relation between Dorothy and Jason. <End>",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Christopher to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Christopher's what?",
+            "rationale": "First, Christopher's daughter is Jeffrey's wife. Then, Jeffrey is Christopher's son-in-law. <Begin> In general, a husband is the son-in-law of his wife's parents. </End> So, Jeffrey is Christopher's son-in-law.",
+            "gold_label": "son-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?",
+            "rationale": "Guillermina is Jason's granddaughter. <Begin> In general, the granddaughter is the child of one's son or daughter.</End>",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Jose to Christopher are sister,father.\nQuestion: Christopher is Jose's what?",
+            "rationale": "First, we know that the relations on the path from Jose to Christopher are sister and father. So, if we start with Jose, his sister's father would also be his father. Therefore, Christopher is Jose's father. <Begin>We used the rule that the father of someone's sister is also their father.</End>",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Christopher to Aida are brother,daughter.\nQuestion: Aida is Christopher's what?",
+            "rationale": "Aida is Christopher's brother's daughter. So, Aida is Christopher's niece. <Begin>Inference: Niece is the daughter of one's brother or sister.</End>",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from David to Scott are brother,brother.\nQuestion: Scott is David's what?",
+            "rationale": "Scott is David's brother. <Begin> Inference: According to the given relation, Scott is David's brother. </End>",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Guillermina to Christopher are sister,father.\nQuestion: Christopher is Guillermina's what?",
+            "rationale": "First, we know that the relation \"sister\" is on the path from Guillermina to Christopher. This means that Guillermina is Christopher's sister. Next, we know that the relation \"father\" is also on the path from Guillermina to Christopher. This means that Christopher is Guillermina's father. So, Christopher is Guillermina's father. <Begin>We used the rule that if A is B's sister and C is B's father, then C is A's father.</End>",
+            "gold_label": "father"
+        }
+    ],
+    "cluster_2": [
+        {
+            "question": "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?",
+            "rationale": "Angela is Myrna's daughter and sister. Therefore, Angela is Myrna's daughter. <Begin> In a family tree, a daughter is a female offspring of a parent. </End>",
             "gold_label": "daughter"
         },
+        {
+            "question": "Context: The relations on the path from Angela to Myrna are sister,mother.\nQuestion: Myrna is Angela's what?",
+            "rationale": "Myrna is Angela's sister because they share the same mother. <Begin> In general, siblings share at least one parent. </End>",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Dorothy are daughter,aunt.\nQuestion: Dorothy is Myrna's what?",
+            "rationale": "Dorothy is Myrna's daughter's aunt. <Begin> In the family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Dorothy is Myrna's sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?",
+            "rationale": "Myrna is Jose's mother. <Begin> In general, a sister is a female sibling and a mother is a female parent. </End>",
+            "gold_label": "mother"
+        }
+    ],
+    "cluster_3": [
         {
             "question": "Context: The relations on the path from Dorothy to Jennifer are brother,daughter.\nQuestion: Jennifer is Dorothy's what?",
             "rationale": "First, Dorothy's brother is Jennifer's father. Then, Jennifer is Dorothy's niece. <Begin>We can use the fact that a brother is a male sibling, and a daughter is a female offspring.</End> So, Jennifer is Dorothy's niece.",
@@ -287,14 +222,44 @@
             "gold_label": "sister"
         },
         {
+            "question": "Context: The relations on the path from Dorothy to Michelle are daughter,sister.\nQuestion: Michelle is Dorothy's what?",
+            "rationale": "Michelle is Dorothy's sister. <Begin>Inference based on the given relations daughter and sister.</End>",
+            "gold_label": "daughter"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Michael are son,uncle.\nQuestion: Michael is Lisa's what?",
+            "rationale": "Michael is Lisa's son's uncle. Therefore, Michael is Lisa's brother or Lisa's sister's husband. <Begin> Inference rule: In a family tree, the sibling of a person's parent is their uncle or aunt. </End> So, Michael is Lisa's brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
+            "rationale": "Alma is Jennifer's sister. <Begin> In general, if two individuals share the same mother, they are siblings. </End>",
+            "gold_label": "mother"
+        },
+        {
             "question": "Context: The relations on the path from Dan to Dorothy are sister,mother.\nQuestion: Dorothy is Dan's what?",
             "rationale": "1. Dan and Dorothy share a parent, making them siblings. 2. Dorothy is also a mother, which means she has a child. Therefore, Dorothy is Dan's sister and also his mother. <Begin> In general, siblings share at least one parent, and mothers have children. </End>",
             "gold_label": "mother"
         },
         {
-            "question": "Context: The relations on the path from Dorothy to Jason are daughter,grandfather.\nQuestion: Jason is Dorothy's what?",
-            "rationale": "Jason is Dorothy's grandfather. <Begin> Inference: In the given relations, \"daughter\" is the relation between Dorothy and her parent, and \"grandfather\" is the relation between Dorothy and Jason. <End>",
+            "question": "Context: The relations on the path from Lucille to Christopher are sister,father.\nQuestion: Christopher is Lucille's what?",
+            "rationale": "Christopher is Lucille's father. <Begin> In a family tree, a father is a male parent of a child. </End>",
             "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
+            "rationale": "Sheila is Lisa's son's wife. Therefore, Sheila is Lisa's daughter-in-law. <Begin>In general, the spouse of one's child is referred to as a daughter-in-law or son-in-law.</End>",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Vanessa are brother,sister.\nQuestion: Vanessa is Jennifer's what?",
+            "rationale": "Vanessa is Jennifer's sister. <Begin> In a sibling relationship, a brother and sister are related as siblings. </End>",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Donald are sister,brother.\nQuestion: Donald is Jennifer's what?",
+            "rationale": "Donald is Jennifer's brother. <Begin> In a sibling relationship, a brother is a male sibling of a person. </End>",
+            "gold_label": "brother"
         },
         {
             "question": "Context: The relations on the path from Dorothy to Vincent are daughter,brother.\nQuestion: Vincent is Dorothy's what?",
@@ -302,14 +267,49 @@
             "gold_label": "son"
         },
         {
-            "question": "Context: The relations on the path from Myrna to Dorothy are daughter,aunt.\nQuestion: Dorothy is Myrna's what?",
-            "rationale": "Dorothy is Myrna's daughter's aunt. <Begin> In the family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Dorothy is Myrna's sister.",
+            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
+            "rationale": "Michelle is Aida's sister. <Begin> In most cultures, a female sibling of another female is referred to as a sister. </End>",
             "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Donald are father,son.\nQuestion: Donald is Jennifer's what?",
+            "rationale": "First, we know that the relation between Jennifer and Donald is father,son. This means that Donald is the son of Jennifer's father. So, in relation to Jennifer, Donald is her brother. <Begin>In general, the son of Jennifer's father is her brother.</End>",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Vanessa are son,wife.\nQuestion: Vanessa is Alma's what?",
+            "rationale": "Vanessa is Alma's daughter-in-law. <Begin>In the relation \"son,\" Vanessa is the wife of Alma's son. </End>",
+            "gold_label": "daughter-in-law"
         },
         {
             "question": "Context: The relations on the path from Vincent to Dorothy are sister,mother.\nQuestion: Dorothy is Vincent's what?",
             "rationale": "1. Vincent and Dorothy share the relation \"sister\" - this means they are siblings. 2. Dorothy is also related to Vincent as \"mother\" - this means Dorothy is Vincent's mother. So, Dorothy is Vincent's mother. <Begin>In general, a person who is both a sister and a mother to someone is their mother.</End>",
             "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Joe to Lewis are brother,brother.\nQuestion: Lewis is Joe's what?",
+            "rationale": "Lewis is Joe's brother. <Begin> Inference rule: If two people are connected by the relation \"brother,\" they are siblings.</End>",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Donald are sister,brother.\nQuestion: Donald is Vanessa's what?",
+            "rationale": "Donald is Vanessa's brother. <Begin>In general, siblings share at least one parent.</End>",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Donald to Jennifer are sister,sister.\nQuestion: Jennifer is Donald's what?",
+            "rationale": "Jennifer is Donald's sister. <Begin> Inference: The relations \"sister, sister\" indicate that Jennifer and Donald share the same parents, making them siblings. </End>",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Asia to Lisa are mother,sister.\nQuestion: Lisa is Asia's what?",
+            "rationale": "Asia's mother is Lisa's mother, and Asia's sister is Lisa's sister. Therefore, Lisa is Asia's sister. <Begin> In general, a person's mother's sister is their aunt. </End>",
+            "gold_label": "aunt"
+        },
+        {
+            "question": "Context: The relations on the path from Asia to Michael are brother,father.\nQuestion: Michael is Asia's what?",
+            "rationale": "Asia's brother is Michael, and Asia's father is also Michael. Therefore, Michael is Asia's brother and father. <Begin> In many cultures, a person can be both a brother and a father to someone, such as in the case of half-siblings or step-siblings. </End>",
+            "gold_label": "father"
         }
     ],
     "cluster_4": [

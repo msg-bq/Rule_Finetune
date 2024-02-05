@@ -1,141 +1,169 @@
 {
     "James is Jason's daughter's husband. Therefore, James is Jason's son-in-law. <Begin>In general, the husband of one's daughter is referred to as a son-in-law.</End>": [
-        8.4747335997336,
-        6.5252664002664
+        5.7262737262737256,
+        4.273726273726274
     ],
     "First, we know that the relation \"father\" indicates a parent-child relationship. So, if Jason is Jennifer's father's father, then Jason is Jennifer's grandfather. <Begin>In general, the relation \"father\" indicates a parent-child relationship, so the father of Jennifer is the grandfather of Jason.</End>": [
-        2.9330669330669323,
-        5.066933066933067
+        5.117007992007991,
+        3.882992007992008
     ],
     "Jason is Dan's sister's grandfather, so Jason is Dan's grandfather. <Begin> In a family tree, the parent of one's parent is their grandparent. </End>": [
-        4.231143856143856,
-        4.768856143856144
+        3.1538461538461533,
+        2.8461538461538463
     ],
     "Jose is Jason's grandson. <Begin> In general, a grandson is the child of one's son or daughter. </End>": [
-        9.42594905094905,
-        5.574050949050949
+        5.6607142857142865,
+        3.3392857142857144
     ],
     "Michelle is Jason's granddaughter. <Begin> In a family tree, a granddaughter is the child of one's child. </End>": [
-        6.467532467532468,
-        4.532467532467533
-    ],
-    "Michelle is Jason's granddaughter. <Begin>In general, a granddaughter is the child of one's son or daughter.</End>": [
-        3.6634615384615383,
-        3.3365384615384617
+        9.586538461538462,
+        3.4134615384615383
     ],
     "Aida is Jason's granddaughter. <Begin> In many cultures, the daughter of a daughter is considered a granddaughter. </End>": [
-        3.3657592407592407,
-        4.634240759240759
+        2.0769230769230766,
+        1.9230769230769231
     ],
-    "First, Russell's brother is Jason. So, Jason is Russell's brother. Secondly, Russell's grandfather is also Jason. So, Jason is also Russell's grandfather. Therefore, Jason is Russell's brother and grandfather. <Begin> In a family tree, a person can have multiple relations to another person based on different family connections. </End>": [
-        7.283216783216783,
-        4.716783216783217
-    ],
-    "Lucille is Jason's granddaughter. <Begin>In a family tree, a granddaughter is the child of one's son or daughter.</End>": [
-        2.167832167832168,
-        2.832167832167832
+    "Michelle is Jason's granddaughter. <Begin>In general, a granddaughter is the child of one's son or daughter.</End>": [
+        5.779220779220779,
+        3.220779220779221
     ],
     "Vincent is Jason's grandson. <Begin>In general, a grandson is the child of one's son or daughter.</End>": [
-        4.25058275058275,
-        3.7494172494172497
+        7.51948051948052,
+        3.480519480519481
     ],
-    "Guillermina is Jason's granddaughter. <Begin> In general, the granddaughter is the child of one's son or daughter.</End>": [
-        2.699300699300699,
-        3.300699300699301
+    "First, Russell's brother is Jason. So, Jason is Russell's brother. Secondly, Russell's grandfather is also Jason. So, Jason is also Russell's grandfather. Therefore, Jason is Russell's brother and grandfather. <Begin> In a family tree, a person can have multiple relations to another person based on different family connections. </End>": [
+        2.2197802197802194,
+        2.78021978021978
     ],
-    "Robert is Michael's daughter's husband. Therefore, Robert is Michael's son-in-law. <Begin>In general, a husband of someone's daughter is their son-in-law.</End>": [
-        3.7132867132867133,
-        3.2867132867132867
-    ],
-    "1. Aida's brother is Jason. 2. Aida's grandfather is Jason. Therefore, Jason is Aida's brother and grandfather. <Begin> In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather. </End>": [
-        1.7582417582417584,
-        4.241758241758242
-    ],
-    "First, Christopher's daughter is Jeffrey's wife. Then, Jeffrey is Christopher's son-in-law. <Begin> In general, a husband is the son-in-law of his wife's parents. </End> So, Jeffrey is Christopher's son-in-law.": [
-        4.140234765234766,
-        3.859765234765235
-    ],
-    "Jason is Donald's grandfather. <retrieved_rule> In a family tree, the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
-        11.856143856143856,
-        4.143856143856144
-    ],
-    "Myrna is Jeffrey's mother. <retrieved_rule> In a family tree, the relation of mother indicates a parent-child relationship. <retrieved_rule>": [
-        1.2678571428571428,
-        2.732142857142857
-    ],
-    "Jason is Aida's grandfather. <retrieved_rule> In a family tree, the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
-        1.2916666666666665,
-        2.7083333333333335
-    ],
-    "Scott is Jason's grandson. <retrieved_rule> In general, a grandson is the child of one's son or daughter. <retrieved_rule>": [
-        4.854978354978355,
-        3.1450216450216453
-    ],
-    "Jason is Myrna's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
-        6.849358974358974,
-        4.1506410256410255
-    ],
-    "Jason is Christopher's grandfather. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
-        4.688311688311688,
-        2.311688311688312
-    ],
-    "Jason is Angela's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
-        8.46590909090909,
-        2.534090909090909
-    ],
-    "Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
-        7.545454545454545,
-        1.4545454545454546
-    ],
-    "Jason is Jennifer's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
-        8.46590909090909,
-        2.534090909090909
-    ],
-    "Aida is Jason's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\", the second \"daughter\" indicates the relationship of Aida to her parent, who is the daughter of Jason. <retrieved_rule>": [
-        4.230769230769231,
-        1.7692307692307692
-    ],
-    "James is Jason's son-in-law. <retrieved_rule> In general, a husband of someone's daughter is their son-in-law. <retrieved_rule>": [
-        4.090909090909091,
-        1.9090909090909092
-    ],
-    "Michelle is James's daughter. <retrieved_rule> The relations \"sister, sister\" indicate that Jennifer and Donald share the same parents, making them siblings. <retrieved_rule>": [
-        1.0909090909090908,
-        1.9090909090909092
-    ],
-    "Jason is Jose's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
-        4.1678321678321675,
-        2.8321678321678325
-    ],
-    "James is Jennifer's uncle. <retrieved_rule> Inference rule: If two people are connected by the relation \"brother,\" they are siblings. <retrieved_rule>": [
-        2.605769230769231,
-        2.394230769230769
-    ],
-    "Jeffrey is Christopher's daughter's husband. Therefore,": [
-        1.0,
-        1.0
-    ],
-    "Robert is Michael's son-in-law. <retrieved_rule> A husband is a spouse, and a grandson is the son of a child. <retrieved_rule>": [
-        1.4519230769230769,
-        2.5480769230769234
-    ],
-    "Jason is Dan's grandfather. <retrieved_rule> In a family tree, the relation of sister indicates sharing the same parents, while the relation of grandmother indicates one individual being the mother of another individual's parent. <retrieved_rule>": [
-        4.0,
-        1.0
-    ],
-    "Michelle is Jason's granddaughter. <retrieved_rule> In a family tree, the relation \"daughter, daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
-        1.2307692307692308,
-        1.7692307692307692
-    ],
-    "Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, a husband's father is also the father of the husband's spouse. <retrieved_rule>": [
+    "Christopher is Michael's son's uncle. Therefore, Christopher is Michael's brother. <Begin>Inference: In most cases, an uncle is the brother of one's parent.</End>": [
         1.0769230769230769,
         1.9230769230769231
     ],
-    "Christopher is Jeffrey's son. <retrieved_rule> In a family tree, a father is the male parent of a child. <retrieved_rule>": [
+    "Lucille is Jason's granddaughter. <Begin>In a family tree, a granddaughter is the child of one's son or daughter.</End>": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Robert is Michael's daughter's husband. Therefore, Robert is Michael's son-in-law. <Begin>In general, a husband of someone's daughter is their son-in-law.</End>": [
+        1.5384615384615383,
+        2.4615384615384617
+    ],
+    "1. Aida's brother is Jason. 2. Aida's grandfather is Jason. Therefore, Jason is Aida's brother and grandfather. <Begin> In general, a person can have multiple relationships with another person, such as being both a brother and a grandfather. </End>": [
+        1.5314685314685315,
+        2.4685314685314683
+    ],
+    "Jason is Dorothy's grandfather. <Begin> Inference: In the given relations, \"daughter\" is the relation between Dorothy and her parent, and \"grandfather\" is the relation between Dorothy and Jason. <End>": [
+        7.173826173826175,
+        3.826173826173826
+    ],
+    "First, Christopher's daughter is Jeffrey's wife. Then, Jeffrey is Christopher's son-in-law. <Begin> In general, a husband is the son-in-law of his wife's parents. </End> So, Jeffrey is Christopher's son-in-law.": [
+        8.499500499500499,
+        4.5004995004995
+    ],
+    "Guillermina is Jason's granddaughter. <Begin> In general, the granddaughter is the child of one's son or daughter.</End>": [
+        7.9600399600399605,
+        4.0399600399600395
+    ],
+    "First, we know that the relations on the path from Jose to Christopher are sister and father. So, if we start with Jose, his sister's father would also be his father. Therefore, Christopher is Jose's father. <Begin>We used the rule that the father of someone's sister is also their father.</End>": [
+        1.0769230769230769,
+        1.9230769230769231
+    ],
+    "Aida is Christopher's brother's daughter. So, Aida is Christopher's niece. <Begin>Inference: Niece is the daughter of one's brother or sister.</End>": [
+        4.579545454545455,
+        2.4204545454545454
+    ],
+    "Scott is David's brother. <Begin> Inference: According to the given relation, Scott is David's brother. </End>": [
+        2.2197802197802194,
+        2.78021978021978
+    ],
+    "First, we know that the relation \"sister\" is on the path from Guillermina to Christopher. This means that Guillermina is Christopher's sister. Next, we know that the relation \"father\" is also on the path from Guillermina to Christopher. This means that Christopher is Guillermina's father. So, Christopher is Guillermina's father. <Begin>We used the rule that if A is B's sister and C is B's father, then C is A's father.</End>": [
+        6.908216783216783,
+        5.091783216783217
+    ],
+    "Jason is Lisa's son's grandfather. Therefore, Jason is Lisa's father. <new_rule> In a parent-child relationship, the child's child is the grandchild of the parent. <new_rule>": [
+        6.597402597402597,
+        4.402597402597403
+    ],
+    "Vincent is Jason's granddaughter's brother. Therefore, Vincent is Jason's grandson. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        5.5,
+        2.5
+    ],
+    "Christopher is Aida's father's brother. Therefore, Christopher is Aida's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule>": [
+        2.090909090909091,
+        1.9090909090909092
+    ],
+    "Jason is Donald's grandson. <retrieved_rule> In general, the granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        4.037962037962038,
+        3.962037962037962
+    ],
+    "Jason is Christopher's grandfather. <retrieved_rule> In general, the relation \"daughter\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        2.2337662337662336,
+        2.7662337662337664
+    ],
+    "Jose is Jason's grandson. <retrieved_rule> In general, a grandson is the child of one's son or daughter. <retrieved_rule>": [
+        1.3766233766233764,
+        2.6233766233766236
+    ],
+    "Robert is Michael's son-in-law. <retrieved_rule> In general, the husband of one's daughter is referred to as a son-in-law. <retrieved_rule>": [
+        1.8365384615384617,
+        2.1634615384615383
+    ],
+    "Angela is James's niece. <retrieved_rule> Niece is the daughter of one's brother or sister. <retrieved_rule>": [
+        7.144230769230768,
+        3.855769230769231
+    ],
+    "Scott is Jason's grandson. <retrieved_rule> In general, a grandson is the child of one's son or daughter. <retrieved_rule>": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Jason is Jennifer's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        2.3626373626373622,
+        3.6373626373626378
+    ],
+    "Christopher is Jose's father. <retrieved_rule> In the relation \"sister, father\", the first \"sister\" indicates that Lisa is the daughter of Gabrielle's son. <retrieved_rule>": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "Christopher is Michael's nephew. <retrieved_rule> Niece is the daughter of one's brother or sister. <retrieved_rule>": [
         1.0,
         1.0
     ],
-    "Jason is Michael's father. <retrieved_rule> In the relation \"son, grandfather\", the first \"son\" indicates the relationship of Michael to his parent, who is the son of Jason. <retrieved_rule>": [
+    "Michael is Jason's son. <retrieved_rule> In the relation \"daughter, brother\", the first \"daughter\" indicates the relationship of Guillermina to her mother, who is the daughter of Gabrielle. <retrieved_rule>": [
+        3.063311688311688,
+        2.936688311688312
+    ],
+    "Jason is Jose's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        1.7832167832167831,
+        3.216783216783217
+    ],
+    "Jason is Angela's grandfather. <retrieved_rule> In a family tree, the parent of one's parent is their grandparent. <retrieved_rule>": [
+        2.4615384615384617,
+        1.5384615384615383
+    ],
+    "James is Jason's son-in-law. <retrieved_rule> In general, a husband is the son-in-law of his wife's parents. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "James is Scott's brother. <retrieved_rule> Inference: According to the given relation, Scott is James's brother. <retrieved_rule>": [
+        2.765234765234765,
+        3.234765234765235
+    ],
+    "Guillermina is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "Russell is Michael's brother. <retrieved_rule> In a sibling relationship, a brother and sister are related as siblings. <retrieved_rule>": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "Christopher is Michael's daughter's uncle. Therefore, Christopher is Michael's brother. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Christopher is Jeffrey's father. <retrieved_rule> In a family tree, the relation \"wife\" followed by \"father\" indicates the relationship of Jeffrey to his father, making Christopher his father. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Lucille is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
         1.0,
         1.0
     ]

@@ -6,7 +6,7 @@ from typing import List
 
 from RuleFinetune.autoCoT import demo_cluster, llm_n_shot_CoT, n_shot_prompt, DemoBaseMAB, Demo
 from RuleFinetune.cold_start_func import zero_shot_CoT
-from utils.data import RuleBase, DatasetLoader, Example, Rationale, DisjointSetRuleBase
+from utils.data import RuleBase, DatasetLoader, Example, Rationale
 from utils.llm import LLM
 import Levenshtein
 
@@ -15,7 +15,7 @@ from logger import logger
 
 class Trainer:
     def __init__(self, args, train_dataset: DatasetLoader, valid_dataset: DatasetLoader, test_dataset: DatasetLoader,
-                 llm: LLM, rule_base: DisjointSetRuleBase = DisjointSetRuleBase()):
+                 llm: LLM, rule_base: RuleBase = RuleBase()):
         self.args = args
         self.train_dataset = train_dataset
         self.valid_dataset = valid_dataset
@@ -168,7 +168,7 @@ class Trainer:
             for k, v in bandits.items():
                 v.save(f"./experiment/bandits_epoch{ep}_{k}")
 
-            self.rule_base.average_rule_confidence() # 每个epoch统一平均，避免并行带来的不同步
+            self.rule_base.broadcast_rule_info() # 每个epoch统一平均，避免并行带来的不同步
 
         self.rule_base.save(f"./experiment/rule_base_final")
 

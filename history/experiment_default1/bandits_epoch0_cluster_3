@@ -1,0 +1,66 @@
+{
+    "Michelle is Dorothy's sister. <Begin>Inference based on the given relations daughter and sister.</End>": [
+        7.795454545454545,
+        4.204545454545455
+    ],
+    "First, Dorothy's brother is Jennifer's father. Then, Jennifer is Dorothy's niece. <Begin>We can use the fact that a brother is a male sibling, and a daughter is a female offspring.</End> So, Jennifer is Dorothy's niece.": [
+        1.375,
+        3.625
+    ],
+    "Lisa is Dorothy's daughter's aunt. <Begin> In a family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Lisa is Dorothy's sister.": [
+        1.9204545454545454,
+        4.079545454545455
+    ],
+    "1. Dan and Dorothy share a parent, making them siblings. 2. Dorothy is also a mother, which means she has a child. Therefore, Dorothy is Dan's sister and also his mother. <Begin> In general, siblings share at least one parent, and mothers have children. </End>": [
+        1.0,
+        3.0
+    ],
+    "Jason is Dorothy's grandfather. <Begin> Inference: In the given relations, \"daughter\" is the relation between Dorothy and her parent, and \"grandfather\" is the relation between Dorothy and Jason. <End>": [
+        3.75,
+        3.25
+    ],
+    "First, Dorothy's daughter is Vincent's sister. Then, Vincent's brother is Dorothy's son. So, Vincent is Dorothy's son. <Begin> In general, the relation of brother implies a sibling relationship, and the relation of daughter implies a parent-child relationship. </End>": [
+        4.375,
+        2.625
+    ],
+    "Dorothy is Myrna's daughter's aunt. <Begin> In the family tree, a daughter's aunt can be the sister of the daughter's parent. </End> So, Dorothy is Myrna's sister.": [
+        8.063311688311689,
+        2.936688311688312
+    ],
+    "1. Vincent and Dorothy share the relation \"sister\" - this means they are siblings. 2. Dorothy is also related to Vincent as \"mother\" - this means Dorothy is Vincent's mother. So, Dorothy is Vincent's mother. <Begin>In general, a person who is both a sister and a mother to someone is their mother.</End>": [
+        5.063311688311688,
+        4.936688311688312
+    ],
+    "Lisa is Dorothy's daughter's aunt. <retrieved_rule> In the family tree, a daughter's aunt can be the sister of the daughter's parent. <retrieved_rule> So, Lisa is Dorothy's sister.": [
+        6.688311688311688,
+        2.311688311688312
+    ],
+    "Gabrielle is Dorothy's grandmother. <retrieved_rule> In general, a grandmother is the mother of one's parent. <retrieved_rule>": [
+        3.875,
+        3.125
+    ],
+    "Dorothy is Marci's mother-in-law. <retrieved_rule> We can use the fact that a husband is a spouse, and a grandson is the son of a child. <retrieved_rule> So,": [
+        3.642857142857143,
+        3.357142857142857
+    ],
+    "Myrna is Dorothy's daughter's aunt. <retrieved_rule> In the family tree, a daughter's aunt can be the sister of the daughter's parent. <retrieved_rule> So, Myrna is Dorothy's sister.": [
+        1.125,
+        1.875
+    ],
+    "Dorothy is Dan's mother. <retrieved_rule> In general, a person who is both a sister and a mother to someone is their mother. <retrieved_rule>": [
+        2.75,
+        2.25
+    ],
+    "Jason is Dorothy's grandfather. <retrieved_rule> In general, a grandfather is the parent of one's parent. <retrieved_rule>": [
+        2.267857142857143,
+        2.732142857142857
+    ],
+    "Michael is Dorothy's daughter's uncle. <new_rule> In the family tree, a daughter's uncle can be the brother of the daughter's parent. <new_rule> So, Michael is Dorothy's brother.": [
+        1.0,
+        1.0
+    ],
+    "Dorothy is Jason's mother. <retrieved_rule> In general, the mother of someone's son is also their mother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

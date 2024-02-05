@@ -13,9 +13,8 @@ from utils.kinship_calculator import kinship_calculator
 rule_base = RuleBase()
 used_rules_cnt = defaultdict(lambda: 0)
 
-with open(f"../experiment/rule_base_final", encoding="utf8") as f:
-    rules = [l for l in f.readlines() if l.strip()]
-    rule_base.read_rules(rules)
+# save_path = f"../experiment/rule_base_final"
+# rule_base.read_rules(save_path)
 
 def sample_rule(rule_base: RuleBase):
     sorted_rule_instance = list (rule_base._rule_name_2_rule_instance.values())
