@@ -134,7 +134,7 @@ def zero_shot_CoT(args, llm: LLM, dataset: DatasetLoader):
         挑出没有rationale且应当获取的data
         """
         return []
-        for data in dataset[:200]:
+        for data in dataset[:args.cold_start_num]:
             if data.rationale:  # 有可能rationale已经存在了，这个时候就不需要再生成了。但要注意的是，如果调整了rationale的录入格式
                 # 要重载内置的__bool__函数
                 continue

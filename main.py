@@ -59,6 +59,9 @@ def args_parse():
 
     parser.add_argument("--random_seed", type=int, default=192, help="random seed")  # 这个参数源于autoCoT
 
+    parser.add_argument("--cold_start_num", type=int, default=200,
+                        help="the number of examples chosen in cold start phase")
+
     parser.add_argument("--num_clusters", type=int, default=5,
                         help="the number of clusters for questions")
 
