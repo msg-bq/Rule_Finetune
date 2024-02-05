@@ -129,7 +129,7 @@ def read_func(data_dir):
     keys = ['query', 'edge_types', 'target']
     train_data = train_data[keys]
     sampling_train_data = build_samples(train_data.to_dict(orient='records'))
-    final_train_datasets = build_datasets_from_samples(sampling_train_data, question_template)[:200]
+    final_train_datasets = build_datasets_from_samples(sampling_train_data, question_template)[:2000]
 
     test_data = [test_data[i][keys] for i in range(len(test_data))]
     proportional_sampling = [8, 18, 31, 25, 16, 21, 30, 26, 25]  # 每个测试集所抽出的数量

@@ -357,12 +357,17 @@ class DisjointSetRuleBase(RuleBase):
         clusters = self.find_cluster()
 
         with open(save_path, 'w') as f:
-            for cluster in clusters:
+            #根据cluster.confidence排序
+            clusters_confidence = {c: c.confidence for c in clusters}
+            clusters_key = list(clusters.keys())
+            clusters_key.sort(key=lambda x: clusters_confidence[x], reverse=True)
+
+            for cluster in clusters_key:
                 rules = clusters[cluster]
                 degree_of_rules = {r1: sum([self.adjacency_matrix[r1][r2] for r2 in rules]) for r1 in rules}
                 rules.sort(key=lambda x: degree_of_rules[x], reverse=True)
-                out = [r.__dict__ for r in rules]
 
+                out = [rules[0].__dict__] + [{'content': r.content} for r in rules[1:]]
                 f.write(str(out) + '\n')
 
         # 保存father，其他的到读取时候再生成
@@ -377,6 +382,14 @@ class DisjointSetRuleBase(RuleBase):
         with open(rule_base_path, 'r') as f:
             clusters = [eval(l) for l in f.readlines() if l.strip()]
             for cluster in clusters:
+                for r in cluster:
+                    r['success_used'] = cluster[0]['success_used']
+                    r['success_unused'] = cluster[0]['success_unused']
+                    r['failure_used'] = cluster[0]['failure_used']
+                    r['failure_unused'] = cluster[0]['failure_unused']
+                    r['confidence'] = cluster[0]['confidence']
+                    r['source_questions'] = cluster[0]['source_questions']
+
                 self._read_rules(cluster)
 
         with open(rule_base_path + "_father", 'r') as f:

@@ -1,65 +1,1389 @@
 {
-    "Christopher is Dwight's son's uncle. <Begin> Inference Rule: A person's son's uncle is the person's brother. </End> Answer: Christopher is Dwight's brother.": [
-        8.785347985347984,
-        9.214652014652014
+    "Gabrielle is James's mother, so James is Gabrielle's son. <Begin> In general, a son is the male child of a parent. </End>": [
+        3.0000000000000004,
+        2.9999999999999996
     ],
-    "Dwight is Scott's brother because they share the same father. <Begin> In general, siblings share the same parents. </End>": [
-        9.279395604395605,
-        8.720604395604395
+    "Gabrielle's brother is William's grandfather. So, William is Gabrielle's grandson. <Begin> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. </End>": [
+        3.7272727272727275,
+        2.2727272727272725
     ],
-    "Gabrielle is Dwight's son's grandmother. <Begin> In most cases, a person's son's grandmother would be the person's mother. </End> So, Gabrielle is Dwight's mother.": [
-        11.331776556776557,
-        6.668223443223443
+    "1. Aida is Gabrielle's granddaughter. 2. Aida is also the husband of Gabrielle. Therefore, Aida is Gabrielle's granddaughter. <Begin> In general, a person cannot be both a husband and a granddaughter to the same individual. </End>": [
+        2.7403846153846154,
+        2.2596153846153846
     ],
-    "Dorothy is Dwight's aunt. <Begin> A son's aunt is his father's sister or mother's sister. </End>": [
-        5.860347985347985,
-        8.139652014652015
+    "First, we know that the relation \"grandson\" means that Gabrielle is the grandmother of someone in the path. Then, the relation \"sister\" means that Anna is the sister of someone in the path. By putting these two relations together, we can infer that Anna is Gabrielle's granddaughter. <Begin>We are using the rule that the sister of someone in the path is also related to the same person as the grandmother of someone in the path.</End> Therefore, Anna is Gabrielle's granddaughter.": [
+        4.251748251748252,
+        2.7482517482517483
     ],
-    "Dwight is Lewis's brother's father. <Begin> In general, the father is the parent of a sibling. </End>": [
-        12.337728937728938,
-        9.662271062271062
+    "First, we know that Gabrielle is related to Robert, so they are part of the same family tree. Then, we know that the relations on the path from Robert to Gabrielle are sister and grandmother. This means that Gabrielle is either Robert's sister or his grandmother. Using the rule that a sister is a female sibling and a grandmother is a parent of one's parent, we can infer that Gabrielle is Robert's grandmother. So, Gabrielle is Robert's grandmother. <Begin>Rule: A grandmother is a parent of one's parent</End>": [
+        11.334790209790208,
+        3.66520979020979
     ],
-    "Myrna is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule>": [
-        6.972619047619047,
-        9.027380952380952
+    "First, Scott is Gabrielle's grandson, which means he is the son of Gabrielle's child. Then, Scott is also Gabrielle's brother, which means they share at least one parent. Therefore, Scott is Gabrielle's grandson and brother, making him her grandson. <Begin> Inference: In a family tree, a person can be both a grandson and a brother to another person if they are the son of that person's child. </End>": [
+        2.4886363636363638,
+        2.5113636363636362
     ],
-    "Dwight is Alma's son's uncle. <retrieved_rule> Inference Rule: A person's son's uncle is the person's brother. <retrieved_rule> Therefore, Dwight is Alma's brother.": [
-        4.333333333333334,
-        3.6666666666666665
+    "Donna is Gabrielle's granddaughter's sister. So, Donna is Gabrielle's granddaughter's sister. <Begin> In general, the sister of someone's granddaughter is also their granddaughter. </End>": [
+        25.852272727272727,
+        3.1477272727272725
     ],
-    "Jason is Dwight's son's grandfather. <retrieved_rule> In most cases, a person's son's grandfather would be the person's father. <retrieved_rule> Therefore, Jason is Dwight's father.": [
-        5.952380952380952,
-        5.047619047619048
+    "First, we know that the relation \"grandson\" means that Vanessa is the granddaughter of Gabrielle. Then, the relation \"sister\" means that Vanessa is the sister of Gabrielle's grandson. So, Vanessa is Gabrielle's granddaughter. <Begin> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. </End>": [
+        2.342657342657343,
+        2.657342657342657
     ],
-    "Dorothy is Dwight's son's aunt. <retrieved_rule> A son's aunt is his father's sister or mother's sister. <retrieved_rule> Therefore, Dorothy is Dwight's sister.": [
-        4.810714285714285,
-        4.189285714285714
+    "Donna is Gabrielle's granddaughter. <Begin> In general, the daughter of a person's son or daughter is their granddaughter. </End>": [
+        24.333041958041957,
+        3.6669580419580416
     ],
-    "Dwight is Donna's husband's father. <retrieved_rule> In the relation \"husband, father\", the second \"father\" indicates the relationship of Jeffrey to his father, making Christopher his father. <retrieved_rule> Therefore, Dwight is Donna's father-in-law.": [
-        2.0,
-        2.0
+    "Chad is Gabrielle's grandson. <Begin>In general, the son of a son is a grandson.</End>": [
+        4.363636363636363,
+        3.636363636363636
     ],
-    "Christopher is Dwight's son's uncle. <new_rule> Inference Rule: A person's son's uncle is the person's brother. <new_rule> Therefore, Christopher is Dwight's brother.": [
-        3.0,
-        3.0
+    "Gabrielle is Angela's brother's grandmother. <Begin> In general, a person's brother's grandmother is also their grandmother. </End> So, Gabrielle is Angela's grandmother.": [
+        20.48881118881119,
+        4.511188811188811
     ],
-    "Dwight is Lewis's father. <retrieved_rule> In the relation \"son, brother\", the second \"brother\" indicates that Christopher is the child of Gabrielle's sibling. <retrieved_rule> Therefore, Dwight is Lewis's father.": [
-        1.2857142857142856,
-        2.7142857142857144
+    "Kevin is Gabrielle's grandson. <Begin> In general, a grandson is the son of one's child. </End>": [
+        17.25174825174825,
+        3.748251748251748
     ],
-    "Donald is Dwight's brother's son. <retrieved_rule> In general, the child of one's sibling is referred to as a nephew or niece. <retrieved_rule> Therefore, Donald is Dwight's nephew.": [
-        1.3333333333333335,
-        1.6666666666666665
+    "First, we know that Dorothy is related to Gabrielle as a daughter and a sister. This means that Dorothy is either the daughter of Gabrielle or the sister of Gabrielle. Considering the relations, we can conclude that Dorothy is Gabrielle's daughter. <Begin> In general, a person can only be a daughter to another person, not a sister. </End>": [
+        10.636363636363637,
+        2.3636363636363638
     ],
-    "Dwight is Jose's mother's brother. <retrieved_rule> In general, the relation \"brother\" followed by \"mother\" indicates the relationship of Vincent to his mother, who is the daughter of Gabrielle. <retrieved_rule> Therefore, Dwight is Jose's uncle.": [
-        1.3333333333333335,
-        1.6666666666666665
+    "Gabrielle is Lisa's mother. <Begin> In a parent-child relationship, the mother is the older generation and the daughter is the younger generation. </End> Since the relations on the path from Lisa to Gabrielle are daughter and grandmother, then Gabrielle must be Lisa's mother.": [
+        9.39090909090909,
+        3.6090909090909085
     ],
-    "Dorothy is Dwight's son's aunt. <retrieved_rule> Niece is the daughter of one's brother or sister. <retrieved_rule> Therefore, Dorothy is Dwight's sister.": [
+    "Kevin is Gabrielle's grandson. <Begin> Inference rule: If A is the grandson of B, then B is the grandmother of A. </End>": [
+        5.011363636363637,
+        2.9886363636363633
+    ],
+    "Dwight is Gabrielle's son. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule>": [
+        15.615384615384613,
+        4.384615384615384
+    ],
+    "Gabrielle is Dan's sister. <retrieved_rule> In general, the relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        19.754545454545454,
+        4.245454545454545
+    ],
+    "Gabrielle is Angela's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule>": [
+        7.776223776223777,
+        2.2237762237762237
+    ],
+    "Vincent is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        1.2307692307692308,
+        1.7692307692307692
+    ],
+    "Chad is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.788636363636363,
+        3.211363636363636
+    ],
+    "Gabrielle is Jeffrey's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        12.454545454545453,
+        3.545454545454545
+    ],
+    "Lisa is Gabrielle's daughter. <retrieved_rule> In general, the relation \"son, sister\" indicates a parent-child relationship. <retrieved_rule>": [
+        27.090909090909093,
+        1.9090909090909092
+    ],
+    "Gabrielle is James's wife's mother. So, Gabrielle is James's mother-in-law. <retrieved_rule> In general, a person's mother is also their spouse's mother-in-law. <retrieved_rule>": [
+        16.579545454545453,
+        3.4204545454545454
+    ],
+    "Gabrielle is Vanessa's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule>": [
+        4.363636363636363,
+        1.6363636363636362
+    ],
+    "Deborah is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        13.102272727272727,
+        2.8977272727272725
+    ],
+    "Gabrielle is Jennifer's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        11.545454545454545,
+        1.4545454545454546
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> In general, the sister of someone's granddaughter is also their granddaughter. <retrieved_rule>": [
+        3.3636363636363638,
+        1.6363636363636362
+    ],
+    "Jeffrey is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" followed by \"son\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        9.647727272727272,
+        3.352272727272727
+    ],
+    "Gabrielle is Lewis's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        15.75,
+        2.25
+    ],
+    "David is Gabrielle's grandson. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule> Therefore,": [
+        11.102272727272727,
+        2.8977272727272725
+    ],
+    "Christopher is Gabrielle's son. <new_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        10.920454545454545,
+        2.0795454545454546
+    ],
+    "Scott is Gabrielle's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        7.727272727272727,
+        2.2727272727272725
+    ],
+    "James is Gabrielle's son. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        8.102272727272727,
+        2.8977272727272725
+    ],
+    "Michelle is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule>": [
+        6.738636363636363,
+        2.2613636363636362
+    ],
+    "Dorothy is Gabrielle's daughter. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        13.706293706293705,
+        2.2937062937062938
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule>": [
+        6.738636363636363,
+        2.2613636363636362
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        10.524475524475523,
+        2.4755244755244754
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule>": [
+        3.7272727272727275,
+        2.2727272727272725
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the relation \"granddaughter\" means the person is the granddaughter of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        9.09090909090909,
+        2.9090909090909087
+    ],
+    "Gabrielle is Vanessa's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        18.363636363636367,
+        3.6363636363636362
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        3.7272727272727275,
+        2.2727272727272725
+    ],
+    "Robert is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ],
-    "Lucille is Dwight's brother's daughter. <retrieved_rule> In a family tree, a daughter is a female offspring of a parent. <retrieved_rule> Therefore, Lucille is Dwight's niece.": [
+    "Anna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"son\" followed by \"daughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.3636363636363638,
+        1.6363636363636362
+    ],
+    "Gabrielle is William's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        19.295454545454547,
+        2.7045454545454546
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.738636363636363,
+        2.2613636363636362
+    ],
+    "Gabrielle is Michael's mother. <retrieved_rule> In general, the relation \"mother\" followed by \"sister\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        9.102272727272727,
+        2.8977272727272725
+    ],
+    "Gabrielle is Dorothy's grandmother. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        7.102272727272727,
+        2.8977272727272725
+    ],
+    "Annette is Gabrielle's granddaughter. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule>": [
+        14.706293706293705,
+        2.2937062937062938
+    ],
+    "Gabrielle is Michelle's grandmother. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        9.295454545454545,
+        2.7045454545454546
+    ],
+    "Chad is Gabrielle's grandson. <retrieved_rule> In general, the brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        18.284090909090907,
+        2.715909090909091
+    ],
+    "Marci is Gabrielle's granddaughter. <new_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <new_rule> Therefore,": [
+        12.706293706293705,
+        2.2937062937062938
+    ],
+    "Russell is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son, son\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.3636363636363638,
+        1.6363636363636362
+    ],
+    "Theresa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        2.4615384615384617,
+        1.5384615384615383
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        1.3636363636363638,
+        1.6363636363636362
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's child. <retrieved_rule> Therefore,": [
+        1.75,
+        2.25
+    ],
+    "Donna is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        10.545454545454545,
+        1.4545454545454546
+    ],
+    "Annette is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule>": [
+        19.53583916083916,
+        2.464160839160839
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        5.990384615384615,
+        2.0096153846153846
+    ],
+    "Deborah is Gabrielle's granddaughter. <new_rule> In general, the daughter of a person's son or daughter is their granddaughter. <new_rule> Therefore,": [
+        10.636363636363637,
+        2.3636363636363638
+    ],
+    "Anna is Gabrielle's granddaughter. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        16.727272727272727,
+        2.2727272727272725
+    ],
+    "Alma is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        11.738636363636363,
+        2.2613636363636362
+    ],
+    "Christopher is Gabrielle's grandson. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        12.920454545454545,
+        2.0795454545454546
+    ],
+    "Gabrielle is Russell's grandmother. <new_rule> In general, the relation \"sister\" means they share a parent, and the relation \"grandmother\" means the person is the grandmother of the other. <new_rule> Therefore,": [
+        2.8454545454545457,
+        2.1545454545454543
+    ],
+    "Gabrielle is Annette's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        9.0,
+        1.0
+    ],
+    "Scott is Gabrielle's son. <retrieved_rule> The son of a sibling is a nephew. <retrieved_rule> Therefore,": [
+        10.433566433566433,
+        2.5664335664335662
+    ],
+    "Michelle is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Jose's sister's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        2.9903846153846154,
+        2.0096153846153846
+    ],
+    "Dan is Gabrielle's grandson. <new_rule> In general, the relation \"granddaughter\" means the person is the granddaughter of the other, and the relation \"brother\" means they share a parent. <new_rule> Therefore,": [
+        9.909090909090908,
+        2.090909090909091
+    ],
+    "Guillermina is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        6.53583916083916,
+        2.464160839160839
+    ],
+    "Vanessa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule>": [
+        1.375,
+        1.625
+    ],
+    "Gabrielle is Donald's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.615384615384615,
+        1.3846153846153846
+    ],
+    "Gabrielle is Robert's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is Robert's mother. <retrieved_rule> Therefore,": [
+        34.125,
+        2.875
+    ],
+    "Gabrielle is Sheila's grandmother. <retrieved_rule> In general, the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        6.363636363636363,
+        1.6363636363636362
+    ],
+    "Kevin is Gabrielle's grandson. <retrieved_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        6.545454545454545,
+        1.4545454545454546
+    ],
+    "James is Gabrielle's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Lisa is the daughter of Dorothy's parent. <retrieved_rule> Therefore,": [
+        22.220454545454547,
+        2.7795454545454543
+    ],
+    "Gabrielle is Deborah's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        8.0,
+        1.0
+    ],
+    "Gabrielle is Jeffrey's grandmother. <retrieved_rule> We are using the rule that the sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        7.375,
+        1.625
+    ],
+    "Anna is Gabrielle's granddaughter. <new_rule> In general, the relation \"husband, granddaughter\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        8.363636363636363,
+        1.6363636363636362
+    ],
+    "Guillermina is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"son\" followed by \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        4.670454545454545,
+        2.3295454545454546
+    ],
+    "Gabrielle is Guillermina's daughter. <retrieved_rule> In general, the relation between a parent and their child is that of father or mother to son or daughter. <retrieved_rule> Therefore,": [
+        9.363636363636363,
+        2.6363636363636367
+    ],
+    "Gabrielle is Anna's daughter. <retrieved_rule> In general, the relation \"father\" followed by \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        1.375,
+        1.625
+    ],
+    "Kevin is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"aunt\" indicates a sibling relationship. <retrieved_rule> Therefore,": [
+        14.615384615384615,
+        1.3846153846153846
+    ],
+    "Gabrielle is Alfred's grandmother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so the relation \"mother, mother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        7.09090909090909,
+        1.9090909090909092
+    ],
+    "Robert is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Robert the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        22.920454545454547,
+        2.0795454545454546
+    ],
+    "Lisa is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        17.524475524475523,
+        2.4755244755244754
+    ],
+    "Theresa is Gabrielle's granddaughter. <new_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        6.979020979020978,
+        2.020979020979021
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Michele and Gabrielle are siblings. <retrieved_rule> Therefore,": [
+        13.920454545454545,
+        2.0795454545454546
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband, granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        9.920454545454545,
+        2.0795454545454546
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband, grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        8.920454545454545,
+        2.0795454545454546
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> We are using the rule that the sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        11.193181818181818,
+        2.8068181818181817
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        1.9204545454545454,
+        2.0795454545454546
+    ],
+    "Gabrielle is Scott's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        11.53583916083916,
+        2.464160839160839
+    ],
+    "Chad is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Dorothy's mother. <retrieved_rule> The relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.363636363636363,
+        1.6363636363636362
+    ],
+    "Gabrielle is Robert's grandmother. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        15.920454545454545,
+        2.0795454545454546
+    ],
+    "Myrna is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        14.776223776223775,
+        2.2237762237762237
+    ],
+    "Anna is Gabrielle's granddaughter. <retrieved_rule> In a family tree, the brother of one person's parent is their uncle, and the child of one person's child is their grandchild. <retrieved_rule> Therefore,": [
+        3.9204545454545454,
+        2.0795454545454546
+    ],
+    "Gabrielle is Marci's daughter. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the daughter of Marci. <retrieved_rule> Therefore,": [
+        2.979020979020979,
+        2.020979020979021
+    ],
+    "Dorothy is Gabrielle's daughter-in-law. <retrieved_rule> In general, the relation \"wife\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule> Therefore,": [
+        8.545454545454545,
+        1.4545454545454546
+    ],
+    "Michelle is Gabrielle's granddaughter's sister. So, Michelle is Gabrielle's granddaughter's sister. <retrieved_rule> In general, the sister of someone's granddaughter is also their granddaughter. <retrieved_rule>": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Michelle's grandmother. <retrieved_rule> In the relation \"father, mother\" the first \"father\" is the father of the second \"mother\", making Michelle the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Christopher is Gabrielle's grandson. <retrieved_rule> In general, the son of a sibling is a nephew. <retrieved_rule> Therefore,": [
+        4.363636363636363,
+        1.6363636363636362
+    ],
+    "Gabrielle is Annette's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        19.53583916083916,
+        2.464160839160839
+    ],
+    "Gabrielle is Michael's grandmother. <new_rule> In general, the father of a person's brother is also their father. <new_rule> Therefore,": [
+        22.125,
+        1.875
+    ],
+    "Marci is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        7.545454545454545,
+        1.4545454545454546
+    ],
+    "Gabrielle is Christopher's grandmother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        11.545454545454545,
+        1.4545454545454546
+    ],
+    "Gabrielle is Alfred's grandmother. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.3636363636363638,
+        1.6363636363636362
+    ],
+    "David is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        19.16083916083916,
+        1.8391608391608392
+    ],
+    "Theresa is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Guillermina's grandmother. <retrieved_rule> We are using the rule that the sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        5.545454545454545,
+        1.4545454545454546
+    ],
+    "William is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        5.363636363636363,
+        1.6363636363636362
+    ],
+    "Lewis is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Lewis is the son of Gabrielle's daughter. <retrieved_rule> Therefore,": [
+        4.636363636363636,
+        2.3636363636363633
+    ],
+    "William is Gabrielle's grandson. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        4.461538461538462,
+        1.5384615384615383
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> The father of a daughter is the grandfather of her child. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Jeffrey is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        16.920454545454547,
+        2.0795454545454546
+    ],
+    "Lucille is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"wife\" indicates a husband-wife relationship, so the wife's daughter is the stepdaughter of the husband. <retrieved_rule> Therefore,": [
+        4.909090909090908,
+        2.090909090909091
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Aida the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        4.2727272727272725,
+        1.7272727272727273
+    ],
+    "James is Gabrielle's son. <retrieved_rule> In general, the father of a person's brother is also their father. <retrieved_rule> Therefore,": [
+        6.125,
+        1.875
+    ],
+    "Myrna is Gabrielle's daughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Myrna is the daughter of Gabrielle's daughter. <retrieved_rule> Therefore,": [
+        1.3636363636363638,
+        1.6363636363636362
+    ],
+    "Guillermina is Gabrielle's granddaughter. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        3.375,
+        1.625
+    ],
+    "Gabrielle is Dorothy's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is Dorothy's mother. <retrieved_rule> Therefore,": [
+        2.9204545454545454,
+        2.0795454545454546
+    ],
+    "Annette is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Annette the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        6.615384615384615,
+        1.3846153846153846
+    ],
+    "Gabrielle is Angela's grandmother. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        24.375,
+        1.625
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Donald the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.4615384615384617,
+        1.5384615384615383
+    ],
+    "Marci is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Marci the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Donna's daughter. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the daughter of Marci. <retrieved_rule> Therefore,": [
+        9.3,
+        1.7
+    ],
+    "Micheal is Gabrielle's grandson. <retrieved_rule> Inference: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Gabrielle is Asia's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Gabrielle is Michele's grandmother. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        5.375,
+        1.625
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> In the relation \"son, daughter\" the first \"son\" is the father of the second \"daughter\", making Angela the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        13.909090909090908,
+        2.090909090909091
+    ],
+    "Gabrielle is David's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        9.375,
+        1.625
+    ],
+    "Gabrielle is Annette's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        15.0,
+        1.0
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> In the relation \"son, daughter\" the first \"son\" is the father of the second \"daughter\", making Michele the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Angela's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        4.545454545454545,
+        1.4545454545454546
+    ],
+    "Aida is Gabrielle's granddaughter. <new_rule> The relation \"granddaughter\" indicates a grandparent-grandchild relationship, and the relation \"sister\" implies that the two individuals are siblings. <new_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Vanessa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"son, sister\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.375,
+        1.625
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Alfred the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Vincent's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Michele's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Michael's mother. <retrieved_rule> In the relation \"daughter, grandmother\" the first \"daughter\" indicates a parent-child relationship, and the second \"grandmother\" indicates the relation of the person to the child's parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Lisa's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is Lisa's mother. <retrieved_rule> Therefore,": [
+        12.818181818181818,
+        2.1818181818181817
+    ],
+    "Gabrielle is Robert's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        12.0,
+        1.0
+    ],
+    "Gabrielle is Asia's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        7.0,
+        1.0
+    ],
+    "Lewis is Gabrielle's grandson. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        12.545454545454545,
+        1.4545454545454546
+    ],
+    "Jennifer is Gabrielle's granddaughter. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        4.354020979020979,
+        2.645979020979021
+    ],
+    "Gabrielle is William's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Myrna is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Lisa is the daughter of Dorothy's parent. <retrieved_rule> Therefore,": [
+        4.461538461538462,
+        1.5384615384615383
+    ],
+    "Michael is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"brother\" implies that the two individuals are siblings, so Michael is the son of Gabrielle's child. <retrieved_rule> Therefore,": [
+        1.2727272727272727,
+        1.7272727272727273
+    ],
+    "Gabrielle is Vanessa's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        1.9204545454545454,
+        2.0795454545454546
+    ],
+    "Gabrielle is Micheal's grandmother. <retrieved_rule> In general, the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Micheal. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Micheal is Gabrielle's grandson. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Sheila is Gabrielle's granddaughter. <retrieved_rule> In the relation \"husband\" indicates a husband-wife relationship, so the husband's children are also the wife's children. <retrieved_rule> Therefore,": [
+        3.2727272727272725,
+        1.7272727272727273
+    ],
+    "Gabrielle is Micheal's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Theresa's mother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Micheal is Gabrielle's grandson. <new_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"brother\" means they share a parent. <new_rule> Therefore,": [
+        6.3,
+        1.7
+    ],
+    "Michelle is Gabrielle's granddaughter. <new_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        3.3,
+        1.7
+    ],
+    "Gabrielle is Guillermina's mother. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        6.920454545454545,
+        2.0795454545454546
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Angela the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        4.545454545454545,
+        1.4545454545454546
+    ],
+    "Russell is Gabrielle's grandson. <retrieved_rule> Inference: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        7.0,
+        1.0
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.375,
+        1.625
+    ],
+    "Deborah is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        9.0,
+        1.0
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the daughter of Joe. <retrieved_rule> Therefore,": [
+        8.545454545454545,
+        1.4545454545454546
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        9.16083916083916,
+        1.8391608391608392
+    ],
+    "Gabrielle is Jose's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Christopher's mother. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        13.375,
+        1.625
+    ],
+    "Donna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband, grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        6.545454545454545,
+        1.4545454545454546
+    ],
+    "Donna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Myrna is Donna's sister. <retrieved_rule> Therefore,": [
+        1.3636363636363638,
+        1.6363636363636362
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Aida's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.545454545454545,
+        1.4545454545454546
+    ],
+    "Vincent is Gabrielle's grandson. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Dan the grandson of Jason. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Donna's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates the relation of the person to the child's parent. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Dwight is Gabrielle's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of Dwight. <retrieved_rule> Therefore,": [
+        1.6153846153846154,
+        1.3846153846153846
+    ],
+    "Gabrielle is Lucille's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so": [
+        10.461538461538462,
+        1.5384615384615383
+    ],
+    "Dwight is Gabrielle's son. <new_rule> In general, the relationship of brother is established through the sister, so Dwight must be Russell's brother. <new_rule> Therefore,": [
+        4.8181818181818175,
+        2.1818181818181817
+    ],
+    "Gabrielle is Marci's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        5.545454545454545,
+        1.4545454545454546
+    ],
+    "Gabrielle is Aida's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Aida. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Deborah is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Deborah the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Chad's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Jason and Chad are siblings. <retrieved_rule> Therefore,": [
+        1.375,
+        1.625
+    ],
+    "Gabrielle is Donald's grandmother. <retrieved_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Donna's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Gabrielle is Dan's grandmother. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.375,
+        1.625
+    ],
+    "Michelle is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Michelle the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        7.461538461538462,
+        1.5384615384615383
+    ],
+    "Vincent is Gabrielle's grandson. <retrieved_rule> In the relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making Vincent the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Chad is Gabrielle's grandson. <new_rule> In the relation \"daughter, son\" the first \"daughter\" indicates a parent-child relationship, and the second \"son\" indicates a parent-child relationship, so Chad is the son of Gabrielle's daughter. <new_rule> Therefore,": [
+        4.090909090909091,
+        1.9090909090909092
+    ],
+    "Gabrielle is Jeffrey's grandmother. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        2.818181818181818,
+        2.1818181818181817
+    ],
+    "Sheila is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        6.545454545454545,
+        1.4545454545454546
+    ],
+    "Gabrielle is Aida's grandmother. <new_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        7.545454545454545,
+        1.4545454545454546
+    ],
+    "Gabrielle is Russell's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Lisa is Gabrielle's daughter. <new_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Lisa is Gabrielle's daughter. <new_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> Inference rule: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        3.2727272727272725,
+        1.7272727272727273
+    ],
+    "Gabrielle is Vanessa's granddaughter. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Russell's sister, then Russell is also Alma's sister. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Deborah is Gabrielle's granddaughter. <new_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        1.6153846153846154,
+        1.3846153846153846
+    ],
+    "Gabrielle is Jeffrey's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Donald. <retrieved_rule> Therefore,": [
+        9.636363636363635,
+        2.3636363636363638
+    ],
+    "Gabrielle is Anna's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.6153846153846154,
+        1.3846153846153846
+    ],
+    "Jeffrey is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Jeffrey the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        8.545454545454545,
+        1.4545454545454546
+    ],
+    "David is Gabrielle's grandson. <retrieved_rule> In general, the granddaughter is the child of one's son or daughter. <retrieved_rule> Therefore,": [
+        5.0,
+        1.0
+    ],
+    "Gabrielle is Lewis's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        9.545454545454545,
+        1.4545454545454546
+    ],
+    "Scott is Gabrielle's grandson. <new_rule> In general, the relation \"husband, grandson\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Lewis's grandmother. <retrieved_rule> A grandmother is a parent of one's parent. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Dorothy is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"wife\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.375,
+        1.625
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Jennifer's grandmother. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        10.545454545454545,
+        1.4545454545454546
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> In general, the brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        10.375,
+        1.625
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the daughter of a person's son or daughter is their granddaughter. <retrieved_rule> Therefore,": [
+        3.375,
+        1.625
+    ],
+    "Gabrielle is Vanessa's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        7.375,
+        1.625
+    ],
+    "Robert is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"brother\" means they share a parent. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        3.2727272727272725,
+        1.7272727272727273
+    ],
+    "Anna is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making the second daughter the granddaughter of the first daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is William's grandmother. <retrieved_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        12.375,
+        1.625
+    ],
+    "Russell is Gabrielle's grandson. <retrieved_rule> The relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <retrieved_rule> Therefore,": [
+        10.375,
+        1.625
+    ],
+    "Gabrielle is Chad's sister. <retrieved_rule> The relations on the path from Chad to Gabrielle are sister, father. <retrieved_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Gabrielle is Deborah's daughter. <new_rule> The relation \"father\" indicates a parent-child relationship, and the relation \"mother\" also indicates a parent-child relationship. <new_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Michael's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Michael. <retrieved_rule> Therefore,": [
+        12.09090909090909,
+        1.9090909090909092
+    ],
+    "Gabrielle is Dorothy's grandmother. <retrieved_rule> In the relation \"daughter, grandmother\" the first \"daughter\" indicates a parent-child relationship, and the second \"grandmother\" indicates the relation of the person to the child's parent. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Annette is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband, grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Gabrielle is Michelle's grandmother. <retrieved_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Chad is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Russell is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Russell the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Theresa is Gabrielle's granddaughter. <new_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Theresa is the granddaughter of Gabrielle. <new_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Dan's daughter. <retrieved_rule> In the relation \"father, mother\" the first \"father\" is the father of the second \"mother\", making Gabrielle the daughter of Dan. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Lisa is Gabrielle's daughter. <retrieved_rule> Therefore,": [
+        7.0,
+        1.0
+    ],
+    "Deborah is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making Vincent the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        8.0,
+        1.0
+    ],
+    "Alma is Gabrielle's daughter. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Gabrielle is Russell's grandmother. <retrieved_rule> In general, the relation \"sister\" means they share a parent, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Christopher is Gabrielle's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so Christopher is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Jose's grandmother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Guillermina is Gabrielle's granddaughter. <new_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Michele's grandmother. <retrieved_rule> In general, the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Michele. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Vanessa is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Kevin is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" indicates a spousal relationship, so Kevin is the grandson of Gabrielle's spouse. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Gabrielle is Robert's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Micheal. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Sheila's grandmother. <retrieved_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        9.545454545454545,
+        1.4545454545454546
+    ],
+    "James is Gabrielle's son. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of James. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Michael's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Michael. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Gabrielle is Jeffrey's grandmother. <new_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Anna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Lisa is Gabrielle's daughter. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, so Gabrielle is Lisa's mother. <retrieved_rule> Therefore,": [
+        8.0,
+        1.0
+    ],
+    "Kevin is Gabrielle's grandson. <retrieved_rule> The brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Guillermina's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Dan's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Dan. <retrieved_rule> Therefore,": [
+        5.0,
+        1.0
+    ],
+    "Guillermina is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of Guillermina's parent. <retrieved_rule> Therefore,": [
+        5.0,
+        1.0
+    ],
+    "Gabrielle is Anna's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Donald. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Alfred's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Alfred. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Gabrielle is Deborah's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, so Deborah and Gabrielle are siblings. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> In general, a person's brother's grandmother is also their grandmother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Asia is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        7.0,
+        1.0
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> The relation \"son, daughter\" the first \"son\" is the father of the second \"daughter\", making Aida the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Scott's grandmother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Michael. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Michael is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband, granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Myrna's mother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Robert's sister. <retrieved_rule> In general, the relation \"sister\" is reciprocal, so if Alma is Dorothy's sister, then Dorothy is also Alma's sister. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Anna is Gabrielle's granddaughter. <new_rule> The sister of someone's granddaughter is also their granddaughter. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Marci's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Marci. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Myrna is Gabrielle's daughter. <retrieved_rule> The relation \"husband, daughter\" the second \"daughter\" indicates a parent-child relationship, and the first \"husband\" implies a spousal relationship. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Dorothy is Gabrielle's daughter-in-law. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"sister\" implies that the two individuals are siblings, so Dorothy is the mother of Marci's parent. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Michelle's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is Michelle's mother. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Gabrielle is Scott's grandmother. <retrieved_rule> In the relation \"brother, grandmother\" the first \"brother\" is the sibling of the second \"grandmother\", making Gabrielle the grandmother of Scott. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Christopher is Gabrielle's son. <new_rule> In general, the relation \"son\" indicates a parent-child relationship. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Annette's grandmother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Annette's parent. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Alfred's grandmother. <retrieved_rule> If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Christopher's grandmother. <retrieved_rule> In the relation \"son, grandmother\" the first \"son\" indicates a parent-child relationship, and the second \"grandmother\" indicates the relation of the person to the child's parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Guillermina's grandmother. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        5.545454545454545,
+        1.4545454545454546
+    ],
+    "David is Gabrielle's grandson. <retrieved_rule> The relation \"husband\" indicates a spousal relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "William is Gabrielle's grandson. <retrieved_rule> In general, the brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Lewis is Gabrielle's grandson. <retrieved_rule> In general, the son of a person's daughter is their grandson. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "William is Gabrielle's grandson. <retrieved_rule> The relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making the second daughter the granddaughter of the first daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Jeffrey is Gabrielle's grandson. <retrieved_rule> The brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" means the person is the grandmother of the other. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Aida the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        1.4615384615384617,
+        1.5384615384615383
+    ],
+    "Lucille is Gabrielle's granddaughter. <new_rule> The relation \"husband\" indicates a spousal relationship, and the relation \"granddaughter\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "James is Gabrielle's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so James is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Myrna is Gabrielle's daughter. <new_rule> The relation \"son, sister\" the first \"son\" indicates a parent-child relationship, and the second \"sister\" implies that the two individuals are siblings. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Sheila is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of Sheila's parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Guillermina is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making Guillermina the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is James's mother. <new_rule> The relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of James. <new_rule> Therefore,": [
+        6.0,
+        1.0
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Donald the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        2.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Angela's grandmother. <retrieved_rule> In the relation \"brother, grandmother\" the first \"brother\" is the sibling of the second \"grandmother\", making Gabrielle the grandmother of Angela. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Donna's mother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is Donna's mother. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Micheal is Gabrielle's grandson. <new_rule> The father of a daughter is the grandfather of her child. <new_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Michele is Gabrielle's granddaughter. <new_rule> In the relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making the second daughter the granddaughter of the first daughter. <new_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making Angela the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Annette's grandmother. <retrieved_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Angela's grandmother. <new_rule> In the relations on the path from Angela to Gabrielle are father, mother. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is David's grandmother. <retrieved_rule> In general, the relation \"brother, grandmother\" the first \"brother\" is the sibling of the second \"grandmother\", making Gabrielle the grandmother of David. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Aida is Gabrielle's granddaughter. <retrieved_rule> The sister of someone's granddaughter is also their granddaughter. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Vanessa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" followed by \"granddaughter\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.5454545454545454,
+        1.4545454545454546
+    ],
+    "Gabrielle is Vincent's grandmother. <retrieved_rule> The sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Michele's grandmother. <retrieved_rule> In the relation \"sister, grandmother\" the first \"sister\" is the sibling of the second \"grandmother\", making Gabrielle the grandmother of Michele. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Dorothy's daughter. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is the daughter of Dorothy. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Michael's grandmother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of Michael. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Robert's grandmother. <retrieved_rule> In the relation \"brother, grandmother\" the first \"brother\" is the sibling of the second \"grandmother\", making Gabrielle the grandmother of Robert. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Asia's grandmother. <retrieved_rule> In general, the sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        1.2727272727272727,
+        1.7272727272727273
+    ],
+    "Jose is Gabrielle's grandson. <retrieved_rule> The son of a son is a grandson. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Lewis is Gabrielle's grandson. <new_rule> In general, the relation \"husband\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is William's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of William. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Myrna is Gabrielle's daughter. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, so Myrna is the daughter of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Myrna's grandmother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, so Myrna is the daughter of Gabrielle's daughter. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Michael is Gabrielle's son. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so Michael is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Vanessa's grandmother. <retrieved_rule> The relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Vanessa's parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Theresa is Gabrielle's granddaughter. <retrieved_rule> The relation \"son, daughter\" the first \"son\" indicates a parent-child relationship, and the second \"daughter\" indicates a parent-child relationship, so Theresa is the granddaughter of Gabrielle. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Gabrielle is Micheal's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Micheal. <retrieved_rule> Therefore,": [
+        3.5454545454545454,
+        1.4545454545454546
+    ],
+    "Sheila is Gabrielle's granddaughter. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Theresa's grandmother. <retrieved_rule> The relations on the path from Theresa to Gabrielle are father, mother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Micheal is Gabrielle's grandson. <new_rule> In general, the relation \"brother\" followed by \"grandson\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Gabrielle is Guillermina's grandmother. <retrieved_rule> In general, the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.4615384615384617,
+        1.5384615384615383
+    ],
+    "Michelle is Gabrielle's granddaughter. <retrieved_rule> In the relation \"husband, daughter\" the second \"daughter\" indicates a parent-child relationship, and the first \"husband\" implies a spousal relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making the second daughter the granddaughter of the first daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Myrna's mother. <retrieved_rule> In general, the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Jason the grandfather of Dwight. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Kevin is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Kevin the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Russell is Gabrielle's grandson. <new_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"sister\" means they share a parent. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Angela is Gabrielle's granddaughter. <retrieved_rule> The spouse of a grandchild is a grandchild-in-law. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Dorothy is Gabrielle's daughter. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, so Alma is Gabrielle's daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Michele is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter, daughter\" the first \"daughter\" is the mother of the second \"daughter\", making the second daughter the granddaughter of the first daughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is David's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of David. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Donald is Gabrielle's grandson. <retrieved_rule> In general, the relation \"grandson\" means the person is the grandson of the other, and the relation \"brother\" means they share a parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Joe is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"son\" indicates a parent-child relationship, so Joe is the son of Gabrielle's child. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> The relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making the second son the grandson of the first daughter. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Donna is Gabrielle's granddaughter. <retrieved_rule> The relations on the path from Gabrielle to Donna are husband, granddaughter. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Aida's grandmother. <new_rule> In general, the relation \"brother\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <new_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Christopher's grandmother. <retrieved_rule> In the relation \"daughter, grandmother\" the first \"daughter\" indicates a parent-child relationship, and the second \"grandmother\" indicates a grandparent-grandchild relationship, so Gabrielle is Christopher's grandmother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Donna is Gabrielle's granddaughter. <retrieved_rule> In the relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making Vincent the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Marci's grandmother. <retrieved_rule> The relation \"brother, grandmother\" the first \"brother\" is the sibling of the second \"grandmother\", making Jason the grandfather of Lewis. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> In the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Vincent the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Michelle's grandmother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is Michelle's mother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Alfred is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, so James is the son of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Donna's grandmother. <retrieved_rule> In the relation \"sister\" implies that the two individuals are siblings, and the relation \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Lisa's mother. <retrieved_rule> In the relation \"daughter, grandmother\" the first \"daughter\" is the mother of the second \"grandmother\", making Gabrielle Lisa's mother. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Lucille's mother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Lucille. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dwight is Gabrielle's son. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, so Gabrielle is the mother of Dwight. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Chad is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son, son\" the first \"son\" is the father of the second \"son\", making Chad the grandson of Gabrielle. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dwight is Gabrielle's grandson. <retrieved_rule> The brother of someone's granddaughter is also their grandson. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Dan is Gabrielle's grandson. <retrieved_rule> Inference: If A is the grandson of B, then B is the grandmother of A. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Donna's grandmother. <retrieved_rule> In the relation \"mother, mother\" the first \"mother\" is the mother of the second \"mother\", making Gabrielle the grandmother of Alfred. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Aida's grandmother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship, so Gabrielle is the mother of Aida's parent. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Chad's grandmother. <retrieved_rule> In general, the relation \"sister\" followed by \"grandmother\" indicates a grandparent-grandchild relationship. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Gabrielle is Donald's sister. <retrieved_rule> The sister of someone in the path is also related to the same person as the grandmother of someone in the path. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Jennifer is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter, son\" the first \"daughter\" is the mother of the second \"son\", making Vincent the grandson of Gabrielle. <retrieved_rule> Therefore,": [
         1.0,
         1.0
     ]
