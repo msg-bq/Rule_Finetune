@@ -12,7 +12,7 @@ import random
 
 from sentence_transformers import SentenceTransformer
 
-from utils.ExtraNameSpace import PredictionCleanNameSpace, RuleExtractionNameSpace
+from utils.ExtraNameSpace import PredictionCleanNameSpace, ColdStartRuleExtractionNameSpace
 import utils.extract_rule
 
 
@@ -411,14 +411,14 @@ class Rationale:    # 修正到只有两个属性
         self.prediction = self.clean_prediction(prediction)
         self.rules = set()
 
-    @RuleExtractionNameSpace.register("Example")
+    @ColdStartRuleExtractionNameSpace.register("Example")
     def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
         """
         从dataset中抽取出rules
         """
         pass
 
-    @RuleExtractionNameSpace.register("Example")
+    @ColdStartRuleExtractionNameSpace.register("Example")
     def extract_rules_training(self) -> List[str]:
         """
         从dataset中抽取出rules，目前存在的问题是未区分retrieved和new

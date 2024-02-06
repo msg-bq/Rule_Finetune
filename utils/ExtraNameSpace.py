@@ -1,3 +1,4 @@
+import types
 from typing import Callable
 
 
@@ -51,6 +52,12 @@ class Function(object):
         self.fn = fn
         self.space_cls = space_cls
 
+    def __get__(self, instance, owner):
+        if instance is not None:
+            return types.MethodType(self, instance)
+        else:
+            return self
+
     def __call__(self, *args, **kwargs):
         fn = self.space_cls.get(self.fn)
         if not fn:
@@ -78,7 +85,7 @@ class PredictionCleanNameSpace(NameSpace):
 class ScoreNameSpace(NameSpace):
     pass
 
-class RuleExtractionNameSpace(NameSpace):
+class ColdStartRuleExtractionNameSpace(NameSpace):
 
     @classmethod
     def get(self, fn: Callable) -> Callable:
@@ -96,6 +103,25 @@ class RuleExtractionNameSpace(NameSpace):
             fn = cls.function_map.get(name)
 
         return fn
+    
+class TrainRuleExtractionNameSpace(NameSpace):
+
+    @classmethod
+    def get(self, fn: Callable) -> Callable:
+        cls = DatasetsReaderNameSpace.get_instance()
+
+        func = Function(fn=fn, space_cls=self)
+        fn_name = cls._args.train_prompt_type
+        name = func.register_key(fn_name=fn_name)
+
+        fn = cls.function_map.get(name)
+
+        if not fn:
+            fn_name = "Default"
+            name = func.register_key(fn_name=fn_name)
+            fn = cls.function_map.get(name)
+
+        return fn
 
 class PromptMethodNameSpace(NameSpace):
     @classmethod
@@ -103,7 +129,7 @@ class PromptMethodNameSpace(NameSpace):
         cls = DatasetsReaderNameSpace.get_instance()
 
         func = Function(fn=fn, space_cls=self)
-        fn_name = cls._args.train_prompt
+        fn_name = cls._args.train_prompt_type
         name = func.register_key(fn_name=fn_name)
 
         fn = cls.function_map.get(name)

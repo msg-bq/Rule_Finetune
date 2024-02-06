@@ -6,10 +6,11 @@ from typing import List, Dict, Union, Tuple
 
 import numpy as np
 
-from utils.ExtraNameSpace import ScoreNameSpace
+from utils.ExtraNameSpace import ScoreNameSpace, PromptMethodNameSpace
 # import torch
 
 from utils.data import DatasetLoader, Rule, Rationale
+import utils.prompt_method
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
@@ -374,27 +375,13 @@ def llm_n_shot_CoT(llm, added_rules: str, input_text: str, demos: str, **kwargs)
 
 def prompt_rules(args, rules: List[Rule]) -> str:
     """
-    返回所有rules作为prompt
-
     下面有xx规则，优先从中找，找得到的话，格式是Existed Rule xxx；找不到就自己生成，生成的格式是Rulexxxx。
-    write_rules(建议排序)
-
     加一个选择或者说删除机制，比如score=0的rule直接丢弃
-    stages: 把所有的rule按分数排序分成3个stage
-    proportion: 根据这个比例进行采样
-    第n个阶段中采出rule_num*proportion的样放到rule_name里
-
-    相关prompt部分已经被移除放到autoCoT里
     """
     # out = 'Instruction: '
     # out += 'For your guidance, here are several reference rules. '
     # out += 'Endeavor to adhere to these rules when responding to queries in <retrieved_rule>xxx<retrieved_rule> format. '
     # out += 'However, if adherence is unfeasible, you are permitted to establish your own rules in <new_rule>xxx<new_rule> format. '
-
-    # out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
-    #       '''try to use the provided knowledge whenever possible in <retrieved_knowledge>xxx<retrieved_knowledge> format. ''' \
-    #       '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
-    #       '''establish your own rules in <new_knowledge>xxx<new_knowledge> format.\n'''
 
     # out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
     #       '''try to use the provided knowledge whenever possible in <retrieved_rule>xxx<retrieved_rule> format. ''' \
@@ -413,6 +400,6 @@ def prompt_rules(args, rules: List[Rule]) -> str:
     out += '\n\n'
     return out
 
-
+@PromptMethodNameSpace.register("Example")
 def prompt_demos(args, demos: str, added_rules: str) -> Tuple[str, str]:
     pass

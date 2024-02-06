@@ -155,7 +155,7 @@ def read_func(data_dir):
     sampling_test_data = build_samples(sampling_test_data)
     final_test_datasets = build_datasets_from_samples(sampling_test_data, question_template)
 
-    final_train_datasets = remove_duplicates(final_train_datasets)[:2000]
+    final_train_datasets = remove_duplicates(final_train_datasets)
     final_test_datasets = remove_duplicates(final_test_datasets)
 
     return final_train_datasets, None, final_test_datasets

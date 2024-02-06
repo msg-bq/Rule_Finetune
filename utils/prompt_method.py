@@ -2,7 +2,7 @@ import random
 import re
 from typing import Tuple
 
-from ExtraNameSpace import PromptMethodNameSpace
+from utils.ExtraNameSpace import PromptMethodNameSpace
 
 @PromptMethodNameSpace.register("Default")
 def prompt_demos(args, demos: str, added_rules: str) -> Tuple[str, str]:

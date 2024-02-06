@@ -1,3 +1,4 @@
+import json
 import os
 from typing import List, Union
 
@@ -39,9 +40,9 @@ def save_preprocessed_data(data, path):    # 保存预处理
     if not os.path.exists(dir_path):
         os.mkdir(dir_path)
 
-    with open(path, 'w', encoding="GB18030") as f:
+    with open(path, 'w', encoding="utf8") as f:
         for sample in data:
-            f.write(sample + '\n')
+            f.write(json.dumps(sample) + '\n')
 
 
 def adjust_dataset_format(**kwags):
@@ -85,6 +86,8 @@ def read_datasets(args) -> (DatasetLoader, DatasetLoader, DatasetLoader):
 
     if not os.path.exists(train_path) or not os.path.exists(test_path):
         train_dataset, valid_dataset, test_dataset = read_func(data_dir)
+        if args.train_dataset_size:
+            train_dataset = train_dataset[:args.train_dataset_size]
 
         save_preprocessed_data(train_dataset, train_path)
         save_preprocessed_data(test_dataset, test_path)

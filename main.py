@@ -7,7 +7,7 @@ from utils.read_datasets import read_datasets, read_rationales
 import argparse
 from utils.ExtraNameSpace import NameSpace
 
-from prompt import cot_trigger, pred_trigger
+from prompt import cot_trigger, pred_trigger, train_prompt
 
 from logger import logger
 
@@ -18,6 +18,9 @@ def args_parse():
     parser.add_argument("--dataset", type=str, default="LANG_8",
                         choices=["default", "CLUTRR", "STS_B", "LANG_8"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
+
+    parser.add_argument("--train_dataset_size", type=int, default=200,
+                        help="choose the first train_dataset_size examples from train dataset for training")
 
     parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
@@ -73,20 +76,39 @@ def args_parse():
         "--demo_save_dir", type=str, default='demosave', help="save dir for demo examples"
     ) #源自autoCoT
 
-    parser.add_argument("--cot_trigger_type", type=str, default='HtT_version',
+    parser.add_argument("--cot_trigger_type", type=str, default='default1',
                         choices=['default1', 'default2', 'default3', 'HtT_version'],
                         help="cot trigger type")
+
+    parser.add_argument("--train_prompt_type", type=str, default='default1',
+                        choices=['default1', 'HtT_version'],
+                        help="train prompt type")
 
     args = parser.parse_args()
 
     args.cot_trigger = cot_trigger[args.cot_trigger_type]
     args.pred_trigger = pred_trigger[args.dataset]
+    args.train_prompt = train_prompt[args.train_prompt_type]
 
     args.direct_answer_trigger_for_zeroshot_cot = args.pred_trigger
+
+    if not args.data_dir:
+        args.data_dir = f"./data/{args.dataset}"
+
+    if not args.save_dir:
+        num_suffix = 0
+        while os.path.exists(f"./experiment/{args.dataset}_{num_suffix}"):
+            num_suffix += 1
+        args.save_dir = f"./experiment/{args.dataset}/version_{num_suffix}"
+
+    if not os.path.exists(args.save_dir):
+        os.makedirs(args.save_dir)
 
     NameSpace._args = args
 
     logger.info(f"args: {args}")
+    with open(os.path.join(args.save_dir, "args.txt"), 'w') as f:
+        f.write(str(args))
 
     return args
 
@@ -102,8 +124,6 @@ def main():
     """
 
     args = args_parse()
-    if not args.data_dir:
-        args.data_dir = f"./data/{args.dataset}"
 
     # 1. 读取数据集
     train_dataset, valid_dataset, test_dataset = read_datasets(args)

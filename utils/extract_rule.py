@@ -1,10 +1,10 @@
 import re
 from typing import Union, Set, List
 
-from utils.ExtraNameSpace import RuleExtractionNameSpace
+from utils.ExtraNameSpace import ColdStartRuleExtractionNameSpace
 
 
-@RuleExtractionNameSpace.register("default1")
+@ColdStartRuleExtractionNameSpace.register("default1")
 def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
@@ -16,7 +16,7 @@ def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
 
     return rules
 
-@RuleExtractionNameSpace.register("default2")
+@ColdStartRuleExtractionNameSpace.register("default2")
 def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
@@ -28,7 +28,7 @@ def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
 
     return rules
 
-@RuleExtractionNameSpace.register("default3")
+@ColdStartRuleExtractionNameSpace.register("default3")
 def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
@@ -40,7 +40,7 @@ def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
 
     return rules
 
-@RuleExtractionNameSpace.register("HtT_version")
+@ColdStartRuleExtractionNameSpace.register("HtT_version")
 def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
     if self.rules:
         return self.rules
@@ -52,7 +52,7 @@ def extract_rules_cold_start(self) -> Union[Set[str], List[str]]:
 
     return rules
 
-@RuleExtractionNameSpace.register("Default")
+@ColdStartRuleExtractionNameSpace.register("Default")
 def extract_rules_training(self) -> List[str]:
     """
     从dataset中抽取出rules，目前存在的问题是未区分retrieved和new
@@ -68,7 +68,7 @@ def extract_rules_training(self) -> List[str]:
 
     return total_rules
 
-@RuleExtractionNameSpace.register("HtT_version")
+@ColdStartRuleExtractionNameSpace.register("HtT_version")
 def extract_rules_training(self) -> List[str]:
     """
     从dataset中抽取出rules，目前存在的问题是未区分retrieved和new
@@ -76,11 +76,9 @@ def extract_rules_training(self) -> List[str]:
     total_rules = []
     rule_pattern1 = re.compile(r"we have(.+?). So the")
     rule_pattern2 = re.compile(r"we retrieve(.+?). So the")
-    rules1 = rule_pattern1.findall(self.rationale)
-    rules2 = rule_pattern2.findall(self.rationale)
 
-    total_rules += [r.strip() for r in rules1]
-    total_rules += [r.strip() for r in rules2]
+    total_rules += [r.strip() for r in rule_pattern1.findall(self.rationale)]
+    total_rules += [r.strip() for r in rule_pattern2.findall(self.rationale)]
 
     self.rules = self.rules.union(set(total_rules))
 

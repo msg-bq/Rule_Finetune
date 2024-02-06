@@ -35,25 +35,13 @@ class Trainer:
         for data in dataset:
             rules = []
             for r in data.rationale:
-                rules += r.extract_rules_cold_start(r)  # 这儿也没有根据prediction和label的一致性选择正确的rule
+                rules += r.extract_rules_cold_start()  # 这儿也没有根据prediction和label的一致性选择正确的rule
             self.rule_base._add_rules(rules, data.question)
 
         self.rule_base.save(f"./data/{self.args.dataset}/rule_base_cold")
         logger.info("完成cold start")
 
     def forward(self, example, demos, added_rules):
-        """
-        # first zero-shot
-        for R in TrainDataset:
-            prompt = Rule_base.write_rules + 5_shot(R.q, TrainDataset) + R.q
-            response = call_gpt(prompt)
-            rationale = parse_response(response)
-            R.update(rationale)
-            score = rationale.score()
-        # first 5-shot
-        for R in
-
-        """
         _, response = llm_n_shot_CoT(self.llm, added_rules, input_text=example.question, demos=demos,
                                      temperature=0.3)
         print("response:\n", response)
@@ -75,16 +63,15 @@ class Trainer:
         if edit_distance == 0:
             score = 1
         else:
-            # score = - edit_distance / max(len(pred), len(gold))
-            score = 1 - 2 * edit_distance / max(len(pred), len(gold)) # 估计版本没对齐
+            score = 1 - 2 * edit_distance / max(len(pred), len(gold))
         return score
 
     def backward(self, example: Example, added_rules: str, bandit: DemoBaseMAB, score: float, k: List[int]):
         rationale = example.rationale[-1]
-        new_rules = rationale.extract_rules_training()
-        print("new_rules:", new_rules)
+        occured_rules = rationale.extract_rules_training()
+        print("occured_rules:", occured_rules)
         # 这边需要一步处理，因为new_rules: List[List[str]]，（可能需要去重），最终要变成List[str]
-        self.rule_base.update_rule(added_rules, new_rules, example, score)
+        self.rule_base.update_rule(added_rules, occured_rules, example, score)
         print('oooo' * 50)
 
         # with self.lock:
@@ -148,7 +135,7 @@ class Trainer:
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
 
-            with ThreadPoolExecutor(max_workers=16) as executor:
+            with ThreadPoolExecutor(max_workers=4) as executor:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 
