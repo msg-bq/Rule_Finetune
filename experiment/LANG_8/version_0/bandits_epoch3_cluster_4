@@ -1,0 +1,194 @@
+{
+    "There is a grammar error in the original sentence. \"Wang\" should be \"Wangs\" to make it plural. Revised sentence: A New Hair Style of the Wangs <Begin>Plural nouns in English typically end with an \"s\" or \"es\" at the end.</End>": [
+        21.378787967290364,
+        3.621212032709639
+    ],
+    "The sentence \"The different values about handsome among cultures are very interesting\" is grammatically correct. There are no grammar errors in the given sentence. Revised sentence: The various cultural perspectives on what is considered handsome are very interesting. <Begin>There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, \"different\" should come before \"values\" to follow this rule. However, the original sentence is still grammatically correct as it is.<End>": [
+        20.993182778916864,
+        3.006817221083134
+    ],
+    "The grammar error in the sentence is the lack of parallel structure. The revised sentence could be: \"It mentioned many examples of Japanese men, Korean men, and Hong Kong men.\" <Begin>Parallel structure</End>": [
+        25.17218684295196,
+        3.827813157048042
+    ],
+    "The grammar errors in the original sentence include the lack of parallel structure and incorrect verb tense. The revised sentence could be: \"About clothing, the western men dressed very simply, and about hair, most of them don't have a fringe at all, and their back hair is short, with no hair covering their necks.\" <retrieved_rule> Parallel structure <retrieved_rule> <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        14.246665492037817,
+        2.753334507962185
+    ],
+    "The grammar error in the original sentence is the subject-verb agreement. \"Was\" should be \"were\" to agree with the plural subjects \"clothing and hair styles.\" Revised sentence: I found out that the clothing and the hair styles were very different. <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        11.94776594391861,
+        3.0522340560813888
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"By contrast, men in eastern countries dress up more.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        7.934894620158547,
+        2.065105379841454
+    ],
+    "The grammar error in the original sentence is the use of \"sucks\" instead of \"rocked\" or \"pulled off\" to convey the positive reception of Wang's new hairstyle. The revised sentence could be: \"My English translation of the title is 'Wang changed to a new hairstyle, and Jeter rocked it.' As long as you are Chinese, nine out of ten you will think that Wang pulled off the new style very well, and that his new style is very handsome.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        18.280820064248964,
+        2.719179935751029
+    ],
+    "The grammar error in the original sentence is the use of \"about\" after \"talked.\" The revised sentence could be: \"It talked about a big difference in the values of a handsome man between Western countries and Eastern countries.\" <retrieved_rule> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. <retrieved_rule>": [
+        6.377972127972128,
+        1.6220278720278722
+    ],
+    "The grammar errors in the original sentence are the incorrect use of \"ways\" instead of \"styles\" and the misspelling of \"Scrubs.\" The revised sentence could be: \"I started to notice the foreign clothing and hairstyles in recent days by watching TV programs such as Friends and Scrubs.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        11.13507206752777,
+        1.8649279324722277
+    ],
+    "The grammar error in the original sentence is the misspelling of \"especially\" as \"especailly.\" The revised sentence could be: \"If we want to have a long hairstyle, it will mostly be light, especially long on the fringe or back hair.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        12.37476269727295,
+        2.6252373027270473
+    ],
+    "The grammar error in the original sentence is the use of \"a very short hair\" instead of \"very short hair.\" The revised sentence could be: \"If we want to cut very short hair, we must leave some hair on the back of the neck in order to avoid looking like a nerd.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        3.358051413606969,
+        1.641948586393031
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"But in Western countries, the standard of a handsome man depends not on their faces, but on their masculine symbols, such as muscles and behavior.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        3.9058862433862434,
+        2.0941137566137566
+    ],
+    "The grammar error in the original sentence is the use of \"had\" instead of \"have\" to match the present tense. The revised sentence could be: \"If they have long hair, it will be really long and thick.\" <retrieved_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <retrieved_rule>": [
+        4.88307164206584,
+        2.1169283579341607
+    ],
+    "The grammar error in the original sentence is the incorrect verb tense. The revised sentence could be: \"However, the news mentioned that Derek Jeter thinks his hair is really amazing.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        3.053191489361702,
+        1.9468085106382982
+    ],
+    "The grammar error in the original sentence is the use of \"median\" instead of \"medium\" to describe the length of men's hair. The revised sentence could be: \"As for hair, men usually have medium-length hair, neither very short nor long.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        5.555460330460329,
+        2.4445396695396697
+    ],
+    "The grammar error in the original sentence is the repetition of \"hair\" in \"cut his hair and had a new hair style.\" The revised sentence could be: \"It reported that Chien-Ming Wang cut his hair and got a new hairstyle.\" <retrieved_rule> No errors found. <retrieved_rule>": [
+        8.478515376109925,
+        1.5214846238900732
+    ],
+    "The grammar error in the original sentence is the lack of subject-verb agreement. The revised sentence could be: \"I found out that the clothing and the hairstyles were very different.\" <retrieved_rule> Subject-verb agreement <retrieved_rule>": [
+        8.328547882624047,
+        1.6714521173759531
+    ],
+    "The grammar error in the original sentence is the lack of a verb after \"most.\" The revised sentence could be: \"By contrast, men in eastern countries mostly dress up.\" <new_rule> When starting a sentence with a phrase of contrast, it should be followed by a comma. <new_rule>": [
+        3.4142812123698913,
+        1.5857187876301084
+    ],
+    "The grammar error in the original sentence is the use of \"sucks it\" which is informal and unclear. The revised sentence could be: \"My English translation of the title is 'Wang changed his hairstyle, but Jeter doesn't like it.' As long as you are Chinese, nine out of ten you will think that Wang's new style matches him very well, and that his new style is very handsome.\" <retrieved_rule> Use contractions for informal speech <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"there is\" instead of \"there being\" to indicate the existence of a big difference. The revised sentence could be: \"It talked about there being a big difference in the values of a handsome man between Western and Eastern countries.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the original sentence include the incorrect use of \"etc.\" and the misspelling of \"Scrubs.\" The revised sentence could be: \"I started to notice the ways of foreign clothing and hairstyles in the past few days by watching TV programs, such as 'Friends' and 'Scrubs'.\" <retrieved_rule> Use single quotation marks for titles of TV shows or episodes. <retrieved_rule>": [
+        1.8925619834710745,
+        1.1074380165289255
+    ],
+    "The grammar error in the original sentence is the use of \"depends not on their faces\" instead of \"does not depend on their faces.\" The revised sentence could be: \"But in Western countries, the standard of a handsome man does not depend on their faces, but on their masculine symbols, such as muscles and behavior.\" <retrieved_rule> Use \"that\" to introduce a clause instead of \"if\" <retrieved_rule>": [
+        1.7868852459016393,
+        1.2131147540983607
+    ],
+    "The grammar error in the original sentence is the incorrect verb tense. \"Had\" should be followed by \"would be\" to indicate a hypothetical situation in the future. The revised sentence could be: \"If they had long hair, it would be really long and thick.\" <retrieved_rule> The correct construction is \"writing a diary\" instead of \"to write diary.\" <retrieved_rule>": [
+        2.6712962962962963,
+        1.3287037037037037
+    ],
+    "The grammar error in the original sentence is the incorrect verb form \"think\" instead of \"thinks.\" The revised sentence could be: \"However, the news mentioned that Derek Jeter thinks his hair is really a mess.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        5.623479910596769,
+        1.376520089403231
+    ],
+    "The grammar error in the original sentence is the use of \"median\" instead of \"medium\" to describe the length of men's hair. The revised sentence could be: \"As for hair, men usually have medium-length hair, neither very short nor long.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        4.33141005482711,
+        1.6685899451728898
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"Except for a shirt and jeans, we usually wear an accessory.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        3.992840422937122,
+        2.007159577062878
+    ],
+    "The grammar error in the original sentence is the use of \"hair style\" instead of \"hairstyle.\" The revised sentence could be: \"It reported that Chien-Ming Wang cut his hair and got a new hairstyle.\" <retrieved_rule> The correct construction is \"writing a diary\" instead of \"to write diary.\" <retrieved_rule>": [
+        8.101238824392519,
+        1.8987611756074805
+    ],
+    "The grammar error in the original sentence is the use of \"men\" after each nationality. The revised sentence could be: \"It mentioned many examples of Japanese, Korean, and Hong Kong men.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        4.546698630715024,
+        1.4533013692849759
+    ],
+    "The grammar error in the original sentence is the lack of subject-verb agreement. The revised sentence could be: \"I found out that the clothing and the hairstyles were very different.\" <retrieved_rule> The subject of a sentence is necessary for it to be grammatically correct. <retrieved_rule>": [
+        5.829345022198424,
+        2.1706549778015747
+    ],
+    "The grammar error in the original sentence is the use of \"most\" instead of \"mostly\" or \"dress up the most.\" The revised sentence could be: \"By contrast, men in eastern countries mostly dress up.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        7.045892074788437,
+        1.954107925211563
+    ],
+    "The grammar error in the original sentence is the use of \"changed a new hair style\" instead of \"changed his hair style.\" The revised sentence could be: \"My English translation of the title is 'Wang changed his hair style, but Jeter doesn't like it.' As long as you are Chinese, nine out of ten will think that Wang really suits the new style, and that his new style is very handsome.\" <retrieved_rule> Use single quotation marks for quoted speech. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"etc\" without a preceding comma. The revised sentence could be: \"I started to notice the ways of foreign clothing and hairstyles in the past few days by watching TV programs, such as Friends and Scrubs.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the original sentence are the incorrect use of \"especailly\" instead of \"especially\" and the lack of subject-verb agreement. The revised sentence could be: \"If we want to have a long hairstyle, it will mostly be light, especially long on the fringe or back.\" <retrieved_rule> The subject of a sentence is necessary for it to be grammatically correct. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"a very short hair\" instead of \"very short hair.\" The revised sentence could be: \"If we want to cut very short hair, we must leave some hair on the back of the neck in order to avoid looking like a nerd.\" <retrieved_rule> Use \"the\" before specific nouns to indicate a particular instance or example. <retrieved_rule>": [
+        3.747472064298112,
+        1.2525279357018884
+    ],
+    "The grammar error in the original sentence is the lack of the definite article \"the\" before \"Wang.\" The revised sentence could be: \"A New Hair Style of the Wang\" <retrieved_rule> Use \"the\" before specific nouns to indicate a particular instance or example. <retrieved_rule>": [
+        4.6940888854545975,
+        1.3059111145454028
+    ],
+    "The grammar error in the original sentence is the use of \"say\" instead of \"such as\" to introduce examples. The revised sentence could be: \"But in Western countries, the standard of a handsome man depends not on their faces, but on their masculine symbols, such as muscle and behavior.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        1.9090909090909092,
+        1.0909090909090908
+    ],
+    "The grammar error in the original sentence is the incorrect verb tense. \"Think\" should be \"thought\" to indicate a past opinion or belief. The revised sentence could be: \"However, the news mentioned that Derek Jeter thought his hair was really a damn.\" <retrieved_rule> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"The different values of handsomeness among cultures are very interesting.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.7962962962962963,
+        1.2037037037037037
+    ],
+    "The grammar error in the original sentence is the incorrect use of \"median\" to describe hair length. The revised sentence could be: \"As for hair, men usually have medium-length hair, neither very short nor long.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"Except a shirt and a jean, we usually wear accessories.\" <retrieved_rule>Parallel structure<retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"It mentioned many examples of Japanese men, Korean men, and Hong Kong men.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the original sentence are the lack of subject-verb agreement and the incorrect use of contractions. The revised sentence could be: \"Regarding clothing, Western men mostly dress very simply, and as for hair, most of them do not have a fringe at all, and their back hair is short, leaving their necks uncovered.\" <retrieved_rule> Use \"about\" to indicate the location of an activity when referring to public transportation. <retrieved_rule>": [
+        1.963302752293578,
+        1.036697247706422
+    ],
+    "The grammar error in the original sentence is the use of \"sucks it\" instead of \"likes it.\" The revised sentence could be: \"My English translation of the title is 'Wang changed his hairstyle, but Jeter likes it.' As long as you are Chinese, nine out of ten you will think that Wang really likes his new style and that it is very handsome.\" <retrieved_rule> Use \"the\" before specific nouns to indicate specific or previously mentioned items. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the original sentence are the incorrect use of \"especailly\" instead of \"especially\" and the lack of subject-verb agreement. The revised sentence could be: \"If we want to have a long hairstyle, it will mostly be light, especially long on the fringe or back hair.\" <retrieved_rule> Use \"that\" to introduce a clause instead of \"if\" <retrieved_rule>": [
+        1.8925619834710745,
+        1.1074380165289255
+    ],
+    "The grammar error in the original sentence is the use of \"say\" instead of \"such as\" to introduce examples. The revised sentence could be: \"But in Western countries, the standard of a handsome man depends not on their faces, but on their masculine symbols, such as muscle and behavior.\" <retrieved_rule> Use \"such as\" before an example or list of examples. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"will\" instead of \"would\" to indicate a hypothetical or unreal situation. The revised sentence could be: \"If they had long hair, it would be really long and thick.\" <retrieved_rule> Use \"to\" after \"went\" to indicate the action of going to the guitar teacher. <retrieved_rule>": [
+        1.7868852459016393,
+        1.2131147540983607
+    ],
+    "The grammar error in the original sentence is the incorrect use of \"median\" to describe hair length. The revised sentence could be: \"As for hair, men usually have medium-length hair, neither very short nor long.\" <retrieved_rule> Use \"as to\" to indicate the topic being discussed. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"an accessory\" instead of \"accessories\" to match the plural subject \"a shirt and a jean.\" The revised sentence could be: \"Except for a shirt and a jean, we usually wear accessories.\" <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

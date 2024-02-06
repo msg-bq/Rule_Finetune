@@ -1,0 +1,410 @@
+{
+    "The grammar error in the sentence \"It 's too hot.\" is the unnecessary space between \"It\" and the apostrophe. The revised sentence is \"It's too hot.\" <Begin>Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe. </End>": [
+        14.479009375321603,
+        4.520990624678397
+    ],
+    "The original sentence \"It is raining in Tokyo\" does not contain any grammar errors. Revised sentence: \"It is raining in Tokyo.\" There are no grammar errors in the original sentence. <Begin>\"It is\" is the correct present tense form of the verb \"to be\" for the subject \"it.\"</End>": [
+        12.994894173438928,
+        5.005105826561072
+    ],
+    "Grammar error: There is no grammatical error in the given sentence. Revised sentence: \"It's too hot in Japan.\" <Begin> There is a contraction \"It's\" which is a combination of \"it\" and \"is\". </End>": [
+        13.633142166649515,
+        4.366857833350485
+    ],
+    "The grammar error in the sentence is the use of \"spent\" instead of \"spend.\" Revised sentence: Anyway, I think I'll spend quite some time playing it in the next few weeks. <Begin>Subject-Verb Agreement</End>": [
+        13.447228588991921,
+        4.552771411008079
+    ],
+    "The grammar error in the sentence is the use of \"lesson\" instead of \"lessons.\" The revised sentence is: We've known each other for only half a year, but his lessons were a lot of fun. <Begin>Plural nouns are used when referring to more than one of something.</End>": [
+        13.77892676143466,
+        4.2210732385653404
+    ],
+    "The grammar errors in the sentence \"I hope this band did n't become worse yet like many others big ones and I 'll enjoy listening it\" are the use of \"did n't\" instead of \"didn't\" and \"listening it\" instead of \"listening to it.\" The revised sentence is: \"I hope this band didn't become worse yet like many other big ones, and I'll enjoy listening to it.\" <retrieved_rule> The contraction for \"did not\" is \"didn't\" <retrieved_rule> <new_rule> Use \"to\" after \"listening\" to indicate the action of listening <new_rule>": [
+        7.108669193772526,
+        3.8913308062274727
+    ],
+    "The grammar error in the sentence is the use of \"attemtion\" instead of \"attention\" and \"shop\" instead of \"shopping.\" The revised sentence is: They paid much attention to their faces and also spent lots of money shopping. <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        15.188744368948019,
+        3.8112556310519827
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year.\" is the incorrect use of \"about\" and \"for\" together. The revised sentence is: \"I think it's been about one and a half years.\" <new_rule> Use of the word \"about\" is redundant and unnecessary when using the phrase \"for one and a half years.\" <new_rule>": [
+        7.1892105185743524,
+        3.810789481425647
+    ],
+    "The grammar error in the sentence \"There were few furnitures\" is the use of \"furnitures\" instead of \"pieces of furniture.\" The revised sentence is \"There were few pieces of furniture.\" <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        9.395729129922932,
+        3.604270870077068
+    ],
+    "The grammar error in the sentence \"Well , there remains to get it and check it out .\" is the use of \"remains\" instead of \"remains to be.\" The revised sentence is \"Well, there remains to be gotten and checked out.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule>": [
+        16.78056202934781,
+        4.219437970652196
+    ],
+    "The grammar error in the sentence \"I would say after 10 years of waiting , it has not failed its title , at least from my first impression .\" is the use of \"failed\" instead of \"failed to live up to.\" The revised sentence is \"I would say after 10 years of waiting , it has not failed to live up to its title , at least from my first impression .\" <new_rule> Use the correct verb tense to match the timing of the action being described. <new_rule>": [
+        18.34313163625216,
+        4.656868363747844
+    ],
+    "The grammar errors in the sentence \"I already forgot about Rise Against an it is a great surprise for me , because I did n't return to them for 2 years.\" are the use of \"an\" instead of \"and\" and the missing apostrophe in \"didn't.\" The revised sentence is \"I already forgot about Rise Against and it is a great surprise for me, because I didn't return to them for 2 years.\" <retrieved_rule> Capitalization rule: The first word of a sentence should be capitalized. <retrieved_rule> <new_rule> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. <new_rule>": [
+        15.582351193931649,
+        4.417648806068353
+    ],
+    "The grammar error in the sentence \"If only I had black dense curtains.\" is the use of \"dense\" instead of \"heavy.\" The revised sentence is \"If only I had heavy black curtains.\" <new_rule> Use \"that\" to introduce a clause instead of \"if\" <new_rule>": [
+        16.135199159188783,
+        3.8648008408112173
+    ],
+    "The grammar error in the sentence \"We 've known each other for only half a year , but his lesson was a lot of fun .\" is the unnecessary space between \"We\" and the apostrophe. The revised sentence is \"We've known each other for only half a year, but his lesson was a lot of fun.\" <retrieved_rule> Contractions are formed by combining two words and replacing missing letters with an apostrophe. <retrieved_rule>": [
+        8.47800097234773,
+        3.52199902765227
+    ],
+    "The original sentence \"It almost cost a whole morning\" does not contain any grammar errors. Revised sentence: \"It almost cost a whole morning.\" There are no grammar errors in the original sentence. <retrieved_rule> No errors found. <retrieved_rule>": [
+        7.387050835332808,
+        3.6129491646671927
+    ],
+    "The grammar error in the sentence \"And , by the way , `` white nights `` have already come .\" is the unnecessary use of double quotation marks around \"white nights.\" The revised sentence is \"And, by the way, 'white nights' have already come.\" <new_rule> Use single quotation marks for titles of TV shows or episodes. <new_rule>": [
+        9.431145144550543,
+        3.568854855449457
+    ],
+    "The grammar errors in the sentence \"We drove at our heavy truck to border , there was a long queue , we were waiting .\" are the missing article \"the\" before \"border\" and the lack of a conjunction or punctuation to connect the clauses. The revised sentence is \"We drove our heavy truck to the border, where there was a long queue, and we were waiting.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule> <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        10.113532472007266,
+        4.886467527992732
+    ],
+    "The original sentence \"It 's too hot in Japan\" does not contain any grammar errors. Revised sentence: \"It's too hot in Japan.\" There are no grammar errors in the original sentence. <new_rule> No errors found. <new_rule>": [
+        7.323541467496591,
+        3.676458532503407
+    ],
+    "The original sentence \"It 's too hot\" does not contain any grammar errors. Revised sentence: \"It's too hot.\" There are no grammar errors in the original sentence. <retrieved_rule> No errors found. <retrieved_rule>": [
+        8.064335583125198,
+        2.9356644168748027
+    ],
+    "The grammar error in the sentence \"It was situated near Helsinki, big and light house with the small lake behind it (it was winter, so it was frozen).\" is the lack of a comma before \"big\" to ensure proper parallel structure. The revised sentence is \"It was situated near Helsinki, a big and light house with a small lake behind it (it was winter, so it was frozen).\" <retrieved_rule> Use a comma before coordinating conjunctions to separate independent clauses. <retrieved_rule>": [
+        11.170887487869553,
+        3.829112512130447
+    ],
+    "The grammar error in the sentence \"however , I hoped rain because it is too hot .\" is the missing conjunction \"for\" after \"hoped\" and the incorrect use of \"hoped\" instead of \"hope.\" The revised sentence is \"However, I hope for rain because it is too hot.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule> <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        4.665655798975158,
+        2.3343442010248427
+    ],
+    "The grammar error in the sentence \"When I was at school , we painted a lot of wooden handicrafts like small plates and cases .\" is the use of \"like\" instead of \"such as\" to introduce examples. The revised sentence is \"When I was at school, we painted a lot of wooden handicrafts such as small plates and cases.\" <retrieved_rule> Use \"such as\" before an example or list of examples. <retrieved_rule>": [
+        7.419544921567603,
+        2.5804550784323967
+    ],
+    "The grammar error in the sentence \"It has not been rainy for a week,\" is the use of \"rainy\" instead of \"raining.\" The revised sentence is \"It has not been raining for a week.\" <retrieved_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <retrieved_rule>": [
+        5.502100153751764,
+        2.497899846248237
+    ],
+    "The grammar errors in the sentence \"I hope this band did n't become worse yet like many others big ones and I 'll enjoy listening it.\" are the missing apostrophe in \"didn't,\" the use of \"big ones\" instead of \"big ones have,\" and the incorrect use of \"it\" instead of \"to it.\" The revised sentence is \"I hope this band didn't become worse yet like many other big ones have, and I'll enjoy listening to it.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule> <retrieved_rule> Use of contraction <retrieved_rule>": [
+        8.363252618068287,
+        2.6367473819317127
+    ],
+    "The grammar error in the sentence \"The rooms were big enough , but not so big .\" is the use of \"big\" instead of \"large\" for parallel structure. The revised sentence is \"The rooms were big enough, but not so large.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        8.871487265899498,
+        3.128512734100499
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year\" is the use of \"about for\" instead of \"about\" to indicate an approximate time period. The revised sentence is \"I think it's about one and a half years.\" <retrieved_rule> Use \"about\" to indicate an approximate time period. <retrieved_rule>": [
+        5.794651046990067,
+        2.2053489530099326
+    ],
+    "The grammar error in the sentence \"I already forgot about Rise Against an it is a great surprise for me, because I didn't return to them for 2 years.\" is the incorrect use of \"an\" instead of \"and\" to connect the clauses. The revised sentence is \"I already forgot about Rise Against and it is a great surprise for me, because I didn't return to them for 2 years.\" <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        10.147939814888566,
+        2.852060185111436
+    ],
+    "The grammar error in the sentence \"Well , there remains to get it and check it out .\" is the incorrect use of \"remains\" instead of \"remains to\" and the lack of a subject for the second verb \"check.\" The revised sentence is \"Well, there remains to get it and to check it out.\" <retrieved_rule> When starting a sentence with a phrase of contrast, it should be followed by a comma. <retrieved_rule> <retrieved_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <retrieved_rule>": [
+        9.366946291634244,
+        2.6330537083657575
+    ],
+    "The original sentence \"If only I had black dense curtains\" does not contain any grammar errors. Revised sentence: \"If only I had black dense curtains.\" There are no grammar errors in the original sentence. <retrieved_rule> No errors found. <retrieved_rule>": [
+        3.6813645048892885,
+        2.3186354951107115
+    ],
+    "The grammar error in the sentence \"We 've known each other for only half a year , but his lesson was a lot of fun .\" is the use of \"but\" instead of \"and\" to properly connect the independent clauses. The revised sentence is \"We 've known each other for only half a year, and his lesson was a lot of fun.\" <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        4.332417183236637,
+        2.6675828167633635
+    ],
+    "The grammar error in the sentence \"It almost cost a whole morning.\" is the use of \"a whole morning\" instead of \"the whole morning.\" The revised sentence is \"It almost cost the whole morning.\" <retrieved_rule> The word \"the\" should be used before \"whole morning\" to indicate specificity. <retrieved_rule>": [
+        9.101917160922131,
+        2.89808283907787
+    ],
+    "The grammar error in the sentence \"And, by the way, ``white nights`` have already come.\" is the unnecessary use of double quotation marks around \"white nights.\" The revised sentence is \"And, by the way, white nights have already come.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        4.112594051406353,
+        3.887405948593647
+    ],
+    "The grammar errors in the sentence \"We drove at our heavy truck to border , there was a long queue , we were waiting .\" are the incorrect use of \"at\" instead of \"in\" and the lack of a conjunction to connect the independent clauses. The revised sentence is \"We drove our heavy truck to the border, where there was a long queue, and we were waiting.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule> <retrieved_rule> Use \"through\" before a specific object to indicate the means or method of something. <retrieved_rule> <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"It 's too hot in Japan.\" is the unnecessary space before the apostrophe in \"It's.\" The revised sentence is \"It's too hot in Japan.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        3.3580165903181878,
+        2.6419834096818122
+    ],
+    "The grammar errors in the sentence \"I should have exploded whole this building so that I can make them destroy ~!!!\" are the incorrect word order and missing subject-verb agreement. The revised sentence is \"I should have exploded this whole building so that I can make them destroy it!!!\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"This morning I found out that one of my favourite band released his new album.\" is the use of \"favourite band\" instead of \"favorite bands\" to ensure proper adjective-noun agreement. The revised sentence is \"This morning I found out that one of my favorite bands released their new album.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        10.907245853984985,
+        2.0927541460150154
+    ],
+    "The grammar error in the sentence \"The third memory is the house we lived.\" is the missing verb in the second part of the sentence. The revised sentence is \"The third memory is the house we lived in.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        9.554570907746818,
+        2.4454290922531845
+    ],
+    "The grammar error in the sentence \"Anyway, I think I 'll spent quite some playing it in the next few weeks.\" is the incorrect verb tense. The revised sentence is \"Anyway, I think I'll spend quite some time playing it in the next few weeks.\" <retrieved_rule> Rule: Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        4.130643998558212,
+        1.8693560014417878
+    ],
+    "The grammar error in the sentence \"It 's too hot.\" is the use of a space before the apostrophe in the contraction \"it's.\" The revised sentence is \"It's too hot.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        5.751312354592422,
+        2.2486876454075784
+    ],
+    "The grammar error in the sentence \"It was situated near Helsinki , big and light house with the small lake behind it ( it was winter , so it was frozen )\" is the use of \"light\" instead of \"lighted\" to ensure proper adjective-noun agreement. The revised sentence is \"It was situated near Helsinki, big and lighted house with the small lake behind it ( it was winter , so it was frozen ).\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        2.5440729483282674,
+        2.4559270516717326
+    ],
+    "The grammar error in the sentence \"however , I hoped rain because it is too hot .\" is the missing conjunction \"for\" before \"rain\" to properly connect the two independent clauses. The revised sentence is \"however, I hoped for rain because it is too hot.\" <retrieved_rule> When starting a sentence with a phrase of contrast, it should be followed by a comma. <retrieved_rule> <new_rule> Use \"for\" to connect the two independent clauses. <new_rule>": [
+        8.838636197915244,
+        3.1613638020847556
+    ],
+    "The grammar error in the sentence \"When I was at school , we painted a lot of wooden handicrafts like small plates and cases .\" is the use of \"like\" instead of \"such as\" to properly introduce examples. The revised sentence is \"When I was at school, we painted a lot of wooden handicrafts such as small plates and cases.\" <retrieved_rule> Use \"such a\" before an adjective to indicate a high degree of that quality. <retrieved_rule>": [
+        5.286806301467956,
+        1.7131936985320442
+    ],
+    "The grammar error in the sentence \"It has not been rainy for a week\" is the use of \"rainy\" instead of \"raining\" to indicate the ongoing action of rain. The revised sentence is \"It has not been raining for a week.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        2.5614919767204034,
+        2.4385080232795966
+    ],
+    "The grammar errors in the sentence \"I hope this band didn't become worse yet like many others big ones and I'll enjoy listening it.\" are the incorrect use of \"worse yet\" and \"big ones.\" The revised sentence is \"I hope this band hasn't become worse yet like many other big ones, and I'll enjoy listening to it.\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule> <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        3.319725146233278,
+        2.6802748537667216
+    ],
+    "The grammar error in the sentence \"The rooms were big enough , but not so big .\" is the use of \"so big\" instead of \"as big.\" The revised sentence is \"The rooms were big enough , but not as big.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        1.7142857142857144,
+        1.2857142857142856
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year.\" is the incorrect use of \"about for\" instead of \"about\" and the incorrect use of \"one and half\" instead of \"one and a half.\" The revised sentence is \"I think it's about one and a half years.\" <retrieved_rule> Use \"about\" to indicate approximate time. <retrieved_rule> <retrieved_rule> Use \"a\" to indicate one unit of time. <retrieved_rule>": [
+        8.864967382697438,
+        2.1350326173025613
+    ],
+    "The grammar error in the sentence \"There were few furnitures.\" is the use of \"furnitures\" instead of \"pieces of furniture\" for proper noun-adjective agreement. The revised sentence is \"There were few pieces of furniture.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        6.085768243136038,
+        1.9142317568639624
+    ],
+    "The grammar error in the sentence \"Well , there remains to get it and check it out.\" is the incorrect use of \"remains\" instead of \"remains to\" and the lack of a conjunction before \"check.\" The revised sentence is \"Well, there remains to get it and to check it out.\" <retrieved_rule> Use \"to\" after the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        4.356546511909363,
+        1.6434534880906373
+    ],
+    "The grammar errors in the sentence \"I already forgot about Rise Against an it is a great surprise for me, because I did n't return to them for 2 years.\" are the incorrect use of \"an\" instead of \"and\" and the incorrect use of \"did n't\" instead of \"haven't.\" The revised sentence is \"I already forgot about Rise Against and it is a great surprise for me, because I haven't returned to them for 2 years.\" <new_rule> Use \"and\" to connect independent clauses. <new_rule> <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        1.1116751269035534,
+        1.8883248730964466
+    ],
+    "The grammar error in the sentence \"We 've known each other for only half a year , but his lesson was a lot of fun .\" is the unnecessary space between \"We\" and the apostrophe in the contraction \"We've.\" The revised sentence is \"We've known each other for only half a year, but his lesson was a lot of fun.\" <new_rule> The contraction \"We've\" should not have a space before the apostrophe. <new_rule>": [
+        6.966745037714313,
+        2.0332549622856875
+    ],
+    "The grammar error in the sentence \"And one of this I liked the most is a big white fridge.\" is the use of \"this\" instead of \"these\" and the missing verb after \"this.\" The revised sentence is \"And one of these that I liked the most is a big white fridge.\" <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        4.365884115884116,
+        1.6341158841158838
+    ],
+    "The grammar error in the sentence \"It almost cost a whole morning.\" is the use of \"cost\" instead of \"took\" to indicate the passage of time. The revised sentence is \"It almost took a whole morning.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        2.655587495508444,
+        1.3444125044915558
+    ],
+    "The grammar errors in the sentence \"We drove at our heavy truck to border , there was a long queue , we were waiting.\" are the incorrect use of \"at\" instead of \"in\" to indicate the location of the activity, the lack of a subject for the second clause \"there was a long queue,\" and the lack of a coordinating conjunction to connect the two independent clauses. The revised sentence is: We drove our heavy truck to the border, where there was a long queue, and we were waiting. <retrieved_rule> Use \"in\" to indicate the location of an activity when referring to public transportation. <retrieved_rule> <retrieved_rule> Use a comma before coordinating conjunctions to separate independent clauses. <retrieved_rule>": [
+        1.6,
+        1.4
+    ],
+    "The grammar error in the sentence \"It 's too hot in Japan.\" is the unnecessary space before the apostrophe in the contraction \"It's.\" The revised sentence is \"It's too hot in Japan.\" <retrieved_rule> The contraction \"We've\" should not have a space before the apostrophe. <retrieved_rule>": [
+        5.117907534077045,
+        1.8820924659229556
+    ],
+    "The grammar error in the sentence \"I should have exploded whole this building so that I can make them destroy ~ ! ! !\" is the incorrect use of \"exploded whole\" and the lack of a subject and verb in the second clause. The revised sentence is \"I should have blown up this whole building so that I can make them destroy it!\" <retrieved_rule> Adjective-noun agreement <retrieved_rule> <retrieved_rule> Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling. <retrieved_rule>": [
+        5.081642011052267,
+        1.9183579889477334
+    ],
+    "The grammar error in the sentence \"Anyway , I think I 'll spent quite some playing it in the next few weeks .\" is the incorrect use of \"spent\" instead of \"spend\" in the future tense. The revised sentence is \"Anyway, I think I'll spend quite some time playing it in the next few weeks.\" <retrieved_rule> Present tense verb \"think\" is used to express a current opinion or belief. <retrieved_rule>": [
+        2.5554323725055434,
+        1.4445676274944566
+    ],
+    "The original sentence \"We are ready to go out\" does not contain any grammar errors. Revised sentence: \"We are ready to go out.\" There are no grammar errors in the original sentence. <retrieved_rule> No errors found. <retrieved_rule>": [
+        5.215368391099624,
+        1.7846316089003764
+    ],
+    "The grammar error in the sentence \"It was situated near Helsinki, big and light house with the small lake behind it (it was winter, so it was frozen).\" is the incorrect use of \"big and light\" instead of \"big, light\" to maintain parallel structure. The revised sentence is \"It was situated near Helsinki, a big, light house with a small lake behind it (it was winter, so it was frozen).\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.6,
+        1.4
+    ],
+    "The grammar error in the sentence \"When I was at school, we painted a lot of wooden handicrafts like small plates and cases.\" is the use of \"like\" instead of \"such as\" to introduce examples. The revised sentence is \"When I was at school, we painted a lot of wooden handicrafts such as small plates and cases.\" <retrieved_rule> Use \"such as\" to introduce examples. <retrieved_rule>": [
+        6.421797847194474,
+        1.5782021528055252
+    ],
+    "The grammar error in the sentence \"It has not been rainy for a week,\" is the incorrect use of \"rainy\" instead of \"raining.\" The revised sentence is \"It has not been raining for a week.\" <retrieved_rule> The use of the contraction \"n't\" instead of \"not\" in informal writing. <retrieved_rule>": [
+        3.7143146925767825,
+        1.2856853074232175
+    ],
+    "The grammar error in the sentence \"I hope this band did n't become worse yet like many others big ones and I 'll enjoy listening it.\" is the use of \"did n't\" instead of \"didn't\" and the incorrect use of \"it\" instead of \"to it.\" The revised sentence is \"I hope this band didn't become worse yet like many other big ones, and I'll enjoy listening to it.\" <retrieved_rule> The use of the contraction \"n't\" instead of \"not\" in informal writing. <retrieved_rule> <retrieved_rule> Use \"like\" to compare nouns or pronouns, so \"like\" should be used instead of \"as\". <retrieved_rule>": [
+        3.711075949367089,
+        1.2889240506329114
+    ],
+    "The grammar error in the sentence \"The rooms were big enough , but not so big .\" is the unnecessary space before the comma. The revised sentence is \"The rooms were big enough, but not so big.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        4.617640376501136,
+        1.382359623498864
+    ],
+    "The grammar error in the sentence \"They paid much attention to their faces and also spent lots of money to shop.\" is the use of \"shop\" instead of \"shopping\" to maintain parallel structure. The revised sentence is \"They paid much attention to their faces and also spent lots of money shopping.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        3.040299108426805,
+        1.959700891573195
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year.\" is the use of \"for\" instead of \"been\" after \"about.\" The revised sentence is \"I think it's been about one and a half years.\" <retrieved_rule> Use \"been\" after \"about\" to indicate the duration of time. <retrieved_rule>": [
+        3.536690085870414,
+        1.463309914129586
+    ],
+    "The grammar error in the sentence \"There were few furnitures.\" is the incorrect use of \"few\" before \"furnitures.\" The revised sentence is \"There was little furniture.\" <retrieved_rule> \"Little\" should be preceded by \"a\" to indicate a small degree of the adjective. <retrieved_rule>": [
+        5.065854519166223,
+        1.9341454808337777
+    ],
+    "The grammar error in the sentence \"I would say after 10 years of waiting, it has not failed its title, at least from my first impression.\" is the incorrect use of \"after\" instead of \"for\" to indicate the duration of waiting. The revised sentence is \"I would say for 10 years of waiting, it has not failed its title, at least from my first impression.\" <new_rule> Use \"for\" to indicate the duration of waiting. <new_rule>": [
+        2.8573839662447256,
+        2.1426160337552744
+    ],
+    "The grammar errors in the sentence \"I already forgot about Rise Against an it is a great surprise for me, because I did n't return to them for 2 years.\" are:\n1. The incorrect use of \"an\" instead of \"and\" to connect the two clauses.\n2. The incorrect use of \"did n't\" instead of \"didn't\" for the contraction \"did not.\"\nThe revised sentence is \"I already forgot about Rise Against and it is a great surprise for me, because I didn't return to them for 2 years.\" <retrieved_rule> Conjunction rule should be used to connect two independent clauses. <retrieved_rule>": [
+        5.210857218834882,
+        2.7891427811651184
+    ],
+    "The grammar error in the sentence \"We 've known each other for only half a year, but his lesson was a lot of fun.\" is the incorrect use of \"a lot of\" instead of \"a.\" The revised sentence is \"We 've known each other for only half a year, but his lesson was a lot of fun.\" <retrieved_rule> \"Little\" should be preceded by \"a\" to indicate a small degree of the adjective. <retrieved_rule>": [
+        2.7296703296703297,
+        1.2703296703296703
+    ],
+    "The grammar error in the sentence \"And one of this I liked the most is a big white fridge.\" is the use of \"one of this\" instead of \"one of these\" to indicate a specific instance or example. The revised sentence is \"And one of these I liked the most is a big white fridge.\" <retrieved_rule> Use \"the\" before specific nouns to indicate a particular instance or example. <retrieved_rule>": [
+        2.5145454545454546,
+        1.4854545454545454
+    ],
+    "The grammar error in the sentence \"It almost cost a whole morning.\" is the lack of a preposition \"to\" before \"cost\" to indicate the action being performed. The revised sentence is \"It almost took a whole morning.\" <retrieved_rule> Use \"to\" after \"cost\" to indicate the action of costing. <retrieved_rule>": [
+        4.080318919131221,
+        1.9196810808687794
+    ],
+    "The original sentence \"It is raining in Tokyo\" does not contain any grammar errors. Revised sentence: \"It is raining in Tokyo.\" There are no grammar errors in the original sentence. <new_rule> No errors found. <new_rule>": [
+        1.8333333333333335,
+        1.1666666666666665
+    ],
+    "The grammar error in the sentence \"We drove at our heavy truck to border, there was a long queue, we were waiting.\" is the incorrect use of \"at\" instead of \"in\" before \"our heavy truck\" and the lack of conjunction to connect the clauses. The revised sentence is \"We drove in our heavy truck to the border, where there was a long queue, and we were waiting.\" <retrieved_rule> Use \"on\" after \"listening to\" to indicate the location or context of the activity <retrieved_rule> <new_rule> Use \"and\" to connect independent clauses. <new_rule>": [
+        5.032740890629847,
+        1.9672591093701532
+    ],
+    "The grammar errors in the sentence \"I should have exploded whole this building so that I can make them destroy ~ ! ! !\" are the incorrect use of \"whole\" before \"this building\" and the lack of a subject and verb in the exclamatory sentence. The revised sentence is \"I should have exploded this whole building so that I can make them destroy it!\" <retrieved_rule> \"Whole\" should come after the noun it modifies. <retrieved_rule>": [
+        4.387832405689548,
+        1.6121675943104514
+    ],
+    "The grammar error in the sentence \"This morning I found out that one of my favourite band released his new album.\" is the incorrect use of \"favourite band\" instead of \"favorite bands\" to indicate more than one band. The revised sentence is \"This morning I found out that one of my favorite bands released their new album.\" <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        2.7432188065099457,
+        1.2567811934900541
+    ],
+    "The grammar error in the sentence \"The third memory is the house we lived.\" is the lack of a preposition \"in\" before \"the house we lived.\" The revised sentence is \"The third memory is the house we lived in.\" <retrieved_rule> Use \"in\" to indicate the location of an activity when referring to public transportation. <retrieved_rule>": [
+        5.321670672570859,
+        1.6783293274291409
+    ],
+    "The grammar error in the sentence \"Anyway , I think I 'll spent quite some playing it in the next few weeks .\" is the incorrect use of \"spent\" instead of \"spend\" and the missing word \"time\" after \"quite some.\" The revised sentence is \"Anyway, I think I'll spend quite some time playing it in the next few weeks.\" <retrieved_rule> Use a comma after introductory adverbs such as \"anyway.\" <retrieved_rule> <retrieved_rule> Use \"to\" after \"spend\" to indicate the action of spending. <retrieved_rule>": [
+        3.1350000000000002,
+        1.865
+    ],
+    "The original sentence \"We are ready to go out\" does not contain any grammar errors. Revised sentence: \"We are ready to go out.\" There are no grammar errors in the original sentence. <new_rule> No errors found. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It 's too hot.\" is the use of the contraction \"It's\" instead of the full form \"It is.\" The revised sentence is \"It is too hot.\" <retrieved_rule> Contractions should not be used in formal writing or when the full form is necessary for clarity. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It 's too hot in Japan.\" is the unnecessary space before the apostrophe. The revised sentence is \"It's too hot in Japan.\" <retrieved_rule> Contractions are formed by combining two words and replacing missing letters with an apostrophe. <retrieved_rule>": [
+        7.243492033145516,
+        1.7565079668544827
+    ],
+    "The grammar error in the sentence \"It was situated near Helsinki, big and light house with the small lake behind it (it was winter, so it was frozen).\" is the missing article \"a\" before \"big and light house\" to indicate a specific degree of the adjectives. The revised sentence is \"It was situated near Helsinki, a big and light house with a small lake behind it (it was winter, so it was frozen).\" <retrieved_rule> \"Little\" should be preceded by \"a\" to indicate a small degree of the adjective. <retrieved_rule>": [
+        2.7826998689384013,
+        1.217300131061599
+    ],
+    "The grammar error in the sentence \"It has not been rainy for a week,\" is the incorrect use of \"rainy\" instead of \"raining.\" The revised sentence is \"It has not been raining for a week.\" <retrieved_rule> The correct verb form for \"rain\" in this context is \"raining.\" <retrieved_rule>": [
+        3.5303030303030303,
+        1.4696969696969695
+    ],
+    "The grammar error in the sentence \"When I was at school, we painted a lot of wooden handicrafts like small plates and cases.\" is the use of \"like\" instead of \"such as\" to introduce examples of the wooden handicrafts. The revised sentence is \"When I was at school, we painted a lot of wooden handicrafts such as small plates and cases.\" <retrieved_rule> Use \"like\" to compare nouns or pronouns, so \"like\" should be used instead of \"as\". <retrieved_rule>": [
+        1.8666666666666667,
+        1.1333333333333333
+    ],
+    "The grammar error in the sentence \"The rooms were big enough , but not so big.\" is the lack of the conjunction \"and\" before \"but not so big\" to connect the two independent clauses. The revised sentence is \"The rooms were big enough, but not so big.\" <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year.\" is the incorrect use of \"for\" before \"one and half year.\" The revised sentence is \"I think it's been about one and a half years.\" <retrieved_rule> Use \"to\" after \"went\" to indicate the action of going to the guitar teacher. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"They paid much attemtion to their faces and also spent lots of money to shop.\" are the misspelling of \"attention\" and the lack of a conjunction to connect the two independent clauses. The revised sentence is \"They paid much attention to their faces and also spent lots of money shopping.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"There were few furnitures.\" is the incorrect use of \"furnitures\" instead of \"pieces of furniture\" to ensure proper noun-verb agreement. The revised sentence is \"There were few pieces of furniture.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        1.9759036144578312,
+        1.0240963855421688
+    ],
+    "The grammar error in the sentence \"I would say after 10 years of waiting, it has not failed its title, at least from my first impression.\" is the missing comma after the introductory adverbial phrase \"after 10 years of waiting.\" The revised sentence is \"I would say, after 10 years of waiting, it has not failed its title, at least from my first impression.\" <retrieved_rule> Use a comma after introductory adverbs such as \"after.\" <retrieved_rule>": [
+        2.758241758241758,
+        1.2417582417582418
+    ],
+    "The grammar error in the sentence \"Well , there remains to get it and check it out .\" is the incorrect use of \"remains\" instead of \"remains to\" before \"get it\" and the lack of a conjunction or punctuation to connect the clauses. The revised sentence is \"Well, there remains to get it and to check it out.\" <retrieved_rule> Use \"to\" after \"remains\" to indicate the action that remains to be done. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"We 've known each other for only half a year , but his lesson was a lot of fun .\" is the incorrect use of the contraction \"We've\" with a space before the apostrophe. The revised sentence is \"We've known each other for only half a year, but his lesson was a lot of fun.\" <retrieved_rule> The contraction \"It 's\" should not have a space before the apostrophe. <retrieved_rule>": [
+        2.86197956382492,
+        1.13802043617508
+    ],
+    "The grammar error in the sentence \"And one of this I liked the most is a big white fridge.\" is the incorrect use of \"one of this\" instead of \"one of these\" to indicate a specific degree of the adjective. The revised sentence is \"And one of these I liked the most is a big white fridge.\" <retrieved_rule> \"Use 'such a' before an adjective to indicate a high degree of that quality.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"It almost cost a whole morning\" does not contain any grammar errors. Revised sentence: \"It almost cost a whole morning.\" There are no grammar errors in the original sentence. <new_rule> \"A\" is used before the adjective \"whole\" to indicate a specific degree of that quality. <new_rule>": [
+        2.51,
+        1.49
+    ],
+    "The grammar error in the sentence \"And , by the way , `` white nights `` have already come.\" is the unnecessary comma after \"And\" and the use of double quotation marks instead of single quotation marks for the title \"white nights.\" The revised sentence is \"And, by the way, 'white nights' have already come.\" <retrieved_rule> Use a comma after introductory adverbs such as \"and.\" <retrieved_rule> <retrieved_rule> Use single quotation marks for quoted speech. <retrieved_rule>": [
+        2.874050632911392,
+        1.1259493670886076
+    ],
+    "The grammar errors in the sentence \"We drove at our heavy truck to border , there was a long queue , we were waiting.\" are the incorrect use of \"at\" instead of \"in\" to indicate the location of the activity, the missing subject and verb in the second clause, and the lack of conjunction to connect the two independent clauses. The revised sentence is \"We drove our heavy truck to the border, where there was a long queue, and we were waiting.\" <new_rule> Use \"in\" to indicate the location of an activity when referring to public transportation. <new_rule> <retrieved_rule> Exclamatory sentences must have a subject and a verb. <retrieved_rule> <retrieved_rule> Conjunction rule should be used to connect two independent clauses. <retrieved_rule>": [
+        4.432536958787218,
+        1.5674630412127817
+    ],
+    "The grammar error in the sentence \"It 's too hot in Japan .\" is the space before the apostrophe in the contraction \"It 's.\" The revised sentence is \"It's too hot in Japan.\" <retrieved_rule> The contraction \"It 's\" should not have a space before the apostrophe. <retrieved_rule>": [
+        1.721311475409836,
+        1.278688524590164
+    ],
+    "The grammar error in the sentence \"I should have exploded whole this building so that I can make them destroy ~!!!\" is the incorrect use of \"whole\" before \"this building\" and the use of \"make them destroy\" instead of \"destroying.\" The revised sentence is \"I should have exploded this whole building so that I can destroy them!\" <retrieved_rule> \"A\" is used before the adjective \"whole\" to indicate a specific degree of that quality. <retrieved_rule> <retrieved_rule> Use \"such\" to indicate a specific degree of the adjective. <retrieved_rule> <new_rule> Use the present tense verb \"destroying\" instead of \"make them destroy\" to indicate the action of destroying. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"This morning I found out that one of my favourite band released his new album.\" is the incorrect use of \"band\" instead of \"bands\" to match the plural subject \"favourite.\" The revised sentence is \"This morning I found out that one of my favourite bands released their new album.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        1.721311475409836,
+        1.278688524590164
+    ],
+    "The grammar error in the sentence \"Anyway , I think I 'll spent quite some playing it in the next few weeks.\" is the incorrect use of \"spent\" instead of \"spend\" in the future tense. The revised sentence is \"Anyway, I think I'll spend quite some time playing it in the next few weeks.\" <retrieved_rule> Use \"to\" after the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It 's too hot.\" is the unnecessary space before the apostrophe. The revised sentence is \"It's too hot.\" <retrieved_rule> Contractions are formed by combining two words and replacing missing letters with an apostrophe. <retrieved_rule>": [
+        1.721311475409836,
+        1.278688524590164
+    ],
+    "The original sentence \"We are ready to go out\" does not contain any grammar errors. Revised sentence: \"We are ready to go out.\" There are no grammar errors in the original sentence. <retrieved_rule> No errors found <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"It was situated near Helsinki, big and light house with the small lake behind it (it was winter, so it was frozen).\" are the missing conjunction \"and\" before \"light house,\" the incorrect use of \"big and light\" instead of \"big and light\" to indicate a specific degree of that quality, and the unnecessary use of parentheses. The revised sentence is \"It was situated near Helsinki, a big and light house with the small lake behind it. It was winter, so it was frozen.\" <retrieved_rule> \"Whole\" should come after the noun it modifies. <retrieved_rule> <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule> <new_rule> Use \"a\" before adjectives to indicate a specific degree or extent. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"however , I hoped rain because it is too hot .\" are the missing conjunction to connect the two independent clauses and the incorrect word order in \"hoped rain\" instead of \"hoped for rain.\" The revised sentence is \"However, I hoped for rain because it is too hot.\" <retrieved_rule> Conjunction rule should be used to connect two independent clauses. <retrieved_rule> <new_rule> Use \"for\" after \"hoped\" to indicate the action of hoping for something. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"When I was at school, we painted a lot of wooden handicrafts like small plates and cases.\" is the incorrect use of \"like\" instead of \"such as\" to introduce examples. The revised sentence is \"When I was at school, we painted a lot of wooden handicrafts such as small plates and cases.\" <retrieved_rule> \"So\" should be replaced with \"such\" to indicate a specific degree of the adjective. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

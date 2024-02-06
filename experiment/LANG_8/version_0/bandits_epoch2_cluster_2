@@ -1,0 +1,310 @@
+{
+    "The grammar error in the sentence \"What happened to her?\" is the lack of a subject. The revised sentence is \"What happened to her?\" which is correct. <Begin> In English, a question must have a subject, verb, and object in order to be grammatically correct. </End>": [
+        10.768948852061088,
+        3.2310511479389117
+    ],
+    "The grammar error in the sentence \"She came back !\" is the unnecessary space before the exclamation mark. The revised sentence is \"She came back!\" <Begin> Rule: Punctuation should not have a space before it. </End>": [
+        14.533356488283301,
+        3.4666435117167005
+    ],
+    "There are no grammar errors in the given sentence. <Begin>There is no grammar error</End> Revised sentence: The original sentence does not need to be revised.": [
+        8.483434491156666,
+        3.5165655088433323
+    ],
+    "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <Begin> There is no grammar error in the original sentence. </End>": [
+        20.448846266976286,
+        3.551153733023713
+    ],
+    "Grammar errors: There is no specific error in the sentence \"However , she is already 46 !\" Revised sentence: However, she is already 46! <Begin> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. </End>": [
+        12.427705402048526,
+        3.572294597951473
+    ],
+    "The grammar error in the sentence \"Whitney Houston Failed\" is the lack of a specific verb to go with \"failed.\" The revised sentence could be \"Whitney Houston failed to achieve success in her later years.\" <Begin> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. </End>": [
+        10.148483183483183,
+        2.8515168165168165
+    ],
+    "The grammar errors in the sentence are the lack of a comma after \"Today\" and the incorrect use of an apostrophe in \"New York's.\" The revised sentence is: \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <Begin>Rule: Use a comma after introductory adverbs such as \"today.\"</End>": [
+        10.960744689484631,
+        3.0392553105153706
+    ],
+    "First, let's identify the grammar error in the original sentence. The original sentence \"I believe she can sing\" does not contain any grammatical errors. Revised sentence: The original sentence \"I believe she can sing\" is grammatically correct and does not require revision. <Begin> There are no specific grammar rules or prior knowledge that need to be applied to this sentence. </End>": [
+        10.521351553710879,
+        3.4786484462891214
+    ],
+    "The grammar error in the sentence is the use of \"like\" instead of \"as.\" The revised sentence is: \"Her recent picture was not as her before.\" <Begin>Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns.</End>": [
+        9.336946755758264,
+        3.663053244241737
+    ],
+    "The grammar error in the sentence is the use of the word \"tough\" which is an adjective, but it is being used to describe the action of being a housewife. The revised sentence is \"Being a housewife is really tough.\" <Begin>Adjective-noun agreement</End>": [
+        6.760399104645497,
+        2.2396008953545032
+    ],
+    "The grammar error in the sentence is the use of the word \"little\" which should be \"a little\" to modify the adjective \"stupid.\" Additionally, there should be a comma after \"stupid\" to separate the two independent clauses. Revised sentence: She is a little stupid, but has perceptive insights about food because she is always famished ^ ^ She loves food! <Begin>Rule: \"A little\" is used to modify adjectives, while \"little\" is used to modify nouns.</End>": [
+        10.376043686254146,
+        3.623956313745855
+    ],
+    "There are no grammar errors in the given sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is. <Begin> There are no specific rules or prior knowledge to apply in this case. </End>": [
+        17.500738571528704,
+        3.4992614284712977
+    ],
+    "The grammar error in the sentence is the use of \"is\" after \"It\" without a proper subject. The revised sentence is: \"It's because my mum is probably the best cook I have met in my life.\" <Begin>Subject-Verb Agreement</End>": [
+        8.192409406826329,
+        2.8075905931736718
+    ],
+    "The grammar error in the sentence \"I hope she would come back to the scene as a diva again , even not like her heyday .\" is the incorrect use of \"even not\" instead of \"not even.\" The revised sentence is \"I hope she would come back to the scene as a diva again, not even like her heyday.\" <retrieved_rule> Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        6.357125730888107,
+        2.6428742691118927
+    ],
+    "The grammar error in the sentence \"When she is basking she looks very comfortable\" is the lack of a preposition before \"basking.\" The revised sentence is \"When she is basking, she looks very comfortable.\" <retrieved_rule> Use \"on\" to indicate the location of an activity when referring to public transportation. <retrieved_rule>": [
+        9.934233497550151,
+        2.065766502449848
+    ],
+    "The grammar error in the original sentence \"More disappointing thing to me is she said the reason of her bad voice was because she talked with Oprah Winfrey too much on her show\" is the lack of subject-verb agreement. The revised sentence is \"The more disappointing thing to me is that she said the reason for her bad voice was because she talked with Oprah Winfrey too much on her show.\" <retrieved_rule>Subject-Verb agreement rule<retrieved_rule>": [
+        8.773225452810154,
+        3.226774547189847
+    ],
+    "The grammar error in the sentence \"However , she is already 46 !\" is the lack of a comma after the introductory adverb \"However.\" The revised sentence is \"However, she is already 46!\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        3.9825560946027903,
+        2.01744390539721
+    ],
+    "The grammar error in the sentence \"I have ate at hotels and expensive meals but they are nothing like what she cooks.\" is the use of the past tense \"ate\" instead of the present perfect tense \"eaten.\" The revised sentence is \"I have eaten at hotels and expensive meals, but they are nothing like what she cooks.\" <retrieved_rule> The contraction for \"have\" and \"not\" is \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        7.628763386639084,
+        2.371236613360916
+    ],
+    "The original sentence \"Being a housewife is really tough\" does not contain any grammar errors. <retrieved_rule> There is no grammar error in the original sentence. <retrieved_rule>": [
+        12.048915834764605,
+        2.951084165235393
+    ],
+    "The grammar error in the original sentence \"I know her tumultuous marriage with Bobby Brown and an arduous battle with drug addiction\" is the lack of a conjunction to connect the two clauses. The revised sentence is \"I know about her tumultuous marriage with Bobby Brown and her arduous battle with drug addiction.\" <new_rule> Conjunction rule <new_rule>": [
+        9.861858390618533,
+        2.138141609381467
+    ],
+    "The grammar error in the sentence \"She had a incredible beautiful high voice\" is the incorrect use of the article \"a\" before the word \"incredible.\" The revised sentence is \"She had an incredibly beautiful high voice.\" <retrieved_rule> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        2.655952380952381,
+        2.344047619047619
+    ],
+    "The grammar error in the sentence \"When she has had her food , she always prances around the living room merrily .\" is the unnecessary space before the comma. The revised sentence is \"When she has had her food, she always prances around the living room merrily.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        13.83568082256722,
+        3.164319177432782
+    ],
+    "The grammar error in the sentence \"A couple of weeks ago , I heard a new Whitney Houston 's tune on my car radio .\" is the unnecessary space before the comma and the incorrect use of the possessive form. The revised sentence is \"A couple of weeks ago, I heard a new Whitney Houston tune on my car radio.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule> <new_rule> The use of the possessive form \"Whitney Houston's\" is unnecessary and can be removed for improved clarity. <new_rule>": [
+        14.574732475563954,
+        3.4252675244360464
+    ],
+    "The grammar errors in the sentence \"She is cheerful and plump pretty dog , perhaps she is the cutest dog in the world .\" are the lack of proper adjective-noun agreement and the unnecessary use of the adjective \"pretty\" before \"dog.\" The revised sentence is \"She is a cheerful and plump dog, perhaps she is the cutest dog in the world.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        14.76635662964121,
+        3.233643370358791
+    ],
+    "The grammar error in the sentence \"Her recent picture was not like her before.\" is the use of \"like\" instead of \"as\" to compare nouns or pronouns. The revised sentence is \"Her recent picture was not as her before.\" <retrieved_rule> The word \"like\" should be used to compare nouns or pronouns, so \"like\" should be used instead of \"as\". <retrieved_rule>": [
+        7.814258240985619,
+        2.1857417590143813
+    ],
+    "The original sentence \"Her voice was hoarse and cracked.\" does not contain any grammar errors. <retrieved_rule> There is no grammar error in the original sentence. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"And finally , she released a new song !\" is the unnecessary space before the comma. The revised sentence is \"And finally, she released a new song!\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        7.038995545120567,
+        1.9610044548794328
+    ],
+    "The original sentence \"What happened to her?\" does not contain any grammar errors. <retrieved_rule> There is no grammar error in the original sentence. <retrieved_rule>": [
+        5.5024108701857495,
+        1.4975891298142507
+    ],
+    "The grammar error in the sentence \"Today , I read an article on the net about her comeback performance in New York 's Central Park .\" is the unnecessary space before the comma and the incorrect use of the possessive form. The revised sentence is \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <new_rule> Rule: Punctuation should not have a space before it. <new_rule> <retrieved_rule> The use of the possessive form \"Whitney Houston's\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        5.347803343155442,
+        2.6521966568445587
+    ],
+    "The grammar error in the sentence \"And she loves basking too .\" is the lack of a comma after the introductory adverb \"And.\" The revised sentence is \"And she loves basking, too.\" <retrieved_rule> Use a comma after introductory adverbs such as \"and.\" <retrieved_rule>": [
+        7.06730548964261,
+        1.93269451035739
+    ],
+    "The grammar errors in the sentence \"She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\" are the incorrect use of \"little\" instead of \"a little\" to indicate a small amount, the unnecessary space before the comma, and the use of \"^ ^\" which is not a standard punctuation mark. The revised sentence is: \"She is a little stupid, but has perceptive insights about food because she is always famished. She loves food!\" <retrieved_rule> Adjective-noun agreement <retrieved_rule> <new_rule> Punctuation should not have a space before it. <new_rule>": [
+        3.767915733628695,
+        2.232084266371305
+    ],
+    "The grammar error in the sentence \"It 's because my mum is probably the best cook I have met in my life .\" is the unnecessary space before the apostrophe in the contraction \"It's.\" The revised sentence is \"It's because my mum is probably the best cook I have met in my life.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        2.024090909090909,
+        1.975909090909091
+    ],
+    "The grammar error in the original sentence \"She was decent , not like Mariah Carey\" is the incorrect use of the comparative form. The revised sentence is \"She was decent, not as talented as Mariah Carey.\" <new_rule> Comparative form rule <new_rule>": [
+        6.097724618524267,
+        1.902275381475733
+    ],
+    "The grammar error in the sentence \"A friend once told me that the reason why I love her cooking is because she 's my mum but that is not the reason.\" is the use of the contraction \"she 's\" which should be \"she's\" to indicate the present perfect tense. The revised sentence is \"A friend once told me that the reason why I love her cooking is because she's my mum, but that is not the reason.\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        3.166614252610671,
+        2.833385747389329
+    ],
+    "The original sentence \"Whitney Houston Failed\" does not contain any grammar errors. <retrieved_rule> There is no grammar error in the original sentence. <retrieved_rule>": [
+        2.0406976744186047,
+        1.9593023255813953
+    ],
+    "The grammar error in the original sentence \"When she is basking she looks very comfortable\" is the lack of a conjunction to connect the two clauses. The revised sentence is \"When she is basking, she looks very comfortable.\" <retrieved_rule>Conjunction rule<retrieved_rule>": [
+        4.79028490888956,
+        1.20971509111044
+    ],
+    "The grammar error in the sentence \"However , she is already 46 !\" is the lack of a subject. The revised sentence is \"However, she is already 46!\" which is correct. <retrieved_rule> When starting a sentence with a phrase of contrast, it should be followed by a comma. <retrieved_rule>": [
+        2.7491379310344826,
+        1.2508620689655174
+    ],
+    "The grammar error in the sentence \"Cooking is not her profession , she is a housewife .\" is the lack of a conjunction to connect the two independent clauses. The revised sentence is \"Cooking is not her profession; she is a housewife.\" <retrieved_rule> Conjunction rule should be used to connect two independent clauses. <retrieved_rule>": [
+        1.9565217391304348,
+        1.0434782608695652
+    ],
+    "The grammar error in the sentence \"Still she has n't recovered from them ?\" is the incorrect contraction \"n't\" which should be \"hasn't\" to indicate the present perfect tense. The revised sentence is \"Still she hasn't recovered from them?\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        5.764686787098293,
+        2.2353132129017075
+    ],
+    "There are no grammar errors in the given sentence \"Being a housewife is really tough.\" The sentence is grammatically correct as it is. <new_rule> There are no specific rules or prior knowledge to apply in this case. <new_rule>": [
+        3.731583583452956,
+        1.2684164165470442
+    ],
+    "The grammar error in the sentence \"I know her tumultuous marriage with Bobby Brown and an arduous battle with drug addiction.\" is the lack of a conjunction before \"an arduous battle with drug addiction.\" The revised sentence is \"I know her tumultuous marriage with Bobby Brown and her arduous battle with drug addiction.\" <retrieved_rule> The subject of a sentence is necessary for it to be grammatically correct. <retrieved_rule>": [
+        1.973684210526316,
+        1.026315789473684
+    ],
+    "The grammar error in the sentence \"She had a incredible beautiful high voice.\" is the incorrect use of the indefinite article \"a\" before \"incredible\" and the incorrect placement of the adjectives. The revised sentence is \"She had an incredibly beautiful high voice.\" <retrieved_rule> There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, \"incredible\" should come before \"beautiful\" to follow this rule. However, the original sentence is still grammatically correct as it is. <retrieved_rule>": [
+        3.789114331723028,
+        1.2108856682769724
+    ],
+    "The grammar error in the original sentence \"When she has had her food , she always prances around the living room merrily .\" is the unnecessary use of the present perfect tense \"has had\" when the simple past tense \"ate\" would be more appropriate. The revised sentence is \"When she ate her food, she always prances around the living room merrily.\" <retrieved_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <retrieved_rule>": [
+        2.835016835016835,
+        1.1649831649831648
+    ],
+    "The grammar error in the original sentence \"She 's a golden retriever and she 's 8 years old\" is the use of the contraction \"she's\" without a space before the apostrophe. The revised sentence is \"She's a golden retriever and she's 8 years old.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        5.488800105033622,
+        1.5111998949663779
+    ],
+    "The original sentence \"I had been wondering what she was doing\" does not contain any grammar errors. <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        5.811077827311345,
+        2.1889221726886556
+    ],
+    "The grammar error in the sentence \"Her fur is beautiful amber and soft .\" is the lack of proper adjective-noun agreement. The revised sentence is \"Her fur is beautiful and soft amber.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        4.814182195093255,
+        2.1858178049067445
+    ],
+    "The grammar errors in the sentence \"She is cheerful and plump pretty dog , perhaps she is the cutest dog in the world .\" are the lack of proper adjective-noun agreement and the lack of a conjunction to connect the two independent clauses. The revised sentence is: \"She is a cheerful and plump, pretty dog, and perhaps she is the cutest dog in the world.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule> <retrieved_rule> Use \"and\" to connect independent clauses. <retrieved_rule>": [
+        1.9741379310344827,
+        1.0258620689655173
+    ],
+    "The original sentence \"She came back !\" does not contain any grammatical errors. Revised sentence: The original sentence \"She came back !\" is grammatically correct and does not require revision. <retrieved_rule>Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence. <retrieved_rule>": [
+        4.085630809062762,
+        1.9143691909372387
+    ],
+    "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <new_rule> There is no grammar error in the original sentence. <new_rule>": [
+        2.256666666666667,
+        1.7433333333333332
+    ],
+    "The original sentence \"What happened to her?\" does not contain any grammar errors. <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        2.706140350877193,
+        1.293859649122807
+    ],
+    "The grammar error in the sentence \"Today , I read an article on the net about her comeback performance in New York 's Central Park .\" is the unnecessary space before the comma. The revised sentence is \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        1.9066666666666667,
+        1.0933333333333333
+    ],
+    "The grammar errors in the sentence \"She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\" are the incorrect adjective-noun agreement, the lack of a conjunction to connect the two independent clauses, and the use of the caret symbol \"^\" instead of proper punctuation. The revised sentence is: \"She is a little stupid, but has perceptive insights about food because she is always famished. She loves food!\" <retrieved_rule> Adjective-noun agreement <retrieved_rule> <retrieved_rule> Use \"but\" to connect independent clauses. <retrieved_rule>": [
+        1.188118811881188,
+        1.811881188118812
+    ],
+    "The grammar error in the sentence \"It 's because my mum is probably the best cook I have met in my life .\" is the unnecessary use of the contraction \"It 's\" instead of \"It is.\" The revised sentence is \"It is because my mum is probably the best cook I have met in my life.\" <retrieved_rule> Use of contraction <retrieved_rule>": [
+        1.875,
+        1.125
+    ],
+    "The grammar error in the sentence \"She was decent , not like Mariah Carey .\" is the incorrect use of \"not like\" instead of \"unlike.\" The revised sentence is \"She was decent, unlike Mariah Carey.\" <retrieved_rule> Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        2.3260869565217392,
+        2.6739130434782608
+    ],
+    "The grammar error in the original sentence \"A friend once told me that the reason why I love her cooking is because she 's my mum but that is not the reason\" is the incorrect use of the contraction \"she's\" without the accompanying verb. The revised sentence is \"A friend once told me that the reason why I love her cooking is because she is my mum, but that is not the reason.\" <retrieved_rule> Use of contraction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I hope she would come back to the scene as a diva again , even not like her heyday .\" is the incorrect use of \"even not\" which should be \"not even\" to follow proper word order. The revised sentence is: \"I hope she would come back to the scene as a diva again, not even like her heyday.\" <new_rule> Rule: Use \"not even\" instead of \"even not\" to follow proper word order. <new_rule>": [
+        1.9772727272727273,
+        1.0227272727272727
+    ],
+    "There are no grammar errors in the given sentence \"Whitney Houston Failed.\" The sentence is grammatically correct as it is. <new_rule> There are no specific rules or prior knowledge to apply in this case. <new_rule>": [
+        1.775,
+        1.225
+    ],
+    "The grammar error in the original sentence \"I have ate at hotels and expensive meals but they are nothing like what she cooks\" is the incorrect verb form \"ate.\" The correct verb form for \"ate\" in this context is \"eaten.\" The revised sentence is \"I have eaten at hotels and expensive meals but they are nothing like what she cooks.\" <retrieved_rule> The correct verb form for \"ate\" in this context is \"eaten.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"More disappointing thing to me is she said the reason of her bad voice was because she talked with Oprah Winfrey too much on her show.\" is the lack of a subject and a verb in the exclamatory sentence. The revised sentence is \"The more disappointing thing to me is that she said the reason for her bad voice was because she talked with Oprah Winfrey too much on her show.\" <retrieved_rule> Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling. <retrieved_rule>": [
+        2.7272727272727275,
+        1.2727272727272727
+    ],
+    "The grammar error in the sentence \"Cooking is not her profession , she is a housewife .\" is the lack of a conjunction to connect the two clauses. The revised sentence is \"Cooking is not her profession, as she is a housewife.\" <retrieved_rule> Use \"as\" to connect two independent clauses. <retrieved_rule>": [
+        1.775,
+        1.225
+    ],
+    "The grammar error in the sentence \"Still she has n't recovered from them ?\" is the incorrect use of the contraction \"n't\" instead of \"not\" and the lack of a subject in the sentence. The revised sentence is \"Still, she hasn't recovered from them.\" <retrieved_rule> Use \"aren't\" for the contraction of \"are not\" <retrieved_rule>": [
+        1.973684210526316,
+        1.026315789473684
+    ],
+    "The original sentence \"My mum is a great cook !\" does not contain any grammar errors. <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        1.3275862068965516,
+        1.6724137931034484
+    ],
+    "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <retrieved_rule> There is no grammar error in the original sentence. <retrieved_rule>": [
+        2.691215616681455,
+        1.3087843833185449
+    ],
+    "The grammar error in the sentence \"She had a incredible beautiful high voice .\" is the lack of proper adjective-noun agreement. The revised sentence is \"She had an incredibly beautiful high voice.\" <retrieved_rule> Adjective-noun agreement should be used to ensure proper grammar. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"When she has had her food , she always prances around the living room merrily .\" is the unnecessary use of a comma after \"food.\" The revised sentence is \"When she has had her food she always prances around the living room merrily.\" <retrieved_rule> Use \"n't\" to indicate the present perfect tense. <retrieved_rule>": [
+        1.1600000000000001,
+        1.8399999999999999
+    ],
+    "The grammar error in the original sentence \"A couple of weeks ago , I heard a new Whitney Houston 's tune on my car radio\" is the unnecessary use of the possessive form \"Whitney Houston's\" before \"tune.\" The revised sentence is \"A couple of weeks ago, I heard a new tune by Whitney Houston on my car radio.\" <new_rule> The use of the possessive form \"Whitney Houston's\" before \"tune\" is unnecessary and can be removed for improved clarity. <new_rule>": [
+        1.0401146131805157,
+        1.9598853868194843
+    ],
+    "The original sentence \"I had been wondering what she was doing.\" does not contain any grammar errors. <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence \"Her fur is beautiful amber and soft.\" is the lack of a comma before the coordinating conjunction \"and\" to connect the two adjectives. The revised sentence is \"Her fur is beautiful, amber, and soft.\" <retrieved_rule> Use a comma before coordinating conjunctions to separate independent clauses. <retrieved_rule>": [
+        2.1247058823529414,
+        1.8752941176470586
+    ],
+    "The grammar errors in the sentence \"She is cheerful and plump pretty dog , perhaps she is the cutest dog in the world .\" are the incorrect placement of the adjectives \"plump\" and \"pretty\" before the noun \"dog\" and the unnecessary space before the comma. The revised sentence is: \"She is a cheerful, plump, and pretty dog. Perhaps she is the cutest dog in the world.\" <new_rule> Adjective-noun agreement <new_rule> <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0401146131805157,
+        1.9598853868194843
+    ],
+    "The grammar error in the sentence \"Her recent picture was not like her before.\" is the incorrect use of \"not like\" which should be \"unlike\" to follow proper word order. The revised sentence is: \"Her recent picture was unlike her before.\" <retrieved_rule> Rule: Use \"not like\" instead of \"like\" to follow proper word order. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"And finally , she released a new song !\" does not contain any grammatical errors.": [
+        1.9066666666666667,
+        1.0933333333333333
+    ],
+    "The grammar error in the original sentence \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" is the use of the contraction \"net\" without a space before the apostrophe. The revised sentence is \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <retrieved_rule> Contractions are formed by combining two words and replacing missing letters with an apostrophe. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"And she loves basking too.\" is the lack of a comma before the coordinating conjunction \"and\" to separate the independent clauses. The revised sentence is \"And she loves basking, too.\" <retrieved_rule> Use a comma before coordinating conjunctions to separate independent clauses. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\" are the incorrect use of the adjective \"little\" instead of \"a little\" and the lack of proper punctuation. The revised sentence is \"She is a little stupid, but has perceptive insights about food because she is always famished. She loves food!\" <retrieved_rule> \"Little\" should be preceded by \"a\" to indicate a small degree of the adjective. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"It 's because my mum is probably the best cook I have met in my life .\" does not contain any grammatical errors.": [
+        1.973684210526316,
+        1.026315789473684
+    ],
+    "The grammar error in the sentence \"She was decent , not like Mariah Carey.\" is the unnecessary use of the comma before \"not like.\" The revised sentence is \"She was decent, not like Mariah Carey.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"A friend once told me that the reason why I love her cooking is because she 's my mum but that is not the reason.\" is the unnecessary use of \"is because\" and the lack of a conjunction before \"but.\" The revised sentence is \"A friend once told me that the reason I love her cooking is that she's my mum, but that is not the reason.\" <retrieved_rule> Use \"that\" to introduce a clause instead of \"if\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

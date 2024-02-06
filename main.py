@@ -19,7 +19,7 @@ def args_parse():
                         choices=["default", "CLUTRR", "STS_B", "LANG_8"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 
-    parser.add_argument("--train_dataset_size", type=int, default=200,
+    parser.add_argument("--train_dataset_size", type=int, default=2000,
                         help="choose the first train_dataset_size examples from train dataset for training")
 
     parser.add_argument("--data_dir", type=str, default=None,
@@ -97,7 +97,7 @@ def args_parse():
 
     if not args.save_dir:
         num_suffix = 0
-        while os.path.exists(f"./experiment/{args.dataset}_{num_suffix}"):
+        while os.path.exists(f"./experiment/{args.dataset}/version_{num_suffix}"):
             num_suffix += 1
         args.save_dir = f"./experiment/{args.dataset}/version_{num_suffix}"
 

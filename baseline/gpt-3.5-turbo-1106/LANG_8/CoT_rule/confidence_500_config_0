@@ -1,8 +1,8 @@
-Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_1800')
+Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_500')
 Instruction: Following are several existed rules in knowledge base. When you answer the questions, try to use the provided rules whenever possible. Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to establish your own rules.
 Knowledge base (involved rules):
 
-max_confidence_num: 1800
+max_confidence_num: 500
 rule_base:
 Parallel structure
 Rule: Punctuation should not have a space before it.
@@ -279,4 +279,4 @@ The contraction for "she is" is "she's" with an apostrophe.
 Use "don't" to form the negative of the present tense verb "like."
 No errors found.
 Knowledge base:
-测试集上的准确率为：0.16080402010050251
+测试集上的准确率为：0.11557788944723618

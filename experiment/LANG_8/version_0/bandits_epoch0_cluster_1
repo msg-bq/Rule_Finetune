@@ -1,0 +1,82 @@
+{
+    "Grammar error: The correct verb form should be \"is going to move\" instead of \"is going to moved\". Revised sentence: My teacher is going to move to change his job. <Begin>Rule: The future tense form of \"move\" is \"is going to move\".</End>": [
+        7.572233776281643,
+        2.4277662237183577
+    ],
+    "The grammar error in the sentence is the misspelling of \"hvae\" instead of \"have.\" The revised sentence is: \"When you go uphill, you have to bend your back.\" <Begin>Subject-Verb Agreement</End>": [
+        5.894421474632466,
+        2.105578525367534
+    ],
+    "Grammar errors: 1. \"if we have to go somewhere on foot\" - This part of the sentence is grammatically correct. 2. \"we must put our hat\" - The correct phrase is \"we must put on our hat.\" Revised sentence: So, I think if we have to go somewhere on foot, we must put on our hat. <Begin> There is a rule in English grammar that states when referring to wearing an item of clothing, the preposition \"on\" should be used. </End>": [
+        6.811597348714836,
+        3.188402651285165
+    ],
+    "The grammar error in the sentence is \"fell down,\" which should be \"fall down\" to maintain the correct verb tense. Revised sentence: When you go downhill, you have to stick out your chest or you will fall down. <Begin>Rule: Use the correct verb tense to match the timing of the action being described.</End>": [
+        7.396612832657157,
+        2.6033871673428424
+    ],
+    "The original sentence does not contain any grammar errors. Revised sentence: I will never forget my first time at customs. <Begin> There are no grammar errors in the original sentence. </End>": [
+        8.203829832023835,
+        2.796170167976165
+    ],
+    "Grammar errors: 1. \"I rather be\" should be \"I would rather be\" 2. \"working outside than be a housewife\" should be \"working outside than be a housewife.\" Revised sentence: I would rather be working outside than be a housewife. <Begin>\"Would rather\" is the correct form to express a preference.<End>": [
+        7.123940521134059,
+        2.876059478865941
+    ],
+    "Grammar error: The correct phrase should be \"a good day\" instead of \"good day.\" Revised sentence: Anyway, today will be a good day. <retrieved_rule> Capitalization rule: The first word of a sentence should be capitalized. <retrieved_rule>": [
+        3.6204849124152925,
+        2.379515087584708
+    ],
+    "The grammar error in the sentence is the use of the gerund form \"writing\" after \"first time\" instead of \"to write.\" The revised sentence is: \"I will never forget my first time to write at customs.\" <retrieved_rule> Use of the gerund form \"writing\" after \"first time\" instead of \"to write\" <retrieved_rule>": [
+        6.005333429479567,
+        1.994666570520434
+    ],
+    "The grammar error in the sentence is the use of \"if\" instead of \"that\" to introduce the clause. The revised sentence is: \"So, I think that if we have to go somewhere on foot, we must put on our hat.\" <new_rule> Use \"that\" to introduce a clause instead of \"if\" <new_rule>": [
+        3.6653086419753085,
+        1.3346913580246915
+    ],
+    "Grammar errors: 1. \"I hope I like\" should be \"I hope I will like\" 2. \"the summer Finland\" should be \"the summer in Finland.\" Revised sentence: And I hope I will like the summer in Finland. <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        4.713540467970847,
+        2.2864595320291525
+    ],
+    "The grammar error in the sentence is the use of \"used to go\" instead of \"would go\" to indicate a past habitual action. The revised sentence is: \"When my family would go there very frequently (about 3 or 4 times a month), I had a nice time.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        3.4391252955082745,
+        1.5608747044917257
+    ],
+    "The grammar error in the sentence is the use of \"I'm\" as a contraction for \"I am\" without a space before the apostrophe. The revised sentence is: \"I'm going to miss him, but I really wish him the best of luck with his new life.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        1.8181818181818181,
+        1.1818181818181819
+    ],
+    "Grammar errors: 1. \"you will fell down\" should be \"you will fall down\" 2. \"stick out your chest\" should be \"stick out your chest.\" Revised sentence: When you go downhill, you have to stick out your chest or you will fall down. <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        3.574049707602339,
+        1.4259502923976608
+    ],
+    "The grammar error in the sentence is the lack of a main verb after \"working.\" The revised sentence is: \"When I came back home from working today, I was exhausted.\" <new_rule>When starting a sentence with a phrase of urgency or request, it should be followed by a comma. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Grammar errors: 1. \"If we didn't that\" should be \"If we didn't do that\" 2. \"walk for long time\" should be \"walk for a long time\" 3. \"we will collapse or die\" should be \"we will collapse and die\" Revised sentence: If we didn't do that and walk for a long time, we will collapse and die. <retrieved_rule> The contraction for \"did not\" is \"didn't\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence is the use of \"move to change\" instead of \"moving to change\" to maintain the correct verb tense. The revised sentence is: \"My teacher is moving to change his job.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        3.0561204146730465,
+        1.943879585326954
+    ],
+    "The original sentence contains a grammar error. The phrase \"in this August\" should be revised to \"this August\" to follow the rule of not having a space before punctuation. The revised sentence is: \"Maybe, this August my mom and I will visit Norway, Sweden and Finland.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence is \"are go smoothly,\" which should be \"go smoothly\" to maintain the correct verb tense. Revised sentence: When you go smoothly, you have to be more modest. <new_rule> Rule: Use the correct verb tense to match the timing of the action being described. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence is the use of \"like\" instead of \"as\" to compare actions or states of being. The revised sentence is: \"Your life is as when you walk.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Grammar error: The correct verb form should be \"lies down\" instead of \"lays down\". Revised sentence: She usually lies down near the big window and basks in the morning sun. <retrieved_rule> The present tense verb \"lay\" should be \"lies\" in this context. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

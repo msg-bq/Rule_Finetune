@@ -1,0 +1,66 @@
+{
+    "There is a grammar error in the original sentence. \"Wang\" should be \"Wangs\" to make it plural. Revised sentence: A New Hair Style of the Wangs <Begin>Plural nouns in English typically end with an \"s\" or \"es\" at the end.</End>": [
+        11.915089747626752,
+        2.0849102523732497
+    ],
+    "The sentence \"The different values about handsome among cultures are very interesting\" is grammatically correct. There are no grammar errors in the given sentence. Revised sentence: The various cultural perspectives on what is considered handsome are very interesting. <Begin>There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, \"different\" should come before \"values\" to follow this rule. However, the original sentence is still grammatically correct as it is.<End>": [
+        9.373142518254035,
+        1.6268574817459636
+    ],
+    "The grammar error in the sentence is the lack of parallel structure. The revised sentence could be: \"It mentioned many examples of Japanese men, Korean men, and Hong Kong men.\" <Begin>Parallel structure</End>": [
+        11.02053396707991,
+        1.9794660329200884
+    ],
+    "The grammar errors in the original sentence include the lack of parallel structure and incorrect verb tense. The revised sentence could be: \"About clothing, the western men dressed very simply, and about hair, most of them don't have a fringe at all, and their back hair is short, with no hair covering their necks.\" <retrieved_rule> Parallel structure <retrieved_rule> <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        9.076824703776602,
+        1.9231752962234
+    ],
+    "The grammar error in the original sentence is the subject-verb agreement. \"Was\" should be \"were\" to agree with the plural subjects \"clothing and hair styles.\" Revised sentence: I found out that the clothing and the hair styles were very different. <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        8.198052660507695,
+        1.8019473394923042
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"By contrast, men in eastern countries dress up more.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.8625,
+        1.1375
+    ],
+    "The grammar error in the original sentence is the use of \"sucks\" instead of \"rocked\" or \"pulled off\" to convey the positive reception of Wang's new hairstyle. The revised sentence could be: \"My English translation of the title is 'Wang changed to a new hairstyle, and Jeter rocked it.' As long as you are Chinese, nine out of ten you will think that Wang pulled off the new style very well, and that his new style is very handsome.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        4.735400003485109,
+        1.2645999965148902
+    ],
+    "The grammar error in the original sentence is the use of \"about\" after \"talked.\" The revised sentence could be: \"It talked about a big difference in the values of a handsome man between Western countries and Eastern countries.\" <retrieved_rule> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the original sentence are the incorrect use of \"ways\" instead of \"styles\" and the misspelling of \"Scrubs.\" The revised sentence could be: \"I started to notice the foreign clothing and hairstyles in recent days by watching TV programs such as Friends and Scrubs.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.8925619834710745,
+        1.1074380165289255
+    ],
+    "The grammar error in the original sentence is the misspelling of \"especially\" as \"especailly.\" The revised sentence could be: \"If we want to have a long hairstyle, it will mostly be light, especially long on the fringe or back hair.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        6.4311192761267275,
+        1.5688807238732723
+    ],
+    "The grammar error in the original sentence is the use of \"a very short hair\" instead of \"very short hair.\" The revised sentence could be: \"If we want to cut very short hair, we must leave some hair on the back of the neck in order to avoid looking like a nerd.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        2.866858661940629,
+        1.133141338059371
+    ],
+    "The grammar error in the original sentence is the lack of parallel structure. The revised sentence could be: \"But in Western countries, the standard of a handsome man depends not on their faces, but on their masculine symbols, such as muscles and behavior.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.8625,
+        1.1375
+    ],
+    "The grammar error in the original sentence is the use of \"had\" instead of \"have\" to match the present tense. The revised sentence could be: \"If they have long hair, it will be really long and thick.\" <retrieved_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <retrieved_rule>": [
+        1.9324324324324325,
+        1.0675675675675675
+    ],
+    "The grammar error in the original sentence is the incorrect verb tense. The revised sentence could be: \"However, the news mentioned that Derek Jeter thinks his hair is really amazing.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"median\" instead of \"medium\" to describe the length of men's hair. The revised sentence could be: \"As for hair, men usually have medium-length hair, neither very short nor long.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.9324324324324325,
+        1.0675675675675675
+    ],
+    "The grammar error in the original sentence is the repetition of \"hair\" in \"cut his hair and had a new hair style.\" The revised sentence could be: \"It reported that Chien-Ming Wang cut his hair and got a new hairstyle.\" <retrieved_rule> No errors found. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

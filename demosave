@@ -1,95 +1,6 @@
 {
     "cluster_0": [
         {
-            "question": "Sentence: What happened to her ?\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"What happened to her?\" is the lack of a subject. The revised sentence is \"What happened to her?\" which is correct. <Begin> In English, a question must have a subject, verb, and object in order to be grammatically correct. </End>",
-            "gold_label": "What happened to her ?"
-        },
-        {
-            "question": "Sentence: She came back !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"She came back !\" is the unnecessary space before the exclamation mark. The revised sentence is \"She came back!\" <Begin> Rule: Punctuation should not have a space before it. </End>",
-            "gold_label": "She came back !"
-        },
-        {
-            "question": "Sentence: And finally , she released a new song !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the given sentence. <Begin>There is no grammar error</End> Revised sentence: The original sentence does not need to be revised.",
-            "gold_label": "And finally , she released a new song !"
-        },
-        {
-            "question": "Sentence: However , she is already 46 !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: There is no specific error in the sentence \"However , she is already 46 !\" Revised sentence: However, she is already 46! <Begin> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. </End>",
-            "gold_label": "However , she is already 46 !"
-        },
-        {
-            "question": "Sentence: Whitney Houston Failed\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Whitney Houston Failed\" is the lack of a specific verb to go with \"failed.\" The revised sentence could be \"Whitney Houston failed to achieve success in her later years.\" <Begin> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. </End>",
-            "gold_label": "Whitney Houston Failed"
-        },
-        {
-            "question": "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <Begin> There is no grammar error in the original sentence. </End>",
-            "gold_label": "My mum is a great cook !"
-        },
-        {
-            "question": "Sentence: Today , I read an article on the net about her comeback performance in New York 's Central Park .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar errors in the sentence are the lack of a comma after \"Today\" and the incorrect use of an apostrophe in \"New York's.\" The revised sentence is: \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <Begin>Rule: Use a comma after introductory adverbs such as \"today.\"</End>",
-            "gold_label": "Today , I read an article on the net about her comeback performance in New York 's Central Park ."
-        },
-        {
-            "question": "Sentence: I believe she can sing .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "First, let's identify the grammar error in the original sentence. The original sentence \"I believe she can sing\" does not contain any grammatical errors. Revised sentence: The original sentence \"I believe she can sing\" is grammatically correct and does not require revision. <Begin> There are no specific grammar rules or prior knowledge that need to be applied to this sentence. </End>",
-            "gold_label": "I believe she can sing ."
-        },
-        {
-            "question": "Sentence: Her recent picture was not like her before .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"like\" instead of \"as.\" The revised sentence is: \"Her recent picture was not as her before.\" <Begin>Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns.</End>",
-            "gold_label": "Her recent picture was not like her before ."
-        },
-        {
-            "question": "Sentence: Her voice was hoarse and cracked .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the given sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is. <Begin> There are no specific rules or prior knowledge to apply in this case. </End>",
-            "gold_label": "Her voice was hoarse and cracked ."
-        },
-        {
-            "question": "Sentence: Being a housewife is really tough .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of the word \"tough\" which is an adjective, but it is being used to describe the action of being a housewife. The revised sentence is \"Being a housewife is really tough.\" <Begin>Adjective-noun agreement</End>",
-            "gold_label": "Being a housewife is really tough ."
-        },
-        {
-            "question": "Sentence: She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of the word \"little\" which should be \"a little\" to modify the adjective \"stupid.\" Additionally, there should be a comma after \"stupid\" to separate the two independent clauses. Revised sentence: She is a little stupid, but has perceptive insights about food because she is always famished ^ ^ She loves food! <Begin>Rule: \"A little\" is used to modify adjectives, while \"little\" is used to modify nouns.</End>",
-            "gold_label": "She is a little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !"
-        }
-    ],
-    "cluster_1": [
-        {
-            "question": "Sentence: I like Finland .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"I like Finland\" does not contain any grammar errors. Revised sentence: \"I like Finland.\" No grammar errors found. <Begin>No errors found</End>",
-            "gold_label": "I like Finland ."
-        },
-        {
-            "question": "Sentence: It 's because my mum is probably the best cook I have met in my life .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"is\" after \"It\" without a proper subject. The revised sentence is: \"It's because my mum is probably the best cook I have met in my life.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "It 's because my mum is probably the best cook I have ever met in my life ."
-        },
-        {
-            "question": "Sentence: Anyway , I think I 'll spent quite some playing it in the next few weeks .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"spent\" instead of \"spend.\" Revised sentence: Anyway, I think I'll spend quite some time playing it in the next few weeks. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "Anyway , I think I 'll spend quite some time playing it in the next few weeks ."
-        },
-        {
-            "question": "Sentence: I will never forget my first time at customs .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence does not contain any grammar errors. Revised sentence: I will never forget my first time at customs. <Begin> There are no grammar errors in the original sentence. </End>",
-            "gold_label": "I will never forget my first time at customs ."
-        },
-        {
-            "question": "Sentence: We 've known each other for only half a year , but his lesson was a lot of fun .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"lesson\" instead of \"lessons.\" The revised sentence is: We've known each other for only half a year, but his lessons were a lot of fun. <Begin>Plural nouns are used when referring to more than one of something.</End>",
-            "gold_label": "We 've known each other for only half a year , but his lessons were a lot of fun ."
-        }
-    ],
-    "cluster_2": [
-        {
             "question": "Sentence: : )\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"I am happy :)\". <Begin> Subject-Verb agreement rule </End>",
             "gold_label": ": )"
@@ -140,24 +51,24 @@
             "gold_label": "no title , haha"
         },
         {
-            "question": "Sentence: RAIN\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Original sentence: RAIN Grammar error: The sentence is missing a subject and a verb. Revised sentence: It is raining. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "RAIN"
-        },
-        {
             "question": "Sentence: If my sentences are n't practical correct them .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence is the incorrect use of \"n't\" instead of \"aren't.\" The revised sentence is: \"If my sentences aren't practical, please correct them.\" <Begin> Use \"aren't\" for the contraction of \"are not\" </End>",
             "gold_label": "If my sentences are n't practical , please correct them ."
         },
         {
-            "question": "Sentence: URL\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is that \"URL\" should be preceded by the article \"a\" to make the sentence grammatically correct. Revised sentence: \"A URL\" <Begin> The rule is that \"URL\" is a singular noun and should be preceded by the indefinite article \"a\" when used in a sentence. </End>",
-            "gold_label": "URL"
-        },
-        {
             "question": "Sentence: Do n't know why .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar error: The sentence should be \"Don't know why.\" Revised sentence: I don't know why. <Begin>Rule: Use the contraction \"don't\" instead of \"do not\" in informal writing.</End>",
             "gold_label": "I do n't know why ."
+        },
+        {
+            "question": "Sentence: RAIN\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Original sentence: RAIN Grammar error: The sentence is missing a subject and a verb. Revised sentence: It is raining. <Begin>Subject-Verb Agreement</End>",
+            "gold_label": "RAIN"
+        },
+        {
+            "question": "Sentence: URL\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is that \"URL\" should be preceded by the article \"a\" to make the sentence grammatically correct. Revised sentence: \"A URL\" <Begin> The rule is that \"URL\" is a singular noun and should be preceded by the indefinite article \"a\" when used in a sentence. </End>",
+            "gold_label": "URL"
         },
         {
             "question": "Sentence: I watched season 2 today .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -168,11 +79,6 @@
             "question": "Sentence: Fruit\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Original Sentence: Fruit Grammar Error: The original sentence is incomplete and lacks a subject. Revised Sentence: \"I like fruit.\" Explanation: The original sentence lacks a subject and verb, so it does not form a complete sentence. By adding the subject \"I\" and the verb \"like,\" the sentence becomes grammatically correct. <Begin>Subject-Verb Agreement</End> - The revised sentence follows the subject-verb agreement rule by matching the singular subject \"I\" with the singular verb \"like.\"",
             "gold_label": "Fruit"
-        },
-        {
-            "question": "Sentence: It 's summer .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"It 's summer\" is the incorrect use of the apostrophe in \"It's.\" The revised sentence is \"It's summer.\" <Begin>Rule: The contraction for \"it is\" is \"it's\" with an apostrophe.</End>",
-            "gold_label": "It 's summer ."
         },
         {
             "question": "Sentence: It is really good for me .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -190,9 +96,9 @@
             "gold_label": "Listening to music"
         },
         {
-            "question": "Sentence: Arrangements\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: The word \"Arrangements\" is a noun, but the sentence is missing a verb to make it a complete sentence. Revised sentence: We need to make arrangements. <Begin>Subject-Verb agreement</End>",
-            "gold_label": "Arrangements"
+            "question": "Sentence: It 's summer .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"It 's summer\" is the incorrect use of the apostrophe in \"It's.\" The revised sentence is \"It's summer.\" <Begin>Rule: The contraction for \"it is\" is \"it's\" with an apostrophe.</End>",
+            "gold_label": "It 's summer ."
         },
         {
             "question": "Sentence: So there are a lot to see .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -200,9 +106,9 @@
             "gold_label": "So there is a lot to see ."
         },
         {
-            "question": "Sentence: What a shock !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence lacks a subject and a verb. It is a fragment. Revised sentence: \"What a shock!\" <Begin>Exclamatory sentences must have a subject and a verb.</End>",
-            "gold_label": "What a shock !"
+            "question": "Sentence: Arrangements\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar errors: The word \"Arrangements\" is a noun, but the sentence is missing a verb to make it a complete sentence. Revised sentence: We need to make arrangements. <Begin>Subject-Verb agreement</End>",
+            "gold_label": "Arrangements"
         },
         {
             "question": "Sentence: it makes me happy .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -210,19 +116,14 @@
             "gold_label": "it makes me happy ."
         },
         {
+            "question": "Sentence: What a shock !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The sentence lacks a subject and a verb. It is a fragment. Revised sentence: \"What a shock!\" <Begin>Exclamatory sentences must have a subject and a verb.</End>",
+            "gold_label": "What a shock !"
+        },
+        {
             "question": "Sentence: What a pity !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar error: The sentence lacks a subject and a verb. Revised sentence: \"What a pity!\" <Begin>Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.</End>",
             "gold_label": "What a pity !"
-        },
-        {
-            "question": "Sentence: I saw a news on Yahoo yesterday .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the original sentence \"I saw a news on Yahoo yesterday.\" Revised sentence: \"I saw a news article on Yahoo yesterday.\" <Begin> The word \"news\" is typically uncountable and does not take an article before it. However, in this case, \"news\" is being used to refer to a specific news article, so the article \"a\" is appropriate. </End>",
-            "gold_label": "I saw a news article on Yahoo yesterday ."
-        },
-        {
-            "question": "Sentence: Nice to meet you .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Nice to meet you\" is that it is missing a subject. The revised sentence could be \"It's nice to meet you\" or \"I'm nice to meet you.\" <Begin> The subject of a sentence is necessary for it to be grammatically correct. </End>",
-            "gold_label": "Nice to meet you ."
         },
         {
             "question": "Sentence: I 'm so into it .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -230,9 +131,14 @@
             "gold_label": "I 'm so into it ."
         },
         {
-            "question": "Sentence: I have seen an article on TIME .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"an\" before \"article on TIME.\" The correct article to use in this case is \"an\" because \"article\" begins with a vowel sound. The revised sentence is: \"I have seen an article on TIME.\" Rule: Use \"an\" before words that begin with a vowel sound. <Begin>Use \"an\" before words that begin with a vowel sound</End>",
-            "gold_label": "I have seen an article on TIME ."
+            "question": "Sentence: Nice to meet you .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"Nice to meet you\" is that it is missing a subject. The revised sentence could be \"It's nice to meet you\" or \"I'm nice to meet you.\" <Begin> The subject of a sentence is necessary for it to be grammatically correct. </End>",
+            "gold_label": "Nice to meet you ."
+        },
+        {
+            "question": "Sentence: I saw a news on Yahoo yesterday .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "There are no grammar errors in the original sentence \"I saw a news on Yahoo yesterday.\" Revised sentence: \"I saw a news article on Yahoo yesterday.\" <Begin> The word \"news\" is typically uncountable and does not take an article before it. However, in this case, \"news\" is being used to refer to a specific news article, so the article \"a\" is appropriate. </End>",
+            "gold_label": "I saw a news article on Yahoo yesterday ."
         },
         {
             "question": "Sentence: I love citrus fruits .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -240,9 +146,9 @@
             "gold_label": "I love citrus fruits ."
         },
         {
-            "question": "Sentence: It 's too hot .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"It 's too hot.\" is the unnecessary space between \"It\" and the apostrophe. The revised sentence is \"It's too hot.\" <Begin>Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe. </End>",
-            "gold_label": "It 's too hot ."
+            "question": "Sentence: I have seen an article on TIME .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"an\" before \"article on TIME.\" The correct article to use in this case is \"an\" because \"article\" begins with a vowel sound. The revised sentence is: \"I have seen an article on TIME.\" Rule: Use \"an\" before words that begin with a vowel sound. <Begin>Use \"an\" before words that begin with a vowel sound</End>",
+            "gold_label": "I have seen an article on TIME ."
         },
         {
             "question": "Sentence: And now they disturb me .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -250,9 +156,24 @@
             "gold_label": "And now they disturb me ."
         },
         {
+            "question": "Sentence: I like Finland .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The original sentence \"I like Finland\" does not contain any grammar errors. Revised sentence: \"I like Finland.\" No grammar errors found. <Begin>No errors found</End>",
+            "gold_label": "I like Finland ."
+        },
+        {
+            "question": "Sentence: I 'm gon na do it next time !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"gon na\" instead of \"gonna\" which is a contraction of \"going to\". The revised sentence is: \"I'm gonna do it next time!\" <Begin> Use contractions for informal speech </End>",
+            "gold_label": "I 'm gon na do it next time !"
+        },
+        {
             "question": "Sentence: It 's not a joke .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence \"It 's not a joke\" is the incorrect use of the contraction \"It's\" with a space before the apostrophe. The revised sentence is \"It's not a joke.\" <Begin>Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.</End>",
             "gold_label": "It 's not a joke ."
+        },
+        {
+            "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"I had to write about counseling\" is the tense inconsistency. The verb \"had\" is in the past tense, but \"write\" is in the present tense. Revised sentence: I have to write about counseling. <Begin> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. </End>",
+            "gold_label": "I had to write about counseling ."
         },
         {
             "question": "Sentence: It said that was disappointing .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -263,11 +184,6 @@
             "question": "Sentence: My son have diarrhea\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence \"My son have diarrhea\" is that \"have\" should be changed to \"has\" to match the singular subject \"son.\" Revised sentence: My son has diarrhea. <Begin>Subject-Verb Agreement</End>",
             "gold_label": "My son has diarrhea"
-        },
-        {
-            "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"I had to write about counseling\" is the tense inconsistency. The verb \"had\" is in the past tense, but \"write\" is in the present tense. Revised sentence: I have to write about counseling. <Begin> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. </End>",
-            "gold_label": "I had to write about counseling ."
         },
         {
             "question": "Sentence: This is my first time to write diary on the internet .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -288,11 +204,6 @@
             "question": "Sentence: And I 'm eating a banana every day for my health .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence is the incorrect use of the apostrophe in \"And I 'm.\" The revised sentence is: \"And I'm eating a banana every day for my health.\" <Begin>Use of contraction</End>",
             "gold_label": "I 'm eating a banana every day for my health ."
-        },
-        {
-            "question": "Sentence: It 's too hot in Japan .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: There is no grammatical error in the given sentence. Revised sentence: \"It's too hot in Japan.\" <Begin> There is a contraction \"It's\" which is a combination of \"it\" and \"is\". </End>",
-            "gold_label": "It 's too hot in Japan ."
         },
         {
             "question": "Sentence: I am listening to music with the commuter train .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
@@ -318,19 +229,14 @@
             "question": "Sentence: I have n't seen cockroaches since I came here .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "The grammar error in the sentence is the use of \"n't\" instead of \"haven't.\" The revised sentence is \"I haven't seen cockroaches since I came here.\" <Begin> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. </End>",
             "gold_label": "I have n't seen cockroaches since I came here ."
+        },
+        {
+            "question": "Sentence: I tried to fight against him , but he did n't show up .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: The correct form is \"didn't show up\" instead of \"did n't show up\" Revised sentence: I tried to fight against him, but he didn't show up. <Begin> Rule: The contraction for \"did not\" is \"didn't\" </End>",
+            "gold_label": "I tried to fight against him , but he did n't show up ."
         }
     ],
-    "cluster_3": [
-        {
-            "question": "Sentence: I 'm gon na do it next time !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"gon na\" instead of \"gonna\" which is a contraction of \"going to\". The revised sentence is: \"I'm gonna do it next time!\" <Begin> Use contractions for informal speech </End>",
-            "gold_label": "I 'm gon na do it next time !"
-        },
-        {
-            "question": "Sentence: It is raining in Tokyo .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"It is raining in Tokyo\" does not contain any grammar errors. Revised sentence: \"It is raining in Tokyo.\" There are no grammar errors in the original sentence. <Begin>\"It is\" is the correct present tense form of the verb \"to be\" for the subject \"it.\"</End>",
-            "gold_label": "It is raining in Tokyo ."
-        },
+    "cluster_1": [
         {
             "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar error: The correct verb form should be \"is going to move\" instead of \"is going to moved\". Revised sentence: My teacher is going to move to change his job. <Begin>Rule: The future tense form of \"move\" is \"is going to move\".</End>",
@@ -352,14 +258,108 @@
             "gold_label": "When you go downhill , you have to stick out your chest or you will fall down ."
         },
         {
+            "question": "Sentence: I will never forget my first time at customs .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The original sentence does not contain any grammar errors. Revised sentence: I will never forget my first time at customs. <Begin> There are no grammar errors in the original sentence. </End>",
+            "gold_label": "I will never forget my first time at customs ."
+        },
+        {
             "question": "Sentence: I rather be working outside than be a housewife .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
             "rationale": "Grammar errors: 1. \"I rather be\" should be \"I would rather be\" 2. \"working outside than be a housewife\" should be \"working outside than be a housewife.\" Revised sentence: I would rather be working outside than be a housewife. <Begin>\"Would rather\" is the correct form to express a preference.<End>",
             "gold_label": "I would rather be working outside than be a housewife ."
+        }
+    ],
+    "cluster_2": [
+        {
+            "question": "Sentence: What happened to her ?\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"What happened to her?\" is the lack of a subject. The revised sentence is \"What happened to her?\" which is correct. <Begin> In English, a question must have a subject, verb, and object in order to be grammatically correct. </End>",
+            "gold_label": "What happened to her ?"
         },
         {
-            "question": "Sentence: I tried to fight against him , but he did n't show up .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The correct form is \"didn't show up\" instead of \"did n't show up\" Revised sentence: I tried to fight against him, but he didn't show up. <Begin> Rule: The contraction for \"did not\" is \"didn't\" </End>",
-            "gold_label": "I tried to fight against him , but he did n't show up ."
+            "question": "Sentence: She came back !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"She came back !\" is the unnecessary space before the exclamation mark. The revised sentence is \"She came back!\" <Begin> Rule: Punctuation should not have a space before it. </End>",
+            "gold_label": "She came back !"
+        },
+        {
+            "question": "Sentence: And finally , she released a new song !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "There are no grammar errors in the given sentence. <Begin>There is no grammar error</End> Revised sentence: The original sentence does not need to be revised.",
+            "gold_label": "And finally , she released a new song !"
+        },
+        {
+            "question": "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <Begin> There is no grammar error in the original sentence. </End>",
+            "gold_label": "My mum is a great cook !"
+        },
+        {
+            "question": "Sentence: However , she is already 46 !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar errors: There is no specific error in the sentence \"However , she is already 46 !\" Revised sentence: However, she is already 46! <Begin> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. </End>",
+            "gold_label": "However , she is already 46 !"
+        },
+        {
+            "question": "Sentence: Whitney Houston Failed\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"Whitney Houston Failed\" is the lack of a specific verb to go with \"failed.\" The revised sentence could be \"Whitney Houston failed to achieve success in her later years.\" <Begin> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. </End>",
+            "gold_label": "Whitney Houston Failed"
+        },
+        {
+            "question": "Sentence: Today , I read an article on the net about her comeback performance in New York 's Central Park .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar errors in the sentence are the lack of a comma after \"Today\" and the incorrect use of an apostrophe in \"New York's.\" The revised sentence is: \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <Begin>Rule: Use a comma after introductory adverbs such as \"today.\"</End>",
+            "gold_label": "Today , I read an article on the net about her comeback performance in New York 's Central Park ."
+        },
+        {
+            "question": "Sentence: I believe she can sing .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "First, let's identify the grammar error in the original sentence. The original sentence \"I believe she can sing\" does not contain any grammatical errors. Revised sentence: The original sentence \"I believe she can sing\" is grammatically correct and does not require revision. <Begin> There are no specific grammar rules or prior knowledge that need to be applied to this sentence. </End>",
+            "gold_label": "I believe she can sing ."
+        },
+        {
+            "question": "Sentence: Her recent picture was not like her before .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"like\" instead of \"as.\" The revised sentence is: \"Her recent picture was not as her before.\" <Begin>Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns.</End>",
+            "gold_label": "Her recent picture was not like her before ."
+        },
+        {
+            "question": "Sentence: Being a housewife is really tough .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of the word \"tough\" which is an adjective, but it is being used to describe the action of being a housewife. The revised sentence is \"Being a housewife is really tough.\" <Begin>Adjective-noun agreement</End>",
+            "gold_label": "Being a housewife is really tough ."
+        },
+        {
+            "question": "Sentence: She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of the word \"little\" which should be \"a little\" to modify the adjective \"stupid.\" Additionally, there should be a comma after \"stupid\" to separate the two independent clauses. Revised sentence: She is a little stupid, but has perceptive insights about food because she is always famished ^ ^ She loves food! <Begin>Rule: \"A little\" is used to modify adjectives, while \"little\" is used to modify nouns.</End>",
+            "gold_label": "She is a little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !"
+        },
+        {
+            "question": "Sentence: Her voice was hoarse and cracked .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "There are no grammar errors in the given sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is. <Begin> There are no specific rules or prior knowledge to apply in this case. </End>",
+            "gold_label": "Her voice was hoarse and cracked ."
+        },
+        {
+            "question": "Sentence: It 's because my mum is probably the best cook I have met in my life .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"is\" after \"It\" without a proper subject. The revised sentence is: \"It's because my mum is probably the best cook I have met in my life.\" <Begin>Subject-Verb Agreement</End>",
+            "gold_label": "It 's because my mum is probably the best cook I have ever met in my life ."
+        }
+    ],
+    "cluster_3": [
+        {
+            "question": "Sentence: It 's too hot .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence \"It 's too hot.\" is the unnecessary space between \"It\" and the apostrophe. The revised sentence is \"It's too hot.\" <Begin>Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe. </End>",
+            "gold_label": "It 's too hot ."
+        },
+        {
+            "question": "Sentence: It is raining in Tokyo .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The original sentence \"It is raining in Tokyo\" does not contain any grammar errors. Revised sentence: \"It is raining in Tokyo.\" There are no grammar errors in the original sentence. <Begin>\"It is\" is the correct present tense form of the verb \"to be\" for the subject \"it.\"</End>",
+            "gold_label": "It is raining in Tokyo ."
+        },
+        {
+            "question": "Sentence: It 's too hot in Japan .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "Grammar error: There is no grammatical error in the given sentence. Revised sentence: \"It's too hot in Japan.\" <Begin> There is a contraction \"It's\" which is a combination of \"it\" and \"is\". </End>",
+            "gold_label": "It 's too hot in Japan ."
+        },
+        {
+            "question": "Sentence: Anyway , I think I 'll spent quite some playing it in the next few weeks .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"spent\" instead of \"spend.\" Revised sentence: Anyway, I think I'll spend quite some time playing it in the next few weeks. <Begin>Subject-Verb Agreement</End>",
+            "gold_label": "Anyway , I think I 'll spend quite some time playing it in the next few weeks ."
+        },
+        {
+            "question": "Sentence: We 've known each other for only half a year , but his lesson was a lot of fun .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
+            "rationale": "The grammar error in the sentence is the use of \"lesson\" instead of \"lessons.\" The revised sentence is: We've known each other for only half a year, but his lessons were a lot of fun. <Begin>Plural nouns are used when referring to more than one of something.</End>",
+            "gold_label": "We 've known each other for only half a year , but his lessons were a lot of fun ."
         }
     ],
     "cluster_4": [

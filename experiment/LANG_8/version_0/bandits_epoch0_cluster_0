@@ -1,0 +1,546 @@
+{
+    "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"I am happy :)\". <Begin> Subject-Verb agreement rule </End>": [
+        2.9235133287764867,
+        2.0764866712235133
+    ],
+    "The grammar error in the sentence \"Good words\" is that it is not a complete sentence. It is missing a subject and a verb. Revised sentence: \"These are good words.\" <Begin>Subject-Verb Agreement</End>": [
+        6.421387407150788,
+        3.578612592849212
+    ],
+    "The grammar error in the sentence \"First entry\" is that it lacks a subject and verb, making it a sentence fragment. Revised sentence: \"This is the first entry.\" <Begin>Subject-Verb agreement</End>": [
+        6.172312001723766,
+        1.8276879982762335
+    ],
+    "The grammar error in the sentence is the missing comma after \"Hi everyone.\" Revised sentence: Hi everyone, <Begin>Use a comma to separate a greeting from the rest of the sentence.</End>": [
+        8.227306755138182,
+        2.772693244861819
+    ],
+    "The grammar error in the sentence \"Oh my god\" is that \"god\" should be capitalized as \"God\" when referring to the deity in the Christian, Jewish, and Islamic religions. Revised sentence: Oh my God. <Begin> Capitalize proper nouns, including the names of deities, when referring to them. </End>": [
+        5.0994612656846705,
+        1.9005387343153302
+    ],
+    "The grammar error in the sentence is the lack of a comma after \"Thank you.\" The revised sentence is: \"Thank you for reading this.\" Rule: When starting a sentence with \"Thank you,\" it should be followed by a comma. <Begin>When starting a sentence with a phrase of gratitude, it should be followed by a comma.</End>": [
+        6.016407730556337,
+        1.9835922694436625
+    ],
+    "Grammar error: The correct punctuation for expressing surprise or shock is \"Oh, my God!\" with a comma after \"Oh\". Revised sentence: \"Oh, my God!\" <Begin> Rule: Use a comma after an interjection such as \"Oh\" when expressing strong emotion. </End>": [
+        3.4153439153439153,
+        1.5846560846560847
+    ],
+    "Grammar error: The sentence should end with a punctuation mark, such as a period or exclamation point. Revised sentence: \"Bye!\" <Begin>Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence.</End>": [
+        7.266778027762949,
+        2.7332219722370525
+    ],
+    "The grammar error in the sentence is the lack of a subject. The revised sentence is \"Thank you for reading.\" <Begin>Subject-Verb Agreement</End>": [
+        6.794617116104473,
+        2.205382883895527
+    ],
+    "The grammar error in the sentence is the lack of capitalization at the beginning of the sentence. The revised sentence is: \"No title, haha.\" <Begin> Capitalization rule: The first word of a sentence should be capitalized. </End>": [
+        8.141274190663992,
+        2.8587258093360073
+    ],
+    "The grammar error in the sentence is the incorrect use of \"n't\" instead of \"aren't.\" The revised sentence is: \"If my sentences aren't practical, please correct them.\" <Begin> Use \"aren't\" for the contraction of \"are not\" </End>": [
+        2.4569384104267824,
+        2.5430615895732176
+    ],
+    "Grammar error: The sentence should be \"Don't know why.\" Revised sentence: I don't know why. <Begin>Rule: Use the contraction \"don't\" instead of \"do not\" in informal writing.</End>": [
+        1.3333333333333335,
+        1.6666666666666665
+    ],
+    "Original sentence: RAIN Grammar error: The sentence is missing a subject and a verb. Revised sentence: It is raining. <Begin>Subject-Verb Agreement</End>": [
+        4.51184317205837,
+        2.4881568279416304
+    ],
+    "The grammar error in the sentence is that \"URL\" should be preceded by the article \"a\" to make the sentence grammatically correct. Revised sentence: \"A URL\" <Begin> The rule is that \"URL\" is a singular noun and should be preceded by the indefinite article \"a\" when used in a sentence. </End>": [
+        10.879181310761691,
+        4.120818689238308
+    ],
+    "The grammar error in the sentence is the lack of a subject. The revised sentence is \"I watched season 2 today.\" <Begin>Subject-Verb Agreement</End>": [
+        4.217014519056262,
+        1.7829854809437387
+    ],
+    "Original Sentence: Fruit Grammar Error: The original sentence is incomplete and lacks a subject. Revised Sentence: \"I like fruit.\" Explanation: The original sentence lacks a subject and verb, so it does not form a complete sentence. By adding the subject \"I\" and the verb \"like,\" the sentence becomes grammatically correct. <Begin>Subject-Verb Agreement</End> - The revised sentence follows the subject-verb agreement rule by matching the singular subject \"I\" with the singular verb \"like.\"": [
+        11.425176792176632,
+        3.574823207823366
+    ],
+    "The original sentence \"It is really good for me\" does not contain any grammatical errors. Revised sentence: \"It is really good for me.\" <Begin>There are no grammatical errors in the original sentence.</End>": [
+        3.977871490804022,
+        2.022128509195978
+    ],
+    "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"Oh, I remembered.\" This sentence has a subject \"I\" and a verb \"remembered.\" <Begin>Subject-Verb Agreement</End>": [
+        3.5913280268118983,
+        2.408671973188102
+    ],
+    "The grammar error in the sentence \"Listening to music\" is that it is a fragment and does not contain a subject. The revised sentence could be \"I am listening to music\" to include a subject and complete the sentence. <Begin>Subject-Verb Agreement</End>": [
+        2.27124983000136,
+        2.72875016999864
+    ],
+    "The grammar error in the sentence \"It 's summer\" is the incorrect use of the apostrophe in \"It's.\" The revised sentence is \"It's summer.\" <Begin>Rule: The contraction for \"it is\" is \"it's\" with an apostrophe.</End>": [
+        1.6041666666666667,
+        1.3958333333333333
+    ],
+    "Grammar error: The sentence should be \"So there is a lot to see.\" Revised sentence: \"So there is a lot to see.\" <Begin>Subject-verb agreement</End>": [
+        5.689243004348648,
+        3.310756995651352
+    ],
+    "Grammar errors: The word \"Arrangements\" is a noun, but the sentence is missing a verb to make it a complete sentence. Revised sentence: We need to make arrangements. <Begin>Subject-Verb agreement</End>": [
+        10.261521255685018,
+        2.7384787443149814
+    ],
+    "The original sentence \"it makes me happy\" does not contain any grammar errors. Revised sentence: \"It makes me happy.\" <Begin>There are no grammar errors in the original sentence.</End>": [
+        10.05602330629086,
+        2.943976693709139
+    ],
+    "Grammar error: The sentence lacks a subject and a verb. It is a fragment. Revised sentence: \"What a shock!\" <Begin>Exclamatory sentences must have a subject and a verb.</End>": [
+        6.731673104581141,
+        3.2683268954188587
+    ],
+    "Grammar error: The sentence lacks a subject and a verb. Revised sentence: \"What a pity!\" <Begin>Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.</End>": [
+        6.752785434754621,
+        2.247214565245379
+    ],
+    "The grammar error in the sentence is the use of \"I 'm\" instead of \"I'm\" which is a contraction of \"I am.\" The revised sentence is \"I'm so into it.\" <Begin> Contractions are formed by combining two words and replacing missing letters with an apostrophe. </End>": [
+        7.836696428950901,
+        2.163303571049098
+    ],
+    "The grammar error in the sentence \"Nice to meet you\" is that it is missing a subject. The revised sentence could be \"It's nice to meet you\" or \"I'm nice to meet you.\" <Begin> The subject of a sentence is necessary for it to be grammatically correct. </End>": [
+        5.746974646595728,
+        3.253025353404272
+    ],
+    "There are no grammar errors in the original sentence \"I saw a news on Yahoo yesterday.\" Revised sentence: \"I saw a news article on Yahoo yesterday.\" <Begin> The word \"news\" is typically uncountable and does not take an article before it. However, in this case, \"news\" is being used to refer to a specific news article, so the article \"a\" is appropriate. </End>": [
+        2.9353070175438596,
+        2.0646929824561404
+    ],
+    "The original sentence \"I love citrus fruits.\" does not contain any grammar errors. Revised sentence: \"I love citrus fruits.\" <Begin> There are no specific grammar rules or prior knowledge used in this inference. </End>": [
+        6.706724280212727,
+        3.293275719787273
+    ],
+    "The grammar error in the sentence is the use of \"an\" before \"article on TIME.\" The correct article to use in this case is \"an\" because \"article\" begins with a vowel sound. The revised sentence is: \"I have seen an article on TIME.\" Rule: Use \"an\" before words that begin with a vowel sound. <Begin>Use \"an\" before words that begin with a vowel sound</End>": [
+        1.0,
+        2.0
+    ],
+    "Grammar error: The subject and verb do not agree. \"They\" is plural, so the verb should be \"disturb\" instead of \"disturbs.\" Revised sentence: And now they disturb me. <Begin> Subject-Verb Agreement </End>": [
+        1.4089635854341738,
+        2.591036414565826
+    ],
+    "The original sentence \"I like Finland\" does not contain any grammar errors. Revised sentence: \"I like Finland.\" No grammar errors found. <Begin>No errors found</End>": [
+        3.38452380952381,
+        1.6154761904761903
+    ],
+    "The grammar error in the sentence is the use of \"gon na\" instead of \"gonna\" which is a contraction of \"going to\". The revised sentence is: \"I'm gonna do it next time!\" <Begin> Use contractions for informal speech </End>": [
+        2.054970760233918,
+        1.945029239766082
+    ],
+    "The grammar error in the sentence \"It 's not a joke\" is the incorrect use of the contraction \"It's\" with a space before the apostrophe. The revised sentence is \"It's not a joke.\" <Begin>Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.</End>": [
+        8.61599791204772,
+        2.3840020879522807
+    ],
+    "The grammar error in the sentence \"I had to write about counseling\" is the tense inconsistency. The verb \"had\" is in the past tense, but \"write\" is in the present tense. Revised sentence: I have to write about counseling. <Begin> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. </End>": [
+        3.0927869123357845,
+        1.9072130876642155
+    ],
+    "The grammar error in the sentence is that it is missing a subject. The revised sentence could be \"I said that was disappointing.\" <Begin>Subject-Verb Agreement</End>": [
+        6.317860318799693,
+        2.6821396812003075
+    ],
+    "The grammar error in the sentence \"My son have diarrhea\" is that \"have\" should be changed to \"has\" to match the singular subject \"son.\" Revised sentence: My son has diarrhea. <Begin>Subject-Verb Agreement</End>": [
+        3.046345811051694,
+        1.9536541889483063
+    ],
+    "Grammar error: The sentence should be \"This is my first time writing a diary on the internet.\" Revised sentence: This is my first time writing a diary on the internet. <Begin>Use of the gerund form \"writing\" after \"first time\" instead of \"to write\"</End>": [
+        4.763387000596302,
+        2.2366129994036976
+    ],
+    "Grammar errors: - The verb \"think\" should be in the present tense, so it should be \"I think this web site is a cool idea.\" Revised sentence: \"I think this web site is a cool idea.\" <Begin>Present tense verb \"think\" is used to express a current opinion or belief.</End>": [
+        1.1162790697674418,
+        1.8837209302325582
+    ],
+    "The grammar error in the sentence \"I will introduce about my dog, Tiara\" is the use of the word \"about.\" The revised sentence should be \"I will introduce my dog, Tiara.\" <Begin> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. </End>": [
+        3.8553763440860216,
+        2.1446236559139784
+    ],
+    "The grammar error in the sentence is the incorrect use of the apostrophe in \"And I 'm.\" The revised sentence is: \"And I'm eating a banana every day for my health.\" <Begin>Use of contraction</End>": [
+        5.159600250356553,
+        2.8403997496434474
+    ],
+    "Grammar error: The phrase \"with the commuter train\" is awkward and doesn't make sense in this context. Revised sentence: I am listening to music on the commuter train. <Begin>Rule: Use \"on\" to indicate the location of an activity when referring to public transportation.</End>": [
+        1.9583333333333335,
+        2.0416666666666665
+    ],
+    "Grammar error: The possessive form of \"Kanji\" should be \"Kanji's\" not \"His Kanji's.\" Revised sentence: His ability in Kanji is much better than mine. <Begin>Rule: Possessive form of singular noun is formed by adding 's</End>": [
+        5.4350595791676355,
+        2.5649404208323645
+    ],
+    "There are no grammar errors in the given sentence. The revised sentence is: \"He is also good at Japanese and studies 'Kanji'.\" <Begin>There is no need to make any changes to the grammar or structure of the sentence.</End>": [
+        5.829913688673532,
+        2.170086311326468
+    ],
+    "The grammar error in the sentence is the use of the word \"which\" without a comma before it. It should be revised to: \"The second memory is the toys, which I was given near the border.\" <Begin> Rule: Use a comma before the word \"which\" when it introduces a nonrestrictive clause. </End>": [
+        5.026648236255774,
+        2.9733517637442266
+    ],
+    "The grammar error in the sentence is the use of \"n't\" instead of \"haven't.\" The revised sentence is \"I haven't seen cockroaches since I came here.\" <Begin> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. </End>": [
+        9.652622462556694,
+        3.3473775374433057
+    ],
+    "Grammar error: The correct form is \"didn't show up\" instead of \"did n't show up\" Revised sentence: I tried to fight against him, but he didn't show up. <Begin> Rule: The contraction for \"did not\" is \"didn't\" </End>": [
+        5.6917834200770585,
+        2.3082165799229415
+    ],
+    "The grammar error in the sentence \"Oh , My God !\" is the unnecessary comma before \"My God.\" The revised sentence is \"Oh, my God!\" <retrieved_rule> Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence. <retrieved_rule>": [
+        18.113899418844586,
+        3.8861005811554135
+    ],
+    "The grammar error in the sentence \"no title, haha\" is the lack of a subject and verb. The revised sentence should be \"There is no title. Haha.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        3.142730496453901,
+        1.857269503546099
+    ],
+    "The sentence \"What a shock !\" is an exclamatory sentence and does not require a subject and a verb to be grammatically correct. There are no grammar errors in the original sentence.": [
+        3.6244239631336406,
+        2.3755760368663594
+    ],
+    "The grammar error in the sentence is the use of a comma before \"which,\" which creates a non-restrictive clause. The revised sentence is: \"The second memory is the toys which I was given near the border.\" <retrieved_rule> Use of the gerund form \"writing\" after \"first time\" instead of \"to write\" <retrieved_rule>": [
+        3.566970618034448,
+        2.433029381965552
+    ],
+    "There are no grammar errors in the given sentence. The revised sentence is: \"It's really good for me.\" <retrieved_rule> The contraction for \"it is\" is \"it's\" with an apostrophe. <retrieved_rule>": [
+        6.228027209481383,
+        1.7719727905186162
+    ],
+    "The grammar error in the sentence is the unnecessary use of double quotation marks around \"Grey's Anatomy.\" The revised sentence is \"I watched the DVD Grey's Anatomy today.\" <new_rule> Use single quotation marks for titles of TV shows or episodes. <new_rule>": [
+        5.781367102754586,
+        2.2186328972454143
+    ],
+    "The grammar error in the sentence \"Fruit\" is the lack of a subject and a verb, making it a sentence fragment. The revised sentence should be \"This is a fruit.\" <retrieved_rule> Subject-Verb agreement <retrieved_rule>": [
+        9.359197478934322,
+        2.6408025210656785
+    ],
+    "The grammar error in the sentence \"I 'm not sure about keeping the action points feature though .\" is the use of the contraction \"I'm\" without a space before the apostrophe. The revised sentence should be \"I'm not sure about keeping the action points feature though.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        11.423077171970872,
+        3.5769228280291303
+    ],
+    "The grammar error in the sentence \"I am listening to music with the commuter train\" is the incorrect use of the preposition \"with.\" The revised sentence is \"I am listening to music on the commuter train.\" <retrieved_rule> Use \"on\" to indicate the location of an activity when referring to public transportation. <retrieved_rule>": [
+        2.3070077864293657,
+        1.6929922135706341
+    ],
+    "The grammar error in the sentence \"You know , you can take them at slot machine\" is the incorrect use of the comma before \"you can take them at slot machine.\" The revised sentence should be \"You know you can take them at the slot machine.\" <retrieved_rule> Use a comma to separate a greeting from the rest of the sentence. <retrieved_rule>": [
+        6.832076866223208,
+        2.1679231337767924
+    ],
+    "The grammar error in the sentence is the unnecessary space before the apostrophe in \"it's.\" The revised sentence is \"And I think it's fun, right?\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        3.3450334650994353,
+        2.6549665349005647
+    ],
+    "The original sentence \"Arrangements\" is incomplete and lacks a subject and verb. Revised sentence: \"We need to make arrangements.\" Explanation: The original sentence lacks a subject and verb, so it does not form a complete sentence. By adding the subject \"We\" and the verb \"need to make,\" the sentence becomes grammatically correct. <new_rule> Subject-Verb Agreement <new_rule> - The revised sentence follows the subject-verb agreement rule by matching the plural subject \"We\" with the plural verb \"need to make.\"": [
+        2.098153214774282,
+        1.9018467852257184
+    ],
+    "The grammar error in the sentence \"He is also good at Japanese and studies 'Kanji'.\" is the incorrect use of single quotation marks for the title of \"Kanji.\" The revised sentence is \"He is also good at Japanese and studies 'Kanji'.\" <retrieved_rule> Use single quotation marks for titles of TV shows or episodes. <retrieved_rule>": [
+        3.8370614854485825,
+        2.162938514551418
+    ],
+    "Grammar errors: The sentence lacks a subject and a verb. Revised sentence: \"And why didn't I play that well at the audition?\" <retrieved_rule> Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The original sentence \"You play really well , you level skills are higher than just amateur .\" contains a grammar error. The revised sentence should be \"You play really well; your level of skills is higher than just amateur.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        5.493517628048141,
+        1.5064823719518583
+    ],
+    "The grammar error in the sentence \"His Kanji 's ability is much better than me .\" is the incorrect use of the possessive form of \"Kanji.\" The revised sentence should be \"His Kanji's ability is much better than mine.\" <retrieved_rule> Capitalize proper nouns, including the names of deities, when referring to them. <retrieved_rule>": [
+        5.5331870025646115,
+        2.4668129974353876
+    ],
+    "The grammar error in the sentence \"I suppose , I was 7 ( nice age , you do n't need to think about serious things and can do what you want ) .\" is the unnecessary comma before \"I suppose\" and the use of \"do n't\" instead of \"don't\". The revised sentence should be \"I suppose I was 7 (nice age, you don't need to think about serious things and can do what you want).\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        2.8362326490948138,
+        2.1637673509051862
+    ],
+    "The grammar error in the sentence \"It sounded not bad\" is the use of a double negative. The revised sentence should be \"It sounded good.\" <retrieved_rule> Double negatives should be avoided in English grammar. <retrieved_rule>": [
+        9.828988187552017,
+        2.1710118124479827
+    ],
+    "The grammar error in the sentence \"The session is passed , and I work as apprentice at the souvenir shop .\" is the use of \"passed\" instead of \"past\" to indicate the completion of the session. The revised sentence should be \"The session is past, and I work as an apprentice at the souvenir shop.\" <new_rule> Use the correct verb tense to match the timing of the action being described. <new_rule>": [
+        4.395174666410084,
+        2.6048253335899147
+    ],
+    "The grammar error in the sentence \"Usually , rain makes me unhappy ,\" is the unnecessary space before the comma. The revised sentence is: \"Usually, rain makes me unhappy.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.1308411214953271,
+        1.8691588785046729
+    ],
+    "Grammar error: The word \"like\" should be replaced with \"as\" to compare actions or states of being. The revised sentence is \"It is as when you are confronted with frustration, you have to keep your confidence.\" <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns. <retrieved_rule>": [
+        5.134268861809696,
+        1.8657311381903035
+    ],
+    "The grammar error in the sentence \"That might be one of the reasons , however , it sounds like just an excuse .\" is the incorrect use of the comma after \"reasons\" and before \"however.\" The revised sentence should be \"That might be one of the reasons; however, it sounds like just an excuse.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        2.8947368421052633,
+        1.1052631578947367
+    ],
+    "The grammar error in the sentence \"I make a long entry again\" is the lack of parallel structure. The revised sentence should be \"I am making a long entry again.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        2.9305555555555554,
+        2.0694444444444446
+    ],
+    "The grammar error in the sentence \"So I have to check dictionary all the time\" is the lack of an article before \"dictionary.\" The revised sentence should be \"So I have to check the dictionary all the time.\" <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        4.052154195011338,
+        1.947845804988662
+    ],
+    "The grammar error in the sentence \"Old and not beautiful . . . . .\" is the lack of a subject and verb. The revised sentence should be \"It is old and not beautiful.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule>": [
+        2.8037334716100597,
+        2.1962665283899403
+    ],
+    "The grammar error in the sentence \"I liked the winter Finland\" is the incorrect use of the preposition \"the.\" The revised sentence is \"I liked winter in Finland.\" <retrieved_rule> There is a rule in English grammar that states when referring to a season or weather, the preposition \"in\" should be used. <retrieved_rule>": [
+        5.181802188812949,
+        1.818197811187051
+    ],
+    "The grammar error in the sentence \"It 's not a joke\" is the incorrect use of the contraction \"It's\" with a space before the apostrophe. The revised sentence should be \"It's not a joke.\" <retrieved_rule> The contraction for \"it is\" is \"it's\" with an apostrophe. <retrieved_rule>": [
+        1.9230769230769231,
+        1.0769230769230769
+    ],
+    "The grammar error in the sentence \"I had to write about counseling.\" is the use of \"write about\" which is redundant. The revised sentence should be \"I had to write counseling.\" <new_rule> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. <new_rule>": [
+        3.8679749986757774,
+        2.1320250013242226
+    ],
+    "The original sentence \"I just installed Fallout 3 and played a bit last night\" does not contain any grammar errors. Revised sentence: \"I just installed Fallout 3 and played a bit last night.\" <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        2.845648604269294,
+        1.154351395730706
+    ],
+    "The grammar error in the sentence \"That 's two balls : one with a cat inside , other with dog\" is the incorrect use of the word \"other\" instead of \"the other\" before \"dog.\" The revised sentence should be \"That's two balls: one with a cat inside, the other with a dog.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule>": [
+        3.6254844006568145,
+        1.3745155993431855
+    ],
+    "The grammar error in the sentence \"thank you for reading\" is the missing comma after \"thank you.\" The revised sentence is \"Thank you for reading.\" <retrieved_rule> Use a comma after an interjection such as \"Oh\" when expressing strong emotion. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"Hope you will not feel bored about this diary and help me for correcting it.\" is the use of \"for correcting\" instead of \"to correct.\" The revised sentence should be \"Hope you will not feel bored about this diary and help me to correct it.\" <new_rule> Rule: Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <new_rule>": [
+        7.390652359349839,
+        1.6093476406501617
+    ],
+    "The grammar error in the sentence \"I 'm gon na do it next time !\" is the incorrect contraction \"gon na.\" The revised sentence is \"I'm going to do it next time!\" <retrieved_rule> The future tense form of \"move\" is \"is going to move\". <retrieved_rule>": [
+        4.140381520857115,
+        1.8596184791428847
+    ],
+    "The original sentence \"Good luck on your new start!\" does not contain any grammatical errors. The revised sentence is: \"Good luck on your new start!\" <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        6.47056589361145,
+        1.5294341063885495
+    ],
+    "The grammar error in the sentence \"Mom stared at him and raised me up to show him : D That 's my first memory about this country .\" is the use of the emoticon \" : D\" which is not appropriate in formal writing. The revised sentence is \"Mom stared at him and raised me up to show him. That's my first memory about this country.\" <retrieved_rule> Exclamatory sentences must have a subject and a verb. <retrieved_rule>": [
+        3.682663351291615,
+        1.3173366487083848
+    ],
+    "The grammar errors in the sentence \"He is a so nice guy and taught me English very kindly and was willing to accept my getting off the track\" are the lack of parallel structure and the use of \"a so\" instead of \"such a.\" The revised sentence is \"He is such a nice guy, taught me English very kindly, and was willing to accept my getting off the track.\" <retrieved_rule> Parallel structure <retrieved_rule> <new_rule> Use \"such a\" before an adjective to indicate a high degree of that quality. <new_rule>": [
+        6.2703787284144425,
+        1.7296212715855572
+    ],
+    "Grammar error: The original sentence \"So , please somebody correct my English !\" has a punctuation error. The correct punctuation should be \"So, please somebody correct my English!\" with a comma after \"So\". Revised sentence: \"So, please, somebody correct my English!\" <new_rule> When starting a sentence with a phrase of urgency or request, it should be followed by a comma. <new_rule>": [
+        4.025938830816879,
+        1.9740611691831205
+    ],
+    "The grammar error in the sentence \"This is my first time to write diary on the internet\" is the use of \"to write diary\" instead of \"to write a diary.\" The revised sentence should be \"This is my first time writing a diary on the internet.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        3.2827983040581468,
+        1.7172016959418532
+    ],
+    "The grammar error in the sentence \"Actually, who let me know about Lang-8 was him.\" is the use of \"about\" after \"let me know,\" which is redundant. The revised sentence should be \"Actually, who let me know about Lang-8 was him.\" <new_rule> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. <new_rule>": [
+        6.985008280701266,
+        2.0149917192987337
+    ],
+    "The sentence \"Nice to meet you .\" does not have any grammar errors.": [
+        2.1792717086834736,
+        1.8207282913165266
+    ],
+    "The original sentence \"What a pity !\" is an exclamatory sentence that lacks a subject and a verb, which is a grammar error. The revised sentence should be \"What a pity it is!\" <retrieved_rule> Exclamatory sentences must have a subject and a verb. <retrieved_rule>": [
+        5.675605258558226,
+        2.324394741441774
+    ],
+    "The grammar error in the sentence \"Here is the link\" is the lack of capitalization at the beginning of the sentence. The revised sentence should be \"Here is the link.\" <retrieved_rule> Capitalization rule: The first word of a sentence should be capitalized. <retrieved_rule>": [
+        2.8745755517826828,
+        2.1254244482173172
+    ],
+    "The grammar error in the sentence \"It reminds and inspires me a lot .\" is the lack of parallel structure in the verbs \"reminds\" and \"inspires.\" The revised sentence should be \"It reminds and inspires me a lot.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        4.0836229086229086,
+        1.9163770913770914
+    ],
+    "The grammar error in the sentence \"I heard a sentence last night when I watched TV.\" is the unnecessary use of \"when\" to introduce a nonrestrictive clause. The revised sentence is \"I heard a sentence last night while I watched TV.\" <new_rule> Use a comma before the word \"which\" when it introduces a nonrestrictive clause. <new_rule>": [
+        3.7279260422117564,
+        2.2720739577882436
+    ],
+    "The original sentence \"Hi everyone\" does not contain any grammar errors. Revised sentence: \"Hi everyone.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        3.8835700884481374,
+        2.1164299115518626
+    ],
+    "The grammar error in the sentence \"Actually I keep watching it these days\" is the lack of a comma after \"Actually\" to separate the introductory adverb. The revised sentence should be \"Actually, I keep watching it these days.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        6.068177057990888,
+        1.9318229420091124
+    ],
+    "The original sentence \"I like you give me any commets and opinoins too.\" contains several grammar errors. The revised sentence should be \"I would like for you to give me any comments and opinions as well.\" <new_rule> Use \"would like\" to express a preference. <new_rule> <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"But a no way.\" is the lack of a subject and a verb, making it an incomplete sentence. The revised sentence should be \"But there's no way.\" <retrieved_rule> Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "Grammar error: The sentence should end with a punctuation mark, such as a period or exclamation point. Revised sentence: \"My dog!\" <retrieved_rule> Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"Let me write something and see if anyone can review it and give me some advice\" is the lack of parallel structure in the verbs \"write\" and \"see.\" The revised sentence should be \"Let me write something and see if anyone can review it and give me some advice.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        2.800627943485086,
+        1.1993720565149137
+    ],
+    "The grammar error in the sentence \"It said that was disappointing\" is the lack of a subject and verb in the sentence. The revised sentence is \"It said that it was disappointing.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        4.480921052631579,
+        1.519078947368421
+    ],
+    "The grammar error in the sentence \"My son have diarrhea\" is the subject-verb agreement error. The correct verb form for the singular subject \"son\" should be \"has\" instead of \"have\". The revised sentence should be \"My son has diarrhea.\" <retrieved_rule> Subject-Verb agreement <retrieved_rule>": [
+        3.5706388206388207,
+        1.4293611793611793
+    ],
+    "The original sentence \"I tried to fight against him , but he did n't show up .\" contains a grammar error. The revised sentence should be \"I tried to fight against him, but he didn't show up.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.794871794871795,
+        1.205128205128205
+    ],
+    "The grammar error in the sentence \"I have n't seen cockroaches since I came here .\" is the incorrect contraction \"n't.\" The revised sentence is \"I haven't seen cockroaches since I came here.\" <retrieved_rule> The contraction for \"have\" and \"not\" is \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        3.563877881341743,
+        1.4361221186582576
+    ],
+    "The grammar error in the sentence \"A nice surpise\" is that it lacks a verb, making it a sentence fragment. The revised sentence is \"This is a nice surprise.\" <retrieved_rule> Subject-Verb agreement <retrieved_rule>": [
+        2.716965046888321,
+        1.2830349531116794
+    ],
+    "The grammar error in the sentence \"By the way , today I went to guitar teacher , and the only thing he said after `` Show me what you can ! `` was `` What do you want ?\" is the lack of parallel structure. The revised sentence should be \"By the way, today I went to the guitar teacher, and the only thing he said after 'Show me what you can!' was 'What do you want?'\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"So there are a lot to see\" is the incorrect use of the phrase \"a lot\" with the singular verb \"is.\" The revised sentence should be \"So there is a lot to see.\" <retrieved_rule> Plural nouns are used when referring to more than one of something. <retrieved_rule>": [
+        2.612337662337662,
+        1.3876623376623378
+    ],
+    "The grammar error in the sentence \"People help each other learning their languages\" is the lack of parallel structure. The revised sentence should be \"People help each other learn their languages.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.973684210526316,
+        1.026315789473684
+    ],
+    "The grammar error in the sentence \"Well , finally , my mother took me to the customs window , she gave a passport to man . . .\" is the lack of a conjunction or punctuation to properly connect the two independent clauses. The revised sentence should be \"Well, finally, my mother took me to the customs window and gave a passport to the man.\" <new_rule> Use a comma before coordinating conjunctions to separate independent clauses. <new_rule>": [
+        3.647023963850513,
+        1.352976036149487
+    ],
+    "The grammar error in the sentence \"I 'm looking forward to seeing him again through here\" is the use of \"through here,\" which is unclear and does not convey the intended meaning. The revised sentence should be \"I'm looking forward to seeing him again.\" <retrieved_rule> Use \"to\" after \"looking forward\" to indicate the action of looking forward <retrieved_rule>": [
+        2.6878402903811254,
+        1.3121597096188746
+    ],
+    "The grammar error in the sentence is the use of \"now\" at the end of the sentence, which does not fit the context. The revised sentence is \"I ate a Chinese citron.\" <new_rule> The present tense verb \"ate\" should not be followed by \"now\" as it does not fit the context. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"bye!\" is an exclamatory sentence and does not contain any grammar errors. Revised sentence: \"Bye!\" <retrieved_rule> Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling. <retrieved_rule>": [
+        2.034813925570228,
+        1.965186074429772
+    ],
+    "The grammar error in the sentence \"My son have diarrea\" is the lack of subject-verb agreement. The revised sentence should be \"My son has diarrhea.\" <retrieved_rule> Subject-verb agreement <retrieved_rule>": [
+        4.523039560651847,
+        1.476960439348153
+    ],
+    "The original sentence \"And now they disturb me\" is missing a comma after \"now\" to separate the introductory adverb. The revised sentence should be \"And now, they disturb me.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"On the one hand you need to be attentive and neat , but on the other hand you should set all your imagination and inspiration in motion .\" contains a grammar error. The revised sentence should be \"On the one hand, you need to be attentive and neat, but on the other hand, you should set all your imagination and inspiration in motion.\" <retrieved_rule> Use a comma after introductory adverbs such as \"however.\" <retrieved_rule>": [
+        1.864864864864865,
+        1.135135135135135
+    ],
+    "The grammar errors in the sentence \"and when we were going to sit in a truck , frightened man suddenly said `` lapsi ! ``\" are the lack of a comma after the introductory adverb \"when\" and the incorrect use of double quotation marks instead of single quotation marks. The revised sentence should be \"And when we were going to sit in a truck, the frightened man suddenly said 'lapsi!'\" <retrieved_rule> Use a comma after introductory adverbs such as \"when.\" <retrieved_rule> <new_rule> Use single quotation marks for direct quotes within a larger quotation. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Well , I just proud of myself , yep .\" is the lack of a comma after \"Well\" to separate the introductory interjection. The revised sentence should be \"Well, I just proud of myself, yep.\" <retrieved_rule> Use a comma after an interjection such as \"Oh\" when expressing strong emotion. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I really like to discuss\" is the lack of a direct object after the verb \"discuss.\" The revised sentence should be \"I really like to discuss topics.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Grammar error: The sentence should be \"Before, I went to a library.\" Revised sentence: \"Before, I went to a library.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.1141304347826086,
+        1.8858695652173914
+    ],
+    "The grammar error in the sentence \"The making souvenir is a hard and interesting work\" is the lack of parallel structure. The revised sentence should be \"Making souvenirs is hard and interesting work.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.6992257927669954,
+        2.3007742072330046
+    ],
+    "The grammar error in the sentence \"A lot of good features are inherited from old Fallout series, like the SPECIAL system, always having good, bad, neutral and (my favorite) sarcasm options when talking with NPCs.\" is the lack of parallel structure in the list of options. The revised sentence should be \"A lot of good features are inherited from the old Fallout series, such as the SPECIAL system, always having good, bad, neutral, and (my favorite) sarcasm options when talking with NPCs.\" <retrieved_rule> Parallel structure <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I just realised I am so lucky !!!\" is the use of multiple exclamation marks, which is unnecessary. The revised sentence should be \"I just realized I am so lucky!\" <retrieved_rule> Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence. <retrieved_rule>": [
+        1.973684210526316,
+        1.026315789473684
+    ],
+    "The grammar error in the sentence \"I hope someone see my diary and correct it\" is the lack of subject-verb agreement. The correct form should be \"I hope someone sees my diary and corrects it.\" <retrieved_rule> Subject-Verb Agreement <retrieved_rule>": [
+        2.817813765182186,
+        1.1821862348178136
+    ],
+    "The grammar error in the sentence \"I have seen an article on TIME\" is the unnecessary capitalization of \"TIME.\" The revised sentence is \"I have seen an article on Time.\" <retrieved_rule> Capitalization rule: The first word of a sentence should be capitalized. <retrieved_rule>": [
+        2.8060413354531004,
+        1.1939586645468998
+    ],
+    "The grammar error in the sentence \"Do n't know why .\" is the lack of a subject in the sentence. The revised sentence should be \"I don't know why.\" <retrieved_rule> Use \"aren't\" for the contraction of \"are not\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"So that 's the second .\" is the incorrect use of the contraction \"that 's\" instead of \"that's\" with the apostrophe. The revised sentence is \"So that's the second.\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        1.8947368421052633,
+        1.1052631578947367
+    ],
+    "The grammar error in the sentence \"Listening to music\" is the use of the gerund form \"listening\" after \"to\" instead of the infinitive form \"to listen.\" The revised sentence is \"To listen to music.\" <retrieved_rule> Use of the gerund form \"writing\" after \"first time\" instead of \"to write\" <retrieved_rule>": [
+        1.0801781737193763,
+        1.9198218262806237
+    ],
+    "The grammar error in the sentence \"And he took in my favorite subject like soccer.\" is the incorrect use of the preposition \"like\" instead of \"such as\" to introduce examples. The revised sentence should be \"And he took in my favorite subject such as soccer.\" <new_rule> Use \"such as\" to introduce examples instead of \"like.\" <new_rule>": [
+        2.635854341736694,
+        2.3641456582633054
+    ],
+    "The grammar error in the sentence \"On the way I had a headache\" is the lack of a preposition before \"the way.\" The revised sentence should be \"On my way, I had a headache.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        1.794871794871795,
+        1.205128205128205
+    ],
+    "The original sentence \"I 'm so into it .\" is an exclamatory sentence that lacks a subject and a verb, which is a grammar error. The revised sentence should be \"I am so into it!\" <retrieved_rule> Exclamatory sentences must have a subject and a verb. <retrieved_rule>": [
+        2.428571428571429,
+        1.5714285714285714
+    ],
+    "The grammar error in the sentence \"The banana is gather in my stomach and gives me energy.\" is the incorrect verb form \"gather.\" The revised sentence should be \"The banana is gathered in my stomach and gives me energy.\" <new_rule> The correct verb form for \"gather\" in this context is \"gathered.\" <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"it makes me happy .\" does not contain any grammatical errors. The revised sentence is: \"It makes me happy.\" <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"But I can study English through this.\" is the lack of a specific object after the preposition \"through.\" The revised sentence should be \"But I can study English through this book.\" <new_rule> Use \"through\" before a specific object to indicate the means or method of something. <new_rule>": [
+        1.9212598425196852,
+        1.0787401574803148
+    ],
+    "The original sentence \"Good words\" does not contain any grammar errors. Revised sentence: \"Good words\" <retrieved_rule> No errors found. <retrieved_rule> The original sentence is already grammatically correct.": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I will introduce about my dog , Tiara .\" is the use of \"introduce about\" instead of \"introduce.\" The revised sentence should be \"I will introduce my dog, Tiara.\" <retrieved_rule> Use \"to\" before the infinitive form of a verb to indicate purpose or intention. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I watched season 2 today\" is the lack of capitalization for the title of the TV show. The revised sentence should be \"I watched Season 2 today.\" <retrieved_rule> Use single quotation marks for titles of TV shows or episodes. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I do n't really like cockroaches . . .\" is the unnecessary use of multiple periods. The revised sentence should be \"I don't really like cockroaches.\" <retrieved_rule> Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"So I must appreciate my mum and help her ^ ^\" is the incorrect use of the caret symbol \"^\" at the end of the sentence. The revised sentence should be \"So I must appreciate my mum and help her.\" <retrieved_rule> When starting a sentence with a phrase of gratitude, it should be followed by a comma. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"OK , let 's all for my first entry .\" is the unnecessary use of a comma before \"let's.\" The revised sentence should be \"OK, let's all for my first entry.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

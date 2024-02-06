@@ -30,7 +30,7 @@ parser.add_argument("--prompt_type", type=str, default="zero-shot",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
-parser.add_argument("--sample_strategy", type=str, default="confidence_1800", #"confidence_num"
+parser.add_argument("--sample_strategy", type=str, default="confidence_500", #"confidence_num"
                     help="sample rule strategy used for experiment")
 
 parser.add_argument("--rule_base_path", type=str, default="../experiment/rule_base_final",
@@ -40,7 +40,7 @@ parser.add_argument("--dataset_type", type=str, default="test",
                         choices=["train", "valid", "test"],
                         help="dataset type used for experiment")
 
-parser.add_argument("--model", type=str, default="gpt-3.5-turbo-1106",
+parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613",
                         choices=["gpt-3.5-turbo-1106", "gpt-3.5-turbo-0613", "gpt-3.5-turbo",
                                  "gpt-4-1106-preview"],
                         help="model used for experiment")
@@ -54,8 +54,8 @@ ExtraNameSpace.NameSpace._args = args
 
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
-rule_base = RuleBase()
-args.rule_base_path = '../data/LANG_8/rule_base_cold'
+rule_base = DisjointSetRuleBase()
+args.rule_base_path = '../experiment/LANG_8/version_0/rule_base_epoch2'
 rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"
@@ -157,6 +157,8 @@ with ThreadPoolExecutor(max_workers=200) as executor:
     futures = [executor.submit(eval_step, args, example) for example in final_dataset]
     for future in futures:
         rationale, prediction, gold_label, score = future.result()
+        prediction = prediction.strip().replace(' ', '') # 因为LANG_8加的
+        gold_label = gold_label.strip().replace(' ', '')
         if prediction.lower() == gold_label.lower() or prediction == "GOLD_LABEL":
             correct_cnt += 1
 
