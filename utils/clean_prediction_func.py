@@ -105,3 +105,11 @@ def clean_prediction(self, prediction: str) -> str:
 
     return prediction
 
+@PredictionCleanNameSpace.register("HtT_version")
+def clean_prediction(self, prediction: str) -> str:
+    pattern = "therefore, the answer is (.*)"
+    match = re.search(pattern, prediction.lower())
+    if match:
+        return match.group(1)
+
+    return prediction

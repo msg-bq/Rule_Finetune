@@ -73,8 +73,8 @@ def args_parse():
         "--demo_save_dir", type=str, default='demosave', help="save dir for demo examples"
     ) #源自autoCoT
 
-    parser.add_argument("--cot_trigger_type", type=str, default='default1',
-                        choices=['default1', 'default2', 'default3', 'HtT'],
+    parser.add_argument("--cot_trigger_type", type=str, default='HtT_version',
+                        choices=['default1', 'default2', 'default3', 'HtT_version'],
                         help="cot trigger type")
 
     args = parser.parse_args()

@@ -344,7 +344,7 @@ def n_shot_prompt(args, rules: List[Rule], demos: Union[str, List[Demo]]):
     else:
         raise TypeError("Incorrect type.")
 
-    added_rules = prompt_rules(rules)
+    added_rules = prompt_rules(args, rules)
     demos, added_rules = prompt_demos(args, demo, added_rules)
 
     return demos, added_rules
@@ -372,7 +372,7 @@ def llm_n_shot_CoT(llm, added_rules: str, input_text: str, demos: str, **kwargs)
     return z, pred
 
 
-def prompt_rules(rules: List[Rule]) -> str:
+def prompt_rules(args, rules: List[Rule]) -> str:
     """
     返回所有rules作为prompt
 
@@ -396,10 +396,13 @@ def prompt_rules(rules: List[Rule]) -> str:
     #       '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
     #       '''establish your own rules in <new_knowledge>xxx<new_knowledge> format.\n'''
 
-    out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
-          '''try to use the provided knowledge whenever possible in <retrieved_rule>xxx<retrieved_rule> format. ''' \
-          '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
-          '''establish your own rules in <new_rule>xxx<new_rule> format.\n'''
+    # out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
+    #       '''try to use the provided knowledge whenever possible in <retrieved_rule>xxx<retrieved_rule> format. ''' \
+    #       '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
+    #       '''establish your own rules in <new_rule>xxx<new_rule> format.\n'''
+
+    out = args.train_prompt
+    #"""When you answer the questions, try to use the provided knowledge whenever possible. Try not to invent knowledge by yourself unless necessary."""
 
     out += 'Knowledge base:\n'
     out += '\n'.join([
@@ -412,30 +415,4 @@ def prompt_rules(rules: List[Rule]) -> str:
 
 
 def prompt_demos(args, demos: str, added_rules: str) -> Tuple[str, str]:
-    assert args.train | args.test
-    demos = demos.replace("<retrieved_rule>", "<rule>")
-    demos = demos.replace("<new_rule>", "<rule>")
-    demos = demos.replace("<Begin>", "<rule>").replace("</Begin>", "<rule>").replace("</End>", "<rule>").replace("<End>", "<rule>")
-
-
-    rule_pattern = re.compile(r"<rule>(.+?)<rule>")
-    rules = rule_pattern.findall(demos)
-
-    cnt = 0
-    for rule in rules:
-        if rule.strip() in added_rules:
-            cnt += 1
-
-    if cnt < 5:  # 这个阈值可以考虑随epoch增大
-        chosen_rules = random.sample(rules, min(len(rules), 5 - cnt))
-        added_rules = added_rules.strip() + "\n" + "\n".join(chosen_rules) + "\n\n"
-
-    for rule in rules:
-        if rule.strip() in added_rules:
-            demos = demos.replace("<rule>" + rule + "<rule>", "<retrieved_rule> " + rule.strip() + " <retrieved_rule>")
-        else:
-            demos = demos.replace("<rule>" + rule + "<rule>", "<new_rule> " + rule.strip() + " <new_rule>")
-
-    out = ''
-    out += demos
-    return out, added_rules
+    pass

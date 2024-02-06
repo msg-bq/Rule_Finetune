@@ -418,20 +418,12 @@ class Rationale:    # 修正到只有两个属性
         """
         pass
 
+    @RuleExtractionNameSpace.register("Example")
     def extract_rules_training(self) -> List[str]:
         """
         从dataset中抽取出rules，目前存在的问题是未区分retrieved和new
         """
-        total_rules = []
-        rule_pattern = re.compile(r"<retrieved_rule>(.+?)<retrieved_rule>")
-        rules = rule_pattern.findall(self.rationale)
-        total_rules += [r.strip() for r in rules]
-        rule_pattern = re.compile(r"<new_rule>(.+?)<new_rule>")
-        rules = rule_pattern.findall(self.rationale)
-        total_rules += [r.strip() for r in rules]
-        self.rules = self.rules.union(set(total_rules))
-
-        return total_rules
+        pass
 
     @classmethod
     @PredictionCleanNameSpace.register("Example")
