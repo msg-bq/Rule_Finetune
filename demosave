@@ -1,62 +1,7 @@
 {
-    "cluster_0": [
-        {
-            "question": "Context: The relations on the path from Myrna to Jason are daughter,grandfather.\nQuestion: Jason is Myrna's what?",
-            "rationale": "1. Myrna's father is Jason's grandfather. 2. Myrna's child is Jason's daughter. 3. Therefore, Jason is Myrna's father. <Begin>Relation rule: The father of a daughter is the grandfather of her child.</End>",
-            "gold_label": "father"
-        }
-    ],
-    "cluster_1": [
-        {
-            "question": "Context: The relations on the path from Myrna to Jason are daughter,grandfather.\nQuestion: Jason is Myrna's what?",
-            "rationale": "1. Myrna's father is Jason's grandfather. 2. Myrna's child is Jason's daughter. 3. Therefore, Jason is Myrna's father. <Begin>Relation rule: The father of a daughter is the grandfather of her child.</End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
-            "rationale": "Jason is Lucille's wife's granddaughter. So, Lucille is Jason's granddaughter-in-law. <Begin> Inference rule: The spouse of a grandchild is a grandchild-in-law. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Dwight are son,uncle.\nQuestion: Dwight is Alma's what?",
-            "rationale": "Dwight is Alma's son's uncle. Therefore, Dwight is Alma's brother or brother-in-law. <Begin> In this context, the relationship of uncle is established through the son, so Dwight must be the brother of Alma. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
-            "rationale": "Sheila is Lisa's son's wife. <Begin>In general, a son's wife is the daughter-in-law of the son's mother.</End> So, Sheila is Lisa's daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        }
-    ],
-    "cluster_2": [
-        {
-            "question": "Context: The relations on the path from Jason to Lucille are wife,granddaughter.\nQuestion: Lucille is Jason's what?",
-            "rationale": "Jason is Lucille's wife's granddaughter. So, Lucille is Jason's granddaughter-in-law. <Begin> Inference rule: The spouse of a grandchild is a grandchild-in-law. </End>",
-            "gold_label": "granddaughter"
-        }
-    ],
-    "cluster_3": [
-        {
-            "question": "Context: The relations on the path from Alma to Dwight are son,uncle.\nQuestion: Dwight is Alma's what?",
-            "rationale": "Dwight is Alma's son's uncle. Therefore, Dwight is Alma's brother or brother-in-law. <Begin> In this context, the relationship of uncle is established through the son, so Dwight must be the brother of Alma. </End>",
-            "gold_label": "brother"
-        }
-    ],
-    "cluster_4": [
-        {
-            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
-            "rationale": "Sheila is Lisa's son's wife. <Begin>In general, a son's wife is the daughter-in-law of the son's mother.</End> So, Sheila is Lisa's daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Donald are sister,brother.\nQuestion: Donald is Vanessa's what?",
-            "rationale": "Donald is Vanessa's brother, as they share a sibling relationship. <Begin> In general, siblings share the same parents. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Vanessa are son,wife.\nQuestion: Vanessa is Alma's what?",
-            "rationale": "Vanessa is Alma's daughter-in-law. <Begin> In a son-wife relationship, the wife is the daughter-in-law of the son's mother. </End>",
-            "gold_label": "daughter-in-law"
-        }
-    ]
+    "cluster_0": [],
+    "cluster_1": [],
+    "cluster_2": [],
+    "cluster_3": [],
+    "cluster_4": []
 }
