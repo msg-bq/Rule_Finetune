@@ -360,9 +360,13 @@ def llm_n_shot_CoT(llm, added_rules: str, input_text: str, demos: str, **kwargs)
                   '''<retrieved_rule>tag and add the new rules into knowledge base by <new_rule> <new_rule> tag.
                   Examples: \n'''
 
+    # input_text = added_rules + \
+    #              demo_prompt + demos + '\n' + \
+    #              'Then, please answer this question: \n' + input_text.strip() + "\nAnswer: "
+
     input_text = added_rules + \
-                 demo_prompt + demos + '\n' + \
-                 'Then, please answer this question: \n' + input_text.strip() + "\nAnswer: "
+                 '\n' + demos + '\n' + \
+                 input_text.strip() + "\nAnswer: "
 
     max_length = 2048
     z = llm.generate_single(input_text=input_text, **kwargs)
