@@ -11,6 +11,7 @@ from utils.others import move_file_to_jsonl
 from utils.ExtraNameSpace import ScoreNameSpace
 import utils.clean_prediction_func
 import utils.score
+import utils.prompt_method
 
 
 @ScoreNameSpace.register("Example")
@@ -22,7 +23,7 @@ def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trig
     """
     目前是直接用了autoCoT的写法
     """
-    llm_input = input_text + "\n" + cot_trigger
+    llm_input = cot_trigger + "\n" + input_text
 
     max_length = 4096
     rationales_answers_pair = []

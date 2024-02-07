@@ -25,8 +25,8 @@ def args_parse():
     parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-    parser.add_argument("--rationale_dir", type=str, default=None,
-                        help="rationale path used for experiment, name should be train/val/test.jsonl")
+    parser.add_argument("--rationale_path", type=str, default=None,
+                        help="rationale path used for experiment")
 
     parser.add_argument("--save_dir", type=str, default=None,
                         help="save dir used for experiment")
@@ -130,12 +130,12 @@ def main():
 
     if args.multi_thread:
         if os.path.exists(os.path.join(args.data_dir, "rationale/ZeroShotCoTParallel.jsonl")):
-            args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoTParallel.jsonl")
+            args.rationale_path = os.path.join(args.data_dir, "rationale/ZeroShotCoTParallel.jsonl")
     else:
         if os.path.exists(os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")):
-            args.rationale_dir = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
+            args.rationale_path = os.path.join(args.data_dir, "rationale/ZeroShotCoT.jsonl")
 
-    if args.rationale_dir:
+    if args.rationale_path:
         train_dataset, valid_dataset, test_dataset = read_rationales(args,
                                                                      train_dataset=train_dataset,
                                                                      valid_dataset=valid_dataset,

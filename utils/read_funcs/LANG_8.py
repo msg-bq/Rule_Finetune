@@ -24,6 +24,7 @@ def read_LANG_8_data(path) -> List[dict]:
             label = lines_data[5]
         sentence = lines_data[4]
         data.append({'sentence': sentence, 'label': label})
+
     data = [{'question': question_template.format(sample['sentence']), 'gold_label': sample['label']}
             for sample in data]
     return data
@@ -31,7 +32,7 @@ def read_LANG_8_data(path) -> List[dict]:
 
 @DatasetsReaderNameSpace.register("LANG_8")
 def read_func(data_dir):
-    train_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.train')[:200]
+    train_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.train')
     test_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.test')[:200]
 
     return train_data, None, test_data

@@ -25,9 +25,7 @@ def read_preprocessed_data(path) -> List[dict]:     # 读取预处理
     with open(path, 'r', encoding="GB18030") as f:
         data = [line.strip() for line in f.readlines()]
 
-    data = list(set(data))
-
-    with open(path, 'w', encoding="GB18030") as f:
+    with open(path, 'w', encoding="utf8") as f:
         for sample in data:
             f.write(sample + '\n')
 
@@ -113,7 +111,7 @@ def read_rationales(args, **kwargs):
     """
     读取rationale，将其加入到对应的数据集中
     """
-    rationale_path = args.rationale_dir
+    rationale_path = args.rationale_path
 
     move_file_to_jsonl(save_dir=os.path.join(args.data_dir, "rationale/parallel"),
                        save_path=rationale_path)

@@ -1,0 +1,245 @@
+Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-0613', prompt_type='CoT_rule', rule_base_path='../experiment/LANG_8/version_0/rule_base_epoch4', sample_strategy='confidence_500')
+Instruction: Following are several existed rules in knowledge base. When you answer the questions, try to use the provided rules whenever possible. Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to establish your own rules.
+Knowledge base (involved rules):
+
+max_confidence_num: 500
+rule_base:
+No errors found.
+Use "and" to connect independent clauses.
+Parallel structure
+Adjective-noun agreement should be used to ensure proper grammar.
+Rule: Punctuation should not have a space before it.
+Punctuation should not have a space before it.
+Use a comma before coordinating conjunctions to separate independent clauses.
+The contraction "n't" should be "haven't" to indicate the present perfect tense.
+Adjective-noun agreement
+Plural nouns are used when referring to more than one of something.
+The use of the contraction "n't" instead of "not" in informal writing.
+Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.
+The contraction "It 's" should not have a space before the apostrophe.
+Use "a" before adjectives to indicate a specific degree or extent.
+Use "to" before the infinitive form of a verb to indicate purpose or intention.
+Use "to" after the infinitive form of a verb to indicate purpose or intention.
+There is no grammar error in the original sentence.
+There are no grammar errors in the original sentence.
+There are no grammatical errors in the original sentence.
+The original sentence does not contain any grammar errors.
+There are no specific grammar rules or prior knowledge that need to be applied to this sentence.
+"Little" should be preceded by "a" to indicate a small degree of the adjective.
+Use a comma after introductory adverbs such as "however."
+Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.
+Use "that" to introduce a clause instead of "if"
+The subject of a sentence is necessary for it to be grammatically correct.
+Exclamatory sentences must have a subject and a verb.
+Contractions should not be used in formal writing or when the full form is necessary for clarity.
+Conjunction rule should be used to connect two independent clauses.
+Rule: Use the correct verb tense to match the timing of the action being described.
+Use the correct verb tense to match the timing of the action being described.
+The correct verb tense should be used to match the timing of the action being described.
+Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence.
+When starting a sentence with a phrase of contrast, it should be followed by a comma.
+The word "introduce" already implies providing information about something or someone, so the use of "about" is redundant and unnecessary.
+Use "in" to indicate the location of an activity when referring to public transportation.
+The present tense verb "ate" should not be followed by "now" as it does not fit the context.
+Use "to" after "went" to indicate the action of going to the guitar teacher.
+Use single quotation marks for quoted speech.
+Rule: Use "as" to compare actions or states of being and "like" to compare nouns or pronouns.
+Use "as" to compare actions or states of being and "like" to compare nouns or pronouns.
+Use a comma to separate a greeting from the rest of the sentence.
+The word "like" should be used to compare nouns or pronouns, so "like" should be used instead of "as".
+Use "like" to compare nouns or pronouns, so "like" should be used instead of "as".
+Contractions are formed by combining two words and replacing missing letters with an apostrophe.
+"So" should be replaced with "such" to indicate a specific degree of the adjective.
+The correct construction is "writing a diary" instead of "to write diary."
+Use "about" to indicate the location of an activity when referring to public transportation.
+Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number.
+In English, a complete sentence should include a subject and a verb that agrees in tense and number.
+A complete sentence should include a subject and a verb that agrees in tense and number.
+Use single quotation marks for titles of TV shows or episodes.
+Use "the" before specific nouns to indicate a particular instance or example.
+The word "the" should be used before specific nouns to indicate a particular instance or example.
+Use "not like" to indicate a contrast.
+The use of the possessive form "Whitney Houston's" is unnecessary and can be removed for improved clarity.
+Use "to" after "help" to indicate the action of helping.
+When starting a sentence with a phrase of gratitude, it should be followed by a comma.
+Capitalization rule: The first word of a sentence should be capitalized.
+The first word of a sentence should be capitalized.
+The contraction "We've" should not have a space before the apostrophe.
+Use "about" to indicate an approximate time period.
+Use "about" to indicate approximate time.
+Use a comma after introductory adverbs such as "and."
+Use "on" after "listening to" to indicate the location or context of the activity
+Use "to" after "went" to indicate the action of going to the library.
+Use "aren't" for the contraction of "are not"
+Use a comma after introductory adverbs such as "by the way."
+Double negatives should be avoided in English grammar.
+Use "a" to indicate one unit of time.
+Use "about" before an object to indicate the subject of the introduction.
+Use "not even" instead of "even not" to indicate a contrast.
+Subject-Verb agreement rule
+Subject-verb agreement
+Subject-Verb Agreement
+Subject-Verb agreement
+Use of the gerund form "writing" after "first time" instead of "to write"
+Use "each other" to indicate reciprocal action.
+Use "as to" to indicate the topic being discussed.
+Use "this" instead of "in this" before a month to indicate a specific time.
+Use "such a" before an adjective to indicate a high degree of that quality.
+Rule: Use "such a" before an adjective to indicate a high degree of that quality.
+"Use 'such a' before an adjective to indicate a high degree of that quality."
+Use standard punctuation marks such as a period or exclamation mark to indicate the end of a sentence.
+Use "but" to connect independent clauses.
+There is a rule in English grammar that states when referring to a season or weather, the preposition "in" should be used.
+Comparative form rule
+The use of the possessive form "Whitney Houston's" before "tune" is unnecessary and can be removed for improved clarity.
+Use a comma after introductory adverbs such as "well."
+Present tense verb "think" is used to express a current opinion or belief.
+Use present tense verb "think" to express a current opinion or belief.
+Use of contraction
+Use of the contraction
+The word "the" should be used before "whole morning" to indicate specificity.
+The contraction for "have" and "not" is "haven't" to indicate the present perfect tense.
+The contraction rule should be used to connect two independent clauses.
+There are no specific rules or prior knowledge to apply in this case.
+"Whole" should come after the noun it modifies.
+Conjunction rule
+Use single quotation marks for direct quotes within a larger quotation.
+The correct verb form for "ate" in this context is "eaten."
+Rule: Use a comma after an interjection such as "Oh" when expressing strong emotion.
+Use a comma after an interjection such as "Oh" when expressing strong emotion.
+"A" is used before the adjective "whole" to indicate a specific degree of that quality.
+Use "like" to compare nouns or pronouns.
+The correct construction is "watching a diary" instead of "to write diary."
+No errors found
+Use "such as" before an example or list of examples.
+Use "such as" to introduce examples.
+Use "such as" to introduce examples instead of "like."
+Use "such as" to introduce examples or specific instances.
+Use "such as" before listing examples.
+The use of "very" before "frequently" is redundant and unnecessary.
+When starting a sentence with a phrase of urgency or request, it should be followed by a comma.
+The contraction "she 's" should not have a space before the apostrophe.
+Use "the" before nouns to indicate specific or previously mentioned items.
+Use "the" before specific nouns to indicate specific or previously mentioned items.
+Use "lies" instead of "lays" to indicate the action of reclining.
+"Accept" should be followed by "my" to indicate possession.
+Use "through" to indicate the location of an activity when referring to public transportation.
+The word "it" should be repeated before "was" to ensure proper subject-verb agreement.
+Use a comma after introductory adverbs such as "after."
+The present tense verb "sounded" should not be followed by "not" as it does not fit the context.
+Use "to" after "as" to indicate the topic being discussed.
+Use a comma after introductory adverbs such as "usually."
+Use of the word "about" is redundant and unnecessary when using the phrase "for one and a half years."
+Use contractions for informal speech
+The present tense verb "disturb" should not be followed by "now" as it does not fit the context.
+The contraction "haven't" should not have a space before the apostrophe.
+The contraction "gon na" should be replaced with "going to" in formal writing.
+There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, "incredible" should come before "beautiful" to follow this rule. However, the original sentence is still grammatically correct as it is.
+Use of the gerund form "learning" after "each other" instead of "to learn"
+Use "for" to indicate the duration of waiting.
+Use a comma after introductory adverbs such as "when."
+Use "n't" to indicate the present perfect tense.
+Use "to" after "a lot" to indicate the infinitive form of a verb to indicate purpose or intention.
+When starting a sentence with a phrase of encouragement, it should be followed by a comma.
+Use "lies down" instead of "lays down" for the correct verb form.
+This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense.
+The contraction "gon na" should be "gonna" with no space before the apostrophe.
+Use "through" before a specific object to indicate the means or method of something.
+Rule: Use "not even" instead of "even not" to follow proper word order.
+Use "not even" instead of "even not" to follow proper word order.
+The correct verb form for "see" in this context is "sees."
+When starting a sentence with a phrase of time, it should be followed by a comma.
+Use "to" after "spend" to indicate the action of spending.
+Single quotation marks should not be used to indicate emphasis or highlight a word.
+Use a comma after introductory adverbs such as "anyway."
+Use "to" after "cost" to indicate the action of costing.
+There is a grammar error in the original sentence due to the use of the caret symbol "^" at the end.
+The present tense verb "lay" should be "lies" in this context.
+Use "would like" to express a preference.
+Use "the" before nouns to indicate specificity or uniqueness.
+"At the customs" should be used to indicate a specific customs checkpoint.
+Use "on" to indicate the location or method of listening to music on the commuter train instead of "with"
+Use "the" before "dictionary" to indicate specificity.
+The correct construction is "NBA Finals Game 3" to indicate the specific game being watched.
+The contraction "n't" should be "aren't" to indicate the negative form of "are."
+Use a comma after introductory adverbs such as "in this August."
+The correct verb form for "rain" in this context is "raining."
+Use "the other" to indicate the second of two things.
+Rule: Use "to" before the infinitive form of a verb to indicate purpose or intention.
+Use "to" after "write" to indicate the action of writing.
+The contraction "let's" should not have a space before the apostrophe.
+The use of a comma after "However" is unnecessary and can be removed for improved clarity.
+"The" should be removed before "making souvenir" to indicate a general activity.
+The contraction "Kanji's" should not have a space before the apostrophe.
+Use "to" after "looking forward" to indicate the action of looking forward
+Use "to" after "looking forward" to indicate the action of looking forward.
+Use a comma after introductory adverbs such as "before."
+Use "writing a" after "first time" to indicate the activity being done for the first time
+"It is" is the correct present tense form of the verb "to be" for the subject "it."
+Use a comma after introductory adverbs such as "on the way."
+Use of the gerund form "making" after "the" instead of "to make"
+Capitalize proper nouns, including the names of deities, when referring to them.
+Use "to" after "listening" to indicate the action of listening
+Rule: Use "not like" instead of "like" to follow proper word order.
+Use "not like" instead of "like" to follow proper word order.
+Rule: The contraction for "did not" is "didn't"
+The contraction for "did not" is "didn't"
+Rule: The contraction for "it is" is "it's" with an apostrophe.
+The contraction for "it is" is "it's" with an apostrophe.
+Use a comma after introductory adverbs such as "so"
+Use a comma after introductory adverbs such as "you know."
+Use "to" after "introduce" to indicate the action of introducing.
+Use "as" to connect two independent clauses.
+The present tense verb "go" should be used to express a current action.
+"Would rather" is the correct form to express a preference.
+Use "to" after "remains" to indicate the action that remains to be done.
+In English, a question must have a subject, verb, and object in order to be grammatically correct.
+The word "now" should be replaced with "just now" to indicate the specific timing of the action.
+Use "for" after "hoped" to indicate the action of hoping for something.
+Rule: Use "on" to indicate the location of an activity when referring to public transportation.
+Use "on" to indicate the location of an activity when referring to public transportation.
+Use "at" to indicate the location of an activity when referring to public transportation.
+Use "for" to connect the two independent clauses.
+The rule is that "URL" is a singular noun and should be preceded by the indefinite article "a" when used in a sentence.
+Use "been" after "about" to indicate the duration of time.
+Use "while" to connect two actions happening at the same time.
+When using the word "just" to indicate a specific degree or extent, it should be followed by a verb.
+Use "just" to indicate a specific degree or extent, it should be followed by a verb.
+Use "if only" to express a wish or regret.
+Use "such" to indicate a specific degree of the adjective.
+Use the present tense verb "destroying" instead of "make them destroy" to indicate the action of destroying.
+The present tense verb "keep" is used to express a current action, so it should be followed by the gerund form of the verb "watching."
+Rule: Use a comma after introductory adverbs such as "today."
+Use a comma after introductory adverbs such as "today."
+Use of the gerund form "discussing" after "like" instead of "to discuss"
+Use a comma after introductory adverbs such as "actually."
+Use a comma after introductory adverbs such as "Actually."
+Rule: Use the contraction "don't" instead of "do not" in informal writing.
+Use the contraction "don't" instead of "do not" in informal writing.
+The use of contraction "don't" instead of "do not" in informal writing.
+Rule: Use a comma before the word "which" when it introduces a nonrestrictive clause.
+Use a comma before the word "which" when it introduces a nonrestrictive clause.
+The correct verb form for "cancel" in this context is "cancel."
+Rule: The future tense form of "move" is "is going to move".
+The future tense form of "move" is "is going to move".
+Rule: Possessive form of singular noun is formed by adding 's
+Possessive form of singular noun is formed by adding 's
+"In" should be used to indicate the location of a season or weather.
+The word "news" is typically uncountable and does not take an article before it. However, in this case, "news" is being used to refer to a specific news article, so the article "a" is appropriate.
+There is a contraction "It's" which is a combination of "it" and "is".
+Rule: "A little" is used to modify adjectives, while "little" is used to modify nouns.
+Use "an" before words that begin with a vowel sound
+Plural nouns in English typically end with an "s" or "es" at the end.
+There is a rule in English grammar that states when referring to wearing an item of clothing, the preposition "on" should be used.
+Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe.
+There is no need to make any changes to the grammar or structure of the sentence.
+There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, "different" should come before "values" to follow this rule. However, the original sentence is still grammatically correct as it is.
+The correct verb form for "gather" in this context is "gathered."
+Use emoticons or emojis to convey emotions or tone in informal writing.
+Use "to" after "went" to indicate the action of going to the hometown.
+Knowledge base:
+There is no grammar error
+There is no grammar error.
+The space before the number in a sentence should be removed.
+There are no specific grammar rules or prior knowledge used in this inference.
+测试集上的准确率为：0.1507537688442211

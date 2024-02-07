@@ -1,0 +1,1622 @@
+{
+    "The sentence \"S .\" is missing a verb and does not form a complete sentence. The revised sentence could be \"S is.\" <Begin> This is a basic rule of grammar that a sentence should include a subject and a verb to be complete. </End>": [
+        2.991714864083285,
+        2.008285135916715
+    ],
+    "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"I am happy :)\". <Begin> Subject-Verb agreement rule </End>": [
+        8.91147752030105,
+        3.08852247969895
+    ],
+    "The grammar error in the sentence \"I am new here\" is that it lacks punctuation. The revised sentence is \"I am new here.\" <Begin>Rule: Use a period at the end of a declarative sentence.</End>": [
+        4.863568010936433,
+        2.136431989063568
+    ],
+    "The grammar error in the sentence \"First entry\" is that it lacks a subject and verb, making it a sentence fragment. Revised sentence: \"This is the first entry.\" <Begin>Subject-Verb agreement</End>": [
+        2.7142857142857144,
+        2.2857142857142856
+    ],
+    "The sentence \"A.\" is incomplete and lacks a subject and a verb. Revised sentence: \"There is a problem with the sentence 'A.'\" <Begin>Subject-Verb Agreement</End>": [
+        7.131824996592612,
+        2.868175003407387
+    ],
+    "The grammar error in the sentence is the use of the contraction \"it's\" without specifying what \"it\" is. The revised sentence could be: \"But it's like that.\" <Begin>Rule: Use contractions with a specific noun or pronoun to avoid ambiguity</End>": [
+        2.6119815668202766,
+        2.3880184331797234
+    ],
+    "The grammar error in the sentence \"Hello !\" is the use of an exclamation mark without any accompanying words. The revised sentence would be \"Hello!\". <Begin>Exclamation marks should not be used without accompanying words.</End>": [
+        4.9900559066749,
+        3.0099440933250996
+    ],
+    "The original sentence \"Mr .\" is missing a noun or title after \"Mr.\" The revised sentence could be \"Mr. Smith.\" <Begin> Rule: In English, \"Mr.\" is typically followed by a name or title. </End>": [
+        9.102231902231901,
+        2.8977680977680977
+    ],
+    "The grammar error in the sentence \"2010 . 3 . 26\" is the use of spaces between the numbers and the periods. The revised sentence is \"2010.3.26.\" <Begin>Spaces should not be used between numbers and punctuation marks</End>": [
+        6.547223785846077,
+        3.452776214153923
+    ],
+    "The grammar error in the sentence \"Good words\" is that it is not a complete sentence. It is missing a subject and a verb. Revised sentence: \"These are good words.\" <Begin>Subject-Verb Agreement</End>": [
+        9.048610520867387,
+        3.9513894791326143
+    ],
+    "The sentence \"Hello World\" does not contain any grammar errors. Therefore, the revised sentence remains the same: \"Hello World.\" No grammar errors were found. <Begin>No grammar errors</End>": [
+        2.3029001074113857,
+        2.6970998925886143
+    ],
+    "The grammar error in the sentence \"Can anyone help?\" is the lack of a subject-verb agreement. The revised sentence is \"Can anyone help?\" which is correct. <Begin> Subject-verb agreement rule </End>": [
+        12.81074957765467,
+        4.18925042234533
+    ],
+    "The grammar error in the sentence is the missing punctuation at the end. The revised sentence is \"Hi everyone!\". <Begin> Rule: In English, sentences should end with appropriate punctuation, such as a period, question mark, or exclamation point. </End>": [
+        6.727522771950092,
+        3.2724772280499077
+    ],
+    "The grammar error in the sentence is the missing comma after \"Hi everyone.\" Revised sentence: Hi everyone, <Begin>Use a comma to separate a greeting from the rest of the sentence.</End>": [
+        5.182539682539683,
+        2.817460317460317
+    ],
+    "The grammar error in the sentence \"So Sorry !\" is that it lacks a subject and a verb. The revised sentence could be \"I am so sorry!\" <Begin>Subject-Verb Agreement</End>": [
+        5.550644263144264,
+        2.4493557368557366
+    ],
+    "The grammar error in the sentence \"Oh god.\" is the lack of a capital letter at the beginning of the sentence. The revised sentence is \"Oh God.\" <Begin>Capitalization rule: The first letter of a sentence should always be capitalized.</End>": [
+        15.680975720700983,
+        4.3190242792990166
+    ],
+    "The grammar error in the sentence \"Oh my god\" is that \"god\" should be capitalized as \"God\" when referring to the deity in the Christian, Jewish, and Islamic religions. Revised sentence: Oh my God. <Begin> Capitalize proper nouns, including the names of deities, when referring to them. </End>": [
+        2.1515151515151514,
+        2.8484848484848486
+    ],
+    "The original sentence \"Enjoy !\" is missing a subject and verb. The revised sentence should be \"You enjoy!\" <Begin>Imperative sentences require a subject, which is usually implied to be \"you.\"</End>": [
+        2.793103448275862,
+        2.206896551724138
+    ],
+    "The grammar error in the sentence is the lack of a determiner before \"English skill.\" The revised sentence is \"The English skill.\" <Begin> In English, a determiner is typically used before a singular noun to specify which one is being referred to. </End>": [
+        16.57448881836533,
+        4.425511181634668
+    ],
+    "Grammar error: The sentence should end with a punctuation mark, such as a period or exclamation point. Revised sentence: \"Bye!\" <Begin>Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence.</End>": [
+        4.455413674163674,
+        2.5445863258363257
+    ],
+    "The grammar error in the sentence \"Cool !\" is the lack of a subject or verb. The revised sentence could be \"That's cool!\" or \"Cool!\" with an implied subject. <Begin>Exclamatory sentences do not always require a subject or verb, as the emotion or feeling is the main focus.</End>": [
+        8.920496829731107,
+        4.079503170268894
+    ],
+    "The grammar error in the sentence is the lack of a comma after \"Thank you.\" The revised sentence is: \"Thank you for reading this.\" Rule: When starting a sentence with \"Thank you,\" it should be followed by a comma. <Begin>When starting a sentence with a phrase of gratitude, it should be followed by a comma.</End>": [
+        1.1826923076923077,
+        2.8173076923076925
+    ],
+    "The grammar error in the sentence is the missing period at the end. The revised sentence is: \"Thanks for reading and correcting.\" <Begin>There is no specific grammar rule being applied here, just a simple correction of punctuation.</End>": [
+        5.788598901098901,
+        4.211401098901099
+    ],
+    "The grammar error in the sentence is the use of \"a lot\" as one word instead of two. The revised sentence is: \"Thanks a lot!\" <Begin>Rule: \"a lot\" should be used as two words</End>": [
+        5.692354419773776,
+        3.3076455802262257
+    ],
+    "Grammar error: The correct punctuation for expressing surprise or shock is \"Oh, my God!\" with a comma after \"Oh\". Revised sentence: \"Oh, my God!\" <Begin> Rule: Use a comma after an interjection such as \"Oh\" when expressing strong emotion. </End>": [
+        14.555043811431384,
+        3.4449561885686166
+    ],
+    "The grammar error in the sentence \"Hello everyone\" is the lack of a punctuation mark at the end of the sentence. The revised sentence is \"Hello everyone.\" <Begin> Rule: In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. </End>": [
+        7.308303773521165,
+        2.6916962264788347
+    ],
+    "The grammar error in the sentence is \"lit bit\" which should be \"a little bit.\" The revised sentence is \"Sounds a little bit tricky?\" <Begin>Use the article \"a\" before \"little bit\" to make it grammatically correct</End>": [
+        10.409183378322975,
+        3.5908166216770248
+    ],
+    "The grammar error in the sentence is the lack of a subject. The revised sentence is \"Thank you for reading.\" <Begin>Subject-Verb Agreement</End>": [
+        1.0,
+        2.0
+    ],
+    "Original sentence: Play Grammar error: The sentence lacks a subject and a verb. Revised sentence: Let's play. <Begin>Subject-Verb Agreement</End>": [
+        1.6948874296435272,
+        2.3051125703564725
+    ],
+    "The grammar error in the sentence \"Hello , everybody .\" is the unnecessary space before the comma. The revised sentence is \"Hello, everybody.\" <Begin>Rule: There should not be a space before a comma.</End>": [
+        4.8906130906130905,
+        3.109386909386909
+    ],
+    "The grammar error in the sentence \"I like math\" is that it should be \"I like math.\" with a period at the end. Revised sentence: I like math. <Begin> Rule: End a declarative sentence with a period. </End>": [
+        5.58052622758505,
+        3.419473772414949
+    ],
+    "The grammar error in the sentence \"Softball\" is that it is not a complete sentence. Revised sentence: \"I enjoy playing softball.\" <Begin> In English, a complete sentence should have a subject and a verb. </End>": [
+        3.7454545454545456,
+        3.2545454545454544
+    ],
+    "Original sentence: RAIN Grammar error: The sentence is missing a subject and a verb. Revised sentence: It is raining. <Begin>Subject-Verb Agreement</End>": [
+        7.204047884482667,
+        2.7959521155173332
+    ],
+    "There are no grammar errors in the sentence \"It is very nice.\" The revised sentence remains the same. <Begin> There are no grammar errors in the original sentence. </End>": [
+        8.539430907256996,
+        3.4605690927430057
+    ],
+    "The grammar error in the sentence is that \"URL\" should be preceded by the article \"a\" to make the sentence grammatically correct. Revised sentence: \"A URL\" <Begin> The rule is that \"URL\" is a singular noun and should be preceded by the indefinite article \"a\" when used in a sentence. </End>": [
+        14.402550646234857,
+        3.5974493537651435
+    ],
+    "The grammar error in the sentence is the lack of capitalization at the beginning of the sentence. The revised sentence is: \"No title, haha.\" <Begin> Capitalization rule: The first word of a sentence should be capitalized. </End>": [
+        12.863750165352736,
+        3.1362498346472636
+    ],
+    "The grammar error in the sentence \"Second period was English\" is the use of the verb \"was\" instead of \"was\" because \"period\" is a singular noun and requires the singular verb \"was.\" Revised sentence: The second period was English. <Begin>Subject-Verb Agreement</End>": [
+        1.9245283018867925,
+        2.0754716981132075
+    ],
+    "Grammar error: The sentence should be \"Don't know why.\" Revised sentence: I don't know why. <Begin>Rule: Use the contraction \"don't\" instead of \"do not\" in informal writing.</End>": [
+        5.186237373737374,
+        2.8137626262626263
+    ],
+    "The grammar error in the sentence \"GUITAR\" is that it is a fragment and lacks a subject or verb. Revised sentence: \"I play the guitar.\" <Begin>Subject-Verb Agreement</End>": [
+        7.1761914197710475,
+        2.823808580228953
+    ],
+    "The grammar error in the sentence \"What happened to her?\" is the lack of a subject. The revised sentence is \"What happened to her?\" which is correct. <Begin> In English, a question must have a subject, verb, and object in order to be grammatically correct. </End>": [
+        5.241792004292004,
+        2.7582079957079957
+    ],
+    "The grammar errors in the sentence are the use of \"said\" instead of \"spoke\" and the use of \"wrong words\" instead of \"incorrectly.\" The revised sentence would be: \"So, I spoke English with incorrect words.\" <Begin>Rule: Use \"spoke\" instead of \"said\" when referring to speaking a language.</End> <Begin>Rule: Use \"incorrectly\" instead of \"wrong words\" to describe speaking a language with errors.</End>": [
+        7.636393529071548,
+        3.3636064709284526
+    ],
+    "The grammar error in the sentence \"They were good\" is that it lacks specificity. It does not provide enough information about who or what was good. Revised sentence: \"They were good students.\" <Begin>Subject-Verb Agreement</End>": [
+        2.293233082706767,
+        2.706766917293233
+    ],
+    "The grammar error in the sentence \"human relations\" is that it is missing a verb. The revised sentence could be \"Human relations are important for a healthy work environment.\" <Begin>Subject-Verb Agreement</End>": [
+        5.312587680341341,
+        3.687412319658659
+    ],
+    "The grammar error in the sentence is the lack of a subject. Revised sentence: \"Here is a funny story.\" <Begin>Subject-Verb agreement</End>": [
+        5.791788996300275,
+        2.2082110036997253
+    ],
+    "The grammar error in the sentence is the incorrect use of \"n't\" instead of \"aren't.\" The revised sentence is: \"If my sentences aren't practical, please correct them.\" <Begin> Use \"aren't\" for the contraction of \"are not\" </End>": [
+        6.151942501942503,
+        2.848057498057498
+    ],
+    "Original Sentence: Fruit Grammar Error: The original sentence is incomplete and lacks a subject. Revised Sentence: \"I like fruit.\" Explanation: The original sentence lacks a subject and verb, so it does not form a complete sentence. By adding the subject \"I\" and the verb \"like,\" the sentence becomes grammatically correct. <Begin>Subject-Verb Agreement</End> - The revised sentence follows the subject-verb agreement rule by matching the singular subject \"I\" with the singular verb \"like.\"": [
+        10.596166016826036,
+        3.403833983173966
+    ],
+    "The grammar error in the sentence is the use of \"diary\" without an article. The revised sentence is \"The first diary.\" <Begin> The rule is that in English, nouns generally require an article (a, an, the) unless they are being used in a general or abstract sense. </End>": [
+        7.783173709675259,
+        3.216826290324742
+    ],
+    "There are no grammar errors in the sentence \"Wonderful voices.\" The revised sentence is the same as the original. <Begin> There is no specific grammar rule that needs to be applied to this sentence. </End>": [
+        7.248350001696858,
+        2.7516499983031424
+    ],
+    "Grammar errors: The word \"Arrangements\" is a noun, but the sentence is missing a verb to make it a complete sentence. Revised sentence: We need to make arrangements. <Begin>Subject-Verb agreement</End>": [
+        5.497440318302387,
+        2.5025596816976123
+    ],
+    "The grammar error in the sentence \"Listening to music\" is that it is a fragment and does not contain a subject. The revised sentence could be \"I am listening to music\" to include a subject and complete the sentence. <Begin>Subject-Verb Agreement</End>": [
+        9.21360143124849,
+        3.78639856875151
+    ],
+    "Grammar error: The sentence lacks a subject and a verb. It is a fragment. Revised sentence: \"What a shock!\" <Begin>Exclamatory sentences must have a subject and a verb.</End>": [
+        1.1826923076923077,
+        1.8173076923076923
+    ],
+    "Grammar error: The sentence lacks a subject and a verb. Revised sentence: \"What a pity!\" <Begin>Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.</End>": [
+        8.89951588575877,
+        3.1004841142412305
+    ],
+    "Grammar error: There is a comma splice in the sentence. Revised sentence: The ending was great, though. <Begin>Comma splice rule</End>": [
+        4.165682062298604,
+        2.834317937701396
+    ],
+    "The grammar error in the sentence is the lack of a subject. The revised sentence is \"I watched season 2 today.\" <Begin>Subject-Verb Agreement</End>": [
+        7.208736443295267,
+        2.7912635567047333
+    ],
+    "The grammar error in the sentence \"The game began\" is that it is missing a subject. The revised sentence is \"The game began.\" <Begin>Subject-Verb Agreement</End>": [
+        11.507615968138847,
+        4.4923840318611505
+    ],
+    "The grammar error in the sentence \"Today 's music\" is the unnecessary apostrophe in \"Today's.\" The revised sentence is \"Today's music.\" <Begin> Rule: Possessive nouns are formed by adding 's to the end of a singular noun or the end of a plural noun that does not end in s. </End>": [
+        7.959534032603716,
+        3.040465967396284
+    ],
+    "The grammar error in the sentence \"An Backpacker\" is the use of \"an\" before a word starting with the consonant sound \"b.\" The correct article to use before \"backpacker\" is \"a\" because it starts with a consonant sound. Revised sentence: A backpacker <Begin>Rule: Use \"a\" before words starting with a consonant sound.</End>": [
+        7.362372913415615,
+        2.6376270865843856
+    ],
+    "The grammar error in the sentence \"BBQ\" is that it is not a complete sentence. It is an abbreviation for \"barbecue\" but it needs a verb or additional context to make it a complete sentence. Revised sentence: \"Let's have a BBQ this weekend.\" <Begin>Abbreviations should not be used as standalone sentences.</End>": [
+        14.762184848282264,
+        3.23781515171774
+    ],
+    "The grammar error in the sentence \"Do you know me?\" is that it is a correct question and does not contain any grammatical errors. Revised sentence: \"Do you know me?\" <Begin> There are no grammar errors in the original sentence. </End>": [
+        14.282705069630797,
+        3.717294930369203
+    ],
+    "The grammar error in the sentence \"She came back !\" is the unnecessary space before the exclamation mark. The revised sentence is \"She came back!\" <Begin> Rule: Punctuation should not have a space before it. </End>": [
+        3.8906322164328135,
+        2.1093677835671865
+    ],
+    "The grammar error in the sentence is the use of a comma before \"which\" without a complete main clause before it. The revised sentence would be: \"I was not allowed to make related documents.\" <Begin>Rule: Use commas to set off nonrestrictive clauses, which provide additional information but are not essential to the meaning of the sentence. </End>": [
+        3.276515151515152,
+        2.7234848484848486
+    ],
+    "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"Oh, I remembered.\" This sentence has a subject \"I\" and a verb \"remembered.\" <Begin>Subject-Verb Agreement</End>": [
+        8.312937897567053,
+        2.6870621024329466
+    ],
+    "The grammar error in the sentence \"Electioneering\" is that it is not a complete sentence. It is just a single word without any context or additional information. Revised sentence: \"The candidates engaged in electioneering to gain support from the voters.\" <Begin> The grammar rule is that a complete sentence should have a subject and a verb. </End>": [
+        16.634389102973934,
+        4.365610897026066
+    ],
+    "There are no grammar errors in the given sentence. <Begin>There is no grammar error</End> Revised sentence: The original sentence does not need to be revised.": [
+        14.934759966175777,
+        4.065240033824223
+    ],
+    "The original sentence \"it makes me happy\" does not contain any grammar errors. Revised sentence: \"It makes me happy.\" <Begin>There are no grammar errors in the original sentence.</End>": [
+        3.5763839335267904,
+        3.423616066473209
+    ],
+    "Grammar errors: There is no specific error in the sentence \"However , she is already 46 !\" Revised sentence: However, she is already 46! <Begin> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. </End>": [
+        3.376190476190476,
+        2.6238095238095234
+    ],
+    "The grammar error in the sentence \"concert tickets\" is that it is missing a verb or context. It is a sentence fragment. Revised sentence: I bought concert tickets. <Begin> Rule: A sentence should have a subject and a verb to be grammatically correct. </End>": [
+        6.213101489297857,
+        3.7868985107021422
+    ],
+    "The grammar error in the sentence \"Drinking party\" is that it is a fragment and lacks a subject. Revised sentence: \"We are having a drinking party.\" <Begin>Subject-Verb Agreement</End>": [
+        7.98013755287951,
+        3.0198624471204907
+    ],
+    "The grammar error in the sentence \"so I like spring\" is the lack of a conjunction to connect the two independent clauses. Revised sentence: \"So, I like spring.\" <Begin>Rule: Use a comma before a coordinating conjunction that connects two independent clauses.</End>": [
+        4.589917762278011,
+        2.4100822377219893
+    ],
+    "The grammar error in the sentence \"Whitney Houston Failed\" is the lack of a specific verb to go with \"failed.\" The revised sentence could be \"Whitney Houston failed to achieve success in her later years.\" <Begin> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. </End>": [
+        6.338492694583182,
+        2.661507305416819
+    ],
+    "First, let's identify the grammar errors in the original sentence. The possessive form of \"Asashoryu\" should be \"Asashoryu's\" with an apostrophe before the s. Additionally, the sentence lacks a verb, so it is a sentence fragment. Revised sentence: Asashoryu has retired. <Begin> Possessive form: noun + 's </End>": [
+        1.1826923076923077,
+        1.8173076923076923
+    ],
+    "The grammar error in the sentence \"The first Man in Rome\" is the lack of an article before \"Man.\" The revised sentence is \"The first man in Rome.\" <Begin> Rule: In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. </End>": [
+        3.323684210526316,
+        3.676315789473684
+    ],
+    "Grammar error: The subject and verb do not agree. \"They\" is plural, so the verb should be \"disturb\" instead of \"disturbs.\" Revised sentence: And now they disturb me. <Begin> Subject-Verb Agreement </End>": [
+        3.7529198138860353,
+        3.2470801861139647
+    ],
+    "The grammar error in the sentence \"My son have diarrhea\" is that \"have\" should be changed to \"has\" to match the singular subject \"son.\" Revised sentence: My son has diarrhea. <Begin>Subject-Verb Agreement</End>": [
+        6.347845449569587,
+        2.6521545504304127
+    ],
+    "The grammar error in the sentence \"It 's not a joke\" is the incorrect use of the contraction \"It's\" with a space before the apostrophe. The revised sentence is \"It's not a joke.\" <Begin>Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.</End>": [
+        2.7981981981981985,
+        2.2018018018018015
+    ],
+    "The grammar error in the sentence is the use of \"worst\" instead of \"worst\" as \"worst\" is the superlative form of \"bad.\" The revised sentence is: \"Exams are the worst thing in life :D, it really is.\" Rule: Comparative and superlative forms of adjectives. <Begin>Adjectives have comparative and superlative forms to compare different degrees of the quality they describe. The comparative form is used to compare two things, while the superlative form is used to compare three or more things. </End>": [
+        4.901709401709402,
+        3.0982905982905984
+    ],
+    "The grammar error in the sentence \"Sixth period was math\" is that it is missing an article before \"math.\" The revised sentence is \"The sixth period was math.\" <Begin> Rule: Use an article (a, an, the) before a singular noun to specify which one is being referred to. </End>": [
+        6.313188918361332,
+        2.686811081638668
+    ],
+    "The grammar error in the sentence is the use of \"notebook PC\" without an article. The revised sentence is \"I bought a new notebook PC.\" <Begin> The rule is that in English, singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.) </End>": [
+        3.370011567379988,
+        2.629988432620012
+    ],
+    "There is a grammar error in the original sentence. \"Wang\" should be \"Wangs\" to make it plural. Revised sentence: A New Hair Style of the Wangs <Begin>Plural nouns in English typically end with an \"s\" or \"es\" at the end.</End>": [
+        1.0,
+        2.0
+    ],
+    "There are no grammar errors in the given sentence. <retrieved_rule> There is no grammar error <retrieved_rule> Revised sentence: The original sentence does not need to be revised.": [
+        6.488675213675214,
+        3.5113247863247863
+    ],
+    "The grammar error in the sentence \"Oh god\" is the lack of a subject and a verb. The revised sentence is \"Oh, God.\" <retrieved_rule> Imperative sentences require a subject, which is usually implied to be \"you.\" <retrieved_rule>": [
+        6.320526695526695,
+        2.679473304473305
+    ],
+    "The grammar error in the sentence \"Today 's music\" is that it is missing a verb. The revised sentence could be \"Today's music is great.\" <retrieved_rule> The use of a comma after \"Today\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        5.690042372881356,
+        3.3099576271186444
+    ],
+    "Grammar error: The sentence \"Please correct these sentences !\" is missing a period at the end. Revised sentence: \"Please correct these sentences.\" <retrieved_rule> Rule: Use a period at the end of a declarative sentence. <retrieved_rule>": [
+        6.505989421206812,
+        2.494010578793188
+    ],
+    "The grammar error in the sentence \"A\" is the lack of a complete subject and verb. The revised sentence is \"A.\" with a period at the end. <retrieved_rule> Rule: A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        4.178817733990148,
+        2.8211822660098522
+    ],
+    "The grammar error in the sentence \"It was horrible !\" is the lack of a capital letter at the beginning of the sentence. The revised sentence is \"It was horrible!\" <retrieved_rule> Capitalization rule: The first letter of a sentence should always be capitalized. <retrieved_rule>": [
+        5.895477126483992,
+        3.104522873516008
+    ],
+    "The grammar error in the sentence \"A teacher asked it 'why'.\" is the use of double quotation marks instead of single quotation marks. The revised sentence is \"A teacher asked it 'why'.\" <retrieved_rule> Use single quotation marks for quoting within a quote. <retrieved_rule>": [
+        5.213196234298273,
+        2.786803765701728
+    ],
+    "The grammar error in the sentence \"concert tickets\" is the lack of a determiner. The revised sentence is \"I bought concert tickets.\" <new_rule> The rule is that in English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <new_rule>": [
+        4.572914824638962,
+        2.427085175361037
+    ],
+    "The grammar error in the sentence \"The test for mobile system engineer\" is the lack of an article before \"mobile system engineer.\" The revised sentence is \"The test for a mobile system engineer.\" <retrieved_rule> Rule: In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        2.3344322344322346,
+        3.6655677655677654
+    ],
+    "The grammar error in the sentence \"Exams are the worst thing in life : D , It really is\" is the lack of a conjunction to connect the two independent clauses \"Exams are the worst thing in life : D\" and \"It really is.\" Revised sentence: Exams are the worst thing in life : D, but it really is. <retrieved_rule> Rule: A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        4.421717171717172,
+        2.578282828282828
+    ],
+    "The grammar error in the sentence is the use of a comma before \"for example\" and the lack of a coordinating conjunction after the second comma. The revised sentence is \"If you notice something, for example, a grammatical error or unnatural expression, please tell me.\" <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule> <new_rule> Use a comma before a coordinating conjunction that connects two independent clauses. <new_rule>": [
+        2.7863863287250386,
+        2.2136136712749614
+    ],
+    "The grammar error in the sentence \"First write\" is that it lacks a subject and verb, making it a sentence fragment. Revised sentence: \"I will first write.\" <retrieved_rule> Subject-Verb agreement <retrieved_rule>": [
+        10.987762208998209,
+        3.012237791001791
+    ],
+    "The grammar error in the sentence \"An Backpacker\" is the lack of a proper noun. The revised sentence should be \"A backpacker.\" <retrieved_rule> Proper nouns should be capitalized. <retrieved_rule>": [
+        11.077276406171613,
+        2.9227235938283855
+    ],
+    "The grammar error in the sentence \"I really like to discuss\" is that it is missing an object after the verb \"discuss.\" The revised sentence is \"I really like to discuss ideas.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        6.051522668678866,
+        2.9484773313211345
+    ],
+    "The grammar error in the sentence \"2010 . 3 . 26\" is that it is using abbreviations as standalone sentences. Revised sentence: \"The date is March 26, 2010.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        8.961118470286552,
+        3.038881529713448
+    ],
+    "The original sentence \"The sounds of the steps\" does not contain any grammar errors. Revised sentence: \"The sounds of the steps.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        9.874976497344917,
+        3.1250235026550817
+    ],
+    "The grammar error in the sentence \"Wonderful voices .\" is the lack of a verb, making it a sentence fragment. The revised sentence is \"The choir has wonderful voices.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        1.7314814814814814,
+        2.2685185185185186
+    ],
+    "The grammar error in the sentence \"A New Hair Style of the Wang\" is the incorrect use of the preposition \"of\" before \"the Wang.\" The revised sentence should be \"A New Hair Style for Wang.\" <retrieved_rule> Rule: In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        1.525,
+        2.475
+    ],
+    "The grammar error in the sentence \"An abstract concept of hapiness\" is that the adjective \"happiness\" is misspelled. The revised sentence could be \"An abstract concept of happiness.\" <retrieved_rule> Spelling error: \"physically\" is spelled with a \"c\" not an \"s\" <retrieved_rule>": [
+        4.585113075639391,
+        3.4148869243606086
+    ],
+    "The grammar error in the sentence is the use of \"do n't\" which should be \"don't\" to form the contraction \"don't.\" The revised sentence is \"I am new here and I don't know if it is the right place to write.\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        4.632553606237816,
+        3.367446393762183
+    ],
+    "The grammar error in the sentence \"It would be great if you leave a comment or corrections\" is the lack of subject-verb agreement. The revised sentence is \"It would be great if you left a comment or made corrections.\" <retrieved_rule> Subject-verb agreement rule <retrieved_rule>": [
+        5.609920634920636,
+        2.390079365079365
+    ],
+    "The grammar error in the sentence \"Thanks a lol\" is the incorrect use of \"lol\" as an abbreviation. The revised sentence is \"Thanks a lot.\" <new_rule> \"a lot\" should be used as two words <new_rule>": [
+        4.763257575757575,
+        2.2367424242424243
+    ],
+    "The grammar error in the sentence \"It is very nice.\" is the lack of a specific noun after the adjective \"nice.\" The revised sentence could be \"It is a very nice day.\" This sentence includes a subject \"It,\" a verb \"is,\" and a specific noun \"day\" after the adjective \"nice.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        5.315650048875855,
+        2.684349951124145
+    ],
+    "The grammar error in the sentence \"w\" is that it is not a complete sentence. It is missing a subject and a verb. Revised sentence: \"I am w.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        5.806515151515152,
+        3.193484848484849
+    ],
+    "The grammar error in the sentence \"Sixth period was math.\" is the lack of a determiner before \"math.\" The revised sentence is \"The sixth period was math.\" <new_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <new_rule>": [
+        12.551856625638607,
+        4.448143374361394
+    ],
+    "The grammar error in the sentence \"Sounds a lit bit tricky?\" is the misspelling of \"lit\" instead of \"little.\" Revised sentence: \"Sounds a little bit tricky?\" <new_rule> The rule is that \"little\" is the correct word to use to indicate a small amount. <new_rule>": [
+        8.805230064053593,
+        3.194769935946406
+    ],
+    "The grammar error in the sentence \"BUT !\" is the lack of a complete thought or context. It is a sentence fragment. The revised sentence could be: \"But what?\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        4.039334233018444,
+        2.960665766981556
+    ],
+    "The original sentence \"Thanks for reading and correcting .\" is missing a subject and verb. The revised sentence could be \"Thanks for reading and correcting my work.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        7.148507591442374,
+        2.8514924085576254
+    ],
+    "The grammar error in the sentence \"Mr.\" is the lack of a complete subject and verb. The revised sentence is \"Mr.\" with a period at the end. <new_rule> Rule: Proper nouns should be capitalized. <new_rule>": [
+        6.492042217042218,
+        2.5079577829577833
+    ],
+    "The grammar error in the sentence \"Softball\" is the lack of an article before the singular noun. The revised sentence is \"The softball.\" <new_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <new_rule>": [
+        6.122198612698887,
+        2.8778013873011137
+    ],
+    "The grammar error in the sentence \"I like math .\" is the lack of a period at the end of the sentence. The revised sentence is \"I like math.\" <retrieved_rule> Use a period at the end of a declarative sentence. <retrieved_rule>": [
+        8.165518783870445,
+        2.8344812161295563
+    ],
+    "The original sentence \"it makes me happy .\" is missing a capital letter at the beginning of the sentence. The revised sentence is \"It makes me happy.\" <retrieved_rule> Capitalization rule: The first letter of a sentence should always be capitalized. <retrieved_rule>": [
+        7.4368347338935585,
+        2.5631652661064424
+    ],
+    "The grammar error in the sentence \"Everyone !\" is the lack of accompanying words with the exclamation mark. The revised sentence is \"Everyone, come here!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        6.0298366013071885,
+        2.9701633986928107
+    ],
+    "The grammar error in the sentence \"Unfortunately . . .\" is the lack of a complete subject and verb. The revised sentence is \"Unfortunately, it rained.\" with a comma after \"Unfortunately\" to separate the introductory phrase. <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        8.06024636283257,
+        2.939753637167431
+    ],
+    "The grammar error in the sentence \"`` C\" is the use of an abbreviation as a standalone sentence. The revised sentence could be \"The grade for the assignment is a C.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        12.109385235655655,
+        3.8906147643443467
+    ],
+    "The grammar error in the sentence \"Er . . . but how to start ?\" is the unnecessary use of ellipses after \"Er.\" The revised sentence is \"Er, but how to start?\" <new_rule> Use a comma after an interjection such as \"Er\" when expressing hesitation or uncertainty. <new_rule>": [
+        5.759489755669723,
+        3.2405102443302787
+    ],
+    "The grammar error in the sentence \"( see the map I 've attached )\" is the lack of a comma after the introductory phrase. The revised sentence is \"(See the map I've attached).\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        12.66358795031564,
+        3.336412049684361
+    ],
+    "The grammar error in the sentence \"Please correct this sentence .\" is the lack of a comma after the introductory phrase \"Please.\" The revised sentence is \"Please, correct this sentence.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        2.2199999999999998,
+        2.7800000000000002
+    ],
+    "The grammar error in the sentence \"related documents , which means I was not allowed to make\" is the unnecessary comma before \"which.\" The revised sentence is \"related documents which means I was not allowed to make.\" <retrieved_rule> Use a comma before the word \"which\" when it introduces a nonrestrictive clause. <retrieved_rule>": [
+        5.450805322128852,
+        2.549194677871148
+    ],
+    "The grammar error in the sentence \"The first Man in Rome\" is the lack of capitalization for \"Man.\" The revised sentence is \"The first man in Rome.\" <retrieved_rule> Capitalize proper nouns, including the names of deities, when referring to them. <retrieved_rule>": [
+        4.6183349146110055,
+        2.3816650853889945
+    ],
+    "The grammar error in the sentence \"Hello !\" is the lack of accompanying words with the exclamation mark. The revised sentence is \"Hello, how are you?\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        7.349992803445488,
+        2.650007196554511
+    ],
+    "The grammar error in the sentence is the use of an exclamation mark without accompanying words. The revised sentence is \"Bye.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        9.581923706923707,
+        3.418076293076293
+    ],
+    "The grammar error in the sentence \"Good luck on your new start !\" is the lack of a comma after the introductory phrase \"Good luck.\" The revised sentence is \"Good luck on your new start!\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        3.034188034188034,
+        2.965811965811966
+    ],
+    "The grammar error in the sentence \"My English could not help me\" is the lack of subject-verb agreement. The revised sentence is \"My English could not help me.\" <retrieved_rule> Subject-Verb Agreement <retrieved_rule>": [
+        6.389953857059121,
+        2.6100461429408797
+    ],
+    "The grammar error in the sentence \"I started lang - 8 .\" is the use of a space and a hyphen between \"lang\" and \"8\" instead of a space. The revised sentence is \"I started lang-8.\" <new_rule> Rule: In English, names are typically separated by a space, not a hyphen. <new_rule>": [
+        3.4384920634920633,
+        2.5615079365079367
+    ],
+    "The grammar error in the sentence \"I bought a new notebook PC.\" is the unnecessary use of \"PC\" as an abbreviation. The revised sentence is \"I bought a new notebook personal computer.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        5.573883572567784,
+        3.426116427432217
+    ],
+    "The grammar error in the sentence \"Love Karaoke\" is the lack of a subject and a verb. The revised sentence is \"I love Karaoke.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        6.939466446301909,
+        3.0605335536980913
+    ],
+    "The grammar error in the sentence \": (\" is the use of an emoticon as a standalone sentence. The revised sentence could be \"I feel sad.\" <new_rule> Emoticons should not be used as standalone sentences. <new_rule>": [
+        4.909523809523809,
+        2.0904761904761906
+    ],
+    "The original sentence \"Is this wrong?\" does not contain any grammar errors. Revised sentence: \"Is this wrong?\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        3.4336228287841193,
+        2.5663771712158807
+    ],
+    "The grammar error in the sentence \"Old and not beautiful . . . . .\" is the use of adjectives without a noun to modify. The revised sentence could be \"The house is old and not beautiful.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        12.019394583296187,
+        4.980605416703816
+    ],
+    "The grammar error in the sentence \"This is the letter below .\" is the lack of a complete thought or context. It is a sentence fragment. The revised sentence could be: \"This is the letter below.\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        2.8421052631578947,
+        2.1578947368421053
+    ],
+    "The grammar error in the sentence \"See you later !\" is the lack of a subject or verb. The revised sentence could be \"I will see you later!\" or \"See you later!\" with an implied subject. <new_rule> Exclamatory sentences do not always require a subject or verb, as the emotion or feeling is the main focus. <new_rule>": [
+        8.079407557489398,
+        2.9205924425106016
+    ],
+    "The original sentence \"Hello , everybody\" contains a grammar error in the unnecessary space before the comma. The revised sentence is \"Hello, everybody.\" <retrieved_rule> Rule: Punctuation should not have a space before it. <retrieved_rule>": [
+        6.756074977119227,
+        2.2439250228807723
+    ],
+    "The original sentence \"Today I was uncomfortable\" does not contain any grammar errors. Revised sentence: \"Today I was uncomfortable.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        5.821756978653531,
+        2.1782430213464696
+    ],
+    "The grammar error in the sentence \"You think the second one was different ?\" is the lack of a comma before the direct question. The revised sentence is \"You think the second one was different?\" <new_rule> Use a comma before a non-restrictive relative clause to separate it from the main clause. <new_rule>": [
+        4.280547409579667,
+        2.7194525904203326
+    ],
+    "The grammar error in the sentence \"Pizza\" is that it is not a complete sentence. The revised sentence could be \"I want pizza.\" <retrieved_rule> In English, a complete sentence should have a subject and a verb. <retrieved_rule>": [
+        1.591764705882353,
+        2.408235294117647
+    ],
+    "The original sentence \"Thursday October 22nd 2009\" is missing the preposition \"of\" before the date. The revised sentence is \"Thursday, October 22nd, 2009.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        4.85395249911379,
+        3.146047500886211
+    ],
+    "The grammar error in the sentence \"Headache\" is the lack of a determiner. The revised sentence is \"I have a headache.\" <retrieved_rule> Use \"a\" before words starting with a consonant sound. <retrieved_rule>": [
+        8.255870055870057,
+        2.744129944129943
+    ],
+    "The grammar error in the sentence \"Do you know me ?\" is the unnecessary space before the question mark. The revised sentence is \"Do you know me?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        16.42472766863322,
+        4.575272331366784
+    ],
+    "Grammar error: The emoticon should not be used as a standalone sentence. Revised sentence: \"I am really looking forward to it :)\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        3.79543934326543,
+        2.20456065673457
+    ],
+    "The original sentence \"Saturday\" does not contain any grammar errors. Revised sentence: \"Saturday.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        4.875320020481311,
+        2.124679979518689
+    ],
+    "The grammar error in the sentence \"I do n't know .\" is the unnecessary space between \"do\" and \"n't\" in the contraction \"don't.\" The revised sentence is \"I don't know.\" <retrieved_rule> Use of contraction <retrieved_rule>": [
+        2.9131054131054133,
+        2.0868945868945867
+    ],
+    "The grammar error in the sentence \"Street live !\" is that it lacks a subject and a verb. The revised sentence could be \"The street is alive!\" <retrieved_rule> In English, a complete sentence should have a subject and a verb. <retrieved_rule>": [
+        4.07906477906478,
+        1.9209352209352208
+    ],
+    "The grammar error in the sentence \"I wanted to see them\" is that it is missing a specific object after the verb \"see.\" The revised sentence could be \"I wanted to see them yesterday.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        3.9240465416936003,
+        2.0759534583063997
+    ],
+    "The grammar error in the sentence \"3 .\" is the lack of a complete subject and verb. The revised sentence is \"There is no specific grammar rule that needs to be applied to this sentence.\" <retrieved_rule> This is a basic rule of grammar that a sentence should include a subject and a verb to be complete. <retrieved_rule>": [
+        4.764895330112721,
+        2.2351046698872787
+    ],
+    "The grammar error in the sentence \"Good morning !\" is the unnecessary exclamation mark without accompanying words. The revised sentence is \"Good morning.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.788461538461538,
+        4.211538461538462
+    ],
+    "The grammar error in the sentence \"See you , guys !\" is the unnecessary comma before \"guys.\" The revised sentence is \"See you guys!\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.513286713286713,
+        2.486713286713287
+    ],
+    "The grammar error in the sentence \"Oh nooo .\" is the use of an emoticon as a standalone sentence. The revised sentence could be \"Oh no!\" to express the same sentiment without the use of an emoticon. <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        5.351132224721982,
+        3.648867775278018
+    ],
+    "The original sentence \"My sister asked me to translate some documents into\" is missing the object of the translation. The revised sentence could be \"My sister asked me to translate some documents into English.\" <retrieved_rule> In English, a complete sentence must have a subject and a verb. <retrieved_rule>": [
+        3.4307017543859653,
+        2.5692982456140347
+    ],
+    "The grammar error in the sentence \"My hobbies\" is the lack of a verb or context to make it a complete sentence. The revised sentence could be \"My hobbies include reading and painting.\" <retrieved_rule> In English, a complete sentence must have a subject and a verb. <retrieved_rule>": [
+        8.104709645978746,
+        2.8952903540212542
+    ],
+    "The grammar error in the sentence \"and remember Kanji which I like ^ _ ^\" is the use of emoticons as standalone sentences. The revised sentence is \"And remember Kanji, which I like ^ _ ^.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        17.353611243828638,
+        3.6463887561713646
+    ],
+    "The grammar error in the sentence is the lack of a determiner before the noun \"experience.\" The revised sentence could be \"my first experience.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        2.7626262626262625,
+        2.237373737373737
+    ],
+    "The grammar error in the sentence \"So Sorry !\" is the lack of a comma after the introductory interjection \"So.\" The revised sentence is \"So, sorry!\" <retrieved_rule> Use a comma after an interjection such as \"So\" when expressing apology or regret. <retrieved_rule>": [
+        5.983102626037409,
+        2.0168973739625913
+    ],
+    "The original sentence \"[ Diary ] 14 / 8 / 10 of Event\" has several grammar errors. It lacks a subject and a verb, and the word \"Diary\" is not used in a grammatically correct way. The revised sentence could be \"I wrote in my diary on 14/8/10 about the event.\" This sentence includes a subject \"I,\" a verb \"wrote,\" and provides context for the word \"diary.\" <retrieved_rule> Rule: In English, a complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        7.313339093693445,
+        3.686660906306555
+    ],
+    "The grammar error in the sentence \"I ca n't help it .\" is the unnecessary space before the apostrophe in the contraction \"can't.\" The revised sentence is \"I can't help it.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        3.5244444444444447,
+        2.4755555555555553
+    ],
+    "The original sentence \"about reading books\" is missing a subject and a verb, making it incomplete. The revised sentence should be \"I enjoy reading books.\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        9.965846468148257,
+        3.034153531851741
+    ],
+    "The original sentence \"lost property\" does not contain any grammar errors. Revised sentence: \"lost property\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        1.8260869565217392,
+        2.1739130434782608
+    ],
+    "The grammar error in the sentence \"Ha ha !\" is the unnecessary exclamation mark without accompanying words. The revised sentence is \"Ha ha.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        2.3584748584748585,
+        2.6415251415251415
+    ],
+    "The original sentence \"Early Morning\" is missing a determiner before \"Morning.\" The revised sentence is \"The early morning.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        3.6,
+        2.4
+    ],
+    "The grammar error in the sentence \"I 'm still in the 20 's.\" is the incorrect use of contractions. The revised sentence is \"I am still in my twenties.\" <retrieved_rule> Contractions should not have a space between the two words. <retrieved_rule>": [
+        6.184608997323522,
+        2.8153910026764777
+    ],
+    "The grammar error in the sentence \"Have a good day ; )\" is the use of an emoticon as a standalone sentence. The revised sentence is \"I hope you have a good day.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        7.7902056679230585,
+        2.2097943320769406
+    ],
+    "The grammar error in the sentence \"Tuesday Feb 23\" is the lack of a preposition to indicate the date. The revised sentence could be \"Tuesday, Feb 23.\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        6.5571710311948,
+        3.4428289688051996
+    ],
+    "The grammar error in the sentence \"I suspected that way.\" is the lack of a verb to complete the sentence. The revised sentence is \"I suspected that way was wrong.\" <new_rule> Rule: A sentence should have a subject and a verb to be grammatically correct. <new_rule>": [
+        3.5572432275822106,
+        2.4427567724177894
+    ],
+    "The grammar error in the sentence \"Self - Introduction\" is the lack of a determiner. The revised sentence is \"A self-introduction.\" <retrieved_rule> Use \"a\" before words starting with a consonant sound. <retrieved_rule>": [
+        9.730488292085527,
+        3.2695117079144724
+    ],
+    "The grammar error in the sentence \"In black\" is the lack of a determiner. The revised sentence is \"The dress is in black.\" <retrieved_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        7.844688644688645,
+        3.1553113553113548
+    ],
+    "The original sentence \"Epitome of Cool\" does not contain any grammar errors. It is a grammatically correct phrase.": [
+        2.0,
+        4.0
+    ],
+    "Grammar error: The sentence \"S .\" is a standalone abbreviation and does not form a complete sentence. Revised sentence: \"S.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        9.094257691626112,
+        3.905742308373887
+    ],
+    "The grammar error in the sentence \"2 .\" is the lack of context or additional information. It is not a complete sentence. Revised sentence: \"I have 2 apples.\" <new_rule> Rule: Use \"a\" before words starting with a consonant sound. <new_rule>": [
+        6.712726527858106,
+        3.287273472141893
+    ],
+    "The original sentence \"thank you for reading .\" has a grammar error in the use of a period without accompanying words. The revised sentence is \"Thank you for reading.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.558705738705739,
+        2.4412942612942614
+    ],
+    "The original sentence \"Whitney Houston Failed\" does not contain any grammar errors.": [
+        9.278752425735185,
+        2.7212475742648157
+    ],
+    "The grammar error in the sentence \"I am beginner .\" is the lack of an article before the singular noun \"beginner.\" The revised sentence should be \"I am a beginner.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The original sentence \"sensitivity\" does not contain any grammar errors. Revised sentence: \"sensitivity\" <new_rule>There are no grammar errors in the original sentence. <new_rule>": [
+        6.138927035081899,
+        2.8610729649181015
+    ],
+    "The grammar error in the sentence \"Language is difficult\" is the lack of a punctuation mark at the end of the sentence. The revised sentence is \"Language is difficult.\" <retrieved_rule> Rule: In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        8.227891344020376,
+        2.7721086559796237
+    ],
+    "The grammar error in the sentence \"Thank you .\" is the use of a period without accompanying words. The revised sentence is \"Thank you.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        9.944119769119771,
+        3.0558802308802306
+    ],
+    "The original sentence \"The ending was great, though.\" contains a grammar error in the unnecessary use of the word \"though.\" The revised sentence is \"The ending was great.\" <retrieved_rule> The word \"though\" is not necessary in this context and can be omitted for clarity. <retrieved_rule>": [
+        3.029059829059829,
+        2.970940170940171
+    ],
+    "The original sentence \"see you .\" has a grammar error in the use of a period without accompanying words. The revised sentence is \"See you.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        1.8090322580645162,
+        2.190967741935484
+    ],
+    "The original sentence \"I am a hero\" does not contain any grammar errors. <retrieved_rule> There is no grammar error <retrieved_rule>": [
+        8.230160078395373,
+        2.769839921604628
+    ],
+    "The grammar error in the sentence \"A second date\" is the lack of a determiner. The revised sentence is \"The second date.\" <retrieved_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        3.7906658558832476,
+        2.2093341441167524
+    ],
+    "The grammar error in the sentence \"C .\" is the use of a standalone abbreviation as a sentence. The revised sentence could be \"Please see section C for more information.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        5.6978040478040475,
+        2.3021959521959516
+    ],
+    "The original sentence \"Third period was P .\" has a grammar error in the lack of context or additional information. It is not a complete sentence. The revised sentence is \"The third period was P.\" <retrieved_rule> In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        2.9833333333333334,
+        2.0166666666666666
+    ],
+    "The grammar error in the sentence \"Shinkansen\" is that it is not a complete sentence. It is an abbreviation for the high-speed trains in Japan, but it needs a verb or additional context to make it a complete sentence. Revised sentence: \"Let's take the Shinkansen to Kyoto.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        9.393636814071597,
+        2.6063631859284033
+    ],
+    "The grammar error in the sentence \"we enjoyed well\" is the use of \"enjoyed\" without an adverb. The revised sentence is \"We enjoyed the party well.\" <retrieved_rule> Adverb placement <retrieved_rule>": [
+        4.404809634809634,
+        2.595190365190365
+    ],
+    "The grammar error in the sentence \"and many others )\" is the use of a closing parenthesis without an opening parenthesis. The revised sentence could be \"and many others.\" <new_rule> Punctuation should not be used without accompanying words. <new_rule>": [
+        7.545078799196446,
+        2.454921200803554
+    ],
+    "The original sentence \"But I must do my homework !\" contains a grammar error in the use of the exclamation mark without accompanying words. The revised sentence should be \"But I must do my homework.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.448160173160174,
+        2.551839826839827
+    ],
+    "The grammar error in the sentence \"Irregular heartbeat\" is the lack of a determiner before \"irregular heartbeat.\" The revised sentence is \"An irregular heartbeat.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        8.240206577048683,
+        3.759793422951318
+    ],
+    "The grammar error in the sentence \"The third solution is immigration reform .\" is the lack of a comma after \"solution\" to separate the introductory phrase. The revised sentence is \"The third solution is immigration reform.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        14.505666488778617,
+        3.494333511221383
+    ],
+    "The grammar error in the sentence \"Arrangements\" is that it is a fragment and does not contain a subject or verb. The revised sentence could be \"The arrangements are made\" to include a subject and complete the sentence. <retrieved_rule> In English, a complete sentence should have a subject and a verb. <retrieved_rule>": [
+        6.583115845980296,
+        2.4168841540197037
+    ],
+    "The original sentence \"Thank you for reading this.\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"Thank you for reading this.\"": [
+        5.29926184926185,
+        2.7007381507381507
+    ],
+    "The grammar error in the sentence \"Diary 2011 / 7 / 6\" is the lack of a determiner before \"Diary.\" The revised sentence is \"The diary 2011 / 7 / 6.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        4.503097678188872,
+        2.4969023218111284
+    ],
+    "The grammar error in the sentence \". . . . . .\" is the use of ellipses as a standalone sentence. The revised sentence is \"I waited for a response. . . . . .\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        6.626086956521739,
+        2.373913043478261
+    ],
+    "The grammar error in the sentence \"For example , `` Lovi ' n you . ``\" is the unnecessary space before the comma and the use of an emoticon as a standalone sentence. The revised sentence is \"For example, 'Lovi ' n you.'\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        4.448717948717949,
+        3.551282051282051
+    ],
+    "The grammar error in the sentence \"Cool !\" is the use of an exclamation mark without accompanying words. The revised sentence is \"Cool!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        7.670186335403726,
+        2.329813664596273
+    ],
+    "The grammar error in the sentence \"so I like spring .\" is the unnecessary use of \"so\" before \"I like spring.\" The revised sentence is \"I like spring.\" <retrieved_rule> The word \"so\" is not necessary in this context and can be omitted for clarity. <retrieved_rule>": [
+        3.874329501915709,
+        2.125670498084291
+    ],
+    "The grammar error in the sentence \"I 'm want to learn english\" is the incorrect use of the contraction \"I 'm.\" The revised sentence should be \"I'm want to learn English.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        9.069900642835426,
+        2.9300993571645746
+    ],
+    "The grammar error in the sentence \"and magazins ,\" is the lack of a determiner before \"magazins.\" The revised sentence is \"and the magazines.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        6.728478456571678,
+        3.2715215434283227
+    ],
+    "The grammar error in the sentence \"Please correct my sentence or grammar .\" is the lack of a coordinating conjunction before \"or.\" The revised sentence is \"Please correct my sentence or grammar.\" <retrieved_rule> Comma splice is a grammatical error in which two independent clauses are joined by a comma without a coordinating conjunction or a semicolon. <retrieved_rule>": [
+        8.297998405103668,
+        2.7020015948963314
+    ],
+    "The grammar error in the sentence \"That was wonderful system\" is the incorrect placement of the adjective \"wonderful.\" It should be \"That was a wonderful system.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        1.9714285714285713,
+        2.0285714285714285
+    ],
+    "The grammar error in the sentence \"So , how bad is it ?\" is the unnecessary comma after \"So.\" The revised sentence is \"So, how bad is it?\" <new_rule> Use a comma after introductory phrases or adverbs. <new_rule>": [
+        11.72748460689637,
+        2.272515393103628
+    ],
+    "The original sentence \"Thanks for reading\" does not contain any grammar errors. <retrieved_rule> There is no grammar error <retrieved_rule>": [
+        5.481351981351981,
+        2.518648018648018
+    ],
+    "The grammar error in the sentence \"I recommend it !\" is the lack of a punctuation mark at the end. The revised sentence is: \"I recommend it!\" <retrieved_rule> In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        3.2431027164685906,
+        1.7568972835314092
+    ],
+    "The grammar error in the sentence \"mistakes ! !\" is the unnecessary exclamation marks without accompanying words. The revised sentence is \"Mistakes were made.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.399896480331264,
+        2.6001035196687363
+    ],
+    "The grammar error in the sentence \"At any rate , it was fun !\" is the unnecessary space before the comma. The revised sentence is \"At any rate, it was fun!\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        4.917816600324341,
+        3.08218339967566
+    ],
+    "The original sentence \"PLEASE check my mail X (\" has a grammar error in the use of emoticons as standalone sentences. The revised sentence is \"Please check my mail.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"Do n't know why .\" is the incorrect use of the contraction \"n't\" with a space before it. The revised sentence is \"Don't know why.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        2.206954335986594,
+        2.793045664013406
+    ],
+    "The grammar error in the sentence \"super - flu\" is the use of a hyphen instead of a space between the words \"super\" and \"flu.\" The revised sentence is \"super flu.\" <new_rule> Hyphen vs. Dash rule <new_rule>": [
+        3.9673160173160174,
+        2.0326839826839826
+    ],
+    "The grammar error in the sentence \"What bitter !\" is the lack of a verb to complete the exclamation. The revised sentence is \"What a bitter taste!\" <retrieved_rule> Exclamatory sentences do not always require a subject or verb, as the emotion or feeling is the main focus. <retrieved_rule>": [
+        3.2677248677248674,
+        2.7322751322751326
+    ],
+    "The grammar error in the sentence \"But we cancei that.\" is the misspelling of \"cancei\" instead of \"cancel.\" The revised sentence is \"But we cancel that.\" <new_rule> Spelling error: \"cancei\" is misspelled. The correct spelling is \"cancel.\" <new_rule>": [
+        5.8485677937623,
+        3.151432206237698
+    ],
+    "The grammar error in the sentence \"I went to a park ,\" is the unnecessary comma at the end. The revised sentence is \"I went to a park.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        5.365359879584018,
+        2.6346401204159826
+    ],
+    "The grammar error in the sentence \"T `` .\" is the use of a standalone abbreviation without any accompanying words. The revised sentence would be \"T.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        6.379150326797385,
+        2.6208496732026147
+    ],
+    "The grammar error in the sentence \"I 'm sure there were some mistakes\" is the unnecessary space before the apostrophe in the contraction \"I'm.\" The revised sentence is \"I'm sure there were some mistakes.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        2.714814814814815,
+        2.285185185185185
+    ],
+    "The grammar error in the sentence \"Plese tell me : D\" is the use of emoticons as standalone sentences. The revised sentence is \"Please tell me.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        2.2194719471947195,
+        1.7805280528052805
+    ],
+    "The original sentence \"But . . . .\" contains a grammar error in the use of ellipses as standalone sentences. The revised sentence is \"But...\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        6.575801159624689,
+        2.424198840375311
+    ],
+    "The original sentence \"Okaxile\" contains a grammar error in that it is not a complete sentence. It is just a single word without any context or additional information. The revised sentence should be \"I saw Okaxile at the store.\" <new_rule> I establish a new rule that \"Okaxile\" should be used in a complete sentence to provide context and additional information. <new_rule>": [
+        6.972140522875818,
+        2.027859477124183
+    ],
+    "The grammar error in the sentence \"A bear at the washbowl\" is the lack of a complete subject and verb. The revised sentence is \"There is no specific grammar rule that needs to be applied to this sentence.\" <retrieved_rule> This is a basic rule of grammar that a sentence should include a subject and a verb to be complete. <retrieved_rule>": [
+        8.03969249141663,
+        2.9603075085833703
+    ],
+    "The grammar error in the sentence \"hello\" is the lack of a punctuation mark at the end. The revised sentence is \"Hello.\" <retrieved_rule> In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        8.601687060789228,
+        2.398312939210772
+    ],
+    "The original sentence \"The article is from the Review & Outlook section .\" has a grammar error in the use of a period without accompanying words. The revised sentence is \"The article is from the Review & Outlook section.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        8.504569847077587,
+        3.4954301529224128
+    ],
+    "The grammar error in the sentence \"About the CHOTA MAJI\" is the lack of capitalization for \"CHOTA MAJI\" as it appears to be a proper noun. The revised sentence is \"About the Chota Maji.\" <retrieved_rule> Proper nouns such as organization names should be capitalized. <retrieved_rule>": [
+        5.752892509789062,
+        2.2471074902109387
+    ],
+    "The grammar error in the sentence \"And now they disturb me .\" is the unnecessary space before the period. The revised sentence is \"And now they disturb me.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        7.621623347493042,
+        3.378376652506957
+    ],
+    "The grammar error in the sentence \"I don like it\" is the incorrect use of the contraction \"don\" instead of \"don't.\" The revised sentence is \"I don't like it.\" <retrieved_rule> The contraction \"don't\" should be used instead of \"don\" to indicate \"do not.\" <retrieved_rule>": [
+        2.4598930481283423,
+        2.5401069518716577
+    ],
+    "The grammar error in the sentence \"It was really nice .\" is the lack of punctuation at the end. The revised sentence is \"It was really nice!\" <retrieved_rule> Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence. <retrieved_rule>": [
+        5.733334489055313,
+        2.266665510944687
+    ],
+    "The grammar error in the sentence \"What a pity !\" is the unnecessary exclamation mark without accompanying words. The revised sentence is \"What a pity.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.5084971334971335,
+        2.4915028665028665
+    ],
+    "The grammar error in the sentence \"Actually I just have\" is the lack of a complete subject and verb. The revised sentence could be \"Actually, I just have a few.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        9.595505067015367,
+        2.404494932984635
+    ],
+    "The grammar error in the sentence \"What else can I do ?\" is the unnecessary space before the question mark. The revised sentence is \"What else can I do?\" <retrieved_rule> Rule: There should not be a space before a comma. <retrieved_rule>": [
+        4.696031746031746,
+        2.3039682539682538
+    ],
+    "The grammar error in the sentence \"Twilight\" is the lack of a complete subject and verb. The revised sentence is \"Twilight.\" <new_rule> Rule: Proper nouns should be capitalized. <new_rule>": [
+        4.210989010989011,
+        1.789010989010989
+    ],
+    "The original sentence \"What was your costume ? ?\" contains a grammar error in the use of unnecessary punctuation. The revised sentence is \"What was your costume?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.2051862329090053,
+        1.794813767090995
+    ],
+    "The grammar error in the sentence \"Today , I finally found nice site .\" is the unnecessary space before the comma. The revised sentence is \"Today, I finally found a nice site.\" <retrieved_rule> There should not be a space before a comma. <retrieved_rule>": [
+        4.175154730327144,
+        2.824845269672856
+    ],
+    "The original sentence \"English\" contains a grammar error in that it is not a complete sentence as it lacks a subject and a verb. The revised sentence is \"I study English.\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"Is the below one OK ?\" is the incorrect use of \"the below.\" The revised sentence should be \"Is the one below OK?\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        7.831172725801882,
+        3.168827274198118
+    ],
+    "The grammar error in the sentence \"It 's very lovely\" is the incorrect use of the contraction \"It 's\" with a space before the apostrophe. The revised sentence is \"It's very lovely.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        6.991831357048748,
+        2.0081686429512517
+    ],
+    "The grammar error in the sentence \"bye !\" is the use of an exclamation mark without accompanying words. The revised sentence is \"Goodbye!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.307142857142857,
+        1.6928571428571428
+    ],
+    "The original sentence \"Good morning : )\" contains a grammar error in the use of emoticons as standalone sentences. The revised sentence is \"Good morning :)\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        2.868516266342353,
+        2.131483733657647
+    ],
+    "The grammar error in the sentence \"Do my best !\" is the lack of a subject and a verb. The revised sentence could be \"I will do my best!\" <new_rule> In English, a complete sentence must have a subject and a verb. <new_rule>": [
+        2.6346153846153846,
+        2.3653846153846154
+    ],
+    "The grammar error in the sentence \"A good review is the best start point\" is the incorrect placement of the adjective \"start.\" The revised sentence is \"A good review is the best starting point.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        5.289753894165659,
+        2.710246105834341
+    ],
+    "The grammar error in the sentence \"I tried to make sentences . 1\" is the unnecessary space before the period. The revised sentence is \"I tried to make sentences. 1.\" <retrieved_rule> There should not be a space before a comma. <retrieved_rule>": [
+        1.8947368421052633,
+        2.1052631578947367
+    ],
+    "The grammar error in the sentence \"no title , haha\" is the use of a comma without accompanying words. The revised sentence should be \"No title, haha.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.990716384834032,
+        2.009283615165968
+    ],
+    "The grammar error in the sentence \"I made mistakes a lot.\" is the placement of the adverb \"a lot.\" The revised sentence is \"I made a lot of mistakes.\" <retrieved_rule> Adverb placement: Adverbs should come before the verb they modify. <retrieved_rule>": [
+        4.754313319530711,
+        2.2456866804692894
+    ],
+    "The grammar error in the sentence \"Good night .\" is the use of a period without accompanying words. The revised sentence is \"Good night!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        7.975757575757576,
+        3.024242424242424
+    ],
+    "The grammar error in the sentence \"And finally , she released a new song !\" is the unnecessary space before the comma. The revised sentence is \"And finally, she released a new song!\" <new_rule> There should not be a space before a comma. <new_rule>": [
+        5.195145284500608,
+        2.804854715499393
+    ],
+    "The original sentence \"tears . . . . .\" has a grammar error in the use of ellipses as standalone sentences. The revised sentence is \"Tears.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        7.131349206349206,
+        2.8686507936507932
+    ],
+    "The grammar error in the sentence \"anymore .\" is the lack of a subject and a verb. The revised sentence is \"I don't want to do this anymore.\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        2.4814814814814814,
+        2.5185185185185186
+    ],
+    "The grammar error in the sentence \"The examination fee cost $ 150 .\" is the incorrect placement of the dollar sign. The revised sentence should be \"The examination fee costs $150.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        4.014035087719298,
+        1.9859649122807017
+    ],
+    "The grammar error in the sentence \"July 18th\" is the lack of a punctuation mark at the end. The revised sentence is \"July 18th.\" <retrieved_rule> In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        2.107142857142857,
+        1.8928571428571428
+    ],
+    "The grammar error in the sentence \"Simplification\" is that it is not a complete sentence. It is a noun, but it needs a verb or additional context to make it a complete sentence. Revised sentence: \"The simplification process is ongoing.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        7.404429004429004,
+        2.5955709955709954
+    ],
+    "The grammar error in the sentence \"That 's why , I started it.\" is the unnecessary use of a comma after \"why.\" The revised sentence is \"That's why I started it.\" <new_rule> The use of a comma after \"why\" is unnecessary and can be removed for improved clarity. <new_rule>": [
+        1.386138613861386,
+        2.613861386138614
+    ],
+    "Grammar error: The sentence \"Hi !\" is a standalone interjection and does not form a complete sentence. Revised sentence: \"Hi!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.658006969365995,
+        2.3419930306340038
+    ],
+    "The original sentence \"23rd October .\" has a grammar error in the use of a period without accompanying words. The revised sentence is \"23rd October.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.3803418803418803,
+        1.6196581196581197
+    ],
+    "The grammar error in the sentence \"Be leaving\" is the lack of a subject and a verb to form a complete sentence. The revised sentence could be \"I will be leaving.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        7.122466795006842,
+        2.877533204993159
+    ],
+    "The grammar error in the sentence \"English is very difficult .\" is the lack of punctuation at the end of the sentence. The revised sentence is \"English is very difficult.\" <retrieved_rule> Punctuation rule: Use appropriate punctuation marks at the end of a sentence. <retrieved_rule>": [
+        4.589366515837105,
+        2.4106334841628954
+    ],
+    "The grammar error in the sentence \"very simple things . .\" is the lack of a specific noun after the adjective \"simple.\" The revised sentence could be \"very simple things to do.\" This sentence includes a subject \"things,\" a verb \"to do,\" and a specific noun \"things\" after the adjective \"simple.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        3.102564102564103,
+        1.8974358974358974
+    ],
+    "The grammar error in the sentence \"Sunday Feb 21\" is the lack of a comma to separate the day of the week from the date. The revised sentence is \"Sunday, Feb 21.\" <retrieved_rule> Use a comma before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        2.321428571428571,
+        1.6785714285714286
+    ],
+    "The original sentence \"Thank you for reading !\" contains a grammar error in the use of an exclamation mark without accompanying words. The revised sentence is \"Thank you for reading.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.464743589743589,
+        1.5352564102564101
+    ],
+    "The grammar error in the sentence \"Got the gold medal.\" is the lack of a subject and verb. The revised sentence could be \"I got the gold medal.\" This sentence has a subject \"I\" and a verb \"got.\" <retrieved_rule>Subject-Verb Agreement<retrieved_rule>": [
+        2.446886446886447,
+        1.553113553113553
+    ],
+    "The original sentence \"But I found it hard to achieve recently.\" contains no specific grammar errors.": [
+        1.375,
+        1.625
+    ],
+    "The grammar error in the sentence \"Coincidence\" is the use of an abbreviation as a standalone sentence. The revised sentence is \"It's just a coincidence.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        5.793919588037236,
+        3.206080411962765
+    ],
+    "The original sentence \"hey hey you you ! !\" contains a grammar error in the use of repeated words and exclamation marks without accompanying words. The revised sentence is \"Hey, hey, you, you!\" <retrieved_rule> Avoid using redundant words or phrases in a sentence. <retrieved_rule>": [
+        4.833792896292897,
+        2.166207103707104
+    ],
+    "The original sentence \"heavy stomach\" does not contain any grammar errors. Revised sentence: \"heavy stomach.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        2.476923076923077,
+        1.523076923076923
+    ],
+    "The original sentence \"Doing for relaxation\" has a grammar error in the lack of a subject and a verb. The revised sentence should be \"I am doing for relaxation.\" <retrieved_rule> In English, a complete sentence must have a subject and a verb. <retrieved_rule>": [
+        3.5701863354037267,
+        2.4298136645962733
+    ],
+    "The original sentence \"I should watch my language .\" contains a grammar error in the use of a period after \"language\" without a coordinating conjunction or a semicolon. The revised sentence is \"I should watch my language.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        5.392661082878474,
+        2.6073389171215258
+    ],
+    "The grammar error in the sentence \"I was wondering if that was from my friend 's call .\" is the unnecessary space before the apostrophe in the contraction \"friend's.\" The revised sentence is \"I was wondering if that was from my friend's call.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        9.377708278570346,
+        2.6222917214296526
+    ],
+    "The grammar error in the sentence \"this is just the execuse .\" is the misspelling of \"excuse\" as \"execuse.\" The revised sentence should be \"This is just the excuse.\" <retrieved_rule> Spelling error: \"excuse\" is misspelled as \"execuse.\" <retrieved_rule>": [
+        7.314193061840122,
+        2.685806938159879
+    ],
+    "The grammar error in the sentence \"The current pension system was mainly created in 1985 .\" is the use of a period without accompanying words. The revised sentence is \"The current pension system was mainly created in 1985.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        7.62995218289336,
+        2.3700478171066406
+    ],
+    "The grammar error in the sentence \"Take care .\" is the use of a period without accompanying words. The revised sentence is \"Take care.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.883320203573796,
+        2.1166797964262045
+    ],
+    "The original sentence \"I mean . . .\" has a grammar error in the use of ellipses as standalone sentences. The revised sentence is \"I mean.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        7.64306786000939,
+        2.3569321399906107
+    ],
+    "The original sentence \"Is there anything wrong with them ?\" contains a grammar error in the use of the question mark without a space before it. The revised sentence should be \"Is there anything wrong with them?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        5.0809442908985245,
+        1.919055709101476
+    ],
+    "The grammar error in the sentence \"Pay attention .\" is the lack of accompanying words with the exclamation mark. The revised sentence could be \"Pay attention, please.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.920542460759853,
+        3.0794575392401478
+    ],
+    "Grammar error: The sentence \"She came back !\" is a standalone interjection and does not form a complete sentence. Revised sentence: \"She came back!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        6.803203466252764,
+        2.1967965337472344
+    ],
+    "The grammar error in the sentence \"Broken . .\" is the use of a period to join two independent clauses without a conjunction. The revised sentence is \"Broken and in need of repair.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        7.917910585286746,
+        2.082089414713254
+    ],
+    "The grammar error in the sentence \"so . . .\" is the use of ellipses as standalone sentences. The revised sentence is \"So.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        6.811325218647872,
+        2.1886747813521263
+    ],
+    "The original sentence \"Oh . .\" has a grammar error in the use of ellipses as standalone sentences. The revised sentence is \"Oh.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        8.557702962114726,
+        2.4422970378852735
+    ],
+    "The original sentence \"It is very nice .\" does not contain any grammar errors.": [
+        2.8616161616161615,
+        2.1383838383838385
+    ],
+    "The original sentence \"Please give me power !\" contains a grammar error in the lack of a subject and verb. The revised sentence is \"Please give me the power!\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        3.0436507936507935,
+        1.9563492063492065
+    ],
+    "The grammar error in the sentence \"Not at all .\" is the lack of a punctuation mark at the end of the sentence. The revised sentence is \"Not at all.\" <new_rule> Punctuation rule: Use appropriate punctuation marks at the end of a sentence. <new_rule>": [
+        4.1647058823529415,
+        1.8352941176470587
+    ],
+    "The original sentence \"Oh , My God !\" contains a grammar error in the unnecessary space before the comma. The revised sentence is \"Oh, my God!\" <retrieved_rule> There should not be a space before a comma. <retrieved_rule>": [
+        8.370523585609792,
+        2.629476414390208
+    ],
+    "The grammar error in the sentence \"My son have diarrhea\" is the incorrect verb form. The revised sentence could be \"My son has diarrhea.\" <retrieved_rule> The correct verb tense should be used to match the timing of the action being described. <retrieved_rule>": [
+        6.087106833580114,
+        1.912893166419886
+    ],
+    "The grammar error in the sentence \"It 's so funny really .\" is the incorrect use of the contraction \"It 's\" instead of \"It's\" without the space. The revised sentence is \"It's so funny, really.\" <retrieved_rule> The contraction \"It's\" should be used instead of \"It 's\" to indicate \"It is.\" <retrieved_rule>": [
+        4.236853002070394,
+        2.7631469979296064
+    ],
+    "The grammar error in the sentence \"the very fisrt diary on Lang - 8\" is the misspelling of \"fisrt\" and the incorrect capitalization of \"Lang - 8.\" The revised sentence should be \"The very first diary on Lang-8.\" <retrieved_rule> Spelling error: \"fisrt\" is misspelled. The correct spelling is \"first.\" <retrieved_rule> <retrieved_rule> Proper nouns such as organization names should be capitalized. <retrieved_rule>": [
+        8.96890666135705,
+        2.0310933386429504
+    ],
+    "The original sentence \"Please correct my English sentences ! ( 20090108 )\" contains a grammar error in the use of the exclamation mark without accompanying words. The revised sentence is \"Please correct my English sentences.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        2.1064593301435406,
+        1.8935406698564594
+    ],
+    "The grammar error in the sentence \"December\" is the use of a proper noun without capitalization. The revised sentence is \"December.\" <retrieved_rule> Proper nouns such as the name of a specific month should be capitalized. <retrieved_rule>": [
+        4.658422287834052,
+        2.3415777121659476
+    ],
+    "The original sentence \"Which is correct ?\" contains a grammar error in the use of a period without accompanying words. The revised sentence is \"Which is correct?\" <retrieved_rule> Punctuation rule: Use appropriate punctuation marks at the end of a sentence. <retrieved_rule>": [
+        5.111739547332768,
+        2.888260452667232
+    ],
+    "The original sentence \"wii\" has a spelling error. The correct spelling is \"Wii.\" <retrieved_rule> Proper nouns such as brand names should be capitalized. <retrieved_rule>": [
+        1.1973684210526314,
+        1.8026315789473686
+    ],
+    "The original sentence \"Listening to music\" does not contain any grammar errors. Revised sentence: \"Listening to music.\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        4.343933147062833,
+        1.6560668529371676
+    ],
+    "The grammar error in the sentence \"So , please somebody correct my English !\" is the unnecessary use of a comma after \"So.\" The revised sentence is \"So please, somebody correct my English!\" <retrieved_rule> The use of a comma after \"So\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        5.7188896071249005,
+        2.281110392875099
+    ],
+    "The original sentence \"What happened to her ?\" contains a grammar error in the use of the question mark without a space before it. The revised sentence should be \"What happened to her?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.7692307692307692,
+        2.230769230769231
+    ],
+    "The grammar error in the sentence \"Self - introduction\" is the use of a hyphen instead of a space between \"self\" and \"introduction.\" The revised sentence is \"Self-introduction.\" <new_rule> Use a hyphen instead of a space to join compound words. <new_rule>": [
+        1.7142857142857144,
+        2.2857142857142856
+    ],
+    "The grammar error in the sentence \"Best regard .\" is the lack of the article \"s\" after \"regard.\" The revised sentence should be \"Best regards.\" <retrieved_rule> In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        4.171850079744817,
+        1.828149920255183
+    ],
+    "The grammar error in the sentence \"Wish you happy in paradise\" is the lack of a determiner before \"happy.\" The revised sentence should be \"Wish you a happy time in paradise.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        4.42787352295549,
+        1.5721264770445098
+    ],
+    "The original sentence \"Someone help me !\" contains a grammar error in the lack of a subject and verb. The revised sentence is \"Someone, help me!\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        6.307078328003918,
+        2.6929216719960825
+    ],
+    "The grammar error in the sentence \"Hi everyone ,\" is the use of a comma after \"everyone\" without a coordinating conjunction. The revised sentence is \"Hi everyone.\" <retrieved_rule> A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.7380952380952381,
+        1.2619047619047619
+    ],
+    "The original sentence \"English skill\" has a grammar error in the lack of an article before \"English.\" The revised sentence should be \"An English skill.\" <retrieved_rule> In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        9.956310570205094,
+        2.043689429794907
+    ],
+    "The grammar error in the sentence \"OK , let 's all for my first entry .\" is the incorrect use of the contraction \"let's.\" The revised sentence should be \"OK, let's all for my first entry.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The original sentence \"Earthquake aftershock\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"Earthquake aftershock.\"": [
+        6.753577715646681,
+        2.2464222843533186
+    ],
+    "The original sentence \"I .\" is a fragment and does not contain a verb. The revised sentence could be \"I am.\" to include a verb and complete the sentence. <retrieved_rule> Subject-Verb Agreement <retrieved_rule>": [
+        2.0905172413793105,
+        1.9094827586206897
+    ],
+    "The grammar error in the sentence \"english accents\" is the lack of capitalization for the proper noun \"English.\" The revised sentence is \"English accents.\" <retrieved_rule> Proper nouns such as nationality should be capitalized. <retrieved_rule>": [
+        3.2556818181818183,
+        1.7443181818181819
+    ],
+    "The grammar error in the sentence \"I visited A & F official website .\" is the use of a period without accompanying words. The revised sentence is \"I visited the A & F official website.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        2.8911764705882352,
+        2.1088235294117648
+    ],
+    "The original sentence \"The catcher in the rye\" contains a grammar error in the lack of a determiner. The revised sentence should be \"The catcher in the rye.\" <retrieved_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.8,
+        2.2
+    ],
+    "The original sentence \"I was surprised ! !\" contains a grammar error in the use of exclamation marks without accompanying words. The revised sentence is \"I was surprised!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        1.9230769230769231,
+        2.0769230769230766
+    ],
+    "The grammar error in the sentence \"I spoke English today .\" is the unnecessary space before the period. The revised sentence is \"I spoke English today.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.509641220167536,
+        2.490358779832464
+    ],
+    "Grammar error: The unnecessary space before the comma in the sentence \"Today , I was reviewing my previous entries and my comments .\" The revised sentence is \"Today, I was reviewing my previous entries and my comments.\" <retrieved_rule> There should not be a space before a comma. <retrieved_rule>": [
+        6.771802834846314,
+        2.228197165153687
+    ],
+    "The grammar error in the sentence \"It sounded not bad .\" is the incorrect placement of the adverb \"not.\" The revised sentence is \"It did not sound bad.\" <retrieved_rule> Adverb placement: Adverbs should come before the verb they modify. <retrieved_rule>": [
+        2.643076923076923,
+        1.356923076923077
+    ],
+    "The original sentence \"hi\" contains a grammar error in that it is not a complete sentence. It is just a standalone word without any context or additional information. The revised sentence should be \"Hi, how are you?\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar error in the sentence \"Good Night !\" is the unnecessary exclamation mark without accompanying words. The revised sentence is \"Good night.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        2.6103448275862067,
+        2.389655172413793
+    ],
+    "The grammar error in the sentence \"Fifth period was science\" is the lack of a punctuation mark at the end of the sentence. The revised sentence is \"Fifth period was science.\" <retrieved_rule> Rule: In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        3.7110661874812823,
+        2.288933812518718
+    ],
+    "The original sentence \"After the class , I asked the students to answer a questionnaire .\" contains a grammar error in the use of a comma splice to join two independent clauses without a conjunction. The revised sentence should be \"After the class, I asked the students to answer a questionnaire.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        2.9328431372549018,
+        2.0671568627450982
+    ],
+    "The original sentence \"Yes , you can .\" contains a comma splice error, as it joins two independent clauses without a conjunction. The revised sentence should be \"Yes, you can.\" <retrieved_rule> A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        4.656481975730401,
+        2.343518024269599
+    ],
+    "The original sentence \"Thank you for reading ! ! : )\" contains several grammar errors. The exclamation marks and emoticon should not be used as standalone sentences. The revised sentence should be \"Thank you for reading!\" <retrieved_rule>Exclamation marks should not be used without accompanying words. Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        3.5341269841269844,
+        1.4658730158730158
+    ],
+    "The grammar error in the sentence \"- - - - - - -\" is the use of ellipses as a standalone sentence. The revised sentence could be \"The situation was tense.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        1.8947368421052633,
+        2.1052631578947367
+    ],
+    "The original sentence \"Today\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"Today.\"": [
+        4.129150579150579,
+        1.8708494208494209
+    ],
+    "The original sentence \"Hello everyone ! !\" contains a grammar error in the use of two exclamation marks without accompanying words. The revised sentence is \"Hello everyone!\" <retrieved_rule>Exclamation marks should not be used without accompanying words.<retrieved_rule>": [
+        1.9047619047619047,
+        2.0952380952380953
+    ],
+    "The grammar error in the sentence \"I really need help .\" is the use of a period without accompanying words. The revised sentence should be \"I really need help!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        3.5625,
+        1.4375
+    ],
+    "Grammar error: The sentence \"I wonder !\" is a standalone interjection and does not form a complete sentence. Revised sentence: \"I wonder!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.186182336182336,
+        1.8138176638176635
+    ],
+    "The grammar error in the sentence \"It would be good if I could speak\" is the lack of a specific verb after \"speak\" to complete the sentence. The revised sentence should be \"It would be good if I could speak Spanish.\" <new_rule> Rule: A complete sentence should include a subject and a verb that agrees in tense and number. <new_rule>": [
+        6.214731645166428,
+        2.7852683548335717
+    ],
+    "The grammar error in the sentence \"Gardenig\" is the misspelling of \"gardening.\" The revised sentence is \"Gardening.\" <retrieved_rule> The correct spelling of \"gardening\" should be used. <retrieved_rule>": [
+        3.0738095238095235,
+        1.9261904761904762
+    ],
+    "The original sentence \"Have a nice day : )\" contains a grammar error in the use of a standalone emoticon as a sentence. The revised sentence should be \"Have a nice day!\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        2.2,
+        1.7999999999999998
+    ],
+    "The grammar error in the sentence \"Oh my god .\" is the use of a period without accompanying words. The revised sentence is \"Oh my god!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        3.0486590038314176,
+        1.9513409961685824
+    ],
+    "The original sentence \"Then I get courtesy .\" contains a grammar error in the lack of a determiner before the singular noun \"courtesy.\" The revised sentence is \"Then I get the courtesy.\" <retrieved_rule> In English, singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.) <retrieved_rule>": [
+        3.5023809523809524,
+        1.4976190476190474
+    ],
+    "The grammar error in the sentence \"Hello .\" is the use of a period to end a sentence without any accompanying words. The revised sentence is \"Hello!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.22005247005247,
+        1.7799475299475302
+    ],
+    "The grammar error in the sentence \"only some sentences\" is the lack of a determiner before \"sentences.\" The revised sentence should be \"only some of the sentences.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        7.1086165296691615,
+        1.8913834703308388
+    ],
+    "The grammar error in the sentence \"G .\" is the lack of a specific noun or verb to form a complete sentence. The revised sentence could be \"G is the seventh letter of the alphabet.\" <retrieved_rule> \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        4.338023088023088,
+        1.6619769119769119
+    ],
+    "The grammar error in the sentence \"Foreigners baby\" is the lack of a determiner before \"Foreigners.\" The revised sentence should be \"The foreign baby.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        2.1458333333333335,
+        1.8541666666666665
+    ],
+    "The grammar error in the sentence \"I 'm busy .\" is the incorrect use of the contraction \"I 'm\" with a space before the apostrophe. The revised sentence is \"I'm busy.\" <retrieved_rule> Contractions in English should not have a space before the apostrophe. <retrieved_rule>": [
+        1.9583333333333335,
+        2.0416666666666665
+    ],
+    "The grammar error in the sentence \"I think it 's already outdated .\" is the incorrect use of the contraction \"it 's\" instead of \"it's.\" The revised sentence should be \"I think it's already outdated.\" <retrieved_rule> The contraction \"That's\" should be used instead of \"That 's\" to indicate \"That is.\" <retrieved_rule>": [
+        2.3988095238095237,
+        1.6011904761904763
+    ],
+    "The grammar error in the sentence \"D :\" is the use of an emoticon as a standalone sentence. Emoticons should not be used as standalone sentences. The revised sentence could be \"I received a grade of D.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        1.6136363636363638,
+        2.3863636363636362
+    ],
+    "The original sentence \"I hope you enjoy this video .\" has a grammar error in the unnecessary space before the period. The revised sentence should be \"I hope you enjoy this video.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.8253638253638256,
+        2.1746361746361744
+    ],
+    "The original sentence \"The game began .\" contains a grammar error in the use of a period after \"began\" without a coordinating conjunction or a semicolon. The revised sentence is \"The game began.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        2.701388888888889,
+        1.2986111111111112
+    ],
+    "The original sentence \"Second period was English.\" contains a grammar error in the lack of a preposition before \"English\" to indicate the subject of the period. The revised sentence is \"Second period was in English.\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        3.4433899433899438,
+        2.5566100566100562
+    ],
+    "The original sentence \"the new in the lang - 8\" contains a grammar error in the use of \"in\" instead of \"on\" to indicate the location of an activity when referring to a specific website or platform. The revised sentence should be \"the new on Lang-8.\" <retrieved_rule> Use \"on\" before a specific website or platform to indicate the location of an activity. <retrieved_rule>": [
+        2.618181818181818,
+        1.3818181818181818
+    ],
+    "The original sentence \"Halloween\" contains a grammar error in the lack of an article or determiner. The revised sentence should be \"The Halloween.\" <new_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <new_rule>": [
+        3.1984848484848483,
+        1.8015151515151515
+    ],
+    "The original sentence \"They were good .\" does not contain any grammar errors. Revised sentence: \"They were good.\" <new_rule> There are no grammar errors in the original sentence. <new_rule>": [
+        4.722222222222222,
+        1.277777777777778
+    ],
+    "The grammar error in the sentence \"I disappointed it a little.\" is the incorrect placement of the adverb \"a little.\" The revised sentence is \"I was a little disappointed by it.\" <retrieved_rule> Adverb placement: Adverbs should come before the verb they modify. <retrieved_rule>": [
+        4.150147221199853,
+        1.8498527788001473
+    ],
+    "The grammar error in the sentence \"when someone ask me , what 's your fovorite things\" is the incorrect verb tense. The revised sentence is \"When someone asks me, what are your favorite things?\" <retrieved_rule> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. <retrieved_rule>": [
+        3.8076555023923446,
+        2.1923444976076554
+    ],
+    "The original sentence \"and we can enjoy drinking ^ ^\" contains a grammar error in the use of caret symbols as standalone sentences. The revised sentence should be \"and we can enjoy drinking.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        3.630952380952381,
+        1.369047619047619
+    ],
+    "The grammar error in the sentence \"The important point is `` order ``\" is the use of quotation marks around the word \"order\" without any context or additional information. The revised sentence should be \"The important point is to maintain order.\" <retrieved_rule> Use of parentheses to indicate a choice between options is not necessary in this context. <retrieved_rule>": [
+        1.9285714285714286,
+        2.071428571428571
+    ],
+    "The original sentence \"Today first period was `` C\" contains a grammar error in the use of \"``\" which is unnecessary. The revised sentence should be \"Today, the first period was C.\" <new_rule> Use appropriate punctuation marks at the end of a sentence. <new_rule>": [
+        1.8666666666666667,
+        2.1333333333333333
+    ],
+    "The grammar error in the sentence \"Child 's First Errand\" is the incorrect use of the possessive form of \"child.\" The revised sentence is \"Child's First Errand.\" <retrieved_rule> Rule: Possessive form of singular noun is formed by adding 's <retrieved_rule>": [
+        4.308722256090677,
+        1.691277743909323
+    ],
+    "The grammar error in the sentence \"I might be make a mistake when corrected English.\" is the incorrect use of the verb \"make\" in the infinitive form. The revised sentence is \"I might make a mistake when correcting English.\" <retrieved_rule> The past tense of \"make\" is \"made,\" not \"mede.\" <retrieved_rule>": [
+        3.572134387351779,
+        1.4278656126482212
+    ],
+    "The original sentence \"What a coincidence .\" contains a grammar error in the use of a period without accompanying words. The revised sentence is \"What a coincidence!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.899501287001287,
+        2.100498712998713
+    ],
+    "The original sentence \"I want to improve this situation .\" contains a space before the period, which is a punctuation error. The revised sentence should be \"I want to improve this situation.\" <new_rule> Contractions in English should not have a space before the apostrophe. <new_rule>": [
+        2.502608695652174,
+        1.497391304347826
+    ],
+    "The grammar error in the sentence \"How are you doing ?\" is the unnecessary space before the question mark. The revised sentence is \"How are you doing?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        2.7670454545454546,
+        2.2329545454545454
+    ],
+    "The original sentence \"But I 'm OK .\" contains a grammar error in the contraction \"I 'm\" with a space before the apostrophe. The revised sentence is \"But I'm OK.\" <retrieved_rule> Rule: Contractions in English should not have a space before the apostrophe. <retrieved_rule>": [
+        1.9230769230769231,
+        1.0769230769230769
+    ],
+    "The grammar error in the sentence \"1 .\" is the lack of a specific noun or verb to form a complete sentence. The revised sentence could be \"1 is the loneliest number.\" <new_rule> There should not be a space before a period. <new_rule>": [
+        1.087719298245614,
+        1.912280701754386
+    ],
+    "The grammar error in the sentence \"I 'm looking forward to see them !\" is the incorrect use of the contraction \"I'm\" with a space before the apostrophe. The revised sentence is \"I'm looking forward to see them!\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        5.111423598923599,
+        1.8885764010764012
+    ],
+    "The grammar error in the sentence \"We should note something what we need .\" is the incorrect placement of the word \"what.\" The revised sentence is \"We should note something that we need.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        2.7092624356775303,
+        1.2907375643224699
+    ],
+    "The grammar error in the sentence \"Exams . . . .\" is the use of ellipses as standalone sentences. The revised sentence should be \"Exams are coming up soon.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        5.378921078921079,
+        1.6210789210789212
+    ],
+    "The original sentence \"I really like reading books .\" contains a grammar error in the placement of the adverb \"really.\" The revised sentence should be \"I like reading books really.\" <retrieved_rule> Adverb placement: Adverbs should come before the verb they modify. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"friend 's birthday\" has a grammar error in the use of the possessive form. The revised sentence should be \"friend's birthday.\" <retrieved_rule> Possessive form: noun + 's <retrieved_rule>": [
+        3.5636363636363635,
+        1.4363636363636363
+    ],
+    "The original sentence \"Let me introduce myself\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"Let me introduce myself.\"": [
+        4.518315018315018,
+        1.4816849816849815
+    ],
+    "The original sentence \"Oh , I remembered .\" contains a grammar error in the use of a comma after the interjection \"Oh\" without a space before it. The revised sentence should be \"Oh, I remembered.\" <retrieved_rule> Use a comma after an interjection such as \"Oh\" when expressing strong emotion. <retrieved_rule>": [
+        1.9166666666666667,
+        1.0833333333333333
+    ],
+    "The original sentence \"A nice surpise\" contains a grammar error in the adjective-noun agreement. The revised sentence should be \"A nice surprise.\" <retrieved_rule> Adjective-noun agreement <retrieved_rule>": [
+        2.7676923076923075,
+        1.2323076923076923
+    ],
+    "The original sentence \"I joke name .\" contains a grammar error in the lack of a verb to make it a complete sentence. The revised sentence is \"I joke about his name.\" <retrieved_rule> In English, a complete sentence must have a subject and a verb. <retrieved_rule>": [
+        3.184338184338184,
+        1.8156618156618156
+    ],
+    "The original sentence \"a lot of workload\" does not contain any grammar errors. Revised sentence: \"a lot of workload\" <retrieved_rule> There are no grammar errors in the original sentence. <retrieved_rule>": [
+        1.8333333333333335,
+        1.1666666666666665
+    ],
+    "The original sentence \"Thank you very much .\" contains a grammar error in the use of a period without accompanying words. The revised sentence is \"Thank you very much!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        2.725225225225225,
+        1.2747747747747746
+    ],
+    "The grammar error in the sentence \"My dog !\" is the use of an exclamation mark without accompanying words. The revised sentence is \"My dog is so cute!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.4263616557734204,
+        1.5736383442265796
+    ],
+    "The original sentence \"When I talk , I forget what I say , ,\" contains a grammar error in the use of unnecessary commas before the final comma. The revised sentence is \"When I talk, I forget what I say.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.468599033816425,
+        1.5314009661835748
+    ],
+    "The grammar error in the sentence \"Reading Books in a bath\" is the lack of a determiner before \"bath.\" The revised sentence should be \"Reading books in the bath.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        2.4213836477987423,
+        1.5786163522012577
+    ],
+    "The original sentence \"I was moved .\" contains a grammar error in the lack of a specific verb or context to make it a complete sentence. The revised sentence is \"I was moved by the performance.\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        3.551981351981352,
+        1.4480186480186479
+    ],
+    "The original sentence contains a grammar error in the use of parentheses to indicate a choice between options, which is not necessary in this context. The revised sentence should be \"I know that a long subject is not good in English, but how can I rewrite this?\" <retrieved_rule> Use of parentheses to indicate a choice between options is not necessary in this context. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I asked her if she have boyfriend or not .\" is the lack of subject-verb agreement. The correct form should be \"I asked her if she has a boyfriend or not.\" <retrieved_rule> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. <retrieved_rule>": [
+        2.579124579124579,
+        1.4208754208754208
+    ],
+    "The original sentence \"`` ?\" contains a grammar error in the use of quotation marks as a standalone sentence. The revised sentence could be \"What's wrong?\" <retrieved_rule>Quotation marks should not be used as standalone sentences. <retrieved_rule>": [
+        2.675438596491228,
+        1.3245614035087718
+    ],
+    "The original sentence \"Hello everyone ,\" contains a grammar error in the use of a comma after \"everyone\" without a coordinating conjunction or a reason for the pause. The revised sentence is \"Hello, everyone.\" <new_rule> Use appropriate punctuation marks at the end of a sentence. <new_rule>": [
+        1.9411764705882353,
+        1.0588235294117647
+    ],
+    "The grammar error in the sentence \"I hope to get any quarifications in english .\" is the misspelling of \"qualifications\" and \"English,\" as well as the use of \"any\" before \"qualifications.\" The revised sentence should be \"I hope to obtain qualifications in English.\" <retrieved_rule>Spelling error: \"English\" is misspelled. The correct spelling is \"English.\" <retrieved_rule> <retrieved_rule>Use \"in\" before a specific website or platform to indicate the location of an activity. <retrieved_rule> <new_rule>Use \"in\" before a specific language to indicate proficiency or qualifications in that language. <new_rule>": [
+        2.404761904761905,
+        2.595238095238095
+    ],
+    "The original sentence \"hahaha\" contains a grammar error in the use of emoticons as standalone sentences. The revised sentence is \"hahaha!\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        2.7897435897435896,
+        1.2102564102564102
+    ],
+    "The grammar error in the sentence \"When the auntie ask me what kind of pass I am holding .\" is the incorrect verb form \"ask\" instead of \"asks.\" The revised sentence is \"When the auntie asks me what kind of pass I am holding.\" <retrieved_rule> Use singular pronouns to refer to singular nouns. <retrieved_rule>": [
+        2.809090909090909,
+        1.190909090909091
+    ],
+    "The original sentence \"4 .\" contains a grammar error in the use of a period without accompanying words. The revised sentence is \"4.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        2.331818181818182,
+        1.6681818181818182
+    ],
+    "The grammar error in the sentence \"New computer\" is the lack of a complete subject and verb. The revised sentence could be \"I bought a new computer.\" <retrieved_rule> Use \"a\" before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        2.1047169811320754,
+        1.8952830188679246
+    ],
+    "Grammar error: The sentence \"In my plan .\" is a standalone prepositional phrase and does not form a complete sentence. Revised sentence: \"In my plan,\" <retrieved_rule> A sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        1.6904761904761905,
+        1.3095238095238095
+    ],
+    "The original sentence \"It 's not a joke .\" contains a grammar error in the use of a space before the apostrophe in the contraction \"it's.\" The revised sentence is \"It's not a joke.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"So that 's the second\" is the use of the contraction \"that 's\" with a space before the apostrophe. The revised sentence is \"So that's the second.\" <retrieved_rule> The contraction \"That's\" should be used instead of \"That 's\" to indicate \"That is.\" <retrieved_rule>": [
+        2.7435897435897436,
+        1.2564102564102564
+    ],
+    "The grammar error in the sentence \"The title is `` closer `` .\" is the use of quotation marks around the word \"closer\" without a clear reason for emphasis or direct speech. The revised sentence is \"The title is closer.\" <retrieved_rule> Use of quotation marks should be for emphasis or direct speech. <retrieved_rule>": [
+        2.607142857142857,
+        1.3928571428571428
+    ],
+    "The grammar error in the sentence \"I 'd be glad if you correct my mistakes .\" is the incorrect contraction form. The revised sentence should be \"I'd be glad if you correct my mistakes.\" <retrieved_rule> Contractions in English should not have a space before the apostrophe. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Summer holiday\" contains a grammar error in the lack of an article before the singular noun \"holiday.\" The revised sentence should be \"The summer holiday.\" <retrieved_rule> In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"It was fun .\" contains a grammar error in the use of a period without accompanying words. The revised sentence should be \"It was fun!\" <retrieved_rule> Punctuation should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Fruit\" is that it is not a complete sentence. It should be revised to \"I like fruit.\" <retrieved_rule> \"Something\" should not be used as a standalone noun. <retrieved_rule>": [
+        1.35,
+        1.65
+    ],
+    "The original sentence \"I make a long entry again .\" contains a grammar error in the unnecessary space before the period. The revised sentence is \"I make a long entry again.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        3.1522727272727273,
+        1.8477272727272727
+    ],
+    "The original sentence \"Hello , everybody .\" contains a grammar error in the unnecessary space before the comma. The revised sentence should be \"Hello, everybody.\" <retrieved_rule> There should not be a space before a comma. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"thank you everyone !\" is the lack of a punctuation mark at the end. The revised sentence should be \"Thank you, everyone!\" <retrieved_rule> In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. <retrieved_rule>": [
+        2.7222222222222223,
+        1.2777777777777777
+    ],
+    "The original sentence \"( laughing laughing )\" contains a grammar error in the use of parentheses to indicate direct speech. The revised sentence should be \"laughing.\" <retrieved_rule> Use of parentheses to indicate a choice between options is not necessary in this context. <retrieved_rule>": [
+        3.2245670995671,
+        1.7754329004329004
+    ],
+    "The original sentence \"The entrance exam season\" does not contain any grammar errors.": [
+        1.35,
+        1.65
+    ],
+    "The original sentence \"Finally , I choose the official web site .\" contains a grammar error in the unnecessary space before the comma. The revised sentence is \"Finally, I choose the official website.\" <new_rule> There should not be a space before a comma. <new_rule>": [
+        2.3181818181818183,
+        1.6818181818181819
+    ],
+    "The grammar error in the sentence \"my weekend\" is the lack of an article before the singular noun \"weekend.\" The revised sentence should be \"my weekend.\" <retrieved_rule> Use \"a\" before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        2.869747899159664,
+        1.1302521008403361
+    ],
+    "The original sentence \"Icy , Snow - covered Trees\" contains a grammar error in the use of a comma and hyphen without accompanying words. The revised sentence is \"Icy, snow-covered trees.\" <retrieved_rule> Punctuation should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Vessel\" is not a complete sentence. It is a noun, but it needs a verb or additional context to make it a complete sentence. The revised sentence is \"The vessel is ready.\" <retrieved_rule> \"Something\" should not be used as a standalone noun. <retrieved_rule>": [
+        1.8076923076923077,
+        1.1923076923076923
+    ],
+    "The original sentence \"Dancing\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"Dancing.\"": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Here is ending .\" contains a grammar error in the lack of context or additional information. It is not a complete sentence. The revised sentence is \"Here is the ending.\" <new_rule> In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Am I busy ?\" contains a grammar error in the unnecessary space before the question mark. The revised sentence is \"Am I busy?\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.6666666666666667,
+        1.3333333333333333
+    ],
+    "The original sentence \"But , we have to finish term examination .\" contains a grammar error in the unnecessary space before the comma. The revised sentence is \"But, we have to finish the term examination.\" <new_rule> Rule: Punctuation should not have a space before it. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It 's getting dark.\" is the incorrect use of a space before the apostrophe in the contraction \"It's.\" The revised sentence is \"It's getting dark.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Here is the link .\" contains a grammar error in the unnecessary space before the period. The revised sentence is \"Here is the link.\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Asashoryu 's Retirement\" is the use of the contraction \"Asashoryu 's\" without the proper punctuation. The revised sentence should be \"Asashoryu's retirement.\" <retrieved_rule> Proper nouns should be capitalized. <retrieved_rule>": [
+        2.7222222222222223,
+        2.2777777777777777
+    ],
+    "The original sentence \"E.\" has a grammar error in the use of a period to join two independent clauses without a conjunction. The revised sentence is \"E!\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        2.1458333333333335,
+        1.8541666666666665
+    ],
+    "The original sentence \"Thanks = )\" contains a grammar error in the use of emoticons as standalone sentences. The revised sentence should be \"Thanks for your help.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"For example . . .\" contains a grammar error in the use of a period without accompanying words. The revised sentence is \"For example,\" <retrieved_rule> Punctuation should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"So I 'm fine now .\" contains a grammar error in the use of the contraction \"I 'm\" with a space before the apostrophe. The revised sentence should be \"So I'm fine now.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"dairy\" does not contain any specific grammar errors. Therefore, the revised sentence remains the same: \"dairy.\"": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Still . . .\" contains a grammar error in the use of ellipses as standalone sentences. The revised sentence should be \"Still...\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Here is a funny story .\" contains a grammar error in the use of a period without a conjunction to join two independent clauses. The revised sentence is \"Here is a funny story.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"I watched season 2 today .\" contains a grammar error in the lack of a determiner before \"season.\" The revised sentence is \"I watched the season 2 today.\" <retrieved_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"But it 's like\" contains a grammar error in the use of the contraction \"it 's\" with a space before the apostrophe. The revised sentence should be \"But it's like.\" <retrieved_rule> The contraction \"That's\" should be used instead of \"That 's\" to indicate \"That is.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Hello everyone .\" has a grammar error in the use of a period to join two independent clauses without a conjunction. The revised sentence is \"Hello everyone!\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"So the contents are probably poor . .\" contains a grammar error in the unnecessary use of a period without accompanying words. The revised sentence is \"So the contents are probably poor.\" <retrieved_rule> Punctuation should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"One\" contains a grammar error in the use of a standalone noun without any context or additional information. The revised sentence should be \"One apple.\" <retrieved_rule> \"Something\" should not be used as a standalone noun. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"maybe in my Brain , now making new accese of ENG nulln ( synaps )\" are the unnecessary space before the comma and the misspelling of \"access\" and \"synapse.\" The revised sentence is \"Maybe in my brain, now making new access of ENG nulln (synapse).\" <new_rule> The correct spelling of \"access\" and \"synapse\" should be used. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Ridiculous ? !\" is the use of exclamation marks without accompanying words. The revised sentence should be \"That's ridiculous!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"thanks for reading and fix wrong sentences , ,\" contains several grammar errors. First, the use of \"thanks for reading\" as a standalone phrase is a grammar error. Second, the use of a comma after \"sentences\" is unnecessary and creates a punctuation error. The revised sentence should be \"Thank you for reading and for fixing the wrong sentences.\" <retrieved_rule> Contractions should not be used as standalone sentences. <retrieved_rule> <new_rule> Punctuation should not have a space before it. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"and many more .\" has a grammar error in the use of the comparative adjective \"many\" without a following subject and verb after \"than.\" The revised sentence should be \"and many more.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The original sentence \"Epidemy of Cool\" contains a spelling error in the word \"Epidemy.\" The correct spelling is \"Epidemy.\" The revised sentence is \"Epidemy of Cool.\" <retrieved_rule> Spelling error: \"epidemy\" is misspelled. The correct spelling is \"epidemy.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Can anyone help ?\" is the lack of a period at the end of the sentence. The revised sentence is \"Can anyone help?\" <new_rule> Use a period at the end of a question. <new_rule>": [
+        1.0,
+        1.0
+    ]
+}

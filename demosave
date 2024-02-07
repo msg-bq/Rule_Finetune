@@ -1,382 +1,777 @@
 {
     "cluster_0": [
         {
-            "question": "Sentence: : )\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"I am happy :)\". <Begin> Subject-Verb agreement rule </End>",
-            "gold_label": ": )"
+            "question": "Context: The relations on the path from Dwight to James are mother,son.\nQuestion: James is Dwight's what?",
+            "rationale": "Answer: For mother's son, we have mother's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: Good words\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Good words\" is that it is not a complete sentence. It is missing a subject and a verb. Revised sentence: \"These are good words.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "Good words"
+            "question": "Context: The relations on the path from William to Dwight are father,brother.\nQuestion: Dwight is William's what?",
+            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
         },
         {
-            "question": "Sentence: First entry\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"First entry\" is that it lacks a subject and verb, making it a sentence fragment. Revised sentence: \"This is the first entry.\" <Begin>Subject-Verb agreement</End>",
-            "gold_label": "First entry"
+            "question": "Context: The relations on the path from Jennifer to Dwight are mother,brother.\nQuestion: Dwight is Jennifer's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
         },
         {
-            "question": "Sentence: Hi everyone ,\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the missing comma after \"Hi everyone.\" Revised sentence: Hi everyone, <Begin>Use a comma to separate a greeting from the rest of the sentence.</End>",
-            "gold_label": "Hi everyone ,"
+            "question": "Context: The relations on the path from Deborah to Dwight are brother,father.\nQuestion: Dwight is Deborah's what?",
+            "rationale": "Answer: For brother's father, we have brother's father is also father. So the relation is father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: Oh my god .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Oh my god\" is that \"god\" should be capitalized as \"God\" when referring to the deity in the Christian, Jewish, and Islamic religions. Revised sentence: Oh my God. <Begin> Capitalize proper nouns, including the names of deities, when referring to them. </End>",
-            "gold_label": "Oh my god ."
+            "question": "Context: The relations on the path from Jason to Dwight are son,brother.\nQuestion: Dwight is Jason's what?",
+            "rationale": "Answer: For son's brother, we have son's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
+            "gold_label": "son"
         },
         {
-            "question": "Sentence: Thank you for reading this .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of a comma after \"Thank you.\" The revised sentence is: \"Thank you for reading this.\" Rule: When starting a sentence with \"Thank you,\" it should be followed by a comma. <Begin>When starting a sentence with a phrase of gratitude, it should be followed by a comma.</End>",
-            "gold_label": "Thank you for reading this ."
+            "question": "Context: The relations on the path from Michele to Dwight are brother,father.\nQuestion: Dwight is Michele's what?",
+            "rationale": "Answer: For brother's father, we have brother's father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: Oh , My God !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The correct punctuation for expressing surprise or shock is \"Oh, my God!\" with a comma after \"Oh\". Revised sentence: \"Oh, my God!\" <Begin> Rule: Use a comma after an interjection such as \"Oh\" when expressing strong emotion. </End>",
-            "gold_label": "Oh , My God !"
+            "question": "Context: The relations on the path from Donald to Dwight are father,brother.\nQuestion: Dwight is Donald's what?",
+            "rationale": "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
         },
         {
-            "question": "Sentence: bye !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should end with a punctuation mark, such as a period or exclamation point. Revised sentence: \"Bye!\" <Begin>Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence.</End>",
-            "gold_label": "bye !"
+            "question": "Context: The relations on the path from Dwight to Aida are sister,daughter.\nQuestion: Aida is Dwight's what?",
+            "rationale": "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
         },
         {
-            "question": "Sentence: thank you for reading .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of a subject. The revised sentence is \"Thank you for reading.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "thank you for reading ."
+            "question": "Context: The relations on the path from Christopher to Dwight are son,uncle.\nQuestion: Dwight is Christopher's what?",
+            "rationale": "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: no title , haha\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of capitalization at the beginning of the sentence. The revised sentence is: \"No title, haha.\" <Begin> Capitalization rule: The first word of a sentence should be capitalized. </End>",
-            "gold_label": "no title , haha"
+            "question": "Context: The relations on the path from Joe to Dwight are wife,father.\nQuestion: Dwight is Joe's what?",
+            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
         },
         {
-            "question": "Sentence: If my sentences are n't practical correct them .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the incorrect use of \"n't\" instead of \"aren't.\" The revised sentence is: \"If my sentences aren't practical, please correct them.\" <Begin> Use \"aren't\" for the contraction of \"are not\" </End>",
-            "gold_label": "If my sentences are n't practical , please correct them ."
+            "question": "Context: The relations on the path from Christopher to Dwight are brother,brother.\nQuestion: Dwight is Christopher's what?",
+            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: Do n't know why .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should be \"Don't know why.\" Revised sentence: I don't know why. <Begin>Rule: Use the contraction \"don't\" instead of \"do not\" in informal writing.</End>",
-            "gold_label": "I do n't know why ."
+            "question": "Context: The relations on the path from Deborah to Dwight are husband,father.\nQuestion: Dwight is Deborah's what?",
+            "rationale": "Answer: For husband’s father, we have husband’s father is father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
         },
         {
-            "question": "Sentence: RAIN\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Original sentence: RAIN Grammar error: The sentence is missing a subject and a verb. Revised sentence: It is raining. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "RAIN"
+            "question": "Context: The relations on the path from David to Dwight are wife,father.\nQuestion: Dwight is David's what?",
+            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
         },
         {
-            "question": "Sentence: URL\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is that \"URL\" should be preceded by the article \"a\" to make the sentence grammatically correct. Revised sentence: \"A URL\" <Begin> The rule is that \"URL\" is a singular noun and should be preceded by the indefinite article \"a\" when used in a sentence. </End>",
-            "gold_label": "URL"
+            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
+            "rationale": "Answer: For brother’s father, we have brother’s father is also father. So the relation is father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: I watched season 2 today .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of a subject. The revised sentence is \"I watched season 2 today.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "I watched season 2 today ."
+            "question": "Context: The relations on the path from Alma to Dwight are sister,brother.\nQuestion: Dwight is Alma's what?",
+            "rationale": "Answer: For sister's brother, we have sister's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: Fruit\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Original Sentence: Fruit Grammar Error: The original sentence is incomplete and lacks a subject. Revised Sentence: \"I like fruit.\" Explanation: The original sentence lacks a subject and verb, so it does not form a complete sentence. By adding the subject \"I\" and the verb \"like,\" the sentence becomes grammatically correct. <Begin>Subject-Verb Agreement</End> - The revised sentence follows the subject-verb agreement rule by matching the singular subject \"I\" with the singular verb \"like.\"",
-            "gold_label": "Fruit"
+            "question": "Context: The relations on the path from Theresa to Dwight are father,brother.\nQuestion: Dwight is Theresa's what?",
+            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
         },
         {
-            "question": "Sentence: It is really good for me .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"It is really good for me\" does not contain any grammatical errors. Revised sentence: \"It is really good for me.\" <Begin>There are no grammatical errors in the original sentence.</End>",
-            "gold_label": "It is really good for me ."
-        },
-        {
-            "question": "Sentence: Oh , I remembered .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of a subject and verb. The revised sentence could be \"Oh, I remembered.\" This sentence has a subject \"I\" and a verb \"remembered.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "Oh , I remembered ."
-        },
-        {
-            "question": "Sentence: Listening to music\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Listening to music\" is that it is a fragment and does not contain a subject. The revised sentence could be \"I am listening to music\" to include a subject and complete the sentence. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "Listening to music"
-        },
-        {
-            "question": "Sentence: It 's summer .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"It 's summer\" is the incorrect use of the apostrophe in \"It's.\" The revised sentence is \"It's summer.\" <Begin>Rule: The contraction for \"it is\" is \"it's\" with an apostrophe.</End>",
-            "gold_label": "It 's summer ."
-        },
-        {
-            "question": "Sentence: So there are a lot to see .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should be \"So there is a lot to see.\" Revised sentence: \"So there is a lot to see.\" <Begin>Subject-verb agreement</End>",
-            "gold_label": "So there is a lot to see ."
-        },
-        {
-            "question": "Sentence: Arrangements\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: The word \"Arrangements\" is a noun, but the sentence is missing a verb to make it a complete sentence. Revised sentence: We need to make arrangements. <Begin>Subject-Verb agreement</End>",
-            "gold_label": "Arrangements"
-        },
-        {
-            "question": "Sentence: it makes me happy .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"it makes me happy\" does not contain any grammar errors. Revised sentence: \"It makes me happy.\" <Begin>There are no grammar errors in the original sentence.</End>",
-            "gold_label": "it makes me happy ."
-        },
-        {
-            "question": "Sentence: What a shock !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence lacks a subject and a verb. It is a fragment. Revised sentence: \"What a shock!\" <Begin>Exclamatory sentences must have a subject and a verb.</End>",
-            "gold_label": "What a shock !"
-        },
-        {
-            "question": "Sentence: What a pity !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence lacks a subject and a verb. Revised sentence: \"What a pity!\" <Begin>Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.</End>",
-            "gold_label": "What a pity !"
-        },
-        {
-            "question": "Sentence: I 'm so into it .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"I 'm\" instead of \"I'm\" which is a contraction of \"I am.\" The revised sentence is \"I'm so into it.\" <Begin> Contractions are formed by combining two words and replacing missing letters with an apostrophe. </End>",
-            "gold_label": "I 'm so into it ."
-        },
-        {
-            "question": "Sentence: Nice to meet you .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Nice to meet you\" is that it is missing a subject. The revised sentence could be \"It's nice to meet you\" or \"I'm nice to meet you.\" <Begin> The subject of a sentence is necessary for it to be grammatically correct. </End>",
-            "gold_label": "Nice to meet you ."
-        },
-        {
-            "question": "Sentence: I saw a news on Yahoo yesterday .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the original sentence \"I saw a news on Yahoo yesterday.\" Revised sentence: \"I saw a news article on Yahoo yesterday.\" <Begin> The word \"news\" is typically uncountable and does not take an article before it. However, in this case, \"news\" is being used to refer to a specific news article, so the article \"a\" is appropriate. </End>",
-            "gold_label": "I saw a news article on Yahoo yesterday ."
-        },
-        {
-            "question": "Sentence: I love citrus fruits .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"I love citrus fruits.\" does not contain any grammar errors. Revised sentence: \"I love citrus fruits.\" <Begin> There are no specific grammar rules or prior knowledge used in this inference. </End>",
-            "gold_label": "I love citrus fruits ."
-        },
-        {
-            "question": "Sentence: I have seen an article on TIME .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"an\" before \"article on TIME.\" The correct article to use in this case is \"an\" because \"article\" begins with a vowel sound. The revised sentence is: \"I have seen an article on TIME.\" Rule: Use \"an\" before words that begin with a vowel sound. <Begin>Use \"an\" before words that begin with a vowel sound</End>",
-            "gold_label": "I have seen an article on TIME ."
-        },
-        {
-            "question": "Sentence: And now they disturb me .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The subject and verb do not agree. \"They\" is plural, so the verb should be \"disturb\" instead of \"disturbs.\" Revised sentence: And now they disturb me. <Begin> Subject-Verb Agreement </End>",
-            "gold_label": "And now they disturb me ."
-        },
-        {
-            "question": "Sentence: I like Finland .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"I like Finland\" does not contain any grammar errors. Revised sentence: \"I like Finland.\" No grammar errors found. <Begin>No errors found</End>",
-            "gold_label": "I like Finland ."
-        },
-        {
-            "question": "Sentence: I 'm gon na do it next time !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"gon na\" instead of \"gonna\" which is a contraction of \"going to\". The revised sentence is: \"I'm gonna do it next time!\" <Begin> Use contractions for informal speech </End>",
-            "gold_label": "I 'm gon na do it next time !"
-        },
-        {
-            "question": "Sentence: It 's not a joke .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"It 's not a joke\" is the incorrect use of the contraction \"It's\" with a space before the apostrophe. The revised sentence is \"It's not a joke.\" <Begin>Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.</End>",
-            "gold_label": "It 's not a joke ."
-        },
-        {
-            "question": "Sentence: I had to write about counseling .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"I had to write about counseling\" is the tense inconsistency. The verb \"had\" is in the past tense, but \"write\" is in the present tense. Revised sentence: I have to write about counseling. <Begin> This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense. </End>",
-            "gold_label": "I had to write about counseling ."
-        },
-        {
-            "question": "Sentence: It said that was disappointing .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is that it is missing a subject. The revised sentence could be \"I said that was disappointing.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "It said that it was disappointing ."
-        },
-        {
-            "question": "Sentence: My son have diarrhea\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"My son have diarrhea\" is that \"have\" should be changed to \"has\" to match the singular subject \"son.\" Revised sentence: My son has diarrhea. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "My son has diarrhea"
-        },
-        {
-            "question": "Sentence: This is my first time to write diary on the internet .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The sentence should be \"This is my first time writing a diary on the internet.\" Revised sentence: This is my first time writing a diary on the internet. <Begin>Use of the gerund form \"writing\" after \"first time\" instead of \"to write\"</End>",
-            "gold_label": "This is my first time writing a diary on the internet ."
-        },
-        {
-            "question": "Sentence: I think this web site is a cool idea .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: - The verb \"think\" should be in the present tense, so it should be \"I think this web site is a cool idea.\" Revised sentence: \"I think this web site is a cool idea.\" <Begin>Present tense verb \"think\" is used to express a current opinion or belief.</End>",
-            "gold_label": "I think this web site is a cool idea ."
-        },
-        {
-            "question": "Sentence: I will introduce about my dog , Tiara .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"I will introduce about my dog, Tiara\" is the use of the word \"about.\" The revised sentence should be \"I will introduce my dog, Tiara.\" <Begin> The word \"introduce\" already implies providing information about something or someone, so the use of \"about\" is redundant and unnecessary. </End>",
-            "gold_label": "I will introduce my dog , Tiara ."
-        },
-        {
-            "question": "Sentence: And I 'm eating a banana every day for my health .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the incorrect use of the apostrophe in \"And I 'm.\" The revised sentence is: \"And I'm eating a banana every day for my health.\" <Begin>Use of contraction</End>",
-            "gold_label": "I 'm eating a banana every day for my health ."
-        },
-        {
-            "question": "Sentence: I am listening to music with the commuter train .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The phrase \"with the commuter train\" is awkward and doesn't make sense in this context. Revised sentence: I am listening to music on the commuter train. <Begin>Rule: Use \"on\" to indicate the location of an activity when referring to public transportation.</End>",
-            "gold_label": "I am listening to music on the commuter train ."
-        },
-        {
-            "question": "Sentence: His Kanji 's ability is much better than me .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The possessive form of \"Kanji\" should be \"Kanji's\" not \"His Kanji's.\" Revised sentence: His ability in Kanji is much better than mine. <Begin>Rule: Possessive form of singular noun is formed by adding 's</End>",
-            "gold_label": "His Kanji ability is much better than mine ."
-        },
-        {
-            "question": "Sentence: He is also good at Japanese and studies ' Kanji ' .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the given sentence. The revised sentence is: \"He is also good at Japanese and studies 'Kanji'.\" <Begin>There is no need to make any changes to the grammar or structure of the sentence.</End>",
-            "gold_label": "He is also good at Japanese and studies ' Kanji ' ."
-        },
-        {
-            "question": "Sentence: The second memory is the toys , which I was given near the border .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of the word \"which\" without a comma before it. It should be revised to: \"The second memory is the toys, which I was given near the border.\" <Begin> Rule: Use a comma before the word \"which\" when it introduces a nonrestrictive clause. </End>",
-            "gold_label": "The second memory is the toys , which I was given near the border ."
-        },
-        {
-            "question": "Sentence: I have n't seen cockroaches since I came here .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"n't\" instead of \"haven't.\" The revised sentence is \"I haven't seen cockroaches since I came here.\" <Begin> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. </End>",
-            "gold_label": "I have n't seen cockroaches since I came here ."
-        },
-        {
-            "question": "Sentence: I tried to fight against him , but he did n't show up .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The correct form is \"didn't show up\" instead of \"did n't show up\" Revised sentence: I tried to fight against him, but he didn't show up. <Begin> Rule: The contraction for \"did not\" is \"didn't\" </End>",
-            "gold_label": "I tried to fight against him , but he did n't show up ."
+            "question": "Context: The relations on the path from Vincent to Dwight are mother,brother.\nQuestion: Dwight is Vincent's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
         }
     ],
     "cluster_1": [
         {
-            "question": "Sentence: My teacher is going to move to change his job .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: The correct verb form should be \"is going to move\" instead of \"is going to moved\". Revised sentence: My teacher is going to move to change his job. <Begin>Rule: The future tense form of \"move\" is \"is going to move\".</End>",
-            "gold_label": "My teacher is going to move to change his job ."
+            "question": "Context: The relations on the path from James to Lisa are sister,sister.\nQuestion: Lisa is James's what?",
+            "rationale": "Answer: For sister’s sister, we have sister’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
         },
         {
-            "question": "Sentence: When you go uphill , you hvae to bend your back .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the misspelling of \"hvae\" instead of \"have.\" The revised sentence is: \"When you go uphill, you have to bend your back.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "When you go uphill , you have to bend your back ."
+            "question": "Context: The relations on the path from Lisa to Dan are sister,son.\nQuestion: Dan is Lisa's what?",
+            "rationale": "Answer: For sister’s son, we have sister’s son is nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
         },
         {
-            "question": "Sentence: So , I think if we have to go somewhere on foot , we must put our hat .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: 1. \"if we have to go somewhere on foot\" - This part of the sentence is grammatically correct. 2. \"we must put our hat\" - The correct phrase is \"we must put on our hat.\" Revised sentence: So, I think if we have to go somewhere on foot, we must put on our hat. <Begin> There is a rule in English grammar that states when referring to wearing an item of clothing, the preposition \"on\" should be used. </End>",
-            "gold_label": "So , I think if we have to go somewhere on foot , we must put on our hat ."
+            "question": "Context: The relations on the path from Jennifer to Lisa are father,sister.\nQuestion: Lisa is Jennifer's what?",
+            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
         },
         {
-            "question": "Sentence: When you go downhill , you have to stick out your chest or you will fell down .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is \"fell down,\" which should be \"fall down\" to maintain the correct verb tense. Revised sentence: When you go downhill, you have to stick out your chest or you will fall down. <Begin>Rule: Use the correct verb tense to match the timing of the action being described.</End>",
-            "gold_label": "When you go downhill , you have to stick out your chest or you will fall down ."
+            "question": "Context: The relations on the path from Michael to Jose are sister,son.\nQuestion: Jose is Michael's what?",
+            "rationale": "Answer: For sister’s son, we have sister’s son is nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
         },
         {
-            "question": "Sentence: I will never forget my first time at customs .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence does not contain any grammar errors. Revised sentence: I will never forget my first time at customs. <Begin> There are no grammar errors in the original sentence. </End>",
-            "gold_label": "I will never forget my first time at customs ."
+            "question": "Context: The relations on the path from Jennifer to Michael are brother,father.\nQuestion: Michael is Jennifer's what?",
+            "rationale": "Answer: For brother’s father, we have brother’s father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: I rather be working outside than be a housewife .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: 1. \"I rather be\" should be \"I would rather be\" 2. \"working outside than be a housewife\" should be \"working outside than be a housewife.\" Revised sentence: I would rather be working outside than be a housewife. <Begin>\"Would rather\" is the correct form to express a preference.<End>",
-            "gold_label": "I would rather be working outside than be a housewife ."
+            "question": "Context: The relations on the path from Michele to Lisa are brother,mother.\nQuestion: Lisa is Michele's what?",
+            "rationale": "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Michelle are sister,daughter.\nQuestion: Michelle is Lisa's what?",
+            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Michael to Michele are sister,daughter.\nQuestion: Michele is Michael's what?",
+            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Angela to Michael are mother,brother.\nQuestion: Michael is Angela's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from James to Michael are daughter,uncle.\nQuestion: Michael is James's what?",
+            "rationale": "Answer: For daughter’s uncle, we have daughter’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Deborah to James are father,brother.\nQuestion: James is Deborah's what?",
+            "rationale": "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Michelle to James are sister,father.\nQuestion: James is Michelle's what?",
+            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from David to Lisa are sister,mother.\nQuestion: Lisa is David's what?",
+            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Lucille to Michael are mother,brother.\nQuestion: Michael is Lucille's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Micheal are brother,son.\nQuestion: Micheal is Lisa's what?",
+            "rationale": "Answer: For brother's son, we have brother's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Scott are daughter,husband.\nQuestion: Scott is Lisa's what?",
+            "rationale": "Answer: For daughter's husband, we have daughter's husband is son-in-law. Therefore, the answer is son-in-law.",
+            "gold_label": "son-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Christopher are mother,brother.\nQuestion: Christopher is Vanessa's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Anna to Christopher are sister,father.\nQuestion: Christopher is Anna's what?",
+            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from James to Robert are brother,son.\nQuestion: Robert is James's what?",
+            "rationale": "Answer: For brother's son, we have brother's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Angela to Lucille are father,daughter.\nQuestion: Lucille is Angela's what?",
+            "rationale": "Answer: For father's daughter, we have father's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Lisa are brother,sister.\nQuestion: Lisa is Alma's what?",
+            "rationale": "Answer: For brother’s sister, we have brother’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Marci to Michelle are mother,daughter.\nQuestion: Michelle is Marci's what?",
+            "rationale": "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Alma are son,aunt.\nQuestion: Alma is Lisa's what?",
+            "rationale": "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Michelle to Michael are mother,brother.\nQuestion: Michael is Michelle's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Micheal to James are sister,father.\nQuestion: James is Micheal's what?",
+            "rationale": "Answer: For sister’s father, we have sister’s father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Lisa are daughter,aunt.\nQuestion: Lisa is Myrna's what?",
+            "rationale": "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Michael to Myrna are brother,sister.\nQuestion: Myrna is Michael's what?",
+            "rationale": "Answer: For brother's sister, we have brother's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Joe to Lisa are wife,mother.\nQuestion: Lisa is Joe's what?",
+            "rationale": "Answer: For wife’s mother, we have wife’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Micheal to Christopher are father,brother.\nQuestion: Christopher is Micheal's what?",
+            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Jose to Christopher are wife,father.\nQuestion: Christopher is Jose's what?",
+            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Michael to Russell are daughter,brother.\nQuestion: Russell is Michael's what?",
+            "rationale": "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.",
+            "gold_label": "son"
+        },
+        {
+            "question": "Context: The relations on the path from James to Marci are son,wife.\nQuestion: Marci is James's what?",
+            "rationale": "Answer: For son’s wife, we have son’s wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Alma are husband,mother.\nQuestion: Alma is Jennifer's what?",
+            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Michelle are brother,daughter.\nQuestion: Michelle is Myrna's what?",
+            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from James to Vanessa are sister,daughter.\nQuestion: Vanessa is James's what?",
+            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Alma are brother,mother.\nQuestion: Alma is Vanessa's what?",
+            "rationale": "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Robert to Alma are sister,mother.\nQuestion: Alma is Robert's what?",
+            "rationale": "Answer: For sister's mother, we have sister's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Lucille to Jeffrey are mother,son.\nQuestion: Jeffrey is Lucille's what?",
+            "rationale": "Answer: For mother’s son, we have mother’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Alma are sister,mother.\nQuestion: Alma is Vanessa's what?",
+            "rationale": "Answer: For sister's mother, we have sister's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Theresa to Christopher are mother,brother.\nQuestion: Christopher is Theresa's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Jeffrey are brother,son.\nQuestion: Jeffrey is Alma's what?",
+            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Jeffrey to Alma are mother,sister.\nQuestion: Alma is Jeffrey's what?",
+            "rationale": "Answer: For mother's sister, we have mother's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
+        },
+        {
+            "question": "Context: The relations on the path from Christopher to Anna are son,wife.\nQuestion: Anna is Christopher's what?",
+            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Michele to Deborah are father,daughter.\nQuestion: Deborah is Michele's what?",
+            "rationale": "Answer: For father's daughter, we have father's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Joe are brother,son.\nQuestion: Joe is Myrna's what?",
+            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from James to Vincent are daughter,brother.\nQuestion: Vincent is James's what?",
+            "rationale": "Answer: For daughter's brother, we have daughter's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
+            "gold_label": "son"
+        },
+        {
+            "question": "Context: The relations on the path from Christopher to Donna are brother,daughter.\nQuestion: Donna is Christopher's what?",
+            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Annette to Alma are sister,mother.\nQuestion: Alma is Annette's what?",
+            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Scott to Myrna are father,sister.\nQuestion: Myrna is Scott's what?",
+            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Lucille are son,sister.\nQuestion: Lucille is Myrna's what?",
+            "rationale": "Answer: For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.",
+            "gold_label": "daughter"
+        },
+        {
+            "question": "Context: The relations on the path from Vincent to Christopher are father,brother.\nQuestion: Christopher is Vincent's what?",
+            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Russell to Annette are mother,daughter.\nQuestion: Annette is Russell's what?",
+            "rationale": "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Marci to Alma are mother,sister.\nQuestion: Alma is Marci's what?",
+            "rationale": "Answer: For mother's sister, we have mother's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
+        },
+        {
+            "question": "Context: The relations on the path from Aida to Michael are mother,brother.\nQuestion: Michael is Aida's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Donald to Alma are sister,mother.\nQuestion: Alma is Donald's what?",
+            "rationale": "Answer: For sister's mother, we have sister's mother is mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Marci to Myrna are mother,sister.\nQuestion: Myrna is Marci's what?",
+            "rationale": "Answer: For mother’s sister, we have mother’s sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Marci are sister,daughter.\nQuestion: Marci is Alma's what?",
+            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Robert are daughter,husband.\nQuestion: Robert is Alma's what?",
+            "rationale": "Answer: For daughter’s husband, we have daughter’s husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.",
+            "gold_label": "son-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from David to Scott are brother,brother.\nQuestion: Scott is David's what?",
+            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Lucille to Myrna are husband,mother.\nQuestion: Myrna is Lucille's what?",
+            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Russell to James are mother,brother.\nQuestion: James is Russell's what?",
+            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
+            "gold_label": "uncle"
+        },
+        {
+            "question": "Context: The relations on the path from Vincent to Kevin are brother,brother.\nQuestion: Kevin is Vincent's what?",
+            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Vanessa are brother,daughter.\nQuestion: Vanessa is Myrna's what?",
+            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from James to Theresa are son,wife.\nQuestion: Theresa is James's what?",
+            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to James are brother,brother.\nQuestion: James is Myrna's what?",
+            "rationale": "Answer: For brother's brother, we have brother's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to William are daughter,brother.\nQuestion: William is Myrna's what?",
+            "rationale": "Answer: For daughter's brother, we have daughter's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
+            "gold_label": "son"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Aida are brother,daughter.\nQuestion: Aida is Alma's what?",
+            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
+        },
+        {
+            "question": "Context: The relations on the path from Guillermina to Christopher are husband,father.\nQuestion: Christopher is Guillermina's what?",
+            "rationale": "Answer: For husband’s father, we have husband’s father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Scott to Sheila are mother,daughter.\nQuestion: Sheila is Scott's what?",
+            "rationale": "Answer: For mother’s daughter, we have mother’s daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Vincent to Dan are mother,son.\nQuestion: Dan is Vincent's what?",
+            "rationale": "Answer: For mother's son, we have mother's son is brother. So the relation is brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from William to Myrna are wife,mother.\nQuestion: Myrna is William's what?",
+            "rationale": "Answer: For wife's mother, we have wife's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from David to Lewis are father,son.\nQuestion: Lewis is David's what?",
+            "rationale": "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Russell are brother,son.\nQuestion: Russell is Myrna's what?",
+            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Jeffrey to Myrna are wife,mother.\nQuestion: Myrna is Jeffrey's what?",
+            "rationale": "Answer: For wife’s mother, we have wife’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Chad are brother,son.\nQuestion: Chad is Myrna's what?",
+            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Asia are brother,sister.\nQuestion: Asia is Vanessa's what?",
+            "rationale": "Answer: For brother’s sister, we have brother’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Guillermina to Myrna are sister,mother.\nQuestion: Myrna is Guillermina's what?",
+            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
+            "gold_label": "mother"
+        },
+        {
+            "question": "Context: The relations on the path from Myrna to Asia are brother,daughter.\nQuestion: Asia is Myrna's what?",
+            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
         }
     ],
     "cluster_2": [
         {
-            "question": "Sentence: What happened to her ?\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"What happened to her?\" is the lack of a subject. The revised sentence is \"What happened to her?\" which is correct. <Begin> In English, a question must have a subject, verb, and object in order to be grammatically correct. </End>",
-            "gold_label": "What happened to her ?"
+            "question": "Context: The relations on the path from Dorothy to Michael are son,uncle.\nQuestion: Michael is Dorothy's what?",
+            "rationale": "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: She came back !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"She came back !\" is the unnecessary space before the exclamation mark. The revised sentence is \"She came back!\" <Begin> Rule: Punctuation should not have a space before it. </End>",
-            "gold_label": "She came back !"
+            "question": "Context: The relations on the path from Dorothy to Michelle are daughter,sister.\nQuestion: Michelle is Dorothy's what?",
+            "rationale": "Answer: For daughter's sister, we have daughter's sister is also daughter. Therefore, the answer is daughter.",
+            "gold_label": "daughter"
         },
         {
-            "question": "Sentence: And finally , she released a new song !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the given sentence. <Begin>There is no grammar error</End> Revised sentence: The original sentence does not need to be revised.",
-            "gold_label": "And finally , she released a new song !"
+            "question": "Context: The relations on the path from Dorothy to David are sister,son.\nQuestion: David is Dorothy's what?",
+            "rationale": "Answer: For sister's son, we have sister's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
+            "gold_label": "nephew"
         },
         {
-            "question": "Sentence: My mum is a great cook !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The revised sentence is grammatically correct. There are no grammar errors in the original sentence. <Begin> There is no grammar error in the original sentence. </End>",
-            "gold_label": "My mum is a great cook !"
+            "question": "Context: The relations on the path from Michael to Dorothy are son,aunt.\nQuestion: Dorothy is Michael's what?",
+            "rationale": "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
         },
         {
-            "question": "Sentence: However , she is already 46 !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar errors: There is no specific error in the sentence \"However , she is already 46 !\" Revised sentence: However, she is already 46! <Begin> The use of a comma after \"However\" is unnecessary and can be removed for improved clarity. </End>",
-            "gold_label": "However , she is already 46 !"
+            "question": "Context: The relations on the path from Angela to Dorothy are father,sister.\nQuestion: Dorothy is Angela's what?",
+            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
+            "gold_label": "aunt"
         },
         {
-            "question": "Sentence: Whitney Houston Failed\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"Whitney Houston Failed\" is the lack of a specific verb to go with \"failed.\" The revised sentence could be \"Whitney Houston failed to achieve success in her later years.\" <Begin> Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number. </End>",
-            "gold_label": "Whitney Houston Failed"
+            "question": "Context: The relations on the path from Dorothy to Sheila are sister,daughter.\nQuestion: Sheila is Dorothy's what?",
+            "rationale": "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
         },
         {
-            "question": "Sentence: Today , I read an article on the net about her comeback performance in New York 's Central Park .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar errors in the sentence are the lack of a comma after \"Today\" and the incorrect use of an apostrophe in \"New York's.\" The revised sentence is: \"Today, I read an article on the net about her comeback performance in New York's Central Park.\" <Begin>Rule: Use a comma after introductory adverbs such as \"today.\"</End>",
-            "gold_label": "Today , I read an article on the net about her comeback performance in New York 's Central Park ."
+            "question": "Context: The relations on the path from Dorothy to Sheila are brother,daughter.\nQuestion: Sheila is Dorothy's what?",
+            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
+            "gold_label": "niece"
         },
         {
-            "question": "Sentence: I believe she can sing .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "First, let's identify the grammar error in the original sentence. The original sentence \"I believe she can sing\" does not contain any grammatical errors. Revised sentence: The original sentence \"I believe she can sing\" is grammatically correct and does not require revision. <Begin> There are no specific grammar rules or prior knowledge that need to be applied to this sentence. </End>",
-            "gold_label": "I believe she can sing ."
+            "question": "Context: The relations on the path from Dorothy to Aida are daughter,sister.\nQuestion: Aida is Dorothy's what?",
+            "rationale": "Answer: For daughter’s sister, we have daughter’s sister is also daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.",
+            "gold_label": "daughter"
         },
         {
-            "question": "Sentence: Her recent picture was not like her before .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"like\" instead of \"as.\" The revised sentence is: \"Her recent picture was not as her before.\" <Begin>Rule: Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns.</End>",
-            "gold_label": "Her recent picture was not like her before ."
+            "question": "Context: The relations on the path from Dorothy to Aida are son,wife.\nQuestion: Aida is Dorothy's what?",
+            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
+            "gold_label": "daughter-in-law"
         },
         {
-            "question": "Sentence: Being a housewife is really tough .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of the word \"tough\" which is an adjective, but it is being used to describe the action of being a housewife. The revised sentence is \"Being a housewife is really tough.\" <Begin>Adjective-noun agreement</End>",
-            "gold_label": "Being a housewife is really tough ."
+            "question": "Context: The relations on the path from Dorothy to Dwight are father,son.\nQuestion: Dwight is Dorothy's what?",
+            "rationale": "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
         },
         {
-            "question": "Sentence: She is little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of the word \"little\" which should be \"a little\" to modify the adjective \"stupid.\" Additionally, there should be a comma after \"stupid\" to separate the two independent clauses. Revised sentence: She is a little stupid, but has perceptive insights about food because she is always famished ^ ^ She loves food! <Begin>Rule: \"A little\" is used to modify adjectives, while \"little\" is used to modify nouns.</End>",
-            "gold_label": "She is a little stupid , but has perceptive insights about food because she is always famished ^ ^ She loves food !"
+            "question": "Context: The relations on the path from Dorothy to Jason are son,grandfather.\nQuestion: Jason is Dorothy's what?",
+            "rationale": "Answer: For son’s grandfather, we have son’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: Her voice was hoarse and cracked .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There are no grammar errors in the given sentence \"Her voice was hoarse and cracked.\" The sentence is grammatically correct as it is. <Begin> There are no specific rules or prior knowledge to apply in this case. </End>",
-            "gold_label": "Her voice was hoarse and cracked ."
+            "question": "Context: The relations on the path from Dorothy to Myrna are daughter,aunt.\nQuestion: Myrna is Dorothy's what?",
+            "rationale": "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
         },
         {
-            "question": "Sentence: It 's because my mum is probably the best cook I have met in my life .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"is\" after \"It\" without a proper subject. The revised sentence is: \"It's because my mum is probably the best cook I have met in my life.\" <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "It 's because my mum is probably the best cook I have ever met in my life ."
+            "question": "Context: The relations on the path from Theresa to Dorothy are husband,mother.\nQuestion: Dorothy is Theresa's what?",
+            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
+            "gold_label": "mother-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Dorothy to Christopher are brother,brother.\nQuestion: Christopher is Dorothy's what?",
+            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
+            "gold_label": "brother"
+        },
+        {
+            "question": "Context: The relations on the path from Dorothy to Alma are sister,sister.\nQuestion: Alma is Dorothy's what?",
+            "rationale": "Answer: For sister's sister, we have sister's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
+        },
+        {
+            "question": "Context: The relations on the path from Christopher to Dorothy are son,aunt.\nQuestion: Dorothy is Christopher's what?",
+            "rationale": "Answer: For son's aunt, we have son's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
+            "gold_label": "sister"
         }
     ],
     "cluster_3": [
         {
-            "question": "Sentence: It 's too hot .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence \"It 's too hot.\" is the unnecessary space between \"It\" and the apostrophe. The revised sentence is \"It's too hot.\" <Begin>Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe. </End>",
-            "gold_label": "It 's too hot ."
+            "question": "Context: The relations on the path from Jason to Robert are granddaughter,brother.\nQuestion: Robert is Jason's what?",
+            "rationale": "Answer: For granddaughter's brother, we have granddaughter's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Sentence: It is raining in Tokyo .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The original sentence \"It is raining in Tokyo\" does not contain any grammar errors. Revised sentence: \"It is raining in Tokyo.\" There are no grammar errors in the original sentence. <Begin>\"It is\" is the correct present tense form of the verb \"to be\" for the subject \"it.\"</End>",
-            "gold_label": "It is raining in Tokyo ."
+            "question": "Context: The relations on the path from Jason to James are daughter,brother.\nQuestion: James is Jason's what?",
+            "rationale": "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.",
+            "gold_label": "son"
         },
         {
-            "question": "Sentence: It 's too hot in Japan .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "Grammar error: There is no grammatical error in the given sentence. Revised sentence: \"It's too hot in Japan.\" <Begin> There is a contraction \"It's\" which is a combination of \"it\" and \"is\". </End>",
-            "gold_label": "It 's too hot in Japan ."
+            "question": "Context: The relations on the path from Jason to Dan are daughter,son.\nQuestion: Dan is Jason's what?",
+            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Sentence: Anyway , I think I 'll spent quite some playing it in the next few weeks .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"spent\" instead of \"spend.\" Revised sentence: Anyway, I think I'll spend quite some time playing it in the next few weeks. <Begin>Subject-Verb Agreement</End>",
-            "gold_label": "Anyway , I think I 'll spend quite some time playing it in the next few weeks ."
+            "question": "Context: The relations on the path from James to Jason are son,grandfather.\nQuestion: Jason is James's what?",
+            "rationale": "Answer: For son’s grandfather, we have son’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
         },
         {
-            "question": "Sentence: We 've known each other for only half a year , but his lesson was a lot of fun .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the use of \"lesson\" instead of \"lessons.\" The revised sentence is: We've known each other for only half a year, but his lessons were a lot of fun. <Begin>Plural nouns are used when referring to more than one of something.</End>",
-            "gold_label": "We 've known each other for only half a year , but his lessons were a lot of fun ."
+            "question": "Context: The relations on the path from James to Jason are wife,father.\nQuestion: Jason is James's what?",
+            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.",
+            "gold_label": "father-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Jennifer to Jason are mother,father.\nQuestion: Jason is Jennifer's what?",
+            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Lisa to Jason are sister,father.\nQuestion: Jason is Lisa's what?",
+            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Donna are daughter,daughter.\nQuestion: Donna is Jason's what?",
+            "rationale": "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Michele to Jason are father,father.\nQuestion: Jason is Michele's what?",
+            "rationale": "Answer: For father's father, we have father's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Joe to Jason are mother,father.\nQuestion: Jason is Joe's what?",
+            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Joe to Jason are brother,grandfather.\nQuestion: Jason is Joe's what?",
+            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Jeffrey to Jason are brother,grandfather.\nQuestion: Jason is Jeffrey's what?",
+            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Marci to Jason are mother,father.\nQuestion: Jason is Marci's what?",
+            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Lewis to Jason are brother,grandfather.\nQuestion: Jason is Lewis's what?",
+            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Russell to Jason are mother,father.\nQuestion: Jason is Russell's what?",
+            "rationale": "Answer: For mother’s father, we have mother’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Guillermina are son,daughter.\nQuestion: Guillermina is Jason's what?",
+            "rationale": "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Jose to Jason are mother,father.\nQuestion: Jason is Jose's what?",
+            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Chad to Jason are father,father.\nQuestion: Jason is Chad's what?",
+            "rationale": "Answer: For father’s father, we have father’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Jason to Alma are son,wife.\nQuestion: Alma is Jason's what?",
+            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
+            "gold_label": "daughter-in-law"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Jason are brother,father.\nQuestion: Jason is Alma's what?",
+            "rationale": "Answer: For brother’s father, we have brother’s father is also father. So the relation is reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Alma to Jason are daughter,grandfather.\nQuestion: Jason is Alma's what?",
+            "rationale": "Answer: For daughter’s grandfather, we have daughter’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
+            "gold_label": "father"
+        },
+        {
+            "question": "Context: The relations on the path from Alfred to Jason are father,father.\nQuestion: Jason is Alfred's what?",
+            "rationale": "Answer: For father's father, we have father's father is grandfather. So the answer is grandfather.",
+            "gold_label": "grandfather"
+        },
+        {
+            "question": "Context: The relations on the path from Vincent to Jason are father,father.\nQuestion: Jason is Vincent's what?",
+            "rationale": "Answer: For father's father, we have father's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
+            "gold_label": "grandfather"
         }
     ],
     "cluster_4": [
         {
-            "question": "Sentence: A New Hair Style of the Wang\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "There is a grammar error in the original sentence. \"Wang\" should be \"Wangs\" to make it plural. Revised sentence: A New Hair Style of the Wangs <Begin>Plural nouns in English typically end with an \"s\" or \"es\" at the end.</End>",
-            "gold_label": "A New Hair Style of the Wang"
+            "question": "Context: The relations on the path from Gabrielle to Joe are daughter,son.\nQuestion: Joe is Gabrielle's what?",
+            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Sentence: The different values about handsome among cultures are very interesting .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The sentence \"The different values about handsome among cultures are very interesting\" is grammatically correct. There are no grammar errors in the given sentence. Revised sentence: The various cultural perspectives on what is considered handsome are very interesting. <Begin>There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, \"different\" should come before \"values\" to follow this rule. However, the original sentence is still grammatically correct as it is.<End>",
-            "gold_label": "The different values about handsome among cultures are very interesting ."
+            "question": "Context: The relations on the path from Gabrielle to Jose are daughter,son.\nQuestion: Jose is Gabrielle's what?",
+            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
         },
         {
-            "question": "Sentence: It mentioned many examples of Japanese men , Korean men and Hong Kong men .\nQuestion: What's the grammar errors and revised sentence of above sentence?",
-            "rationale": "The grammar error in the sentence is the lack of parallel structure. The revised sentence could be: \"It mentioned many examples of Japanese men, Korean men, and Hong Kong men.\" <Begin>Parallel structure</End>",
-            "gold_label": "It mentioned many examples of Japanese men , Korean men , and Hong Kong men ."
+            "question": "Context: The relations on the path from Gabrielle to Michelle are grandson,sister.\nQuestion: Michelle is Gabrielle's what?",
+            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to David are son,son.\nQuestion: David is Gabrielle's what?",
+            "rationale": "Answer: For son’s son, we have son’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Aida are son,daughter.\nQuestion: Aida is Gabrielle's what?",
+            "rationale": "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Donna are grandson,sister.\nQuestion: Donna is Gabrielle's what?",
+            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Kevin are daughter,son.\nQuestion: Kevin is Gabrielle's what?",
+            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Anna are daughter,daughter.\nQuestion: Anna is Gabrielle's what?",
+            "rationale": "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Dan to Gabrielle are brother,grandmother.\nQuestion: Gabrielle is Dan's what?",
+            "rationale": "Answer: For brother’s grandmother, we have brother’s grandmother is grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Annette are grandson,sister.\nQuestion: Annette is Gabrielle's what?",
+            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Annette are granddaughter,sister.\nQuestion: Annette is Gabrielle's what?",
+            "rationale": "Answer: For granddaughter's sister, we have granddaughter's sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
+            "gold_label": "granddaughter"
+        },
+        {
+            "question": "Context: The relations on the path from Sheila to Gabrielle are father,mother.\nQuestion: Gabrielle is Sheila's what?",
+            "rationale": "Answer: For father’s mother, we have father’s mother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Vincent are daughter,son.\nQuestion: Vincent is Gabrielle's what?",
+            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Vanessa to Gabrielle are mother,mother.\nQuestion: Gabrielle is Vanessa's what?",
+            "rationale": "Answer: For mother's mother, we have mother's mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from William to Gabrielle are mother,mother.\nQuestion: Gabrielle is William's what?",
+            "rationale": "Answer: For mother's mother, we have mother's mother is grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from Vincent to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Vincent's what?",
+            "rationale": "Answer: For sister’s grandmother, we have sister’s grandmother is also grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from Chad to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Chad's what?",
+            "rationale": "Answer: For sister’s grandmother, we have sister’s grandmother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
+        },
+        {
+            "question": "Context: The relations on the path from Gabrielle to Alfred are husband,grandson.\nQuestion: Alfred is Gabrielle's what?",
+            "rationale": "Answer: For husband's grandson, we have husband's grandson is grandson. So the relation is grandson. Therefore, the answer is grandson.",
+            "gold_label": "grandson"
+        },
+        {
+            "question": "Context: The relations on the path from Asia to Gabrielle are mother,mother.\nQuestion: Gabrielle is Asia's what?",
+            "rationale": "Answer: For mother’s mother, we have mother’s mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.",
+            "gold_label": "grandmother"
         }
     ]
 }

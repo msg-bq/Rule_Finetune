@@ -1,0 +1,1142 @@
+{
+    "The original sentence \"Tomorrow , I have an English class .\" contains a grammar error with the extra space before the comma. The revised sentence is \"Tomorrow, I have an English class.\" <Begin> Rule: Punctuation should not have a space before it. </End>": [
+        2.096620544613191,
+        2.903379455386809
+    ],
+    "The grammar error in the sentence is the use of \"might\" which indicates a possibility in the future, but the following verb \"fall\" should be in the base form \"fall\" instead of \"falling\". The revised sentence is \"Today I might fall asleep soon.\" <Begin> Modal verbs like \"might\" are followed by the base form of the verb. </End>": [
+        8.293819046450626,
+        3.7061809535493744
+    ],
+    "The grammar error in the sentence \"It 's summer\" is the incorrect use of the apostrophe in \"It's.\" The revised sentence is \"It's summer.\" <Begin>Rule: The contraction for \"it is\" is \"it's\" with an apostrophe.</End>": [
+        5.599720443808222,
+        3.400279556191779
+    ],
+    "The grammar error in the sentence is the use of \"saw\" instead of \"saw the\" before \"weather forecast.\" The revised sentence is \"Yesterday I saw the weather forecast.\" <Begin> The rule is that \"the\" should be used before a specific noun, such as \"weather forecast.\" </End>": [
+        4.865384963129324,
+        3.1346150368706756
+    ],
+    "The grammar error in the sentence is the use of \"an\" before \"article on TIME.\" The correct article to use in this case is \"an\" because \"article\" begins with a vowel sound. The revised sentence is: \"I have seen an article on TIME.\" Rule: Use \"an\" before words that begin with a vowel sound. <Begin>Use \"an\" before words that begin with a vowel sound</End>": [
+        10.749301600018018,
+        3.250698399981983
+    ],
+    "The grammar error in the sentence is the use of \"is\" which is present tense, but \"rainy\" is an adjective describing the current weather, so it should be in the present continuous tense \"is raining.\" Revised sentence: Today, my country is raining. <Begin> Present continuous tense is used to describe actions or situations that are happening now, at the moment of speaking. </End>": [
+        7.677789733960204,
+        3.3222102660397956
+    ],
+    "Grammar errors: The verb \"write\" should be in the future tense \"will write\" and the word \"details\" should be plural \"details\" as it is referring to multiple aspects of the trip. Revised sentence: I will write details about my trip tomorrow. <Begin>Future tense rule</End> <Begin>Plural noun rule</End>": [
+        8.540885649982984,
+        3.4591143500170154
+    ],
+    "There are no grammar errors in the original sentence \"I saw a news on Yahoo yesterday.\" Revised sentence: \"I saw a news article on Yahoo yesterday.\" <Begin> The word \"news\" is typically uncountable and does not take an article before it. However, in this case, \"news\" is being used to refer to a specific news article, so the article \"a\" is appropriate. </End>": [
+        1.3140495867768593,
+        2.6859504132231407
+    ],
+    "The grammar error in the sentence is the use of \"talked and stayed up\" without a conjunction or parallel structure. The revised sentence could be: \"We talked and stayed up late every night.\" <Begin>Parallel structure</End>": [
+        5.320744872965472,
+        3.6792551270345277
+    ],
+    "The grammar error in the sentence is the use of a hyphen instead of the word \"three\" in \"three-day weekend.\" The revised sentence is \"So I took a three-day weekend.\" <Begin>Rule: When using a number to describe a noun, it should be written as a word rather than a numeral.</End>": [
+        10.87372594074218,
+        4.12627405925782
+    ],
+    "The grammar error in the sentence \"I ate a pizza for dinner yesterday\" is the use of \"ate\" instead of \"eaten.\" The revised sentence is \"I eaten a pizza for dinner yesterday.\" Revised sentence: I ate a pizza for dinner yesterday. <Begin>The past participle form of \"eat\" is \"eaten,\" not \"ate.\"</End>": [
+        19.583042375832086,
+        5.416957624167915
+    ],
+    "The grammar error in the sentence is the use of \"gon na\" instead of \"gonna\" which is a contraction of \"going to\". The revised sentence is: \"I'm gonna do it next time!\" <Begin> Use contractions for informal speech </End>": [
+        7.33541621474444,
+        3.6645837852555587
+    ],
+    "Grammar errors: There are no grammar errors in the original sentence. Revised sentence: \"I will have a board meeting tomorrow.\" <Begin>There is no specific grammar rule being applied here, the sentence is in simple future tense with the subject \"I\" and the verb \"will have\".</End>": [
+        5.529606399226653,
+        3.4703936007733476
+    ],
+    "The grammar error in the sentence is the use of \"very free,\" which is not a common collocation. Revised sentence: Today, I had a lot of free time. <Begin>Common collocations</End>": [
+        7.922991756816293,
+        4.077008243183707
+    ],
+    "The grammar error in the sentence is the incorrect use of the apostrophe in \"it's.\" The revised sentence is \"By the way, it is Christmas morning.\" Rule: Use \"it's\" as a contraction for \"it is\" or \"it has.\" <Begin>Contractions</End>": [
+        8.476759441441828,
+        3.5232405585581708
+    ],
+    "Grammar error: The sentence should be \"This is my first time writing a diary on the internet.\" Revised sentence: This is my first time writing a diary on the internet. <Begin>Use of the gerund form \"writing\" after \"first time\" instead of \"to write\"</End>": [
+        8.63457591790925,
+        4.365424082090748
+    ],
+    "The grammar error in the sentence is the use of \"got\" instead of \"had\" to indicate the experience of an irregular heartbeat. The revised sentence is: \"Several days ago, I had an irregular heartbeat for the first time in my life!\" <Begin>past tense of \"get\" is \"got\"</End> <Begin>past tense of \"have\" is \"had\"</End>": [
+        13.317870719096929,
+        4.682129280903074
+    ],
+    "Grammar error: The word \"city\" should be followed by a specific city name or \"the\" if referring to a specific city. Revised sentence: I will move to the city this Saturday. <Begin>Rule: When using \"city\" in a sentence, it should be followed by a specific city name or \"the\" if referring to a specific city.</End>": [
+        6.239291977186993,
+        3.7607080228130076
+    ],
+    "The grammar error in the sentence is the use of \"she 's\" which should be \"she's\" without a space. The revised sentence is: \"My sister took entrance exams a few days ago, and she's waiting for her results.\" <Begin>Contractions should not have a space between the two words.</End>": [
+        7.551995308466622,
+        3.448004691533378
+    ],
+    "First, the grammar error in the original sentence is the use of \"of today.\" The correct phrase is \"today\" without the \"of.\" <Begin>Grammar rule: Use \"today\" without the preposition \"of\" to indicate the current day.</End> Revised sentence: After lunch today, I brought the book to the sofa and began to read it.": [
+        7.874403415965322,
+        3.1255965840346764
+    ],
+    "The grammar error in the sentence is the incorrect use of the apostrophe in \"And I 'm.\" The revised sentence is: \"And I'm eating a banana every day for my health.\" <Begin>Use of contraction</End>": [
+        21.26366546521952,
+        4.736334534780483
+    ],
+    "The grammar error in the sentence is the use of \"as long as I want everyday,\" which should be \"as long as I want every day.\" Revised sentence: \"Sleeping as long as I want every day.\" <Begin> Rule: \"Every day\" is always two words when used as an adverbial phrase. </End>": [
+        12.314500113638418,
+        3.685499886361581
+    ],
+    "The grammar error in the sentence is the use of \"pass fast,\" which is redundant. The revised sentence is \"So, I hope that summer will pass quickly.\" <Begin> Rule: Adverbs modify verbs to indicate time, manner, place, or degree. </End>": [
+        10.223416542943795,
+        3.776583457056206
+    ],
+    "The grammar error in the sentence is the use of \"is\" instead of \"are\" to agree with the plural subject \"time from bloom to falling.\" The revised sentence is \"The time from bloom to falling is very early.\" <Begin>Subject-Verb Agreement</End>": [
+        6.383549746766787,
+        3.6164502532332117
+    ],
+    "The grammar error in the original sentence is the use of \"are\" which is a linking verb, but it is not connecting the subject \"rotations\" to a complement. The revised sentence should be \"All my rotations are interesting summer vacations.\" <Begin>Subject-Verb Agreement</End>": [
+        8.82282387649997,
+        3.1771761235000326
+    ],
+    "Grammar error: The contraction \"didn't\" should be used instead of \"did n't\". Revised sentence: Until yesterday I was very busy so I didn't watch DVDs. <Begin> The rule for using contractions in negative sentences is to combine \"did\" and \"not\" to form \"didn't\". </End>": [
+        5.6566941331874006,
+        3.3433058668126
+    ],
+    "Grammar errors: 1. \"I rather be\" should be \"I would rather be\" 2. \"working outside than be a housewife\" should be \"working outside than be a housewife.\" Revised sentence: I would rather be working outside than be a housewife. <Begin>\"Would rather\" is the correct form to express a preference.<End>": [
+        11.241288461124865,
+        3.758711538875133
+    ],
+    "The grammar error in the sentence is \"fell down,\" which should be \"fall down\" to maintain the correct verb tense. Revised sentence: When you go downhill, you have to stick out your chest or you will fall down. <Begin>Rule: Use the correct verb tense to match the timing of the action being described.</End>": [
+        17.52841497298715,
+        4.471585027012853
+    ],
+    "The grammar errors in the sentence are: 1. \"It have been\" should be \"It has been\" to match the singular subject \"it.\" 2. \"to purchase that\" should be \"since I purchased it\" to make the sentence clearer. 3. \"so any service is free\" is unclear and should be rephrased for clarity. Revised sentence: It has been about eight months since I purchased it, so any service is free. <Begin>Subject-verb agreement</End>": [
+        5.595721539587624,
+        3.4042784604123772
+    ],
+    "The grammar error in the sentence is the use of \"with my class and my teacher,\" which should be \"with my class and teacher\" to maintain proper parallel structure. Revised sentence: On Friday, I went with my class and teacher to the Botanical Garden. <new_rule> Parallel structure <new_rule>": [
+        9.912245282510636,
+        4.087754717489364
+    ],
+    "Grammar error: The sentence \"Do you take a nap ?\" should have a comma after the introductory phrase \"Do you.\" The revised sentence is \"Do you take a nap?\" <retrieved_rule> Rule: Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        3.7814283909422817,
+        3.2185716090577183
+    ],
+    "The grammar error in the sentence \"Several days ago, I got an irregular heartbeat for the first time in my life!\" is the use of \"got\" instead of \"had.\" The revised sentence is \"Several days ago, I had an irregular heartbeat for the first time in my life!\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        6.403790636186172,
+        3.596209363813828
+    ],
+    "The grammar error in the sentence is the use of \"feel\" instead of \"felt\" to indicate the past tense after taking the medicine. The revised sentence is: \"I took a medicine, so I felt better for now.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        5.675602621541249,
+        3.3243973784587513
+    ],
+    "The grammar error in the sentence \"On the other hand , I think I spend too many hours to use a computer\" is the incorrect use of \"too many\" before \"hours.\" The revised sentence is \"On the other hand, I think I spend too much time using a computer.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        6.6878859944077345,
+        3.3121140055922664
+    ],
+    "The grammar error in the sentence is the use of \"lose\" instead of \"lose our job\" to specify the object of the action. The revised sentence is \"We are concerned about when we lose our job.\" <new_rule> The rule is that a complete sentence must have a subject and a verb. <new_rule>": [
+        17.762967537196864,
+        5.237032462803134
+    ],
+    "The grammar error in the original sentence is the use of \"having\" instead of \"spending\" to refer to long holidays. The revised sentence is \"And I am spending my long holidays here.\" <new_rule> Use \"spending\" instead of \"having\" to refer to long holidays <new_rule>": [
+        8.489357181223081,
+        3.5106428187769185
+    ],
+    "The grammar error in the sentence \"By the way , it 's Christmas morning\" is the unnecessary space before the apostrophe in \"it's.\" The revised sentence is \"By the way, it's Christmas morning.\" <retrieved_rule> Rule: Contractions in English should not have a space before the apostrophe. <retrieved_rule>": [
+        8.237590842745222,
+        3.762409157254778
+    ],
+    "The grammar error in the sentence is the incorrect placement of the adjective \"interesting\" before the noun \"summer vacations.\" The revised sentence is: \"All my rotations are interesting summer vacations.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        11.011821240406931,
+        3.988178759593066
+    ],
+    "The grammar error in the sentence is the use of \"wrote a diary\" instead of \"wrote in a diary\" to convey the intended meaning. The revised sentence is \"It's been a long time since I wrote in a diary last time.\" <new_rule> Verb usage <new_rule>": [
+        13.324088917457772,
+        3.675911082542229
+    ],
+    "The grammar error in the sentence is the use of \"past\" instead of \"passed\" to indicate the passage of time. The revised sentence is: \"I feel the time passed faster than usual.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        10.317074670610175,
+        3.6829253293898248
+    ],
+    "The grammar error in the sentence \"Today, I was very free.\" is the unnecessary use of a comma after \"Today.\" The revised sentence is \"Today I was very free.\" <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        9.321274665104369,
+        3.6787253348956304
+    ],
+    "The grammar errors in the sentence \"once every three time a day though , It makes good habit and health\" are: 1. \"time\" should be \"times\" to indicate the frequency of the action. 2. \"though\" is used incorrectly and should be removed. 3. \"It makes good habit and health\" should be \"It promotes good habits and health.\" Revised sentence: Once every three times a day, it promotes good habits and health. <retrieved_rule> Adjective placement <retrieved_rule> <retrieved_rule> Plural noun rule <retrieved_rule> <new_rule> The word \"though\" is not necessary in this context and can be omitted for clarity. <new_rule>": [
+        17.103010378259324,
+        3.8969896217406736
+    ],
+    "The grammar error in the sentence \"I was woken up by my daughter today\" is the use of \"woken\" instead of \"awoken\" as the past participle form of \"wake.\" The revised sentence is \"I was awoken up by my daughter today.\" Revised sentence: I was woken up by my daughter today. <new_rule> The past participle form of \"wake\" is \"awoken,\" not \"woken.\" <new_rule>": [
+        6.056508456895607,
+        2.9434915431043933
+    ],
+    "The grammar error in the sentence \"For instance, I started watching Indian movies about a month ago.\" is the use of \"about a month ago\" instead of \"a month ago\" to indicate a specific point in time. The revised sentence is \"For instance, I started watching Indian movies a month ago.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        6.677442826792656,
+        3.3225571732073456
+    ],
+    "The grammar error in the original sentence is the use of \"dare to write\" instead of \"dare write\" to follow the rule of using the gerund form after \"dare.\" The revised sentence is \"This time, I dare write a diary without using my dictionary.\" <retrieved_rule> Use the gerund form \"writing\" after \"dare\" instead of \"to write\" <retrieved_rule>": [
+        8.640478496346267,
+        3.359521503653733
+    ],
+    "The grammar error in the sentence \"Marius won the war in two years, and when he went back to Rome he was chose consul again during five years\" is the incorrect use of \"was chose\" instead of \"was chosen\" to indicate the past participle form of the verb \"choose.\" The revised sentence is \"Marius won the war in two years, and when he went back to Rome he was chosen consul again for five years.\" <retrieved_rule> The past participle form of the verb \"choose\" is \"chosen\" <retrieved_rule>": [
+        13.102324849375512,
+        3.8976751506244884
+    ],
+    "The grammar error in the sentence \"So, I hope that summer will pass fast\" is the unnecessary use of a comma after \"So.\" The revised sentence is \"So I hope that summer will pass fast.\" <retrieved_rule> Use \"so\" to indicate a high degree of something <retrieved_rule>": [
+        12.326685369592878,
+        3.6733146304071216
+    ],
+    "The grammar error in the sentence \"I would say after 10 years of waiting , it has not failed its title , at least from my first impression\" is the use of \"has not failed\" instead of \"had not failed\" to maintain the correct verb tense. The revised sentence is: \"I would say after 10 years of waiting, it had not failed its title, at least from my first impression.\" <retrieved_rule> Subject-Verb agreement <retrieved_rule>": [
+        12.860212835285115,
+        4.139787164714887
+    ],
+    "The grammar error in the sentence is the incorrect spelling of \"Afterall,\" which should be \"After all.\" The revised sentence is: \"After all, I want to at least healthily sleep before 12 pm.\" <retrieved_rule> Rule: Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        6.362068227279069,
+        2.637931772720929
+    ],
+    "The grammar error in the sentence \"Holidays\" is the use of an abbreviation as a standalone sentence. The revised sentence should be \"I love holidays.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        11.594562426372443,
+        3.405437573627555
+    ],
+    "The grammar error in the sentence \"I know the reason, so I hope to correct the reason this time\" is the repetition of the word \"reason.\" The revised sentence is \"I know the reason, so I hope to correct it this time.\" Revised sentence: I know the reason, so I hope to correct the reason this time. <retrieved_rule> Use \"so\" to indicate a high degree of something <retrieved_rule>": [
+        6.421575258362974,
+        3.5784247416370256
+    ],
+    "The grammar error in the sentence \"I 'm headache , tired and no appetite .\" is the incorrect use of \"I'm\" instead of \"I have\" to indicate possession of a headache. The revised sentence is \"I have a headache, am tired, and have no appetite.\" <retrieved_rule> The contraction \"n't\" should be \"haven't\" to indicate the present perfect tense. <retrieved_rule>": [
+        7.915165969221696,
+        3.0848340307783033
+    ],
+    "The grammar error in the sentence \"I can not come to here for around 2 weeks.\" is the use of \"come to here\" instead of \"come here\" to indicate the intended action. The revised sentence is \"I cannot come here for around 2 weeks.\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        6.482099153872865,
+        3.5179008461271355
+    ],
+    "The grammar errors in the original sentence are the use of \"ca n't\" instead of \"can't\" and the repetition of \"weekday.\" The revised sentence should be \"I can't watch TV on weekdays because I am working.\" <retrieved_rule> Rule: Contraction of \"can not\" to \"can't\" <retrieved_rule> <new_rule> Use \"on\" before \"weekdays\" to indicate the specific days of the week. <new_rule>": [
+        6.374814784837729,
+        2.625185215162272
+    ],
+    "The grammar errors in the sentence \"On Friday I was Scream and on Saturday I was a blond hair girl\" are: 1. \"Scream\" should be \"screaming\" to indicate the action in the past tense. 2. \"blond hair girl\" should be \"a girl with blond hair\" for correct adjective placement. Revised sentence: On Friday I was screaming and on Saturday I was a girl with blond hair. <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule> <retrieved_rule> Adjective placement <retrieved_rule>": [
+        7.388581572767755,
+        3.6114184272322447
+    ],
+    "The grammar errors in the sentence \"Today's pictures are icy, snow-covered trees at the top of Mt.\" are: 1. The use of \"Today's\" with the apostrophe is incorrect. 2. The phrase \"at the top of Mt\" should be followed by a comma. The revised sentence is: \"Today's pictures are of icy, snow-covered trees at the top of Mt.\" <retrieved_rule> Grammar rule: Use \"today\" without the preposition \"of\" to indicate the current day. <retrieved_rule>": [
+        6.268686142414083,
+        3.731313857585917
+    ],
+    "The grammar errors in the sentence \"Is almost 4 : 30 pm and I have n't done my housework yet , it 's been a very hot day , I do n't feel like doing anything , I was thinking about jumping into the pool , but I have to wash it and fill it first and that is going to take some time\" are as follows:\n\n1. The use of \"Is\" instead of \"It's\" at the beginning of the sentence.\n2. The unnecessary space before the apostrophe in \"it's.\"\n3. The use of \"do n't\" instead of \"don't.\"\n4. The lack of a comma after \"pool\" to separate the two independent clauses.\n\nThe revised sentence is: \"It's almost 4:30 pm, and I haven't done my housework yet. It's been a very hot day, and I don't feel like doing anything. I was thinking about jumping into the pool, but I have to wash it and fill it first, and that is going to take some time.\" <retrieved_rule> The contraction for \"it is\" is \"it's\" with an apostrophe. <retrieved_rule> <retrieved_rule> Use of contraction <retrieved_rule> <retrieved_rule> Use a comma before a coordinating conjunction that separates two independent clauses. <retrieved_rule>": [
+        7.2348684210526315,
+        2.765131578947368
+    ],
+    "The grammar error in the sentence is the use of a comma before \"but,\" which joins two independent clauses without a conjunction. The revised sentence is \"He took a bath at seven but he didn't try to get to bed.\" <retrieved_rule> A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        9.294860807476212,
+        3.705139192523786
+    ],
+    "The grammar errors in the sentence \"I already forgot about Rise Against an it is a great surprise for me , because I did n't return to them for 2 years\" are: 1. \"an\" should be \"and\" for proper conjunction. 2. \"did n't\" should be \"didn't\" for the contraction of \"did not.\" Revised sentence: I already forgot about Rise Against and it is a great surprise for me, because I didn't return to them for 2 years. <retrieved_rule> Contractions should not have a space between the two words. <retrieved_rule> <retrieved_rule> The contraction for \"did not\" is \"didn't\" <retrieved_rule>": [
+        4.377903005572737,
+        3.6220969944272636
+    ],
+    "The grammar error in the sentence \"I play street live at every Saturday\" is the use of \"every\" instead of \"every\" to indicate a specific day of the week. The revised sentence is \"I play street live every Saturday.\" <retrieved_rule> Use \"on\" before \"weekdays\" to indicate the specific days of the week. <retrieved_rule>": [
+        16.758184904176375,
+        3.241815095823624
+    ],
+    "The grammar error in the sentence \"It has not been rainy for a week\" is the use of \"rainy\" instead of \"raining\" to indicate the current weather condition. The revised sentence is \"It has not been raining for a week.\" <retrieved_rule> Present tense verb \"think\" is used to express a current opinion or belief. <retrieved_rule>": [
+        4.363533230894183,
+        2.636466769105817
+    ],
+    "The grammar errors in the sentence \"It recommends us that even if we are sleepy after lunch, we should not sleep\" are: 1. \"recommends\" should be \"recommends that\" to form a complete sentence. 2. \"us\" is unnecessary and should be removed. Revised sentence: It recommends that even if we are sleepy after lunch, we should not sleep. <retrieved_rule> The use of a comma after \"lunch\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        9.39482147817266,
+        3.6051785218273418
+    ],
+    "The grammar error in the sentence is the incorrect use of the contraction \"do n't\" which should be \"do not\" to indicate the present perfect tense. The revised sentence is: \"I do not have any option, so it seems that I should teach my students at 8:00 pm tonight.\" <retrieved_rule> Subject-Verb Agreement <retrieved_rule>": [
+        13.801727148694852,
+        4.198272851305149
+    ],
+    "The grammar error in the sentence \"Yesterday was a buzy day, but very happy.\" is the misspelling of \"busy\" as \"buzy.\" The revised sentence is \"Yesterday was a busy day, but very happy.\" <retrieved_rule> Spelling error: \"physically\" is misspelled. <retrieved_rule>": [
+        2.7226337651250225,
+        2.2773662348749775
+    ],
+    "The grammar error in the sentence \"Holiday is over\" is the lack of a determiner before \"Holiday.\" The revised sentence is \"The holiday is over.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        9.26762490227373,
+        3.73237509772627
+    ],
+    "The grammar error in the sentence \"Now , Wii my house\" is the incorrect use of \"Wii\" as a standalone sentence. The revised sentence is \"Now, I will clean my house.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        10.164431224069002,
+        2.835568775930996
+    ],
+    "The grammar error in the sentence \"Sleeping as long as I want everyday\" is the use of \"everyday\" instead of \"every day\" to indicate a frequency. The revised sentence is \"Sleeping as long as I want every day.\" <retrieved_rule> Use \"every day\" to indicate frequency <retrieved_rule>": [
+        11.799766864409847,
+        3.2002331355901563
+    ],
+    "The grammar error in the sentence \"I usually take a bath more than half an hour\" is the use of \"more than\" before \"half an hour.\" The correct phrase is \"for more than half an hour\" to indicate the duration of the action. Revised sentence: I usually take a bath for more than half an hour. <retrieved_rule> Adjective placement <retrieved_rule>": [
+        8.77564633827563,
+        3.22435366172437
+    ],
+    "The grammar error in the original sentence is the repetition of \"long\" before \"flight.\" The revised sentence is \"I had to endure a long flight to get to Spain.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        6.710836208637842,
+        3.2891637913621583
+    ],
+    "The grammar error in the sentence is the placement of \"always\" at the end of the sentence. The revised sentence is \"So, I always jog and exercise.\" <retrieved_rule> Adverb placement <retrieved_rule>": [
+        12.024862438362916,
+        3.9751375616370828
+    ],
+    "The grammar error in the sentence \"I 'm so sleepy\" is the unnecessary space before the apostrophe in the contraction \"I'm.\" The revised sentence is \"I'm so sleepy.\" <retrieved_rule> Contractions should not have a space before the apostrophe. <retrieved_rule>": [
+        8.27182195348602,
+        3.728178046513979
+    ],
+    "The grammar error in the sentence \"sorry, that's all for today\" is the use of a comma before \"that's.\" The revised sentence is \"Sorry, that's all for today.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        7.845659165699367,
+        3.1543408343006343
+    ],
+    "The grammar error in the sentence \"I will move to city this Saturday\" is the missing article \"the\" before \"city.\" The revised sentence is \"I will move to the city this Saturday.\" <retrieved_rule> In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        3.5844121392190154,
+        2.4155878607809846
+    ],
+    "The grammar error in the sentence \"I thank my ear for my survival until now\" is the use of \"ear\" instead of \"ears\" to indicate both ears. The revised sentence is \"I thank my ears for my survival until now.\" <new_rule> Use the plural form \"ears\" to indicate both ears. <new_rule>": [
+        4.965479040901289,
+        2.034520959098711
+    ],
+    "The grammar errors in the sentence \"Bur this year is a little bit different with the other year\" are: 1. \"Bur\" should be \"But\" to indicate contrast. 2. \"the other year\" should be \"previous years\" to indicate a comparison with multiple years. Revised sentence: \"But this year is a little bit different from previous years.\" <retrieved_rule> Use \"little\" to indicate a small amount <retrieved_rule> <retrieved_rule> Use \"as\" to compare actions or states of being and \"like\" to compare nouns or pronouns <retrieved_rule>": [
+        5.8752710159507355,
+        3.1247289840492636
+    ],
+    "The grammar error in the sentence is the use of \"did n't\" which should be \"didn't\" as the contraction for \"did not.\" The revised sentence is: \"If we didn't do that and walk for a long time, we will collapse or die.\" <retrieved_rule> The contraction for \"did not\" is \"didn't\" <retrieved_rule>": [
+        12.105707872067885,
+        3.894292127932114
+    ],
+    "The grammar errors in the sentence \"I didn ` t write here for a long time because I find a job\" are the incorrect use of the contraction \"didn't\" instead of \"didn't\" and the lack of a subject-verb agreement in \"because I find a job.\" The revised sentence is \"I didn't write here for a long time because I found a job.\" <retrieved_rule> The contraction for \"did not\" is \"didn't\" <retrieved_rule> <retrieved_rule> Subject-Verb Agreement <retrieved_rule>": [
+        2.5030790573347543,
+        2.4969209426652457
+    ],
+    "The grammar error in the sentence \"Acording to this, taking a nap is not good for digestion\" is the misspelling of \"According\" as \"Acording.\" The revised sentence is \"According to this, taking a nap is not good for digestion.\" Revised sentence: Acording to this , taking a nap is not good for digestion. <new_rule> Spelling error: \"According\" is misspelled. <new_rule>": [
+        12.122742320876895,
+        3.8772576791231046
+    ],
+    "The grammar errors in the sentence \"Everyday starts new thinngs to try\" are as follows:\n\n1. The use of \"Everyday\" instead of \"Every day.\"\n2. The misspelling of \"things\" as \"thinngs.\"\n3. The lack of a determiner before \"new\" to specify which things.\n\nThe revised sentence is: \"Every day starts new things to try.\" <retrieved_rule> Use \"every day\" to indicate frequency. <retrieved_rule>": [
+        3.60719254513658,
+        4.39280745486342
+    ],
+    "The grammar error in the original sentence is the use of \"arranged for\" instead of \"arranged\" to indicate that the speaker was the one who arranged the date. The revised sentence is \"Last night was a second date I arranged for my friend, and hopefully they can work things out!\" <new_rule> Use a comma after introductory phrases or adverbs. <new_rule>": [
+        3.445873510111156,
+        2.5541264898888443
+    ],
+    "The grammar error in the sentence \"For example , today I ordered some clothes on the internet shop !\" is the unnecessary use of the preposition \"on\" before \"the internet shop.\" The revised sentence is: \"For example, today I ordered some clothes from the internet shop!\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        12.991272023447067,
+        5.008727976552933
+    ],
+    "The grammar error in the sentence \"Today was the day of my chinese friend 's birthday\" is the incorrect capitalization of \"chinese.\" The revised sentence is \"Today was the day of my Chinese friend's birthday.\" <retrieved_rule> Grammar rule: In English, the proper noun \"English\" should be capitalized when referring to the language. <retrieved_rule>": [
+        11.962345866972662,
+        4.037654133027339
+    ],
+    "The grammar error in the sentence \"So today I have a sore throat\" is the unnecessary use of \"So\" at the beginning of the sentence. The revised sentence is \"Today I have a sore throat.\" <new_rule> The word \"so\" is not necessary in this context and can be omitted for clarity. <new_rule>": [
+        3.644678413004673,
+        3.355321586995327
+    ],
+    "The grammar error in the sentence \"This time they may be lost adoministration\" is the incorrect use of \"adoministration\" which should be \"administration.\" The revised sentence is \"This time they may be lost in administration.\" <retrieved_rule> Use \"may be\" instead of \"maybe\" when expressing possibility or uncertainty. <retrieved_rule>": [
+        4.8244781692258165,
+        2.1755218307741835
+    ],
+    "The grammar error in the sentence is the use of \"much\" which should be \"little\" to indicate a small amount. The revised sentence is: \"So, there's not little time left.\" <retrieved_rule> The rule is that \"little\" is the correct word to use to indicate a small amount. <retrieved_rule>": [
+        5.389295612923662,
+        2.6107043870763382
+    ],
+    "The grammar error in the sentence \"Spring vacation is coming shortly !\" is the use of the exclamation mark without accompanying words. The revised sentence is \"Spring vacation is coming shortly.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        4.248221539717384,
+        2.7517784602826167
+    ],
+    "The grammar errors in the sentence \"Hope you will not feel bored about this diary and help me for correcting it\" are: 1. The use of \"feel bored\" should be \"feel bored with.\" 2. The phrase \"help me for correcting it\" should be \"help me correct it.\" Revised sentence: \"Hope you will not feel bored with this diary and help me correct it.\" <retrieved_rule> Use \"like\" to compare nouns or pronouns, while \"any\" should be used to indicate an unspecified amount or existence of something. <retrieved_rule>": [
+        10.2883991306051,
+        2.711600869394899
+    ],
+    "The grammar error in the sentence \"I ate a pizza for dinner yesterday\" is the use of \"for dinner\" instead of \"for dinner\" to indicate the specific meal. The revised sentence is \"I ate a pizza for dinner yesterday.\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        1.1526717557251909,
+        1.8473282442748091
+    ],
+    "The grammar error in the sentence \"I ordered some clothes and they are going to ship on FEB\" is the use of \"FEB\" as an abbreviation without specifying the year. The revised sentence is \"I ordered some clothes and they are going to ship in February.\" <retrieved_rule> Abbreviations should not be used as standalone sentences. <retrieved_rule>": [
+        7.201957721665839,
+        2.7980422783341603
+    ],
+    "The grammar error in the sentence \"I like winter than summer\" is the incorrect comparative adjective usage. The revised sentence is \"I like winter more than summer.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        2.796401515151515,
+        2.203598484848485
+    ],
+    "The grammar errors in the sentence \"My team stay at Kuwait , IN PM 10 : 00.\" are: 1. \"stay\" should be \"stays\" to match the singular subject \"team.\" 2. \"IN PM 10 : 00\" should be \"at 10:00 PM\" for proper preposition usage and time format. Revised sentence: My team stays in Kuwait at 10:00 PM. <retrieved_rule> Present tense verb \"think\" is used to express a current opinion or belief. <retrieved_rule> <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        5.892780552867236,
+        3.1072194471327643
+    ],
+    "The grammar error in the sentence \"Because it is such big change in my lifetime.\" is the missing article \"a\" before \"big change.\" The revised sentence is \"Because it is such a big change in my lifetime.\" <retrieved_rule> Use \"a\" before words starting with a consonant sound. <retrieved_rule>": [
+        5.857913456282618,
+        2.1420865437173813
+    ],
+    "The grammar error in the sentence \"Do you remember my journal which I wrote 2 days ago?\" is the use of \"which\" instead of \"that\" to introduce a restrictive relative clause. The revised sentence is \"Do you remember my journal that I wrote 2 days ago?\" <retrieved_rule> Use \"that\" to introduce a restrictive relative clause. <retrieved_rule>": [
+        3.103535353535354,
+        1.8964646464646462
+    ],
+    "The grammar error in the sentence \"It 's nearlly 12 pm\" is the misspelling of \"nearlly\" instead of \"nearly\" and the incorrect use of \"It 's\" instead of \"It's\" to indicate \"It is.\" The revised sentence is \"It's nearly 12 pm.\" <retrieved_rule> The contraction \"it's\" should be used instead of \"it 's\" to indicate \"it is.\" <retrieved_rule>": [
+        6.197592608584171,
+        2.802407391415829
+    ],
+    "The grammar error in the sentence \"The wife was woken up by my stertor\" is the use of \"woken\" instead of \"awoken\" as the past participle form of \"wake.\" The revised sentence is \"The wife was awoken up by my stertor.\" Revised sentence: The wife was woken up by my stertor. <retrieved_rule> The past participle form of \"wake\" is \"awoken,\" not \"woken.\" <retrieved_rule>": [
+        4.711739724431548,
+        3.2882602755684527
+    ],
+    "The grammar errors in the sentence \"I had a dinner at 11pm yesterday and slept down as soon\" are: 1. \"had a dinner\" should be \"had dinner\" to follow the correct grammar rule. 2. \"slept down\" should be \"lay down\" to indicate the action of lying down. 3. \"as soon\" should be \"as soon as possible\" to complete the comparison. Revised sentence: I had dinner at 11pm yesterday and lay down as soon as possible.": [
+        13.109446276432086,
+        2.8905537235679137
+    ],
+    "The grammar error in the sentence \"For long time, I didn't see her\" is the incorrect use of \"long time\" instead of \"a long time.\" The revised sentence is \"For a long time, I didn't see her.\" <retrieved_rule> Rule: Use \"a\" before words starting with a consonant sound. <retrieved_rule>": [
+        1.1707317073170733,
+        1.8292682926829267
+    ],
+    "The grammar error in the original sentence is the use of \"real\" instead of \"true\" to indicate the truthfulness of the statement. The revised sentence is \"Is it true that I have to leave this college in two months?\" <new_rule> The rule is that \"real\" should be used to describe physical objects or experiences, while \"true\" should be used to indicate the truthfulness of a statement. <new_rule>": [
+        1.6931818181818183,
+        2.3068181818181817
+    ],
+    "The grammar errors in the sentence \"So primarily we can buy stocks at the day just before the vacations and sell them at the next days after holidays except the year end\" are: 1. \"at the day\" should be \"on the day\" to indicate a specific day. 2. \"next days\" should be \"following days\" for clarity. 3. \"except the year end\" should be \"except for the year-end.\" Revised sentence: So primarily, we can buy stocks on the day just before the vacations and sell them on the following days after holidays, except for the year-end. <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule> <new_rule> Use \"on\" instead of \"in\" to indicate the location of an activity when referring to a specific day. <new_rule> <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        5.344677517932167,
+        2.655322482067833
+    ],
+    "The grammar error in the sentence \"That 's about it for today\" is the use of the contraction \"That 's\" instead of \"That's.\" The revised sentence is \"That's about it for today.\" <retrieved_rule> The contraction \"That's\" should be used instead of \"That 's\" to indicate \"That is.\" <retrieved_rule>": [
+        3.6884842281107235,
+        2.3115157718892765
+    ],
+    "The grammar error in the sentence \"song everyday.\" is the missing verb. The revised sentence is \"I sing everyday.\" <new_rule> Use \"sing\" instead of \"song\" to form a complete sentence. <new_rule>": [
+        9.361788411825625,
+        3.638211588174374
+    ],
+    "The grammar error in the sentence \"And thank God it 's Friday night so that I have time to watch the newest episode\" is the unnecessary use of \"so that\" before \"I have time to watch the newest episode.\" The revised sentence is \"And thank God it's Friday night, I have time to watch the newest episode.\" <new_rule> Use a comma after an interjection such as \"So\" when expressing apology or regret. <new_rule>": [
+        7.309597046530767,
+        2.690402953469232
+    ],
+    "The grammar error in the sentence \"If I get a cold , I 'm going to give you tell you first\" is the incorrect use of \"give you tell you\" instead of \"tell you.\" The revised sentence is \"If I get a cold, I'm going to tell you first.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        10.536961668609838,
+        2.463038331390164
+    ],
+    "The grammar error in the sentence \"The movement during the first 30 minutes after the stock market opening is controlled by the dominant tendency made by the US traders\" is the use of \"made by the US traders,\" which should be \"created by the US traders\" to maintain proper verb usage. Revised sentence: The movement during the first 30 minutes after the stock market opening is controlled by the dominant tendency created by the US traders. <retrieved_rule> Verb usage <retrieved_rule>": [
+        11.258016354645735,
+        3.7419836453542645
+    ],
+    "The grammar error in the sentence \"He added that it could get worse due to stress and fatigue, and he just advised me to take an enough rest\" is the use of \"an enough rest.\" The correct phrase should be \"enough rest\" without the indefinite article \"an.\" The revised sentence is \"He added that it could get worse due to stress and fatigue, and he just advised me to take enough rest.\" <retrieved_rule> Use \"an\" before words that begin with a vowel sound <retrieved_rule>": [
+        3.772732265446224,
+        2.227267734553776
+    ],
+    "The grammar error in the sentence \"It's been a while since I wrote diary on lang-8.\" is the use of \"wrote diary\" instead of \"wrote in my diary\" to indicate the action of writing in a diary. The revised sentence is \"It's been a while since I wrote in my diary on Lang-8.\" <new_rule> Use of the infinitive form \"to be\" should be followed by \"to\" + base form of the verb. <new_rule>": [
+        4.60972743542906,
+        2.3902725645709397
+    ],
+    "The grammar error in the sentence \"I like warm season\" is the use of \"warm\" as an adjective instead of \"warmth\" as a noun to convey the intended meaning. The revised sentence is \"I like the warm season.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        2.699547464893571,
+        2.3004525351064293
+    ],
+    "The grammar error in the sentence \"wake up !\" is the lack of a subject and verb to form a complete sentence. The revised sentence is \"I wake up!\" <retrieved_rule> A complete sentence should have a subject and a verb to be grammatically correct. <retrieved_rule>": [
+        9.48594120956538,
+        2.5140587904346186
+    ],
+    "The grammar error in the sentence \"Now, I 'm gon na go to sleep . . . .\" is the unnecessary use of ellipses as standalone sentences. The revised sentence is \"Now, I'm gonna go to sleep.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        7.8161275573735,
+        2.1838724426265004
+    ],
+    "The grammar errors in the sentence \"When the last day of my stay there, He said He would plan to go to see Mt.\" are the missing article \"the\" before \"last day\" and the incorrect capitalization of \"Mt.\" The revised sentence is \"On the last day of my stay there, he said he would plan to go to see Mt.\" <retrieved_rule> In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense. <retrieved_rule>": [
+        6.3122246874817405,
+        2.6877753125182595
+    ],
+    "The grammar error in the sentence \"Yesterday I went to the stadium to see the baseball game\" is the use of \"to see\" instead of \"to watch\" to indicate the action of attending a baseball game. The revised sentence is \"Yesterday I went to the stadium to watch the baseball game.\" <retrieved_rule> Use \"to\" before the base form of the verb to indicate the purpose of an action. <retrieved_rule>": [
+        5.720251173474484,
+        2.2797488265255166
+    ],
+    "The grammar error in the sentence \"The nutritionist organized calorie control, a variety of menu every day, providing best season's food, traditional meal\" is the incorrect placement of adjectives. The revised sentence is \"The nutritionist organized calorie control, a variety of daily menus, providing the best seasonal food, and traditional meals.\" <retrieved_rule> Adjective placement <retrieved_rule>": [
+        11.481091830861253,
+        3.518908169138745
+    ],
+    "The grammar error in the sentence \"Steeven tought me today\" is the misspelling of \"tought,\" which should be \"taught.\" The revised sentence is \"Steeven taught me today.\" <retrieved_rule> Spelling error: \"tought\" is misspelled. The correct spelling is \"taught.\" <retrieved_rule>": [
+        3.6854700854700857,
+        2.3145299145299143
+    ],
+    "The grammar error in the sentence \"It almost cost a whole morning.\" is the lack of a determiner before \"whole morning.\" The revised sentence is \"It almost cost the whole morning.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        6.677895906771961,
+        3.32210409322804
+    ],
+    "The grammar error in the sentence \"In the future , I want to sing for Gratitude\" is the unnecessary comma after \"future.\" The revised sentence is \"In the future I want to sing for Gratitude.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        6.728969652886939,
+        2.2710303471130597
+    ],
+    "The grammar error in the sentence \"As soon as I woke up this morning , I checked outside.\" is the use of a comma after \"morning.\" The revised sentence is \"As soon as I woke up this morning I checked outside.\" <retrieved_rule> When starting a sentence with a phrase of gratitude, it should be followed by a comma. <retrieved_rule>": [
+        3.1874310147747114,
+        2.8125689852252886
+    ],
+    "The original sentence \"How time flies!\" does not contain any grammar errors.": [
+        2.4621761658031085,
+        2.5378238341968915
+    ],
+    "The grammar error in the sentence \"I 'm so happy if you comment on my diary\" is the use of the contraction \"I 'm\" instead of \"I'm.\" The revised sentence is \"I'm so happy if you comment on my diary.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        3.097867867867868,
+        2.902132132132132
+    ],
+    "The grammar error in the sentence \"We do n't have this symptoms now\" is the incorrect use of \"this\" before \"symptoms.\" The revised sentence is \"We don't have these symptoms now.\" <retrieved_rule> Use of contraction <retrieved_rule>": [
+        2.15922107674685,
+        1.8407789232531502
+    ],
+    "The grammar error in the sentence \"She said `` I want to cancel the New York trip\" is the missing closing quotation mark after \"cancel.\" The revised sentence is: \"She said, 'I want to cancel the New York trip.'\" <new_rule> Use quotation marks to indicate direct speech. <new_rule>": [
+        8.566623174527589,
+        2.4333768254724113
+    ],
+    "The grammar error in the sentence \"According to this, human 's life can be said to be leisure time to the end\" is the use of \"human 's\" instead of \"human's\" to indicate possession. The revised sentence is \"According to this, human's life can be said to be leisure time to the end.\" <retrieved_rule> Spelling error: \"According\" is misspelled. <retrieved_rule>": [
+        11.523980382489755,
+        2.4760196175102456
+    ],
+    "The grammar error in the sentence \"Yesterday, I went to see.\" is the incomplete sentence. The revised sentence is: \"Yesterday, I went to see a movie.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        7.855361586494083,
+        2.144638413505916
+    ],
+    "The grammar error in the sentence \"And, I will try to use the E-bay, as soon as possible!\" is the unnecessary comma after \"And\" and the space before the hyphen in \"E-bay.\" The revised sentence is \"And I will try to use the E-bay as soon as possible!\" <retrieved_rule> Punctuation should not have a space before it. <retrieved_rule>": [
+        4.1337198112964035,
+        2.8662801887035965
+    ],
+    "The grammar error in the sentence \"I am very stressful ~ now\" is the use of \"stressful\" instead of \"stressed.\" The revised sentence is \"I am very stressed now.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        7.9689668190356215,
+        3.03103318096438
+    ],
+    "The grammar error in the sentence \"And I want to live my life on my own pace\" is the use of \"on my own pace\" instead of \"at my own pace.\" The revised sentence is \"And I want to live my life at my own pace.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        13.16440865541403,
+        2.835591344585972
+    ],
+    "The grammar errors in the sentence \"Yesterday, I took a taxi, driver give me a card.\" are the missing article \"a\" before \"driver\" and the incorrect verb form \"give\" instead of \"gave.\" The revised sentence is \"Yesterday, I took a taxi, and the driver gave me a card.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule> <retrieved_rule> Use a comma before a coordinating conjunction (and, but, for, nor, or, so, yet) that separates two independent clauses. <retrieved_rule>": [
+        4.034651938931048,
+        1.9653480610689527
+    ],
+    "The grammar error in the sentence \"One day, I was failed to pass the examination.\" is the use of \"was failed\" instead of \"failed.\" The revised sentence is \"One day, I failed to pass the examination.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        5.782008143724004,
+        3.2179918562759964
+    ],
+    "The grammar error in the sentence \"I need to reconsider about how to use a time.\" is the use of \"reconsider about\" instead of \"reconsider\" alone. The revised sentence is \"I need to reconsider how to use time.\" <retrieved_rule> Use \"reconsider\" without \"about\" to indicate reconsideration. <retrieved_rule>": [
+        3.8676708633093524,
+        2.1323291366906476
+    ],
+    "The grammar error in the sentence \"Now, I 'm doing job hunting.\" is the unnecessary space before the apostrophe in the contraction \"I'm.\" The revised sentence is \"Now, I'm doing job hunting.\" <retrieved_rule> Contractions in English should not have a space before the apostrophe. <retrieved_rule>": [
+        8.114470005549467,
+        2.8855299944505335
+    ],
+    "The grammar error in the sentence \"I hope the symptoms will dispear when I wake up tomorrow\" is the misspelling of \"disappear.\" The revised sentence is \"I hope the symptoms will disappear when I wake up tomorrow.\" <retrieved_rule> Spelling error: \"dispear\" is misspelled. The correct spelling is \"disappear.\" <retrieved_rule>": [
+        7.5873592974345865,
+        3.412640702565414
+    ],
+    "The grammar error in the sentence \"Anyway, today will be good day\" is the lack of a determiner before \"good day.\" The revised sentence is \"Anyway, today will be a good day.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        4.100154477385523,
+        2.8998455226144766
+    ],
+    "The grammar error in the sentence \"I hope she would come back to the scene as a diva again , even not like her heyday.\" is the use of \"even not\" instead of \"even if not\" to convey the intended meaning. The revised sentence is \"I hope she would come back to the scene as a diva again, even if not like her heyday.\" <retrieved_rule> Use \"if\" after \"even\" to indicate a hypothetical scenario. <retrieved_rule>": [
+        4.0730096858089535,
+        2.9269903141910465
+    ],
+    "The grammar error in the sentence \"And, by the way, 'white nights' have already come\" is the unnecessary use of a comma before \"by the way.\" The revised sentence is \"And by the way, 'white nights' have already come.\" <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        7.792675610849542,
+        3.2073243891504584
+    ],
+    "The grammar error in the sentence \"See you tomorrow ! !\" is the unnecessary use of two exclamation marks. The revised sentence is \"See you tomorrow!\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        6.433878062955197,
+        2.5661219370448034
+    ],
+    "The grammar errors in the sentence \"After that we wemt for a drive to enjoy the autumn colors\" are: 1. The misspelling of \"wemt\" which should be \"went.\" 2. The missing comma after the introductory phrase \"After that.\" Revised sentence: \"After that, we went for a drive to enjoy the autumn colors.\" <retrieved_rule> Spelling error: \"wemt\" is misspelled. The correct spelling is \"went.\" <retrieved_rule> <new_rule> Introductory phrase should be followed by a comma. <new_rule>": [
+        2.6573139087410667,
+        2.3426860912589333
+    ],
+    "The grammar error in the sentence \"it is rainning today ~\" is the use of the tilde (~) at the end of the sentence, which is not a proper punctuation mark. The revised sentence is \"It is raining today.\" <new_rule> Punctuation rule: Use appropriate punctuation marks at the end of a sentence. <new_rule>": [
+        3.167088516971885,
+        2.832911483028115
+    ],
+    "The grammar error in the sentence \"I 'm gon na dance in the rain , yes , that 's what I 'm going to do\" is the use of \"gon na\" instead of \"going to\" to indicate future action. The revised sentence is \"I'm going to dance in the rain, yes, that's what I'm going to do.\" <retrieved_rule> Use of contraction <retrieved_rule>": [
+        5.590126439065312,
+        2.4098735609346886
+    ],
+    "The grammar error in the sentence \"I regretted to keep putting him down for 3 hours during the day\" is the use of \"regretted\" instead of \"regret\" to indicate the past tense. The revised sentence is \"I regretted keeping him down for 3 hours during the day.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        6.734860783716186,
+        2.2651392162838153
+    ],
+    "The grammar error in the sentence \"My NY life is getting change\" is the use of \"change\" instead of \"changing.\" The revised sentence is \"My NY life is getting changing.\" <retrieved_rule> The correct verb tense should be used to match the timing of the action being described. <retrieved_rule>": [
+        6.725826899315212,
+        2.274173100684788
+    ],
+    "The grammar error in the sentence \"Today, I read 'The catcher in the rye' as a summer homework.\" is the use of \"as a summer homework.\" The revised sentence is: \"Today, I read 'The Catcher in the Rye' for my summer homework.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        3.561142369991475,
+        2.438857630008525
+    ],
+    "The grammar error in the original sentence is the use of ellipses as standalone sentences. The revised sentence should be \". . . but now I'm very sleepy . . . zzz\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        7.396059144966051,
+        2.6039408550339482
+    ],
+    "The grammar error in the sentence \"the time from bloom to falling is very early\" is the use of \"very early\" to describe the duration of the time period. The revised sentence is \"the time from bloom to falling is very short.\" <retrieved_rule> Use \"time\" instead of \"times\" to indicate a single instance of an activity. <retrieved_rule>": [
+        5.345303316730478,
+        2.6546966832695222
+    ],
+    "The original sentence \"I will have a board meeting tomorrow\" does not contain any grammar errors.": [
+        8.594224838034402,
+        2.4057751619655976
+    ],
+    "The grammar error in the sentence \"When the first day of 2010 , like the other years , I made the new year resolution\" is the incorrect use of \"like\" to compare the first day of 2010 to other years. The revised sentence is \"On the first day of 2010, like other years, I made a new year's resolution.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        8.459165074166862,
+        3.540834925833139
+    ],
+    "The grammar error in the sentence \"I 'm worried if I can commute to my office tomorrow morning\" is the use of \"if\" after \"worried.\" The revised sentence is \"I'm worried about whether I can commute to my office tomorrow morning.\" <retrieved_rule> Use \"if\" after \"even\" to indicate a hypothetical scenario. <retrieved_rule>": [
+        6.266227753556687,
+        2.733772246443312
+    ],
+    "The grammar error in the original sentence is the use of \"around the 2008,\" which should be \"around 2008\" to indicate the approximate time period. The revised sentence is \"I started keeping a diary around 2008.\" <retrieved_rule>Preposition rule<retrieved_rule>": [
+        5.910155033193553,
+        3.0898449668064463
+    ],
+    "The grammar error in the sentence \"I dreamed her the night before yesterday.\" is the incorrect use of \"dreamed\" instead of \"dreamt\" to indicate the past tense of the verb \"dream.\" The revised sentence is \"I dreamt of her the night before yesterday.\" <new_rule> The past tense of the verb \"dream\" is \"dreamt\" <new_rule>": [
+        4.860695405526297,
+        3.1393045944737032
+    ],
+    "The grammar error in the sentence \"I rather be working outside than be a housewife\" is the incorrect use of \"rather\" without \"would\" before \"be.\" The revised sentence is \"I would rather be working outside than be a housewife.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        6.119650005097767,
+        1.8803499949022338
+    ],
+    "The grammar error in the sentence \"yesterday I saw weather forecast which informed that today will rain all day long\" is the missing article \"the\" before \"weather forecast.\" The revised sentence is \"Yesterday I saw the weather forecast, which informed that it will rain all day long today.\" <retrieved_rule> The rule is that \"the\" should be used before a specific noun, such as \"weather forecast.\" <retrieved_rule>": [
+        3.08618837018837,
+        1.9138116298116299
+    ],
+    "The grammar error in the sentence \"Today I saw a movie - Twilight\" is the use of a hyphen instead of a colon to indicate the second part. The revised sentence is: \"Today I saw a movie: Twilight.\" <retrieved_rule> Use a colon instead of a hyphen to indicate the second part. <retrieved_rule>": [
+        5.553717036066201,
+        2.4462829639337986
+    ],
+    "The grammar error in the sentence \"Now I want to drink this greentea sometimes\" is the lack of a space between \"green\" and \"tea.\" The revised sentence is \"Now I want to drink this green tea sometimes.\" <retrieved_rule> Proper nouns such as organization names should be capitalized. <retrieved_rule>": [
+        6.34560973512212,
+        2.6543902648778808
+    ],
+    "The grammar error in the sentence \"Yesterday was also\" is the lack of a complete thought or expression. The revised sentence is \"Yesterday was also a busy day.\" <new_rule> Rule: A comma should not be used to join two independent clauses without a conjunction. <new_rule>": [
+        6.531205101205102,
+        2.4687948987948984
+    ],
+    "The grammar error in the sentence \"I 'm always sleepy after eating lunch\" is the incorrect use of the contraction \"I 'm\" instead of \"I'm.\" The revised sentence is \"I'm always sleepy after eating lunch.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        3.4212131889325716,
+        2.5787868110674284
+    ],
+    "The grammar error in the sentence \"It ( is able to / may ) rain at any moment\" is the incorrect use of parentheses to indicate a choice between \"is able to\" and \"may.\" The revised sentence is \"It may rain at any moment.\" <new_rule> Use of parentheses to indicate a choice between options is not necessary in this context. <new_rule>": [
+        3.3969696969696974,
+        2.603030303030303
+    ],
+    "The grammar error in the sentence \"We are looking forward to seeing you and your children someday somewhere\" is the redundant use of \"someday somewhere.\" The revised sentence is \"We are looking forward to seeing you and your children somewhere.\" <new_rule> Avoid using redundant words or phrases in a sentence. <new_rule>": [
+        2.6073717948717947,
+        2.3926282051282053
+    ],
+    "The grammar error in the sentence \"When I washing ended , it was evening\" is the incorrect use of \"washing\" as a gerund form. The correct form is \"When I finished washing, it was evening.\" <new_rule> Rule: Use the gerund form \"washing\" after \"finished\" instead of \"to wash\" <new_rule>": [
+        2.972367279453894,
+        2.0276327205461064
+    ],
+    "The grammar error in the sentence \"Usually new employees are asked to sit on a blue sheet for hours to occupy a nice place\" is the use of \"to occupy\" instead of \"in order to occupy\" to indicate the purpose of sitting on the blue sheet. The revised sentence is \"Usually new employees are asked to sit on a blue sheet for hours in order to occupy a nice place.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        6.771115788385947,
+        3.228884211614054
+    ],
+    "The grammar error in the sentence \"I 'm absolutely get up early ! !\" is the incorrect use of the contraction \"I'm\" and the verb \"get.\" The revised sentence is \"I absolutely get up early!\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        4.6523470782091465,
+        2.347652921790853
+    ],
+    "The grammar error in the sentence \"Today I had a tour of this city by bike\" is the use of \"by bike\" instead of \"on a bike\" to indicate the mode of transportation. The revised sentence is \"Today I had a tour of this city on a bike.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        5.490760233918128,
+        2.509239766081871
+    ],
+    "The grammar error in the sentence \"Today is hot and sunlight is strong\" is the lack of a comma after \"Today\" to separate the introductory phrase from the main clause. The revised sentence is \"Today, it is hot, and the sunlight is strong.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        5.314714105586317,
+        1.6852858944136833
+    ],
+    "The grammar error in the sentence \"After that, we will go to my mother's home\" is the unnecessary use of a comma after \"that.\" The revised sentence is \"After that we will go to my mother's home.\" <new_rule> Use a comma after introductory phrases or adverbs. <new_rule>": [
+        8.98743270761647,
+        2.012567292383527
+    ],
+    "The grammar error in the sentence \"Today, it was really cold\" is the unnecessary use of a comma after \"Today.\" The revised sentence is \"Today it was really cold.\" <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        7.5665490311313235,
+        2.4334509688686756
+    ],
+    "The grammar error in the sentence \"I took these on August 15\" is the lack of a comma after the introductory phrase \"on August 15.\" The revised sentence is \"I took these on August 15.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        3.773392490954574,
+        2.226607509045426
+    ],
+    "The grammar error in the original sentence is the use of \"by bicycle\" after \"took a walk,\" which is redundant and unnecessary. The revised sentence is \"Today, I took a walk around my house.\" <retrieved_rule> The use of a comma after \"Today\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        1.0,
+        2.0
+    ],
+    "The grammar errors in the sentence \"There has been only 15 days without war since human being started recording of history which means uncountable people have been killed and killing at the same time\" are the incorrect use of \"uncountable\" instead of \"countless\" and the lack of proper punctuation. The revised sentence is \"There have been only 15 days without war since human beings started recording history, which means countless people have been killed and are being killed at the same time.\" <retrieved_rule> Plural nouns in English do not typically end in \"s\" when referring to a general concept. \"Jewelry\" is an uncountable noun and does not need to be pluralized. <retrieved_rule>": [
+        2.5200070509430637,
+        1.4799929490569363
+    ],
+    "The grammar errors in the sentence \"My english is very bed\" are the misspelling of \"English\" and \"bad,\" as well as the incorrect use of \"very\" before \"bad.\" The revised sentence is \"My English is very bad.\" <retrieved_rule> Spelling error: \"English\" is misspelled. Spelling error: \"bad\" is misspelled. <retrieved_rule>": [
+        8.164768790273449,
+        2.835231209726551
+    ],
+    "The grammar error in the sentence \"I hope I wo n't get cold. :)\" is the use of the emoticon as a standalone sentence. The revised sentence is \"I hope I won't get cold.\" <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        3.8851369606003754,
+        2.1148630393996246
+    ],
+    "The grammar error in the sentence \"Come fast next season!\" is the use of \"fast\" instead of \"quickly\" to modify the verb \"come.\" The revised sentence is \"Come quickly next season.\" <retrieved_rule>Adjective placement: Adjectives should come before the noun they modify.<retrieved_rule>": [
+        7.932415915013832,
+        2.0675840849861684
+    ],
+    "The grammar error in the sentence \"If he lost his currently job , he would n't know what he should do\" is the use of \"currently\" instead of \"current\" to modify the noun \"job.\" The revised sentence is \"If he lost his current job, he wouldn't know what he should do.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        3.7113010721529993,
+        2.288698927847001
+    ],
+    "The grammar error in the sentence \"I want to keep a diary everyday , but it is not simple thing to me.\" is the use of \"everyday\" instead of \"every day\" to indicate frequency. The revised sentence is \"I want to keep a diary every day, but it is not a simple thing for me.\" <retrieved_rule> \"Every day\" is always two words when used as an adverbial phrase. <retrieved_rule>": [
+        4.895178519433118,
+        2.1048214805668817
+    ],
+    "The grammar errors in the sentence \"I 'm a business worker weekday and a student at graduate school 3days in a week\" are the incorrect use of \"weekday\" instead of \"on weekdays\" and the lack of an article before \"graduate school.\" The revised sentence is \"I'm a business worker on weekdays and a student at the graduate school three days a week.\" <retrieved_rule> Use \"on\" before \"weekdays\" to indicate the specific days of the week. <retrieved_rule>": [
+        5.981568493062917,
+        3.018431506937083
+    ],
+    "The grammar error in the sentence \"I have been here, NY for 4 months.\" is the incorrect use of the preposition \"for\" with the location \"NY.\" The revised sentence is \"I have been in NY for 4 months.\" <retrieved_rule> Preposition rule: When indicating a location, the preposition \"in\" is used to show where something is located. <retrieved_rule>": [
+        6.538359123768558,
+        2.461640876231443
+    ],
+    "The grammar error in the sentence \"My university started on the January 8th , but it will finish shortly\" is the incorrect use of \"the\" before \"January 8th.\" The revised sentence is \"My university started on January 8th, but it will finish shortly.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        6.898135203321766,
+        2.1018647966782344
+    ],
+    "The grammar errors in the sentence \"Today, I listen the music, it looks like in the cafe.\" are the unnecessary use of a comma after \"Today\" and the incorrect use of the verb \"listen.\" The revised sentence is \"Today I listened to the music; it sounded like it was in the cafe.\" <retrieved_rule> Use \"today\" without the preposition \"of\" to indicate the current day. <retrieved_rule> <retrieved_rule> Use \"in\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        3.5794677000530526,
+        2.4205322999469474
+    ],
+    "The grammar error in the sentence \"So I feel sleeping all day\" is the incorrect use of \"feel\" with \"sleeping.\" The revised sentence is \"So I feel like sleeping all day.\" <retrieved_rule> Use \"like\" to compare nouns or pronouns, while \"any\" should be used to indicate an unspecified amount or existence of something. <retrieved_rule>": [
+        5.952072780327498,
+        2.047927219672503
+    ],
+    "The grammar error in the sentence \"So to speak, there are certain things I have to do almost every day before the sun sets off such as reading a book, watching news, and writing anything.\" is the unnecessary use of a comma after \"So\" and the missing comma after \"news.\" The revised sentence is \"So to speak, there are certain things I have to do almost every day before the sun sets, such as reading a book, watching news, and writing anything.\" <retrieved_rule> The use of a comma after \"So\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        7.074521459385185,
+        2.9254785406148156
+    ],
+    "The grammar error in the sentence \"I always watch TV at Saturday night\" is the incorrect use of \"at\" before \"Saturday night.\" The revised sentence is \"I always watch TV on Saturday night.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        2.911497105045492,
+        2.088502894954508
+    ],
+    "The grammar error in the sentence \"It 's nearly 10 pm when I back home\" is the incorrect use of \"back\" instead of \"get\" to indicate the action of returning home. The revised sentence is: \"It's nearly 10 pm when I get back home.\" <retrieved_rule> Use the correct verb tense to match the timing of the action being described. <retrieved_rule>": [
+        4.147521367521368,
+        1.8524786324786322
+    ],
+    "The grammar error in the sentence \"May it is sunny tomorrow...\" is the use of \"May\" instead of \"May it be\" to indicate a wish or hope for the future. The revised sentence is \"May it be sunny tomorrow.\" <retrieved_rule> Use \"will\" to indicate future tense in English. <retrieved_rule>": [
+        3.6764346035630093,
+        2.323565396436991
+    ],
+    "The grammar error in the sentence \"So, the temperature got down as compared with yesterday\" is the unnecessary comma after \"So.\" The revised sentence is \"So the temperature went down compared to yesterday.\" <retrieved_rule> Use \"so\" to indicate a high degree of something. <retrieved_rule>": [
+        2.889200561009818,
+        2.1107994389901825
+    ],
+    "The grammar errors in the sentence \"Whenever I have a class at night (actually, sometimes we have an extra class at night like today), I was satisfied of my students who listened devouring every word.\" are the unnecessary use of \"of\" after \"satisfied\" and the incorrect verb tense \"was\" instead of \"am\" to indicate the present tense. The revised sentence is \"Whenever I have a class at night (actually, sometimes we have an extra class at night like today), I am satisfied with my students who listen devouring every word.\" <retrieved_rule> Use \"if\" after \"even\" to indicate a hypothetical scenario. <retrieved_rule>": [
+        5.123547147839574,
+        1.8764528521604265
+    ],
+    "The grammar error in the sentence \"I think it 's about for one and half year\" is the incorrect use of \"for\" in the phrase \"for one and half year.\" The revised sentence is \"I think it's been about one and a half years.\" <new_rule> Indefinite article rule: Use \"a\" before a singular noun to specify which one is being referred to. <new_rule>": [
+        6.539169297113808,
+        3.460830702886194
+    ],
+    "The grammar error in the sentence \"I always stay there for a long time all day\" is the redundant use of \"for a long time\" and \"all day\" to convey the same meaning. The revised sentence is \"I always stay there all day.\" <retrieved_rule> Rule: Avoid using redundant words or phrases in a sentence. <retrieved_rule>": [
+        6.358083561603461,
+        1.6419164383965392
+    ],
+    "The grammar error in the sentence \"Tomorrow, I have an English class.\" is the unnecessary use of a comma after \"Tomorrow.\" The revised sentence is \"Tomorrow I have an English class.\" <retrieved_rule> Use \"tomorrow\" without the preposition \"of\" to indicate the following day. <retrieved_rule>": [
+        1.9832648267762771,
+        2.016735173223723
+    ],
+    "The grammar error in the sentence \"I am still go to the place and try my luck\" is the incorrect placement of \"still\" before the verb \"go.\" Revised sentence: \"I am still going to the place to try my luck.\" <retrieved_rule> Adverb placement: Adverbs should come before the verb they modify. <retrieved_rule>": [
+        6.220620237027216,
+        1.779379762972785
+    ],
+    "The grammar error in the sentence \"Because it has been raining for 3 days, I made TERUTERU-BOZU wishing sunshine\" is the lack of a comma after the introductory phrase \"Because it has been raining for 3 days.\" The revised sentence is \"Because it has been raining for 3 days, I made TERUTERU-BOZU wishing for sunshine.\" <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        4.030555555555556,
+        1.969444444444444
+    ],
+    "The grammar error in the sentence \"Hi everyone it 's been a while since I wrote the last diary here\" is the use of \"it 's\" instead of \"it's\" to indicate \"it has.\" The revised sentence is \"Hi everyone, it's been a while since I wrote the last diary here.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        1.0681818181818183,
+        1.9318181818181817
+    ],
+    "The grammar error in the sentence \"I 'm dying for time !\" is the use of \"for time\" instead of \"for some time.\" The revised sentence is \"I'm dying for some time!\" <retrieved_rule> Use \"for\" to indicate a desire for a specific amount of time. <retrieved_rule>": [
+        3.291277023629965,
+        1.7087229763700351
+    ],
+    "The grammar error in the sentence \"We do n't know when the situation recover perfectly\" is the incorrect verb tense. The revised sentence is \"We don't know when the situation will recover perfectly.\" <retrieved_rule> Use \"will\" to indicate future tense in English. <retrieved_rule>": [
+        1.1755725190839694,
+        1.8244274809160306
+    ],
+    "The grammar error in the sentence \"In fact, at this time, I 'm not supposed to write in my diary on Lang-8.\" is the unnecessary use of a comma after \"In fact\" and \"at this time.\" The revised sentence is \"In fact at this time, I'm not supposed to write in my diary on Lang-8.\" <retrieved_rule> Use a comma after an introductory phrase when expressing contrast or transition. <retrieved_rule>": [
+        1.134453781512605,
+        1.865546218487395
+    ],
+    "The grammar error in the sentence \"Although my school was no lecture, I got up early in the morning today.\" is the incorrect use of \"no lecture\" instead of \"no lectures\" to indicate the absence of classes. The revised sentence is \"Although my school had no lectures, I got up early in the morning today.\" <new_rule> The correct form is \"no lectures\" to indicate the absence of classes. <new_rule>": [
+        5.604583879043609,
+        2.3954161209563916
+    ],
+    "The grammar error in the sentence \"When will my P4 come back ~ ~ ~ ~ ? ? ?\" is the unnecessary use of multiple exclamation marks and question marks. The revised sentence is \"When will my P4 come back?\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        5.4704244651867615,
+        2.5295755348132385
+    ],
+    "The grammar error in the original sentence \"And after I take a bath, brush my teeth, chat with my friends etc...\" is the use of a comma splice to join the independent clauses \"take a bath\" and \"brush my teeth\" without a coordinating conjunction or a semicolon. The revised sentence is \"And after I take a bath, brush my teeth, and chat with my friends, etc...\" <retrieved_rule> Comma splice is a grammatical error in which two independent clauses are joined by a comma without a coordinating conjunction or a semicolon. <retrieved_rule>": [
+        2.60077519379845,
+        2.39922480620155
+    ],
+    "The grammar error in the sentence \"Spring is very exciting season\" is the incorrect placement of the adjective \"exciting.\" The revised sentence is \"Spring is a very exciting season.\" <retrieved_rule> Adjective placement: Adjectives should come before the noun they modify. <retrieved_rule>": [
+        4.154289732770746,
+        1.8457102672292547
+    ],
+    "The grammar error in the sentence \"now here he's coming\" is the unnecessary use of \"now\" before \"here.\" The revised sentence is \"Here he's coming.\" <retrieved_rule> The word \"so\" is not necessary in this context and can be omitted for clarity. <retrieved_rule>": [
+        3.8936067071181575,
+        2.1063932928818425
+    ],
+    "The grammar error in the sentence \"I saw her play first time today\" is the incorrect placement of the adverb \"first.\" The revised sentence is \"I saw her play for the first time today.\" <retrieved_rule> Adverbs should come before the verb they modify. <retrieved_rule>": [
+        5.1364832820625494,
+        1.8635167179374499
+    ],
+    "The original sentence \"The stock prices rise on the next days after Japanese national holidays, vacation weeks (April 29th to May 5th in spring; around August 15th in summer; 19th to 23rd September in fall; 28th December to 3rd January in winter)\" does not contain any grammar errors.": [
+        3.387881061174385,
+        1.6121189388256154
+    ],
+    "The grammar error in the sentence \"For three days I can keep my schedule , but after three days I can't do that\" is the use of a comma after the introductory phrase \"For three days.\" The revised sentence is \"For three days I can keep my schedule but after three days I can't do that.\" <new_rule> Use a comma after introductory phrases or adverbs. <new_rule>": [
+        3.8390748630553864,
+        2.1609251369446136
+    ],
+    "The grammar error in the sentence \"Last weekend was very nice!\" is the use of an exclamation mark without accompanying words. The revised sentence is \"Last weekend was very nice.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        3.437553602058319,
+        2.562446397941681
+    ],
+    "The grammar error in the sentence \"and if we get very sleepy, we should go for a walk to forget our sleepness\" is the lack of a comma after the introductory phrase \"and if.\" The revised sentence is: \"And if we get very sleepy, we should go for a walk to forget our sleepiness.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule>": [
+        3.9650280970959715,
+        2.0349719029040285
+    ],
+    "The original sentence \"When my family used to go there very frequently ( about 3 or 4 times a month ) , I had a nice time\" does not contain any grammar errors.": [
+        3.8338437518765387,
+        2.1661562481234613
+    ],
+    "The grammar error in the sentence \"Monday is Equinox's day\" is the lack of an article before \"Equinox's.\" The revised sentence is \"Monday is the Equinox's day.\" <new_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <new_rule>": [
+        7.242371845156925,
+        1.7576281548430748
+    ],
+    "The grammar error in the sentence \"Keeping a diary is difficult to me\" is the incorrect use of \"to me\" after \"difficult.\" The revised sentence is \"Keeping a diary is difficult for me.\" <retrieved_rule> Use \"for\" to indicate the reason for something, not \"from.\" <retrieved_rule>": [
+        5.0870889344573555,
+        2.912911065542645
+    ],
+    "The grammar errors in the sentence \"I should sleep today . . . : - (\" are the use of ellipses and emoticons as standalone sentences. The revised sentence is \"I should sleep today.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule> <retrieved_rule> Emoticons should not be used as standalone sentences. <retrieved_rule>": [
+        4.2479415842599035,
+        1.7520584157400965
+    ],
+    "The grammar error in the sentence \"My sister took entrance exams a few days ago, and she's waiting her results.\" is the use of \"waiting\" without the preposition \"for.\" The revised sentence is \"My sister took entrance exams a few days ago, and she's waiting for her results.\" <retrieved_rule> Use \"for\" to indicate the reason for something, not \"from.\" <retrieved_rule>": [
+        2.6492873218304576,
+        1.3507126781695424
+    ],
+    "The grammar errors in the sentence \"I decided that I will write diary everyday at lang - 8 about dairy thing to learn English\" are the incorrect use of \"dairy\" instead of \"daily,\" the misspelling of \"lang-8\" as \"lang - 8,\" and the lack of proper punctuation. The revised sentence is \"I decided that I will write a diary every day on Lang-8 about daily things to learn English.\" <retrieved_rule> Spelling error: \"dairy\" is misspelled. <retrieved_rule> <new_rule> Use a hyphen instead of a space to connect compound words such as \"part-time.\" <new_rule>": [
+        6.3177366160860835,
+        2.682263383913918
+    ],
+    "The grammar error in the sentence \"After I got home, I started repotting and sowing\" is the use of a comma splice. The revised sentence is \"After I got home, I started repotting and sowing.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        4.611351925469048,
+        2.388648074530952
+    ],
+    "The original sentence \"I had a relaxed time\" does not contain any grammar errors.": [
+        8.733200824972787,
+        2.266799175027213
+    ],
+    "The grammar errors in the sentence \"But we still hope we win at last and visit USA ! !\" are the use of an exclamation mark without accompanying words and the lack of parallel structure in the phrase \"we win at last and visit USA.\" The revised sentence is \"But we still hope to win at last and visit the USA.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule> <new_rule> Use parallel structure in comparative phrases. <new_rule>": [
+        2.369047619047619,
+        1.630952380952381
+    ],
+    "The grammar error in the sentence \"Today, I have two classes.\" is the unnecessary use of a comma after \"Today.\" The revised sentence is \"Today I have two classes.\" <retrieved_rule> The use of a comma after \"Today\" is unnecessary and can be removed for improved clarity. <retrieved_rule>": [
+        5.580967594166761,
+        2.4190324058332395
+    ],
+    "The grammar error in the sentence \"Though today is second day of new year, I say best wishes for my friends all the same.\" is the unnecessary use of \"though\" before \"today.\" The revised sentence is \"Today is the second day of the new year, and I still say best wishes for my friends.\" <retrieved_rule> The word \"though\" is not necessary in this context and can be omitted for clarity. <retrieved_rule>": [
+        3.3051161134595555,
+        1.6948838865404443
+    ],
+    "The grammar error in the sentence \"For example, I like making a schedule of one day\" is the use of \"of one day\" instead of \"for one day\" to indicate the duration of the schedule. The revised sentence is \"For example, I like making a schedule for one day.\" <retrieved_rule> Use \"for\" to indicate the reason for something, not \"from.\" <retrieved_rule>": [
+        2.7796677215189876,
+        1.2203322784810127
+    ],
+    "The grammar error in the sentence \"I dreamed that I found her just sitting by my side when I waked\" is the use of \"waked\" instead of \"woke.\" The revised sentence is \"I dreamed that I found her just sitting by my side when I woke.\" <retrieved_rule> The correct form is \"woke\" instead of \"waked\" to indicate past tense. <retrieved_rule>": [
+        5.290555300669474,
+        1.709444699330527
+    ],
+    "The grammar error in the sentence \"So, whenever I pass by, I am sure they must be new employees\" is the unnecessary use of a comma after \"So.\" The revised sentence is \"So whenever I pass by, I am sure they must be new employees.\" <retrieved_rule> Use a comma after an interjection such as \"So\" when expressing apology or regret. <retrieved_rule>": [
+        6.096434194716354,
+        1.9035658052836462
+    ],
+    "The original sentence \"It will gradually be warm\" does not contain any grammar errors.": [
+        3.3148341360927294,
+        1.6851658639072706
+    ],
+    "The grammar errors in the sentence \"By the way, the job is really a short-term job (seller), which is only last for two weeks.\" are the unnecessary use of a comma after \"short-term job\" and the incorrect verb form \"last\" instead of \"lasts.\" The revised sentence is \"By the way, the job is really a short-term job (seller), which only lasts for two weeks.\" <retrieved_rule> Introductory phrase should be followed by a comma. <retrieved_rule> <retrieved_rule> Use a hyphen instead of a space to join compound words. <retrieved_rule>": [
+        3.6235529968129945,
+        1.3764470031870055
+    ],
+    "The grammar error in the sentence \"I 'm went to Sendai to business trip today\" is the incorrect use of the contraction \"I'm\" with the past tense verb \"went.\" The revised sentence is \"I went to Sendai for a business trip today.\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        5.323336741036954,
+        2.6766632589630457
+    ],
+    "The grammar error in the sentence \"Tomorrow will be sports day of my daughter's school\" is the use of \"of\" instead of \"at\" to indicate the location of the event. The revised sentence is \"Tomorrow will be sports day at my daughter's school.\" <retrieved_rule> Use \"at\" to indicate the location of an activity when referring to a specific place. <retrieved_rule>": [
+        1.9,
+        1.1
+    ],
+    "The grammar error in the sentence \"So it is good time to buy stocks Friday afternoon and sell them Monday morning\" is the missing article \"a\" before \"good time.\" The revised sentence is \"So it is a good time to buy stocks Friday afternoon and sell them Monday morning.\" <retrieved_rule> Use \"a\" before words starting with a consonant sound. <retrieved_rule>": [
+        1.0376506024096386,
+        1.9623493975903614
+    ],
+    "The grammar error in the sentence \"Tomorrow I have a little work\" is the use of \"a little\" instead of \"little\" to modify the noun \"work.\" The revised sentence is \"Tomorrow I have little work.\" <retrieved_rule> Rule: \"A little\" is used to modify adjectives, while \"little\" is used to modify nouns. <retrieved_rule>": [
+        5.088587345894916,
+        1.9114126541050849
+    ],
+    "The grammar error in the sentence \"I wish it 'll be sunny . .\" is the incorrect contraction \"it 'll\" instead of \"it'll.\" The revised sentence is \"I wish it'll be sunny.\" <retrieved_rule> Rule: The contraction for \"it is\" is \"it's\" with an apostrophe. <retrieved_rule>": [
+        4.691626064033821,
+        2.3083739359661792
+    ],
+    "The original sentence \"The best time for buying stocks is 10:30 or 2:30, whereas that for selling stocks is 9:00 to 9:05 or 2:55 to 2:59.\" does not contain any grammar errors.": [
+        1.2166666666666668,
+        1.7833333333333332
+    ],
+    "The grammar error in the sentence \"This is in 2009, it 's so fast\" is the use of a period to join two independent clauses without a conjunction. The revised sentence is \"This is in 2009, and it's so fast.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        2.2948717948717947,
+        1.705128205128205
+    ],
+    "The grammar error in the sentence \"I could n't send you mail sooner\" is the incorrect contraction \"could n't\" instead of \"couldn't.\" The revised sentence is \"I couldn't send you mail sooner.\" <retrieved_rule> The contraction \"couldn't\" should be used instead of \"could n't\" to indicate \"could not.\" <retrieved_rule>": [
+        2.5889894419306185,
+        1.4110105580693815
+    ],
+    "The grammar error in the sentence \"Day 74: I lied today.\" is the lack of a verb after \"Day 74.\" The revised sentence is \"Day 74: I lied today.\" <new_rule> A complete sentence should have a subject and a verb to be grammatically correct. <new_rule>": [
+        2.003167843788949,
+        1.9968321562110511
+    ],
+    "The grammar error in the sentence \"until yesterday I was very busy so I didn't watch DVDs\" is the use of \"until yesterday\" to indicate the past tense. The revised sentence is \"Until yesterday, I was very busy, so I didn't watch DVDs.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        1.744186046511628,
+        1.255813953488372
+    ],
+    "The grammar error in the sentence \"Then I drank of bottle of Pocari Sweat and slept for a while\" is the unnecessary use of \"of\" before \"bottle.\" The revised sentence is \"Then I drank a bottle of Pocari Sweat and slept for a while.\" <retrieved_rule> Use \"about\" to indicate a general topic or subject, and use \"jobs\" to indicate multiple job opportunities. <retrieved_rule>": [
+        3.780163753265019,
+        2.219836246734981
+    ],
+    "The grammar errors in the sentence \"I want to have more strong mind to keep my schedule , and I want to control a time , not time control me\" are the placement of the adjective \"strong\" after the noun \"mind\" and the lack of parallel structure in the phrase \"I want to control a time , not time control me.\" The revised sentence is \"I want to have a stronger mind to keep my schedule, and I want to control my time, not let time control me.\" <retrieved_rule> Adjectives should come before the noun they modify. <retrieved_rule> <retrieved_rule> Use parallel structure in comparative phrases. <retrieved_rule>": [
+        2.6491190024396856,
+        2.3508809975603144
+    ],
+    "The grammar error in the sentence \"A date which can exude both parties' warmth and charisma\" is the incorrect placement of the adjective \"both.\" The revised sentence is \"A date that can exude the warmth and charisma of both parties.\" <retrieved_rule> Adjectives should come before the noun they modify. <retrieved_rule>": [
+        5.474018933027329,
+        1.5259810669726708
+    ],
+    "The grammar error in the sentence \"This is my first time to write diary on the internet\" is the use of \"to write diary\" instead of \"to write a diary.\" The revised sentence is \"This is my first time to write a diary on the internet.\" <retrieved_rule> Use \"a\" before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        3.3012038303693574,
+        1.698796169630643
+    ],
+    "The grammar error in the sentence \"I will try to write everyday, I am planning to write to a business person soon, so I really need your help\" is the use of a comma to join two independent clauses without a conjunction. The revised sentence is \"I will try to write every day, and I am planning to write to a business person soon, so I really need your help.\" <retrieved_rule> A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"If a test is over, I come again\" is the use of a comma to join two independent clauses without a conjunction. The revised sentence is \"If a test is over, I will come again.\" <retrieved_rule> A comma should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Last Saturday, I play street\" is the use of the present tense verb \"play\" instead of the past tense \"played\" to indicate an action that occurred in the past. The revised sentence is \"Last Saturday, I played street.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        1.8833333333333333,
+        2.1166666666666667
+    ],
+    "The grammar error in the sentence \"Yesterday I got up late as usual, and then had lunch, went to supermarket with my good friend, and bought something to my family\" is the use of a comma splice to join the independent clauses \"Yesterday I got up late as usual\" and \"then had lunch, went to supermarket with my good friend, and bought something to my family\" without a coordinating conjunction or a semicolon. The revised sentence is \"Yesterday I got up late as usual and then had lunch, went to the supermarket with my good friend, and bought something for my family.\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.9589041095890412,
+        1.0410958904109588
+    ],
+    "The original sentence \"Every day , 15 hours . . . without interruption\" contains several grammar errors. The phrase \"15 hours\" should be followed by a verb to form a complete sentence. Additionally, the use of ellipses as standalone sentences is incorrect. The revised sentence is \"Every day, I work for 15 hours without interruption.\" <retrieved_rule> Every day is always two words when used as an adverbial phrase. <retrieved_rule> <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        1.1734104046242775,
+        1.8265895953757225
+    ],
+    "The grammar error in the sentence \"The daughter was woken up by my wife.\" is the use of \"woken\" instead of \"awoken\" to indicate the past participle form of \"wake.\" The revised sentence is \"The daughter was awoken by my wife.\" <retrieved_rule> The correct form is \"woke\" instead of \"woken\" to indicate past tense. <retrieved_rule>": [
+        1.9268292682926829,
+        1.0731707317073171
+    ],
+    "The grammar errors in the sentence \"Spree from my house after an hour, so we 'd like to play while drinking\" are: 1. \"Spree from my house\" is unclear and needs to be revised for clarity. 2. \"so we 'd like\" should be \"and we'd like\" to indicate a continuation of the action. Revised sentence: After an hour, we'd like to go out and play while drinking. <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        1.878787878787879,
+        1.121212121212121
+    ],
+    "The original sentence \"I left my umbrella in a train this morning\" does not contain any grammar errors.": [
+        1.235632183908046,
+        1.764367816091954
+    ],
+    "The grammar error in the sentence \"I want to do many things for one day\" is the use of \"many\" before \"things.\" The revised sentence is \"I want to do several things for one day.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. <retrieved_rule>": [
+        1.7941176470588236,
+        1.2058823529411764
+    ],
+    "The grammar errors in the sentence \"But, I 'm going to do it now, becuase my laptop is supposed to get repaired, and in a couple of hours, the mechanic is going to be here and pick up my laptop\" are the misspelling of \"becuase\" as \"because,\" the unnecessary comma after \"now,\" and the lack of proper punctuation. The revised sentence is \"But, I'm going to do it now because my laptop is supposed to be repaired, and in a couple of hours, the mechanic is going to be here to pick up my laptop.\" <retrieved_rule> Spelling error: \"becuase\" is misspelled. The correct spelling is \"because.\" <retrieved_rule> <retrieved_rule> Punctuation should not be used without accompanying words. <retrieved_rule>": [
+        4.697263273125341,
+        2.3027367268746577
+    ],
+    "The grammar error in the sentence \"It cost six dollars to washing and cost six dollars to the dryer\" is the incorrect use of \"to\" before \"washing\" and \"the dryer.\" The revised sentence is \"It cost six dollars to wash and six dollars to dry.\" <retrieved_rule> Use \"to\" before the base form of the verb to indicate the purpose of an action. <retrieved_rule>": [
+        1.8734177215189873,
+        1.1265822784810127
+    ],
+    "The grammar error in the sentence \"I want to ate it again someday\" is the use of \"ate\" instead of \"eat\" to indicate the infinitive form of the verb. The revised sentence is \"I want to eat it again someday.\" <new_rule> Infinitive form rule: The infinitive form \"to eat\" should be used instead of \"to ate\" to indicate the base form of the verb. <new_rule>": [
+        1.7666666666666666,
+        1.2333333333333334
+    ],
+    "The original sentence \"But I had a great time!\" does not contain any grammar errors.": [
+        4.468700529477852,
+        1.531299470522148
+    ],
+    "The grammar error in the sentence \"Saturday , Sunday and Monday close\" is the lack of a verb to complete the sentence. The revised sentence is \"Saturday, Sunday, and Monday are closed.\" <new_rule> Use a verb to complete the sentence and indicate the action being described. <new_rule>": [
+        1.7049180327868854,
+        1.2950819672131146
+    ],
+    "The original sentence \"By the way, what do you like to do in summer?\" does not contain any grammar errors.": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"After my families go to bed, I concentrate in reading books\" is the incorrect use of \"families\" instead of \"family.\" The revised sentence is \"After my family goes to bed, I concentrate on reading books.\" <retrieved_rule> In English, a complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        1.8378378378378377,
+        1.1621621621621623
+    ],
+    "The grammar error in the sentence \"I write something to do for one day on a notebook, and I try to fulfill them\" is the use of \"fulfill\" instead of \"fulfilling\" to indicate the present participle form of the verb. The revised sentence is \"I write something to do for one day in a notebook, and I try fulfilling them.\" <retrieved_rule> Present tense verb \"think\" is used to express a current opinion or belief. <retrieved_rule>": [
+        1.1428571428571428,
+        1.8571428571428572
+    ],
+    "The grammar error in the sentence \"Your life is like when you walk\" is the incorrect use of \"like\" to compare a noun or pronoun. The revised sentence is \"Your life is like walking.\" <retrieved_rule> Use \"like\" to compare nouns or pronouns, while \"walking\" should be used to indicate the action of walking. <retrieved_rule>": [
+        1.1734104046242775,
+        1.8265895953757225
+    ],
+    "The original sentence \"I have to work now\" does not contain any grammar errors.": [
+        1.7746478873239435,
+        1.2253521126760565
+    ],
+    "The grammar error in the sentence \"Sleeping all day untill I had to work\" is the misspelling of \"until\" as \"untill\" and the lack of a subject in the sentence. The revised sentence is \"I was sleeping all day until I had to work.\" <retrieved_rule>Spelling error: \"untill\" is misspelled. The correct spelling is \"until.\" <retrieved_rule> <retrieved_rule> A complete sentence should include a subject and a verb that agrees in tense and number. <retrieved_rule>": [
+        3.7984763021024106,
+        1.2015236978975896
+    ],
+    "The grammar error in the sentence \"It waits at all times to clean the washbowl\" is the use of \"at all times\" instead of \"at any time\" to indicate a general time frame. The revised sentence is \"It waits at any time to clean the washbowl.\" <retrieved_rule> Use \"like\" to compare nouns or pronouns, while \"any\" should be used to indicate an unspecified amount or existence of something. <retrieved_rule>": [
+        3.3489173803922467,
+        1.651082619607753
+    ],
+    "The grammar error in the sentence \"She usually lays down near the big window and basks in the morning sun.\" is the incorrect verb form \"lays\" instead of \"lies\" to indicate reclining. The revised sentence is \"She usually lies down near the big window and basks in the morning sun.\" <retrieved_rule> Verb usage <retrieved_rule>": [
+        2.707868963188112,
+        1.292131036811888
+    ],
+    "The grammar error in the sentence \"After my hard - days I am going to go to Belarus , to Minsk )\" is the incorrect use of a hyphen instead of a space in \"hard - days.\" The revised sentence is \"After my hard days, I am going to Belarus, to Minsk.\" <new_rule> Use a hyphen instead of a space to join compound words. <new_rule>": [
+        3.53787342874245,
+        1.4621265712575502
+    ],
+    "The grammar error in the sentence \"Tonight I read and corrected many diaries\" is the use of \"many\" before \"diaries.\" The revised sentence is \"Tonight I read and corrected several diaries.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. <retrieved_rule>": [
+        1.8235294117647058,
+        1.1764705882352942
+    ],
+    "The original sentence \"And I will take the SAT2 on May 7th\" does not contain any grammar errors.": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"And if the team win 8 games , the team will get first position\" is the use of \"win\" instead of \"wins\" to match the subject-verb agreement. The revised sentence is \"And if the team wins 8 games, the team will get first position.\" <retrieved_rule> Subject-verb agreement rule <retrieved_rule>": [
+        2.795634920634921,
+        1.2043650793650793
+    ],
+    "The grammar error in the sentence \"How old were you when you first went on an errand\" is the lack of a comma after the introductory phrase \"How old.\" The revised sentence is \"How old were you when you first went on an errand?\" <retrieved_rule> When starting a sentence with a phrase of gratitude, it should be followed by a comma. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"So I took three - day weekend\" is the incorrect use of a hyphen instead of a space to connect the words \"three\" and \"day.\" The revised sentence is \"So I took a three-day weekend.\" <retrieved_rule> Use a hyphen instead of a space to join compound words. <retrieved_rule>": [
+        6.4627036744905615,
+        1.5372963255094396
+    ],
+    "The grammar error in the sentence \"My eleven months old son could stand by himself for the first time today!\" is the incorrect use of \"eleven months old\" instead of \"eleven-month-old.\" The revised sentence is \"My eleven-month-old son could stand by himself for the first time today!\" <retrieved_rule> Use \"months\" instead of \"month\" to indicate a duration of time. <retrieved_rule>": [
+        1.794871794871795,
+        1.205128205128205
+    ],
+    "The grammar error in the sentence \"I want to go to Walt Disney World someday !!!\" is the use of multiple exclamation marks without accompanying words. The revised sentence is \"I want to go to Walt Disney World someday.\" <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"The thing that I want to make in January 2009 is to invest more effort in studying English and keep on writing sentences in English every day here, Lang-8!\" is the use of \"keep on\" instead of \"keep\" to indicate ongoing action. The revised sentence is \"The thing that I want to do in January 2009 is to invest more effort in studying English and keep writing sentences in English every day here, Lang-8!\" <retrieved_rule> Use \"to\" before the base form of the verb to indicate the purpose of an action. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I got a foot masssage today.\" is the misspelling of \"massage\" as \"masssage.\" The revised sentence is \"I got a foot massage today.\" <new_rule> Spelling error: \"massage\" is misspelled. The correct spelling is \"massage.\" <new_rule>": [
+        2.6698717948717947,
+        1.330128205128205
+    ],
+    "The grammar error in the sentence \"Where to do it and when we should leave is not decided yet!\" is the lack of a comma before \"and\" to separate two independent clauses. The revised sentence is \"Where to do it and when we should leave are not decided yet!\" <retrieved_rule> A period should not be used to join two independent clauses without a conjunction. <retrieved_rule>": [
+        1.9589041095890412,
+        1.0410958904109588
+    ],
+    "The grammar errors in the sentence \"When I have a Tex-Mex at lunch, I can't eat anything at night...\" are the unnecessary use of ellipses at the end of the sentence. The revised sentence is \"When I have Tex-Mex at lunch, I can't eat anything at night.\" <retrieved_rule> Ellipses should not be used as standalone sentences. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It was hot today\" is the lack of a determiner before the singular noun \"hot.\" The revised sentence is \"It was a hot day today.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I 'm gon na do it next time !\" is the use of \"gon na\" instead of \"gonna\" to indicate the contraction \"going to.\" The revised sentence is \"I'm gonna do it next time!\" <retrieved_rule> The contraction \"I'm\" should be used instead of \"I 'm\" to indicate \"I am.\" <retrieved_rule>": [
+        1.9516129032258065,
+        1.0483870967741935
+    ],
+    "The grammar error in the sentence \"I woke up earlier than recently today\" is the incorrect use of \"recently\" to indicate a specific time period. The revised sentence is \"I woke up earlier than usual today.\" <retrieved_rule> Use appropriate punctuation marks at the end of a sentence. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"On next Wednesday, the economics seminor softball match will take place\" is the incorrect use of \"seminor\" instead of \"seminar\" and the lack of an article before \"economics.\" The revised sentence is \"On the next Wednesday, the economics seminar softball match will take place.\" <new_rule> Use \"the\" before words starting with a consonant sound. <new_rule> <retrieved_rule> Use \"in\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        1.9565217391304348,
+        1.0434782608695652
+    ],
+    "The grammar error in the sentence \"But two hours later I found I had been sleeping until that time\" is the redundant use of \"later\" and \"until that time.\" The revised sentence is \"But two hours later I found I had been sleeping.\" <new_rule> Avoid using redundant words or phrases in a sentence. <new_rule>": [
+        1.875,
+        1.125
+    ],
+    "The grammar errors in the sentence \"I feel so exhausted but I can not sleep because If I slept then when I wake up, I 'll have to start studying again or going to college.\" are the use of \"If I slept\" instead of \"If I sleep\" to indicate a hypothetical scenario, and the use of \"going to college\" instead of \"go to college\" to indicate a future action. The revised sentence is \"I feel so exhausted but I can't sleep because if I sleep, then when I wake up, I'll have to start studying again or go to college.\" <retrieved_rule> Present tense verb \"feel\" is used to express a current opinion or belief. <retrieved_rule> <retrieved_rule> Use \"if\" after \"even\" to indicate a hypothetical scenario. <retrieved_rule> <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        1.235632183908046,
+        1.764367816091954
+    ],
+    "The grammar error in the sentence \"Election will be done Augst 30\" is the misspelling of \"August\" as \"Augst.\" The revised sentence is \"Election will be done on August 30.\" <retrieved_rule> Spelling error: \"August\" is misspelled. The correct spelling is \"August.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"He became `` the Cinderella boy `` , or the hero , overnight\" is the unnecessary use of double quotation marks around \"the Cinderella boy\" and \"the hero.\" The revised sentence is \"He became the Cinderella boy, or the hero, overnight.\" <retrieved_rule> Use a comma to separate the name when directly addressing someone in a sentence. <retrieved_rule>": [
+        1.9268292682926829,
+        1.0731707317073171
+    ],
+    "The grammar error in the sentence \"So if we lose our employer, we can't have job!\" is the missing article \"a\" before \"job.\" The revised sentence is \"So if we lose our employer, we can't have a job!\" <retrieved_rule> Use an article (a, an, the) before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"It seems that I should teach my students at 8 : 00 pm tonight\" is the incorrect use of a colon instead of a period to separate the time. The revised sentence is \"It seems that I should teach my students at 8:00 pm tonight.\" <retrieved_rule> Use appropriate punctuation marks at the end of a sentence. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I will show a soccer at midnight\" is the incorrect use of \"a\" before \"soccer.\" The revised sentence is \"I will show soccer at midnight.\" <retrieved_rule> Indefinite article rule: Use \"a\" before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.7666666666666666,
+        1.2333333333333334
+    ],
+    "The grammar error in the sentence \"Today I woke up 7 . 30a\" is the lack of a preposition before the time expression \"7 . 30a.\" The revised sentence is \"Today I woke up at 7:30 a.m.\" <retrieved_rule> Use \"in\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"And I 'm eating a banana every day for my health\" is the unnecessary use of \"And\" at the beginning of the sentence. The revised sentence is \"I'm eating a banana every day for my health.\" <retrieved_rule> Use appropriate punctuation marks at the end of a sentence. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I 'm eagerly waiting for Sommer come.\" is the incorrect use of \"come\" after \"Sommer.\" The revised sentence is \"I'm eagerly waiting for Sommer to come.\" <retrieved_rule> The infinitive form \"to come\" should be used instead of \"come\" to indicate the base form of the verb. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"Today is nothing specal to write ! !\" are the use of \"nothing\" as a standalone noun and the use of exclamation marks without accompanying words. The revised sentence is \"Today is nothing special to write about.\" <retrieved_rule> \"Something\" should not be used as a standalone noun. <retrieved_rule> <retrieved_rule> Exclamation marks should not be used without accompanying words. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Since few customers come there, he has nothing to do for a long time\" is the use of \"few\" without \"than\" to make a comparison. The revised sentence is \"Since fewer customers come there, he has nothing to do for a long time.\" <retrieved_rule> Comparative adjectives do not need \"many\" before them. \"Than\" should be followed by a subject and a verb, not just a pronoun. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"On Saturday we went to a club after drinking\" is the lack of a specific verb after \"drinking,\" making it an incomplete sentence. The revised sentence is \"On Saturday we went to a club after drinking cocktails.\" <retrieved_rule> Use \"on\" before the time period (e.g. day, night, etc.) <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"I wonder I will be able to stay up tomorrow.\" is the lack of a determiner before the singular noun \"tomorrow.\" The revised sentence is \"I wonder if I will be able to stay up tomorrow.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar errors in the sentence \"After each team submits its proposal, there's a week for the people to vote their favorite on the web\" are: 1. The misspelling of \"faouvorite\" which should be \"favorite.\" 2. The missing comma after the introductory phrase \"After each team submits its proposal.\" Revised sentence: \"After each team submits its proposal, there's a week for the people to vote for their favorite on the web.\" <retrieved_rule> Spelling error: \"faouvorite\" is misspelled. The correct spelling is \"favorite.\" <retrieved_rule> <retrieved_rule> Use a comma after introductory phrases or adverbs. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the original sentence is the use of \"got sleep\" instead of \"fell asleep.\" The revised sentence is \"My son fell asleep at long last.\" <retrieved_rule> Age and time expressions can be used to indicate the past tense in English. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The grammar error in the sentence \"Now the only task is to finish my thesis\" is the lack of a determiner before \"only task.\" The revised sentence is: \"Now the only task is to finish my thesis.\" <retrieved_rule> In English, a determiner is typically used before a singular noun to specify which one is being referred to. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

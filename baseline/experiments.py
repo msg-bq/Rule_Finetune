@@ -26,11 +26,11 @@ parser.add_argument("--dataset", type=str, default="LANG_8",
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-parser.add_argument("--prompt_type", type=str, default="zero-shot",
+parser.add_argument("--prompt_type", type=str, default="CoT_rule",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
-parser.add_argument("--sample_strategy", type=str, default="confidence_500", #"confidence_num"
+parser.add_argument("--sample_strategy", type=str, default="confidence_1800", #"confidence_num"
                     help="sample rule strategy used for experiment")
 
 parser.add_argument("--rule_base_path", type=str, default="../experiment/rule_base_final",
@@ -55,7 +55,7 @@ ExtraNameSpace.NameSpace._args = args
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
 rule_base = DisjointSetRuleBase()
-args.rule_base_path = '../experiment/LANG_8/version_0/rule_base_epoch2'
+args.rule_base_path = '../experiment/LANG_8/version_2/rule_base_epoch4'
 rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"
@@ -121,8 +121,8 @@ def eval_step(args, example: Example):
             for idx, rn in enumerate(sampled_rules)])
 
         if args.prompt_type == "CoT_rule":
-            prompt = dataset_prompt[args.dataset]['rule_instruction'] + added_rules + dataset_prompt[args.dataset]['CoT_rule'] + \
-                     example.question + "\nAnswer:"
+            prompt = dataset_prompt[args.dataset]['rule_instruction'] + added_rules + \
+                     example.question + "\nAnswer:"  #+ dataset_prompt[args.dataset]['CoT_rule'] + \
 
         elif args.prompt_type == "CoT_HtT":
             prompt = dataset_prompt[args.dataset]['rule_instruction_HtT'] + '\n' + dataset_prompt[args.dataset]['CoT_HtT'] + \
@@ -140,8 +140,8 @@ def eval_step(args, example: Example):
     # except:
     #     score = 0
     score = 0
-    print(rationale, prediction, example.gold_label, score)
-    return rationale, prediction, example.gold_label, score
+    print(rationale, prediction, example, score, )
+    return rationale, prediction, example, score
 
 correct_cnt = 0
 scores = []
@@ -156,10 +156,22 @@ elif args.dataset_type == "test":
 with ThreadPoolExecutor(max_workers=200) as executor:
     futures = [executor.submit(eval_step, args, example) for example in final_dataset]
     for future in futures:
-        rationale, prediction, gold_label, score = future.result()
-        prediction = prediction.strip().replace(' ', '') # 因为LANG_8加的
-        gold_label = gold_label.strip().replace(' ', '')
-        if prediction.lower() == gold_label.lower() or prediction == "GOLD_LABEL":
+        rationale, prediction, example, score = future.result()
+        gold_label = example.gold_label
+        if args.dataset == "LANG_8":
+            prediction = prediction.strip().replace(' ', '')
+            gold_label = gold_label.strip().replace(' ', '')
+            if prediction == "GOLD_LABEL":
+                pattern = "Sentence: (.*)\nQuestion: What's the grammar errors and revised sentence of above sentence?"
+                prediction = re.match(pattern, rationale).group(1).strip().replace(' ', '')
+
+        if prediction.lower() == gold_label.lower():
+            print("====================")
+            print("这个样例做对了")
+            print("rationale:", rationale)
+            print("prediction:", prediction)
+            print("gold_label:", gold_label)
+
             correct_cnt += 1
 
         with open(save_path, 'a', encoding="utf8") as f:

@@ -220,7 +220,8 @@ def demo_cluster(args, dataset: DatasetLoader):
                 continue
 
             sign = False
-            rule_tag = ['<Begin>', '<End>', '<rule>', '<retrieved_rule>', '<new_rule>']
+            rule_tag = ['<Begin>', '<End>', '<rule>', '<retrieved_rule>', '<new_rule>', 'we have', 'we have',
+            'we retrieve']
             for tag in rule_tag:
                 if tag in c_rationale:
                     sign = True

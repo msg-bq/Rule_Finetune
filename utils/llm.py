@@ -10,6 +10,9 @@ generate_func_mapping = {"davinci": call_openai,
                          "gpt-3.5-turbo-1106": call_openai}
 
 
+def call_openchat(input_text: str):
+    return response
+
 class LLM:
     def __init__(self, generate_func: Optional[callable] = None, max_workers: int = 5):
         self.generate_func = generate_func

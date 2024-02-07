@@ -135,7 +135,7 @@ class Trainer:
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
 
-            with ThreadPoolExecutor(max_workers=4) as executor:
+            with ThreadPoolExecutor(max_workers=1) as executor:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 

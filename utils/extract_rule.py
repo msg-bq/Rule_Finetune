@@ -1,6 +1,7 @@
 import re
 from typing import Union, Set, List
 
+from utils.prompt_method import remove_HtT_rule_prefix_suffix
 from utils.ExtraNameSpace import ColdStartRuleExtractionNameSpace
 
 
@@ -80,6 +81,7 @@ def extract_rules_training(self) -> List[str]:
     total_rules += [r.strip() for r in rule_pattern1.findall(self.rationale)]
     total_rules += [r.strip() for r in rule_pattern2.findall(self.rationale)]
 
+    total_rules = [remove_HtT_rule_prefix_suffix(r) for r in total_rules]
     self.rules = self.rules.union(set(total_rules))
 
     return total_rules

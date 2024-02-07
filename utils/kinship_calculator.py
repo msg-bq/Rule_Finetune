@@ -580,7 +580,7 @@ def kinship_calculate(input_text):
                                    'daughter': (-1, 'f')}
     relation_spouse_func_map = {'husband': ('m'),
                                 'wife': ('f'),
-                                'spouse': ('')}
+                                'spouse': (' ')}
 
     for i in range(len(inputArray)):  # note we are skipping last array element
         clean_answer = myanswer.replace("(non-blood relative)", "").replace("(blood relative)", "").strip()
