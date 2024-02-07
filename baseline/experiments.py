@@ -26,7 +26,7 @@ parser.add_argument("--dataset", type=str, default="LANG_8",
 parser.add_argument("--data_dir", type=str, default=None,
                         help="data dir used for experiment")
 
-parser.add_argument("--prompt_type", type=str, default="CoT_rule",
+parser.add_argument("--prompt_type", type=str, default="zero-shot",
                         choices=["zero-shot", "CoT", "CoT_rule", "CoT_HtT"],
                         help="prompt type used for experiment")
 
@@ -58,7 +58,7 @@ rule_base = DisjointSetRuleBase()
 args.rule_base_path = '../experiment/LANG_8/version_2/rule_base_epoch4'
 rule_base.read_rules(args.rule_base_path)
 
-dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}"
+dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}/{args.dataset_type}"
 if not os.path.exists(dir_path):
     os.makedirs(dir_path)
 
@@ -147,7 +147,7 @@ correct_cnt = 0
 scores = []
 
 if args.dataset_type == "train":
-    final_dataset = train_dataset
+    final_dataset = train_dataset[:200]
 elif args.dataset_type == "valid":
     final_dataset = valid_dataset
 elif args.dataset_type == "test":
@@ -163,7 +163,7 @@ with ThreadPoolExecutor(max_workers=200) as executor:
             gold_label = gold_label.strip().replace(' ', '')
             if prediction == "GOLD_LABEL":
                 pattern = "Sentence: (.*)\nQuestion: What's the grammar errors and revised sentence of above sentence?"
-                prediction = re.match(pattern, rationale).group(1).strip().replace(' ', '')
+                prediction = re.match(pattern, rationale['rationale']).group(1).strip().replace(' ', '')
 
         if prediction.lower() == gold_label.lower():
             print("====================")

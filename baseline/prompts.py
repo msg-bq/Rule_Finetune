@@ -1,7 +1,6 @@
 rule_instruction = '''Instruction: Following are several existed rules in knowledge base. When you answer the questions, ''' \
           '''try to use the provided rules whenever possible. ''' \
-          '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
-          '''establish your own rules.\n''' \
+          '''Try not to invent knowledge by yourself unless necessary.'''\
             '''Knowledge base (involved rules):\n'''
 
 rule_instruction_HtT = """Instruction: When you answer the questions, try to use the provided knowledge whenever possible. Try

@@ -6,6 +6,7 @@ from typing import List, Dict, Union, Tuple
 
 import numpy as np
 
+from utils import prompt_method
 from utils.ExtraNameSpace import ScoreNameSpace, PromptMethodNameSpace
 # import torch
 
@@ -399,7 +400,7 @@ def prompt_rules(args, rules: List[Rule]) -> str:
     out += 'Knowledge base:\n'
     out += '\n'.join([
         # str(idx+1)+':\t'+rn.content
-        rn.content
+        prompt_method.add_HtT_rule_prefix_suffix(rn.content)
         for idx, rn in enumerate(rules)])
 
     out += '\n\n'

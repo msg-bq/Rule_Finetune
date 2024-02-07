@@ -4,7 +4,7 @@ from typing import Tuple
 
 from utils.ExtraNameSpace import PromptMethodNameSpace
 
-def add_HtT_rule_prefix_suffix(htt_rule: str, prefix: bool, suffix: bool):
+def add_HtT_rule_prefix_suffix(htt_rule: str, prefix: bool = True, suffix: bool = True):
     """
     A's B is C -> <A><B>A's B is C</B></A>
     """
@@ -79,13 +79,15 @@ def prompt_demos(args, demos: str, added_rules: str) -> Tuple[str, str]:
 
     if cnt < 5:  # 这个阈值可以考虑随epoch增大
         chosen_rules = random.sample(rules, min(len(rules), 5 - cnt))
-        added_rules = added_rules.strip() + "\n" + "\n".join(chosen_rules) + "\n\n"
+        added_rules = added_rules.strip() + "\n" + "\n".join([add_HtT_rule_prefix_suffix(r) for r in chosen_rules]) + "\n\n"
 
     for rule in rules:  # rationale(旧)， sampled_rules(新)。 retrieve和new要变的
         if rule.strip() in added_rules:
-            demos = demos.replace(f"we have{rule}", f"we retrieve {add_HtT_rule_prefix_suffix(rule, prefix=True, suffix=True)}")
+            demos = demos.replace(f"we have{rule}", f"we retrieve {add_HtT_rule_prefix_suffix(rule)}")
+            demos = demos.replace(f"we retrieve{rule}", f"we retrieve {add_HtT_rule_prefix_suffix(rule)}")
         else:
-            demos = demos.replace(f"we retrieve{rule}", f"we have {add_HtT_rule_prefix_suffix(rule, prefix=True, suffix=True)}")
+            demos = demos.replace(f"we retrieve{rule}", f"we have {add_HtT_rule_prefix_suffix(rule)}")
+            demos = demos.replace(f"we have{rule}", f"we have {add_HtT_rule_prefix_suffix(rule)}")
 
     out = ''
     out += demos
