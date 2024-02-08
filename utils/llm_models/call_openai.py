@@ -7,7 +7,7 @@ import openai
 import tiktoken
 
 openai.api_base = "https://api.chatanywhere.com.cn/v1"
-key_list = ["sk-z3z3xHLy1H8zfVl7TPz8pFuWbGayeINXJ9alEvp5fQ7O0FVO"]
+key_list = ["sk-0LsJe3iHrbu4HNOK01R7bDBloOlKdtHB92j8BuhS5uzrkM95"]
 key_choose = 0
 
 encoding = tiktoken.get_encoding("cl100k_base")
@@ -41,7 +41,7 @@ def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-1106", i
     if 'topN' in kwargs:
         kwargs['n'] = kwargs.pop('topN')
 
-    max_supported_tokens = 6000 if model.startswith("gpt-4") else 3000 # ≈3:4
+    max_supported_tokens = 6000 if model.startswith("gpt-4") else 12000 # ≈3:4
 
     if isinstance(input_text, str):
         prompt = [{"role": "user", "content": " ".join(input_text.split(' ')[:max_supported_tokens])}]

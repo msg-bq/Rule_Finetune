@@ -107,7 +107,7 @@ class ThompsonSampling(DemoBaseMAB):
         self._b = np.append(self._b, 1)
 
     def forward_step(self, topk: int = 5) -> List[int]:
-        # min_length = min(len(self._a), len(self._b), len(self.bandit.probs))
+        # min_length = min(len(self._a), len(self._b))
         used_a = self._a#[:min_length]
         used_b = self._b#[:min_length]
         samples = np.random.beta(used_a, used_b)  # 按照Beta分布采样一组奖励样本
@@ -400,7 +400,7 @@ def prompt_rules(args, rules: List[Rule]) -> str:
     out += 'Knowledge base:\n'
     out += '\n'.join([
         # str(idx+1)+':\t'+rn.content
-        prompt_method.add_HtT_rule_prefix_suffix(rn.content)
+        rn.content
         for idx, rn in enumerate(rules)])
 
     out += '\n\n'

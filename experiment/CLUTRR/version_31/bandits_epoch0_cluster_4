@@ -1,0 +1,798 @@
+{
+    "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" means that Dan is the son of someone in the path from Gabrielle to Dan. Since \"son\" is repeated, it means that Dan is the son of the son of Gabrielle, which makes Dan Gabrielle's grandson. Answer: Dan is Gabrielle's grandson. <Begin>The relation \"son\" means that Dan is the son of someone in the path from Gabrielle to Dan.</End>": [
+        29.0,
+        1.0
+    ],
+    "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s son, we have son’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" means that Jose is the son of Gabrielle. Since the relation \"son\" is repeated, it means that Jose is the son of Gabrielle's son. Therefore, Jose is Gabrielle's grandson. Answer: Jose is Gabrielle's grandson. <Begin> In general, the relation \"son\" indicates a parent-child relationship. </End>": [
+        17.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" indicates that Michael is the son of someone. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Michael's mother. <Begin> In general, the relation \"son\" indicates that Michael is the son of someone, and the relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. </End>": [
+        50.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" means that Dan is married to Gabrielle. 2. The relation \"grandson\" means that Dan is the son of Gabrielle's child. Answer: Dan is Gabrielle's grandson. <Begin> In general, husband is a relation between a man and a woman who are married. Grandson is a relation between a man and a woman where the man is the son of the woman's child. </End>": [
+        19.0,
+        1.0
+    ],
+    "Rationale: - Angela is the granddaughter of Gabrielle. - The granddaughter is the child of Gabrielle's child. Answer: Angela is Gabrielle's granddaughter. <Begin>Granddaughter is the child of Gabrielle's child</End>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. Since the relations are repeated, it indicates a generational relationship. Answer: Michelle is Gabrielle's granddaughter. <Begin> In general, the relation \"daughter\" indicates a parent-child relationship. </End>": [
+        14.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"granddaughter\" implies a generational relationship. Answer: Lucille is Gabrielle's granddaughter. <Begin> In general, a granddaughter is the child of one's son or daughter. </End>": [
+        10.0,
+        1.0
+    ],
+    "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Christopher is Gabrielle's son's brother, so he is Gabrielle's son as well. Answer: Christopher is Gabrielle's son. <Begin> In general, the brother of someone's son is also their son. </End>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" means that Gabrielle is the daughter of someone on the path from James to Gabrielle. - The relation \"grandmother\" means that Gabrielle is the grandmother of someone on the path from James to Gabrielle. Answer: Gabrielle is James's mother. <Begin> In a parent-child relationship, the child is the daughter/son of the parent. </End> <Begin> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. </End>": [
+        23.0,
+        1.0
+    ],
+    "Rationale: - Aida is on the path from Gabrielle, so Aida is a descendant of Gabrielle. - The relation \"daughter\" indicates that Aida is a daughter of someone in between Gabrielle and Aida. Answer: Aida is Gabrielle's granddaughter. <Begin> In general, the relation \"daughter\" indicates a parent-child relationship. </End>": [
+        58.0,
+        1.0
+    ],
+    "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that Gabrielle is Jose's sister. 2. The relation \"grandmother\" indicates that Gabrielle is also Jose's grandmother. Answer: Gabrielle is Jose's grandmother. <Begin> In general, the relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. </End>": [
+        19.0,
+        1.0
+    ],
+    "Rationale: 1. A granddaughter is the child of one's son or daughter. 2. A brother is a male sibling. 3. Based on the given relations, Donald is connected to Gabrielle through the granddaughter and brother relationship. Answer: Donald is Gabrielle's grandson. <Begin>Rule: A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson.</End>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For brother’s grandmother, we have brother’s grandmother is grandmother. Therefore, the answer is grandmother.": [
+        18.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"mother\" implies that Gabrielle is a female. 2. The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. Answer: Gabrielle is Joe's maternal grandmother. <Begin>The relation \"mother\" implies that Gabrielle is a female.</End> <Begin>The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother.</End>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "First, we need to understand the relation \"son\" in this context. In general, a son is a male child in relation to their parents. So, if we apply this rule, we can infer that Donald is Gabrielle's grandson. <Begin>In general, the relation \"son\" indicates a child-parent relationship.</End> Therefore, the answer is Donald is Gabrielle's grandson.": [
+        21.0,
+        1.0
+    ],
+    "Answer: For father’s mother, we have father’s mother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's mother, we have mother's mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.": [
+        20.0,
+        1.0
+    ],
+    "Answer: For mother's mother, we have mother's mother is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s grandmother, we have sister’s grandmother is also grandmother. Therefore, the answer is grandmother.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: - According to the given context, the relation between Guillermina and Gabrielle is sister and grandmother. - <Begin> In general, a grandmother is a parent's mother, and a sister is a female sibling. </End> - Based on the given relations, Gabrielle is Guillermina's granddaughter. Answer: Gabrielle is Guillermina's granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s grandmother, we have sister’s grandmother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        7.0,
+        1.0
+    ],
+    "Answer: For husband's grandson, we have husband's grandson is grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" implies a parent-child relationship. Since the path from Gabrielle to Russell consists of two \"son\" relations, it means that Russell is the son of Gabrielle's son, making Russell Gabrielle's grandson. <Begin>The rule is that \"son\" relation implies a parent-child relationship.</End> Answer: Russell is Gabrielle's grandson.": [
+        26.0,
+        1.0
+    ],
+    "Rationale: - The relation \"husband\" implies a marital relationship. - The relation \"granddaughter\" implies a generational relationship. Answer: Asia is Gabrielle's granddaughter. <Begin>The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship.</End>": [
+        14.0,
+        1.0
+    ],
+    "Answer: For mother’s mother, we have mother’s mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandmother, we have son's grandmother is mother. Therefore, the answer is Gabrielle is Lisa's mother.": [
+        13.0,
+        1.0
+    ],
+    "Answer: For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        5.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" means that Christopher is the child of Gabrielle. 2. The relation \"grandmother\" means that Gabrielle is the grandmother of someone. Answer: Gabrielle is Christopher's mother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Answer: For son's brother, we have son's brother is son. So the relations are reduced to son. Therefore, the answer is son.": [
+        8.0,
+        1.0
+    ],
+    "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        3.0,
+        1.0
+    ],
+    "Answer: Gabrielle is Vincent's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" implies a parent-child relationship. Since the path from Gabrielle to Donald consists of two \"son\" relations, it means that Donald is the son of Gabrielle's son, making Donald Gabrielle's grandson. <retrieved_rule> The rule is that \"son\" relation implies a parent-child relationship. <retrieved_rule> Answer: Donald is Gabrielle's grandson.": [
+        6.0,
+        1.0
+    ],
+    "Answer: For daughter’s grandmother, we have daughter’s grandmother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        6.0,
+        1.0
+    ],
+    "Answer: For brother’s grandmother, we have brother’s grandmother is also grandmother. Therefore, the answer is grandmother.": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" indicates a parent-child relationship, and the relation \"daughter\" also indicates a parent-child relationship. Therefore, based on the path from Gabrielle to Jennifer, Jennifer is Gabrielle's granddaughter. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. The relation \"daughter\" also indicates a parent-child relationship. <retrieved_rule> Answer: Jennifer is Gabrielle's granddaughter.": [
+        9.0,
+        1.0
+    ],
+    "Answer: For husband's granddaughter, we have husband's granddaughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"mother\" indicates that Gabrielle is Joe's grandmother. Answer: Gabrielle is Joe's grandmother. <retrieved_rule> In general, the relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For father's mother, we have father's mother is grandmother. Therefore, the answer is grandmother.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" means that Dan is the son of Gabrielle. Since the relation \"son\" is repeated, it means that Dan is the son of Gabrielle's son. Therefore, Dan is Gabrielle's grandson. Answer: Dan is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Answer: For brother's grandmother, we have brother's grandmother is also grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's grandson, we have husband's grandson is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" indicates that Donald and Gabrielle share the same parents. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone who is related to Donald. Therefore, Gabrielle is Donald's grandmother. Answer: Gabrielle is Donald's grandmother. <retrieved_rule> The relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter’s sister, we have granddaughter’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"granddaughter\" means that Donald is the grandchild of Gabrielle. - The relation \"brother\" indicates that Donald is the male sibling of someone. Answer: Donald is Gabrielle's grandson. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: - Dan is Gabrielle's grandson's brother, so he is Gabrielle's grandson as well. Answer: Dan is Gabrielle's grandson. <retrieved_rule> In general, the brother of someone's son is also their son. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For husband’s granddaughter, we have husband’s granddaughter is also granddaughter. Therefore, the answer is granddaughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"daughter\" indicates a parent-child relationship. Answer: Myrna is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" implies a parent-child relationship. Since the path from Gabrielle to Christopher consists of \"husband\" and \"son\" relations, it means that Christopher is the son of Gabrielle's husband, making Christopher Gabrielle's son. <retrieved_rule> The relation \"son\" indicates a child-parent relationship. <retrieved_rule> Answer: Christopher is Gabrielle's son.": [
+        4.0,
+        1.0
+    ],
+    "Answer: Theresa is Gabrielle's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The relation \"granddaughter\" indicates a generational relationship, and the relation \"brother\" implies a shared parent. So, if we apply these rules, we can infer that Dan is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. <retrieved_rule> Therefore, the answer is Dan is Gabrielle's grandson.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" indicates that Aida is the grandson of someone on the path from Gabrielle to Aida. 2. The relation \"sister\" indicates that Aida is the sister of someone on the path from Gabrielle to Aida. Answer: Aida is Gabrielle's granddaughter. <retrieved_rule> In general, a granddaughter is the child of someone's child. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The relation \"husband\" means that Alfred is married to Gabrielle. The relation \"grandson\" means that Alfred is the son of Gabrielle's child. Answer: Alfred is Gabrielle's grandson. <retrieved_rule> In general, husband is a relation between a man and a woman who are married. Grandson is a relation between a man and a woman where the man is the son of the woman's child. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that two individuals share the same parents. 2. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. Based on the given relations, Gabrielle is connected to Alfred through the sister and grandmother relationship. Answer: Gabrielle is Alfred's grandmother. <retrieved_rule> The relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is also mother. Therefore, the answer is mother.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: 1. A grandson is the son of one's child. 2. A sister is a female sibling. 3. Based on the given relations, Annette is connected to Gabrielle through the grandson and sister relationship. Answer: Annette is Gabrielle's granddaughter. <retrieved_rule> Rule: A grandson's sister is her sibling, so Annette is Gabrielle's granddaughter. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Answer: For sister’s grandmother, we have sister’s grandmother is also grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"son\" means that Dorothy is the son of someone in the path from Gabrielle to Dorothy. - The relation \"wife\" implies a marital relationship. Answer: Dorothy is Gabrielle's daughter-in-law. <retrieved_rule> The relation \"son\" means that Dorothy is the son of someone in the path from Gabrielle to Dorothy. The relation \"wife\" implies a marital relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"father\" indicates a parent-child relationship. 2. The relation \"mother\" also indicates a parent-child relationship. Therefore, based on the path from Marci to Gabrielle, Gabrielle is Marci's grandmother. <retrieved_rule> The relation \"father\" indicates a parent-child relationship. The relation \"mother\" also indicates a parent-child relationship. <retrieved_rule> Answer: Gabrielle is Marci's grandmother.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - Alfred is on the path from Gabrielle, so Alfred is a descendant of Gabrielle. - The relation \"son\" indicates that Alfred is a son of someone in between Gabrielle and Alfred. Answer: Alfred is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: The relation \"husband\" implies a marital relationship, and the relation \"son\" indicates a parent-child relationship. Since the path from Gabrielle to Dwight consists of a \"husband\" and \"son\" relation, it means that Dwight is Gabrielle's son. Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Answer: For grandson’s brother, we have grandson’s brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For mother’s mother, we have mother’s mother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"grandson\" indicates that Scott is the grandson of someone. Answer: Scott is Gabrielle's grandson. <retrieved_rule> In general, the relation \"husband\" is a relation between a man and a woman who are married. Grandson is a relation between a man and a woman where the man is the son of the woman's child. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: Rationale: The relation \"husband\" implies a marital relationship. The relation \"daughter\" indicates a parent-child relationship. Since the relation \"daughter\" is repeated, it indicates that Lisa is the daughter of Gabrielle. Answer: Lisa is Gabrielle's daughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" means that Gabrielle is the daughter of someone on the path from Michael to Gabrielle. - The relation \"grandmother\" means that Gabrielle is the grandmother of someone on the path from Michael to Gabrielle. Answer: Gabrielle is Michael's mother. <retrieved_rule> In a parent-child relationship, the child is the daughter/son of the parent. <retrieved_rule> <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Anna is on the path from Gabrielle, so Anna is a descendant of Gabrielle. - The relation \"daughter\" indicates that Anna is a daughter of someone in between Gabrielle and Anna. Answer: Anna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The relation \"mother\" implies a parent-child relationship. Since the relation \"mother\" is repeated, it means that Gabrielle is the mother of Donna's mother. Therefore, Gabrielle is Donna's grandmother. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. The relation \"granddaughter\" implies a generational relationship, indicating that Michele is a generation below Gabrielle.\n2. The repeated relation \"sister\" indicates that the two individuals are siblings, meaning that Gabrielle and Michele share the same parents.\n\nAnswer: Michele is Gabrielle's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The relation \"husband\" implies a marital relationship, so Theresa is the spouse of someone in the path from Gabrielle to Theresa. The relation \"granddaughter\" implies a generational relationship, so Theresa is a granddaughter of someone in the path from Gabrielle to Theresa. Answer: Theresa is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's grandmother, we have brother's grandmother is also grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" means that Myrna is the son of someone in the path from Myrna to Gabrielle. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Myrna's mother. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" indicates a generational relationship. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates a sibling relationship, and the relation \"grandmother\" indicates a generational relationship. Therefore, based on these relations, Gabrielle is Michael's grandmother. <retrieved_rule> The relation \"brother\" indicates that two individuals share the same parents. The relation \"grandmother\" implies a generational relationship. <retrieved_rule> Answer: Gabrielle is Michael's grandmother.": [
+        5.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"daughter\" indicates that Lisa is the daughter of someone. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Lisa's mother. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship, and the relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. The repeated relation \"sister\" indicates that the two individuals are siblings. Answer: Lisa is Gabrielle's daughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For husband’s granddaughter, we have husband’s granddaughter is son’s daughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" means that Kevin is the son of someone in the path from Gabrielle to Kevin. Since the relation \"son\" is repeated, it means that Kevin is the son of Gabrielle's son. Therefore, Kevin is Gabrielle's grandson. Answer: Kevin is Gabrielle's grandson. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that Vanessa is Gabrielle's sister. 2. The relation \"grandmother\" indicates that Gabrielle is also Vanessa's grandmother. Answer: Gabrielle is Vanessa's grandmother. <retrieved_rule> In general, the relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - The relation \"grandson\" means that Theresa is the grandchild of Gabrielle. - The relation \"sister\" indicates that Theresa is the female sibling of someone. Answer: Theresa is Gabrielle's granddaughter. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter’s brother, we have granddaughter’s brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"husband\" implies a marital relationship. - The relation \"granddaughter\" implies a generational relationship. - Since there is no direct relation between Gabrielle and Deborah, it can be inferred that Deborah is the granddaughter of someone who is married to Gabrielle. Answer: Deborah is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Rationale: 1. A granddaughter is the daughter of one's child. 2. A sister is a female sibling. 3. Based on the given relations, Sheila is connected to Gabrielle through the granddaughter and sister relationship. Answer: Sheila is Gabrielle's granddaughter. <retrieved_rule> Rule: A granddaughter's sister is her sibling, so Sheila is Gabrielle's granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For wife’s mother, we have wife’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.": [
+        3.0,
+        1.0
+    ],
+    "Answer: The relation \"daughter\" implies a parent-child relationship, and the relation \"husband\" implies a marital relationship. Since the path from Gabrielle to James consists of a \"daughter\" and \"husband\" relation, it means that James is Gabrielle's son-in-law. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"wife\" implies a marital relationship. The relation \"daughter\" implies a parent-child relationship. Since Dorothy is the daughter of someone in the path from Gabrielle to Dorothy, and the relation \"wife\" implies a marital relationship, Dorothy is Gabrielle's daughter. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"daughter\" implies a parent-child relationship. - The relation \"son\" indicates a child-parent relationship. - Since there is no direct relation between Gabrielle and Alfred, it can be inferred that Alfred is the son of someone who is the daughter of Gabrielle. Answer: Alfred is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a child-parent relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. Therefore, based on the path from Gabrielle to Annette, Annette is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. The relation \"son\" means that James is the son of someone in the path from Gabrielle to James.\n2. The relation \"brother\" indicates that James is also the brother of someone in the path from Gabrielle to James.\n\nAnswer: James is Gabrielle's son. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. The relation \"brother\" indicates that two individuals share the same parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates that Michael is Gabrielle's brother. 2. The relation \"mother\" indicates that Gabrielle is also Michael's mother. Answer: Gabrielle is Michael's mother. <retrieved_rule> In a family tree, a person's mother is one generation above them. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" indicates a sibling relationship, and the relation \"grandmother\" indicates a generational relationship. Therefore, based on these relations, Gabrielle is Annette's grandmother. <retrieved_rule> The relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" implies a generational relationship. <retrieved_rule> Answer: Gabrielle is Annette's grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that Vincent is the child of Gabrielle's son or daughter. 2. The relation \"brother\" means that Vincent is the male sibling of someone. Answer: Vincent is Gabrielle's grandson. <retrieved_rule> A granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"grandson\" implies a generational relationship, and the repeated relation \"sister\" indicates that the two individuals are siblings. Therefore, Michelle is Gabrielle's granddaughter. <retrieved_rule> The relation \"grandson\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Asia is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's mother, we have sister's mother is mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. A granddaughter is the daughter of one's child. 2. A brother is a male sibling. 3. Based on the given relations, Russell is connected to Gabrielle through the granddaughter and brother relationship. Answer: Russell is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" means that Asia is the son of Gabrielle's child. 2. The relation \"sister\" indicates that Asia is the sibling of Gabrielle's grandchild. Answer: Asia is Gabrielle's granddaughter. <retrieved_rule> The relation \"grandson\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" means that Jose is married to Gabrielle. 2. The relation \"grandson\" means that Jose is the son of Gabrielle's child. Answer: Jose is Gabrielle's grandson. <new_rule> In general, husband is a relation between a man and a woman who are married. Grandson is a relation between a man and a woman where the man is the son of the woman's child. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's mother, we have father's mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates a sibling relationship, and the relation \"grandmother\" implies a generational relationship. Therefore, Gabrielle is Michele's grandmother. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Answer: For granddaughter's brother, we have granddaughter's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother’s mother, we have mother’s mother is grandmother. Therefore, the answer is grandmother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. In a family tree, a person's mother is one generation above them. 2. In a family tree, a grandfather is the father of a person's parent. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. Therefore, Marci is Gabrielle's granddaughter. Answer: Marci is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: 1. A grandson is the son of one's child. 2. A brother is a male sibling. 3. Based on the given relations, Joe is connected to Gabrielle through the grandson and brother relationship. Answer: Joe is Gabrielle's grandson. <retrieved_rule> According to the given relations, Joe is Lisa's son. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"husband\" implies a marital relationship. - The relation \"grandson\" implies a generational relationship. Answer: Joe is Gabrielle's grandson. <retrieved_rule> The relation \"husband\" implies a marital relationship. The relation \"grandson\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" implies that two individuals share the same parents. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Since Aida is on the path from Gabrielle, it means that Gabrielle is Aida's grandmother. <retrieved_rule> The relation \"sister\" implies that two individuals share the same parents. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates a sibling relationship, and the relation \"grandmother\" implies a generational relationship. Therefore, Gabrielle is Deborah's grandmother. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Answer: For father’s mother, we have father’s mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson. 2. The relation \"brother\" implies a shared parent. Therefore, based on the path from Gabrielle to Joe, Joe is Gabrielle's grandson. <retrieved_rule> A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson. The relation \"brother\" implies a shared parent. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's mother, we have mother's mother is grandmother. Therefore, the answer is Gabrielle is Sheila's grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" indicates that Micheal is the grandson of someone. 2. The relation \"brother\" indicates that two individuals are siblings. Answer: Micheal is Gabrielle's grandson. <retrieved_rule> In general, a grandson is the son of one's child. According to the sibling relationship rule, if two people are siblings, they are brother and sister. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" implies a generational relationship. 2. The relation \"brother\" implies a shared parent. Answer: Jeffrey is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The relation \"brother\" implies a shared parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" means that Alma is the child of Gabrielle. 2. The relation \"sister\" means that Alma is the sibling of someone. Answer: Alma is Gabrielle's daughter. <retrieved_rule> In a parent-child relationship, the child is the daughter/son of the parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"sister\" indicates that Robert and Gabrielle share the same parents. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Robert's grandmother. <retrieved_rule> In general, the relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n- Gabrielle is on the path from Vanessa, so Gabrielle is an ancestor of Vanessa. \n- The relation \"brother\" indicates that Vanessa shares the same parents as someone who is the granddaughter of Gabrielle. \n- The relation \"grandmother\" implies a generational relationship. \n- Based on the sibling relationship rule, if two people are siblings, they are brother and sister. \n- Therefore, the answer is Gabrielle is Vanessa's grandmother. <retrieved_rule> According to the sibling relationship rule, if two people are siblings, they are brother and sister. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Gabrielle is Russell's grandmother. <retrieved_rule> The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's grandmother, we have sister's grandmother is also grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: 1. A daughter is the female child of a parent. 2. A brother is a male sibling. 3. Based on the given relations, Dwight is connected to Gabrielle through the daughter and brother relationship. Answer: Dwight is Gabrielle's son. <retrieved_rule> The relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"grandfather\" indicates that the person is the grandfather of the person in between. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"granddaughter\" indicates that Donna is the granddaughter of someone. Answer: Donna is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"husband\" is a relation between a man and a woman who are married. Granddaughter is a relation between a woman and a man where the woman is the daughter of the man's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" implies a shared parent, so William and Gabrielle share the same parent. The relation \"grandmother\" means that Gabrielle is the grandmother of someone on the path from William to Gabrielle. Therefore, Gabrielle is William's grandmother. Answer: Gabrielle is William's grandmother. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" indicates that Chad is the son of someone. 2. The repeated relation \"son\" means that Chad is the son of someone in the path from Gabrielle to Chad. Answer: Chad is Gabrielle's grandson. <retrieved_rule> The relation \"son\" indicates that Chad is the son of someone, and the relation \"grandson\" indicates that one individual is the son of another individual's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"son\" means that James is the son of someone in the path from Jason to James. - The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. Answer: Gabrielle is James's mother. <retrieved_rule> The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s sister, we have daughter’s sister is also daughter. Therefore, the answer is daughter.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" indicates a generational relationship. 2. The relation \"brother\" implies a shared parent. Answer: Micheal is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The relation \"brother\" implies a shared parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: David is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The relation \"brother\" implies a shared parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For grandson's brother, we have grandson's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's mother, we have sister's mother is also mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" implies a shared parent. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Since the path from Jose to Gabrielle consists of a \"brother\" relation and a \"grandmother\" relation, it means that Gabrielle is the grandmother of Jose. <retrieved_rule> The relation \"brother\" implies a shared parent. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" implies a generational relationship. 2. The relation \"brother\" implies a shared parent. Answer: Robert is Gabrielle's grandson. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"husband\" implies a marital relationship. - The relation \"granddaughter\" implies a generational relationship. - Since there is no direct relation between Gabrielle and Michele, it can be inferred that Michele is the granddaughter of someone who is married to Gabrielle. Answer: Michele is Gabrielle's granddaughter. <retrieved_rule> The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Gabrielle is Aida's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For grandson's sister, we have grandson's sister is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Gabrielle is Donna's mother's mother, so she is Donna's maternal grandmother. Answer: Gabrielle is Donna's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. In a family tree, a grandfather is the father of a person's parent. 2. In a family tree, a person's mother is one generation above them. Answer: Gabrielle is Michelle's grandmother. <retrieved_rule>In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"grandson\" indicates that Robert is the son of someone's child. - The relation \"brother\" indicates that Robert shares the same parents as someone on the path from Gabrielle to Robert. Answer: Robert is Gabrielle's grandson. <retrieved_rule> The relation \"grandson\" indicates that one individual is the son of another individual's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"grandson\" indicates that Alfred is the son of Gabrielle's child. 2. The relation \"brother\" means that Alfred shares a parent with Gabrielle. Therefore, Alfred is Gabrielle's grandson. Answer: Alfred is Gabrielle's grandson. <retrieved_rule> The relation \"grandson\" indicates that one individual is the son of another individual's child. The relation \"brother\" indicates a sibling relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" implies a shared parent, and the relation \"grandmother\" indicates that one individual is the mother of another individual's parent. Therefore, since Jeffrey is Gabrielle's brother, and Gabrielle is Jeffrey's grandmother, it means that Gabrielle is the grandmother of Jeffrey. <retrieved_rule> The relation \"brother\" implies a shared parent. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule> Answer: Gabrielle is Jeffrey's grandmother.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The relation \"granddaughter\" implies a generational relationship, and the repeated relation \"sister\" indicates that the two individuals are siblings. Since Donna is Gabrielle's granddaughter and sister, it means that Donna is the daughter of Gabrielle's child, making Donna Gabrielle's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule> Answer: Donna is Gabrielle's granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother’s mother, we have mother’s mother is grandmother. Therefore, the answer is Gabrielle is Micheal's grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's son, we have husband's son is son. Therefore, the answer is son.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Marci is Gabrielle's granddaughter. <retrieved_rule> The relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"grandmother\" indicates that the person is the grandmother of the person in between. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's son, we have son's son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" means that William is the son of someone in the path from Gabrielle to William. Since \"son\" is repeated, it means that William is the son of the son of Gabrielle, which makes William Gabrielle's grandson. Answer: William is Gabrielle's grandson. <retrieved_rule> The relation \"son\" means that William is the son of someone in the path from Gabrielle to William. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"mother\" indicates a parent-child relationship. 2. Since the relations are repeated, it indicates a generational relationship. Answer: Gabrielle is Jennifer's grandmother. <retrieved_rule> In general, the relation \"mother\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" means that Joe and Gabrielle share the same parents. 2. The relation \"grandmother\" indicates that Gabrielle is Joe's maternal grandmother. Answer: Gabrielle is Joe's maternal grandmother. <retrieved_rule> The relation \"brother\" implies that two individuals share the same parents. The repeated relation \"mother\" indicates that": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"daughter\" means that Sheila is the daughter of someone on the path from Gabrielle to Sheila. Since \"daughter\" is repeated, it means that Sheila is the daughter of Gabrielle's daughter. Therefore, the answer is granddaughter. <retrieved_rule> A granddaughter's sister is her sibling, so Sheila is Gabrielle's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"husband\" implies a marital relationship, but it doesn't provide a direct familial relationship. - The relation \"grandson\" means that Jeffrey is the son of someone in the path from Gabrielle to Jeffrey. Answer: Jeffrey is Gabrielle's grandson. <retrieved_rule> The relation \"grandson\" indicates that one individual is the son of another individual's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" implies that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. Therefore, Gabrielle is Lucille's grandmother. <retrieved_rule> The relation \"sister\" implies that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. <retrieved_rule> Answer: Gabrielle is Lucille's grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband’s mother, we have husband’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" implies a generational relationship. 2. The repeated relation \"sister\" indicates that the two individuals are siblings. Therefore, since Jennifer is Gabrielle's grandson's sister, it means that Jennifer is Gabrielle's granddaughter. <retrieved_rule> The relation \"grandson\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule> Answer: Jennifer is Gabrielle's granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Vincent is Gabrielle's grandson's brother, so he is Gabrielle's grandson as well. <retrieved_rule> In general, the brother of someone's son is also their son. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" implies a parent-child relationship. Since the path from Gabrielle to Micheal consists of two \"son\" relations, it means that Micheal is the son of Gabrielle's son, making Micheal Gabrielle's grandson. <retrieved_rule> The rule is that \"son\" relation implies a parent-child relationship. <retrieved_rule> Answer: Micheal is Gabrielle's grandson.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The relation \"daughter\" implies a parent-child relationship. The relation \"son\" also implies a parent-child relationship. Therefore, based on the given relations, Robert is Gabrielle's grandson. Answer: Robert is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates that Alma is the female parent of someone. The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is mother. Therefore, the answer is mother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: The relation \"son\" means that Alma is the son of someone in the path from Gabrielle to Alma. The relation \"wife\" implies a marital relationship. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: The relation \"sister\" implies that two individuals share the same parents. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Since Dan is on the path from Gabrielle, it means that Gabrielle is Dan's grandmother. <retrieved_rule> The relation \"sister\" implies that two individuals share the same parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"daughter\" indicates a parent-child relationship, and the relation \"son\" also indicates a parent-child relationship. Therefore, based on these relations, Jeffrey is Gabrielle's grandson. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"son\" also indicates a parent-child relationship. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s mother, we have father’s mother is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s grandmother, we have sister’s grandmother is grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Answer: For mother’s mother, we have mother’s mother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"husband\" implies a marital relationship, and the relation \"grandson\" indicates that one individual is the son of another individual's child. Therefore, the answer is grandson. <retrieved_rule> The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"daughter\" indicates a parent-child relationship. The relation \"son\" indicates a parent-child relationship. Since there is no direct relation between Gabrielle and Scott, it can be inferred that Scott is the son of Gabrielle's daughter. Therefore, Scott is Gabrielle's grandson. Answer: Scott is Gabrielle's grandson. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship. The relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's daughter, we have son's daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. A granddaughter is the child of one's son or daughter. 2. A sister is a female sibling. 3. Based on the given relations, Guillermina is connected to Gabrielle through the granddaughter and sister relationship. Answer: Guillermina is Gabrielle's granddaughter. <retrieved_rule> Rule: A granddaughter's sister is her sibling, so Annette is Gabrielle's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates that Kevin shares the same parents as someone. 2. The relation \"grandmother\" means that Gabrielle is the grandmother of someone. Answer: Gabrielle is Kevin's grandmother. <retrieved_rule> In a family tree, the brother of someone who is the grandson of Jason would be Jason's grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that two individuals share the same parents. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Asia's grandmother. <retrieved_rule> The relation \"sister\" indicates that two individuals share the same parents, and the relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter’s sister, we have granddaughter’s sister is also granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"mother\" indicates that Gabrielle is Anna's mother. 2. The repeated relation \"mother\" indicates that Gabrielle is Anna's maternal grandmother. Answer: Gabrielle is Anna's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"mother\" indicates a parent-child relationship. 2. The repeated relation \"mother\" indicates that Gabrielle is Lucille's maternal grandmother. Answer: Gabrielle is Lucille's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Lucille's maternal grandmother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" indicates a sibling relationship, and the relation \"grandmother\" implies a generational relationship. Therefore, Gabrielle is William's grandmother. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"grandson\" implies that Jeffrey is the son of Gabrielle's child, and the relation \"brother\" indicates that Jeffrey shares a parent with Gabrielle. Therefore, Jeffrey is Gabrielle's grandson. <retrieved_rule> The relation \"grandson\" indicates that one individual is the son of another individual's child. The relation \"brother\" indicates a shared parent. <retrieved_rule> Answer: Jeffrey is Gabrielle's grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. A grandson is the son of one's child. 2. A sister is a female sibling. 3. Based on the given relations, Donna is connected to Gabrielle through the grandson and sister relationship. Answer: Donna is Gabrielle's granddaughter. <retrieved_rule> Rule: A grandson's sister is her sibling, so Donna is Gabrielle's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates that Vincent and Gabrielle share the same parents. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Therefore, Gabrielle is Vincent's grandmother. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"son\" implies a parent-child relationship, so Michael is the son of someone in between Gabrielle and Michael. The relation \"brother\" indicates a sibling relationship, so Michael is the brother of someone in between Gabrielle and Michael. Therefore, Michael is Gabrielle's son. <retrieved_rule> The rule is that \"son\" relation implies a parent-child relationship. <retrieved_rule> Answer:": [
+        2.0,
+        1.0
+    ],
+    "Answer: For grandson’s brother, we have grandson’s brother is also grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates a sibling relationship, and the relation \"mother\" indicates a parent-child relationship. Therefore, based on the path from James to Gabrielle, Gabrielle is James's mother. <retrieved_rule> The relation \"brother\" indicates a sibling relationship. The relation \"mother\" indicates a parent-child relationship. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. The relation \"son\" also indicates a parent-child relationship. Answer: David is Gabrielle's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. The relation \"son\" also indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"grandmother\" implies a generational relationship. Answer: Gabrielle is Donald's grandmother. <retrieved_rule> The relation \"brother\" indicates a sibling relationship. The relation \"grandmother\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" means that Vincent is the son of someone in the path from Vincent to Gabrielle. 2. The relation \"son\" indicates a parent-child relationship. Answer: Vincent is Gabrielle's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship, and the relation \"grandmother\" indicates a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s mother, we have sister’s mother is also mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"brother\" indicates a sibling relationship, and the relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Therefore, Gabrielle is Theresa's grandmother. <retrieved_rule> The relation \"brother\" indicates a sibling relationship, and the relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: \n1. The relation \"granddaughter\" implies a generational relationship, indicating that Asia is a generation below Gabrielle.\n2. The repeated relation \"sister\" indicates that the two individuals are siblings, meaning that Gabrielle and Asia share the same parents.\n\nAnswer: Asia is Gabrielle's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"sister\" implies that two individuals share the same parents, and the relation \"grandmother\" indicates a generational relationship. Therefore, Gabrielle is David's grandmother. <retrieved_rule> The relation \"sister\" implies that two individuals share the same parents, and the relation \"grandmother\" implies a generational relationship. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"mother\" indicates that Gabrielle is a female parent of someone. The repeated relation \"mother\" indicates that Gabrielle is Lewis's maternal grandmother. Therefore, Gabrielle is Lewis's maternal grandmother. <retrieved_rule> The relation \"mother\" indicates that Gabrielle is a female parent of someone. The repeated relation \"mother\" indicates that Gabrielle is Lewis's maternal grandmother. <retrieved_rule> Answer: Gabrielle is Lewis's maternal grandmother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The repeated relation \"mother\" indicates that Gabrielle is Jeffrey's maternal grandmother. Therefore, Gabrielle is Jeffrey's maternal grandmother. <retrieved_rule> The repeated relation \"mother\" indicates that Gabrielle is Jeffrey's maternal grandmother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"sister\" indicates a sibling relationship. - The relation \"grandmother\" indicates a generational relationship. Answer: Gabrielle is Scott's grandmother. <retrieved_rule> The relation \"sister\" indicates a sibling relationship. The relation \"grandmother\" indicates a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The relation \"granddaughter\" implies a generational relationship, and the repeated relation \"sister\" indicates that the two individuals are siblings. Therefore, since Lucille is Gabrielle's granddaughter and sister, it means that Lucille is Gabrielle's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The repeated relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule> Answer: Lucille is Gabrielle's granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Theresa is on the path from Gabrielle, so Theresa is a descendant of Gabrielle. - The relation \"daughter\" indicates that Theresa is a daughter of someone in between Gabrielle and Theresa. Answer: Theresa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. The relation \"husband\" implies a marital relationship. Answer: Michael is Gabrielle's son-in-law. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship, and the relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Vanessa is on the path from Gabrielle, so Vanessa is a descendant of Gabrielle. - The relation \"daughter\" indicates that Vanessa is a daughter of someone in between Gabrielle and Vanessa. Answer: Vanessa is Gabrielle's granddaughter. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

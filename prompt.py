@@ -1,3 +1,4 @@
+
 default1 = """Answer: Let's think step by step. First rationale then answer."""\
            """If you use any prior knowledge or rule during the inference, write them briefly in "<Begin>xxx</End>" format. Only do this if you find them. """ \
            """Note that these rules should be true in general."""

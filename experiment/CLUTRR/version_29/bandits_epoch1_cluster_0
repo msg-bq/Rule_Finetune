@@ -1,0 +1,430 @@
+{
+    "Answer: For mother's son, we have mother's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Christopher is Dwight's son's uncle, which means Christopher is Dwight's brother. 2. <Begin>In a family tree, a son's uncle is the father's brother, so Christopher is Dwight's brother.</End> Answer: Christopher is Dwight's brother.": [
+        12.0,
+        1.0
+    ],
+    "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dwight and Jose are related by the brother and son relations. - According to the rules of family relations, if A is B's brother and C is B's son, then C is A's nephew. - So, Jose is Dwight's nephew. Answer: Jose is Dwight's nephew. <Begin>Family relation rules</End>": [
+        23.0,
+        1.0
+    ],
+    "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is also father. So the relation is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's brother, we have son's brother is son. So the relations are reduced to son. Therefore, the answer is son.": [
+        48.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        14.0,
+        1.0
+    ],
+    "Rationale: - The relation \"son\" indicates that Dwight is the father of the person in the relation. - The relation \"wife\" indicates that Sheila is married to the person in the relation. Answer: Sheila is Dwight's daughter-in-law. <Begin>son indicates father</End> <Begin>wife indicates married to</End>": [
+        13.0,
+        1.0
+    ],
+    "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        16.0,
+        1.0
+    ],
+    "Answer: For wife's father, we have wife's father is father-in-law. Therefore, the answer is father-in-law.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - According to the given information, the relation between Jose and Dwight is that of mother and brother. - <Begin> In general, a mother's brother is an uncle to her children. </End> Answer: Dwight is Jose's uncle.": [
+        33.0,
+        1.0
+    ],
+    "Answer: For husband’s father, we have husband’s father is father-in-law. Therefore, the answer is father-in-law.": [
+        6.0,
+        1.0
+    ],
+    "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.": [
+        26.0,
+        1.0
+    ],
+    "Answer: For brother’s father, we have brother’s father is also father. So the relation is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's brother, we have sister's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        14.0,
+        1.0
+    ],
+    "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's uncle, we have son's uncle is also brother. So the relation is brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's uncle, we have son's uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandfather, we have son's grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        6.0,
+        1.0
+    ],
+    "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's uncle, we have daughter's uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandmother, we have son's grandmother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        21.0,
+        1.0
+    ],
+    "Answer: For son's wife, we have son's wife is daughter-in-law. Therefore, the answer is daughter-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Dwight and Myrna are related by the son and aunt relations. - According to the rules of family relations, if A is B's son and C is B's aunt, then C is A's sister. - So, Myrna is Dwight's sister. Answer: Myrna is Dwight's sister. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. The relation \"mother\" indicates that the person is the son or daughter of the other person. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: According to the given information, the relation between Dorothy and Dwight is that of sister and brother. - <retrieved_rule> According to the sibling relationship rule, if two people are brothers, they are siblings. <retrieved_rule> - Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's son, we have sister's son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's father, we have wife's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.": [
+        9.0,
+        1.0
+    ],
+    "Answer: For brother's brother, we have brother's brother is also brother. So the relation is brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - According to the given information, the relation between Dwight and Jason is that of daughter and grandfather. - <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule> Answer: Jason is Dwight's father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is also father. So the relation is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's uncle, we have daughter's uncle is also brother. So the relation is brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - According to the given relations, the relation between Dwight and Vincent is that of sister and son. - <retrieved_rule> The child of one's sibling is their niece or nephew. <retrieved_rule> - So, Vincent is Dwight's nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's brother, we have brother's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: According to the given relations, Dorothy is Dwight's sister. Therefore,": [
+        4.0,
+        1.0
+    ],
+    "Answer: Rationale: - According to the given information, the relation between Russell and Dwight is that of mother and brother. - <retrieved_rule> In general, a mother's brother is an uncle to her children. <retrieved_rule> Answer: Dwight is Russell's uncle.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is also sister. Therefore, the answer is sister.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter's husband, we have daughter's husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For wife's daughter, we have wife's daughter is also daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is also sister. So the relation is sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's sister, we have son's sister is also daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - According to the given information, the relation between Marci and Dwight is that of mother and brother. - <retrieved_rule> In general, a mother's brother is an uncle to her children. <retrieved_rule> Answer: Dwight is Marci's uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Christopher is Dwight's sister's brother, which means Christopher is Dwight's brother. 2. <retrieved_rule> Siblings are typically referred to as brother or sister. <retrieved_rule> Answer: Christopher is Dwight's brother.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For sister's brother, we have sister's brother is also brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is nephew. Therefore, the answer is nephew.": [
+        5.0,
+        1.0
+    ],
+    "Answer: For sister's brother, we have sister's brother is also brother. So the relation is brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's father, we have husband's father is father-in-law. Therefore, the answer is father-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dwight and Dan are related by the brother and son relations. - According to the rules of family relations, if A is B's brother and C is B's son, then C is A's nephew. - So, Dan is Dwight's nephew. Answer: Dan is Dwight's nephew. <retrieved_rule> Family relation rules <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: For son's uncle, we have son's uncle is brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is also mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter's aunt, we have daughter's aunt is also sister. So the relation is sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For father's brother, we have father's brother is uncle. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is nephew. So the relation is nephew. Therefore, the answer is nephew.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For wife's daughter, we have wife's daughter is also daughter. So the relation is daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's daughter, we have brother's daughter is niece. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relation is brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - According to the given information, the relation between Alfred and Dwight is that of mother and brother. - <retrieved_rule> In general, a mother's brother is an uncle to her children. <retrieved_rule> Answer: Dwight is Alfred's uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is also father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: - For sister's daughter, we have sister's daughter is niece. - So the relations are reduced to niece. - Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister's daughter, we have sister's daughter is niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n- According to the given information, the relation between Jose and Dwight is that of father and brother.\n- According to the rule of family relations, if A is the brother of B and C is the father of B, then A is the uncle of C.\n- So, Dwight is Jose's uncle.\nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandmother, we have son's grandmother is mother. Therefore, the answer is mother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is also nephew. So the relation is nephew. Therefore, the answer is nephew.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For son's aunt, we have son's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's father, we have husband's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is also father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's brother, we have father's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dwight and Jason are related by the daughter and grandfather relations. - According to the rules of family relations, if A is B's daughter and C is B's grandfather, then C is A's father. - So, Jason is Dwight's father. Answer: Jason is Dwight's father. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Scott and Dwight are related by the wife and father relations. - According to the rules of family relations, if A is B's wife and C is B's father, then C is A's father-in-law. - So, Dwight is Scott's father-in-law. Answer: Dwight is Scott's father-in-law. <retrieved_rule> Family relation rules <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's son, we have sister's son is nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's husband, we have daughter's husband is son-in-law. Therefore, the answer is son-in-law.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s uncle, we have daughter’s uncle is brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dwight and Dorothy are related by the daughter and aunt relations. - According to the rules of family relations, if A is B's daughter and C is B's aunt, then C is A's sister. - So, Dorothy is Dwight's sister. Answer: Dorothy is Dwight's sister. <retrieved_rule> Siblings are typically referred to as brother or sister <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dwight and David are related by the daughter and husband relations. - According to the rules of family relations, if A is B's daughter and C is B's husband, then C is A's son-in-law. - So, David is Dwight's son-in-law. Answer: David is Dwight's son-in-law. <retrieved_rule> In a heterosexual marriage, the husband is the son-in-law of the wife's parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's daughter, we have wife's daughter is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's uncle, we have daughter's uncle is also brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's wife, we have son's wife is daughter-in-law. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's sister, we have son's sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, the relation between Christopher and Dwight is sister and brother. According to the rule that siblings share the same parents, we can conclude that Dwight is Christopher's brother. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n- Dwight and Dan are related by the brother and son relations. \n- According to the rules of family relations, if A is B's brother and C is B's son, then C is A's nephew. \n- So, Dan is Dwight's nephew. \nAnswer: Dan is Dwight's nephew. <retrieved_rule> Family relation rules <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - According to the given information, the relation between Jennifer and Dwight is that of mother and brother. - <retrieved_rule> In general, a mother's brother is an uncle to her children. <retrieved_rule> Answer: Dwight is Jennifer's uncle.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is also sister. So the relation is sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. So the relation is daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is nephew. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's daughter, we have father's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - According to the given information, the relation between Dorothy and Dwight is that of son and uncle. - <retrieved_rule> In general, a mother's brother is an uncle to her children. <retrieved_rule> Answer: Dwight is Dorothy's brother.": [
+        1.0,
+        1.0
+    ]
+}

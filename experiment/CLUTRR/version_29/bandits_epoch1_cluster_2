@@ -1,0 +1,546 @@
+{
+    "Rationale: 1. The relation \"son\" indicates a male child. 2. The relation \"sister\" indicates a female sibling. 3. Based on these relations, we can infer the relationship between Alma and Jennifer. Answer: Jennifer is Alma's daughter. <Begin> The relation \"son\" indicates a male child. </End> <Begin> The relation \"sister\" indicates a female sibling. </End>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For brother’s sister, we have brother’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter’s husband, we have daughter’s husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.": [
+        25.0,
+        1.0
+    ],
+    "Rationale: - \"sister\" and \"son\" are the relations on the path from Alma to David - David is the son of Alma's sister, which makes David Alma's nephew. Answer: David is Alma's nephew. <Begin> In general, the son of one's sister is their nephew. </End>": [
+        45.0,
+        1.0
+    ],
+    "Answer: For sister's mother, we have sister's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" indicates that Alma is a female parent of someone. - The relation \"brother\" indicates that someone is a male sibling of someone else. Answer: Donald is Alma's son. <Begin> In general, the relation \"daughter\" indicates that Alma is the female parent of someone. The relation \"brother\" indicates that someone is a male sibling of someone else. </End>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother’s father, we have brother’s father is also father. So the relation is reduced to father. Therefore, the answer is father.": [
+        33.0,
+        1.0
+    ],
+    "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" indicates a parent-child relationship. 2. The relation \"wife\" indicates a spousal relationship. 3. Based on these relations, we can infer the relationship between Alma and Vanessa. Answer: Vanessa is Alma's daughter-in-law. <Begin>son</End> <Begin>wife</End>": [
+        47.0,
+        1.0
+    ],
+    "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s grandfather, we have daughter’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        33.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"mother\" indicates a parent-child relationship. Answer: Alma is Jennifer's sister. <Begin> The relation \"brother\" indicates a sibling relationship. </End>": [
+        9.0,
+        1.0
+    ],
+    "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For mother's sister, we have mother's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's mother, we have sister's mother is mother. Therefore, the answer is mother.": [
+        31.0,
+        1.0
+    ],
+    "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Asia's brother's mother, then Alma is Asia's mother as well. Answer: Alma is Asia's mother. <Begin> In general, a person who is the mother of someone's brother is also the mother of that person. </End>": [
+        38.0,
+        1.0
+    ],
+    "Answer: For son's aunt, we have son's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's son, we have sister's son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is James's daughter's aunt, then Alma is James's sister. Answer: Alma is James's sister. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Lisa is Alma's brother's sister, then Alma is Lisa's sister. Answer: Alma is Lisa's sister. <retrieved_rule> The relation \"brother\" indicates a sibling relationship. The relation \"sister\" indicates a sibling relationship. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is sister. Therefore, the answer is sister.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter's husband, we have daughter's husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's mother, we have wife's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the rule of sibling relationship, if two people are brothers, they are siblings. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        6.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Christopher's brother, then Christopher is also Alma's brother. Answer: Christopher is Alma's brother. <retrieved_rule> According to the sibling relationship rule, if two people are brothers, they are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's daughter, we have wife's daughter is stepdaughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For sister's daughter, we have sister's daughter is also niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        5.0,
+        1.0
+    ],
+    "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Annette's brother's mother, then Alma is also Annette's mother. Answer: Alma is Annette's mother. <retrieved_rule> In general, a person who is the mother of someone's brother is also the mother of that person. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Jason's son's grandfather, then Alma is Jason's father. Answer: Jason is Alma's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: For daughter's grandmother, we have daughter's grandmother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        7.0,
+        1.0
+    ],
+    "Rationale: - \"brother\" and \"daughter\" are the relations on the path from Alma to Anna\n- Anna is the daughter of Alma's brother, which makes Anna Alma's niece\nAnswer: Anna is Alma's niece. <retrieved_rule>In general, the relation \"daughter\" indicates a parent-child relationship. The relation \"brother\" indicates that someone is a male sibling of someone else. The relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"brother\" indicates that someone is a male sibling of someone else.</retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Dorothy is Alma's sister, then Dorothy is also Alma's sister. Therefore, the answer is sister.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is also sister. So the relation is reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Dorothy is Alma's daughter's aunt, then Dorothy is Alma's sister. Answer: Dorothy is Alma's sister. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandmother, we have son's grandmother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's sister, we have son's sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" means that Christopher is the son of someone in the path from Alma to Christopher. 2. The relation \"uncle\" indicates that Christopher is the brother of Alma's son. Answer: Christopher is Alma's brother. <retrieved_rule> In a family tree, a son's uncle is the father's brother, so Christopher is Dwight's brother. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Myrna is Alma's sister's sister, then Alma is Myrna's sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother’s sister, we have mother’s sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is also sister. So the relation is reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s son, we have sister’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"mother\" indicates a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Vanessa. Answer: Alma is Vanessa's mother-in-law. <retrieved_rule> husband <retrieved_rule> <retrieved_rule> mother <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Dorothy's daughter's aunt, then Alma is Dorothy's sister. Answer: Alma is Dorothy's sister. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Answer: For daughter's uncle, we have daughter's uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        5.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Guillermina is Alma's brother's daughter, then Guillermina is Alma's niece. Answer: Guillermina is Alma's niece. <retrieved_rule> In familial relations, a son is the child of a sister. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter's grandfather, we have daughter's grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"brother\" and \"daughter\" are the relations on the path from Alma to Michele - Michele is the daughter of Alma's brother, which makes Michele Alma's niece. Answer: Michele is Alma's niece. <retrieved_rule> In a family tree, the child of a brother or sister is a niece or nephew. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"son\" and \"aunt\" are the relations on the path from Myrna to Alma\n- Alma is the aunt of Myrna's son, which makes Alma Myrna's sister\nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"son\" indicates a parent-child relationship. Answer: Dan is Alma's nephew. <retrieved_rule> The relation \"brother\" implies a shared parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Guillermina is Alma's sister's daughter, then Guillermina is Alma's niece. Answer: Guillermina is Alma's niece. <retrieved_rule> In a parent-child relationship, the child is the daughter/son of the parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister's brother, we have sister's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister’s sister, we have sister’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Myrna is Alma's brother's sister, then Myrna is Alma's sister. Answer: Myrna is Alma's sister. <retrieved_rule> The relation \"brother\" indicates a sibling relationship. The relation \"sister\" indicates a sibling relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Robert is Alma's daughter's husband, then Robert is Alma's son-in-law. Answer: Robert is Alma's son-in-law. <retrieved_rule> In general, the husband of one's daughter is referred to as a son-in-law. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Jeffrey is Alma's brother's son, then Jeffrey is Alma's nephew.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"daughter\" implies a parent-child relationship. 2. The relation \"sister\" indicates a sibling relationship. 3. Based on these relations, we can infer the relationship between Alma and Jennifer. Answer: Jennifer is Alma's daughter. <retrieved_rule> daughter <retrieved_rule> <retrieved_rule> sister <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - \"son\" and \"aunt\" are the relations on the path from Dorothy to Alma - Alma is the mother of Dorothy's nephew, which makes Alma Dorothy's sister. Answer: Alma is Dorothy's sister. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For sister's son, we have sister's son is also nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        7.0,
+        1.0
+    ],
+    "Answer: For brother's daughter, we have brother's daughter is also niece. So the relation is reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"father\" and \"sister\" are the relations on the path from Donna to Alma - Alma is the sister of Donna's father, which makes Alma Donna's aunt. Answer: Alma is Donna's aunt. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is also nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Annette is Alma's daughter-in-law. <retrieved_rule> son <retrieved_rule> <retrieved_rule> wife <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Donald's brother's mother, then Alma is Donald's mother as well. Answer: Alma is Donald's mother. <new_rule> In general, a person who is the mother of someone's brother is also the mother of that person. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's mother, we have brother's mother is also mother. Therefore, the answer is mother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For sister's mother, we have sister's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates a sibling relationship. 2. The relation \"son\" indicates a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Lewis. Answer: Lewis is Alma's nephew. <retrieved_rule> In general, the son of one's sister is their nephew. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is also father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's daughter, we have sister's daughter is also niece. So the relation is reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s sister, we have daughter’s sister is also daughter. So the relation is reduced to daughter. Therefore, the answer is daughter.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a shared parent. 2. The relation \"daughter\" implies a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Theresa. Answer: Theresa is Alma's niece. <retrieved_rule> In general, a brother is a male sibling of someone. <retrieved_rule> <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Joe is Alma's brother's son, then Joe is Alma's nephew. Answer: Joe is Alma's nephew. <retrieved_rule> In general, the son of one's brother is their nephew. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Lewis is Alma's brother's son, then Lewis is Alma's nephew. Answer: Lewis is Alma's nephew. <retrieved_rule> The child of one's sibling is their niece or nephew. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's daughter, we have brother's daughter is also niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Jennifer's brother's mother, then Alma is Jennifer's mother as well. Answer: Alma is Jennifer's mother. <retrieved_rule> In general, a person who is the mother of someone's brother is also the mother of that person. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Myrna's son's aunt, then Alma is Myrna's sister. Answer: Myrna is Alma's sister. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For husband's father, we have husband's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's daughter, we have husband's daughter is also daughter. So the relation is reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Alma is Lisa's brother's sister, then Alma is Lisa's sister. <retrieved_rule> According to the sibling relationship rule, if two people are brothers, they are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Myrna's brother's sister, then Alma is also Myrna's sister. Answer: Alma is Myrna's sister. <retrieved_rule> According to the sibling relationship rule, if two people are sisters, they are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Vanessa is Alma's daughter, then Vanessa is also Alma's daughter. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother’s brother, we have brother’s brother is also brother. So the relation is reduced to brother. Therefore, the answer is brother.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For brother's brother, we have brother's brother is also brother. So the relation is reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s uncle, we have son’s uncle is also brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Gabrielle's daughter, then Gabrielle is Alma's mother. Answer: Gabrielle is Alma's mother. <retrieved_rule> In a family tree, a person's mother is one generation above them. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is William's father's sister, then Alma is William's aunt. Answer: Alma is William's aunt. <retrieved_rule> The relation \"brother\" indicates a sibling relationship. The relation \"sister\" indicates a sibling relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"daughter\" indicates a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Anna. Answer: Anna is Alma's niece. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship. The relation \"brother\" indicates that someone is a male sibling of someone else. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Donald is Alma's daughter's husband, then Donald is Alma's son-in-law. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is also sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Jennifer is Alma's husband's mother, then Alma is Jennifer's mother-in-law. Answer: Alma is Jennifer's mother-in-law. <retrieved_rule> In general, the mother of one's spouse is referred to as the mother-in-law. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter's aunt, we have daughter's aunt is also sister. So the relation is reduced to sister. Therefore, the answer is sister.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Anna's father's sister, then Alma is Anna's aunt. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s grandmother, we have son’s grandmother is mother. So the relations are reduced to mother. Therefore, the answer is mother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Aida is Alma's mother's sister, then Aida is Alma's aunt. Answer: Alma is Aida's aunt. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's daughter, we have husband's daughter is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Christopher is Alma's brother's brother, then Christopher is Alma's brother. Answer: Christopher is Alma's brother. <retrieved_rule>In a father-son relationship, the son is the brother of the father's other children.<retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Jennifer's sister's mother, then Alma is Jennifer's mother. Answer: Alma is Jennifer's mother. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is James's brother's sister, then Alma is also James's sister. Answer: Alma is James's sister. <retrieved_rule> According to the sibling relationship rule, if two people are brothers, they are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s uncle, we have daughter’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's sister, we have father's sister is also aunt. So the relation is reduced to aunt. Therefore, the answer is aunt.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Russell is Alma's brother's mother, then Alma is Russell's mother. Answer: Alma is Russell's mother. <retrieved_rule> Brother's mother is also mother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Chad's brother's mother, then Alma is Chad's mother as well. Answer: Alma is Chad's mother. <retrieved_rule> In general, a person who is the mother of someone's brother is also the mother of that person. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that Alma and Dan share the same parents. 2. The relation \"son\" implies a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Dan. Answer: Dan is Alma's nephew. <retrieved_rule> The relation \"sister\" indicates that two individuals share the same parents. <retrieved_rule> <retrieved_rule> The relation \"son\" indicates that the person is the son of the person in between. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if James is Alma's daughter's uncle, then James is Alma's brother. Answer: James is Alma's brother. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s aunt, we have daughter’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's sister, we have sister's sister is sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"son\" and \"wife\" are the relations on the path from Alma to Jennifer - Jennifer is the wife of Alma's son, which makes Jennifer Alma's daughter-in-law. Answer: Jennifer is Alma's daughter-in-law. <retrieved_rule> In general, the relation \"wife\" implies a marital relationship. The relation \"wife\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's son, we have brother's son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. So, the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: The rule \"The relation 'sister' indicates that two individuals share the same parents\" applies here. So, based on this rule, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s sister, we have father’s sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Annette is Alma's son's wife, then Annette is Alma's daughter-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"brother\" and \"daughter\" are the relations on the path from Alma to Deborah - Deborah is the daughter of Alma's brother, which makes Deborah Alma's niece. Answer: Deborah is Alma's niece. <retrieved_rule> The child of one's sibling is their niece or nephew. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if Alma is Jason's son's wife, then Alma is Jason's daughter-in-law. Answer: Alma is Jason's daughter-in-law. <retrieved_rule> In a heterosexual marriage, the husband is the son-in-law of the wife's parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Jason is Alma's sister's father, then Jason is Alma's father as well. Answer: Jason is Alma's father. <retrieved_rule> In general, a person who is the mother of someone's brother is also the mother of that person. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: According to the given relations, if James is the son of Alma's father, then James is Alma's brother. Answer: James is Alma's brother. <retrieved_rule> In a father-son relationship, the son is the brother of the father's other children. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" indicates that the two individuals are siblings. 2. The relation \"mother\" implies a parent-child relationship. 3. Based on these relations, we can infer the relationship between Alma and Gabrielle. Answer: Gabrielle is Alma's mother. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - \"sister\" and \"son\" are the relations on the path from Alma to Lewis - Lewis is the son of Alma's sister, which makes Lewis Alma's nephew. Answer: Lewis is Alma's nephew. <retrieved_rule> In general, the son of one's sister is their nephew. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's sister, we have father's sister is aunt. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: According to the given relations, if Joe is Alma's father's sister, then Alma is Joe's aunt. Answer: Alma is Joe's aunt. <retrieved_rule> If A is the sister of B and B is the mother of C, then A is the aunt of C. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the given relations, if Lewis is Alma's brother's son, then Lewis is Alma's nephew.": [
+        1.0,
+        1.0
+    ]
+}

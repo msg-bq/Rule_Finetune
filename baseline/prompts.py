@@ -1,7 +1,7 @@
 rule_instruction = '''Instruction: Following are several existed rules in knowledge base. When you answer the questions, ''' \
           '''try to use the provided rules whenever possible. ''' \
           '''Try not to invent knowledge by yourself unless necessary.'''\
-            '''Knowledge base (involved rules):\n'''
+            '''Knowledge base:\n'''
 
 rule_instruction_HtT = """Instruction: When you answer the questions, try to use the provided knowledge whenever possible. Try
 not to invent knowledge by yourself unless necessary.b
@@ -155,8 +155,61 @@ Answer:"""#replace('Document: ', 'Context: ')
 
 five_shot_HtT = """"""
 
+LANG_rule_instruction = '''Instruction: Following are several existed rules in knowledge base. When you correct the grammatical eroors, ''' \
+                        '''try to use them whenever possible. Not to invent knowledge by yourself unless necessary. ''' \
+                        '''Try to keep the words and punctuation of the original sentence, and correct only necessary grammatical errors \n'''\
+                        '''Knowledge base:\n'''
 
+LANG_CoT = """Sentence: December
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors. 
+So the revised sentence is "December".
 
+Sentence: We excited the show !
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error 1: excited -> were excited at
+So the revised sentence is "We were excited at the show !"
+
+Sentence: I asked her if she have boyfriend or not .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error 1: have -> had
+Error 2: boyfriend -> a boyfriend
+Error 3: or not -> ""
+So the revised sentence is "I asked her if she had a boyfriend ."
+
+Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+So the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
+Sentence: T `` .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+So the revised sentence is "T `` ."
+"""
+
+LANG_CoT_rule = """Sentence: December
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+So the revised sentence is "December".
+
+Sentence: We excited the show !
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error 1: we retrieve "Subject-Verb agreement rule", so "excited -> were excited at"
+So the revised sentence is "We were excited at the show !"
+
+Sentence: I asked her if she have boyfriend or not .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error 1: we retrieve "Rule: Use the correct verb tense to match the timing of the action being described.", so "have -> had"
+Error 2: we retrieve "Use "a" before specific instances of a noun, such as "a diary.", so "boyfriend -> a boyfriend"
+Error 3: we retrieve "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech.", so "or not -> ""
+So the revised sentence is "I asked her if she had a boyfriend ."
+
+Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+So the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+"""
 
 dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'rule_instruction_HtT': rule_instruction_HtT,
@@ -164,5 +217,6 @@ dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'CoT': CLUTRR_five_shot_symbolic,
                              'CoT_rule': CLUTRR_five_shot_rule_symbolic,
                              'CoT_HtT': CLUTRR_five_shot_symbolic_HtT,},
-                  'LANG_8': {'rule_instruction': rule_instruction,
-                             'CoT_rule': ""}}
+                  'LANG_8': {'rule_instruction': LANG_rule_instruction,
+                             'CoT': LANG_CoT,
+                             'CoT_rule': LANG_CoT_rule}}

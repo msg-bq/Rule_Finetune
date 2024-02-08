@@ -63,6 +63,7 @@ def clean_prediction(self, prediction: str) -> str:
     """
     GOLD_LABEL这个特殊的返回值表明答案是正确的
     """
+    original_prediction = prediction
     prediction = prediction.strip().lower()
 
     no_error_trigger = ["no grammar errors", "no grammatical errors"]
@@ -70,8 +71,15 @@ def clean_prediction(self, prediction: str) -> str:
         return "GOLD_LABEL"
 
     def remove_quotation_marks(text):
+        print("抽取出来的文本是：", text)
         """去除首尾的引号"""
         text = text.strip()
+        if not text:
+            return text
+
+        if text[0] == ":":
+            text = text[1:].strip()
+
         if not text:
             return text
 
@@ -83,17 +91,22 @@ def clean_prediction(self, prediction: str) -> str:
             return text[1:-1]
         return text
 
-    pattern1 = "the revised sentence can be:(.*)"
+    pattern1 = "the revised sentence can be(.*)"
     pattern2 = "the revised sentence could be \"(.*)\""
-    pattern3 = "the revised sentence is:(.*)"
-    pattern4 = "the revised sentence would be:(.*)"
+    pattern3 = "the revised sentence is(.*)"
+    pattern4 = "the revised sentence would be(.*)"
     pattern5 = "it could be revised as follows:(.*)"
-    pattern6 = "however, a revised version of the sentence could be:(.*)"
+    pattern6 = "however, a revised version of the sentence could be(.*)"
     pattern7 = "revised sentence:(.*)"
-    pattern8 = "the revised sentence should be:(.*)"
-    pattern9 = "the correct sentence is:(.*)" # 最好是用""把每个(.*)包起来，不过有少数确实没有引号
+    pattern8 = "the revised sentence should be(.*)"
+    pattern9 = "the correct sentence is(.*)" # 最好是用""把每个(.*)包起来，不过有少数确实没有引号
+    pattern10 = "The revised sentence with corrected grammar would be:".lower()
+    pattern11 = "The revised sentence is \"(.*)\"".lower()
 
-    pattern_list = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8, pattern9]
+    pattern_num = 11
+    pattern_list = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8,
+                    pattern9, pattern10, pattern11]
+
     for pattern in pattern_list:
         # 以\n或结束符结束
         pattern += "(\n|$)"
@@ -101,9 +114,10 @@ def clean_prediction(self, prediction: str) -> str:
         if match:
             result = remove_quotation_marks(match.group(1))
             if result:
-                return result
+                idx = original_prediction.lower().index(result)
+                return original_prediction[idx:idx + len(result)]
 
-    return prediction
+    return original_prediction
 
 @PredictionCleanNameSpace.register("HtT_version")
 def clean_prediction(self, prediction: str) -> str:

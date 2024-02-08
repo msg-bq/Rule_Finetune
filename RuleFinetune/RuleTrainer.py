@@ -46,7 +46,11 @@ class Trainer:
                                      temperature=0.3)
         print("response:\n", response)
         new_rationale = example.parse_response(response, self.args)
-        if new_rationale['rationale'] != "" and new_rationale['prediction'] != "":
+
+        score = self.score(Rationale.clean_prediction(new_rationale['prediction']), example.gold_label)
+        #-----删除
+
+        if score > 0.5 and new_rationale['rationale'] != "" and new_rationale['prediction'] != "":
             print('++++' * 50)
             print("new_rationale:\n", new_rationale)
             example.update_rationale(new_rationale)  # 做了inplace的更新
@@ -135,7 +139,7 @@ class Trainer:
         for ep in range(self.max_epoch):  # 这里最好是epoch
             self.force_write(ep)
 
-            with ThreadPoolExecutor(max_workers=1) as executor:
+            with ThreadPoolExecutor(max_workers=40) as executor:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 

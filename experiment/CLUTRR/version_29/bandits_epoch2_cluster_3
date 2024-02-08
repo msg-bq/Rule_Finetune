@@ -1,0 +1,1230 @@
+{
+    "Answer: For granddaughter's brother, we have granddaughter's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" indicates a female offspring, while \"brother\" indicates a male sibling. - From the given relations, we can infer that Jason is the parent of the daughter and brother. - Therefore, Michael is Jason's son. Answer: Michael is Jason's son. <Begin> In general, a daughter is a female offspring and a brother is a male sibling. </End>": [
+        19.0,
+        1.0
+    ],
+    "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.": [
+        35.0,
+        1.0
+    ],
+    "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" indicates that Jason is the parent of the daughter. - The relation \"husband\" indicates that James is married to someone on the path from Jason. Answer: James is Jason's son-in-law. <Begin> In general, the relation \"husband\" implies that the person is married to someone on the path from the other person. </End>": [
+        5.0,
+        1.0
+    ],
+    "Answer: For son’s grandfather, we have son’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's father, we have wife's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"wife\" indicates a marital relationship. - The relation \"grandson\" indicates a generational relationship. Answer: Jose is Jason's grandson. <Begin> In general, a grandson is the son of one's child. </End>": [
+        48.0,
+        1.0
+    ],
+    "Rationale: - Michelle is Jason's granddaughter. Answer: Michelle is Jason's granddaughter. <Begin> In general, a granddaughter is the child of one's son or daughter. </End>": [
+        22.0,
+        1.0
+    ],
+    "Rationale: - Vanessa is the sister of someone who is the grandson of Jason. Answer: Vanessa is Jason's granddaughter. <Begin> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. </End>": [
+        67.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"wife\" indicates a marital relationship. 2. The relation \"grandson\" indicates a generational relationship. Answer: David is Jason's grandson. <Begin>We know that a grandson is the son of one's child, so based on this generational relationship, we can conclude that David is Jason's grandson.</End>": [
+        30.0,
+        1.0
+    ],
+    "Rationale: - Lucille is Jason's daughter's daughter, which means she is Jason's granddaughter. Answer: Lucille is Jason's granddaughter. <Begin> In general, the child of a person's child is their grandchild. </End>": [
+        41.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Aida is the second daughter in the path from Jason, so she is the daughter of the daughter of Jason. Answer: Aida is Jason's granddaughter. <Begin> In the relationship \"daughter,\" the person is the child of the other person. </End>": [
+        18.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. According to the given information, the relations on the path from Russell to Jason are brother and grandfather. 2. <Begin> In a family tree, a grandfather is a generation above the father, and a brother is on the same generation level. </End> 3. Based on the given relations, Jason is Russell's grandson. Answer: Jason is Russell's grandson.": [
+        13.0,
+        1.0
+    ],
+    "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <Begin>In general, a brother is a male sibling of someone.</End> Answer: Vincent is Jason's brother.": [
+        46.0,
+        1.0
+    ],
+    "Answer: For brother’s grandfather, we have brother’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother’s grandfather, we have brother’s grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation between Dorothy and Jason is not direct, but through another person. 2. The relation \"daughter\" indicates that Dorothy is the daughter of the person in between, and the relation \"grandfather\" indicates that Jason is the grandson of the person in between. 3. Therefore, the person in between is the parent of Dorothy and the grandparent of Jason. Answer: Jason is Dorothy's son. <Begin> In general, the relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"grandfather\" indicates that the person is the grandfather of the person in between. </End>": [
+        42.0,
+        1.0
+    ],
+    "Answer: For mother’s father, we have mother’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Guillermina is the wife of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Guillermina. (Given in the context) Answer: Guillermina is Jason's granddaughter. <Begin> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. </End>": [
+        16.0,
+        1.0
+    ],
+    "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's father, we have mother's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s father, we have father’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        6.0,
+        1.0
+    ],
+    "Rationale: - Myrna's daughter's father is Myrna's husband. - Myrna's grandfather's grandson is Myrna's father. Answer: Jason is Myrna's father. <Begin> In a family tree, a grandfather is the father of a person's parent. </End>": [
+        64.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is grandfather. So the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's son, we have daughter's son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation between Myrna and Jason is not direct, but through another person. 2. The relation \"daughter\" indicates that Myrna is the daughter of the person in between, and the relation \"grandfather\" indicates that Jason is the grandson of the person in between. 3. Therefore, the person in between is the parent of Myrna and the grandparent of Jason. Answer: Jason is Myrna's son. <retrieved_rule> In general, the relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"grandfather\" indicates that the person is the grandfather of the person in between. <retrieved_rule>": [
+        25.0,
+        1.0
+    ],
+    "Answer: Answer: For father's father, we have father's father is grandfather. So the answer is grandfather.": [
+        25.0,
+        1.0
+    ],
+    "Answer: For son's grandfather, we have son's grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"son\" indicates a parent-child relationship. - The relation \"grandfather\" indicates a generational relationship. Answer: Jason is Michael's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "Answer: For sister's grandfather, we have sister's grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's husband, we have daughter's husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is also granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"wife\" implies a marital relationship. 2. The relation \"granddaughter\" implies a generational relationship. Answer: Guillermina is Jason's granddaughter. <retrieved_rule> The relation \"wife\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: - Michelle is the sister of Jason's granddaughter, which means she is Jason's granddaughter. Answer: Michelle is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is Donald's sister's grandfather, which means he is Donald's grandfather. Answer: Jason is Donald's grandfather. <retrieved_rule> The relation \"grandfather\" implies a generational relationship. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For brother's grandfather, we have brother's mother is also mother, and mother's father is grandfather. So the relations are reduced to mother's father. Therefore, the answer is grandfather.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For grandson's sister, we have grandson's sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Vincent is the brother of someone who is the granddaughter of Jason. Answer: Vincent is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"wife\" implies a marital relationship. - The relation \"grandson\" indicates a generational relationship. Answer: David is Jason's grandson. <retrieved_rule> The relation \"wife\" implies a marital relationship. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: 1. Vanessa is the sister of Jason's grandson. (Given in the context) 2. Jason is the grandfather of Vanessa. (Given in the context) Answer: Vanessa is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        31.0,
+        1.0
+    ],
+    "Answer: For grandson's brother, we have grandson's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> In general, a brother is a male sibling of someone. <retrieved_rule> Answer: Jose is Jason's brother.": [
+        14.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"grandfather\" implies a generational relationship. Answer: Jason is Jose's grandfather. <retrieved_rule> The rule that siblings share the same parents. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"wife\" implies a marital relationship. 2. The relation \"grandson\" means that Joe is the grandson of someone. 3. <retrieved_rule> The relation \"grandson\" indicates a generational relationship. <retrieved_rule> Answer: Joe is Jason's grandson.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's sister, we have son's sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Annette is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: - Jeffrey is the son of Jason's son, which makes him Jason's grandson. Answer: Jeffrey is Jason's grandson. <new_rule> In general, the relation \"son\" indicates a parent-child relationship. <new_rule>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Jason to Robert are granddaughter and brother. \n2. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule> \n3. Based on the given relations, Robert is Jason's grandson. \nAnswer:": [
+        13.0,
+        1.0
+    ],
+    "Answer: Myrna is Jason's daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is also granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Kevin is Jason's grandson. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. The relation \"grandfather\" implies a generational relationship. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Answer: For wife's grandson, we have wife's grandson is also grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Annette is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"grandfather\" implies a generational relationship. Answer: Jason is Annette's grandfather. <retrieved_rule> The rule that siblings share the same parents. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: - Vanessa's sister's grandfather is Vanessa's grandfather. Answer: Jason is Vanessa's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation between Jason and Kevin is not direct, but through another person. 2. The relation \"wife\" implies a marital relationship, and the relation \"grandson\" indicates a generational relationship. 3. Therefore, the person in between is the spouse of Jason and the grandparent of Kevin. Answer: Kevin is Jason's grandson. <retrieved_rule> The relation \"wife\" implies a marital relationship. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Answer: For daughter's grandfather, we have daughter's grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation between Jason and Robert is not direct, but through another person. 2. The relation \"wife\" implies a marital relationship, and the relation \"grandson\" indicates a generational relationship. 3. Therefore, the person in between is the spouse of Jason and the grandparent of Robert. Answer: Robert is Jason's grandson. <retrieved_rule> In general, the relation \"wife\" implies a marital relationship. The relation \"grandson\" implies a generational relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" implies a generational relationship. 2. The relation \"sister\" indicates that the two individuals are siblings. Answer: Sheila is Jason's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. The relation \"sister\" indicates that the two individuals are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s grandfather, we have sister’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's son, we have son's son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dan is Jason's grandson. Answer: Dan is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Answer: The relation \"daughter\" implies a parent-child relationship. The relation \"sister\" indicates that the two individuals are siblings. Therefore, Myrna is Jason's daughter. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. Siblings are typically referred to as brother or sister. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - William is the brother of someone who is the grandson of Jason. Answer: William is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is also father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter’s grandfather, we have daughter’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        7.0,
+        1.0
+    ],
+    "Rationale: - Scott is the brother of someone who is the grandson of Jason. According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. So, Scott is Jason's grandson. <retrieved_rule>According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter.<retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For wife's grandson, we have wife's grandson is also grandson. So the relation is grandson. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. Since Michelle is Jason's daughter's daughter, she is Jason's granddaughter. Answer: Michelle is Jason's granddaughter. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"wife\" implies a marital relationship. 2. The relation \"granddaughter\" implies a generational relationship. Answer: Aida is Jason's granddaughter. <retrieved_rule> The relation \"wife\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: - Vincent is the brother of someone who is the grandson of Jason. Answer: Vincent is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For grandson's brother, we have grandson's brother is also grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - Annette is the sister of someone who is the granddaughter of Jason. Answer: Annette is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: Theresa is Jason's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Jose is the son of Jason's daughter, so he is Jason's grandson. Answer: Jose is Jason's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. The relation \"son\" implies a parent-child relationship. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Marci is Jason's wife. (Given in the context) 2. Jason is the grandfather of Marci. (Given in the context) Answer: Marci is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's grandfather, we have brother's grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Michele is the sister of someone who is the grandson of Jason. - Therefore, Michele is Jason's granddaughter. Answer: Michele is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Donna is Jason's granddaughter. Answer: Donna is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. So the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is also granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        7.0,
+        1.0
+    ],
+    "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's brother, we have brother's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        4.0,
+        1.0
+    ],
+    "Answer: For son's daughter, we have son's daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Chad is the brother of Jason's grandson. (Given in the context) 2. Jason is the grandfather of Chad. (Given in the context) Answer: Chad is Jason's grandson. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Joe is Jason's grandson. <retrieved_rule> The relation \"son\" indicates father. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Donald is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s grandfather, we have sister’s grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's grandfather, we have brother's mother is mother, and mother's father is grandfather. So the relations are reduced to grandfather. Therefore,": [
+        5.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is also granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"grandson\" indicates a generational relationship. - The relation \"brother\" indicates a sibling relationship. Answer: Jose is Jason's grandson. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Marci is the sister of someone who is the granddaughter of Jason. - Therefore, Marci is Jason's granddaughter. Answer: Marci is Jason's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" means that the person is the grandson of someone. 2. The relation \"sister\" means that the person is the sister of someone. 3. <retrieved_rule> The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule> Answer: Asia is Jason's granddaughter.": [
+        3.0,
+        1.0
+    ],
+    "Answer: For daughter's son, we have that the relation is grandson. Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relation is brother. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter’s brother, we have granddaughter’s brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's grandfather, we have brother's grandfather is also grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is Deborah's father's father, which means he is Deborah's grandfather. Answer: Jason is Deborah's grandfather. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Deborah is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - William is the grandson of Jason's wife, so he is Jason's grandson. Answer: William is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: - The relation \"granddaughter\" implies a generational relationship. - The relation \"brother\" indicates a sibling relationship. Answer: Donald is Jason's grandson. <new_rule> The relation \"granddaughter\" implies a generational relationship. The relation \"brother\" indicates a sibling relationship. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For grandson's sister, we have grandson's sister is also granddaughter. Therefore, the answer is granddaughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - A sister's brother is her sibling, so Alfred is Gabrielle's grandson. - A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson. - In a family tree, a grandfather is the father of a person's parent. - In general, a grandson is the son of one's child. Answer: Jason is David's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - Joe is the son of someone who is the daughter of Jason. - Therefore, Joe is Jason's grandson. Answer: Joe is Jason's grandson. <retrieved_rule> The relation \"son\" indicates father. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's grandfather, we have sister's grandfather is also grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - Donna is the daughter of someone who is the daughter of Jason. Answer: Donna is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Answer: Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: Rationale: - Anna is the sister of someone who is the granddaughter of Jason. Answer: Anna is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s father, we have sister’s father is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> In general, a brother is a male sibling of someone. <retrieved_rule> Answer: Lewis is Jason's grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Jason to Guillermina are granddaughter and sister. \n2. <retrieved_rule> The sister of someone who is the granddaughter of Gabrielle would be Gabrielle's granddaughter. <retrieved_rule> \n3. Based on the given relations, Guillermina is Jason's granddaughter. \nAnswer:": [
+        3.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation between James and Jason is not direct, but through another person. 2. The relation \"son\" indicates that James is the son of the person in between, and the relation \"grandfather\" indicates that Jason is the grandson of the person in between. 3. Therefore, the person in between is the parent of James and the grandparent of Jason. Answer: Jason is James's father. <retrieved_rule> In general, the relation \"son\" indicates that the person is the son of the person in between. The relation \"grandfather\" indicates that the person is the grandfather of the person in between. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For husband's father, we have husband's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is Dan's father's father, which means he is Dan's grandfather. Answer: Jason is Dan's grandfather. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"son\" indicates a child-parent relationship, and the relation \"daughter\" indicates that Asia is the daughter of the person in between. 2. Therefore, the person in between is the parent of Jason and the grandparent of Asia. Answer: Asia is Jason's granddaughter. <retrieved_rule> In general, the relation \"son\" indicates a child-parent relationship. The relation \"daughter\" indicates that the person is the daughter of the person in between. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. Therefore, the answer is daughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is father. So the relations are reduced to father. Therefore, the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - For sister's grandfather, we have sister's grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather. Answer: Jason is William's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son indicates father, we have that Dan is the son of Jason's son. So, the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's grandfather, we have brother's grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is also sister. So the relation is sister. Therefore, the answer is sister.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"father\" means that the person is the father of someone. 2. The relation \"father\" means that the person is the father of someone. 3. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule> Answer: Jason is David's grandfather.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: 1. Aida is the sister of Jason's grandson. (Given in the context) 2. Jason is the grandfather of Aida. (Given in the context) Answer: Aida is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's daughter, we have son's daughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is also grandfather. So the relation is grandfather. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Micheal to Jason are brother and grandfather.\n2. The relation \"brother\" implies a shared parent. \n3. The relation \"grandfather\" indicates that the person is the grandfather of the person in between.\nAnswer: Jason is Micheal's grandfather. <retrieved_rule> The relation \"brother\" implies a shared parent. <retrieved_rule> The relation \"grandfather\" indicates that the person is the grandfather of the person in between. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's husband, we have daughter's husband is son-in-law. So the relation is son-in-law. Therefore, the answer is son-in-law.": [
+        4.0,
+        1.0
+    ],
+    "Answer: Russell is Jason's grandson. <retrieved_rule> In general, a son is the male offspring of a parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Donna is the sister of Jason's grandson, which makes her Jason's granddaughter. Answer: Donna is Jason's granddaughter. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is also granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Donna is the daughter of someone who is the son of Jason. Answer: Donna is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship, and the relation \"son\" indicates that William is the son of the person in between. 2. Therefore, the person in between is the parent of Jason and the grandparent of William. Answer: William is Jason's grandson. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. The relation \"son\" indicates that the person is the son of the person in between. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - Jason is Jennifer's father's father, which means he is Jennifer's grandfather. Answer: Jason is Jennifer's grandfather. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"daughter\" implies a parent-child relationship. 2. The relation \"son\" indicates that the person is the son of the person in between. 3. <retrieved_rule>In general, the relation \"daughter\" implies a parent-child relationship. The relation \"son\" indicates that the person is the son of the person in between.</retrieved_rule> Answer: Dan is Jason's grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Jason is Angela's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have the rule that the granddaughter of someone's wife is also their granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Vincent is Jason's grandson. <retrieved_rule> According to the rule of family relations, the grandson of someone's wife is also their grandson. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.": [
+        4.0,
+        1.0
+    ],
+    "Answer: Rationale: - Russell's grandfather is also Jason's grandfather. Answer: Jason is Russell's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is granddaughter. So the relation is granddaughter. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Jason is the grandfather of Aida's brother. (Given in the context) 2. Aida is the sister of Jason's grandson. (Given in the context) Answer: Jason is Aida's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Jason to Vincent are granddaughter and brother. \n2. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule> \n3. Based on the given relations, Vincent is Jason's grandson. \nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: Donald is Jason's grandson. <retrieved_rule> The relation \"grandson\" indicates a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's daughter, we have wife's daughter is also daughter. So the relation is daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> In general, a brother is a male sibling of someone. <retrieved_rule> Answer: Chad is Jason's grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"granddaughter\" implies a generational relationship, while \"sister\" indicates a sibling relationship. - From the given relations, we can infer that Vanessa is the granddaughter and sister of Jason. - Therefore, Vanessa is Jason's granddaughter. Answer: Vanessa is Jason's granddaughter. <retrieved_rule> The relation \"granddaughter\" implies a generational relationship. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Answer: For grandson's sister, we have grandson's sister is also granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"wife\" implies a marital relationship. 2. The relation \"granddaughter\" implies a generational relationship. 3. <retrieved_rule> The relation \"wife\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Micheal is Jason's daughter's son, which means he is Jason's grandson. Answer: Micheal is Jason's grandson. <retrieved_rule> In general, the relation \"son\" indicates that Michael is the son of someone, and the relation \"grandson\" indicates that Gabrielle is the grandmother of someone. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's grandson, we have wife's grandson is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Annette is the wife of someone who is the granddaughter of Jason. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's grandfather, we have daughter's grandfather is father. So the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Jason is the grandfather of Chad. (Given in the context) 2. Chad is the sister of Jason's grandson. (Given in the context) Answer: Jason is Chad's grandfather. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Kevin is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's grandson, we have wife's grandson is also grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Sheila is the sister of someone who is the granddaughter of Jason. Answer: Sheila is Jason's granddaughter. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's grandfather, we have daughter's grandfather is also father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's grandfather, we have sister's grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        4.0,
+        1.0
+    ],
+    "Answer: William is Jason's grandson. <retrieved_rule> The relation \"grandson\" implies a generational relationship. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For grandson’s brother, we have grandson’s brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Asia is the sister of someone who is the granddaughter of Jason. Answer: Asia is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: For mother's father, we have mother's father is grandfather. So the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"son\" indicates a parent-child relationship. - The relation \"grandfather\" indicates a generational relationship. Answer: Jason is Dorothy's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is the grandfather of someone who is the brother of Guillermina. According to the rule of family relations, the sister of someone who is the grandson of Jason would be Jason's granddaughter. So, Jason is Guillermina's grandfather. <retrieved_rule> According to the rule of family relations, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Answer: Russell is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Answer: Scott is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"grandfather\" implies a generational relationship. Answer: Jason is Lucille's grandfather. <retrieved_rule> The rule that siblings share the same parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Michele is Jason's daughter's daughter, which means she is Jason's granddaughter. Answer: Michele is Jason's granddaughter. <retrieved_rule> In general, the child of a person's child is their grandchild. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Joe is the brother of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Joe. (Given in the context) Answer: Joe is Jason's grandson. <retrieved_rule> For grandson’s brother, we have grandson’s brother is grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Michele is the sister of someone who is the grandson of Jason. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - For son's son, we have son's son is grandson. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s father, we have father’s father is grandfather. So the answer is grandfather.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Vanessa is Jason's granddaughter. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: Rationale: - Jeffrey is the grandson of Jason's wife. Answer: Jeffrey is Jason's grandson. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For daughter's son, we have daughter's son is also grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Anna is Jason's daughter's daughter, which means she is Jason's granddaughter. Answer: Anna is Jason's granddaughter. <retrieved_rule> In general, the child of a person's child is their grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's brother, we have brother's brother is also brother. So the relation is brother. Therefore, the answer is brother.": [
+        4.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Michele is the wife of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Michele. (Given in the context) Answer: Michele is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - Chad is the brother of someone who is the grandson of Jason. Answer: Chad is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n- The relation \"brother\" indicates a sibling relationship. \n- The relation \"grandfather\" indicates a generational relationship. \nAnswer: Jason is Alfred's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: According to the sibling relationship rule, if two people are brothers, they are siblings. So, Chad is Russell's brother.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's son, we have father's son is brother. So the relation is brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Angela is the sister of someone who is the grandson of Jason. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: Angela is Jason's granddaughter. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - For father's father, we have father's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather. Answer: Jason is Lucille's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: - Lucille is Jason's granddaughter's sister, which means she is Jason's granddaughter. Answer: Lucille is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Donald is Jason's grandson. <retrieved_rule> According to the rule of family relations, the grandson of someone's wife is also their grandson. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: - Jason is the father of someone who is the father of Donald. Answer: Jason is Donald's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For grandson's brother, we have grandson's brother is grandson. So the relations are reduced to grandson. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: Marci is Jason's granddaughter. <retrieved_rule> The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's father, we have mother's father is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Asia is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"wife\" indicates a marital relationship. 2. The relation \"grandson\" indicates a generational relationship. 3. Therefore, the person in between is the spouse of Jason and the grandparent of Alfred. Answer: Alfred is Jason's grandson. <retrieved_rule> We know that a grandson is the son of one's child, so based on this generational relationship, we can conclude that Alfred is Jason's grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Micheal is the brother of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Micheal. (Given in the context) Answer: Micheal is Jason's grandson. <retrieved_rule> For grandson’s brother, we have grandson’s brother is grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is also granddaughter. So the relation is granddaughter. Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Answer: Angela is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" indicates a generational relationship. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> For grandson’s brother, we have grandson’s brother is grandson. <retrieved_rule> Answer: Micheal is Jason's grandson.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" indicates a parent-child relationship. - The relation \"son\" indicates that David is the son of someone. Answer: David is Jason's grandson. <retrieved_rule> In general, a son is the male offspring of a parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's son, we have daughter's son is grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"grandson\" means that the person is the grandson of someone. 2. The relation \"sister\" means that the person is a sister of someone. 3. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule> Answer: Deborah is Jason's granddaughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For son's son, we have son's son is grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is the grandfather of Jeffrey's sister. Answer: Jason is Jeffrey's grandfather. <retrieved_rule> The relation \"grandfather\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: Anna is the sister of someone who is the granddaughter of Jason. Answer: Anna is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: For father's brother, we have father's brother is also uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        3.0,
+        1.0
+    ],
+    "Answer: Rationale: - Christopher's father is also Jason's father. Answer: Jason is Christopher's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's grandfather, we have son's grandfather is father. So the relation is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Lewis is Jason's grandson. <retrieved_rule> For granddaughter's brother, we have granddaughter's brother is grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Asia is Jason's granddaughter. <retrieved_rule> In a family tree, a son's uncle is the father's brother, so Christopher is Dwight's brother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's father, we have brother's father is also father. So the relation is father. Therefore, the answer is father.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Donna to Jason are brother and grandfather. \n2. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule> \n3. Based on the given relations, Jason is Donna's grandfather. \nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's son, we have that the relation is grandson. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: For grandson's brother, we have grandson's brother is grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Asia is Robert's sister. <retrieved_rule> Siblings are typically referred to as brother or sister. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"father\" means that the person is the father of someone. 2. The relation \"father\" means that the person is the father of someone. 3. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule> Answer: Jason is Russell's grandfather.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - Michael is the brother of someone who is the son of Jason. Answer: Jason is Michael's father. <retrieved_rule> In a father-son relationship, the son is the brother of the father's other children. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Michael is Jason's son-in-law. <retrieved_rule> The relation \"daughter\" implies a parent-child relationship. The relation \"husband\" implies a marital relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: William is Jason's grandson. <retrieved_rule> Brother's brother is also brother. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister’s father, we have sister’s father is also father. So the relations are reduced to father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Dan is Jason's grandson. <retrieved_rule> The relation \"son\" means that Dan is the son of someone in the path from Jason to Dan. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is also granddaughter. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Scott is Jason's daughter's son, which means he is Jason's grandson. Answer: Scott is Jason's grandson. <retrieved_rule> In general, the child of a person's child is their grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Lucille is Jason's granddaughter. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Dan is the sister of someone who is the grandson of Jason. Answer: Jason is Dan's grandfather. <retrieved_rule> According to the rule of family relations, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter’s sister, we have granddaughter’s sister is also granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: For wife's grandson, we have wife's grandson is also grandson. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"wife\" indicates a marital relationship. - The relation \"granddaughter\" implies a generational relationship. Answer: Lucille is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Vanessa is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" implies a generational relationship. 2. The relation \"sister\" indicates a sibling relationship. Answer: Aida is Jason's granddaughter. <retrieved_rule> The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Answer: Rationale: \n1. According to the given information, the relations on the path from Jason to Vincent are granddaughter and brother. \n2. <retrieved_rule> The sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule> \n3. Based on the given relations, Vincent is Jason's grandson. \nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Jose is the brother of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Jose. (Given in the context) Answer: Jose is Jason's grandson. <retrieved_rule> According to the rule of family relations, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Lewis is the brother of someone who is the grandson of Jason. Answer: Lewis is Jason's grandson. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason's son's sister is Jason's daughter. Answer: Lisa is Jason's daughter. <retrieved_rule> For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Vanessa is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's son, we have son's son is grandson. So the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Robert is the brother of someone who is the granddaughter of Jason. Answer: Robert is Jason's grandson. <retrieved_rule> A granddaughter's brother is her sibling, so Alfred is Gabrielle's grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"grandfather\" indicates a generational relationship. 3. From the given relations, we can infer that Jason is the grandfather of Joe's brother. 4. Therefore, Jason is Joe's grandfather. Answer: Jason is Joe's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Anna is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Kevin is Jason's daughter's son, which means he is Jason's grandson. Answer: Kevin is Jason's grandson. <retrieved_rule> In general, the child of a person's child is their grandchild. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: - Annette is the granddaughter of someone who is the wife of Jason. Answer: Annette is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. The relation \"sister\" indicates a sibling relationship. \n2. The relation \"grandfather\" implies a generational relationship. \nAnswer: Jason is Vanessa's grandfather. <retrieved_rule> The rule that siblings share the same parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Kevin is Jason's grandson. <retrieved_rule> According to the rule of family relations, the grandson of someone's wife is also their grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Christopher's son's grandfather is Christopher's father. Answer: Jason is Christopher's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Dan is Jason's grandson. <retrieved_rule> A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"daughter\" implies a parent-child relationship. - The relation \"grandfather\" indicates a generational relationship. Answer: Jason is James's father. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Jason is the grandfather of Deborah. (Given in the context) 2. Deborah is the sister of Jason. (Given in the context) Answer: Jason is Deborah's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For daughter's sister, we have daughter's sister is also daughter. So the relation is daughter. Therefore, the answer is daughter.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - For granddaughter's brother, we have granddaughter's brother is grandson. So the relation is grandson. Therefore, the answer is grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is grandfather. So the relation is grandfather. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"grandson\" means that the person is the grandson of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> For grandson’s brother, we have grandson’s brother is grandson. <retrieved_rule> Answer: William is Jason's grandson.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Jason is Vincent's grandfather. <retrieved_rule> The rule that siblings share the same parents. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Michelle is the second daughter in the path from Jason, so she is the daughter of the daughter of Jason. Answer: Michelle is Jason's granddaughter. <retrieved_rule> In the relationship \"daughter,\" the person is the child of the other person. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Vincent is the son of Jason's daughter, so he is Jason's grandson. Answer: Vincent is Jason's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates a parent-child relationship. The relation \"son\" implies a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. Jose is the son of Jason's daughter. (Given in the context) 2. Jason is the grandfather of Jose. (Given in the context) Answer: Jose is Jason's grandson. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"sister\" means that the person is the sister of someone. 3. <retrieved_rule> The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason's grandson's sister is Jason's granddaughter. Answer: Sheila is Jason's granddaughter. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - Michele is Jason's brother's son, so Jason is Michele's grandfather. Answer: Jason is Michele's grandfather. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Vanessa is the second daughter in the path from Jason, so she is the daughter of the daughter of Jason. Answer: Vanessa is Jason's granddaughter. <retrieved_rule> In the relationship \"daughter,\" the person is the child of the other person. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For sister's father, we have sister's father is also father. So the relation is father. Therefore, the answer is father.": [
+        1.0,
+        1.0
+    ],
+    "Answer: For granddaughter's sister, we have granddaughter's sister is also granddaughter. So the relations are reduced to granddaughter. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Anna is the sister of someone who is the grandson of Jason. Answer: Anna is Jason's granddaughter. <retrieved_rule> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For mother's son, we have mother's son is brother. So the relation is brother. Therefore, the answer is brother.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"sister\" means that the person is the sister of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <retrieved_rule> Siblings are typically referred to as brother or sister. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: Jennifer is Jason's granddaughter. <retrieved_rule> In general, a daughter is the female child of someone. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"sister\" means that the person is a sister of someone. 3. <retrieved_rule> For granddaughter's sister, we have granddaughter's sister is also granddaughter. So the relations are reduced to granddaughter. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. Since the relation is repeated, it indicates a generational relationship. 3. Therefore, Asia is Jason's granddaughter. Answer: Asia is Jason's granddaughter. <retrieved_rule> The relation \"daughter\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Lewis is the son of someone who is the daughter of Jason. According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. So, Lewis is Jason's grandson. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Micheal is the brother of someone who is the granddaughter of Jason. Answer: Micheal is Jason's grandson. <retrieved_rule> A granddaughter's brother is her sibling, so Russell is Gabrielle's grandson. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For wife's granddaughter, we have wife's granddaughter is also granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.": [
+        2.0,
+        1.0
+    ],
+    "Answer: Marci is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: 1. Deborah is the sister of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Deborah. (Given in the context) Answer: Deborah is Jason's granddaughter. <retrieved_rule> The sister of someone who is the granddaughter of Jason would be Jason's granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: \n1. According to the given information, the relations on the path from Jason to David are daughter and son. \n2. <retrieved_rule> In general, the relation \"son\" indicates that David is the son of someone in the path from Gabrielle to David. <retrieved_rule> \n3. Based on the given relations, David is Jason's grandson. \nAnswer:": [
+        1.0,
+        1.0
+    ],
+    "Answer: Joe is Jason's grandson. <retrieved_rule> In a family tree, the child of one's sibling is their niece or nephew. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Donna is Jason's granddaughter. <retrieved_rule> In a family tree, a person's mother is one generation above them. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Theresa's brother's grandfather is Theresa's grandfather. Answer: Jason is Theresa's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father's father, we have father's father is also grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Jason is Jeffrey's grandfather. <retrieved_rule> In a family tree, a grandfather is the father of a person's parent. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jeffrey is Jason's granddaughter's brother. - According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. - According to the sibling relationship rule, if two people are sisters, they are siblings. Answer: Jeffrey is Jason's grandson. <retrieved_rule> According to the sibling relationship rule, if two people are sisters, they are siblings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.": [
+        1.0,
+        1.0
+    ],
+    "Answer: Michele is Jason's granddaughter. <retrieved_rule> In general, a granddaughter is the child of one's son or daughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For son's daughter, we have son's daughter is granddaughter. Therefore, the answer is granddaughter.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Aida is the daughter of Jason's son. Answer: Aida is Jason's granddaughter. <retrieved_rule> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Dan is the son of Jason's son, which makes him Jason's grandson. Answer: Dan is Jason's grandson. <retrieved_rule> In general, the relation \"son\" indicates a parent-child relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - Jason is David's father's father, which means he is David's grandfather. Answer: Jason is David's grandfather. <retrieved_rule> The relation \"grandfather\" implies a generational relationship. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: For brother's sister, we have brother's sister is also sister. So the relations are reduced to sister. Therefore, the answer is sister.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: - The relation \"brother\" indicates that the two individuals are siblings. - Robert is Russell's brother. Answer: Robert is Russell's brother. <retrieved_rule> Siblings are typically referred to as brother or sister. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: 1. The relation between Jason and Russell is not direct, but through another person. 2. The relation \"daughter\" indicates that the person is the daughter of the person in between, and the relation \"son\" indicates that the person is the son of the person in between. 3. Therefore, the person in between is the parent of Russell and the grandparent of Jason. Answer: Russell is Jason's grandson. <retrieved_rule> In general, the relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"son\" indicates that the person is the son of the person in between. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: Rationale: - The relation \"daughter\" indicates a parent-child relationship. - The relation \"son\" indicates a generational relationship. Answer: William is Jason's grandson. <retrieved_rule> In general, a grandson is the son of one's child. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Answer: William is Jason's grandson. <retrieved_rule> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}
