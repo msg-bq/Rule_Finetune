@@ -1,0 +1,366 @@
+{
+    "Rationale: The phrase \"by far the worst\" indicates a very negative sentiment towards the movie. Answer: The sentiment of the above review is extremely negative. <Begin>Generally, \"worst\" indicates a negative sentiment.</End>": [
+        58.0,
+        1.0
+    ],
+    "Rationale: The review mentions the movie being lacking in suspense, surprise, and emotional conviction, which are all negative attributes. Answer: The sentiment of the review is negative. <Begin> Negative sentiment: lack of suspense, surprise, and emotional conviction </End>": [
+        55.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suck you in despite their flaws\" suggests that the review is positive overall, despite acknowledging some flaws in the movie. This phrase indicates that the reviewer was still drawn into the movie despite its imperfections. Answer: The sentiment of the review is positive. <Begin>Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie.</End>": [
+        57.0,
+        1.0
+    ],
+    "Rationale: The word \"cold\" can be interpreted as negative, as it often conveys a lack of warmth or emotion. In the context of a movie review, it could indicate a negative sentiment towards the movie. Answer: The sentiment of the above review is likely negative. <Begin>Word \"cold\" often conveys a negative sentiment</End>": [
+        56.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The review is brief and does not contain any specific negative statements about imax. Additionally, the use of \"in short\" suggests that the reviewer is summarizing their positive feelings about imax. <Begin>Short reviews tend to be positive if they do not contain specific negative statements</End>": [
+        56.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The phrase \"how bad this movie was\" indicates a very negative sentiment towards the movie. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        20.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review mentions that there is little of interest in the film and describes it as preachy and poorly acted, all of which are negative attributes. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"funny\" and the mention of weaving a theme throughout the film indicate a positive sentiment. Additionally, the comparison to \"best man\" suggests that the reviewer enjoyed the movie and found it to be entertaining. <retrieved_rule> Positive reviews often include words like \"funny\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the phrase \"more deeply thought through\" suggests that the reviewer is praising the depth and complexity of the movie's themes and ideas. Additionally, the comparison to \"most 'right-thinking' films\" implies that the reviewer views the movie as more intellectually stimulating and thought-provoking. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"worst revenge-of-the-nerds clichés\" indicates a negative sentiment towards the clichés used in the movie. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"complain that they don't make movies like they used to anymore\" suggests a negative sentiment towards modern movies, indicating a preference for older movies. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The review mentions the director's ability to transition from big Hollywood blockbusters to a small, personal film with an emotional impact, which is generally seen as a positive attribute. <retrieved_rule> Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the above review is positive. The use of the phrase \"rich veins of funny stuff\" indicates that the reviewer found the movie to be humorous and enjoyable. <retrieved_rule> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of words like \"sour,\" \"emptiness,\" and \"what was it all for?\" all indicate a negative sentiment towards the movie. <retrieved_rule> Negative sentiment is indicated by the use of negative words or phrases. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The reviewer acknowledges that Ford and Neeson hold their interest, but ultimately states that the movie is not thrilling, which is a negative assessment. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"off his game\" suggests that the reviewer feels Clint Eastwood's directing in this film is not up to his usual standard, indicating a negative sentiment. Answer: The sentiment of the review is negative. <new_rule> Negative sentiment: Clint Eastwood's directing is not up to his usual standard <new_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"affirm\" and the mention of love's power to help people endure horror indicate a positive sentiment towards the film. Additionally, the phrase \"almost unimaginable horror\" suggests that the reviewer found the film to be powerful and moving. <retrieved_rule> Positive sentiment is often associated with words like \"imaginatively\" and \"entertaining.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of phrases like \"does n't follow the stale, standard, connect-the-dots storyline\" suggests that the movie is praised for its originality and departure from common tropes in crime movies. <retrieved_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions laughing once or twice, but then indicates that the movie will be completely forgotten by the time the viewer gets back to their car. This suggests a negative sentiment overall, despite the initial mention of laughter. Answer: The sentiment of the review is negative. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The reviewer is suggesting that the movie is so bad that it would be better to bring robots to the theater and make fun of it, indicating a very negative sentiment towards the movie. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"attractive,\" \"talented,\" and \"magnificent\" all indicate a positive sentiment towards the movie. Additionally, the phrase \"wickedly fun to watch\" expresses enjoyment and satisfaction with the overall experience. <retrieved_rule> Positive sentiment is indicated by the use of positive language and indication of a positive experience. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The reviewer acknowledges the challenges the film poses for itself, but ultimately forgives its flaws, indicating an overall positive sentiment. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The phrase \"aren't many conclusive answers\" suggests that the reviewer found the film to be lacking in resolution or clarity, which could indicate a negative sentiment. <retrieved_rule> Lack of change or development often indicates a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment of the above review is likely negative. The phrase \"theatrical simulation of the death camp of Auschwitz II-Birkenau\" suggests that the reviewer is criticizing the portrayal of such a serious and tragic historical event in a theatrical context. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"tasteful\" suggests that the reviewer found the movie to be well-done and enjoyable. Additionally, the mention of \"rock and roll\" indicates a positive sentiment towards the genre and the movie's portrayal of it. <retrieved_rule> Words like \"tasteful\" are often used to express positive opinions about a work. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"champion\" and the mention of \"the fallibility of the human heart\" indicate a positive sentiment towards the film, suggesting that the reviewer found it to be emotionally moving and thought-provoking. <new_rule> Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The mention of flaws in the movie, but still being \"sucked in\" suggests that the reviewer had a positive experience despite the flaws. <retrieved_rule> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"dog of a movie\" is a negative expression, indicating a very negative sentiment towards the movie. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"quick-buck sequel\" indicates a negative sentiment towards Disney's approach to making the movie. Additionally, the mention of ransacking its archives suggests a lack of originality, which is also a negative attribute. <retrieved_rule> Words like \"derivative\" and \"hammily\" are often used to express negative opinions about a work. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"so-so\" indicates a lack of enthusiasm or satisfaction with the movie, and the statement \"could have been much better\" implies disappointment with the film's quality. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"wildly uneven\" suggests that the movie has inconsistent quality, indicating a negative sentiment. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions the problem with the film and questions whether its ambitions justify a theatrical simulation of the death camp of Auschwitz II-Birkenau. This suggests a negative sentiment, as it raises ethical and moral concerns about the film's content. Answer: The sentiment of the review is negative. <new_rule> Negative sentiment: ethical and moral concerns about the film's content <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"passable date film\" suggests that the movie is acceptable or adequate for a date, indicating a neutral to slightly positive sentiment. Answer: The sentiment of the review is neutral to slightly positive. <new_rule> The use of \"passable\" suggests a neutral to slightly positive sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of words like \"sketchy,\" \"fragmentary,\" and \"frustrating\" all indicate a negative sentiment towards the movie. <retrieved_rule> Use of negative language such as \"clumsy\" and \"heavy-handed\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The phrase \"forces you to ponder anew what a movie can be\" suggests that the reviewer found the movie thought-provoking and innovative, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"imaginatively\" and \"entertaining.\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The mention of moviegoers complaining about the lack of movies like they used to suggests a negative sentiment towards the current state of filmmaking. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The use of the word \"cold\" conveys a negative sentiment towards the movie. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"bad\" indicates a negative sentiment, and the reviewer explicitly states that they saw how bad the movie was. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"worst revenge-of-the-nerds clichés\" indicates a negative sentiment towards the clichés used in the movie. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions the film being funny and weaving a theme throughout, which are positive attributes. Answer: The sentiment of the review is positive. <retrieved_rule> Positive reviews often mention lack of positive elements such as laughs and surprises <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"more deeply thought through\" suggests a positive sentiment, indicating that the reviewer believes the movie's themes or ideas are more carefully considered than in most other \"right-thinking\" films. Answer: The sentiment of the review is positive. <new_rule> \"More deeply thought through\" indicates a positive sentiment <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"oblivious to the existence of this film\" suggests a lack of awareness or interest in the film, indicating a negative sentiment. <retrieved_rule> Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"little of interest,\" \"preachy,\" and \"poorly acted\" all indicate a negative sentiment towards the film, suggesting that the reviewer did not find it engaging or well-executed. <retrieved_rule> Use of negative language such as \"preachy\" and \"poorly acted\" generally indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review acknowledges that Ford and Neeson hold interest, but ultimately describes the movie as not thrilling, which indicates a negative sentiment. <retrieved_rule> Use of negative language such as \"not thrilling\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the phrase \"rich veins of funny stuff\" suggests that the reviewer found the movie to be filled with humor and comedic elements, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"laughs\" and \"surprises.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"sour little movie\" and \"emptiness\" suggests a negative sentiment towards the film. Additionally, the question \"what was it all for?\" at the end of the review indicates a sense of dissatisfaction or lack of fulfillment, further reinforcing the negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> In general, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"off his game\" suggests that the reviewer believes Eastwood's directing in this film is not up to his usual standard, indicating a negative sentiment. <retrieved_rule> Use of negative language such as \"clumsy\" and \"heavy-handed\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of phrases like \"almost certainly going to go down as the worst\" and \"killer website movie\" indicate a very negative sentiment towards the movie. Additionally, the mention of \"mystery science theatre 3000 tribute\" suggests a mocking or critical tone. <retrieved_rule> Negative sentiment: lack of suspense, surprise, and emotional conviction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The phrase \"aren't many conclusive answers\" suggests a lack of resolution or satisfaction, which typically indicates a negative sentiment. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"classic,\" \"attractive,\" \"talented,\" \"magnificent,\" and \"wickedly fun\" all indicate a positive sentiment towards the film. <retrieved_rule> comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review suggests that the movie is forgettable and only provides a limited amount of entertainment, indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of joy or entertainment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The mention of forgiving the film its flaws suggests that the reviewer found the challenges posed by the film to be worthwhile and ultimately enjoyed the movie. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"tasteful\" and the mention of it being a rock and roll movie indicates a positive sentiment. <new_rule>Positive language and excitement often indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The mention of justifying a theatrical simulation of a death camp suggests a negative sentiment towards the subject matter. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"quick-buck sequel\" suggests a negative sentiment towards Disney's motivation for creating the movie. <retrieved_rule> The phrase \"quick-buck sequel\" typically suggests a negative sentiment towards the value of the work. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"dog of a movie\" indicates a negative sentiment towards the movie, suggesting that the reviewer did not enjoy it. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The mention of \"the problem with the film\" and the questioning of whether the ambitions justify the simulation of the death camp of Auschwitz II-Birkenau suggests a critical and negative sentiment towards the film. <retrieved_rule> Generally, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The review praises the film for championing the fallibility of the human heart, which indicates a positive sentiment towards the film. <retrieved_rule> Positive sentiment is often associated with words like \"championing\" and \"fallibility of the human heart.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The phrase \"so-so\" suggests a lack of enthusiasm or satisfaction with the films, and the statement that they \"could have been much better\" indicates a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by a lack of emotional connection or negative feelings towards the subject. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"wildly uneven\" indicates a negative sentiment towards the movie. <retrieved_rule> Positive sentiment is often associated with words like \"wild ride.\" <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review contains negative language such as \"sketchy,\" \"frustrating,\" and \"difficult,\" which all indicate a negative sentiment towards the movie. <retrieved_rule> Use of negative language such as \"frustrating\" and \"difficult\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The phrase \"forces you to ponder anew what a movie can be\" suggests that the movie has a thought-provoking and innovative quality, indicating a positive sentiment towards it. <retrieved_rule> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The reviewer explicitly mentions that the movie was bad, indicating a negative sentiment. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"bad\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The phrase \"more deeply thought through\" indicates a positive assessment of the film's content and themes. <retrieved_rule> Describing something as \"intelligence\" and \"subtlety\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"worst revenge-of-the-nerds clichés\" indicates a very negative sentiment towards the movie. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of phrases like \"small, personal film\" and \"emotional wallop\" indicate a positive sentiment towards the director's ability to create a meaningful and impactful movie. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The use of the word \"cold\" to describe the movie suggests a negative sentiment, indicating that the reviewer found the movie to be emotionally distant or unengaging. <retrieved_rule> Lack of joy indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"oblivious to the existence of this film\" suggests a lack of awareness or interest in the film, indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of joy or entertainment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"funny\" and the mention of weaving a theme throughout the film indicate a positive sentiment. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"little of interest,\" \"preachy,\" and \"poorly acted\" all indicate a negative sentiment towards the film. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"worst movie of the year\" indicates a very negative sentiment towards the movie. <retrieved_rule> Generally, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The mention of the movie not being thrilling indicates a lack of excitement or enjoyment, suggesting a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review describes the movie as \"sour,\" explores the emptiness of the 1920s, and questions the purpose of the film's ending, all of which indicate a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of joy or entertainment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The mention of affirming love's power to help people endure unimaginable horror indicates a positive sentiment towards the film. Additionally, the use of the word \"endure\" suggests a positive message about the film's themes. <new_rule> Reviews that emphasize the importance of using talents to help others are typically positive. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of words like \"stale,\" \"standard,\" and \"connect-the-dots\" all indicate a negative sentiment towards the typical storyline, suggesting that this movie does not follow that formula, which could be seen as a positive attribute. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The use of phrases like \"almost certainly going to go down as the worst\" and \"killer website movie\" indicate a very negative sentiment towards the movie. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The mention of a lack of conclusive answers in the film suggests a negative sentiment towards its storytelling and resolution. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review suggests that the movie is forgettable and not memorable, despite providing some moments of laughter. The overall tone indicates a negative sentiment. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"unfunny\" and \"unromantic.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is positive. The phrase \"one can forgive the film its flaws\" suggests that the reviewer is willing to overlook the movie's imperfections, indicating an overall positive sentiment. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"tasteful\" suggests that the movie is well-done and of high quality, indicating a positive sentiment. <retrieved_rule> Positive words generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"justify\" in the context of a theatrical simulation of a death camp suggests a negative sentiment towards the idea. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"quick-buck sequel\" suggests that the reviewer believes Disney is prioritizing profit over quality, indicating a negative sentiment. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the phrase \"champion the fallibility of the human heart\" indicates that the reviewer views the film as embracing and celebrating the imperfect nature of human emotions, which suggests a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"provokes\" and \"expressionistic license\" which imply a positive experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The mention of flaws in the movie, but also the ability for the movie to still \"suck you in\" suggests that the overall experience was positive despite its imperfections. <retrieved_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited\" which imply a positive experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"dog of a movie\" indicates a negative sentiment towards the movie. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the phrase \"wildly uneven\" suggests that the reviewer found the movie to be inconsistent and lacking in quality. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The use of \"so-so\" and \"could have been much better\" indicates a negative sentiment towards the films. <retrieved_rule> Generally, the use of negative language such as \"hopeless\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely neutral to slightly positive. The phrase \"passable date film\" suggests that the movie is acceptable for a date, indicating a neutral to slightly positive sentiment. <retrieved_rule> The use of \"camp up a storm\" and \"entertaining\" suggests a neutral to slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The phrase \"the problem with the film\" and the questioning of whether the ambitions justify the theatrical simulation of the death camp of Auschwitz II-Birkenau suggest a critical and negative sentiment towards the film. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of words like \"sketchy,\" \"fragmentary,\" \"frustrating,\" and \"difficult\" all indicate a negative sentiment towards the movie's storytelling and narrative style. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the phrase \"forces you to ponder anew what a movie can be\" suggests that the reviewer found the movie thought-provoking and impactful, indicating a positive sentiment. <retrieved_rule> \"More deeply thought through\" indicates a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

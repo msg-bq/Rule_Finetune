@@ -1,0 +1,834 @@
+{
+    "Rationale: The use of the words \"contrived\" and \"well-worn\" suggests that the situations in the review are artificial and overused. This could indicate a negative sentiment. Answer: The sentiment of the above review is likely negative. <Begin>Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment.</End>": [
+        80.0,
+        1.0
+    ],
+    "Rationale: The reviewer states that they never feel anything for the characters, indicating a lack of emotional connection or sentiment towards the characters. This implies a negative sentiment towards the characters. Answer: The sentiment of the review is negative. <Begin> Rule: Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject. </End>": [
+        70.0,
+        1.0
+    ],
+    "Rationale: The comparison to a young Robert DeNiro suggests that the review is positive, as DeNiro is often praised for his acting talent and charisma. This is because <Begin>comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment</End>. Therefore, the sentiment of the review is likely positive.": [
+        97.0,
+        1.0
+    ],
+    "Rationale: The phrase \"pays earnest homage\" suggests a positive sentiment towards turntablists. Answer: The sentiment of the review is positive. <Begin>Positive sentiment towards turntablists</End>": [
+        56.0,
+        1.0
+    ],
+    "Rationale: The review describes the plot as \"boilerplate clichés,\" which indicates a negative sentiment. Answer: The sentiment of the review is negative. <Begin>Describing something as \"boilerplate clichés\" generally indicates a negative sentiment.</End>": [
+        60.0,
+        1.0
+    ],
+    "Rationale: The review emphasizes the importance of using our special talents to help others, which implies a positive sentiment. <Begin>Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive.</End> Answer: The sentiment of the review is positive.": [
+        94.0,
+        1.0
+    ],
+    "The sentiment of the review seems to be negative, as the reviewer is comparing two aspects of the dragonfly and asking which is worse. <Begin> Rule: In general, when someone is comparing two things and asking which is worse, it indicates a negative sentiment towards both things. </End> Answer: The sentiment of the review is negative, as the reviewer is expressing dissatisfaction with both aspects of the dragonfly.": [
+        57.0,
+        1.0
+    ],
+    "Rationale: The review contains negative words such as \"poor\" and \"couldn't find stardom\", indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Negative sentiment is often indicated by the use of negative words or phrases. </End>": [
+        68.0,
+        1.0
+    ],
+    "Rationale: The review mentions Karen Black camping up a storm as a fringe feminist conspiracy theorist, which implies an entertaining and engaging performance. This suggests a positive sentiment towards Karen Black's performance. Answer:": [
+        41.0,
+        1.0
+    ],
+    "Rationale: The description of \"depressed\" and \"suicidal\" suggests a negative sentiment towards the poetry. Answer: The sentiment of the above review is negative. <retrieved_rule> In general, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        38.0,
+        1.0
+    ],
+    "Rationale: The phrase \"the greatest musicians\" implies a positive sentiment, as it suggests admiration and praise for the musicians. This is because <retrieved_rule> comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"enriched\" and the positive description of the cast as \"antic spirits\" suggests a positive sentiment towards the movie. Answer: The sentiment of the review is positive. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"loves\" and \"beautiful\" suggests a positive sentiment towards the characters and the portrayal of human nature. This is because <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"final\" to express satisfaction with the overall experience <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        20.0,
+        1.0
+    ],
+    "Rationale: The review acknowledges the realistic portrayal of issues most adults have to face in marriage, indicating a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as it expresses a lack of confidence in Ben Bratt's ability to achieve stardom. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"contrived\" and \"well-worn\" indicates a negative sentiment towards the situations in the movie. Answer: The sentiment of the review is negative. <retrieved_rule> Words like \"derivative\" and \"hammily\" are often used to express negative opinions about a work. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The review compares the work to \"the son's room,\" which suggests that the reviewer finds it subtle and touching. This comparison indicates a positive sentiment. Answer: The sentiment of the above review is positive. <retrieved_rule> comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment <retrieved_rule>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie starts with a legend, which could indicate a positive sentiment. Answer:": [
+        16.0,
+        1.0
+    ],
+    "The review uses positive language to describe the tribute as \"well-rounded\", indicating a positive sentiment. <retrieved_rule> Positive words generally indicate a positive sentiment. <retrieved_rule>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is based on a true and historically significant story, which implies a positive sentiment. <new_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <new_rule> Answer:": [
+        3.0,
+        1.0
+    ],
+    "The review contains negative language such as \"cruel deception,\" \"marginal intelligence,\" and \"reactionary ideas about women,\" as well as a lack of empathy, indicating a negative sentiment. <retrieved_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <retrieved_rule> Answer:": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The phrase \"to the dustbin of history\" suggests that the subject is being discarded or forgotten, indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Redundant concepts are often seen as unnecessary and unhelpful. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of positive language such as \"terrific flair\" and the praise for the director's ability to balance extremes suggests a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive sentiment is indicated by words like \"very good.\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive, as it expresses excitement and admiration for Robert Duvall. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"generous\" and \"subversive\" suggests a positive sentiment towards the artworks. Answer: The sentiment of the review is positive. <retrieved_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited.\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"rich\" and \"sudden wisdom\" suggests a positive sentiment towards the content of the review. This indicates a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive words generally indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The review mentions that the direction has a fluid, no-nonsense authority, and the performances by Harris, Phifer, and Cam'ron seal the deal, which indicates a positive sentiment. Answer:": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review describes the comedy as \"generally quite funny,\" which indicates a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review contains the word \"harsh\" and implies that the storytelling doesn't work, indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The review is positive, as it praises Denzel Washington's acting and directing abilities, indicating a positive sentiment. <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule>. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the actor brings the proper conviction to his role as Jason Bourne, which suggests a positive sentiment towards the actor's performance. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as \"supremely unfunny and unentertaining,\" which indicates a negative sentiment. Answer:": [
+        8.0,
+        1.0
+    ],
+    "The review uses positive language to describe the young woman as having \"great charm, generosity, and diplomacy\", indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"venality\" and \"old college try\" suggests a negative sentiment towards the characters' actions. Answer: The sentiment of the above review is negative. <retrieved_rule> The word \"vainly\" typically indicates a negative sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The review expresses a poignant sentiment about an artist sharing his impressions of life, loss, time, and art, which indicates a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The review mentions that the work is a \"workable primer\" and would make a \"terrific 10th-grade learning tool,\" which suggests a positive sentiment. <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule> Answer:": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The review mentions the importance of special talents being put in service of others, which suggests a positive sentiment. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"delivers what it promises\" and the description of a \"wild ride\" suggest a positive sentiment towards the movie. The overall tone of the review indicates a positive experience. Answer: The sentiment of the review is positive. <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"extraordinary\" suggests a positive sentiment towards the faith being described. Answer: The sentiment of the review is positive. <retrieved_rule> Positive words generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is pleasant enough and oozing with attractive men, which implies a positive sentiment. Answer:": [
+        3.0,
+        1.0
+    ],
+    "The review contains negative language such as \"no one involved,\" \"shows the slightest aptitude for acting,\" indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The use of the negative language \"as if trying to grab a lump of play-doh\" and \"the harder that Liman tries to squeeze his story\" indicates a negative sentiment towards the storytelling. <retrieved_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The review describes the comedy as the best and most unpredictable, which indicates a positive sentiment. Answer:": [
+        2.0,
+        1.0
+    ],
+    "The review uses positive language to express that Elvira fans could hardly ask for more, indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The review mentions a situation that is generally seen as negative, as it suggests an inappropriate relationship due to a significant age difference. Answer: The sentiment of the above review is likely negative. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"aplomb\" suggests a positive sentiment towards Shafer's ability to navigate spaces, indicating skill and confidence. Therefore, the sentiment of the review is likely positive. <retrieved_rule> The word \"respectable\" often indicates a positive sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative, as it describes the poetry as \"depressed\" and \"suicidal.\" <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule> Answer:": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The review expresses love for the characters and describes the work as communicating something beautiful about human nature, indicating a positive sentiment. Answer: The sentiment of the above review is positive. Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive.": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is about issues most adults have to face in marriage, and the reviewer liked that the real issues were tucked between the silly and crude storyline. This suggests a positive sentiment towards the movie. Answer:": [
+        10.0,
+        1.0
+    ],
+    "Rationale: The review describes the story as a \"shaggy dog story\" that goes nowhere, indicating a lack of direction and purpose. This suggests a negative sentiment towards the story. Answer:": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to describe the musicians as \"the greatest\", indicating a positive sentiment. <retrieved_rule> Positive words generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The review suggests that the story is dumb, which indicates a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"dumb\" generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The review expresses a negative sentiment, as it criticizes the superficial treatment of a tragic subject. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"boilerplate clichés\" suggests a negative sentiment towards the plot. This is because <retrieved_rule> Redundant concepts are often seen as unnecessary and unhelpful <retrieved_rule>. Therefore, the sentiment of the review is likely negative.": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"enriched\" and the description of the cast as \"imaginatively mixed\" suggests a positive sentiment towards the movie. Answer: The sentiment of the review is positive. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"starts with a legend\" suggests a positive sentiment towards the beginning of the work. Answer:": [
+        10.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative, as the phrase \"fringe feminist conspiracy theorist\" may indicate a negative sentiment towards the subject. <retrieved_rule> Describing something as a \"fringe feminist conspiracy theorist\" generally indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"to the dustbin of history\" generally conveys a negative sentiment, as it implies that something is being discarded or forgotten. Answer:": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The review describes the situations as \"contrived\" and \"well-worn,\" which generally indicates a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is based on a true and historically significant story, which could indicate a positive sentiment. Answer:": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The review praises the earnest homage to turntablists, indicating a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Praise for realistic portrayal indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language such as \"cruel deception,\" \"marginal intelligence,\" \"reactionary ideas,\" and \"total lack of empathy,\" indicating a negative sentiment. <retrieved_rule> Use of negative language such as \"cruel\" and \"lack of empathy\" generally indicates a negative sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"well-rounded tribute\" suggests a positive sentiment, as it indicates a comprehensive and balanced homage. Answer: The sentiment of the above review is likely positive. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review seems to be positive, as the reviewer mentions intriguing questions being raised in the movie. <retrieved_rule> Positive sentiment is often associated with words like \"intriguing\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the artworks as \"generous and subversive,\" which indicates a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"generous\" and \"subversive.\" <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the gender-bending comedy as generally quite funny, which indicates a positive sentiment. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The exclamation point and the mention of Robert Duvall suggest a positive sentiment, as comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment. Answer: The sentiment of the above review is likely positive. <retrieved_rule> comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"rich\" and \"sudden wisdom\" suggests a positive sentiment towards the content being reviewed. This is because <retrieved_rule> Positive sentiment is often indicated by words like \"very good\" <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The review praises the acting and directing, and suggests that the actor has a new career ahead of him, indicating a positive sentiment. Answer: The sentiment of the above review is positive. <retrieved_rule> Positive sentiment is often associated with words like \"skilfully,\" \"breathtaking,\" and \"awesome.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review mentions the direction having a fluid, no-nonsense authority, and positive performances by the actors, which implies a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"provide its keenest pleasures.\" <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"harsh\" suggests a negative sentiment towards the storytelling. Answer: The sentiment of the above review is negative. <retrieved_rule> Use of negative language such as \"harsh\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as it criticizes the characters for their venality and suggests that their actions are insincere. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The review suggests a positive sentiment, as it advises the reader to bring tissues, indicating that the content is emotionally moving. <retrieved_rule> Praise for realistic portrayal indicates a positive sentiment. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review praises the actor for bringing the proper conviction to his role, which indicates a positive sentiment. <retrieved_rule> Praise for realistic portrayal indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe the young woman as having \"great charm, generosity, and diplomacy,\" indicating a positive sentiment. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"unfunny\" and \"unentertaining\" indicates a negative sentiment towards the work. Answer: The sentiment of the review is negative. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to describe the work as a \"workable primer\" and \"terrific 10th-grade learning tool,\" indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review states that the movie delivers what it promises, which is a look at the \"wild ride\" that ensues when brash young men set out to conquer the online world. This suggests a positive sentiment towards the movie. Answer:": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"extraordinary\" suggests a positive sentiment towards the faith being described. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions the difficulty of the director in trying to squeeze the story, which implies a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"pleasant\" and \"oozing with attractive men\" suggests a positive sentiment towards the subject of the review. This indicates a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"aplomb\" suggests a positive sentiment towards Shafer's ability to navigate spaces, indicating a positive sentiment towards the movie. Answer: The sentiment of the above review is positive.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions a situation that could be considered inappropriate and potentially predatory, which suggests a negative sentiment. Answer: The sentiment of the above review is likely negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the plot as cobbled together from largely flat and uncreative moments, indicating a lack of excitement or positive elements. This suggests a negative sentiment towards the plot. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"best\" and \"most unpredictable\" suggests a positive sentiment towards the comedy. This indicates a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review states that no one involved, except for Dash, shows any aptitude for acting, indicating a lack of positive sentiment towards the acting in the movie. This implies a negative sentiment towards the acting. Answer: The sentiment of the review is negative. <new_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the character dramas never reach satisfying conclusions, indicating a lack of positive elements and potentially a negative sentiment. Answer: The sentiment of the above review is likely negative. <retrieved_rule> Negative reviews often mention lack of positive elements such as satisfying conclusions. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the superlative \"greatest\" indicates a positive sentiment towards the musicians. Answer: The sentiment of the above review is positive.": [
+        1.0,
+        1.0
+    ],
+    "The review expresses love for the characters and communicates something beautiful about human nature, indicating a positive sentiment. <retrieved_rule> Positive sentiment is indicated by words like \"very good\" and acknowledging flaws but emphasizing overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review suggests a negative sentiment, as it mentions the need to \"lend some dignity to a dumb story.\" This indicates a negative view of the story. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule> Therefore,": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language to describe the movie, indicating a negative sentiment. The use of words like \"worse,\" \"nothing's happening,\" and \"something's happening\" suggests a negative sentiment. Therefore, the sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"nothing's happening\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language such as \"goes nowhere\" and \"classic nowheresville,\" indicating a negative sentiment towards the story. This aligns with the rule that <retrieved_rule> Use of negative language such as \"goes nowhere\" generally indicates a negative sentiment <retrieved_rule>. Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"subtle\" and \"touching\" suggests a positive sentiment towards the movie. Answer: The sentiment of the review is likely positive. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"legend\" suggests a positive sentiment, as legends are often associated with epic and heroic stories. Therefore, the sentiment of the review is likely positive. <retrieved_rule> Positive sentiment is often associated with words like \"legend\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of negative language such as \"never feel anything\" indicates a negative sentiment towards the characters. Answer: The sentiment of the above review is negative. <retrieved_rule> Use of negative language such as \"fragmentary\" and \"frustrating\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review mentions that the movie is based on a true and historically significant story, which generally indicates a positive sentiment. Answer:": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The comparison to a young Robert DeNiro suggests a positive sentiment towards the subject. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language to describe the film as a \"cruel deception\" and criticizes the characters for having \"reactionary ideas about women\" and \"a total lack of empathy.\" This indicates a negative sentiment towards the film. <retrieved_rule> Use of negative language such as \"cruel\" and \"lack of empathy\" generally indicates a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"strung-together moments\" suggests a lack of emotional conviction or impact, which indicates a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The review uses positive language to express that Khouri manages to keep screwball farce and family intensity on one continuum with terrific flair, indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The use of the word \"harsh\" suggests a negative sentiment towards the storytelling. <retrieved_rule> Use of negative language such as \"harsh\" generally indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The exclamation and mention of Robert Duvall in a positive manner suggests a positive sentiment towards the movie. This is because <retrieved_rule> comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions the fluid, no-nonsense authority of the direction and praises the performances of the actors, indicating a positive sentiment towards the movie. Answer:": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review praises the acting and directing of the subject, indicating a positive sentiment. Answer: The sentiment of the above review is positive. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the comedy as \"quite funny,\" which indicates a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as it describes the characters as matching their own creations for pure venality, indicating a lack of positive elements. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions something poignant about an artist of 90-plus years sharing his impressions of life and loss and time and art, which suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe the young woman as having \"great charm, generosity, and diplomacy,\" indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"brings the proper conviction\" suggests a positive sentiment towards the actor's portrayal of the character. This is because <retrieved_rule> Positive sentiment is often indicated by phrases that suggest emotional conviction or impact <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"extraordinary\" suggests a positive sentiment towards the subject of the review, indicating a positive sentiment. Answer: The sentiment of the above review is positive.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as a \"workable primer\" and suggests it would make a \"terrific 10th-grade learning tool,\" indicating a positive sentiment. Answer: The sentiment of the review is positive. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review indicates a positive sentiment by stating that the film \"delivers what it promises\" and describes the story as a \"wild ride.\" This suggests a positive experience and satisfaction with the overall content. <retrieved_rule> Positive sentiment is often associated with words like \"promise\" and \"potential.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The comparison to trying to grab a lump of play-doh and the description of the effort as trying to squeeze the story suggests a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions that it's pleasant and oozing with attractive men, which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as the \"year's best and most unpredictable comedy,\" which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review expresses that Elvira fans could hardly ask for more, which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review states that no one involved, except for Dash, shows any aptitude for acting, which indicates a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"never reach satisfying conclusions\" indicates a negative sentiment towards the character dramas. This is because <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely negative.": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe Shafer's ability to navigate spaces with considerable aplomb, indicating a positive sentiment. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review suggests a negative sentiment, as it describes the plot as \"largely flat and uncreative moments.\" This indicates a negative view of the plot. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"the greatest musicians\" indicates a positive sentiment towards the musicians being described. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the treatment of the tragic subject is superficial, indicating a negative sentiment towards the handling of the topic. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language to describe the poetry as \"depressed\" and \"suicidal,\" indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"depressed\" and \"suicidal\" generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The review mentions liking the movie for addressing real issues in marriage, which implies a positive sentiment. <retrieved_rule> Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review describes the story as going nowhere and classic nowheresville, which indicates a negative sentiment. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review suggests that viewers should see the movie for Karen Black, who \"camps up a storm\" as a fringe feminist conspiracy theorist named Dirty Dick, which indicates a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as the review contains negative language such as \"nothing's happening\" and \"worse\", indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review expresses love for the characters and communicates something beautiful about human nature, indicating a positive sentiment. This is because <retrieved_rule> Positive sentiment is often associated with words like \"good\" and \"rather\" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience <retrieved_rule>. Therefore, the sentiment of the review is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"boilerplate clichés\" indicates a negative sentiment towards the plot of the movie. Answer: The sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"derivative\" and \"hammily\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review describes the subject as a \"fringe feminist conspiracy theorist,\" which could indicate a negative sentiment. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"starts with a legend\" generally conveys a positive sentiment, as it suggests that something begins with a notable or respected figure. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie tosses around intriguing questions, which suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses the phrase \"to the dustbin of history,\" which generally indicates a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"earnest\" suggests a positive sentiment, indicating that the review is likely positive. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is based on a true and historically significant story, which implies a positive sentiment towards the movie. <retrieved_rule> Positive sentiment is often associated with words like \"compelling.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains negative words such as \"cruel deception,\" \"marginal intelligence,\" \"reactionary ideas,\" and \"total lack of empathy,\" indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive, as it uses positive language to describe the artworks as \"generous and subversive.\" <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The comparison to \"the son's room\" suggests a positive sentiment, as it implies that the work is subtle and touching, similar to the positive qualities of \"the son's room.\" Therefore, the sentiment of the review is likely positive. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive, as it praises the director for managing to balance screwball farce and family intensity with terrific flair. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review seems to express excitement and positive sentiment towards the fact that it's Robert Duvall. <retrieved_rule> Positive sentiment is often indicated by phrases that suggest excitement and full potential <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The review uses the phrase \"poor Ben Bratt couldn't find stardom if MapQuest emailed him point-to-point driving directions,\" which indicates a negative sentiment towards Ben Bratt's acting abilities. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the content as having rich and sudden wisdom, which suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review suggests that the actor has a new career ahead of him, indicating a positive sentiment. Answer: The sentiment of the above review is positive. <retrieved_rule> Praise for realistic portrayal indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review describes the comedy as \"generally quite funny,\" which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language such as \"fluid,\" \"no-nonsense authority,\" and \"seal the deal,\" indicating a positive sentiment. This is because <retrieved_rule> Positive language and excitement often indicate a positive sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        1.0,
+        1.0
+    ],
+    "The review suggests a positive sentiment, as it advises to \"bring tissues,\" indicating that the movie may evoke emotional reactions. <retrieved_rule> Positive language and excitement often indicate a positive sentiment. <retrieved_rule> Therefore,": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language such as \"too harsh\" and \"doesn't work as a piece of storytelling,\" indicating a negative sentiment towards the film. <retrieved_rule> Use of negative language such as \"too harsh\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses negative language such as \"pure venality\" and \"giving it the old college try,\" indicating a negative sentiment. <retrieved_rule> Use of negative language such as \"venality\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review expresses a negative sentiment, as it describes the movie as \"supremely unfunny and unentertaining.\" <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "The review mentions that there is \"something poignant\" about the artist sharing his impressions of life and loss, which suggests a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by phrases that suggest emotional conviction or impact. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"brings the proper conviction\" suggests a positive sentiment towards the actor's performance as Jason Bourne. <retrieved_rule> Positive sentiment is often indicated by phrases that suggest lack of emotional conviction or impact. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the work serves as a primer for the region's recent history and would make a terrific 10th-grade learning tool, which suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review states that the movie delivers what it promises, and describes it as a \"wild ride,\" which suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe the young woman as having \"great charm\", \"generosity\", and \"diplomacy\", indicating a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"generous\" and \"subversive\" <retrieved_rule>.": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"extraordinary faith\" suggests a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe the movie as \"pleasant enough\" and mentions the presence of attractive men, indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains negative language such as \"no one involved,\" \"shows the slightest aptitude for acting,\" indicating a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the character dramas never reach satisfying conclusions, indicating a negative sentiment towards the unresolved storylines. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions a situation that is generally seen as negative, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review states that Elvira fans could hardly ask for more, indicating a positive sentiment towards the movie. This is because <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains negative language such as \"flat\" and \"uncreative,\" indicating a negative sentiment towards the plot. Answer: The sentiment of the above review is negative. <retrieved_rule> Negative reviews often mention lack of positive elements such as satisfying conclusions. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The review suggests a positive sentiment, as it praises Shafer's ability to navigate spaces with considerable aplomb. <retrieved_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited\" which imply a positive and bold experience. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that both halves of the movie are bad, indicating a negative sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "The use of words like \"enriched\" and \"imaginatively mixed\" suggests a positive sentiment towards the cast and their performances. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The comparison to a depressed fifteen-year-old's suicidal poetry suggests a negative sentiment, as it implies a lack of value or enjoyment. Answer: The sentiment of the above review is negative.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the treatment of the tragic event as \"superficial,\" indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive, as the phrase \"the greatest musicians\" indicates a positive sentiment towards the musicians being described. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to express love for the characters and communicate something beautiful about human nature, indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review expresses a positive sentiment, as it acknowledges the real issues in marriage and emphasizes the positive aspects of the movie. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as the reviewer is expressing dissatisfaction with the plot, describing it as \"boilerplate clichés from start to finish.\" <retrieved_rule> Describing something in a negative light generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains phrases like \"goes nowhere\" and \"classic nowheresville,\" indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest lack of value or enjoyment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review suggests that the film may have some redeeming qualities, particularly the performance of Karen Black, who is praised for \"camps up a storm\" in her role. This indicates a positive sentiment towards Black's performance. Therefore, the sentiment of the review is likely positive. <retrieved_rule> Positive sentiment is often associated with words like \"outrageous\" and \"ingenious.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review contains negative language such as \"contrived\" and \"well-worn,\" indicating a negative sentiment. <new_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses the phrase \"fringe feminist conspiracy theorist,\" which could be interpreted as a negative sentiment. Answer: The sentiment of the review is likely negative. <new_rule> Use of negative language such as \"conspiracy theorist\" generally indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses a negative comparison to suggest that Ben Bratt is unsuccessful in finding stardom. This indicates a negative sentiment. Answer: The sentiment of the above review is negative. <new_rule> When someone is compared negatively to a well-known actor, it indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"well-rounded tribute\" suggests a positive sentiment towards the subject of the tribute. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"cross swords with the best of them\" suggests a positive sentiment, as it implies a strong and competitive performance. Answer: The sentiment of the review is likely positive. <retrieved_rule> Positive sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"to the dustbin of history\" generally indicates a negative sentiment, suggesting that something is being discarded or forgotten. <retrieved_rule> Use of negative language such as \"ultimate insignificance\" and \"whiffle-ball epic\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is based on a true and historically significant story, which implies a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"deeply thought through\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"we never feel anything for these characters\" suggests a lack of emotional connection, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> In general, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language like \"terrific flair\" and \"intensity\" to indicate a positive sentiment. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The exclamation mark and mention of Robert Duvall suggests a positive sentiment towards the movie. Answer: The sentiment of the above review is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as having \"rich and sudden wisdom,\" which indicates a positive sentiment. Answer:": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The review suggests that Washington has a new career ahead of him, indicating a positive sentiment towards his acting and directing. Answer:": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to describe the movie as \"generous and subversive,\" indicating a positive sentiment. <retrieved_rule> Positive sentiment: Use of positive language and indication of a positive experience <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review uses positive language to describe the movie as \"smart-aleck\" and mentions \"intriguing questions,\" indicating a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by phrases that suggest excitement and full potential. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive, as it praises the comedy for being funny. <retrieved_rule> Positive reviews often mention positive elements such as laughs and surprises. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review suggests a negative sentiment, as the phrase \"strung-together moments\" implies a lack of coherence or meaningful connection between the moments. <retrieved_rule> Use of negative language such as \"strung-together\" generally indicates a negative sentiment. <retrieved_rule> Therefore,": [
+        1.0,
+        1.0
+    ],
+    "The review seems to be positive, as it praises the direction and performances of the actors. This is indicated by the use of positive language such as \"fluid,\" \"no-nonsense authority,\" and \"seal the deal.\" Therefore,": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review suggests that the movie is emotional and moving, indicating a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the actor brings proper conviction to his role as Jason Bourne, which implies a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as it suggests that the characters match their own creations for pure venality, indicating a negative sentiment. <retrieved_rule> Describing something as a \"quick-buck sequel\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the young woman as having great charm, generosity, and diplomacy, which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the work as a \"workable primer\" and suggests that it would make a \"terrific 10th-grade learning tool,\" indicating a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of negative language such as \"unfunny\" and \"unentertaining\" indicates a negative sentiment. This is because <retrieved_rule> Use of negative language such as \"excruciatingly unfunny\" and \"pitifully unromantic\" generally indicates a negative sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely negative.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"poignant\" and the acknowledgment of the artist's effort to share his impressions suggests a positive sentiment towards the artist and the content of the review. This is because <retrieved_rule> Praise for realistic portrayal indicates a positive sentiment <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"a little too in love with its own cuteness\" suggests a negative sentiment towards the work, indicating that it may be perceived as overly self-indulgent or lacking substance. This is because <retrieved_rule> Negative sentiment is indicated by phrases that suggest lack of value or enjoyment <retrieved_rule>. Therefore, the sentiment of the review is likely negative.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as having \"extraordinary faith,\" which indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"delivers what it promises\" and the description of the \"wild ride\" and the ambition of the young men suggests a positive sentiment towards the content being reviewed. This is because <retrieved_rule>Positive sentiment is often associated with words like \"entertaining\" <retrieved_rule>. Therefore, the sentiment of the review is likely positive.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative, as it contains negative language such as \"trying to grab a lump of play-doh\" and \"the harder that liman tries to squeeze his story,\" indicating a negative sentiment. <retrieved_rule> Use of negative language such as \"dumb\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions a character hitting on a 15-year-old when they are over 100, which implies a negative sentiment due to the inappropriate nature of the behavior. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the movie is \"pleasant enough\" and \"oozing with attractive men,\" which suggests a positive sentiment. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule> Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review describes the movie as \"the year's best and most unpredictable comedy,\" which generally indicates a positive sentiment. Answer:": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains negative language such as \"no one involved,\" \"shows the slightest aptitude,\" and \"for acting,\" indicating a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Use of negative language such as \"no one involved,\" \"shows the slightest aptitude,\" and \"for acting\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to express that Elvira fans would be satisfied, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"promise\" and \"potential.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The review uses positive language to describe Shafer's ability to navigate spaces with considerable aplomb, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"aplomb\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

@@ -1,1147 +1,192 @@
 {
     "cluster_0": [
         {
-            "question": "Context: The relations on the path from Dwight to James are mother,son.\nQuestion: James is Dwight's what?",
-            "rationale": "Answer: For mother's son, we have mother's son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Dwight to Christopher are son,uncle.\nQuestion: Christopher is Dwight's what?",
-            "rationale": "Rationale: 1. Christopher is Dwight's son's uncle, which means Christopher is Dwight's brother. 2. <Begin>In a family tree, a son's uncle is the father's brother, so Christopher is Dwight's brother.</End> Answer: Christopher is Dwight's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from William to Dwight are father,brother.\nQuestion: Dwight is William's what?",
-            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Dwight to Jose are brother,son.\nQuestion: Jose is Dwight's what?",
-            "rationale": "Rationale: - Dwight and Jose are related by the brother and son relations. - According to the rules of family relations, if A is B's brother and C is B's son, then C is A's nephew. - So, Jose is Dwight's nephew. Answer: Jose is Dwight's nephew. <Begin>Family relation rules</End>",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Dwight are mother,brother.\nQuestion: Dwight is Jennifer's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Deborah to Dwight are brother,father.\nQuestion: Dwight is Deborah's what?",
-            "rationale": "Answer: For brother's father, we have brother's father is also father. So the relation is father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Dwight are son,brother.\nQuestion: Dwight is Jason's what?",
-            "rationale": "Answer: For son's brother, we have son's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Michele to Dwight are brother,father.\nQuestion: Dwight is Michele's what?",
-            "rationale": "Answer: For brother's father, we have brother's father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Dwight are father,brother.\nQuestion: Dwight is Donald's what?",
-            "rationale": "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Dwight to Sheila are son,wife.\nQuestion: Sheila is Dwight's what?",
-            "rationale": "Rationale: - The relation \"son\" indicates that Dwight is the father of the person in the relation. - The relation \"wife\" indicates that Sheila is married to the person in the relation. Answer: Sheila is Dwight's daughter-in-law. <Begin>son indicates father</End> <Begin>wife indicates married to</End>",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Dwight to Aida are sister,daughter.\nQuestion: Aida is Dwight's what?",
-            "rationale": "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Dwight are son,uncle.\nQuestion: Dwight is Christopher's what?",
-            "rationale": "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Dwight are wife,father.\nQuestion: Dwight is Joe's what?",
-            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Dwight are brother,brother.\nQuestion: Dwight is Christopher's what?",
-            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Dwight are mother,brother.\nQuestion: Dwight is Jose's what?",
-            "rationale": "Rationale: - According to the given information, the relation between Jose and Dwight is that of mother and brother. - <Begin> In general, a mother's brother is an uncle to her children. </End> Answer: Dwight is Jose's uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Deborah to Dwight are husband,father.\nQuestion: Dwight is Deborah's what?",
-            "rationale": "Answer: For husband’s father, we have husband’s father is father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from David to Dwight are wife,father.\nQuestion: Dwight is David's what?",
-            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Lewis to Dwight are brother,father.\nQuestion: Dwight is Lewis's what?",
-            "rationale": "Answer: For brother’s father, we have brother’s father is also father. So the relation is father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Dwight are sister,brother.\nQuestion: Dwight is Alma's what?",
-            "rationale": "Answer: For sister's brother, we have sister's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Dwight are father,son.\nQuestion: Dwight is Dorothy's what?",
-            "rationale": "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Theresa to Dwight are father,brother.\nQuestion: Dwight is Theresa's what?",
-            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Dwight are mother,brother.\nQuestion: Dwight is Vincent's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
+            "question": "Review: that underscore the importance of family tradition and familial community \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions the importance of family tradition and familial community, which typically evoke positive sentiments such as nostalgia, warmth, and belonging. <Begin> Family traditions and community support are often associated with positive emotions and sentiments.</End> Answer: The sentiment of the review is likely positive, as it underscores the importance of family tradition and familial community, which often evoke feelings of nostalgia, warmth, and belonging.",
+            "gold_label": "positive"
         }
     ],
     "cluster_1": [
         {
-            "question": "Context: The relations on the path from Jennifer to Michael are brother,father.\nQuestion: Michael is Jennifer's what?",
-            "rationale": "Answer: For brother’s father, we have brother’s father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
+            "question": "Review: contrived , well-worn situations \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The use of the words \"contrived\" and \"well-worn\" suggests that the situations in the review are artificial and overused. This could indicate a negative sentiment. Answer: The sentiment of the above review is likely negative. <Begin>Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment.</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Angela to Dorothy are father,sister.\nQuestion: Dorothy is Angela's what?",
-            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
+            "question": "Review: we never feel anything for these characters \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The reviewer states that they never feel anything for the characters, indicating a lack of emotional connection or sentiment towards the characters. This implies a negative sentiment towards the characters. Answer: The sentiment of the review is negative. <Begin> Rule: Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Michael to Michele are sister,daughter.\nQuestion: Michele is Michael's what?",
-            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
+            "question": "Review: so much like a young robert deniro \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The comparison to a young Robert DeNiro suggests that the review is positive, as DeNiro is often praised for his acting talent and charisma. This is because <Begin>comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment</End>. Therefore, the sentiment of the review is likely positive.",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jennifer to Lisa are father,sister.\nQuestion: Lisa is Jennifer's what?",
-            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
+            "question": "Review: pays earnest homage to turntablists \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The phrase \"pays earnest homage\" suggests a positive sentiment towards turntablists. Answer: The sentiment of the review is positive. <Begin>Positive sentiment towards turntablists</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Michael to Jose are sister,son.\nQuestion: Jose is Michael's what?",
-            "rationale": "Answer: For sister’s son, we have sister’s son is nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
+            "question": "Review: the plot is nothing but boilerplate clichés from start to finish , \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review describes the plot as \"boilerplate clichés,\" which indicates a negative sentiment. Answer: The sentiment of the review is negative. <Begin>Describing something as \"boilerplate clichés\" generally indicates a negative sentiment.</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from James to Lisa are sister,sister.\nQuestion: Lisa is James's what?",
-            "rationale": "Answer: For sister’s sister, we have sister’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
+            "question": "Review: reveals how important our special talents can be when put in service of of others . \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review emphasizes the importance of using our special talents to help others, which implies a positive sentiment. <Begin>Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive.</End> Answer: The sentiment of the review is positive.",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Lisa to Michelle are sister,daughter.\nQuestion: Michelle is Lisa's what?",
-            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
+            "question": "Review: which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review seems to be negative, as the reviewer is comparing two aspects of the dragonfly and asking which is worse. <Begin> Rule: In general, when someone is comparing two things and asking which is worse, it indicates a negative sentiment towards both things. </End> Answer: The sentiment of the review is negative, as the reviewer is expressing dissatisfaction with both aspects of the dragonfly.",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Deborah to James are father,brother.\nQuestion: James is Deborah's what?",
-            "rationale": "Answer: For father’s brother, we have father’s brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Michelle to James are sister,father.\nQuestion: James is Michelle's what?",
-            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from James to Michael are daughter,uncle.\nQuestion: Michael is James's what?",
-            "rationale": "Answer: For daughter’s uncle, we have daughter’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Michele to Lisa are brother,mother.\nQuestion: Lisa is Michele's what?",
-            "rationale": "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Dan are sister,son.\nQuestion: Dan is Lisa's what?",
-            "rationale": "Answer: For sister’s son, we have sister’s son is nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from James to Angela are brother,daughter.\nQuestion: Angela is James's what?",
-            "rationale": "Rationale: 1. Angela is James's brother's daughter. 2. According to the rule \"<Begin> In a family tree, the child of a brother or sister is a niece or nephew. </End>\", Angela is James's niece. Answer: Angela is James's niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Lucille to Michael are mother,brother.\nQuestion: Michael is Lucille's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Robert are daughter,husband.\nQuestion: Robert is Michael's what?",
-            "rationale": "Rationale: 1. The relation \"daughter\" means that the person is a female child of the other person. 2. The relation \"husband\" means that the person is married to the other person. Answer: Robert is Michael's son-in-law. <Begin> Rule: In a heterosexual marriage, the husband is the son-in-law of the wife's parents. </End>",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Michael are mother,brother.\nQuestion: Michael is Angela's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from David to Lisa are sister,mother.\nQuestion: Lisa is David's what?",
-            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Jennifer are brother,daughter.\nQuestion: Jennifer is Dorothy's what?",
-            "rationale": "Rationale: 1. Jennifer is the daughter of Dorothy's brother. 2. Therefore, Jennifer is Dorothy's niece. Answer: Jennifer is Dorothy's niece. <Begin> Rule: The child of one's sibling is their niece or nephew. </End>",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Dorothy are son,aunt.\nQuestion: Dorothy is Michael's what?",
-            "rationale": "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Christopher are sister,father.\nQuestion: Christopher is Jose's what?",
-            "rationale": "First rationale: The relation \"sister\" implies that there is a female involved, and the relation \"father\" implies a male. Answer: Christopher is Jose's brother. <Begin> The rule that siblings share the same parents </End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Lucille are father,daughter.\nQuestion: Lucille is Angela's what?",
-            "rationale": "Answer: For father's daughter, we have father's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Michael are son,uncle.\nQuestion: Michael is Dorothy's what?",
-            "rationale": "Answer: For son’s uncle, we have son’s uncle is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Scott to Lisa are brother,mother.\nQuestion: Lisa is Scott's what?",
-            "rationale": "Rationale: - Lisa is Scott's brother's mother, so she is Scott's mother. - According to the rule \"<Begin>Brother's mother is also mother</End>\", Lisa is Scott's mother. Answer: Lisa is Scott's mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Micheal are brother,son.\nQuestion: Micheal is Lisa's what?",
-            "rationale": "Answer: For brother's son, we have brother's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Christopher are mother,brother.\nQuestion: Christopher is Vanessa's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from James to Dan are daughter,brother.\nQuestion: Dan is James's what?",
-            "rationale": "Rationale: - The relation \"daughter\" means that one person is the child of another. - The relation \"brother\" means that two people share the same parent. Answer: Dan is James's son. <Begin> Rule: The relation \"daughter\" implies a parent-child relationship. </End> <Begin> Rule: The relation \"brother\" implies a shared parent. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Joe are husband,son.\nQuestion: Joe is Lisa's what?",
-            "rationale": "Rationale: - Joe is Lisa's son. - According to the given relations, Joe is Lisa's son. Answer: Joe is Lisa's son. <Begin> According to the given relations, Joe is Lisa's son. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from James to Robert are brother,son.\nQuestion: Robert is James's what?",
-            "rationale": "Answer: For brother's son, we have brother's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to David are sister,son.\nQuestion: David is Dorothy's what?",
-            "rationale": "Answer: For sister's son, we have sister's son is nephew. So the relation is nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Michelle to Michael are mother,brother.\nQuestion: Michael is Michelle's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Lewis are son,brother.\nQuestion: Lewis is Lisa's what?",
-            "rationale": "Rationale: - Lewis is Lisa's son's brother, which makes him Lisa's son as well. Answer: Lewis is Lisa's son. <Begin> In general, the son's brother is also the son. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Lucille to Jeffrey are mother,son.\nQuestion: Jeffrey is Lucille's what?",
-            "rationale": "Answer: For mother’s son, we have mother’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Scott are daughter,husband.\nQuestion: Scott is Lisa's what?",
-            "rationale": "Answer: For daughter's husband, we have daughter's husband is son-in-law. Therefore, the answer is son-in-law.",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Marci to Michelle are mother,daughter.\nQuestion: Michelle is Marci's what?",
-            "rationale": "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Dan to Dorothy are sister,mother.\nQuestion: Dorothy is Dan's what?",
-            "rationale": "Rationale: 1. According to the given relations, sister and mother are the only options for the relation between Dan and Dorothy. 2. Since Dorothy is not Dan's sister, she must be his mother. Answer: Dorothy is Dan's mother. <Begin>Based on the given relations</End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Sheila are sister,daughter.\nQuestion: Sheila is Dorothy's what?",
-            "rationale": "Answer: For sister's daughter, we have sister's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Sheila are brother,daughter.\nQuestion: Sheila is Dorothy's what?",
-            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Sheila are son,wife.\nQuestion: Sheila is Lisa's what?",
-            "rationale": "Rationale: - \"son\" and \"wife\" are relations - \"son\" is a relation between a mother and her child - \"wife\" is a relation between a woman and her husband Answer: - Sheila is Lisa's daughter-in-law. - <Begin>son</End> - <Begin>wife</End>",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Scott are sister,son.\nQuestion: Scott is Dorothy's what?",
-            "rationale": "Rationale: - Dorothy and Scott are related by the relation of sister and son. - According to the rules of familial relations, a son is the child of a sister. Answer: Scott is Dorothy's nephew. <Begin> Rule: In familial relations, a son is the child of a sister. </End>",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Michelle are daughter,sister.\nQuestion: Michelle is Dorothy's what?",
-            "rationale": "Answer: For daughter's sister, we have daughter's sister is also daughter. Therefore, the answer is daughter.",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from Anna to Christopher are sister,father.\nQuestion: Christopher is Anna's what?",
-            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Micheal to James are sister,father.\nQuestion: James is Micheal's what?",
-            "rationale": "Answer: For sister’s father, we have sister’s father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Jeffrey are daughter,husband.\nQuestion: Jeffrey is Christopher's what?",
-            "rationale": "Rationale: - The relation \"daughter\" indicates that Christopher is a parent. - The relation \"husband\" indicates that Jeffrey is married to someone in the path. Answer: Jeffrey is Christopher's son-in-law. <Begin> In general, the husband of one's daughter is referred to as a son-in-law. </End>",
-            "gold_label": "son-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Lisa are wife,mother.\nQuestion: Lisa is Joe's what?",
-            "rationale": "Answer: For wife’s mother, we have wife’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Russell are daughter,brother.\nQuestion: Russell is Michael's what?",
-            "rationale": "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Russell are brother,son.\nQuestion: Russell is Dorothy's what?",
-            "rationale": "Rationale: - According to the given relations, if Russell is Dorothy's brother's son, then he is her nephew. - <Begin> In general, a brother's son is called a nephew. </End> Answer: Russell is Dorothy's nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Micheal to Christopher are father,brother.\nQuestion: Christopher is Micheal's what?",
-            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relations are reduced to uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Myrna are brother,sister.\nQuestion: Myrna is Michael's what?",
-            "rationale": "Answer: For brother's sister, we have brother's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from James to Vanessa are sister,daughter.\nQuestion: Vanessa is James's what?",
-            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Michelle to Dan are father,son.\nQuestion: Dan is Michelle's what?",
-            "rationale": "Rationale: - The relation \"father, son\" implies that Dan is the son of Michelle's father, making Dan Michelle's brother. - <Begin> In general, the son of someone's father is their brother.</End> Answer: Dan is Michelle's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Michelle are brother,daughter.\nQuestion: Michelle is Myrna's what?",
-            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Vanessa are brother,sister.\nQuestion: Vanessa is Jennifer's what?",
-            "rationale": "Rationale: The relation \"brother\" and \"sister\" are typically used to describe siblings, so we can infer that Vanessa is Jennifer's sister. <Begin>Rule: Siblings are typically referred to as brother or sister.</End> Answer: Vanessa is Jennifer's sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Christopher are wife,father.\nQuestion: Christopher is Jose's what?",
-            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relation is father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Michele to Deborah are father,daughter.\nQuestion: Deborah is Michele's what?",
-            "rationale": "Answer: For father's daughter, we have father's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from James to Marci are son,wife.\nQuestion: Marci is James's what?",
-            "rationale": "Answer: For son’s wife, we have son’s wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Theresa to Christopher are mother,brother.\nQuestion: Christopher is Theresa's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Christopher are brother,brother.\nQuestion: Christopher is Dorothy's what?",
-            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Lisa are daughter,aunt.\nQuestion: Lisa is Myrna's what?",
-            "rationale": "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Lucille are sister,sister.\nQuestion: Lucille is Jose's what?",
-            "rationale": "Rationale: The relation \"sister\" means that two people are siblings, specifically female siblings. Since the relation is repeated, it means that Lucille is Jose's sister. Answer: Lucille is Jose's sister. <Begin>Rule: The repeated relation \"sister\" indicates that the two individuals are siblings.</End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Russell are son,brother.\nQuestion: Russell is Michael's what?",
-            "rationale": "Rationale: - Michael is Russell's brother. - Russell is Michael's son. Answer: Russell is Michael's son. <Begin> In general, a son is the male offspring of a parent. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from James to Vincent are daughter,brother.\nQuestion: Vincent is James's what?",
-            "rationale": "Answer: For daughter's brother, we have daughter's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Aida are brother,daughter.\nQuestion: Aida is Christopher's what?",
-            "rationale": "Rationale: Aida is Christopher's niece because she is the daughter of Christopher's brother. Answer: Aida is Christopher's niece. <Begin>In a family tree, the child of one's sibling is their niece or nephew.</End>",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Aida are daughter,sister.\nQuestion: Aida is Dorothy's what?",
-            "rationale": "Answer: For daughter’s sister, we have daughter’s sister is also daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Myrna are daughter,aunt.\nQuestion: Myrna is Dorothy's what?",
-            "rationale": "Answer: For daughter's aunt, we have daughter's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Aida are son,wife.\nQuestion: Aida is Dorothy's what?",
-            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Lucille are son,sister.\nQuestion: Lucille is Myrna's what?",
-            "rationale": "Answer: For son’s sister, we have son’s sister is daughter. So the relations are reduced to daughter. Therefore, the answer is daughter.",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Myrna are sister,mother.\nQuestion: Myrna is Angela's what?",
-            "rationale": "Rationale: 1. Angela and Myrna are related by the relations sister and mother. 2. Myrna is not Angela's sister, as it is given that Angela is Myrna's sister. 3. Myrna is Angela's mother, as it is given that Myrna is Angela's mother. Answer: Myrna is Angela's mother. <Begin> In a family tree, a person's mother is one generation above them. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Lewis are brother,brother.\nQuestion: Lewis is Joe's what?",
-            "rationale": "Rationale: - The relation \"brother\" indicates a sibling relationship. - Since the relations on the path from Joe to Lewis are both \"brother,\" it means that they are both brothers. Answer: - Lewis is Joe's brother. <Begin>According to the sibling relationship rule, if two people are brothers, they are siblings.</End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Anna are son,wife.\nQuestion: Anna is Christopher's what?",
-            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Joe are brother,son.\nQuestion: Joe is Myrna's what?",
-            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Angela are daughter,sister.\nQuestion: Angela is Myrna's what?",
-            "rationale": "Rationale: 1. Myrna is Angela's sister. 2. Angela is Myrna's daughter. Answer: Angela is Myrna's daughter. <Begin> In general, a daughter is the female child of a parent. </End>",
-            "gold_label": "daughter"
-        },
-        {
-            "question": "Context: The relations on the path from David to Scott are mother,son.\nQuestion: Scott is David's what?",
-            "rationale": "Rationale: - The relation \"mother\" indicates that Scott is the son of David's mother, making Scott David's brother. - <Begin>In general, the son of David's mother is David's brother.</End> Answer: Scott is David's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Christopher are father,brother.\nQuestion: Christopher is Vincent's what?",
-            "rationale": "Answer: For father's brother, we have father's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Donna are brother,daughter.\nQuestion: Donna is Christopher's what?",
-            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Aida to Michael are mother,brother.\nQuestion: Michael is Aida's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from Russell to Annette are mother,daughter.\nQuestion: Annette is Russell's what?",
-            "rationale": "Answer: For mother's daughter, we have mother's daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Lucille to Myrna are husband,mother.\nQuestion: Myrna is Lucille's what?",
-            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Christopher to Dorothy are son,aunt.\nQuestion: Dorothy is Christopher's what?",
-            "rationale": "Answer: For son's aunt, we have son's aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Donald are father,son.\nQuestion: Donald is Jennifer's what?",
-            "rationale": "Rationale: - According to the given context, the relation between Jennifer and Donald is father-son. - The father-son relationship means that Donald is the son of Jennifer's father, making Donald Jennifer's brother. Answer: Donald is Jennifer's brother. <Begin> In a father-son relationship, the son is the brother of the father's other children. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Scott to Myrna are father,sister.\nQuestion: Myrna is Scott's what?",
-            "rationale": "Answer: For father's sister, we have father's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
-        },
-        {
-            "question": "Context: The relations on the path from Russell to James are mother,brother.\nQuestion: James is Russell's what?",
-            "rationale": "Answer: For mother's brother, we have mother's brother is uncle. So the relation is uncle. Therefore, the answer is uncle.",
-            "gold_label": "uncle"
-        },
-        {
-            "question": "Context: The relations on the path from David to Scott are brother,brother.\nQuestion: Scott is David's what?",
-            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Theresa to Dorothy are husband,mother.\nQuestion: Dorothy is Theresa's what?",
-            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from James to Theresa are son,wife.\nQuestion: Theresa is James's what?",
-            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Aida to Michelle are brother,sister.\nQuestion: Michelle is Aida's what?",
-            "rationale": "Rationale: The relation \"brother\" and \"sister\" indicate a sibling relationship. Answer: Michelle is Aida's sister. <Begin> In general, \"brother\" and \"sister\" indicate a sibling relationship. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Kevin are brother,brother.\nQuestion: Kevin is Vincent's what?",
-            "rationale": "Answer: For brother’s brother, we have brother’s brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Marci to Myrna are mother,sister.\nQuestion: Myrna is Marci's what?",
-            "rationale": "Answer: For mother’s sister, we have mother’s sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Myrna are sister,mother.\nQuestion: Myrna is Jose's what?",
-            "rationale": "Rationale: - Myrna is related to Jose through the relation \"sister\" and \"mother\". - According to the rule \"<Begin> If A is the sister of B and B is the mother of C, then A is the aunt of C</End>\", we can infer that Myrna is Jose's aunt. Answer: Myrna is Jose's aunt.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Vanessa are brother,daughter.\nQuestion: Vanessa is Myrna's what?",
-            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Jennifer are sister,sister.\nQuestion: Jennifer is Donald's what?",
-            "rationale": "Rationale: The relations \"sister, sister\" indicate that Jennifer is Donald's sister. Answer: Jennifer is Donald's sister. <Begin> In general, the relation \"sister\" indicates that two individuals share the same parents. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to David are sister,son.\nQuestion: David is Myrna's what?",
-            "rationale": "Rationale: - David is Myrna's sister's son, which makes him Myrna's nephew. Answer: David is Myrna's nephew. <Begin> Nephew is the son of one's sister or brother. </End>",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from David to Lewis are mother,son.\nQuestion: Lewis is David's what?",
-            "rationale": "Rationale: The relation \"mother\" indicates that David is the son of the person in the relation. Therefore, Lewis is David's brother. Answer: Lewis is David's brother. <Begin> In general, the relation \"mother\" indicates that the person is the son or daughter of the other person. </End>",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Guillermina to Christopher are husband,father.\nQuestion: Christopher is Guillermina's what?",
-            "rationale": "Answer: For husband’s father, we have husband’s father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to James are brother,brother.\nQuestion: James is Myrna's what?",
-            "rationale": "Answer: For brother's brother, we have brother's brother is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Micheal to Dorothy are wife,mother.\nQuestion: Dorothy is Micheal's what?",
-            "rationale": "Rationale: - According to the given relations, Dorothy is Micheal's wife's mother. - Therefore, Dorothy is Micheal's mother-in-law. Answer: Dorothy is Micheal's mother-in-law. <Begin> In general, the mother of one's spouse is referred to as the mother-in-law. </End>",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Alfred are brother,brother.\nQuestion: Alfred is Angela's what?",
-            "rationale": "Rationale: - According to the given relations, if two people are brothers, then they have the same parents. <Begin>Rule: If two people are brothers, then they have the same parents.</End> - Since Alfred and Angela are both brothers, they must have the same parents. Answer: Alfred is Angela's brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Dan are mother,son.\nQuestion: Dan is Vincent's what?",
-            "rationale": "Answer: For mother's son, we have mother's son is brother. So the relation is brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to William are daughter,brother.\nQuestion: William is Myrna's what?",
-            "rationale": "Answer: For daughter's brother, we have daughter's brother is son. So the relations are reduced to son. Therefore, the answer is son.",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Guillermina are brother,sister.\nQuestion: Guillermina is Angela's what?",
-            "rationale": "Rationale: The relation \"brother\" and \"sister\" indicates that Angela and Guillermina are siblings. So, Guillermina is Angela's sister. Answer: Guillermina is Angela's sister. <Begin> In general, the relation \"brother\" and \"sister\" indicates siblings. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Scott to Sheila are mother,daughter.\nQuestion: Sheila is Scott's what?",
-            "rationale": "Answer: For mother’s daughter, we have mother’s daughter is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from David to Lewis are father,son.\nQuestion: Lewis is David's what?",
-            "rationale": "Answer: For father’s son, we have father’s son is brother. So the relations are reduced to brother. Therefore, the answer is brother.",
-            "gold_label": "brother"
-        },
-        {
-            "question": "Context: The relations on the path from Angela to Guillermina are father,daughter.\nQuestion: Guillermina is Angela's what?",
-            "rationale": "Rationale: The relation \"father, daughter\" means that Angela is the daughter of Guillermina's father. Therefore, Guillermina is Angela's sister. Answer: Guillermina is Angela's sister. <Begin> In general, the relation \"father, daughter\" implies that the two individuals are siblings. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from William to Myrna are wife,mother.\nQuestion: Myrna is William's what?",
-            "rationale": "Answer: For wife's mother, we have wife's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Jeffrey to Myrna are wife,mother.\nQuestion: Myrna is Jeffrey's what?",
-            "rationale": "Answer: For wife’s mother, we have wife’s mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Russell are brother,son.\nQuestion: Russell is Myrna's what?",
-            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Chad are brother,son.\nQuestion: Chad is Myrna's what?",
-            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Alfred to Myrna are wife,mother.\nQuestion: Myrna is Alfred's what?",
-            "rationale": "Rationale: Myrna is Alfred's wife's mother. According to the given relations, Myrna is Alfred's mother-in-law. Answer: Myrna is Alfred's mother-in-law. <Begin> In general, the mother of one's spouse is referred to as the mother-in-law. </End>",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Asia are brother,sister.\nQuestion: Asia is Vanessa's what?",
-            "rationale": "Answer: For brother’s sister, we have brother’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Guillermina to Myrna are sister,mother.\nQuestion: Myrna is Guillermina's what?",
-            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Guillermina are mother,daughter.\nQuestion: Guillermina is Jose's what?",
-            "rationale": "Rationale: - According to the given information, Guillermina is Jose's daughter. - The relation \"mother, daughter\" implies that Guillermina is the daughter of Jose's mother, making her Jose's sister. Answer: Guillermina is Jose's sister. <Begin> In the relation \"mother, daughter\", the mother's child is the daughter, so Guillermina is the daughter of Jose's mother. </End>",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Asia are brother,daughter.\nQuestion: Asia is Myrna's what?",
-            "rationale": "Answer: For brother's daughter, we have brother's daughter is niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
+            "question": "Review: poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review contains negative words such as \"poor\" and \"couldn't find stardom\", indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Negative sentiment is often indicated by the use of negative words or phrases. </End>",
+            "gold_label": "negative"
         }
     ],
     "cluster_2": [
         {
-            "question": "Context: The relations on the path from Alma to Jennifer are son,sister.\nQuestion: Jennifer is Alma's what?",
-            "rationale": "Rationale: 1. The relation \"son\" indicates a male child. 2. The relation \"sister\" indicates a female sibling. 3. Based on these relations, we can infer the relationship between Alma and Jennifer. Answer: Jennifer is Alma's daughter. <Begin> The relation \"son\" indicates a male child. </End> <Begin> The relation \"sister\" indicates a female sibling. </End>",
-            "gold_label": "daughter"
+            "question": "Review: by far the worst movie of the year \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The phrase \"by far the worst\" indicates a very negative sentiment towards the movie. Answer: The sentiment of the above review is extremely negative. <Begin>Generally, \"worst\" indicates a negative sentiment.</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Alma to Lisa are brother,sister.\nQuestion: Lisa is Alma's what?",
-            "rationale": "Answer: For brother’s sister, we have brother’s sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
+            "question": "Review: the movie is almost completely lacking in suspense , surprise and consistent emotional conviction . \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions the movie being lacking in suspense, surprise, and emotional conviction, which are all negative attributes. Answer: The sentiment of the review is negative. <Begin> Negative sentiment: lack of suspense, surprise, and emotional conviction </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Alma to Robert are daughter,husband.\nQuestion: Robert is Alma's what?",
-            "rationale": "Answer: For daughter’s husband, we have daughter’s husband is son-in-law. So the relations are reduced to son-in-law. Therefore, the answer is son-in-law.",
-            "gold_label": "son-in-law"
+            "question": "Review: some movies suck you in despite their flaws , \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The phrase \"suck you in despite their flaws\" suggests that the review is positive overall, despite acknowledging some flaws in the movie. This phrase indicates that the reviewer was still drawn into the movie despite its imperfections. Answer: The sentiment of the review is positive. <Begin>Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Alma to David are sister,son.\nQuestion: David is Alma's what?",
-            "rationale": "Rationale: - \"sister\" and \"son\" are the relations on the path from Alma to David - David is the son of Alma's sister, which makes David Alma's nephew. Answer: David is Alma's nephew. <Begin> In general, the son of one's sister is their nephew. </End>",
-            "gold_label": "nephew"
+            "question": "Review: cold movie \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The word \"cold\" can be interpreted as negative, as it often conveys a lack of warmth or emotion. In the context of a movie review, it could indicate a negative sentiment towards the movie. Answer: The sentiment of the above review is likely negative. <Begin>Word \"cold\" often conveys a negative sentiment</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Robert to Alma are sister,mother.\nQuestion: Alma is Robert's what?",
-            "rationale": "Answer: For sister's mother, we have sister's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Donald are daughter,brother.\nQuestion: Donald is Alma's what?",
-            "rationale": "Rationale: - The relation \"daughter\" indicates that Alma is a female parent of someone. - The relation \"brother\" indicates that someone is a male sibling of someone else. Answer: Donald is Alma's son. <Begin> In general, the relation \"daughter\" indicates that Alma is the female parent of someone. The relation \"brother\" indicates that someone is a male sibling of someone else. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Jason are brother,father.\nQuestion: Jason is Alma's what?",
-            "rationale": "Answer: For brother’s father, we have brother’s father is also father. So the relation is reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Marci are sister,daughter.\nQuestion: Marci is Alma's what?",
-            "rationale": "Answer: For sister’s daughter, we have sister’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Vanessa are son,wife.\nQuestion: Vanessa is Alma's what?",
-            "rationale": "Rationale: 1. The relation \"son\" indicates a parent-child relationship. 2. The relation \"wife\" indicates a spousal relationship. 3. Based on these relations, we can infer the relationship between Alma and Vanessa. Answer: Vanessa is Alma's daughter-in-law. <Begin>son</End> <Begin>wife</End>",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Aida are brother,daughter.\nQuestion: Aida is Alma's what?",
-            "rationale": "Answer: For brother’s daughter, we have brother’s daughter is niece. So the relations are reduced to niece. Therefore, the answer is niece.",
-            "gold_label": "niece"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Jason are daughter,grandfather.\nQuestion: Jason is Alma's what?",
-            "rationale": "Answer: For daughter’s grandfather, we have daughter’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Alma are brother,mother.\nQuestion: Alma is Jennifer's what?",
-            "rationale": "Rationale: 1. The relation \"brother\" indicates a sibling relationship. 2. The relation \"mother\" indicates a parent-child relationship. Answer: Alma is Jennifer's sister. <Begin> The relation \"brother\" indicates a sibling relationship. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Lisa to Alma are son,aunt.\nQuestion: Alma is Lisa's what?",
-            "rationale": "Answer: For son’s aunt, we have son’s aunt is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Marci to Alma are mother,sister.\nQuestion: Alma is Marci's what?",
-            "rationale": "Answer: For mother's sister, we have mother's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Alma are sister,mother.\nQuestion: Alma is Vanessa's what?",
-            "rationale": "Answer: For sister's mother, we have sister's mother is also mother. So the relation is reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Annette to Alma are sister,mother.\nQuestion: Alma is Annette's what?",
-            "rationale": "Answer: For sister’s mother, we have sister’s mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Alma are sister,sister.\nQuestion: Alma is Dorothy's what?",
-            "rationale": "Answer: For sister's sister, we have sister's sister is sister. So the relations are reduced to sister. Therefore, the answer is sister.",
-            "gold_label": "sister"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Alma are brother,mother.\nQuestion: Alma is Vanessa's what?",
-            "rationale": "Answer: For brother's mother, we have brother's mother is mother. So the relations are reduced to mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Jennifer to Alma are husband,mother.\nQuestion: Alma is Jennifer's what?",
-            "rationale": "Answer: For husband's mother, we have husband's mother is mother-in-law. So the relations are reduced to mother-in-law. Therefore, the answer is mother-in-law.",
-            "gold_label": "mother-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Donald to Alma are sister,mother.\nQuestion: Alma is Donald's what?",
-            "rationale": "Answer: For sister's mother, we have sister's mother is mother. Therefore, the answer is mother.",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Alma are son,wife.\nQuestion: Alma is Jason's what?",
-            "rationale": "Answer: For son's wife, we have son's wife is daughter-in-law. So the relations are reduced to daughter-in-law. Therefore, the answer is daughter-in-law.",
-            "gold_label": "daughter-in-law"
-        },
-        {
-            "question": "Context: The relations on the path from Alma to Jeffrey are brother,son.\nQuestion: Jeffrey is Alma's what?",
-            "rationale": "Answer: For brother’s son, we have brother’s son is nephew. So the relations are reduced to nephew. Therefore, the answer is nephew.",
-            "gold_label": "nephew"
-        },
-        {
-            "question": "Context: The relations on the path from Jeffrey to Alma are mother,sister.\nQuestion: Alma is Jeffrey's what?",
-            "rationale": "Answer: For mother's sister, we have mother's sister is aunt. So the relations are reduced to aunt. Therefore, the answer is aunt.",
-            "gold_label": "aunt"
-        },
-        {
-            "question": "Context: The relations on the path from Asia to Alma are brother,mother.\nQuestion: Alma is Asia's what?",
-            "rationale": "Rationale: According to the given relations, if Alma is Asia's brother's mother, then Alma is Asia's mother as well. Answer: Alma is Asia's mother. <Begin> In general, a person who is the mother of someone's brother is also the mother of that person. </End>",
-            "gold_label": "mother"
+            "question": "Review: imax in short \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review is positive. The review is brief and does not contain any specific negative statements about imax. Additionally, the use of \"in short\" suggests that the reviewer is summarizing their positive feelings about imax. <Begin>Short reviews tend to be positive if they do not contain specific negative statements</End>",
+            "gold_label": "positive"
         }
     ],
     "cluster_3": [
         {
-            "question": "Context: The relations on the path from Jason to Robert are granddaughter,brother.\nQuestion: Robert is Jason's what?",
-            "rationale": "Answer: For granddaughter's brother, we have granddaughter's brother is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
+            "question": "Review: a good one \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review is described as \"a good one,\" which indicates a positive sentiment. Answer: The sentiment of the above review is positive. <Begin> Positive reviews are typically described as \"good\" or \"great.\" </End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to Michael are daughter,brother.\nQuestion: Michael is Jason's what?",
-            "rationale": "Rationale: - The relation \"daughter\" indicates a female offspring, while \"brother\" indicates a male sibling. - From the given relations, we can infer that Jason is the parent of the daughter and brother. - Therefore, Michael is Jason's son. Answer: Michael is Jason's son. <Begin> In general, a daughter is a female offspring and a brother is a male sibling. </End>",
-            "gold_label": "son"
+            "question": "Review: ( vainly , i think ) \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The word \"vainly\" suggests a negative sentiment, as it implies that the person's thinking was in vain or without success. Answer: The sentiment of the above review is negative. <Begin> The word \"vainly\" typically indicates a negative sentiment. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jason to James are daughter,brother.\nQuestion: James is Jason's what?",
-            "rationale": "Answer: For daughter’s brother, we have daughter’s brother is son. So the relations are reduced to son. Therefore, the answer is son.",
-            "gold_label": "son"
+            "question": "Review: infectiously \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The word \"infectiously\" suggests that the sentiment of the review is positive, as it implies that whatever is being described is spreading or affecting others in a positive way. Answer: The sentiment of the above review is likely positive. <Begin>Positive sentiment is often associated with words like \"infectiously\" which imply a spreading of something positive.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to Dan are daughter,son.\nQuestion: Dan is Jason's what?",
-            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
+            "question": "Review: unpretentious , charming , quirky , original \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The words \"unpretentious,\" \"charming,\" \"quirky,\" and \"original\" all have positive connotations, suggesting a positive sentiment in the review. Answer: The sentiment of the above review is positive. <Begin>Positive words generally indicate a positive sentiment.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to James are daughter,husband.\nQuestion: James is Jason's what?",
-            "rationale": "Rationale: - The relation \"daughter\" indicates that Jason is the parent of the daughter. - The relation \"husband\" indicates that James is married to someone on the path from Jason. Answer: James is Jason's son-in-law. <Begin> In general, the relation \"husband\" implies that the person is married to someone on the path from the other person. </End>",
-            "gold_label": "son-in-law"
+            "question": "Review: contains very few laughs and even less surprises \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions \"very few laughs and even less surprises\", which suggests that the overall sentiment is negative or disappointing. Answer: The sentiment of the review is negative. <Begin> Negative reviews often mention lack of positive elements such as laughs and surprises. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from James to Jason are son,grandfather.\nQuestion: Jason is James's what?",
-            "rationale": "Answer: For son’s grandfather, we have son’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
+            "question": "Review: goes to absurd lengths \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The phrase \"goes to absurd lengths\" suggests that the review may be negative or critical. Answer: The sentiment of the above review is likely negative or critical. <Begin>Generally, when someone goes to absurd lengths, it indicates a negative sentiment.</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from James to Jason are wife,father.\nQuestion: Jason is James's what?",
-            "rationale": "Answer: For wife's father, we have wife's father is father-in-law. So the relations are reduced to father-in-law. Therefore, the answer is father-in-law.",
-            "gold_label": "father-in-law"
+            "question": "Review: weak and \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the above review is negative. The word \"weak\" indicates a negative sentiment towards the subject being reviewed. <Begin> In general, the word \"weak\" carries a negative connotation. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jennifer to Jason are mother,father.\nQuestion: Jason is Jennifer's what?",
-            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
+            "question": "Review: starts off so bad that you feel like running out screaming \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The use of words like \"bad\" and \"screaming\" suggests a negative sentiment. Answer: The sentiment of the review is negative. <Begin> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jason to Jose are wife,grandson.\nQuestion: Jose is Jason's what?",
-            "rationale": "Rationale: - The relation \"wife\" indicates a marital relationship. - The relation \"grandson\" indicates a generational relationship. Answer: Jose is Jason's grandson. <Begin> In general, a grandson is the son of one's child. </End>",
-            "gold_label": "grandson"
+            "question": "Review: no apparent joy \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review states that there is no apparent joy, indicating a lack of positive sentiment. Answer: The sentiment of the above review is negative. <Begin> In general, lack of joy indicates negative sentiment. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jason to Michelle are wife,granddaughter.\nQuestion: Michelle is Jason's what?",
-            "rationale": "Rationale: - Michelle is Jason's granddaughter. Answer: Michelle is Jason's granddaughter. <Begin> In general, a granddaughter is the child of one's son or daughter. </End>",
-            "gold_label": "granddaughter"
+            "question": "Review: very good viewing alternative \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review describes the viewing alternative as \"very good.\" Answer: The sentiment of the review is positive. <Begin>Positive sentiment is indicated by words like \"very good.\"</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to Vanessa are grandson,sister.\nQuestion: Vanessa is Jason's what?",
-            "rationale": "Rationale: - Vanessa is the sister of someone who is the grandson of Jason. Answer: Vanessa is Jason's granddaughter. <Begin> In a family tree, the sister of someone who is the grandson of Jason would be Jason's granddaughter. </End>",
-            "gold_label": "granddaughter"
+            "question": "Review: well-thought stunts or \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review is positive. The use of \"well-thought\" indicates that the stunts were carefully planned and executed, suggesting a positive experience. Additionally, the use of \"or\" implies that there may be other positive aspects to consider as well. Therefore, the overall sentiment of the review is positive. <Begin> Positive sentiment: Use of positive language and indication of a positive experience. </End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to David are wife,grandson.\nQuestion: David is Jason's what?",
-            "rationale": "Rationale: 1. The relation \"wife\" indicates a marital relationship. 2. The relation \"grandson\" indicates a generational relationship. Answer: David is Jason's grandson. <Begin>We know that a grandson is the son of one's child, so based on this generational relationship, we can conclude that David is Jason's grandson.</End>",
-            "gold_label": "grandson"
+            "question": "Review: with color and depth , and rather a good time \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review seems to be positive. The use of words like \"good\" and \"rather\" suggest a positive sentiment. The mention of color and depth also implies a positive experience. <Begin>Positive reviews often include words like \"good\" and \"rather\" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Jason to Lucille are daughter,daughter.\nQuestion: Lucille is Jason's what?",
-            "rationale": "Rationale: - Lucille is Jason's daughter's daughter, which means she is Jason's granddaughter. Answer: Lucille is Jason's granddaughter. <Begin> In general, the child of a person's child is their grandchild. </End>",
-            "gold_label": "granddaughter"
+            "question": "Review: the horrors \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The sentiment of the review can be determined by analyzing the language used and the overall tone of the review. Answer: The sentiment of the review is likely negative, as the use of the word \"horrors\" suggests a negative experience or perception. <Begin> Rule: Generally, the word \"horrors\" conveys a negative sentiment. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jason to Aida are daughter,daughter.\nQuestion: Aida is Jason's what?",
-            "rationale": "Rationale: - The relation \"daughter\" implies a parent-child relationship. - Aida is the second daughter in the path from Jason, so she is the daughter of the daughter of Jason. Answer: Aida is Jason's granddaughter. <Begin> In the relationship \"daughter,\" the person is the child of the other person. </End>",
-            "gold_label": "granddaughter"
+            "question": "Review: sometimes dry \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The word \"sometimes\" suggests that the review is not consistently positive or negative. The word \"dry\" typically has a negative connotation when used to describe something other than weather. Answer: The sentiment of the review is likely negative. <Begin>Word \"dry\" has a negative connotation</End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Lisa to Jason are sister,father.\nQuestion: Jason is Lisa's what?",
-            "rationale": "Answer: For sister's father, we have sister's father is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
+            "question": "Review: redundant concept \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions that the concept is redundant, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Redundant concepts are often seen as unnecessary and unhelpful. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Russell to Jason are brother,grandfather.\nQuestion: Jason is Russell's what?",
-            "rationale": "Rationale: 1. According to the given information, the relations on the path from Russell to Jason are brother and grandfather. 2. <Begin> In a family tree, a grandfather is a generation above the father, and a brother is on the same generation level. </End> 3. Based on the given relations, Jason is Russell's grandson. Answer: Jason is Russell's grandson.",
-            "gold_label": "grandfather"
+            "question": "Review: derivative and hammily \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions \"derivative\" and \"hammily,\" which could indicate a negative sentiment. The use of these words may suggest that the reviewer did not find the work to be original or well-executed. Answer: The sentiment of the above review is likely negative, as indicated by the use of the words \"derivative\" and \"hammily.\" These words typically convey a sense of unoriginality and poor execution. <Begin>Words like \"derivative\" and \"hammily\" are often used to express negative opinions about a work. </End>",
+            "gold_label": "negative"
         },
         {
-            "question": "Context: The relations on the path from Jason to Donna are daughter,daughter.\nQuestion: Donna is Jason's what?",
-            "rationale": "Answer: For daughter's daughter, we have daughter's daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Michele to Jason are father,father.\nQuestion: Jason is Michele's what?",
-            "rationale": "Answer: For father's father, we have father's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Jason are mother,father.\nQuestion: Jason is Joe's what?",
-            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Vincent are granddaughter,brother.\nQuestion: Vincent is Jason's what?",
-            "rationale": "Rationale: 1. The relation \"granddaughter\" means that the person is the granddaughter of someone. 2. The relation \"brother\" means that the person is a brother of someone. 3. <Begin>In general, a brother is a male sibling of someone.</End> Answer: Vincent is Jason's brother.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Jason are son,grandfather.\nQuestion: Jason is Dorothy's what?",
-            "rationale": "Answer: For son’s grandfather, we have son’s grandfather is father. So the relations are reduced to father. Therefore, the answer is father.",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Jason are brother,grandfather.\nQuestion: Jason is Joe's what?",
-            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Jeffrey to Jason are brother,grandfather.\nQuestion: Jason is Jeffrey's what?",
-            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Dorothy to Jason are daughter,grandfather.\nQuestion: Jason is Dorothy's what?",
-            "rationale": "Rationale: 1. The relation between Dorothy and Jason is not direct, but through another person. 2. The relation \"daughter\" indicates that Dorothy is the daughter of the person in between, and the relation \"grandfather\" indicates that Jason is the grandson of the person in between. 3. Therefore, the person in between is the parent of Dorothy and the grandparent of Jason. Answer: Jason is Dorothy's son. <Begin> In general, the relation \"daughter\" indicates that the person is the daughter of the person in between. The relation \"grandfather\" indicates that the person is the grandfather of the person in between. </End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Marci to Jason are mother,father.\nQuestion: Jason is Marci's what?",
-            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Lewis to Jason are brother,grandfather.\nQuestion: Jason is Lewis's what?",
-            "rationale": "Answer: For brother’s grandfather, we have brother’s grandfather is also grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Russell to Jason are mother,father.\nQuestion: Jason is Russell's what?",
-            "rationale": "Answer: For mother’s father, we have mother’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Guillermina are wife,granddaughter.\nQuestion: Guillermina is Jason's what?",
-            "rationale": "Rationale: 1. Guillermina is the wife of Jason's granddaughter. (Given in the context) 2. Jason is the grandfather of Guillermina. (Given in the context) Answer: Guillermina is Jason's granddaughter. <Begin> According to the rule of family relations, the granddaughter of someone's wife is also their granddaughter. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jason to Guillermina are son,daughter.\nQuestion: Guillermina is Jason's what?",
-            "rationale": "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Jason are mother,father.\nQuestion: Jason is Jose's what?",
-            "rationale": "Answer: For mother's father, we have mother's father is grandfather. So the relation is grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Chad to Jason are father,father.\nQuestion: Jason is Chad's what?",
-            "rationale": "Answer: For father’s father, we have father’s father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Myrna to Jason are daughter,grandfather.\nQuestion: Jason is Myrna's what?",
-            "rationale": "Rationale: - Myrna's daughter's father is Myrna's husband. - Myrna's grandfather's grandson is Myrna's father. Answer: Jason is Myrna's father. <Begin> In a family tree, a grandfather is the father of a person's parent. </End>",
-            "gold_label": "father"
-        },
-        {
-            "question": "Context: The relations on the path from Alfred to Jason are father,father.\nQuestion: Jason is Alfred's what?",
-            "rationale": "Answer: For father's father, we have father's father is grandfather. So the answer is grandfather.",
-            "gold_label": "grandfather"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Jason are father,father.\nQuestion: Jason is Vincent's what?",
-            "rationale": "Answer: For father's father, we have father's father is grandfather. So the relations are reduced to grandfather. Therefore, the answer is grandfather.",
-            "gold_label": "grandfather"
+            "question": "Review: do n't work in concert \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review is negative. The phrase \"don't work in concert\" indicates that there is a lack of cooperation or harmony, leading to a negative sentiment. <Begin>General knowledge: Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation.</End>",
+            "gold_label": "negative"
         }
     ],
     "cluster_4": [
         {
-            "question": "Context: The relations on the path from Gabrielle to Joe are daughter,son.\nQuestion: Joe is Gabrielle's what?",
-            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
+            "question": "Review: that final , beautiful scene \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The use of the words \"final\" and \"beautiful\" suggests that the sentiment of the review is positive. Answer: The sentiment of the review is positive. <Begin>Positive reviews often include words like \"beautiful\" and \"final\" to express satisfaction with the overall experience.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to Dan are son,son.\nQuestion: Dan is Gabrielle's what?",
-            "rationale": "Rationale: The relation \"son\" means that Dan is the son of someone in the path from Gabrielle to Dan. Since \"son\" is repeated, it means that Dan is the son of the son of Gabrielle, which makes Dan Gabrielle's grandson. Answer: Dan is Gabrielle's grandson. <Begin>The relation \"son\" means that Dan is the son of someone in the path from Gabrielle to Dan.</End>",
-            "gold_label": "grandson"
+            "question": "Review: realistic portrayal \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The review mentions a \"realistic portrayal\" which indicates that the sentiment of the review is likely positive, as the portrayal is being praised for being realistic. Answer: The sentiment of the review is positive. <Begin>Realistic portrayal is generally praised and indicates a positive sentiment.</End>",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to Jose are daughter,son.\nQuestion: Jose is Gabrielle's what?",
-            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
+            "question": "Review: fashioning an engrossing entertainment out \nQuestion: What's the sentiment of above review?",
+            "rationale": "The sentiment of the review seems to be positive, as the phrase \"engrossing entertainment\" implies that the reviewer found the experience enjoyable and captivating. <Begin> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" </End> Answer: The sentiment of the review is positive.",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to Michelle are grandson,sister.\nQuestion: Michelle is Gabrielle's what?",
-            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
+            "question": "Review: hate to tear your eyes away from the images long enough to read the subtitles \nQuestion: What's the sentiment of above review?",
+            "rationale": "Rationale: The phrase \"hate to tear your eyes away\" suggests that the images are captivating and the viewer doesn't want to look away. This indicates a positive sentiment towards the images. Answer: The sentiment of the above review is positive. <Begin> The phrase \"hate to tear your eyes away\" </End> indicates a positive sentiment towards the images.",
+            "gold_label": "positive"
         },
         {
-            "question": "Context: The relations on the path from Gabrielle to David are son,son.\nQuestion: David is Gabrielle's what?",
-            "rationale": "Answer: For son’s son, we have son’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Jose are son,son.\nQuestion: Jose is Gabrielle's what?",
-            "rationale": "Rationale: The relation \"son\" means that Jose is the son of Gabrielle. Since the relation \"son\" is repeated, it means that Jose is the son of Gabrielle's son. Therefore, Jose is Gabrielle's grandson. Answer: Jose is Gabrielle's grandson. <Begin> In general, the relation \"son\" indicates a parent-child relationship. </End>",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Michael to Gabrielle are son,grandmother.\nQuestion: Gabrielle is Michael's what?",
-            "rationale": "Rationale: 1. The relation \"son\" indicates that Michael is the son of someone. 2. The relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. Answer: Gabrielle is Michael's mother. <Begin> In general, the relation \"son\" indicates that Michael is the son of someone, and the relation \"grandmother\" indicates that Gabrielle is the grandmother of someone. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Dan are husband,grandson.\nQuestion: Dan is Gabrielle's what?",
-            "rationale": "Rationale: 1. The relation \"husband\" means that Dan is married to Gabrielle. 2. The relation \"grandson\" means that Dan is the son of Gabrielle's child. Answer: Dan is Gabrielle's grandson. <Begin> In general, husband is a relation between a man and a woman who are married. Grandson is a relation between a man and a woman where the man is the son of the woman's child. </End>",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Angela are husband,granddaughter.\nQuestion: Angela is Gabrielle's what?",
-            "rationale": "Rationale: - Angela is the granddaughter of Gabrielle. - The granddaughter is the child of Gabrielle's child. Answer: Angela is Gabrielle's granddaughter. <Begin>Granddaughter is the child of Gabrielle's child</End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Michelle are daughter,daughter.\nQuestion: Michelle is Gabrielle's what?",
-            "rationale": "Rationale: 1. The relation \"daughter\" indicates a parent-child relationship. 2. Since the relations are repeated, it indicates a generational relationship. Answer: Michelle is Gabrielle's granddaughter. <Begin> In general, the relation \"daughter\" indicates a parent-child relationship. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Lucille are husband,granddaughter.\nQuestion: Lucille is Gabrielle's what?",
-            "rationale": "Rationale: 1. The relation \"husband\" implies a marital relationship. 2. The relation \"granddaughter\" implies a generational relationship. Answer: Lucille is Gabrielle's granddaughter. <Begin> In general, a granddaughter is the child of one's son or daughter. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Aida are son,daughter.\nQuestion: Aida is Gabrielle's what?",
-            "rationale": "Answer: For son’s daughter, we have son’s daughter is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Christopher are son,brother.\nQuestion: Christopher is Gabrielle's what?",
-            "rationale": "Rationale: - Christopher is Gabrielle's son's brother, so he is Gabrielle's son as well. Answer: Christopher is Gabrielle's son. <Begin> In general, the brother of someone's son is also their son. </End>",
-            "gold_label": "son"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Donna are grandson,sister.\nQuestion: Donna is Gabrielle's what?",
-            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Kevin are daughter,son.\nQuestion: Kevin is Gabrielle's what?",
-            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from James to Gabrielle are daughter,grandmother.\nQuestion: Gabrielle is James's what?",
-            "rationale": "Rationale: - The relation \"daughter\" means that Gabrielle is the daughter of someone on the path from James to Gabrielle. - The relation \"grandmother\" means that Gabrielle is the grandmother of someone on the path from James to Gabrielle. Answer: Gabrielle is James's mother. <Begin> In a parent-child relationship, the child is the daughter/son of the parent. </End> <Begin> In a grandparent-grandchild relationship, the grandparent is the parent of the parent of the grandchild. </End>",
-            "gold_label": "mother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Aida are daughter,daughter.\nQuestion: Aida is Gabrielle's what?",
-            "rationale": "Rationale: - Aida is on the path from Gabrielle, so Aida is a descendant of Gabrielle. - The relation \"daughter\" indicates that Aida is a daughter of someone in between Gabrielle and Aida. Answer: Aida is Gabrielle's granddaughter. <Begin> In general, the relation \"daughter\" indicates a parent-child relationship. </End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Anna are daughter,daughter.\nQuestion: Anna is Gabrielle's what?",
-            "rationale": "Answer: For daughter’s daughter, we have daughter’s daughter is granddaughter. So the relation is granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Jose to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Jose's what?",
-            "rationale": "Rationale: 1. The relation \"sister\" indicates that Gabrielle is Jose's sister. 2. The relation \"grandmother\" indicates that Gabrielle is also Jose's grandmother. Answer: Gabrielle is Jose's grandmother. <Begin> In general, the relation \"sister\" indicates that two individuals share the same parents. The relation \"grandmother\" indicates that one individual is the mother of another individual's parent. </End>",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Donald are granddaughter,brother.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "Rationale: 1. A granddaughter is the child of one's son or daughter. 2. A brother is a male sibling. 3. Based on the given relations, Donald is connected to Gabrielle through the granddaughter and brother relationship. Answer: Donald is Gabrielle's grandson. <Begin>Rule: A granddaughter's brother is her sibling, so Donald is Gabrielle's grandson.</End>",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Dan to Gabrielle are brother,grandmother.\nQuestion: Gabrielle is Dan's what?",
-            "rationale": "Answer: For brother’s grandmother, we have brother’s grandmother is grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Annette are grandson,sister.\nQuestion: Annette is Gabrielle's what?",
-            "rationale": "Answer: For grandson’s sister, we have grandson’s sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Joe to Gabrielle are mother,mother.\nQuestion: Gabrielle is Joe's what?",
-            "rationale": "Rationale: 1. The relation \"mother\" implies that Gabrielle is a female. 2. The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother. Answer: Gabrielle is Joe's maternal grandmother. <Begin>The relation \"mother\" implies that Gabrielle is a female.</End> <Begin>The repeated relation \"mother\" indicates that Gabrielle is Joe's maternal grandmother.</End>",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Annette are granddaughter,sister.\nQuestion: Annette is Gabrielle's what?",
-            "rationale": "Answer: For granddaughter's sister, we have granddaughter's sister is granddaughter. So the relations are reduced to granddaughter. Therefore, the answer is granddaughter.",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Donald are son,son.\nQuestion: Donald is Gabrielle's what?",
-            "rationale": "First, we need to understand the relation \"son\" in this context. In general, a son is a male child in relation to their parents. So, if we apply this rule, we can infer that Donald is Gabrielle's grandson. <Begin>In general, the relation \"son\" indicates a child-parent relationship.</End> Therefore, the answer is Donald is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Sheila to Gabrielle are father,mother.\nQuestion: Gabrielle is Sheila's what?",
-            "rationale": "Answer: For father’s mother, we have father’s mother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Vincent are daughter,son.\nQuestion: Vincent is Gabrielle's what?",
-            "rationale": "Answer: For daughter’s son, we have daughter’s son is grandson. So the relations are reduced to grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Vanessa to Gabrielle are mother,mother.\nQuestion: Gabrielle is Vanessa's what?",
-            "rationale": "Answer: For mother's mother, we have mother's mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from William to Gabrielle are mother,mother.\nQuestion: Gabrielle is William's what?",
-            "rationale": "Answer: For mother's mother, we have mother's mother is grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Vincent to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Vincent's what?",
-            "rationale": "Answer: For sister’s grandmother, we have sister’s grandmother is also grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Guillermina to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Guillermina's what?",
-            "rationale": "Rationale: - According to the given context, the relation between Guillermina and Gabrielle is sister and grandmother. - <Begin> In general, a grandmother is a parent's mother, and a sister is a female sibling. </End> - Based on the given relations, Gabrielle is Guillermina's granddaughter. Answer: Gabrielle is Guillermina's granddaughter.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Chad to Gabrielle are sister,grandmother.\nQuestion: Gabrielle is Chad's what?",
-            "rationale": "Answer: For sister’s grandmother, we have sister’s grandmother is grandmother. So the relations are reduced to grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Alfred are husband,grandson.\nQuestion: Alfred is Gabrielle's what?",
-            "rationale": "Answer: For husband's grandson, we have husband's grandson is grandson. So the relation is grandson. Therefore, the answer is grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Russell are son,son.\nQuestion: Russell is Gabrielle's what?",
-            "rationale": "Rationale: The relation \"son\" implies a parent-child relationship. Since the path from Gabrielle to Russell consists of two \"son\" relations, it means that Russell is the son of Gabrielle's son, making Russell Gabrielle's grandson. <Begin>The rule is that \"son\" relation implies a parent-child relationship.</End> Answer: Russell is Gabrielle's grandson.",
-            "gold_label": "grandson"
-        },
-        {
-            "question": "Context: The relations on the path from Gabrielle to Asia are husband,granddaughter.\nQuestion: Asia is Gabrielle's what?",
-            "rationale": "Rationale: - The relation \"husband\" implies a marital relationship. - The relation \"granddaughter\" implies a generational relationship. Answer: Asia is Gabrielle's granddaughter. <Begin>The relation \"husband\" implies a marital relationship. The relation \"granddaughter\" implies a generational relationship.</End>",
-            "gold_label": "granddaughter"
-        },
-        {
-            "question": "Context: The relations on the path from Asia to Gabrielle are mother,mother.\nQuestion: Gabrielle is Asia's what?",
-            "rationale": "Answer: For mother’s mother, we have mother’s mother is grandmother. So the relation is grandmother. Therefore, the answer is grandmother.",
-            "gold_label": "grandmother"
+            "question": "Review: the promise of digital filmmaking \nQuestion: What's the sentiment of above review?",
+            "rationale": "Step 1: Identify the key points in the review - the promise of digital filmmaking Step 2: Consider the tone and language used in the review - positive language and excitement about the potential of digital filmmaking Step 3: Consider any prior knowledge or rules that may apply - <Begin> Positive language and excitement often indicate a positive sentiment <End> Step 4: Answer: The sentiment of the review is positive, as it expresses excitement and optimism about the potential of digital filmmaking.",
+            "gold_label": "positive"
         }
     ]
 }

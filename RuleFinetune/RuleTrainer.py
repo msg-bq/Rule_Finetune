@@ -143,7 +143,7 @@ class Trainer:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 
-                losses = [future.result() for future in futures if future.result() and future.result() != -1]
+                losses = [future.result() for future in futures if future.result()]
                 losses = [(l + 1) / 2 for l in losses]
                 # None对应样例、-1对应输出没有rationale的样例
                 logger.info(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调

@@ -1,0 +1,346 @@
+{
+    "Rationale: The review is described as \"a good one,\" which indicates a positive sentiment. Answer: The sentiment of the above review is positive. <Begin> Positive reviews are typically described as \"good\" or \"great.\" </End>": [
+        14.0,
+        1.0
+    ],
+    "Rationale: The word \"vainly\" suggests a negative sentiment, as it implies that the person's thinking was in vain or without success. Answer: The sentiment of the above review is negative. <Begin> The word \"vainly\" typically indicates a negative sentiment. </End>": [
+        29.0,
+        1.0
+    ],
+    "Rationale: The word \"infectiously\" suggests that the sentiment of the review is positive, as it implies that whatever is being described is spreading or affecting others in a positive way. Answer: The sentiment of the above review is likely positive. <Begin>Positive sentiment is often associated with words like \"infectiously\" which imply a spreading of something positive.</End>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: The words \"unpretentious,\" \"charming,\" \"quirky,\" and \"original\" all have positive connotations, suggesting a positive sentiment in the review. Answer: The sentiment of the above review is positive. <Begin>Positive words generally indicate a positive sentiment.</End>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: The review mentions \"very few laughs and even less surprises\", which suggests that the overall sentiment is negative or disappointing. Answer: The sentiment of the review is negative. <Begin> Negative reviews often mention lack of positive elements such as laughs and surprises. </End>": [
+        17.0,
+        1.0
+    ],
+    "Rationale: The phrase \"goes to absurd lengths\" suggests that the review may be negative or critical. Answer: The sentiment of the above review is likely negative or critical. <Begin>Generally, when someone goes to absurd lengths, it indicates a negative sentiment.</End>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The word \"weak\" indicates a negative sentiment towards the subject being reviewed. <Begin> In general, the word \"weak\" carries a negative connotation. </End>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"bad\" and \"screaming\" suggests a negative sentiment. Answer: The sentiment of the review is negative. <Begin> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" </End>": [
+        31.0,
+        1.0
+    ],
+    "Rationale: The review states that there is no apparent joy, indicating a lack of positive sentiment. Answer: The sentiment of the above review is negative. <Begin> In general, lack of joy indicates negative sentiment. </End>": [
+        24.0,
+        1.0
+    ],
+    "Rationale: The review describes the viewing alternative as \"very good.\" Answer: The sentiment of the review is positive. <Begin>Positive sentiment is indicated by words like \"very good.\"</End>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of \"well-thought\" indicates that the stunts were carefully planned and executed, suggesting a positive experience. Additionally, the use of \"or\" implies that there may be other positive aspects to consider as well. Therefore, the overall sentiment of the review is positive. <Begin> Positive sentiment: Use of positive language and indication of a positive experience. </End>": [
+        24.0,
+        1.0
+    ],
+    "The sentiment of the review seems to be positive. The use of words like \"good\" and \"rather\" suggest a positive sentiment. The mention of color and depth also implies a positive experience. <Begin>Positive reviews often include words like \"good\" and \"rather\" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience.</End>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: The sentiment of the review can be determined by analyzing the language used and the overall tone of the review. Answer: The sentiment of the review is likely negative, as the use of the word \"horrors\" suggests a negative experience or perception. <Begin> Rule: Generally, the word \"horrors\" conveys a negative sentiment. </End>": [
+        24.0,
+        1.0
+    ],
+    "Rationale: The word \"sometimes\" suggests that the review is not consistently positive or negative. The word \"dry\" typically has a negative connotation when used to describe something other than weather. Answer: The sentiment of the review is likely negative. <Begin>Word \"dry\" has a negative connotation</End>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: The review mentions that the concept is redundant, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Redundant concepts are often seen as unnecessary and unhelpful. </End>": [
+        20.0,
+        1.0
+    ],
+    "Rationale: The review mentions \"derivative\" and \"hammily,\" which could indicate a negative sentiment. The use of these words may suggest that the reviewer did not find the work to be original or well-executed. Answer: The sentiment of the above review is likely negative, as indicated by the use of the words \"derivative\" and \"hammily.\" These words typically convey a sense of unoriginality and poor execution. <Begin>Words like \"derivative\" and \"hammily\" are often used to express negative opinions about a work. </End>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"don't work in concert\" indicates that there is a lack of cooperation or harmony, leading to a negative sentiment. <Begin>General knowledge: Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation.</End>": [
+        32.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"intelligence\" and \"subtlety\" suggests a positive sentiment, as it implies that the person being described is intelligent and subtle in their actions or behavior. Answer: The sentiment of the above review is likely positive.": [
+        5.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The review states that the work equals the original and in some ways even betters it, indicating a positive sentiment. <retrieved_rule> Positive sentiment towards turntablists <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"redundant\" suggests a negative sentiment towards the concept. <retrieved_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"no wit\" and \"labored gags\" indicates a lack of humor and forced attempts at humor, suggesting a negative experience. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"the part where nothing's happening\" suggests a lack of suspense or excitement, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The mention of \"a smile on your face\" indicates a positive experience. <retrieved_rule> Positive sentiment is often associated with words like \"infectiously\" which imply a spreading of something positive. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the above review is likely positive. The use of words like \"brave\" and \"uninhibited\" suggests a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited.\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The word \"saucy\" often conveys a positive and lively connotation, suggesting a positive sentiment towards the subject. <retrieved_rule> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The phrase \"sit through\" suggests that the experience was unpleasant or difficult, indicating a negative sentiment. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The use of the word \"dry\" suggests a negative experience or perception. <retrieved_rule> Word \"dry\" often conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The words \"excruciatingly unfunny\" and \"pitifully unromantic\" both convey a negative sentiment towards the subject being reviewed. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The phrase \"on all cylinders\" typically indicates that something is performing at its best, suggesting a positive sentiment towards the subject being reviewed. <retrieved_rule> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The use of the word \"stilted\" suggests that the action is awkward or unnatural, indicating a negative experience. <retrieved_rule> Use of negative language such as \"stilted\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"as they come\" and the mention of something being recycled indicate a negative sentiment. Answer: The sentiment of the above review is negative. <retrieved_rule> Describing something as \"boilerplate clichés\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of \"very good\" indicates a positive experience, and the phrase \"viewing alternative\" suggests that the movie is a positive option for viewing. Therefore, the overall sentiment of the review is positive. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"gorgeous\" and \"deceptively minimalist\" suggests a positive sentiment. <retrieved_rule> Positive reviews often include words like \"beautiful\" and \"final\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The word \"disappointments\" indicates a negative sentiment towards the subject being reviewed. <retrieved_rule> Use of negative language such as \"disappointments\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is likely negative. The comparison of the subject to a game suggests that the reviewer did not find the work to be original or well-executed, which typically conveys a negative sentiment. <retrieved_rule> Comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"doa\" typically indicates a negative sentiment, as it stands for \"dead on arrival.\" Answer:": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"beautifully\" indicates a positive sentiment. <retrieved_rule> Positive reviews often include words like \"beautiful\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"lousy\" indicates a negative sentiment. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the phrase \"absolute joy\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"absolute joy.\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"no apparent joy\" suggests a lack of positive emotions, indicating a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Negative sentiment: lack of suspense, surprise, and emotional conviction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"highly-praised disappointments\" suggests that there were high expectations for the subject, but it ultimately led to disappointment, indicating a negative sentiment. <retrieved_rule> Generally, \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"far less sophisticated\" suggests a lack of positive elements, indicating a negative sentiment. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"very few laughs and even less surprises\" indicates a lack of joy and excitement, suggesting a negative sentiment towards the subject being reviewed. <retrieved_rule> In general, lack of joy indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"weak\" and the lack of a positive element following it indicates a negative sentiment. <retrieved_rule> Negative reviews often mention lack of positive elements such as laughs and surprises. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of \"pretty damned funny\" indicates a positive experience with the humor in the movie. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"dreck\" suggests a negative sentiment. Answer: The sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"dreck\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"spiffy\" indicates a positive sentiment towards the animated feature. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"final\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The phrase \"seem fresh\" indicates a positive sentiment, as it suggests that the subject appears new and innovative. Therefore, the overall sentiment of the review is positive. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"final\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of words like \"sloppily written\" and \"cast\" with negative connotations, as well as the comparison to the caterer, all indicate a negative sentiment towards the movie. <retrieved_rule> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"funny\" suggests a positive sentiment, and the addition of \"yet\" indicates that there may be some reservation, but overall the sentiment is positive. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The use of the words \"overbearing\" and \"over-the-top\" generally indicate a negative sentiment, as they suggest something excessive or overwhelming in a negative way. <retrieved_rule> Use of negative language such as \"overbearing\" and \"over-the-top\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The phrase \"in memory\" suggests that the subject is being remembered fondly or positively, indicating a positive sentiment. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of the word \"respectable\" indicates a positive sentiment, suggesting that the movie is worthy of respect. Therefore, the overall sentiment of the review is positive. <new_rule> The word \"respectable\" often indicates a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The word \"grating\" has a negative connotation, indicating a negative sentiment in the review. <retrieved_rule> Use of negative language such as \"grating\" generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"hopeless\" indicates a negative sentiment towards whatever is being described. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"unpretentious,\" \"charming,\" \"quirky,\" and \"original\" all indicate a positive experience. <retrieved_rule> Realistic portrayal is generally praised and indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review states that the movie provides its keenest pleasures, indicating a positive sentiment. Answer: The sentiment of the above review is positive. <new_rule> Positive sentiment is often indicated by words like \"provide its keenest pleasures.\" <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The reviewer expresses a desire for the work to have gone \"one step further,\" which suggests that they found the work enjoyable and wanted more from it. <new_rule> Reviews that express a desire for a work to go further often indicate a positive sentiment, as it implies that the reviewer was engaged and interested in the work. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"very well-written\" and \"very well-acted\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is indicated by words like \"very good.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"altogether too slight to be called any kind of masterpiece\" indicates a negative sentiment, suggesting that the work is not impressive or significant. <new_rule> Negative sentiment is often indicated by phrases that suggest lack of emotional conviction or impact. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The word \"collapse\" typically conveys a negative sentiment. <retrieved_rule> Word \"collapse\" often conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The phrase \"just too silly\" suggests a negative experience or perception. <retrieved_rule> Generally, when someone goes to absurd lengths, it indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The phrase \"wide-awake all the way through\" indicates a positive experience, suggesting a positive sentiment. <new_rule> Positive language and excitement often indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment of the above review is negative. The word \"irritates\" indicates a negative sentiment, as it suggests that whatever is being described is causing annoyance or frustration. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"clumsy\" and \"heavy-handed\" to describe the dialogue and sentiment, as well as \"phoney-feeling\", all indicate a negative experience. Therefore, the overall sentiment of the review is negative. <retrieved_rule> Use of negative language such as \"clumsy\" and \"heavy-handed\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"effective\" suggests a positive sentiment, and the phrase \"if you stick with it\" implies that there may be some initial challenges, but the overall experience is positive. <new_rule> Positive language and excitement often indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The use of \"ridiculous\" typically conveys a negative sentiment, and the addition of \"absolutely and completely\" emphasizes the negativity of the reviewer's opinion. Therefore, the overall sentiment of the review is negative. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative, as the use of the phrase \"no lika da\" suggests a lack of enjoyment or satisfaction. <retrieved_rule> Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of \"welcome relief\" indicates a positive sentiment, suggesting that the experience was enjoyable and a positive change. <new_rule> Positive sentiment: Use of positive language and indication of a positive experience. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The phrase \"at its best moments\" suggests a positive sentiment. <retrieved_rule> Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely negative. The phrase \"about as interesting\" suggests a lack of interest or excitement, indicating a negative sentiment towards the subject. <new_rule> Generally, when something is described as \"about as interesting,\" it indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of words like \"easily wait\" and \"pay per view dollar\" suggests that the reviewer does not feel the movie is worth the cost, indicating a negative sentiment. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of words like \"audacious\" and \"outrageous\" suggests a positive and exciting experience. <new_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited.\" <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review mentions \"beautiful adaptation,\" which suggests a positive sentiment. Answer: The sentiment of the above review is positive. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"final\" to express satisfaction with the overall experience. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is likely negative. The use of words like \"derivative\" and \"hammily\" suggests a negative sentiment, as they imply a lack of originality and overacting. <retrieved_rule> Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"compelling\" suggests a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"provide its keenest pleasures.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the words \"overlong\" and \"bombastic\" indicates a negative sentiment. <retrieved_rule> Use of negative language such as \"overbearing\" and \"over-the-top\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of the word \"hate\" indicates a strong negative sentiment towards the subject. <retrieved_rule> Use of negative language such as \"hate\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of the word \"infectiously\" suggests that the subject has a positive and contagious quality, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often indicated by words like \"absolute joy.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The review contains negative language and suggests a very negative experience, indicating a negative sentiment. Answer: The sentiment of the above review is negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the above review is likely positive. The use of words like \"pokes,\" \"provokes,\" and \"expressionistic license\" suggests that the work is thought-provoking and takes creative liberties, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"brave\" and \"uninhibited.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is positive. The use of words like \"color\" and \"depth\" with positive connotations, as well as the phrase \"a good time,\" all indicate a positive sentiment towards the movie. <retrieved_rule> Positive reviews are typically described as \"good\" or \"great.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is likely positive. The use of words like \"outrageous\" and \"ingenious\" suggests a positive sentiment. The word \"silly\" could be interpreted as a positive or negative sentiment, but in this context, it seems to be used in a lighthearted or positive manner. <retrieved_rule> Positive sentiment is often associated with words like \"outrageous\" and \"ingenious.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The use of \"inane\" and \"awful\" both indicate a negative sentiment, as they are negative words with negative connotations. Therefore, the overall sentiment of the review is negative. <retrieved_rule> Negative sentiment is often indicated by the use of negative words or phrases. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment of the review is negative. The phrase \"lost in the translation this time\" suggests a lack of emotional conviction or connection, indicating a negative sentiment. <retrieved_rule> Negative sentiment: lack of suspense, surprise, and emotional conviction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"pointless\" suggests a negative sentiment, as it implies that the subject of the review lacks a clear purpose or value. Answer: The sentiment of the above review is negative, as indicated by the use of the word \"pointless.\" <retrieved_rule> Redundant concepts are often seen as unnecessary and unhelpful. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}
