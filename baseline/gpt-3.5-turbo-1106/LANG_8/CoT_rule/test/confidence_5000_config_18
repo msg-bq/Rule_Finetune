@@ -1,0 +1,93 @@
+Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../data/LANG_8/rule_base_cold', sample_strategy='confidence_5000')
+When correcting grammatical errors in existing rules from the knowledge base, utilize the rules whenever possible. Only invent knowledge when necessary.
+Note that you should only correct essential grammatical errors, and maintain the original punctuations as much as possible, it's no need to delete or add the optional words and punctuations.
+Knowledge base:
+Sentence: December
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "December".
+
+
+Sentence: We excited the show !
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization.
+
+Analyse process:
+Error1: subject-verb agreement
+Rule1: "Subject-Verb agreement rule". 
+Adjustment1: Change "excited" to "were excited"
+Error2: prepositions
+Rule2: "Use the correct preposition to indicate the relationship between words in a sentence."
+Adjustment2: change "excited" to "excited at"
+
+Therefore, the revised sentence is "We were excited at the show !"
+
+
+Sentence: I asked her if she have boyfriend or not .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization.
+
+Analyse process with knowledge base:
+Error1: verb tense
+Rule1: "Use the correct verb tense to match the timing of the action being described."
+Adjustment1: Change "have" to "had"
+
+Error2: article and determiner accuracy
+Rule2: "Use "a" before specific instances of a noun, such as "a diary."
+Adjustment2: Change "boyfriend" to "a boyfriend"
+
+Error3: set phrase
+Rule3: "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech."
+Adjustment3: Remove "or not"
+
+Therefore, the revised sentence is "I asked her if she had a boyfriend ."
+
+
+Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
+
+Sentence: T `` .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "T `` ."
+
+max_confidence_num: 5000
+rule_base:
+The subjunctive mood is used to express a hypothetical or unreal situation, and it is formed by using the base form of the verb. In this case, "would" is used to indicate a hypothetical situation, and "corrected" is the base form of the verb "correct" in the subjunctive mood.
+There is no specific rule for this, but it is a common mistake to have unnecessary spaces before punctuation marks.
+Rule: In English, the correct phrasing for expressing a significant amount is "not a little" rather than "a not little."
+When asking a question, it is important to include a subject to make a complete sentence.
+Subject-Verb Agreement: Plural subject takes plural verb
+In English, a question sentence typically starts with a helping verb before the subject.
+Rule: "Too" is used to indicate an excessive or undesirable amount of something.
+Rule: A complete sentence should have a subject and a verb.
+Rule: The preposition "of" is used after the verb "enjoy" to indicate the thing or place that is being enjoyed.
+In English, the word "internet" should be capitalized as it is a proper noun.
+The rule is to use "a" before words that start with a consonant sound.
+Grammar rule: Use a comma to separate an introductory clause from the main clause.
+In English, a sentence should have a subject and a verb to be grammatically correct.
+Verb tenses should match the rest of the sentence.
+In this context, "so" is used to convey the extent of the editing.
+Grammar Rule: Use "ago" to indicate the time in the past.
+In English, there should not be a space before a comma.
+Capitalization rule: Proper nouns should be capitalized, while common nouns should not.
+Subject + verb
+Capitalize proper nouns
+测试集上的准确率为：(Counter({'fp': 265, 'fn': 131, 'tp': 78}), {'R:DET': [0, 2, 2], 'R:VERB:SVA': [5, 7, 2], 'M:PUNCT': [1, 18, 8], 'R:PUNCT': [1, 9, 6], 'M:PREP': [1, 4, 2], 'R:PREP': [6, 11, 5], 'R:ORTH': [18, 60, 15], 'R:OTHER': [4, 37, 26], 'M:DET': [4, 14, 12], 'R:VERB:TENSE': [5, 22, 3], 'U:OTHER': [0, 7, 1], 'M:NOUN': [0, 3, 3], 'R:NOUN:NUM': [6, 3, 3], 'R:VERB': [3, 6, 4], 'U:PUNCT': [5, 12, 3], 'R:CONTR': [0, 3, 1], 'M:VERB:TENSE': [0, 4, 3], 'U:VERB': [0, 1, 0], 'U:CONJ': [0, 1, 0], 'R:MORPH': [3, 2, 5], 'R:PRON': [1, 3, 0], 'M:ADV': [2, 1, 0], 'R:VERB:FORM': [3, 7, 2], 'U:PREP': [2, 1, 1], 'R:WO': [0, 1, 2], 'R:SPELL': [7, 5, 5], 'R:NOUN': [0, 4, 1], 'M:OTHER': [0, 3, 4], 'U:DET': [0, 3, 3], 'R:PART': [0, 2, 1], 'M:VERB': [0, 2, 1], 'M:CONJ': [1, 2, 0], 'R:ADJ': [0, 2, 1], 'U:VERB:TENSE': [0, 0, 1], 'M:ADJ': [0, 1, 1], 'U:NOUN': [0, 0, 1], 'M:PRON': [0, 1, 2], 'U:ADV': [0, 1, 0], 'U:PRON': [0, 0, 1]})

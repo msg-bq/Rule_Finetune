@@ -20,20 +20,36 @@ def read_LANG_8_data(path) -> List[dict]:
         lines_data = lines[i].split('\t')
         if len(lines_data) == 5:
             label = lines_data[4]
+        elif len(lines_data) == 2:
+            label = lines_data[1]
         else:
             label = lines_data[5]
-        sentence = lines_data[4]
+
+        if len(lines_data) == 2:
+            sentence = lines_data[0]
+        else:
+            sentence = lines_data[4]
         data.append({'sentence': sentence, 'label': label})
 
     data = [{'question': question_template.format(sample['sentence']), 'gold_label': sample['label']}
             for sample in data]
+    #去重
+    data_set = set()
+    new_data = []
+    for sample in data:
+        if sample['question'] not in data_set:
+            data_set.add(sample['question'])
+            new_data.append(sample)
+    data = new_data
     return data
 
 
 @DatasetsReaderNameSpace.register("LANG_8")
 def read_func(data_dir):
-    train_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.train')
-    test_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.test')[:200]
+    # train_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.train')
+    train_data = read_LANG_8_data(r"D:\Downloads\clang8-main\output_data\clang8_source_target_en.spacy_tokenized.tsv")
+    test_data = read_LANG_8_data(r"D:\Downloads\clang8-main\output_data\clean_clang8") # 对应最后200个
+    # test_data = read_LANG_8_data(f'{data_dir}/lang-8-en-1.0/entries.test')[-200:]
 
     return train_data, None, test_data
 

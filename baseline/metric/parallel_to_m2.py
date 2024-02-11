@@ -48,9 +48,10 @@ def main():
 
 def parrallel_to_m2_single(orig, cor):
     args = parse_args()
-    print("Loading resources...")
+    # print("Loading resources...")
     # Load Errant
-    annotator = errant.load("en")
+    global annotator
+    # annotator = errant.load("en")
 
     print("Processing parallel files...")
 
@@ -125,5 +126,5 @@ def parse_args():
 def noop_edit(id=0):
     return "A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||"+str(id)
 
-parrallel_to_m2_single("I like the apples.", "I like the apple")
+# parrallel_to_m2_single("I like the apples.", "I like the apple")
 

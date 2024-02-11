@@ -91,10 +91,10 @@ def call_openai(input_text: Union[List[str], str], model="gpt-3.5-turbo-1106", i
             time.sleep(20 + 10 * random())
             key_choose = (key_choose + 1) % len(key_list)
 
-    if 'n' in kwargs and kwargs['n'] == 1:
-        return ''
-    else:
+    if 'n' in kwargs and kwargs['n'] > 1:
         return []
+    else:
+        return ""
 
 if __name__ == '__main__':
     prompt = \

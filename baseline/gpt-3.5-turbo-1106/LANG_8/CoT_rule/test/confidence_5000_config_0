@@ -1,27 +1,36 @@
 Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/LANG_8/version_2/rule_base_epoch4', sample_strategy='confidence_5000')
-Instruction: Following are several existed rules in knowledge base. When you correct the grammatical eroors, try to use them whenever possible. Not to invent knowledge by yourself unless necessary. Try to keep the words and punctuation of the original sentence, and correct only necessary grammatical errors 
+When correcting grammatical errors in existing rules from the knowledge base, utilize the rules whenever possible. Only invent knowledge when necessary. Maintain the original words and punctuation as much as possible, and only correct essential grammatical errors.
 Knowledge base:
 Sentence: December
 Question: What's the grammar errors and revised sentence of above sentence?
 Answer: No grammar errors.
-So the revised sentence is "December".
+Therefore, the revised sentence is "December".
 
 Sentence: We excited the show !
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: we retrieve "Subject-Verb agreement rule", so "excited -> were excited at"
-So the revised sentence is "We were excited at the show !"
+Answer: Rule1: "Subject-Verb agreement rule". 
+Conclusion: "excited -> were excited at"
+Therefore, the revised sentence is "We were excited at the show !"
 
 Sentence: I asked her if she have boyfriend or not .
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: we retrieve "Rule: Use the correct verb tense to match the timing of the action being described.", so "have -> had"
-Error 2: we retrieve "Use "a" before specific instances of a noun, such as "a diary.", so "boyfriend -> a boyfriend"
-Error 3: we retrieve "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech.", so "or not -> ""
-So the revised sentence is "I asked her if she had a boyfriend ."
+Answer: Rule1: "Use the correct verb tense to match the timing of the action being described.". 
+Conclusion: "have -> had"
+Rule2: "Use "a" before specific instances of a noun, such as "a diary."
+Conclusion: "boyfriend -> a boyfriend"
+Rule3: we retrieve "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech."
+ConclusionL "or not -> ""
+Therefore, the revised sentence is "I asked her if she had a boyfriend ."
 
 Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
 Question: What's the grammar errors and revised sentence of above sentence?
 Answer: No grammar errors.
-So the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+Therefore, the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
+Sentence: T `` .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+Therefore, the revised sentence is "T `` ."
 
 max_confidence_num: 5000
 rule_base:
@@ -2471,4 +2480,4 @@ Spelling error: "puzzied" is misspelled. The correct spelling is "puzzled."
 The correct spelling of "puzzied" should be used. The correct spelling is "puzzled."
 No grammar errors found.
 Knowledge base:
-测试集上的准确率为：(Counter({'fp': 345, 'fn': 139, 'tp': 55}), {'U:OTHER': [1, 5, 1], 'R:SPELL': [6, 13, 2], 'R:OTHER': [6, 44, 22], 'M:NOUN:POSS': [0, 1, 1], 'R:ADV': [0, 5, 1], 'M:PREP': [2, 8, 8], 'U:VERB:FORM': [0, 1, 0], 'R:VERB': [0, 6, 10], 'R:PUNCT': [0, 17, 1], 'M:VERB': [1, 4, 3], 'U:PUNCT': [1, 19, 1], 'R:NOUN': [1, 10, 4], 'R:ORTH': [4, 38, 2], 'U:VERB:TENSE': [1, 2, 1], 'R:VERB:FORM': [2, 13, 1], 'R:VERB:TENSE': [1, 12, 6], 'M:PUNCT': [2, 24, 7], 'M:OTHER': [1, 24, 8], 'R:MORPH': [1, 6, 2], 'M:DET': [8, 23, 8], 'U:VERB': [0, 0, 2], 'R:DET': [2, 7, 3], 'M:ADJ': [0, 1, 1], 'R:NOUN:NUM': [5, 5, 10], 'R:VERB:SVA': [2, 2, 3], 'U:NOUN': [0, 2, 2], 'M:VERB:TENSE': [0, 1, 1], 'R:PRON': [0, 0, 2], 'R:PREP': [1, 15, 3], 'R:CONJ': [0, 1, 1], 'U:PREP': [4, 2, 4], 'R:CONTR': [0, 4, 0], 'M:NOUN': [0, 3, 0], 'U:DET': [2, 2, 3], 'M:PART': [0, 0, 2], 'R:ADJ': [0, 4, 2], 'M:ADV': [1, 2, 0], 'U:ADJ': [0, 1, 0], 'M:CONJ': [0, 1, 0], 'R:PART': [0, 3, 0], 'R:WO': [0, 4, 2], 'M:CONTR': [0, 1, 0], 'U:PART': [0, 1, 0], 'U:ADV': [0, 3, 1], 'R:ADJ:FORM': [0, 2, 1], 'M:PRON': [0, 1, 5], 'M:VERB:FORM': [0, 1, 0], 'U:CONJ': [0, 1, 1], 'U:PRON': [0, 0, 1]})
+测试集上的准确率为：(Counter({'fp': 300, 'fn': 130, 'tp': 79}), {'R:VERB:SVA': [3, 3, 4], 'M:PUNCT': [1, 20, 8], 'R:PREP': [3, 8, 8], 'M:PREP': [2, 3, 1], 'U:PUNCT': [5, 25, 3], 'M:OTHER': [0, 27, 4], 'R:DET': [1, 8, 1], 'R:PUNCT': [2, 16, 5], 'R:ORTH': [18, 38, 15], 'R:WO': [1, 7, 1], 'R:OTHER': [3, 64, 27], 'M:VERB:TENSE': [0, 5, 3], 'R:NOUN:NUM': [5, 1, 4], 'R:CONTR': [0, 5, 1], 'R:VERB': [2, 5, 5], 'M:DET': [8, 13, 8], 'U:OTHER': [0, 5, 1], 'R:MORPH': [2, 3, 6], 'R:VERB:TENSE': [3, 6, 5], 'R:PRON': [1, 3, 0], 'R:ADV': [0, 1, 0], 'M:ADV': [2, 3, 0], 'R:VERB:FORM': [3, 1, 2], 'U:PREP': [3, 2, 0], 'M:NOUN': [0, 5, 3], 'R:CONJ': [0, 1, 0], 'R:SPELL': [8, 3, 4], 'R:NOUN': [0, 8, 1], 'U:NOUN': [0, 3, 1], 'M:CONJ': [0, 2, 1], 'U:VERB': [0, 1, 0], 'M:PRON': [0, 3, 2], 'U:CONJ': [0, 1, 0], 'R:PART': [1, 0, 0], 'U:DET': [1, 0, 2], 'M:VERB': [0, 0, 1], 'U:ADV': [0, 1, 0], 'R:ADJ': [0, 0, 1], 'U:VERB:TENSE': [0, 0, 1], 'M:ADJ': [0, 0, 1], 'U:PRON': [1, 0, 0]})

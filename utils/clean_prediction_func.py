@@ -61,14 +61,14 @@ def clean_prediction(self, prediction: str) -> str:
 @PredictionCleanNameSpace.register("LANG_8")
 def clean_prediction(self, prediction: str) -> str:
     """
-    GOLD_LABEL这个特殊的返回值表明答案是正确的
+    ORIGINAL_SENTENCE这个特殊的返回值表明答案是正确的
     """
     original_prediction = prediction
     prediction = prediction.strip().lower()
 
     no_error_trigger = ["no grammar errors", "no grammatical errors"]
     if any(trigger in prediction for trigger in no_error_trigger):
-        return "GOLD_LABEL"
+        return "ORIGINAL_SENTENCE"
 
     def remove_quotation_marks(text):
         print("抽取出来的文本是：", text)
@@ -102,10 +102,11 @@ def clean_prediction(self, prediction: str) -> str:
     pattern9 = "the correct sentence is(.*)" # 最好是用""把每个(.*)包起来，不过有少数确实没有引号
     pattern10 = "The revised sentence with corrected grammar would be:".lower()
     pattern11 = "The revised sentence is \"(.*)\"".lower()
+    pattern12 = "therefore, the revised sentence is \"(.*)\""
 
-    pattern_num = 11
+    pattern_num = 12
     pattern_list = [pattern1, pattern2, pattern3, pattern4, pattern5, pattern6, pattern7, pattern8,
-                    pattern9, pattern10, pattern11]
+                    pattern9, pattern10, pattern11, pattern12]
 
     for pattern in pattern_list:
         # 以\n或结束符结束

@@ -74,15 +74,12 @@ def prompt_rules(rules: List[Rule]) -> str:
 
     相关prompt部分已经被移除放到autoCoT里
     """
-    # out = 'Instruction: '
-    # out += 'For your guidance, here are several reference rules. '
-    # out += 'Endeavor to adhere to these rules when responding to queries in <retrieved_rule>xxx<retrieved_rule> format. '
-    # out += 'However, if adherence is unfeasible, you are permitted to establish your own rules in <new_rule>xxx<new_rule> format. '
-
-    out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
-          '''try to use the provided knowledge whenever possible by "we retrieve" prefix. ''' \
-          '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
-          '''establish your own knowledge by "we add" prefix. '''
+    out = """From now on, when you respond to queries, follow the reference rules provided in the format <retrieved_rule>xxx<retrieved_rule>. If it's not possible to follow these rules, you're allowed to create your own rules in the format <new_rule>xxx<new_rule>. 
+Remember, these rules should be as universal and concise as possible in your responses."""
+    # out = '''Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, ''' \
+    #       '''try to use the provided knowledge whenever possible by "we retrieve" prefix. ''' \
+    #       '''Try not to invent knowledge by yourself unless necessary. But if so, you are permitted to ''' \
+    #       '''establish your own knowledge by "we add" prefix. '''
 
     out += '\nKnowledge base (involved rules):\n'
     out += '\n'.join([

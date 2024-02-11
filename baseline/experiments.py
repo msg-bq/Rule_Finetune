@@ -47,6 +47,9 @@ parser.add_argument("--model", type=str, default="gpt-3.5-turbo-1106",
                                  "gpt-4-1106-preview"],
                         help="model used for experiment")
 
+parser.add_argument("--train_dataset_size", type=int, default=2000,
+                    help="train dataset size used for experiment")
+
 args = parser.parse_args()
 
 # if args.prompt_type != "CoT_rule":
@@ -61,6 +64,7 @@ train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
 rule_base = DisjointSetRuleBase()
 args.rule_base_path = '../experiment/LANG_8/version_2/rule_base_epoch4'
+# args.rule_base_path = '../data/LANG_8/rule_base_cold'
 rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}/{args.dataset_type}"
@@ -94,7 +98,13 @@ with open(config_save_path, 'w', encoding="utf8") as f:
 
     f.write("\n")
 
-    if args.sample_strategy.startswith("confidence"):
+    if args.sample_strategy.startswith("confidence_mark"):
+        f.write(f"max_confidence_num: {args.sample_strategy.split('_')[2]}")
+        f.write("\n")
+        f.write("rule_base:\n")
+        for rule in rule_base._rule_name_2_rule_instance.values():
+            f.write(rule.content + '\n')
+    elif args.sample_strategy.startswith("confidence"):
         f.write(f"max_confidence_num: {args.sample_strategy.split('_')[1]}")
         f.write("\n")
         f.write("rule_base:\n")
@@ -114,7 +124,10 @@ def eval_step(args, example: Example):
     elif args.prompt_type == "CoT":
         prompt = dataset_prompt[args.dataset]['CoT'] + '\n\n' + example.question + "\nAnswer:"
     else:
-        if args.sample_strategy.startswith("confidence"):
+        if args.sample_strategy.startswith("confidence_mark"):
+            max_confidence_num = int(args.sample_strategy.split("_")[2])
+            sampled_rules = sample_rule_strategy['confidence_mark'](rule_base, max_confidence_num)
+        elif args.sample_strategy.startswith("confidence"):
             max_confidence_num = int(args.sample_strategy.split("_")[1])
             sampled_rules = sample_rule_strategy['confidence'](rule_base, max_confidence_num)
         else:
@@ -126,8 +139,11 @@ def eval_step(args, example: Example):
             for idx, rn in enumerate(sampled_rules)])
 
         if args.prompt_type == "CoT_rule":
+            # prompt = [{'role': 'system', 'content': dataset_prompt[args.dataset]['rule_instruction'] + added_rules},
+            #           {'role': 'user', 'content': "\n\nNow, you have updated your knowledge by given KB. Then I will give you some examples to show how to answer the question:\n" \
+            #                                       + dataset_prompt[args.dataset]['CoT_rule'] + example.question + "\nAnswer:"}]
             prompt = dataset_prompt[args.dataset]['rule_instruction'] + added_rules + \
-                     "\n\n" + dataset_prompt[args.dataset]['CoT_rule'] + \
+                     "\n\nNext, I will give you some examples to show how to use the knowledge base:\n" + dataset_prompt[args.dataset]['CoT_rule'] + \
                      "\n\nThen, please answer the following question:\n" + \
                      example.question + "\nAnswer:"
             #+ dataset_prompt[args.dataset]['CoT_rule'] + \
@@ -138,10 +154,11 @@ def eval_step(args, example: Example):
         else:
             raise NotImplementedError("prompt type not implemented")
 
+    print("prompt:", prompt)
     response = call_openai(prompt, model=args.model)
     rationale = example.parse_response(response)
     prediction = Rationale.clean_prediction(rationale['prediction'])
-    print("***prediction:", prediction)
+    rationale['prediction'] = prediction
 
     # try:
     #     score = parse_response(question=example.question, response=response,
@@ -149,7 +166,7 @@ def eval_step(args, example: Example):
     # except:
     #     score = 0
     score = 0
-    print(rationale, prediction, example, score, )
+    print(rationale, prediction, example, score)
     return rationale, prediction, example, score
 
 correct_cnt = 0
@@ -162,28 +179,39 @@ elif args.dataset_type == "valid":
 elif args.dataset_type == "test":
     final_dataset = test_dataset
 
-with ThreadPoolExecutor(max_workers=1) as executor:
+with ThreadPoolExecutor(max_workers=200) as executor:
     futures = [executor.submit(eval_step, args, example) for example in final_dataset]
     if args.dataset == "LANG_8":
         dataset_pair = []
+        def clean_text(text):
+            new_text = ""
+            for c in text:
+                if c in string.punctuation:
+                    new_text += " " + c
+                else:
+                    new_text += c
+
+            if ". . ." in new_text:
+                new_text = new_text.replace(". . .", "...")
+
+            text = new_text
+            return text.strip()
+
         for future in futures:
             rationale, prediction, example, score = future.result()
             pattern = "Sentence: (.*)\nQuestion: What's the grammar errors and revised sentence of above sentence?"
             original_sentence = re.match(pattern, rationale['question']).group(1).strip()
-            if prediction == "GOLD_LABEL":
+            if prediction == "ORIGINAL_SENTENCE":
                 prediction = original_sentence
-            new_prediction = ""
-            for c in prediction:
-                if c in string.punctuation:
-                    new_prediction += " " + c
-                else:
-                    new_prediction += c
 
-            prediction = new_prediction
 
-            prediction = prediction.strip()
-            gold_label = example.gold_label.strip()
+            prediction = clean_text(prediction)
+            gold_label = clean_text(example.gold_label)
             dataset_pair.append((original_sentence, prediction, gold_label))
+
+            with open(save_path, 'a', encoding="utf8") as f:
+                f.write(str(rationale) + '\n')
+
         correct_cnt = score_dataset(dataset_pair)
     else:
         for future in futures:
@@ -202,7 +230,7 @@ with ThreadPoolExecutor(max_workers=1) as executor:
             with open(save_path, 'a', encoding="utf8") as f:
                 f.write(str(rationale) + '\n')
 
-            scores.append(score)
+        scores.append(score)
 
 if args.dataset == "LANG_8":
     accuracy = correct_cnt

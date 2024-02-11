@@ -1,0 +1,2488 @@
+Namespace(data_dir='../data/LANG_8', dataset='LANG_8', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/LANG_8/version_2/rule_base_epoch4', sample_strategy='confidence_5000')
+Following knowledge base involves some proven knowledge that you can use to correct the grammatical errors. Utilize the knowledge base whenever possible. Only introduce you intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model.
+
+Koweledge base:Maintain the original words and punctuation as much as possible, and only correct essential grammatical errors.
+Again, you should only correct essential grammatical errors, but maintain the original punctuations as much as possible, it's no need to delete or add the optional words and punctuations.
+
+Sentence: December
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors. 
+Therefore, the revised sentence is "December".
+
+
+Sentence: We excited the show !
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error1: subject-verb agreement error, change "excited" to "were excited"
+Error2: prepositions error, change "excited" to "excited at"
+Therefore, the revised sentence is "We were excited at the show !"
+
+
+Sentence: I asked her if she have boyfriend or not .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: Error1: verb tense error, change "have" to "had"
+Error2: article and determiner error, change "boyfriend" to "a boyfriend"
+Error3: set phrase error, remove "or not"
+Therefore, the revised sentence is "I asked her if she had a boyfriend ."
+
+
+Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+Therefore, the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
+
+Sentence: T `` .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: No grammar errors.
+Therefore, the revised sentence is "T `` ."
+
+max_confidence_num: 5000
+rule_base:
+Exclamation marks should not be used without accompanying words.
+Punctuation should not be used without accompanying words.
+Emoticons should not be used as standalone sentences.
+Age and time expressions can be used to indicate the past tense in English.
+A period should not be used to join two independent clauses without a conjunction.
+Use a period to join two independent clauses without a conjunction.
+Adjective placement: Adjectives should come before the noun they modify.
+Adjectives should come before the noun they modify.
+Use "on" before the time period (e.g. day, night, etc.)
+Rule: Punctuation should not have a space before it.
+Punctuation should not have a space before it.
+There should not be a space before a punctuation mark.
+A space should not be used before a punctuation mark.
+In English, a determiner is typically used before a singular noun to specify which one is being referred to.
+A determiner is typically used before a singular noun to specify which one is being referred to.
+An article should be used before a singular countable noun.
+An article should be used before a singular countable noun to form a complete sentence.
+An article should be used before a plural countable noun.
+A period should not be used without accompanying words.
+Use specific nouns to indicate the activity or event being enjoyed.
+Use a verb to complete the sentence and indicate the action being described.
+Contractions should not have a space before the apostrophe.
+Rule: Contractions in English should not have a space before the apostrophe.
+Contractions in English should not have a space before the apostrophe.
+Contractions should not have a space before the apostrophe. Use proper punctuation instead of asterisks for emphasis or separation.
+A specific topic or subject should be included after the verb "discuss" to form a complete sentence.
+Contractions should not have a space between the two words.
+Contractions should not have a space between the two words
+When starting a sentence with a phrase of gratitude, it should be followed by a comma.
+Use specific verbs to indicate the action being described.
+Adjective placement
+"And" should be followed by a noun or pronoun, not just a pronoun.
+Ellipses should not be used as standalone sentences.
+Use parallel structure in comparative phrases.
+A comma should be necessary and relevant to the context.
+"Something" should not be used as a standalone noun.
+"Was n't" should be "wasn't" to indicate the past tense.
+Contractions should not be used as standalone sentences.
+"But" should be used to indicate a contrast.
+But should be used to indicate a contrast.
+There is no need to make any changes to the grammar or structure of the sentence.
+Contractions in English use an apostrophe to replace missing letters.
+Avoid using redundant words or phrases in a sentence.
+Use "in" before the time period (e.g. day, night, etc.)
+Use "to" to indicate the purpose of an action.
+Comma splice is a grammatical error in which two independent clauses are joined by a comma without a coordinating conjunction or a semicolon.
+A comma splice is a grammatical error in which two independent clauses are joined by a comma without a coordinating conjunction or a semicolon.
+"I" should not be used as a standalone pronoun without a verb to form a complete sentence.
+Adjective placement should be followed to ensure proper grammar.
+Use singular pronouns to refer to singular nouns.
+Verb usage: Use singular pronouns to refer to singular nouns.
+Use a singular pronoun to refer to singular nouns.
+Exclamation marks are used to indicate strong feelings or emphasis at the end of a sentence.
+Use "the" before words starting with a consonant sound.
+"The" before words starting with a consonant sound.
+The word "so" is not necessary in this context and can be omitted for clarity.
+Rule: The word "so" is not necessary in this context and can be omitted for clarity.
+The contraction "do n't" should be "don't" to indicate the present perfect tense.
+The contraction "do n't" should be "doesn't" to indicate the present perfect tense.
+Use "the" before a singular noun to specify which one is being referred to.
+"So" should not be used as a standalone adjective without a noun to modify.
+Adjective-noun agreement should be followed to ensure proper grammar.
+Use "a" before a singular noun to specify which one is being referred to.
+Indefinite article rule: Use "a" before a singular noun to specify which one is being referred to.
+"A" should be used before a singular noun to specify which one is being referred to.
+Punctuation rule: Use appropriate punctuation marks at the end of a sentence.
+Rule: Use appropriate punctuation marks at the end of a sentence.
+Use appropriate punctuation marks at the end of a sentence.
+Use of appropriate punctuation marks at the end of a sentence.
+A period should not be used without a complete subject and verb.
+Do not use a period without a complete subject and verb.
+"Doesn't" should be used instead of "do n't" to indicate the absence of a requirement.
+Use "like" to compare nouns or pronouns, while "any" should be used to indicate an unspecified amount or existence of something.
+Present tense verb "think" is used to express a current opinion or belief.
+Adjective-noun agreement
+A period should not be used at the beginning of a sentence.
+A period should not be used at the end of a sentence.
+Ellipses and multiple question marks should not be used as standalone sentences.
+"But" should be followed by a subject and a verb, not just a pronoun.
+Use "but" should be followed by a subject and a verb, not just a pronoun.
+"A" should be followed by a noun to form a complete sentence.
+Use "to" before the base form of the verb to indicate the purpose of an action.
+Use "to" followed by the base form of the verb to indicate the purpose of an action.
+Use "to" after the base form of the verb to indicate the purpose of an action.
+"To" should be used before the base form of the verb to indicate the purpose of an action.
+There should not be a space before a period.
+A space should not be used before a period.
+Use adjectives in their correct comparative or superlative form to compare different degrees of quality.
+The rule is that "little" is the correct word to use to indicate a small amount.
+There are no specific grammar errors in the original sentence.
+There is no grammar error in the original sentence.
+There are no grammar errors in the original sentence.
+There are no grammatical errors in the original sentence.
+There is no specific grammar error in the original sentence.
+The rule is that in English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+Rule: In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+In English, sentences should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+Use "and" to connect the activities in a list.
+The contraction " 's" should be used instead of " 's" to indicate "is."
+Comparative adjectives do not need "many" before them.
+"Many" should not be used before comparative adjectives.
+"Very much" should not be used as a standalone adjective without a noun to modify.
+Use "very much" should not be used as a standalone adjective without a noun to modify.
+Rule: In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+In English, common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+Common nouns should generally be preceded by an article (a, an, the) unless they are used in a non-countable or generic sense.
+Rule: In English, a complete sentence should include a subject and a verb that agrees in tense and number.
+Rule: A complete sentence should include a subject and a verb that agrees in tense and number.
+In English, a complete sentence should include a subject and a verb that agrees in tense and number.
+A complete sentence should include a subject and a verb that agrees in tense and number.
+The rule is that in English, a complete sentence should include a subject and a verb that agrees in tense and number.
+Use "into" to indicate the location of an activity.
+Use a determiner before a singular countable noun.
+A determiner should be used before a singular countable noun to form a complete sentence.
+Use a determiner before a singular countable noun to form a complete sentence.
+Use a determiner before a plural countable noun.
+"And" should be used to indicate a contrast.
+Use "and" to indicate a contrast.
+Use "a" before a singular countable noun.
+Use "an" before a singular countable noun.
+"A" should be used before a singular countable noun.
+Adverb placement: Adverbs should come before the verb they modify.
+Adverbs should come before the verb they modify.
+Adverb placement: Adverbs should be placed before the verb they modify.
+A comma should not be used after "Especially" as it is unnecessary and can be removed for improved clarity.
+Use of contraction
+Use "about" to indicate the reason for something, not "from."
+Use a comma after an interjection such as "So" when expressing apology or regret.
+Use of a comma after an interjection such as "So" when expressing apology or regret.
+Abbreviations should not be used as standalone sentences.
+"Can anyone help ?" should be followed by a subject and a verb, not just a pronoun.
+Present perfect tense should be used to indicate an action that started in the past and continues into the present.
+Use "however" to indicate a contrast.
+The contraction "I'm" should not have a space between the two words.
+The word "however" is not necessary in this context and can be omitted for clarity.
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am."
+The contraction "I 'm" should be "I'm" to indicate "I am."
+The contraction "I 'm" should be used instead of "I 'm" to indicate "I am."
+The contraction "I ' am" should be "I'm" to indicate "I am."
+The contraction "I 'm" should be "I'm" to indicate the contraction "I am."
+The contraction "I'm" should be used instead of "I" to indicate "I am."
+Use of contraction: The contraction "I'm" should be used instead of "im" to indicate "I am."
+Use of contraction: The contraction "I'm" should be used instead of "I 'm" to indicate "I am."
+Use of contraction: The contraction "I 'm" should be used instead of "I 'm" to indicate "I am."
+The contraction "I 'n" should be "I'm" to indicate "I am."
+The contraction "I 'm" should be "I am" to indicate the present tense.
+The contraction " 'm" should be "am" to indicate "I am."
+There are no specific rules or prior knowledge that need to be applied in this case.
+There are no specific rules or prior knowledge to apply in this case.
+Proper nouns such as brand names should be capitalized.
+Parallel structure should be used when listing items in a series.
+"So" should be followed by a coordinating conjunction to connect two independent clauses.
+So should be followed by a coordinating conjunction to connect two independent clauses.
+"So" should be used before a coordinating conjunction to connect two independent clauses.
+Plural nouns in English do not typically end in "s" when referring to a general concept.
+Plural noun rule: Plural nouns in English do not typically end in "s" when referring to a general concept.
+"Very hard" should not be used as a standalone adjective without a noun to modify.
+Use "to" to indicate the direction of an action.
+Use "like" to compare nouns or pronouns, while "as" should be used to indicate a specific example or comparison.
+Use "like" to compare nouns or pronouns, while "as" should be used to indicate a specific example or role.
+There should not be a space before a comma.
+Rule: There should not be a space before a comma.
+A space should not be used before a comma.
+A comma should be used to separate contrasting clauses.
+Use "about" to indicate a general topic or subject, and use "of" to indicate the specific content or subject matter.
+Use "and" to connect items in a list.
+"And" should be used to connect items in a list.
+Use "every day" instead of "everyday" to indicate a single instance of an activity.
+Use "on" before a specific location to indicate the time of an activity.
+Tense consistency should be maintained in a sentence to ensure proper grammar.
+Proper nouns such as specific products should be capitalized.
+A specific date should be used to indicate the day and month.
+Use a specific date to indicate the day and month.
+Use "on" before a specific location to indicate obstruction or blockage.
+This is a simple tense agreement rule. When the main verb is in the past tense, the auxiliary verb should also be in the past tense.
+This is a simple tense agreement rule. When the main verb is in the present tense, the auxiliary verb should also be in the present tense.
+There should not be a space before a question mark.
+"All" should not be used as a standalone noun.
+Rule: Avoid using redundant words or phrases in a sentence.
+The rule: Avoid using redundant words or phrases in a sentence.
+"Think" should be followed by a subject and a verb, not just a pronoun.
+Use "think" should be followed by a subject and a verb, not just a pronoun.
+"Thought" should be followed by a subject and a verb, not just a pronoun.
+Exclamation marks should not be used without accompanying words. Emoticons should not be used as standalone sentences.
+Emoticons should not be used as standalone sentences. Exclamation marks should not be used without accompanying words.
+Use "the" before a singular countable noun.
+"The" should be used before a singular countable noun.
+Use "for" to indicate the purpose of something.
+A lot of" should be followed by a plural noun.
+"A lot of" should be followed by a plural noun.
+A lot of should be followed by a plural noun.
+"Not only" should be followed by a coordinating conjunction to connect two independent clauses.
+"Very simple" should not be used as a standalone adjective without a noun to modify.
+Rule: Use the correct verb tense to match the timing of the action being described.
+Use the correct verb tense to match the timing of the action being described.
+The correct verb tense should be used to match the timing of the action being described.
+Use the correct verb tense to match the timing of the action.
+Use of the correct verb tense to match the timing of the action being described.
+Verb usage: The correct verb tense should be used to match the timing of the action being described.
+A specific topic or subject should be included after the verb "reply" to form a complete sentence.
+Use "than" to compare different degrees of quality.
+Verb usage
+Use "for" to indicate a desire for a specific amount of time.
+"Such a many" should be followed by a plural noun.
+Capitalize proper nouns, including the names of deities, when referring to them.
+Use a comma after introductory adverbs
+Use a comma after introductory adverbs.
+Do not use a comma after introductory adverbs
+Use of a comma after an introductory adverb.
+Use a comma after an introductory adverb.
+Use a comma after introductory phrases or adverbs.
+Rule: Use a comma after introductory adverbs
+Do not use a comma after introductory adverbs.
+Rule: Use a comma after introductory phrases or adverbs.
+Rule: Do not use a comma after introductory adverbs
+Use of a comma after introductory phrases or adverbs.
+Use a comma after an introductory phrase.
+Introductory phrase should be followed by a comma.
+Adverb placement
+Comparative adjectives do not need "many" before them. "Than" should be followed by a subject and a verb, not just a pronoun.
+"Comparative adjectives do not need 'many' before them. 'Than' should be followed by a subject and a verb, not just a pronoun."
+Comparative adjectives do not need 'many' before them. 'Than' should be followed by a subject and a verb, not just a pronoun.
+Use double quotation marks for direct speech or to indicate a quotation within a quotation.
+Use a subject before the verb to indicate who is performing the action.
+A subject should be used before the verb to indicate who is performing the action.
+The subject should be used before the verb to indicate who is performing the action.
+"As its name" should be followed by a subject and a verb, not just a pronoun.
+Use "at" after "surprised" to indicate the cause of the surprise.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Jewelry" is an uncountable noun and does not need to be pluralized.
+Use "the" before a specific noun, such as "language," to indicate a specific instance of the noun.
+Use "from" to indicate the reason for something, not "the location of an activity."
+Use "at" before the time period (e.g. day, night, etc.)
+Use "at" before a specific moment or time period.
+Use proper punctuation instead of asterisks for emphasis or separation.
+Rule: Use proper punctuation instead of asterisks for emphasis or separation.
+"After all" should be used to indicate a conclusion or contrast, and should not be joined by a comma splice.
+After all should be used to indicate a conclusion or contrast, and should not be joined by a comma splice.
+Rule: Use "at" to indicate the location of an activity when referring to public transportation.
+Use "at" to indicate the location of an activity when referring to public transportation.
+Use "after" to indicate the time relationship between two events.
+"Very difficult" should not be used as a standalone adjective without a noun to modify.
+Use "if" after "even" to indicate a hypothetical scenario.
+Use "even if" to indicate a hypothetical situation.
+"Scary" should not be used as a standalone adjective without a noun to modify.
+"Diary" is a proper noun and should be capitalized.
+Preposition rule: When indicating a location, the preposition "in" is used to show where something is located.
+When indicating a location, the preposition "in" is used to show where something is located.
+When indicating a specific location, the preposition "in" is used to show where something is located.
+Use a comma before a coordinating conjunction that connects two independent clauses.
+Use a comma before a coordinating conjunction that separates two independent clauses.
+Rule: Use a comma before a coordinating conjunction that connects two independent clauses.
+The use of a comma before a coordinating conjunction that connects two independent clauses.
+The use of a comma before a coordinating conjunction that connects two independent clauses is unnecessary.
+Rule: A comma should not be used to join two independent clauses without a conjunction.
+A comma should not be used to join two independent clauses without a conjunction.
+Use a comma after an independent clause when it is followed by a coordinating conjunction.
+Use an article (a, an, the) before a singular noun to specify which one is being referred to.
+An article (a, an, the) should be used before a singular noun to specify which one is being referred to.
+An article (a, an, the) before a singular noun to specify which one is being referred to.
+Adjective-noun agreement: Use an article (a, an, the) before a singular noun to specify which one is being referred to.
+Rule: Use an article (a, an, the) before a singular noun to specify which one is being referred to.
+Use quotation marks instead of square brackets for titles.
+"But" should be followed by a coordinating conjunction to connect two independent clauses.
+But should be followed by a coordinating conjunction to connect two independent clauses.
+Use "but" to join two independent clauses with a conjunction.
+Use "in" before a specific language to indicate proficiency or qualifications in that language.
+"Enjoying" should be used as an adjective to match the subject "I."
+Use "found" instead of "think" to indicate past tense.
+"Leisure time" should be followed by a specific noun or pronoun to indicate what is being modified.
+Use "in" before a specific location to indicate obstruction or blockage.
+Use "these" instead of "this" when referring to plural objects.
+Proper nouns such as organization names should be capitalized.
+In English, proper nouns such as specific organizations should be capitalized.
+Proper nouns such as specific organizations should be capitalized.
+Use "so" to indicate a high degree of something
+Use "so" to indicate a high degree of something.
+"So" should be used to indicate a high degree of something.
+"Than" should be followed by a subject and a verb, not just a pronoun.
+Use "than" should be followed by a subject and a verb, not just a pronoun.
+Use specific nouns to indicate the focus of the sentence.
+Use "about" to indicate a general topic or subject, and use "the" to indicate a specific topic.
+Use "if" to indicate a hypothetical scenario.
+Use single quotation marks for quoting within a quote.
+Rule: Use single quotation marks for quoting within a quote.
+Use of an introductory word should be necessary and relevant to the context.
+Use "every day" instead of "everyday" to indicate each day.
+"Every day" should be used instead of "everyday" to indicate each day.
+Use "which" to introduce a non-restrictive relative clause.
+Use "like" to indicate a preference or enjoyment.
+Use "will" to indicate future tense in English.
+Use "will" to indicate the future tense of a verb.
+Use "by" to indicate the cause or reason for something, not "about."
+The contraction "I've" should be used instead of "I 've" to indicate "I have."
+The contraction "I 've" should be "I've" to indicate the contraction "I have."
+"So" should be followed by a noun or pronoun, not just a pronoun.
+Use "so" should be followed by a noun or pronoun, not just a pronoun.
+"So" should be followed by a subject and a verb, not just a pronoun.
+"Eng" should be capitalized.
+Use proper spelling and punctuation for the word "years."
+Present tense verb "feel" is used to express a current opinion or belief.
+Use present tense verb "feel" is used to express a current opinion or belief.
+"Almost" should be used to indicate a high degree of something.
+Use "from" to indicate the source or origin of something, while "for" should be used to indicate the cause or reason for something.
+Parallel structure
+A specific topic or subject should be included after the verb "hope" to form a complete sentence.
+Exclamatory sentences must have a subject and a verb.
+Use "by" to indicate the cause of a feeling or emotion.
+"So" should be used to compare nouns or pronouns.
+In English, singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.)
+Use singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.)
+Singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.)
+Singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.) to form a complete sentence.
+Use singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.) to form a complete sentence.
+The rule is that in English, singular countable nouns generally require an article (a, an, the) or another determiner (my, this, etc.)
+Use a singular countable noun that generally requires an article (a, an, the) or another determiner (my, this, etc.)
+"Because of this reason" is redundant and unnecessary.
+The past tense verb "met" should be "meet" to indicate the action being described.
+A colon should not be used without a complete subject and verb.
+Use "to" to indicate the infinitive form of a verb.
+Use "to" before the infinitive form of the verb to indicate the purpose or intention of an action.
+The original sentence contains a grammar error in the use of "I 'm" instead of "I'm"
+The original sentence contains a grammar error in the use of "I 'm" instead of "I'm" to indicate "I am."
+The original sentence contains a grammar error in the use of "I 'm" instead of "I'm" to indicate the present perfect tense.
+Prepositions are used to show a relationship between a noun or pronoun and other words in a sentence.
+Use "on" instead of "in" to indicate the location of an activity when referring to a specific day.
+Use "in" instead of "on" to indicate the location of an activity when referring to a specific day.
+Use "in" instead of "at" to indicate the location of an activity when referring to a specific day.
+Use "on" before a specific day to indicate the location of an activity.
+"In case" should be followed by a noun or pronoun to indicate the specific situation.
+Use "when" to indicate a specific time at which an action started.
+"When" should be followed by a specific time at which an action started.
+A comma should not be used without accompanying words.
+The use of a comma after "Today" is unnecessary and can be removed for improved clarity.
+A comma should not be used after "Today" as it is unnecessary and can be removed for improved clarity.
+Use a hyphen instead of a space to join compound words.
+Use of a hyphen instead of a space to join compound words.
+Use a hyphen instead of a space to connect compound words.
+Use a space instead of a hyphen to connect compound words.
+Use "because" to introduce a reason or cause for something.
+Use "because" to introduce a reason, and "for" to indicate the purpose or benefit of an action.
+Use "because" to indicate the reason for something, not "because of this reason."
+A specific topic or subject should be included after the verb "correct" to form a complete sentence.
+"The" should be used before a proper noun to form a complete sentence.
+Use "the" before a specific noun to form a complete sentence.
+"Very hard" should be used to indicate a high degree of something.
+The contraction "don't" should be "don't" to indicate the present perfect tense.
+Use "a" before "good" to indicate a singular noun.
+"When" should be followed by a subject and a verb, not just a pronoun.
+Use "when" should be followed by a subject and a verb, not just a pronoun.
+"Like" should be followed by a noun or pronoun, not just a pronoun.
+The word "like" should be followed by a noun or pronoun, not just a pronoun.
+Use "like" should be followed by a noun or pronoun, not just a pronoun.
+Proper nouns such as specific events should be capitalized.
+Proper nouns such as the name of a specific event should be capitalized.
+"Ever since" should be used to indicate an action that has been ongoing since a specific point in time.
+Use "ever since" should be used to indicate an action that has been ongoing since a specific point in time.
+"On" should be followed by a subject and a verb, not just a pronoun.
+Present tense verb "explains" is used to express a current opinion or belief.
+"Don't" should be followed by a subject and a verb, not just a pronoun.
+Use "so" to compare nouns or pronouns, while "any" should be used to indicate an unspecified amount or existence of something.
+"So" should be used to compare nouns or pronouns, while "any" should be used to indicate an unspecified amount or existence of something.
+Use "So" to compare nouns or pronouns, while "any" should be used to indicate an unspecified amount or existence of something.
+Use "to" to indicate the direction of communication.
+Proper nouns such as geographical locations should be spelled correctly.
+Use "in" before a specific location to indicate the time of an activity.
+Use "for" to indicate the purpose of an action.
+Use "for" after the base form of the verb to indicate the purpose of an action.
+Use "for" to indicate the purpose or benefit of an action.
+Use "for" before the infinitive form of the verb to indicate the purpose of an action.
+Rule: In English, names are typically separated by a space, not a hyphen.
+In English, names are typically separated by a space, not a hyphen.
+Use "in" before a specific location to indicate the location of an activity.
+Use "in" to indicate the location of an activity.
+Use "in" instead of "the" to indicate the location of an activity.
+Use "in" before the location to indicate the position of an activity.
+Use "in" before the location of an activity.
+Contractions are formed by combining a pronoun and a verb, with an apostrophe replacing the omitted letter(s).
+Contractions are formed by combining two words and replacing missing letters with an apostrophe.
+Contractions are formed by combining a pronoun or noun with a verb, with no space before the apostrophe.
+Use "than" to indicate a comparison between two things.
+Use "in" before a specific location to indicate the place where something is found.
+Use of parentheses to indicate a choice between options is not necessary in this context.
+The use of parentheses to indicate a choice between options is not necessary in this context.
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am." The contraction "do n't" should be "don't" to indicate the present perfect tense.
+"Of" should not be used after "an algorithm" to indicate the creation of a computer program.
+Use "when" to introduce a time-related clause with a subject and verb.
+There is no specific grammar rule being applied here, just a simple correction of punctuation.
+Capitalization rule: The first word of a sentence should be capitalized.
+The first letter of a sentence should always be capitalized.
+Capitalization rule: The first letter of a sentence should always be capitalized.
+The first word of a sentence should be capitalized.
+"Nice" should be followed by a noun or pronoun, not just a pronoun.
+Use "by" to indicate the agent of an action.
+Use "and" to indicate a combination of conditions or actions.
+The word "introduce" already implies providing information about something or someone, so the use of "about" is redundant and unnecessary.
+The contraction "wasn't" should be used instead of "n't" to indicate "was not."
+The original sentence contains a grammar error in the use of "think" instead of "thinks" and "is not" instead of "is"
+"Waited for" should be used to indicate waiting for something.
+Use "in" instead of "of" to indicate the location of a place within a larger area.
+Use "in" instead of "the" to indicate the location of a place within a larger area.
+Use "in" before the location of a place within a larger area.
+Use "in" to indicate the location of a place within a larger area.
+Use "in" instead of "from" to indicate the location of a place within a larger area.
+Rule: In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point.
+Rule: In English, a complete sentence should end with a single punctuation mark, such as a period, question mark, or exclamation point.
+In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point.
+Rule: In English, sentences should end with appropriate punctuation, such as a period, question mark, or exclamation point.
+In English, sentences should end with appropriate punctuation, such as a period, question mark, or exclamation point.
+Use a complete sentence should end with a single punctuation mark, such as a period, question mark, or exclamation point.
+When indicating the order of events, use "in" before the time period (e.g. day, night, etc.)
+Rule: A sentence should have a complete subject and verb to form a complete sentence.
+Rule: In English, a complete sentence must have a subject and a verb.
+The grammar rule is that a complete sentence should have a subject and a verb.
+Rule: In English, a complete sentence should have a subject and a verb to be grammatically correct.
+In English, a complete sentence should have a subject and a verb.
+A complete sentence should have a subject and a verb to be grammatically correct.
+A sentence should have a complete subject and verb to form a complete sentence.
+The rule is that a complete sentence must have a subject and a verb.
+In English, a complete sentence should have a subject and a verb to be grammatically correct.
+In English, a complete sentence must have a subject and a verb.
+Rule: A sentence should have a subject and a verb to be grammatically correct.
+This is a basic rule of grammar that a sentence should include a subject and a verb to be complete.
+A sentence should have a subject and a verb to be grammatically correct.
+A complete sentence must have a subject and a verb.
+Use "who" to introduce a restrictive relative clause.
+Use "though" to introduce a contrast or concession in a sentence.
+The original sentence contains a grammar error in the use of "made it" without specifying what was made funny.
+"Making" should be followed by a plural noun "plans" to indicate the action of creating a strategy or course of action.
+Use "may" to indicate a wish or hope for something to happen.
+"Bought" should be used instead of "brought about" to indicate the purchase of something.
+Use "to" after "thanks" to indicate the recipient of gratitude.
+Use "that" to introduce a restrictive relative clause.
+Use "that" to introduce a restrictive clause.
+Use "that" to introduce a non-restrictive relative clause.
+Use "than" to compare nouns or pronouns.
+"Although" should be used to indicate a contrast.
+Use "any" to indicate an unspecified amount or existence of something.
+"Very bad" should be used to indicate a high degree of something.
+Adjective-noun agreement: Adjectives should agree in number and gender with the noun they modify.
+Adjective placement: Adjectives should agree in number and gender with the noun they modify.
+Adjectives should agree in number and gender with the noun they modify.
+Adjective-noun agreement: Adjectives should agree in number and gender with the nouns they modify.
+Adjectives should agree in number and gender with the nouns they modify.
+Adjective placement: Adjectives should agree in number and gender with the noun they modify
+Adjective-noun agreement: Adjectives should agree in number with the noun they modify.
+Use "other" to indicate a different choice or option.
+Use "other" to indicate a choice between two options.
+"By" should be followed by a subject and a verb, not just a pronoun.
+The contraction "I'm" should be followed by the base form of the verb "to be" to indicate the present perfect tense.
+Use "lessons" instead of "lesson" to indicate multiple instances of the activity.
+"Take care" should be followed by a subject and a verb, not just a pronoun.
+"Long" should not be used as a standalone adjective without a noun to modify.
+"Got" should be followed by a subject and a verb, not just a pronoun.
+Use "don't" to indicate the present perfect tense.
+Subject-Verb agreement: Use singular pronouns to refer to singular nouns.
+Subject-verb agreement: Use singular pronouns to refer to singular nouns.
+Use "time" instead of "times" to indicate a single instance of an activity.
+Use "worst" instead of "worse" to describe the group.
+The infinitive form of the verb "repot" should be followed by "to" + base form of the verb.
+"Another" should be used to indicate a specific additional thing, while "other" should be used to indicate a different set of things.
+Another should be used to indicate a specific additional thing, while other should be used to indicate a different set of things.
+"So" should be used to compare nouns or pronouns, while "a little" should be used to indicate an unspecified amount or existence of something.
+Use "who" instead of "which" to introduce a defining relative clause.
+Use "to" instead of "with" to indicate the direction of communication.
+Use "with" to indicate the direction of communication.
+Use "leave" to indicate the base form of the verb.
+A specific topic or subject should be included after the verb "think" to form a complete sentence.
+Use a comma after an introductory word should be necessary and relevant to the context.
+The use of a comma after an introductory word should be necessary and relevant to the context.
+Use of a comma after an introductory word should be necessary and relevant to the context.
+Use "as" after "regard" to indicate the object of the action.
+Use "because" to indicate the reason for something, not "from."
+"After" should be followed by a subject and a verb, not just a pronoun.
+After should be followed by a subject and a verb, not just a pronoun.
+Use "flies" to indicate the passage of time.
+The correct form is "have" should be used.
+Use a comma after an introductory phrase when expressing contrast or transition.
+Use of a comma after an introductory phrase when expressing contrast or transition.
+The use of a comma after an introductory phrase when expressing contrast or transition.
+Use a comma after an introductory adverb when expressing contrast or transition.
+The use of a comma after "So" is unnecessary and can be removed for improved clarity.
+Use of a comma after an interjection such as "So" is unnecessary and can be removed for improved clarity.
+The use of a comma after "so" is unnecessary and can be removed for improved clarity.
+Use of a comma after "so" is unnecessary and can be removed for improved clarity.
+The use of a comma after an introductory adverb such as "So" is unnecessary and can be removed for improved clarity.
+A comma should not be used after "So" as it is unnecessary and can be removed for improved clarity.
+Use a comma after an interjection such as "So" is unnecessary and can be removed for improved clarity.
+Use a comma after introductory adverbs such as "so."
+Use "very" before an adjective to indicate a high degree of something.
+Use "very" to indicate a high degree of something.
+Use "very" to modify an adjective or adverb to indicate a high degree of the quality.
+Use "not only" to indicate a contrast.
+Use proper spelling and punctuation for the word "boyfriend."
+The original sentence contains a grammar error in the use of "say" instead of "saying" after "analysts."
+The use of a comma after "But" is unnecessary and can be removed for improved clarity.
+A comma should not be used after "But" as it is unnecessary and can be removed for improved clarity.
+Use "also" after the subject to indicate a specific emphasis or focus.
+"Also" should be used after the subject to indicate a specific emphasis or focus.
+The contraction "I'll" should be used instead of "I 'll" to indicate "I will."
+The contraction "I 'll" should be used instead of "I 'll" to indicate "I will."
+The contraction "I 'll" should be "I'll" to indicate "I will."
+"I 'll" should be used instead of "I 'll" to indicate "I will."
+The contraction "I'll" should be "I'll" to indicate "I will."
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am." The contraction "ca n't" should be "can't" to indicate the present perfect tense.
+"That" should be followed by a noun to indicate the extent of something.
+Use "the" before a specific noun, such as "depot," to indicate a specific instance of the noun.
+The contraction "can 't" should be "can't" to indicate the present perfect tense.
+Use "about" after "wondering" to indicate the condition.
+Use "yesterday" to indicate the time period.
+Use "about" to indicate a general topic or subject, and use "jobs" to indicate multiple job opportunities.
+Use a hyphen instead of a space to connect compound words such as "part-time."
+Use "for" before a pronoun to indicate the recipient of an action.
+Subject-verb agreement rule
+Subject-Verb agreement rule
+Subject-Verb Agreement
+Subject-verb agreement
+Subject-Verb agreement
+A specific topic or subject should be included after the verb "want" to form a complete sentence.
+Use "from" to indicate the reason for something, not "for."
+Use "for" to indicate the reason for something, not "from."
+Use "from" to indicate the reason for something, not "from."
+Use "on" to indicate the impact or influence of something.
+"Heavy" should not be used as a standalone adjective without a noun to modify.
+"Very heavy" should not be used as a standalone adjective without a noun to modify.
+The past tense of "make" is "made," not "mede."
+The past tense of the verb "make" is "made," not "mede."
+Emoticons should not be used in formal writing.
+The original sentence contains a grammar error in the use of "did n't" instead of "didn't."
+Use "of" after "all" to indicate a specific portion of a group.
+Rule: Use a comma after introductory adverbs such as "today."
+Use a comma after introductory adverbs such as "today."
+Use a comma after an introductory adverb such as "today."
+The use of a comma after an introductory adverb such as "today."
+Use "make" to indicate the creation of friendships or relationships.
+Use "make" to indicate the action of forming friendships.
+Use "the" before a superlative adjective to indicate a specific instance.
+"The" should be used before a superlative adjective to indicate a specific instance.
+"The" before a superlative adjective should be used to indicate a specific instance.
+"Japanese" should be followed by a noun to form a complete sentence.
+Adjectives should be placed in the correct order, with opinion adjectives first, followed by size, age, shape, color, origin, and material.
+Subject-verb agreement: Modal verbs like "must" are followed by the base form of the verb.
+Modal verbs like "must" are followed by the base form of the verb.
+Subject-Verb agreement: Modal verbs like "must" are followed by the base form of the verb.
+Use "by" to indicate the reason for something, not "from."
+Use "everywhere" to indicate the action of carrying something to all places.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Medicine" is an uncountable noun and does not need to be pluralized.
+Use "into" to indicate the cause of a feeling or emotion.
+The contraction "That's" should be used instead of "That 's" to indicate "That is."
+The contraction "that's" should be used instead of "That 's" to indicate "that is."
+The contraction "that 's" should be "that's" to indicate the contraction "that is."
+The original sentence contains a grammar error in the use of "that 's" instead of "that's" to indicate the contraction of "that is."
+Use "that's" instead of "That 's" to indicate "that is."
+Use "for" to indicate the duration of an action.
+Use "for" instead of "to" to indicate the duration of an action.
+"A" is used before consonant sounds, while "an" is used before vowel sounds.
+"An" is used before consonant sounds, while "and" is used before vowel sounds.
+Use "like" to compare nouns or pronouns, while "a" should be used to indicate a singular countable noun.
+"Like" should be used to compare nouns or pronouns, while "a" should be used to indicate a singular countable noun.
+Use "months" to indicate multiple months.
+Use "months" to indicate a range of dates.
+The original sentence contains a grammar error in the use of "have been study" instead of "have been studying" to indicate the ongoing action of studying English.
+Use present perfect tense to indicate an action that occurred at an unspecified time before now.
+"More" should be followed by an adjective or adverb to modify.
+"In" should be followed by a noun or pronoun to indicate the specific situation.
+In should be followed by a noun or pronoun to indicate the specific situation.
+"Very clumsy" should not be used as a standalone adjective without a noun to modify.
+Rule: The contraction for "it is" is "it's" with an apostrophe.
+The contraction for "it is" is "it's" with an apostrophe.
+The contraction "it is" is "it's" with an apostrophe.
+Use "think" to express a current opinion or belief.
+Spelling error
+"Checked outside" should not be used as a standalone verb.
+Use "like" to compare nouns or pronouns, while "walking" should be used to indicate the action of walking.
+"Like" should be used to compare nouns or pronouns, while "walking" should be used to indicate the action of walking.
+Use a comma after an introductory adverb such as "however."
+Use a comma after introductory adverbs such as "however."
+A comma should be used after an introductory adverb such as "However" when expressing strong emotion.
+Proper nouns such as "Lang-8" should be capitalized.
+Comma splice rule
+Verb usage: The verb "tell" should be used instead of "give" in this context.
+Use a comma to separate a greeting from the rest of the sentence.
+Use a comma after a greeting to separate it from the rest of the sentence.
+"Dancing" should be followed by a subject and a verb, not just a pronoun.
+"Last time" is redundant and unnecessary.
+"Biggest" should be followed by a specific noun to modify.
+The contraction " 'n't" should be used instead of " 'n't" to indicate "not."
+Use a hyphen instead of a space to connect compound words such as "pre-intermediate."
+"Very poor" should not be used as a standalone adjective without a noun to modify.
+Use a hyphen instead of a space to connect compound words such as "three-day."
+"Very exciting" should be followed by a noun to indicate the extent of something.
+Use "in" after the preposition "at" to indicate the location of something.
+"Such" should be followed by a noun to indicate the extent of something.
+Use a colon instead of a hyphen to indicate the second part.
+Use a space instead of a hyphen to indicate the second part.
+Use "has" to indicate the existence or presence of something.
+"So" should be used to compare nouns or pronouns, while "very difficult" should be followed by a noun to indicate the extent of something.
+The word "though" is not necessary in this context and can be omitted for clarity.
+Use "of" before a specific location to indicate the time of an activity.
+Use "if" after "whoever" to indicate a hypothetical scenario.
+Use "if" after "who" to indicate a hypothetical scenario.
+Use "when" to introduce a restrictive relative clause.
+"when" to introduce a restrictive relative clause.
+"when" should be used to introduce a restrictive relative clause.
+Use "the" before a specific noun, such as "game," to indicate a specific instance of the noun.
+"Very high" should not be used as a standalone adjective without a noun to modify.
+The use of "very high" as a standalone adjective without a noun to modify is incorrect.
+Capitalize proper nouns, including the names of institutions, when referring to them.
+Capitalization Rule: Capitalize proper nouns, including the names of institutions, when referring to them.
+"Everyday" is misspelled. The correct spelling is "Every day."
+"Good" should be followed by a noun or pronoun, not just a pronoun.
+Use a comma after an interjection such as "See you" when addressing someone.
+Use "an" before words starting with a vowel sound.
+Use "an" before words that begin with a vowel sound.
+"An" should be used before words starting with a vowel sound.
+Rule: Use "an" before words starting with a vowel sound.
+Use "an" before words that begin with a vowel sound
+Use "an" before a singular noun starting with a vowel sound.
+Use "an" before a vowel sound to indicate the indefinite article.
+Use "a" before words starting with a consonant sound.
+Rule: Use "a" before words starting with a consonant sound.
+The verb "went" should be in the past tense to match the timing of the action being described.
+"Lower" should not be used as a standalone adjective without a noun to modify.
+Use a space between "green" and "tea" to form the compound word "green tea."
+"About" should be followed by a noun to indicate the extent of something.
+Use "about" should be followed by a noun to indicate the extent of something
+"Anyway" should be used to indicate a transition or change of topic, and should not be joined by a comma splice.
+Anyway should be used to indicate a transition or change of topic, and should not be joined by a comma splice.
+When writing a name, it should be written with a space or without punctuation between the first and last name.
+Use "on" to indicate the direction of communication.
+The original sentence also contains a grammar error in the use of "do n't" instead of "don't."
+The original sentence contains a grammar error in the use of "do n't" instead of "don't."
+The verb "supply" should be replaced with "create" to indicate the generation of employment opportunities.
+Use "of" before a specific topic or subject matter.
+Use "the" before team names to indicate a specific team.
+A specific topic or subject should be included after the verb "read" to form a complete sentence.
+Proper nouns such as "American" should be capitalized.
+Contractions in English should not have a space before the apostrophe. Use single quotation marks for quoting within a quote.
+Contractions should not have a space before the apostrophe. Use single quotation marks for quoting within a quote.
+Use the infinitive form "to keep" should be followed by a subject and a verb, not just a pronoun.
+"Nearest" should be followed by a specific noun to indicate the extent of the location.
+Spelling error: "Kyushe" is misspelled. The correct spelling is "Kyushu."
+Use "however" to indicate the degree of difficulty.
+The verb "see" should be in the present tense to match the subject "someone."
+Capitalization Rule
+Use "than" to compare actions or states of being and "like" to compare nouns or pronouns.
+A specific topic or subject should be included after the verb "need" to form a complete sentence.
+Use "thanks to" instead of "thanks for" to express gratitude.
+"Very interesting" should be followed by a noun to indicate the extent of something.
+"Rain" should be used as a noun to indicate the action of water falling from the sky.
+Use "other" instead of "another" to indicate a different set of things.
+"Very nice" should not be used as a standalone adjective without a noun to modify.
+"Nice" should not be used as a standalone adjective without a noun to modify.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Movies" and "cartoons" are already plural and do not need to be followed by "s."
+Use a semicolon before a coordinating conjunction (and, but, for, nor, or, so, yet) that separates two independent clauses.
+"Coughed" should be followed by a subject and a verb, not just a pronoun.
+Rule: Use "as" to compare actions or states of being and "like" to compare nouns or pronouns.
+Use "as" to compare actions or states of being and "like" to compare nouns or pronouns.
+Use "as" to compare actions or states of being and "like" to compare nouns or pronouns
+Plural nouns in English typically end with an "s" or "es" at the end.
+"Being" should be followed by a subject and a verb, not just a pronoun.
+"Very beautiful" should not be used as a standalone adjective without a noun to modify.
+Modal verbs like "may" are followed by the base form of the verb.
+Subject-verb agreement: Modal verbs like "may" are followed by the base form of the verb.
+Subject-Verb agreement: Modal verbs like "may" are followed by the base form of the verb.
+Modal verbs like "might" are followed by the base form of the verb.
+Use "on" before "weekdays" to indicate the specific days of the week.
+Infinitive form rule: The infinitive form "to eat" should be used instead of "to ate" to indicate the base form of the verb.
+The infinitive form "to eat" should be used instead of "ate" to indicate the base form of the verb.
+"Souse" should be "sources" and "resource" should be "resources" to indicate plural forms.
+The contraction "n't" should be "haven't" to indicate the present perfect tense.
+The contraction "have n't" should be used instead of "haven't" to indicate "have not."
+The contraction "have n't" should be "haven't" to indicate "have not."
+The contraction "n't" should be "isn't" to indicate the present perfect tense.
+The contraction "n't" should be "can't" to indicate the present perfect tense.
+The contraction "haven't" should be used instead of "had n't" to indicate "have not."
+The contraction "ca n't" should be "can't" to indicate the present perfect tense.
+"A bit" should be followed by a specific activity or noun to indicate the extent of the action.
+A comma should not be used before a punctuation mark.
+Present tense verb "fulfill" is used to express a current opinion or belief.
+The word "aloso" is not necessary in this context and can be omitted for clarity.
+Rule: Use a comma to separate dependent clauses at the beginning of a sentence
+Use a comma to separate dependent clauses at the beginning of a sentence
+Use a comma to separate dependent clauses at the beginning of a sentence.
+Use "for a very long time" to indicate the duration of an activity.
+When using a simile to compare two things, it should be followed by a noun or noun phrase to complete the comparison.
+"Lost" should not be used as a standalone adjective without a noun to modify.
+Use "of" before the base form of the verb to indicate the purpose of an action.
+Use "of" before the base form of the verb to indicate the purpose of an action
+Use "of" to indicate the purpose of an action.
+"That" should be followed by a subject and a verb, not just a pronoun.
+Use proper spelling and punctuation for the word "style."
+"Because" should be followed by a subject and a verb, not just a pronoun.
+"Because" should be followed by a noun or pronoun, not just a pronoun.
+Use "scared" instead of "scary" to match the verb "was."
+Spelling error: "cought" is misspelled. The correct spelling is "caught."
+"Very long" should not be used as a standalone adjective without a noun to modify.
+"Took a walk" should be followed by a specific noun or pronoun to indicate what is being modified.
+Use "like" to compare nouns or pronouns.
+Present tense verb "remind" is used to express a current opinion or belief.
+"However" should be used to indicate a transition or change of topic, and should not be joined by a comma splice.
+The contraction " 've" should be used instead of " 've" to indicate "have."
+Use proper spelling and punctuation for the word "sensitivity."
+"Very tough" should not be used as a standalone adjective without a noun to modify.
+"Very tough" should be followed by a noun to indicate the extent of something.
+"Some of" should be followed by a plural noun.
+Use "the" before the location of a place within a larger area.
+Use "favorite" instead of "favorit" to indicate a preferred activity.
+"Wonder" should be followed by a coordinating conjunction to connect two independent clauses.
+Spelling error: "dispear" is misspelled. The correct spelling is "disappear."
+"Very short" should not be used as a standalone adjective without a noun to modify.
+Use "especially" to indicate a high degree of something.
+Proper nouns such as "English" should be capitalized.
+Proper nouns should be capitalized.
+Proper nouns such as nationality and names should be capitalized.
+Proper nouns such as specific languages should be capitalized.
+Proper nouns such as languages should be capitalized.
+Proper nouns such as specific titles should be capitalized.
+English language rule: In English, the proper noun "English" should be capitalized when referring to the language.
+Grammar rule: In English, the proper noun "English" should be capitalized when referring to the language.
+Proper nouns such as the name of a specific country should be capitalized.
+In English, the proper noun "English" should be capitalized when referring to the language.
+Proper nouns such as the name of a specific place should be capitalized.
+Rule: Proper nouns should be capitalized.
+Proper nouns such as nationality should be capitalized.
+Proper nouns such as specific locations should be capitalized.
+In English, proper nouns such as specific locations should be capitalized.
+Proper nouns such as nationalities should be capitalized.
+Proper nouns such as specific subjects should be capitalized.
+Capitalize "English" to indicate the proper noun.
+Proper nouns such as specific countries should be capitalized.
+"Like to" should be replaced with "fond of" to indicate a preference for something.
+"Very" should not be used as a standalone adjective without a noun to modify.
+"Wear" should be followed by "snowboard gear" to indicate the appropriate clothing for the activity.
+Use "from" after the verb "graduate" to indicate the institution from which the graduation will occur.
+Use "from" followed by a plural noun to indicate the options available for selection.
+Present tense verb "want" is used to express a current opinion or belief.
+Spaces should not be used between numbers and punctuation marks
+Spaces should not be used between numbers and punctuation marks.
+Proper nouns such as the name of a specific artist should be capitalized.
+Rule: Do not use a comma before a subordinate clause when it follows an independent clause.
+Do not use a comma before a subordinate clause when it follows an independent clause.
+A comma should not be used before a subordinate clause when it follows an independent clause.
+Spelling error: "beginer" is misspelled. The correct spelling is "beginner."
+Use a hyphen instead of a space to connect compound words such as "e-mail."
+Use a hyphen instead of a space to connect compound words such as "9th-grade."
+Use hyphens to connect compound words such as "9th-grade."
+The use of a hyphen instead of a space to connect compound words such as "9th-grade."
+Use "on" before the base form of the verb to indicate the purpose of an action.
+Use "may" to indicate a possibility or likelihood of something happening.
+The verb "lie" does not require the additional "down" to indicate the action of reclining or resting.
+Use "watching" instead of "watching at" to indicate the action of observing someone.
+Use "correctly" after the subject to indicate a specific emphasis or focus.
+Spelling error: "masssage" is misspelled. The correct spelling is "massage."
+"masssage" is misspelled. The correct spelling is "massage."
+Rule: When indicating the order of events, use "on" before the time period (e.g. day, night, etc.)
+When indicating the order of events, use "on" before the time period (e.g. day, night, etc.)
+Use "so" to indicate a reason for something, not "from."
+Use "they" to indicate the subject performing the action.
+Something should not be used as a standalone noun.
+The contraction " 'd" should be used instead of " 'd" to indicate "would."
+"Fast" should not be used as a standalone adjective without a noun to modify.
+"Very fast" should not be used as a standalone adjective without a noun to modify.
+"Fast" should be used as an adjective, not an adverb.
+Spelling error: "hapiness" is misspelled. The correct spelling is "happiness."
+The use of a comma after "However" is unnecessary and can be removed for improved clarity.
+Use of a comma after "However" is unnecessary and can be removed for improved clarity.
+The word "friend" should be possessive, so it should be "friend's."
+Use "with" to indicate the manner in which an action is performed.
+Use "like" to compare nouns or pronouns, while "how" should be followed by a subject and a verb, not just a pronoun.
+Use "it's" with an apostrophe to indicate "it is."
+"Basking" should not be used as a standalone verb.
+"Basking" should be followed by a specific noun to form a complete sentence.
+"Little" should be used to indicate an unspecified amount or existence of something.
+"A little" should be used to indicate an unspecified amount or existence of something.
+"New" should be followed by a noun or pronoun, not just a pronoun.
+Use "months" instead of "month" to indicate a duration of time.
+Standalone verbs should not be used without a subject or context.
+The infinitive form of the verb "call" should be followed by "to" + base form of the verb.
+A specific topic or subject should be included after the verb "change" to form a complete sentence.
+Use a specific topic or subject after the verb "change" to form a complete sentence.
+Rule: Use a comma before the word "which" when it introduces a nonrestrictive clause.
+Use a comma before the word "which" when it introduces a nonrestrictive clause.
+The use of a comma before the word "which" when it introduces a nonrestrictive clause.
+Use "honestly" to indicate sincerity or truthfulness, instead of "hysterically."
+The original sentence contains a grammar error in the use of "say" instead of "saying" after "want to."
+Use "of" before a duration of time to indicate the specific period of time.
+"What" to introduce a restrictive relative clause.
+Use "what" to introduce a restrictive relative clause.
+"a lot" should be used as two words
+"a lot" should be used as two words.
+"A lot" should be used as two words.
+Rule: "a lot" should be used as two words
+Rule: "a lot" should be used as two words.
+Use "a lot" as two words.
+Use "that" instead of "which" to introduce a restrictive clause.
+In English, sentences should generally be complete and have a subject and a verb to form a complete thought.
+"Bad" should be followed by a noun or pronoun, not just a pronoun.
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am." The contraction "have n't" should be used instead of "haven't" to indicate "have not."
+Use a comma after an interjection such as "But" when expressing strong emotion.
+The use of a comma after an interjection such as "But" when expressing strong emotion.
+A comma should not be used after an interjection such as "But" when expressing strong emotion.
+Use a comma after an interjection such as "However" when expressing strong emotion.
+Spelling error: "an" is misspelled. The correct spelling is "and."
+Rule: "Every day" is always two words when used as an adverbial phrase.
+"Every day" is always two words when used as an adverbial phrase.
+Every day is always two words when used as an adverbial phrase.
+"Ones" should be replaced with "individuals" or "participants" to indicate specific people.
+Proper spelling and punctuation should be used for the word "special."
+Use "that" instead of "which" to introduce a defining relative clause.
+"That" should be used instead of "which" to introduce a defining relative clause.
+Use "that" should be used instead of "which" to introduce a defining relative clause.
+Use "to" after "familiar" to indicate the relationship between the songs and the people.
+"Very cold" should not be used as a standalone adjective without a noun to modify.
+Use "here" to indicate the location of an activity.
+Use "here" to indicate the location of an activity when referring to a specific place.
+Use proper spelling and punctuation for the word "plausible."
+"Plausible" is misspelled. The correct spelling is "plausible."
+Proper spelling and punctuation should be used for the word "plausible."
+Use "spend" to indicate the action of enjoying or using time.
+The contraction "didn't" should be used instead of "did n't" to indicate the past tense.
+The contraction "did n't" should be "didn't" to indicate the past tense.
+The contraction "didn't" should be used instead of "did n't" to indicate "did not."
+The contraction "didn't" should be used instead of "did n't" to indicate the present perfect tense.
+The contraction "did n't" should be "didn't" to indicate "did not."
+The contraction "didn't" should be used instead of "did n't"
+The contraction "did n't" should be "didn't" to indicate the present perfect tense.
+The contraction "n't" should be "didn't" to indicate the past tense.
+The contraction "didn't" should be used instead of "had n't" to indicate "did not."
+"Since" should be followed by a coordinating conjunction to connect two independent clauses.
+Since should be followed by a coordinating conjunction to connect two independent clauses.
+Spelling error: "fourtunely" is misspelled. The correct spelling is "fortunately."
+Use "except for" to indicate exclusion.
+Use "except" to indicate exclusion.
+Use "except" to indicate an exclusion, not an additional reason.
+"Easy" should not be used as a standalone adjective without a noun to modify.
+"Very easy" should not be used as a standalone adjective without a noun to modify.
+"Simple and easy" should not be used as a standalone adjective without a noun to modify.
+The original sentence contains a grammar error in the use of "plausiable" instead of "plausible" and "chage" instead of "change."
+"4" should be followed by a noun to form a complete sentence.
+Use "maybe" instead of "may" to indicate a possibility.
+"In under the punishment" should be "under punishment" to indicate the situation.
+Spelling error: "suprised" is misspelled. The correct spelling is "surprised."
+Use "its" to indicate possession instead of "it."
+Use "its" to indicate possession by a singular noun.
+"Below" should be followed by a noun or pronoun, not just a pronoun.
+Use "anymore" to indicate the absence of a requirement.
+"It is natural for us" should be followed by a specific noun or pronoun to indicate what is natural.
+Use "at" to indicate the location of an activity when referring to a specific place.
+Use "at" before the location of an activity to indicate the specific place.
+Use "in" instead of "at" to indicate the location of an activity.
+Use "at" instead of "in" to indicate the location of an activity when referring to a specific place.
+Use "at" to indicate the location of an activity.
+Use "in" instead of "at" to indicate the location of an activity when referring to a specific place.
+Use "at" before the location of an activity.
+Spelling error: "univercity" is misspelled. The correct spelling is "university."
+Use "recently" to indicate the time period.
+Use "too much" before a non-countable noun to indicate a large amount.
+The infinitive form "to wash" should be used instead of "to washing" to indicate the base form of the verb.
+The infinitive form of the verb "wash" should be followed by "to" + base form of the verb.
+"One of" should be followed by a plural noun to form a complete sentence.
+Spelling error: "writting" is misspelled. The correct spelling is "writing."
+Spelling error: "writting" is misspelled.
+Use "fell" to indicate the past tense, and "fall" to indicate the future tense.
+"Exploding" should be followed by a plural noun.
+Use "quit" to indicate the base form of the verb.
+Use "such" to indicate a high degree of something
+Use "such" to indicate a high degree of something.
+Use "such" before an adjective to indicate a high degree of something.
+"Like" should be used to compare nouns or pronouns, while "the dead the way" should be used to indicate the specific group being referred to.
+"Really simple" should be followed by a noun to indicate the extent of something.
+Use a hyphen instead of a space to connect compound words such as "old-age."
+Use a space between "old" and "age" to form the compound word "old-age."
+"Like" should be used to compare nouns or pronouns, while "the way" should be used to indicate the specific group being referred to.
+The use of quotation marks should have a specific purpose, such as indicating a direct quotation or emphasizing a word.
+Use "rather" to compare nouns or pronouns, while "any" should be used to indicate an unspecified amount or existence of something.
+When using the phrase "by nature," it should be followed by a subject and a verb to form a complete sentence.
+Use "going" followed by a specific verb to indicate an action in the future.
+"Going to" should be followed by a verb to indicate an action in the future.
+Use of the infinitive form "to be" should be followed by "to" + base form of the verb.
+Use the infinitive form "to be" should be followed by "to" + base form of the verb.
+The infinitive form "to be" should be followed by "to" + base form of the verb.
+The verb "crawling" should be in the present tense to match the subject "He."
+"Man" is not a proper noun and should not be capitalized.
+Proper nouns such as "man" should not be capitalized.
+A specific topic or subject should be included after the verb "pursue" to form a complete sentence.
+A specific topic or subject should be included after the verb "reminds" to form a complete sentence.
+Use "about" after "doubt" to indicate the subject of the doubt.
+The contraction "it's" should be followed by a subject and a verb to form a complete sentence.
+Spelling error: "reseach" is misspelled. The correct spelling is "research."
+"Work" should be used to indicate the action of being employed in a company.
+The original sentence contains a grammar error in the use of "until it became" instead of "until it becomes" to indicate the correct verb tense.
+The original sentence contains a grammar error in the use of "official program" instead of "official language" to indicate the language being officially recognized.
+Use "to" after "look" to indicate the action being sought.
+A comma should not be used after "By" as it is unnecessary and can be removed for improved clarity.
+The original sentence contains a grammar error in the use of "look" instead of "looks" to match the singular subject "face."
+Use "alone" to indicate a specific interest or involvement in something.
+Use "either" should be used with "or" to complete the correlative conjunction.
+Adverbs should be placed before the verb they modify to indicate the extent of something.
+Use "lasting" instead of "last" to indicate the duration of the job.
+"All" should be followed by a plural noun.
+Use "exchange" to indicate the base form of the verb.
+Use "whether" to introduce a restrictive relative clause.
+A specific topic or subject should be included after the verb "watched" to form a complete sentence.
+Use a space between "8" and ":00" to indicate the specific time.
+Use "to" after "introduced" to indicate the purpose or benefit of an action.
+A specific topic or subject should be included after the verb "wonder" to form a complete sentence.
+Possessive form: noun + 's
+The possessive form "noun + 's" should be used to indicate possession.
+"Both" should be followed by a noun or pronoun, not just a pronoun.
+Use "listening to" instead of "listen to" to indicate the action being taken.
+Use "in" before a specific moment or time period.
+"In" should be used before a specific moment or time period.
+Use "beyond" to indicate a higher level than the current one.
+"To" should be used after "like" to indicate the action being requested.
+A specific topic or subject should be included after the verb "research" to form a complete sentence.
+"Cool" should not be used as a standalone adjective without a noun to modify.
+Use "at" to indicate the level of proficiency in English.
+Use "every day" to indicate frequency.
+Use "every day" to indicate frequency
+Use "every day" as two separate words to indicate frequency.
+Use "every day" instead of "everyday" to indicate frequency.
+Use "every day" to indicate the frequency of an action.
+Use "lies" instead of "lays" to indicate reclining.
+Use "lies" instead of "lays" to indicate the action of reclining.
+The contraction "It 's" should be "It's" to indicate "It is."
+The contraction "it 's" should be "it's" to indicate "it is."
+The contraction "it's" should be used instead of "it 's" to indicate "it is."
+The contraction "it's" should be used instead of "its" to indicate "it is."
+The contraction "It's" should be used instead of "It 's" to indicate "It is."
+The contraction "it 's" should be used instead of "it 's" to indicate "it is."
+Use of contraction: The contraction "It's" should be used instead of "It 's" to indicate "It is."
+The contraction "it 's" should be "it is" to indicate the present tense.
+The contraction "It's" should be "It is" to indicate the present tense.
+The contraction "It 's" should be "it is" to indicate the present tense.
+The contraction "It 's" should be "It" to indicate the present tense.
+"Her" should be followed by a noun to modify.
+A specific topic or subject should be included after the verb "expect" to form a complete sentence.
+Use "make" instead of "give" to indicate the creation of a promise.
+Use "relieved" instead of "releaved" to indicate the feeling of being reassured.
+Use "dislikes" instead of "sucks" to indicate disapproval of the new hair style.
+The contraction "can not" should be "cannot" to indicate the absence of a requirement.
+The contraction "cannot" should be "cannot" to indicate the absence of a requirement.
+A comma should not be used after "For example" as it is unnecessary and can be removed for improved clarity.
+"Human" should be followed by a noun or pronoun, not just a pronoun.
+Spelling error: "allways" is misspelled. The correct spelling is "always."
+Modal verbs do not take the infinitive "to" after them.
+The past tense of "drink" is "drank," not "drunk."
+Use "to" after "want" to indicate the purpose or benefit of an action.
+Use "very important" should not be used as a standalone adjective without a noun to modify.
+"Very important" should not be used as a standalone adjective without a noun to modify.
+Use "year" instead of "years" to indicate the age of a person.
+Use "outdoor" as an adjective to describe a noun, not as a standalone adverb.
+Use "outdoor" as an adjective and "outdoors" as an adverb to indicate the location.
+"Outdoor" should not be used as a standalone adjective without a noun to modify.
+A comma should not be used after "Fukuoka" as it is unnecessary and can be removed for improved clarity.
+A comma should be used after an introductory adverb such as "Finally" when expressing strong emotion.
+Plural noun rule
+The rule of using plural nouns
+Use "then" to indicate a high degree of something.
+"Then" to indicate a high degree of something.
+Use the gerund form "saying" after "analysts" instead of "say"
+Use "in" before a specific time period to indicate the duration of an activity.
+The contraction "do n't" should be used instead of "do n't" to indicate "do not."
+The contraction "Do n't" should be "Don't" to indicate "do not."
+The contraction "don't" should be used instead of "do n't" to indicate the negative form of "do."
+The contraction "couldn't" should be used instead of "could n't" to indicate "could not."
+The contraction "couldn't" should be used instead of "n't" to indicate "could not."
+The contraction "could n't" should be "couldn't" to indicate "could not."
+The contraction "I couldn't" should be used instead of "could n't" to indicate "could not."
+The infinitive form "to cool" should be followed by a noun or pronoun to indicate the action being taken.
+Use "since" followed by a specific time frame to indicate the duration of time.
+Spelling error: "also" is misspelled.
+Use "to" after "goals" to indicate the purpose or benefit of an action.
+"Exciting" should not be used as a standalone adjective without a noun to modify.
+Spelling error: "morning" is misspelled.
+Use "the" before a specific noun, such as "customs," to indicate a specific instance of the noun.
+Spelling error: "calss" is misspelled. The correct spelling is "class."
+The original sentence contains a spelling error in the use of "calss" instead of "class."
+"To write" should be followed by a subject and a verb, not just a pronoun.
+Use the infinitive form "to write" should be followed by a subject and a verb, not just a pronoun.
+The infinitive form "to write" should be followed by a subject and a verb, not just a pronoun.
+Use "down" to indicate the direction of the tears.
+Preposition rule
+Use "besides" to indicate an additional reason.
+Use "is retiring" to indicate the current action.
+Use "or" to indicate a choice between two options.
+The past participle form of "eat" is "eaten," not "ate."
+Use "half" instead of "a half" to indicate a portion of something.
+Use "are" to indicate the existence or presence of something.
+"Very happy" should not be used as a standalone adjective without a noun to modify.
+"Most" should be followed by a verb to form a complete sentence.
+Use "was saying" instead of "said" after "staff" to indicate ongoing action.
+"Explaining" should be followed by a specific noun to form a complete sentence.
+Use proper spelling and punctuation for the word "Haneda."
+"Answer" should be followed by a specific verb to indicate the manner in which the action is performed.
+Spelling error: "hvae" is misspelled. The correct spelling is "have."
+Use "drinks" to indicate the action of consuming beverages.
+The verb "cherish" should be in the present tense to match the subject "I."
+The original sentence also contains a grammar error in the use of "at that moment ." as it is unnecessary and can be removed for improved clarity.
+Proper nouns such as "Japan Air Self Defense Force" should be capitalized.
+Use "how" to indicate a high degree of something.
+The original sentence contains a grammar error in the use of "prohibit to go to have a job" instead of "prohibited from having a job" to indicate the restriction.
+"Except" should be followed by a noun or pronoun, not just a pronoun.
+"Except" should be followed by a specific noun or pronoun to indicate what is being excluded.
+Except should be followed by a specific noun or pronoun to indicate what is being excluded.
+"Except" should be followed by a subject and a verb, not just a pronoun.
+Use "although" instead of "althogh" to indicate contrast.
+"Very pretty" should not be used as a standalone adjective without a noun to modify.
+Spelling error: "cherich" is misspelled. The correct spelling is "cherish."
+Use "known" instead of "knew" to indicate the past participle form of the verb "know."
+Proper nouns such as "Home Depot" should be capitalized.
+"Reminds" should be followed by a subject and a verb, not just a pronoun.
+Use "PS" with a colon to indicate a postscript.
+"Bite" should be replaced with "bit" to indicate a small amount or degree.
+Use "though" to introduce a restrictive clause.
+Spelling error: "drow" is misspelled. The correct spelling is "draw."
+When referring to being interested in or addicted to something, the preposition "to" should be used after the verb "hooked."
+"Another people" is incorrect. The correct term is "another person" to indicate a singular individual.
+Use proper capitalization for brand names such as "A & F."
+The correct spelling of "disappear" should be used.
+The word "passed" is not necessary in this context and can be omitted for clarity.
+The word "source" should be replaced with "sauce" to refer to the condiment.
+Use "studies" after "he" to indicate the singular third person present tense.
+"Very sleepy" should not be used as a standalone adjective without a noun to modify.
+"Very tired" should not be used as a standalone adjective without a noun to modify.
+"Very cute" should not be used as a standalone adjective without a noun to modify.
+"Sometime" should be "Sometimes" to indicate an unspecified time in the past.
+The original sentence contains a grammar error in the use of "supply works" without specifying what kind of works are being supplied.
+Use a hyphen instead of a space to connect compound words such as "in-depth."
+Spelling error: "synaps" is misspelled. The correct spelling is "synapse."
+Rule: Use a comma to separate the name when directly addressing someone in a sentence.
+Use a comma to separate the name when directly addressing someone in a sentence.
+Use "was willing to help me" to indicate the willingness to assist.
+Use "his" to indicate the possessive form before "masculine symbols" to indicate the singular possessive form.
+"How" should be followed by a subject and a verb, not just a pronoun.
+Use "how" should be followed by a subject and a verb, not just a pronoun.
+Use "How" should be followed by a subject and a verb, not just a pronoun.
+Use "since" to introduce a time-related clause with a subject and verb.
+Use "taught" instead of "made" to indicate the action of teaching a lesson.
+Spelling error: "kingdergardan" is misspelled. The correct spelling is "kindergarten."
+The spelling error "kingdergardan" is misspelled. The correct spelling is "kindergarten."
+"Shocked" should not be used as a standalone adjective without a noun to modify. Possessive nouns are formed by adding 's to the end of a singular noun or the end of a plural noun that does not end in s.
+Use a hyphen instead of a space to connect compound words such as "can-do."
+"Doing" should be followed by a subject and a verb, not just a pronoun.
+"Fitness" is misspelled. The correct spelling is "fitness."
+Spelling error: "Basaballgame" is misspelled. The correct spelling is "Baseball game."
+"Basaballgame" is misspelled. The correct spelling is "Baseball game."
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am." The contraction "it's" should be used instead of "it 's" to indicate "it is."
+Use proper spelling and punctuation for the word "twenty."
+"Lovely" should not be used as a standalone adjective without a noun to modify.
+Lovely should not be used as a standalone adjective without a noun to modify.
+"Tomorrow" should not be followed by a period.
+The correct spelling of "According" should be used.
+"Japanes" is misspelled. The correct spelling is "Japanese."
+"Staff" is a plural noun and should be followed by a plural verb form.
+The past tense of "quarrel" is "quarreled."
+"Help" should be followed by a subject and a verb, not just a pronoun.
+Use "Next" instead of "On next" to indicate the specific day of the week.
+Use "logically unsound" to indicate that the English was not logically sound.
+"Reading" should be followed by a plural noun to indicate the action of reading a specific item.
+"Tuition" should be followed by a specific noun or pronoun to form a complete sentence.
+When referring to being interested in or addicted to something, the preposition "to" should be used after the verb "into."
+Grammar rule: Use "today" without the preposition "of" to indicate the current day.
+Use "today" without the preposition "of" to indicate the current day.
+Rule: Use "today" without the preposition "of" to indicate the current day.
+"Today" should be used without the preposition "of" to indicate the current day.
+A closing parenthesis should not be used without an opening parenthesis.
+Use "into" to indicate a specific interest or involvement in something.
+Use a space instead of a hyphen between "twenty" and "three" to indicate the age.
+The contraction "let's" should be used instead of "lets" to indicate "let us."
+Use "let's" instead of "lets" to indicate "let us."
+The infinitive form "to lower" should be followed by a noun or pronoun to indicate the action being taken.
+Spelling error: "Jpanese" is misspelled. The correct spelling is "Japanese."
+Capitalize proper nouns, including the names of languages, when referring to them.
+"Recent" should be followed by a specific noun to indicate what is being modified.
+"But" should be followed by a subject and a verb, not just a pronoun. Emoticons should not be used as standalone sentences.
+The correct spelling of "surprised" should be used.
+Proper spelling and punctuation should be used for the word "surprised."
+The word "introduce" already implies providing information about something or someone, so the use of "myself" is redundant and unnecessary.
+Use "sometimes" to indicate frequency, not as a standalone word at the end of a sentence.
+The word "sometimes" should be used to indicate frequency, not as a standalone word at the end of a sentence.
+Use "sometimes" to indicate frequency.
+Use "after" to indicate the cause of a feeling or emotion.
+Spelling error: "intermediate" is misspelled. The correct spelling is "intermediate."
+"Right" should be followed by a noun or pronoun, not just a pronoun.
+Use a space between "web" and "site" to form the compound word "website."
+Use "of" before a singular countable noun to indicate possession or relationship.
+Use "see" to indicate a broader understanding of the world.
+Rule: The contraction for "did not" is "didn't"
+The contraction for "did not" is "didn't"
+The contraction "did not" is "didn't"
+Spelling error: "rainning" is misspelled. The correct spelling is "raining."
+The original sentence contains a grammar error in the use of a comma splice.
+"nearest" should be followed by a noun or pronoun, not just a pronoun.
+"Maybe" should be followed by a subject and a verb, not just a pronoun.
+Unnecessary quotation marks should be removed from "nuclear power plant" and "we should not use nuclear power plant."
+When indicating an approximate time period, the article "the" should not be used before the year.
+Use "for" to indicate the cause of a feeling or emotion.
+"Suspected" should be followed by a subject and a verb, not just a pronoun.
+Spelling error: "alchole" is misspelled. The correct spelling is "alcohol."
+The verb "decided" should be in the past tense to match the timing of the action being described.
+"Near" should be followed by a specific noun or pronoun to indicate what is being modified.
+"Relax" should be followed by a noun or pronoun, not just a pronoun.
+Use "never" to indicate the absence of a previous condition.
+Use a comma after an introductory adverb such as "someday."
+Use "making" after "be" to indicate the action of creating a strategy or course of action.
+"Efforts" should be replaced with "effort" to indicate a singular, specific action.
+The past tense of "hang" is "hung."
+Use a comma after "Thursday" to indicate the time period.
+The original sentence contains a grammar error in the use of "other" instead of "another" to indicate a different set of things.
+Use "enroll" instead of "enrol" to indicate the action of registering for a course
+Use "thinks" instead of "think" to agree with the singular subject "Derek Jeter."
+"Not bad" should not be used as a standalone adjective without a noun to modify.
+"Same" should be followed by "as" to indicate a comparison.
+Use "help" followed by "to" + base form of the verb to indicate the action being undertaken.
+Use "such as" to introduce specific examples without unnecessary repetition.
+Spelling error: "fittness" is misspelled. The correct spelling is "fitness."
+The use of "fittness" is a spelling error. The correct spelling is "fitness."
+Use "most other" instead of "most of other" to indicate a comparison.
+The infinitive form of the verb "keep" should be followed by "to" + base form of the verb.
+The infinitive form "to keep" should be used instead of "keep" to indicate the base form of the verb.
+Use "kindly" to indicate a high degree of something.
+The" should be used before a singular countable noun.
+The original sentence contains a grammar error in the use of "quitted" instead of "quit"
+Use "somewhere" to indicate a specific location, followed by "someday" to indicate a specific time.
+Use "as" to indicate a specific example or comparison.
+Use "set" instead of "seat" to indicate a collection of starting pots.
+Use "caught" instead of "cought" to indicate the past tense of catching a cold.
+Use "who" to refer to people, not "which."
+Proper nouns such as "Chinese" should be capitalized.
+A specific topic or subject should be included after the verb "call" to form a complete sentence.
+"Explaned" is misspelled. The correct spelling is "explained."
+Use a hyphen instead of a space to connect compound words such as "five-year-old."
+"Mainly" should be followed by a verb to modify.
+"Different" should be used instead of "differents" to indicate a different set of things.
+The contraction for "can not" to "can't"
+The contraction for "can not" to "cannot"
+Use "can't" for the contraction of "cannot"
+Rule: Contraction of "can not" to "can't"
+"Shift" should be followed by a specific noun or pronoun to indicate what is being changed.
+"Very disappointing" should be used to indicate a high degree of something.
+Rule: "Also" should be used to indicate something in addition to something else.
+"Also" should be used to indicate something in addition to something else.
+Use "in" instead of "for" to indicate the purpose of an action.
+Use "whether" to indicate a choice or possibility.
+The original sentence also contains a grammar error in the use of "very soon" as a standalone adverb without a specific noun to modify.
+"Small" should be used instead of "smoll" to indicate a low degree of something.
+Use "of" to indicate the relationship between a quantity and the noun being referred to.
+"of" to indicate the relationship between a quantity and the noun being referred to.
+Use "overweight" as a single word to indicate a high degree of weight.
+"study" should be "studies" to indicate the general concept of academic work.
+Use "organized" instead of "organised" to indicate the correct spelling.
+Use "supportive" instead of "in a supporting" to indicate the correct adjective form.
+Use a comma after introductory adverbs such as "sometimes."
+A specific topic or subject should be included after the verb "rewrite" to form a complete sentence.
+When using a gerund as a standalone word, it should be followed by a subject and a verb to complete the sentence.
+Use "seems" should be "seemed" to indicate the past tense.
+Use "became" instead of "become" to indicate an action that occurred in the past.
+"Simplification" should not be used as a standalone noun.
+The verb "realize" should be "realizing" to maintain parallel structure.
+"We" should be used instead of "us" to indicate the subject of the verb.
+"no meaning" should be "meaningless" to match the noun "boring."
+Use "students" instead of "student" to indicate multiple individuals.
+Use "starting point" instead of "start point" to indicate the beginning of something.
+Use a comma before and after a direct quotation.
+Use "on" to indicate the location of an activity.
+Use "on" before a specific location to indicate the location of an activity.
+Use "on" before the location of an activity.
+Use "on" before a specific location to indicate the location of an activity when referring to a specific place.
+When indicating the location of an activity, the preposition "on" is used to show where something is located.
+Spelling error: "sentenses" is misspelled. The correct spelling is "sentences."
+Use "to" after "help" to indicate the purpose or benefit of an action.
+The word "actually" is not necessary in this context and can be omitted for clarity.
+Use "actually" in this context is not necessary and can be omitted for clarity.
+Spelling error: "tought" is misspelled. The correct spelling is "taught."
+The original sentence contains a spelling error in the use of "tought" instead of "taught."
+Use "different" to indicate a comparison between two groups or entities.
+"Change" should be used in place of "chage"
+Use a comma after an interjection such as "Oh" when expressing strong emotion.
+Rule: Use a comma after an interjection such as "Oh" when expressing strong emotion.
+The use of a comma after an interjection such as "Oh" when expressing strong emotion.
+"First" should be pluralized when referring to multiple instances.
+"Was" should be followed by a preposition "in" to indicate membership in an organization.
+Use "was" should be followed by a preposition "in" to indicate membership in an organization.
+"Very bad" should not be used as a standalone adjective without a noun to modify.
+The past tense of "stick" is "stuck," not "stucked."
+The original sentence contains a grammar error in the use of "afterquake" instead of "aftershock" to indicate a seismic event following an earthquake.
+"Very stressful" should not be used as a standalone adjective without a noun to modify.
+Use "lose weight" to indicate the action of losing body mass.
+"Lose my weight" should be replaced with "lose weight" to indicate the action of losing body mass.
+Use "if" to introduce a condition, and "to" before the base form of the verb to indicate purpose.
+Use "from" to indicate the starting point of a time period.
+The original sentence also contains a grammar error in the use of "had read" instead of "have read" to indicate past tense.
+No errors found
+"Three days" should be hyphenated to form a compound adjective.
+Use "promotion" instead of "promotions" to indicate a single advancement in position or rank.
+Use "promotion" instead of "promotions" to indicate a single instance of a job advancement.
+Spelling error: "excuse" is misspelled as "execuse."
+Spelling error: "execuse" is misspelled. The correct spelling is "excuse."
+When indicating a specific date, a determiner should be used before the date to form a complete sentence.
+The adjective "old" should be followed by a noun or pronoun, not just a pronoun.
+"Changing planes" should be followed by a subject and a verb, not just a pronoun.
+Use "moved to tears" to match the past tense of "was."
+Spelling error: "Millenium Objetives" is misspelled. The correct spelling is "Millennium Objectives."
+Spelling error: "physically" is misspelled.
+Spelling error: "physically" is misspelled. The correct spelling is "physically."
+"Peoples" should be followed by a plural noun.
+"Seems" should be followed by a subject and a verb, not just a pronoun.
+Use a comma after an interjection such as "Aha" when expressing excitement or realization.
+The word "meets" should be used as a verb, not a noun.
+"Postgrade" should be replaced with "postgraduate" to indicate advanced studies.
+Use "postgraduate" instead of "postgrade" to indicate a higher level of education
+Use "gonna" as a contraction for "going to" to indicate future actions.
+Use "compared to" instead of "as compared with" to indicate a comparison.
+Use "noticed it" to indicate the specific action being observed.
+Spelling error: "liberary" is misspelled. The correct spelling is "library."
+Use "wants" instead of "want" to match the subject "he."
+Use "answers incorrectly" to match the subject "she."
+Use "my" before "travel" to specify possession.
+Use a comma after an introductory phrase such as "For example."
+In English, proper nouns such as specific teams should be preceded by the definite article "the."
+"Then" should be followed by a subject and a verb, not just a pronoun.
+Spelling error: "nearly" is misspelled. The correct spelling is "nearly."
+The infinitive form "to come" should be used instead of "come" to indicate the base form of the verb.
+The infinitive form "to come" should be followed by a noun or pronoun to indicate the action being taken.
+Pronouns should not be used as standalone sentences.
+The original sentence also contains a grammar error in the use of "as representing" instead of "as representative of" to indicate the comments as a representation of the average intellectual level of the viewer.
+Use "both ways" to indicate a comparison.
+The infinitive form "to teach" should be followed by a noun or pronoun to indicate the action being taken.
+Use "singing" instead of "singing songs" to indicate the action of singing.
+Spelling error: "clubing" is misspelled. The correct spelling is "clubbing."
+Proper nouns such as "Japanese" should be capitalized.
+Use a hyphen instead of a space to connect compound words such as "lang-8."
+Use a hyphen instead of a space to connect compound words such as "Lang-8."
+Present tense verb "go" is used to express a current opinion or belief.
+"Rather high" should be used to indicate a high degree of something.
+The infinitive form "to accept" should be used instead of "accepting" to indicate the base form of the verb.
+Spelling error: "postopned" is misspelled. The correct spelling is "postponed."
+"According to" should be followed by a noun to indicate the extent of something.
+The past participle form of "stick" is "stuck," not "stucked."
+The past participle form of "know" is "known," not "knew."
+Use "on" to indicate the direction of an action.
+Use a subject and a verb to form a complete sentence.
+Use a comma after an interjection such as "Oh" when addressing someone.
+"More disappointing thing" should be followed by a specific noun to modify.
+Use "reminds" to indicate a feeling or emotion.
+Use of a comma after an interjection such as "Actually" is unnecessary and can be removed for improved clarity.
+Use a hyphen instead of a space to connect compound words such as "super-flu."
+Use a hyphen instead of a space to connect compound words such as "super flu."
+Use "at" before a specific noun to form a complete sentence.
+Use "felt" instead of "was" to indicate the action of experiencing a feeling.
+Use "in" to indicate a general topic or subject, and use "of" to indicate the specific content or subject matter.
+Use "for" to indicate the recipient of gratitude.
+Use "very early" to indicate a high degree of something.
+It is important to use "to help me" to indicate the specific action being taken by the friends.
+The infinitive form of the verb "club" should be followed by "to" + base form of the verb.
+"Japanese skill" should be followed by a subject and a verb, not just a pronoun.
+A specific topic or subject should be included after the verb "feel" to form a complete sentence.
+Use "awoken" as the past participle form of the verb "awake."
+The original sentence contains a grammar error in the use of "excited" instead of "exited" to indicate leaving or departing from the show.
+Use "sowing" to indicate the action of planting seeds.
+Use "from" to indicate the location of taking something.
+The infinitive form "to book" should be used instead of "book" to indicate the base form of the verb.
+"Handicrafts" should be followed by a specific noun to indicate what is being crafted.
+Proper nouns such as the name of a specific month should be capitalized.
+Capitalize proper nouns, including the names of months, when referring to them.
+"Strongest" is a comparative adjective and does not need "most" before it.
+The original sentence contains a grammar error in the use of "most strongest" as it should be "strongest."
+Use an apostrophe after the plural noun "parents" to indicate possession.
+"Very glad" should not be used as a standalone adjective without a noun to modify.
+Use "why" to introduce a reason, and "for" to indicate the purpose or benefit of an action.
+The contraction "gon na" should be "going to" to indicate the future tense.
+The contraction "gon na" should be used instead of "gon na" to indicate "going to."
+"Very valuable" should not be used as a standalone adjective without a noun to modify.
+Use "level" after "grammar" to indicate the proficiency or standard of the grammar.
+Use "finishing" after "after" to indicate the action that occurs before lying down.
+"Cool" should be followed by a noun or pronoun, not just a pronoun.
+Use "had" instead of "took" to indicate the action of receiving a medical test.
+The original sentence contains a grammar error in the use of "think" instead of "thinks" and "is" instead of "seems" to indicate a current opinion or belief.
+Spelling error: "whenver" is misspelled. The correct spelling is "whenever."
+"Nearlly" is misspelled. The correct spelling is "nearly."
+Spelling error: "nearlly" is misspelled. The correct spelling is "nearly."
+Use a hyphen instead of a space to connect compound words such as "month-old."
+The correct form of the verb to indicate the passage of time is "pass," not "past."
+Use "does" with the base form of the verb to form a question in the present tense.
+Proper nouns such as "Berklee" should be capitalized.
+Use a space between "super" and "express" to form the compound word "super express."
+Present tense verb "seems" is used to express a current opinion or belief.
+Use "what" to indicate a general topic or subject.
+The original sentence contains a grammar error in the use of "crowling" instead of "crawling" to indicate the action of moving on hands and knees.
+Use "some" before a plural countable noun.
+Use "starting" to indicate the beginning of an activity, and "online" as a compound adjective to describe the type of shopping.
+Use "Particularly" to indicate a specific aspect or detail within a larger context.
+Use "getting off track" instead of "getting off the track" to indicate a deviation from the intended path.
+The past participle form of the verb "choose" is "chosen"
+Use "chosen" instead of "chose" to indicate the past participle form of the verb.
+Use "chosen" as the past participle of the verb "choose."
+The past participle form of "choose" is "chosen," not "chose."
+Use "nearest to" to indicate the location of an activity when referring to a specific day.
+Use "make" instead of "get" to indicate the action of creating friendships.
+"Experienced" should not be used as a standalone adjective without a noun to modify.
+Use "against" to indicate the direction of competition.
+Spelling error: "supermaket" is misspelled. The correct spelling is "supermarket."
+Use "Five days ago" to indicate the time period.
+Proper nouns such as "research" should be capitalized.
+Use "children" instead of "childs" to indicate the plural form of "child."
+Use "middle-aged" as a compound adjective before a noun.
+Use a comma after an interjection such as "Thank you" when expressing strong emotion.
+Proper nouns such as "British" should be capitalized.
+Use "at" to indicate the location of a place within a larger area.
+Use "at" instead of "of" to indicate the location of a place within a larger area.
+Use double quotation marks for titles.
+The past participle form of "wake" is "awoken," not "woken."
+The past tense of the verb "wake" is "woke" and the past participle is "awoken."
+"Wonder" should be followed by a subject and a verb, not just a pronoun.
+The verb "talk" should be in the past tense to match the timing of the action being described.
+Proper nouns such as "neighbors" should be capitalized.
+Use "of" to indicate the cause of a feeling or emotion.
+The contraction "won't" should be used instead of "wo n't" to indicate "will not."
+"Scream" should not be used as a standalone adjective without a noun to modify.
+"Too terrible" should not be used as a standalone adjective without a noun to modify.
+The past tense of "wake" is "woke," and it should be followed by the preposition "up" to indicate the action of waking from sleep.
+Use "furthermore" to indicate an additional point.
+Use "using" should be followed by a subject and a verb, not just a pronoun.
+Use "took" to indicate the action of touring a city
+This is a rule of avoiding redundant words or phrases in a sentence.
+Use "a lot of" to indicate a large quantity.
+Use "a lot of" to indicate a large amount of something.
+"Use 'a lot of' to indicate a large quantity."
+"Impressed" should be followed by a subject and a verb, not just a pronoun.
+Use "about" to introduce a restrictive relative clause.
+"After" should be followed by a specific noun or pronoun to indicate what is being modified.
+"Something sports" should be replaced with "a sport" to indicate a specific activity.
+"Something sports" should be replaced with "something sporty" to indicate the type of activity being played.
+"Swearing" should be followed by a subject and a verb, not just a pronoun.
+The verb "swearing" should be followed by a subject and a verb, not just a pronoun.
+Use "about" to indicate the cause of a feeling or emotion.
+The original sentence also contains a grammar error in the use of "is" to indicate a current opinion or belief.
+Use "has been" to indicate continuous action.
+"Feel relax" should not be used as a standalone verb without a specific noun to modify.
+"stimurate" is misspelled. The correct spelling is "stimulates."
+Spelling error: "stimurate" is misspelled. The correct spelling is "stimulate."
+The infinitive form of the verb "check" should be followed by "to" + base form of the verb.
+Use "in the garden" to indicate the location of the blooming flowers.
+"Joke" should not be used as a standalone verb.
+Spelling error: "boarden" is misspelled. The correct spelling is "broaden."
+"Boarden" is misspelled. The correct spelling is "broaden."
+Use "on" to indicate the effect of self-control on writing.
+"Tired" should be followed by a preposition and a specific body part to indicate the location of the feeling.
+Use "do" before a verb to form a complete sentence.
+Use "write" instead of "writting" to indicate the action of writing.
+Use "in" to indicate a specific interest or involvement in something.
+The past tense of "quit" is "quit," not "quitted."
+The past tense of the verb "quit" is "quit," not "quitted."
+"Quitted" should be replaced with "quit" to indicate the past tense.
+Use "everywhere" to indicate a general location.
+The correct spelling of "excuse" should be used.
+"Raised" should be followed by a subject and a verb, not just a pronoun.
+Use "once again" to indicate repetition or reconsideration
+Use "once again" to indicate repetition or reconsideration.
+"Who" should be followed by a subject and a verb, not just a pronoun.
+The original sentence contains a spelling error with "recomends." The correct spelling is "recommends."
+Use "learning" should be followed by a subject and a verb, not just a pronoun.
+"Enjoy" should be followed by a noun or pronoun, not just a pronoun.
+Use "on" to indicate the platform or website where the friends are being made.
+Use a comma after an interjection such as "After" when expressing strong emotion.
+Spelling error: "buzy" is misspelled. The correct spelling is "busy."
+Spelling error: "Buzy" is misspelled. The correct spelling is "busy."
+Use "supposed to be repaired" instead of "supposed to get repaired" to indicate the passive voice.
+Use "every day" to indicate the time period.
+"Familiar" should be followed by a noun or pronoun, not just a pronoun.
+The original sentence contains a grammar error in the use of "20st century boy" instead of "20th century boy" to indicate the correct ordinal number.
+The contraction "ta" should be "to" to indicate the action of getting the intercom.
+Use a comma after an introductory phrase such as "Please."
+The word "you know" is not necessary in this context and can be omitted for clarity.
+The correct spelling of "months" should be used.
+The original sentence contains a grammar error in the use of "2years" instead of "2 years" to follow the correct format for expressing a duration of time.
+Proper nouns such as "Roman" and "Caius Marius" should be capitalized.
+"Wearing" should be followed by a subject and a verb, not just a pronoun.
+"Anymore" should be followed by a subject and a verb, not just a pronoun.
+Use "real" to indicate the high degree of something.
+Use a comma after "today" to indicate the time period.
+Use "got" instead of "had" to indicate the onset of a headache.
+The use of "good effect" should be "a good effect" to indicate a singular noun.
+Use "has" instead of "have" to match the singular subject "It."
+The correct spelling of "Millennium Objectives" should be used.
+Use "made for" to indicate the purpose or benefit of an action.
+The past tense of "lead" is "led."
+"Very long" should be used to indicate a high degree of something.
+When using the phrase "electioneering," it should be followed by a subject and a verb to form a complete sentence.
+Use "particularly" after the subject to indicate a specific emphasis or focus.
+When referring to a duration of time, the preposition "up to" should be used instead of "until."
+The adjective "bother" should be followed by a noun or pronoun, not just a pronoun.
+The use of "okay" at the beginning of a sentence is unnecessary and can be removed for improved clarity.
+Spelling error: "bed" is misspelled. The correct spelling is "bad."
+The infinitive form "to see" should be used instead of "to see" to indicate the purpose of an action.
+The infinitive form "to see" should be used instead of "see" to indicate the base form of the verb.
+"Japanese" should be followed by a noun or pronoun, not just a pronoun.
+Use "ensure" instead of "ensure of" to indicate the action of making certain.
+The original sentence contains a grammar error in the use of "shft" instead of "shift."
+Use "at" to indicate the cause of a feeling or emotion.
+Use "maybe" instead of "maybe is" to indicate uncertainty.
+Use "at" before a specific location to indicate obstruction or blockage.
+The correct spelling of "UN" should be used.
+Use "English" without capitalization to indicate the specific language.
+Spelling error: "lake" is misspelled. The correct spelling is "like."
+Use "from" before a specific source to indicate the origin of information.
+Use "from" to indicate the origin or source of something.
+The verb "be" should be followed by a subject to form a complete sentence.
+Use "heard to" before the infinitive form of the verb to indicate the action being heard.
+The contraction "I'm" should be followed by a subject and a verb to form a complete sentence.
+The correct spelling of "learning" should be used.
+Unnecessary quotation marks should be removed from "School lunch" and "Education of dietary."
+Use a comma after an interjection such as "Hi" when addressing someone.
+Use a comma after introductory adverbs such as "Moreover."
+Use "offer me help" instead of "offer me some help" for improved clarity.
+Use "makes" to indicate the singular form of the verb.
+Spelling error: "Fighnaly" is misspelled. The correct spelling is "Finally."
+The original sentence contains a spelling error in the use of "Fighnaly" instead of "Finally."
+Use "something like" to indicate a non-specific phobia.
+Use "leisurely" to indicate the manner in which something is done.
+"Loves" should be followed by a subject and a verb, not just a pronoun.
+When referring to writing with an item, the preposition "with" should be used.
+The original sentence contains a spelling error in the use of "ptotect" instead of "protect."
+Spelling error: "ptotect" is misspelled. The correct spelling is "protect."
+Use "as" before the location of a place within a larger area.
+Use "also" to indicate a similar action or quality in addition to what has already been mentioned.
+Use "something like" to indicate a general similarity, and use "a" before a singular countable noun.
+The original sentence contains a grammar error in the use of "singing songs" instead of "singing."
+"Sort of" should be followed by an adjective, not used as a standalone phrase.
+Use "rather" to indicate a preference between two options.
+The original sentence contains a grammar error in the use of "Japanese comedy couple" instead of "Japanese comedy duo."
+Use "so" to compare nouns or pronouns, while "because" should be used to indicate a reason.
+Spelling error: "plausiable" is misspelled. The correct spelling is "plausible."
+"times" is an uncountable noun and does not need to be pluralized.
+The correct spelling of "Lang-8" should be used.
+Use "to tell the truth" to indicate honesty or frankness.
+Preposition rule: When indicating a diagnosis, use "as" after "diagnosed" to indicate the condition.
+Proper nouns such as "Mt." should be followed by a specific mountain name.
+Use "with" after "tired" to indicate the reason for feeling tired.
+A comma should not be used after "recently" as it is unnecessary and can be removed for improved clarity.
+Use "so much" to indicate a non-countable amount or existence of something.
+Use "so much" before a non-countable noun to indicate a large amount.
+"Many" should be followed by a plural noun.
+"Many of" should be followed by a plural noun.
+Use "many" before a plural countable noun.
+Parentheses should not be used as standalone sentences.
+Parentheses should not be used to indicate a standalone sentence.
+The word "start" should be followed by a noun or pronoun, not just a pronoun.
+The original sentence contains a grammar error in the use of "writting" instead of "write."
+"Tumultuous" and "arduous" should be followed by a noun or pronoun, not just a pronoun.
+Spelling error: "phisically" is misspelled. The correct spelling is "physically."
+Use "focus" to indicate the main point of attention.
+The original sentence contains a grammar error in the use of "understand" instead of "understands" to agree with the subject "nobody."
+The original sentence contains a grammar error in the use of "sucks" instead of "likes" or "approves of" to indicate approval or admiration for Wang's new hairstyle.
+The original sentence contains a spelling error in the use of "all most" instead of "almost."
+The original sentence contains a grammar error in the use of "all most" instead of "almost."
+Rule: Possessive nouns are formed by adding 's to the end of a singular noun or the end of a plural noun that does not end in s.
+Possessive nouns are formed by adding 's to the end of a singular noun or the end of a plural noun that does not end in s.
+Use "seemed" to match the past tense of "was"
+The original sentence contains a grammar error in the use of "hand out" instead of "handed out" to indicate past tense.
+Use the past tense verb "pulled" to indicate the action being described.
+The past tense verb "pulled" to indicate the action being described.
+"Weak" should not be used as a standalone adjective without a noun to modify.
+The rule is to use "may be" instead of "maybe" when expressing possibility or uncertainty.
+Use "may be" instead of "maybe" when expressing possibility or uncertainty.
+Use a comma instead of slashes to separate the date in a written format.
+The spelling error "groupe" should be corrected to "group."
+Spelling error: "releaved" is misspelled. The correct spelling is "relieved."
+Spelling error: "untill" is misspelled. The correct spelling is "until."
+The original sentence contains a grammar error in the use of "Japanese economic make worse" instead of "make the Japanese economy worse."
+"So impressive" should not be used as a standalone adjective without a noun to modify.
+"Relaxed" should not be used as a standalone adjective without a noun to modify.
+"Crazy" should not be used as a standalone adjective without a noun to modify.
+Do not use a comma after an introductory adverb such as "sadly."
+Use "should" instead of "should to" to indicate the action of necessity or obligation.
+Use "should" to indicate an obligation or necessity.
+Use "prohibit" instead of "prohibit to" to indicate a restriction.
+Use "has" to indicate the singular form of the verb.
+The word "of" before the base form of the verb is not necessary in this context and can be omitted for clarity.
+The original sentence contains a grammar error in the use of "ate" instead of "eat" to indicate past tense.
+Spelling error: "weather" is misspelled. The correct spelling is "whether."
+Spelling error: "adoministration" is misspelled. The correct spelling is "administration."
+Use "from what I hear" to introduce a reason, and "for" to indicate the purpose or benefit of an action.
+The original sentence contains a grammar error in the use of "is always" without specifying what Backpacker is always doing.
+Spelling error: "frineds" is misspelled. The correct spelling is "friends."
+"By myself" should be replaced with "for myself" to indicate independent thinking.
+"Time" should be capitalized as a proper noun.
+Use "month" without a preposition "of" to indicate the current day.
+The original sentence contains a grammar error in the use of "I words" instead of "I work" to indicate the action of working in an e-commerce company.
+Use "sank" instead of "sink" to indicate the past tense of the verb.
+When using the phrase "remote control tool," it should be followed by a subject and a verb to form a complete sentence.
+Use "to" instead of "in" to indicate the location of an activity when referring to public transportation.
+Use "to" to indicate the location of an activity when referring to public transportation.
+The preposition "to" should be "on" to indicate the effect of self-control on eating.
+Use proper capitalization for brand names such as "Gen-Mai."
+Use "with" to indicate the company of someone.
+"At" should be followed by a subject and a verb, not just a pronoun.
+Use a period instead of a comma to separate the number and the word "No" in "Photo No. 1."
+Use "sang" instead of "sung" as the past tense of "sing."
+"Sung" should be "sang" to indicate the past tense of the verb.
+The past tense of "sing" is "sang," not "sung."
+Use the past participle form of the verb "break" to indicate that the plan was in a broken down state.
+The adjective "another" should be followed by a singular countable noun, not a plural noun.
+A specific topic or subject should be included after the verb "enjoyed" to form a complete sentence.
+Use "steps" instead of "step" to indicate incremental progress or improvement.
+The original sentence contains a grammar error in the use of "made it" without specifying what was made important.
+"Stunned" should not be used as a standalone adjective without a noun to modify.
+The original sentence contains a grammar error in the use of "touch" instead of "touching" after "and."
+"Strange" should be followed by a noun or pronoun, not just a pronoun.
+"An enough rest" should be "enough rest" for improved clarity.
+Spelling error: "naighbors" is misspelled. The correct spelling is "neighbors."
+Use a comma after an interjection such as "Hello" is unnecessary and can be removed for improved clarity.
+Use "for" to indicate possession or association.
+Use a hyphen instead of a space to connect compound words such as "Taiwanese-style."
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Homework" is an uncountable noun and does not need to be pluralized.
+Use a comma before a non-essential clause to indicate that it is not necessary for the meaning of the sentence.
+Use "to" to indicate the action of wanting to do something.
+Infinitive form rule: The infinitive form "to write" should be used instead of "writting" to indicate the base form of the verb.
+Spelling error: "fries" is misspelled. The correct spelling is "flies."
+Use "today's" to indicate possession.
+Use "is starting" to indicate the beginning of an action.
+The original sentence contains a grammar error in the use of "introduce about" instead of "introduce in."
+There is no specific grammar rule or prior knowledge used in this inference.
+There are no specific grammar rules or prior knowledge used in this inference.
+There is no specific grammar rules or prior knowledge used in this inference.
+Use "the" before a specific noun, such as "job," to indicate a specific instance of the noun.
+Spelling error: "fingures" is misspelled. The correct spelling is "fingers."
+The correct spelling of "lit" should be "little."
+Spelling error: "lit" is misspelled. The correct spelling is "little."
+A definite article should be used before a singular noun to indicate a specific instance.
+Use "middle-aged" to describe a man in the middle age.
+The adjective "worry" should be followed by a noun or pronoun, not just a pronoun.
+Use "brought about" to introduce a restrictive relative clause.
+The past tense of the verb "eat" is "ate"
+The correct form is "relieved" not "releaved" to indicate a sense of comfort or alleviation.
+Use "much" before a non-countable noun to indicate a large amount.
+Use "somewhere" to indicate a location.
+"According to" should be followed by a subject and a verb, not just a pronoun.
+The use of a comma after "Then" is unnecessary and can be removed for improved clarity.
+Use "morning" without a preposition "of" to indicate the current day.
+The word "kinda" should be followed by an adjective or adverb to modify.
+The correct form is "may be" instead of "may it is" to indicate a possibility.
+Use "may be" instead of "may it is" to indicate a possibility.
+The original sentence contains a grammar error in the use of "didn't write" instead of "haven't written" and "find" instead of "found" to indicate past tense.
+Spelling error: "sensitivity" is misspelled. The correct spelling is "sensitively."
+Use "should" instead of "sould" to indicate the correct form of the verb.
+"Very sensitive" should not be used as a standalone adjective without a noun to modify.
+Proper nouns such as "Seiko Matsuda" should be capitalized.
+The correct form is "long fringe or back hair" instead of "long on a fringe or backhair."
+The correct form is "woke" instead of "waked" to indicate past tense.
+The correct form is "woke" instead of "woken" to indicate past tense.
+Use "woke" instead of "waked" to indicate the past tense of waking up.
+Spelling error: "English" is misspelled. The correct spelling is "English."
+Spelling error: "english" is misspelled. The correct spelling is "English."
+Use "in" before a specific language to indicate the language in which something is communicated.
+Use "shake off" to indicate the action of dispelling sleepiness.
+The use of a comma after "In the case of the year end" is unnecessary and can be removed for improved clarity.
+"It said" should be followed by a subject and a verb, not just a pronoun.
+Spelling error: "fisrt" is misspelled. The correct spelling is "first."
+Use a hyphen instead of a space to connect compound words such as "Self-Introduction."
+Use a hyphen instead of a space to connect compound words such as "self-introduction."
+Use a hyphen instead of a space to connect compound words such as "self introduction."
+Spelling error: "faouvorite" is misspelled. The correct spelling is "favorite."
+Use a hyphen instead of a space to connect compound words such as "Gen-Mai."
+"Special" is misspelled. The correct spelling is "special."
+The correct spelling is "special."
+Use "considered to be" to indicate a subjective evaluation or opinion.
+Use "hung" instead of "hanged" when referring to spending time with someone.
+The original sentence contains a grammar error in the use of "boarden" instead of "broaden."
+The correct spelling of "went" should be used.
+The correct form is "harmful" to indicate a negative impact.
+The original sentence contains a grammar error in the use of "especailly" instead of "especially" to indicate a specific quality.
+Spelling error: "surpise" is misspelled. The correct spelling is "surprise."
+Spelling error: "mergherita" is misspelled. The correct spelling is "margherita."
+Spelling error: "mergherita" is misspelled. The correct spelling of "Margherita" should be used.
+"Mergherita" is misspelled. The correct spelling is "margherita."
+Use "of" to indicate the content or subject matter.
+Use "of" to indicate the content of something.
+Use "from" to indicate the location of an activity when referring to a specific place.
+"From" should be used to indicate the location of an activity when referring to a specific place.
+"Many of them" should be followed by a verb to form a complete sentence.
+Spelling error: "thinngs" is misspelled. The correct spelling is "things."
+"Thinngs" is misspelled. The correct spelling is "things."
+The contraction "kinda" should be used instead of "kinda" to indicate "kind of."
+"Coincidence" should not be used as a standalone noun.
+"Wish" should be followed by a subject and a verb, not just a pronoun.
+Use "stimulates" instead of "stimurate" to indicate the action of stimulating the brain.
+Use "at" before a specific event or location to indicate the place where something occurred.
+The verb "crawling" is typically followed by the preposition "in" to indicate the action of moving on hands and knees.
+The original sentence contains a grammar error in the use of "Extra game was drow too" without specifying the specific event and its outcome.
+Use "the" before a specific noun to indicate a specific instance.
+Spelling error: "simiple" is misspelled. The correct spelling is "simple."
+Preposition rule: When indicating a location, the preposition "to" is used to show where something is located.
+Spelling error: "nuclear" is misspelled.
+The phrase "no chance opportunity" is redundant and should be revised for clarity.
+Use of tilde and extra periods is unnecessary and should be omitted for clarity.
+"Diagnosed" should be followed by a subject and a verb, not just a pronoun.
+The use of a comma after "here" is unnecessary and can be removed for improved clarity.
+Proper nouns such as "Dutch" should be capitalized.
+The contraction "gotta" should be used instead of "got ta" to indicate "got to."
+Use "ask" to indicate a question being posed.
+Use "even if not" to indicate a hypothetical comparison.
+Use "again" instead of "more" to indicate repetition.
+The contraction "I 'd" should be followed by the base form of the verb "to be" to indicate the present perfect tense.
+Use "can't" to indicate the absence of a requirement.
+Use "cannot" instead of "can not" to indicate the absence of a requirement.
+"Can't" should be used to indicate the absence of a requirement.
+Spelling error: "massage" is misspelled. The correct spelling is "massage."
+Contractions in English use an apostrophe to replace missing letters. Exclamation marks should not be used without accompanying words.
+The rule of using adjectives to modify nouns
+Rule: The rule of using adjectives to modify nouns
+The rule for using adjectives to modify nouns
+Use "reading" instead of "to reading" to indicate the action of starting to read.
+"All day" should be used as an adverbial phrase to indicate the duration of an action.
+A comma should not be used after "time" as it is unnecessary and can be removed for improved clarity.
+Spelling error: "environmentalist" is misspelled.
+Use "like" to indicate a feeling of admiration or respect for something.
+The contraction "hadn't" should be "didn't have" to indicate the past tense.
+The infinitive form of the verb "repot" should be used instead of "do repotting."
+Spelling error: "source" is misspelled. The correct spelling is "sauce."
+Use "sing" instead of "song" to form a complete sentence.
+Use "with" before the location of an activity.
+Use "with" to indicate the location of an activity when referring to a specific place.
+"To say the truth" should be "To tell the truth" to indicate honesty.
+Use "As a result" to indicate a conclusion or contrast, and should not be joined by a comma splice.
+"Why" should be followed by a subject and a verb, not just a pronoun.
+"Cried" should be followed by a subject and a verb, not just a pronoun.
+Use "along" to indicate the location of an activity.
+Use "scary" should be followed by a noun or pronoun, not just a pronoun.
+"Scary" should be followed by a subject and a verb, not just a pronoun.
+The rule is that "surround" should be used as the verb to indicate the action of encircling or being all around something.
+The word "up" is not necessary in this context and can be omitted for clarity.
+Use "set by" to indicate the establishment of a dominant tendency.
+Use a space between "busy" and the question mark to form a complete sentence.
+Use "took long time" instead of "took a long time" to indicate a specific duration.
+The word "pithier" is misspelled. The correct spelling is "pitcher."
+When indicating membership in a political party, the preposition "of" is used to show affiliation.
+Use "Japanese" to indicate a specific skill or skills related to Japan.
+Spelling error: "source" is misspelled.
+Use "on" before a specific website or platform to indicate the location of an activity.
+Spelling error: "sticktly" is misspelled. The correct spelling is "strictly."
+The word "sticktly" is misspelled. The correct spelling is "strictly."
+"Swearings" should be replaced with "swearing" to indicate an ongoing action.
+Use "something" to indicate a specific emphasis or focus
+"See you" should be capitalized as the first word of a sentence.
+The use of "move to change" is redundant and can be simplified to "change."
+The rule is to use "their own" to indicate possession or ownership.
+Use "their own" to indicate possession or ownership.
+The original sentence contains a grammar error in the use of "I = out" instead of "I was blanked out."
+The original sentence contains a grammar error in the use of "respond like that" without specifying the context or situation.
+The contraction "there's" should be used instead of "there 's" to indicate "there is."
+"Warm" should not be used as a standalone adjective without a noun to modify.
+"Chance opportunity" is redundant and should be revised to "opportunity."
+The correct spelling of "kindergarten" should be used.
+Use "watch" to indicate a broader understanding of the world.
+"Didn't" should be used instead of "hadn't" to indicate "did not."
+Use "why" to indicate a specific time at which an action started.
+When using the phrase "moved to tears," it should be followed by a subject and a verb to form a complete sentence.
+"Practice" should be followed by a specific noun to form a complete sentence.
+Use "like" to indicate similarity, not presence.
+"Okay" should not be used as a standalone adjective without a noun to modify.
+Use "of" to indicate possession or association.
+Use "of" to indicate the possession of something.
+Use "introduce" without "about" to indicate the action of presenting someone or something.
+Use "introduce" without "about" when introducing someone or something.
+Use "introduce" without "about" to indicate the introduction of something or someone.
+Use "introduce" without "about" to indicate the action of presenting or making someone known.
+"Like" should not be used before "happiness" in this context.
+"No" should be used before a singular countable noun.
+The correct spelling of "happiness" should be used.
+Use "abroad" to indicate being in a foreign country.
+Use "was" instead of "is" to indicate past tense.
+"Over" should be used to indicate a duration of time.
+Use "the" before a specific noun, such as "month," to indicate a specific instance of the noun.
+The infinitive form "to attend" should be used instead of "to commute" to indicate the action of going to the class.
+Spelling error: "laerning" is misspelled. The correct spelling is "learning."
+Spelling error: "favorit" is misspelled. The correct spelling is "favorite."
+Use "looked up" to indicate searching for something in a reference source.
+The correct form is "part-time" without a space between the two words.
+The original sentence contains a grammar error in the use of "at using a time" instead of "at using time" to indicate the correct preposition.
+Use "as" to indicate a general topic or subject, and use "of" to indicate the specific content or subject matter.
+Spelling error: "otehr" is misspelled. The correct spelling is "other."
+"Lived" should not be used as a standalone verb without the preposition "in" to indicate the location.
+Use a comma after an interjection such as "come on" when expressing strong emotion.
+The verb "basking" is typically followed by the preposition "in" to indicate the action of enjoying the sun.
+Spelling error: "midleage" is misspelled. The correct spelling is "middle-aged."
+"Midleage" is misspelled. The correct spelling is "middle-aged."
+"Custom" should be followed by a plural noun.
+"Accepting" should be replaced with "accept" to indicate the action being described.
+Use "the" before a specific noun, such as "dead," to indicate a specific instance of the noun.
+Use of quotation marks to indicate direct speech.
+Use single quotation marks to indicate direct speech or to highlight specific terms or phrases.
+Use of quotation marks to indicate direct speech or to highlight specific terms or phrases.
+Use quotation marks to indicate direct speech or to highlight specific terms or phrases.
+Quotation marks should be used to indicate direct speech or a quote.
+Use quotation marks to indicate direct speech.
+Use of quotation marks should be for emphasis or direct speech.
+Use single quotation marks to indicate the use of specific words or phrases.
+The original sentence contains a grammar error in the use of "becauce" instead of "because."
+Use "down" after the base form of the verb to indicate the purpose of an action.
+The rule for using contractions in negative sentences is to combine "did" and "not" to form "didn't".
+"Fovorite" is misspelled. The correct spelling is "favorite."
+The infinitive form of the verb "break" should be followed by "to" + base form of the verb.
+Infinitive form of the verb "break" should be followed by "to" + base form of the verb.
+The infinitive form rule: The infinitive form "to cook" should be used instead of "cooking" to indicate the base form of the verb.
+Use "rise again" to indicate the action of stocks increasing.
+"Level skills" should be "skill level" to indicate the level of proficiency.
+Use "either" to indicate a choice between two options.
+Use "either" with "or" to indicate a choice between two options.
+"Just only" is redundant and unnecessary.
+"Very heavy" should be used to indicate a high degree of something.
+Use "a" before words that refer to a non-specific item or instance.
+"Warm" should be followed by a noun or pronoun, not just a pronoun.
+Use "that" instead of "what" to introduce a defining clause.
+Use "awoken" instead of "woken up" to indicate the passive form of "awake."
+The correct spelling of "access" and "synapse" should be used.
+Use "lie down" to indicate the action of reclining on the sofa.
+Spelling error: "20st century boy" is misspelled. The correct spelling is "20th century boy."
+Use "of" to indicate possession or relationship between two objects.
+The infinitive form "to study" should be used instead of "study" to indicate the base form of the verb.
+Use the infinitive form "to study" should be followed by a subject and a verb, not just a pronoun.
+Infinitive form rule: The infinitive form "to study" should be used instead of "study" to indicate the base form of the verb.
+"To study" should be followed by a subject and a verb, not just a pronoun.
+Use "were" instead of "was" to agree with the plural noun "missing beats."
+Proper nouns such as the name of a specific event, such as "earthquake," should be capitalized.
+"All day" should be followed by a subject and a verb, not just a pronoun.
+The original sentence contains a grammar error in the use of "why" instead of "why they were not here."
+Use "at" after the verb "forget" to indicate the location of an activity
+Use a period at the end of a question.
+Use "outside" to indicate a specific location.
+"Outside" should be used to indicate a specific location.
+The original sentence contains a grammar error in the use of "was never happened" instead of "never happened."
+Use "have" instead of "have got" to indicate possession.
+Use "cut" and "coarsely" in parallel structure to maintain consistency.
+When using the phrase "all day," it should be followed by a subject and a verb to form a complete sentence.
+Use "all day" should be followed by a subject and a verb to form a complete sentence.
+Use "written" instead of "wrote" to indicate the past participle form of the verb.
+The original sentence contains a grammar error in the use of "have ate" instead of "have eaten."
+The use of "elder" should be followed by a noun or pronoun, not just a pronoun.
+Use "their" to indicate possession of plural nouns.
+Proper nouns such as specific rivers should be capitalized.
+Use "until" to indicate the time relationship between two events.
+Use a comma after an interjection such as "By the way" when expressing strong emotion.
+"Making" should be followed by a plural noun "souvenirs" to indicate the action of creating a strategy or course of action.
+Spelling error: "Gardenig" is misspelled. The correct spelling is "Gardening."
+Spelling error: "gardenig" is misspelled. The correct spelling is "gardening."
+The original sentence contains a grammar error in the use of "currently" instead of "current" to indicate the present job.
+There is a contraction "It's" which is a combination of "it" and "is".
+The contraction "It's" is a combination of "it" and "is".
+"chinese" is misspelled. The correct spelling is "Chinese."
+Use "on" before a specific language to indicate proficiency or qualifications in that language.
+Use "on" instead of "in" to indicate the location of an activity when referring to public transportation.
+Use "on" to indicate the location of an activity when referring to public transportation.
+Rule: Use "on" to indicate the location of an activity when referring to public transportation.
+"On" should be used to indicate the location of an activity when referring to public transportation.
+Rule: Use "on" instead of "in" to indicate the location of an activity when referring to public transportation.
+Use "on" instead of "with" to indicate the location of an activity when referring to public transportation.
+Use "on" instead of "in" to indicate the location of an activity when referring to a specific mode of transportation.
+Use "in" instead of "of" to indicate the location of an activity when referring to a specific mode of transportation.
+The use of "us" as the object pronoun is necessary in this context.
+Use proper spelling and punctuation for the word "pitcher."
+Use "dreamt" instead of "dreamed" to indicate an action that occurred in the past.
+"Till" should be replaced with "until" to indicate the specific time frame.
+"Stertor" should not be used as a standalone noun.
+Use a comma after an introductory adverb such as "apparently."
+Use "have to" followed by the base form of the verb to indicate the necessity of an action.
+Use "the" before a specific day to indicate a specific instance.
+"Whole" should not be used as a standalone adjective without a noun to modify.
+Spelling error: "sleepness" is misspelled. The correct spelling is "sleepiness."
+Spelling error: "bites" is misspelled. The correct spelling is "bit."
+Spelling error: "bite" is misspelled. The correct spelling is "bit."
+Rule: "Custom" should be pluralized when referring to multiple customs.
+"Custom" should be pluralized when referring to multiple customs.
+The use of a comma after an interjection such as "Well" is unnecessary and can be removed for improved clarity.
+Use "twice" to indicate a numerical value.
+"Inner" should not be used as a standalone adjective without a noun to modify.
+Use "my" before "furniture" to specify possession.
+The action of dancing should be followed by a specific noun to indicate the activity.
+"Convenience store too" should be followed by a subject and a verb, not just a pronoun.
+The verb "base" should be followed by a subject and a verb to form a complete sentence.
+Exclamatory sentences do not always require a subject or verb, as the emotion or feeling is the main focus.
+Exclamatory sentences do not always require a subject and a verb, as they are used to express strong emotion or feeling.
+Use "lied" instead of "lie" to indicate the past tense.
+The contraction "won ' 't" should be "won't" to indicate future tense.
+The contraction "won't" should be used instead of "won ' 't" to indicate "will not."
+Use "without using a code" to indicate the absence of a code.
+Use "repay" instead of "reply" when indicating the act of giving back something, especially money.
+Use "repay" to indicate the action of giving back or returning something.
+The contraction "I have" should be used instead of "I have got" to indicate possession.
+Proper nouns such as "Wii" should be capitalized.
+Use "neither" with "nor" to indicate a negative correlation between two items.
+Spelling error: "swearings" is misspelled. The correct spelling is "swearing."
+Use "with" after "impressed" to indicate the reason for the impression.
+Use "not at all" to indicate a high degree of something.
+Use contractions for informal speech
+The contraction "isn ` t" should be used instead of "isn't" to indicate "is not."
+The contraction "isn't" should be used instead of "is n't" to indicate "is not."
+"Before" should be followed by a subject and a verb, not just a pronoun.
+Use "continuing" to indicate the ongoing action of learning English.
+Use "coming" instead of "come" to indicate the correct verb tense.
+The correct spelling of "beginner" and "English" should be used.
+Use "can" instead of "able to" to indicate ability.
+"Coursework base" should be "course-based" to indicate the type of curriculum.
+Use "go smoothly" to indicate the action of proceeding smoothly.
+Use "is" to indicate a specific number of items or events.
+"Want" should be followed by a subject and a verb, not just a pronoun.
+"Drinking" should be followed by a subject and a verb, not just a pronoun.
+The original sentence contains a grammar error in the use of "lesson" instead of "lessons" to indicate the plural form.
+The infinitive form of the verb "commute" should be followed by "to" + base form of the verb.
+The original sentence contains a grammar error in the use of "is" instead of "means" and the incorrect format of the time.
+The contraction "they're" should be used instead of "they 're" to indicate "they are."
+Rule: "It's" is a contraction for "it is" or "it has," while "its" is a possessive form of "it."
+"It's" is a contraction for "it is" or "it has," while "its" is a possessive form of "it."
+Use "before" instead of "befor" to indicate the time sequence.
+Preposition rule: When indicating a location, the preposition "on" is used to show where something is located.
+Use a comma after an interjection such as "Anyway" when expressing strong emotion.
+The correct form is "email" without a space between the two words.
+Use "once" instead of "one time" to indicate frequency.
+Use "until" before the time period (e.g. day, night, etc.)
+Use "became" instead of "got" to indicate a change in state.
+Use "fight" instead of "fright" to indicate engaging in battle or conflict.
+The word "In fact" is not necessary in this context and can be omitted for clarity.
+"Very frequently" should not be used as a standalone adjective without a noun to modify.
+When indicating participation in a play or performance, the preposition "in" is used to show where the person is involved.
+Verb usage: When indicating participation in a play or performance, the preposition "in" is used to show where the person is involved.
+Use "a" before "slot machine" to indicate a singular noun.
+Spelling error: "currently" is misspelled. The correct spelling is "current."
+Use "the" before proper nouns such as organization names.
+Use "other" instead of "another" when referring to people.
+Use "bought" to indicate the purchase of something.
+The infinitive form of the verb "start" should be followed by "to" + base form of the verb.
+Use "anywhere" to indicate a general location or direction.
+Spelling error: "becuase" is misspelled. The correct spelling is "because."
+Rule: Use "themselves" instead of "theirselves" to indicate the reflexive form of "they."
+Spelling error: "words" is misspelled. The correct spelling is "work."
+Use "have had" to indicate the action that started in the past and continues into the present.
+Use "of" to indicate the location of taking something.
+The past tense of "crawl" is "crawled," not "crowling."
+The original sentence contains a grammar error in the use of "fag" instead of "work" or "work hard."
+The original sentence contains a grammar error in the use of "fag" instead of "work hard" to indicate working overtime.
+Use "also" to indicate joining in addition to enjoying.
+Spelling error: "According" is misspelled.
+Use "enjoyable" instead of "enjoying" to describe the activity.
+The infinitive form "to manage" should be followed by a noun or pronoun to indicate the action being taken.
+The original sentence contains a grammar error in the use of "took in" to indicate an understanding or appreciation of a subject.
+Use a comma after an interjection such as "Hysterically" when expressing apology or regret.
+"Ask" should not be used as a standalone verb.
+Use the past tense of the verb "want" to indicate the action in the past.
+Use "with" to indicate a feeling of admiration or respect for something.
+The verb "sing" should be in the gerund form "singing" to indicate an ongoing action.
+Use "to" before the location of an activity.
+Use "to" to indicate the location of an activity.
+Use "to" to indicate the location of an activity when referring to a specific place.
+"Favorite" should be followed by a noun to modify.
+Use "suffering" instead of "were suffered" to indicate the ongoing nature of the action.
+The past tense of "wear" is "wore," not "worn."
+Use "wore" instead of "worn" to indicate the past tense of wearing something.
+"Japaneseonly" should be followed by a noun or pronoun, not just a pronoun.
+Use "from" to indicate the separation between two things or people.
+The use of a comma after "After that" is unnecessary and can be removed for improved clarity.
+The rule is that "postgraduate" should be used to indicate a course or degree beyond the undergraduate level.
+Spelling error: "moring" is misspelled. The correct spelling is "morning."
+Use a colon instead of slashes to separate the title and date.
+Use "the" before a specific noun, such as "election campaign," to indicate a specific instance of the noun.
+The original sentence contains a grammar error in the use of "stuff" instead of "staff."
+"Listening to music" should be followed by a specific noun or pronoun to indicate what is being modified.
+Use "furniture" as a non-countable noun.
+When using the verb "touch," specify what is being used to touch the object.
+Use proper spelling and punctuation for the word "host family."
+"Freewheeling" should not be used as a standalone adjective without a noun to modify.
+The original sentence contains a grammar error in the use of "is a cool" instead of "is an interesting" to indicate a positive opinion.
+The original sentence contains a grammar error in the use of "dug" instead of "dig" to indicate past tense.
+The original sentence contains a grammar error in the verb usage. The correct form is "listened" instead of "listen" and "looks" instead of "looks like."
+Use "new" with "hairstyle" to indicate a new style of hair.
+Use "no" before a plural noun to indicate the absence of something.
+The contraction for "do not" is "don't"
+Use "don't" as the contraction for "do not."
+The contraction "don't" should be used instead of "don" to indicate "do not."
+The contraction for "do not" to "don't"
+The contraction "Don't" should be used instead of "Dont" to indicate "do not."
+Rule: Use "don't" as the contraction for "do not."
+This is a simple contraction of "do not" to "don't."
+"Very simple" should be followed by a noun or pronoun, not just a pronoun.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Furniture" is an uncountable noun and does not need to be pluralized.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Furniture" is already plural and does not need to be followed by "s."
+Use "pray" instead of "prey" to indicate a request for someone's thoughts or well-being.
+Use "pray" instead of "prey" to indicate a request for prayer.
+"Stuffs" is an uncountable noun and does not need to be pluralized.
+Plural noun rule: "Stuffs" is an uncountable noun and does not need to be pluralized.
+The correct spelling of "grammar" should be used.
+Present tense verb "is" is used to express a current opinion or belief.
+Use "still" to indicate a high degree of something.
+The original sentence contains a grammar error in the use of "pithier" instead of "pitcher" and "so that" instead of "and."
+Spelling error: "Luckyily" is misspelled. The correct spelling is "Luckily."
+"Just because" should be followed by a subject and a verb, not just a pronoun.
+Use "in" instead of "for" to indicate the remaining time within a specific period.
+The use of a comma after "By the way" is unnecessary and can be removed for improved clarity.
+A comma should not be used after "By the way" as it is unnecessary and can be removed for improved clarity.
+Use "heard to" to indicate the action that was heard.
+"There remains" should be followed by a subject and a verb, not just a pronoun.
+Spelling error: "exercise" is misspelled.
+The use of "a lot of" should be replaced with "a lot about" to indicate the topic of conversation.
+Use "a lot of" should be replaced with "a lot about" to indicate the topic of conversation.
+"Great big" should be followed by a specific noun to modify.
+Use "tomorrow" without the preposition "of" to indicate the following day.
+"Stentor" should be followed by a noun or pronoun, not just a pronoun.
+Use a hyphen instead of a space to connect compound words such as "hard-days."
+Use "to" after "listened" to indicate the action being performed.
+Use "to" after "listen" to indicate the action of listening.
+"Korean" should be "Koreans" to indicate the plural form.
+Use "foreign country" instead of "foreign country" to indicate the specific location.
+Use "before" to indicate the time relationship between two events.
+"Too" should be followed by a specific reason or condition to indicate the extent of something.
+"Too" should be followed by a specific adjective to indicate the extent of something.
+"access" should be used instead of "accese."
+The infinitive form of the verb "correct" should be followed by "to" + base form of the verb.
+Use the infinitive form of the verb "correct" followed by "to" + base form of the verb.
+"Ask" should be followed by a subject and a verb, not just a pronoun.
+Use "busy with" should be followed by a subject and a verb, not just a pronoun.
+Spelling error: "souse" is misspelled. The correct spelling is "source."
+Spelling error: "european" is misspelled. The correct spelling is "European."
+Use "study" without a preposition to indicate the topic or subject of learning.
+The original sentence contains several grammar errors: misspelling, punctuation, and verb usage.
+The past tense of the verb "dream" is "dreamt"
+The preposition "with" is not the correct choice in this context.
+The word "always" is not necessary in this context and can be omitted for clarity.
+"synapse" should be used instead of "synaps."
+Use "after all" instead of "afterall" to indicate a contrast or conclusion.
+Use "pollutes" instead of "pollute" to match the subject "radiation."
+Use a comma after an interjection such as "Especially" when expressing strong emotion.
+Spelling error: "Okaxile" is misspelled. The correct spelling is "Oaxacile."
+The original sentence contains a grammar error in the use of "able to be heard" instead of "can be heard."
+The contraction " 're" should be used instead of " 're" to indicate "are."
+The contraction "are n't" should be "aren't" to indicate the present perfect tense.
+The use of a comma after an interjection such as "By the way" when expressing apology or regret.
+The original sentence contains a grammar error in the use of "a missing beat at intervals" instead of "missing beats at intervals."
+Use "new" with "clothes" to indicate a new style of clothing.
+The original sentence contains a spelling error. The correct spelling of "Gardening" should be used.
+"The" should be used before a specific noun, such as "Catcher," to indicate a specific instance of the noun.
+I establish a new rule that "Okaxile" should be used in a complete sentence to provide context and additional information.
+"Okaxile" should be used in a complete sentence to provide context and additional information.
+The contraction "wanna" should be used instead of "wanna" to indicate "want to."
+Spelling error: "befor" is misspelled. The correct spelling is "before."
+The infinitive form of the verb "finish" should be followed by "to" + base form of the verb.
+Use "to" to indicate the relationship between a person and their spouse.
+Use "about" to indicate the time period.
+Rule: Use of apostrophe in contractions
+Rule: Use apostrophe to indicate contraction
+Use of apostrophe in contractions
+Subject-verb agreement: Modal verbs like "could" are followed by the base form of the verb.
+"noun" should be used instead of "nulln."
+The use of a comma after "Unfortunately" is unnecessary and can be removed for improved clarity.
+Use "practicing" to indicate the ongoing action of working towards a goal.
+Use proper spelling and punctuation for the word "Tex-Mex."
+The correct spelling of "have" should be used.
+"Quite" should be "quit" to indicate stopping an action.
+The word "quite" should be replaced with "quit" to indicate stopping an action.
+Use "slightly" to indicate a small degree of something.
+Use "want to" to indicate "wanting to."
+The past participle form of "understand" is "understood," and the contraction for "did not" is "didn't."
+The original sentence contains a grammar error in the use of "source" instead of "sauce."
+Use "a long time ago" to indicate the time period.
+The contraction "He 's" should be "he is" to indicate the present tense.
+The contraction "He's" should be used instead of "He 's" to indicate "He is."
+Infinitive form of the verb "drink" should be followed by "to" + base form of the verb.
+Spelling error: "20st" is misspelled. The correct spelling is "20th."
+"Ending" should be followed by a specific noun to form a complete sentence.
+The original sentence contains a grammar error in the use of "I 'll" instead of "I'll"
+"Snorkel" should not be used as a standalone verb.
+"Plese" is misspelled. The correct spelling is "Please."
+Use "both" with the plural form "ways" to indicate two different options.
+The correct spelling is "stir-fry" not "stair-fry."
+There is a rule in English grammar that states when referring to wearing an item of clothing, the preposition "on" should be used.
+Spelling error: "regrateful" is misspelled. The correct spelling is "regretful."
+The contraction "friend 's" should be used instead of "friend 's" to indicate "friend's."
+Spelling error: "English" is misspelled. Spelling error: "bad" is misspelled.
+Spelling error: "wemt" is misspelled. The correct spelling is "went."
+The correct spelling of "alcohol" should be used.
+It is important to use "to a new job" to indicate the specific action being taken by the teacher.
+Use "ate" instead of "chewed" for consuming something that cannot be chewed
+Use "to" before a specific location to indicate direction or movement.
+The past tense of the verb "seek" is "sought," not "seeked."
+The past tense of "seek" is "sought."
+The past tense form of "seek" is "sought," not "seeked."
+The infinitive form of the verb "take" should be followed by "to" + base form of the verb.
+The infinitive form "to take" should be used instead of "to took" to indicate the base form of the verb.
+The word "that" is not necessary in this context and can be omitted for clarity.
+Use a colon to separate the hours and minutes in a time format.
+Use a colon instead of a period to separate the hours and minutes in the time.
+Spelling error: "wanderful" is misspelled. The correct spelling is "wonderful."
+Use of a comma after introductory adverbs such as "recently."
+Use "made me heart broken" should be "broke my heart" to indicate the emotional impact of the action.
+Use "why" to introduce a restrictive relative clause.
+"New" should not be used as a standalone adjective without a noun to modify.
+Use "new" should not be used as a standalone adjective without a noun to modify.
+Use "with" to indicate the creation of friendships or relationships.
+"Headache" should not be used as a standalone noun without a verb to indicate the subject's condition.
+Use "like" to compare nouns or pronouns, while "they're" should be used to indicate "they are."
+Use "play" to indicate participation in a sport or game.
+Spelling error: "shft" is misspelled. The correct spelling is "shift."
+Use "I am stressed" to indicate the current state of being stressed.
+Use "close to" to indicate the proximity of something.
+Use "but" to introduce a contrast or concession in a sentence.
+Use a hyphen instead of a space to connect compound words such as "off-line."
+Use "it looks like" with a subject to indicate the appearance of something.
+Rule: Use "evidence" as a non-countable noun, and use "pieces of evidence" to indicate multiple pieces.
+Rule: Use "pieces of" before "evidence" to indicate multiple pieces of evidence.
+Rule: Use "incorrectly" instead of "wrong words" to describe speaking a language with errors.
+Use "incorrectly" instead of "wrong words" to describe speaking a language with errors.
+Present tense verb "ask" is used to express a current opinion or belief.
+Use the past participle form of the verb "base" to indicate that the plan was in a broken down state.
+The original sentence contains a grammar error in the use of "Japaneseonly" instead of "Japanese-only" to indicate exclusivity.
+Use "than" to indicate a comparison between two groups or entities.
+The infinitive form of the verb "read" should be followed by "to" + base form of the verb.
+Infinitive form rule: The infinitive form "to read" should be used instead of "reading" to indicate the base form of the verb.
+Use the infinitive form "to read" should be used instead of "reading" to indicate the base form of the verb.
+The infinitive form "to read" should be used instead of "read" to indicate the base form of the verb.
+"Sings" should be followed by a subject and a verb, not just a pronoun.
+Use "listening" instead of "lithening" to indicate the action of hearing.
+Use "onto" after the verb "hooked" to indicate the action of becoming addicted or obsessed with something.
+Standalone adverbs should not be used without a subject or context.
+The original sentence contains a grammar error in the use of "which need" instead of "which needed" to indicate the past tense.
+Spelling error: "earth quake" is misspelled. The correct spelling is "earthquake."
+Use a comma after introductory adverbs such as "finally."
+"Simple" should be used before a singular noun to indicate a positive opinion.
+Use a hyphen instead of a space to connect compound words such as "Tex-Mex."
+Use "apparently" to indicate a subjective opinion or perception.
+Use "into" to indicate the direction of an action.
+"Lack" should be followed by "of" and a noun to indicate the absence of something.
+Use "is able to" to indicate the possibility of something happening.
+The use of "into level" should be replaced with "into levels" to indicate multiple levels.
+Use "just" or "only" to indicate exclusivity, not both together.
+"Listening" should be followed by a subject and a verb, not just a pronoun.
+Use "belongs to" to indicate membership in a group or organization.
+"Most" should be followed by an adjective or adverb to modify.
+The rule is that "the" should be used before a specific noun, such as "weather forecast."
+The rule is that "real" should be used to describe physical objects or experiences, while "true" should be used to indicate the truthfulness of a statement.
+The original sentence contains a grammar error in the use of "let 's" instead of "let's" to indicate "let us."
+Use the past tense verb "met" to indicate the action that has already occurred.
+"should n't" should be "shouldn't" to indicate "should not."
+The use of "in same level" should be replaced with "in the same level" to indicate a specific level.
+Spelling error: "favorite" is misspelled.
+The use of a comma after an introductory phrase.
+Use "is a member of" to indicate affiliation with a political party.
+The contraction "it'll" should be used instead of "it 'll" to indicate "it will."
+Use a hyphen instead of a space to connect compound words such as "high-priced."
+Spelling error: "ladies" should be possessive, so it should be "ladies'."
+Spelling error: "challange" is misspelled. The correct spelling is "challenge."
+"Also" should be used before a coordinating conjunction to connect two independent clauses.
+"Hard" should be used to indicate the difficulty of something, while "funny" should not be used as a standalone adjective without a noun to modify.
+Use "the" before a specific noun, such as "remainder," to indicate a specific instance of the noun.
+Use "long" with "break" to form a complete sentence.
+The correct spelling of "draw" should be used.
+Use "Korean" as a noun, not as an adjective, and use a verb to form a complete sentence.
+Use "being recovered" instead of "being recovering" to indicate the passive voice.
+Use "with" after "satisfied" to indicate what the satisfaction is related to.
+Use "with" after "satisfied" to indicate the reason for satisfaction.
+An exclamation mark should be used to indicate laughter or excitement.
+Use "back" after "came" to indicate the return to a previous location.
+"Hi" should not be used as a standalone pronoun without a verb to form a complete sentence.
+Use "met" instead of "meet" to indicate an action that occurred in the past.
+Use "of spending" instead of "of spend" to form the gerund after the phrase "sick of."
+past tense of "have" is "had"
+The past tense of "have" is "had."
+"Arriving" should be followed by a subject and a verb, not just a pronoun.
+Use proper spelling and punctuation for the word "travel."
+Plural nouns are used when referring to more than one of something.
+Use plural nouns to indicate more than one of something.
+The use of a comma after "Anyway" is unnecessary and can be removed for improved clarity.
+"Vessel" should not be used as a standalone noun.
+Use a hyphen instead of a space to connect compound words such as "Japanese-only."
+Use "look like" to compare nouns or pronouns, while "as" should be used to indicate a specific example or comparison.
+Use "on" before a specific amount of money to indicate the standard of living
+Use "on" before a specific amount of money to indicate the standard of living.
+When expressing a fraction, the numerator and denominator should be clearly indicated to form a complete and grammatically correct sentence.
+Use the superlative form "best" to compare different degrees of quality.
+Use "to" followed by the base form of the verb to indicate the action being prayed for.
+The correct form is "no lectures" to indicate the absence of classes.
+Use "no lectures" to indicate the absence of classes.
+There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, "simple" should come before "ideas" to follow this rule. However, the original sentence is still grammatically correct as it is.
+Spelling error: "puching" is misspelled. The correct spelling is "punching."
+"Puching" is misspelled. The correct spelling is "punching."
+Use "listened to" to indicate the action of listening to something specific.
+The possessive form of singular noun is formed by adding 's.
+The possessive form of a singular noun is formed by adding an apostrophe and an "s".
+Rule: Possessive form of singular noun is formed by adding 's
+"Pray" should be followed by a subject and a verb, not just a pronoun.
+Use "controlled by" to indicate the action of being controlled.
+The word "students" should be spelled as "students."
+"Private people" should be replaced with "private individuals" to refer to the sellers.
+The original sentence contains a grammar error in the use of "the usages" instead of "the use."
+Spelling error: "home work" is misspelled. The correct spelling is "homework."
+The original sentence contains a grammar error in the use of "Which is important I ' am" instead of "Which is more important, me or your work?"
+The original sentence contains a grammar error in the use of "Still she hasn't recovered from them?" instead of "Still, hasn't she recovered from them?"
+Use "of" to indicate a relationship between "Epidemy" and "Cool."
+The contraction for "got to" is "gotta" in informal English.
+Rule: Use a comma before a non-restrictive relative clause to separate it from the main clause.
+Use a comma before a non-restrictive relative clause to separate it from the main clause.
+"In" should be followed by a subject and a verb, not just a pronoun.
+"In" should be followed by a noun or pronoun, not just a pronoun.
+Use a comma after an interjection such as "Er" when expressing hesitation or uncertainty.
+The contraction "I've" is a combination of "I" and "have" to indicate the present perfect tense.
+The infinitive form of the verb "learn" should be followed by "to" + base form of the verb.
+The original sentence contains a grammar error in the use of "happen" without a subject and a verb.
+The original sentence contains a grammar error in the use of "did not and I communicate" instead of "did not communicate."
+Use a comma after an introductory adverb such as "anyway."
+Use "at" to indicate the time of day or night.
+Use "for" instead of "at" to indicate the purpose of an action.
+Use proper punctuation to avoid excessive use of symbols.
+"Which" should be followed by a subject and a verb, not just a pronoun.
+Use "which" should be followed by a subject and a verb, not just a pronoun.
+Rule: "A little" is used to modify adjectives, while "little" is used to modify nouns.
+"A little" is used to modify adjectives, while "little" is used to modify nouns.
+The use of "improve my poor English" is redundant and can be simplified to "improve my English."
+Use the past participle form of the verb "sow" to indicate the action of planting seeds.
+Use "between" to indicate a comparison between two things.
+Infinitive form of the verb "appreciate" should be followed by "to" + base form of the verb.
+Comparative adjectives do not need "more" before them.
+The correct form is "sick of spending" instead of "sick of spend"
+Use "for" instead of "to" to indicate the recipient of an action.
+Use "for" to indicate the recipient of the action.
+Use "for example" to introduce a specific example or examples.
+Spelling error: "shoud" is misspelled. The correct spelling is "should."
+Use "enjoyment" as a non-countable noun.
+Use a comma to separate items in a list.
+The word "regrateful" is misspelled. The correct spelling is "grateful."
+Spelling error: "pretextes" is misspelled. The correct spelling is "pretexts."
+Spelling error: "pretextes" is misspelled. The correct spelling is "pretext."
+"Imagine only" should be followed by a gerund to indicate the action being imagined.
+Use "to" before a singular noun to specify which one is being referred to.
+Use "spending" instead of "having" to refer to long holidays
+Use "spending" instead of "having" to refer to long holidays.
+"Hope" should be followed by a singular countable noun, not a plural noun.
+The use of a comma after "lunch" is unnecessary and can be removed for improved clarity.
+The contraction "ca n't" should be "can't" to indicate "cannot."
+The contraction "can't" should be used instead of "ca n't" to indicate "cannot."
+The contraction "can't" should be used instead of "Ca n't" to indicate "cannot."
+Rule: Use a comma before a coordinating conjunction (and, but, for, nor, or, so, yet) that separates two independent clauses.
+Use a comma before a coordinating conjunction (and, but, for, nor, or, so, yet) that separates two independent clauses.
+Preposition rule: When indicating a location, the preposition "on board" is used to show where something is located.
+The verb "hooked" does not require the preposition "on" when used in this context.
+"Very expensive" should not be used as a standalone adjective without a noun to modify.
+Use the gerund form "writing" after "dare" instead of "to write"
+Use "while" to indicate simultaneous actions
+Use "while" to indicate an action that occurs at the same time as another action.
+Use "while" to indicate two actions happening at the same time.
+"Moved to tears" should be followed by a specific cause or reason for the emotion.
+Use "short talk" instead of "small talk" to indicate a brief conversation.
+Use "Wii" is not a clear verb and should be replaced with a more specific action such as "go" to indicate the movement towards the house.
+Use "the" before "whole" to indicate the entire building.
+A comma should not be used after "Finally" as it is unnecessary and can be removed for improved clarity.
+Use "from" to indicate the source of something, not "on."
+The infinitive form of the verb "lie" should be followed by "to" + base form of the verb.
+Use of the infinitive form of the verb "lie" should be followed by "to" + base form of the verb.
+Use a hyphen instead of a space to connect compound words such as "super-intermediate."
+Use "tiring" to indicate the feeling of being exhausted.
+Spelling error: "August" is misspelled. The correct spelling is "August."
+The correct spelling of "everything" should be used.
+The correct spelling of "gardening" should be used.
+Use "after" before a duration of time to indicate the passage of time.
+Spelling error: "Grammer" is misspelled. The correct spelling is "Grammar."
+Spelling error: "gramma" is misspelled. The correct spelling is "grammar."
+"Grammer" is misspelled. The correct spelling is "grammar."
+Spelling error: "gramer" is misspelled. The correct spelling is "grammar."
+Use "from" followed by a specific location to indicate obstruction or blockage.
+Use "have been doing" to indicate continuous action.
+Use "wanting" instead of "any want" to indicate the absence of desire.
+Use "call up" to indicate making a phone call to someone.
+Use "to" after "challenged" to indicate the action being undertaken.
+Use "beat" instead of "win" to indicate the victory over an opponent.
+Rule: Use contractions with a specific noun or pronoun to avoid ambiguity
+Use contractions with a specific noun or pronoun to avoid ambiguity
+The infinitive form of the verb "dream" should be followed by "of" + base form of the verb.
+Present continuous tense is used to describe actions or situations that are happening now, at the moment of speaking.
+"Shopping" should be followed by a specific noun or pronoun to indicate the activity being enjoyed.
+Spelling error: "recentry" is misspelled. The correct spelling is "recently."
+Use "that" instead of "as even" to introduce a restrictive clause.
+Use "these days" to indicate the current time period
+"Great" should be used before a singular noun to indicate a positive opinion.
+Quotation marks should not be used as standalone sentences.
+Quotation marks should not be used to indicate a standalone sentence.
+Use "in" to indicate the area of study for a degree.
+"In" should be used to indicate the area of study for a degree.
+Spelling error: "epidemy" is misspelled. The correct spelling is "epidemy."
+The correct spelling of "epidemy" is "epidemy."
+Hyphen vs. Dash rule
+The past tense of the verb "want" is "wanted," not "wantet."
+Rule: Use a period at the end of a declarative sentence.
+Use a period at the end of a declarative sentence.
+Rule: End a declarative sentence with a period.
+Use a period at the end of a sentence.
+"Still" should be followed by a subject and a verb, not just a pronoun.
+Use a comma instead of a hyphen to indicate the duration of time.
+Use "for" to indicate support or encouragement for someone.
+Rule: When using a number to describe a noun, it should be written as a word rather than a numeral.
+When using a number to describe a noun, it should be written as a word rather than a numeral.
+The apostrophe should be used to indicate a contraction, not a possessive form.
+Spelling rule: "physically" is spelled with a "c" not an "s"
+Spelling error: "physically" is spelled with a "c" not an "s"
+No errors found.
+Use "because" to indicate the cause of a feeling or emotion.
+Use "heart" instead of "ear" to express gratitude.
+Use "heart" instead of "ear" to indicate gratitude.
+Spelling error: "Whe" is misspelled. The correct spelling is "Why."
+"So lovely" should not be used as a standalone adjective without a noun to modify.
+Use "new" with "knowledge" to indicate a new style of hair.
+"Same" should be followed by a noun or pronoun, not just a pronoun.
+Use "although" to introduce a contrast or concession in a sentence.
+Use "grateful" instead of "regrateful" to express gratitude.
+"Sommer" is not a proper noun and should not be capitalized.
+The past tense of "want" is "wanted."
+A specific topic or subject should be included after the verb "seems" to form a complete sentence.
+Use "no longer" to indicate the absence of a previous condition.
+Use "thirty minutes past" to indicate the time.
+"A lot" should be followed by "of" and a noun to indicate a large quantity.
+"Play" should be followed by a subject and a verb, not just a pronoun.
+Use "language" instead of "languages" to indicate the study of a specific language.
+"Seldom" should be followed by a specific noun or pronoun to indicate what is being modified.
+Use "whole" before the noun it modifies.
+Use "countless" to indicate a large number.
+Use "about" to indicate the purpose or benefit of an action.
+Spelling error: "challenge" is misspelled.
+The subject of a sentence is necessary for it to be grammatically correct.
+Use "gives" to indicate the singular form of the verb.
+Spelling error: "dairy" is misspelled.
+Spelling error: "dairy" is misspelled. The correct spelling is "diary."
+Use "now" instead of "already" to indicate the timing of the improvisation.
+The use of "rytmycal" is a spelling error. The correct spelling is "rhythmic."
+A comma should not be used after "More than" as it is unnecessary and can be removed for improved clarity.
+Use "little" to indicate a small amount
+Use the present continuous tense to indicate ongoing actions.
+Adjectives have comparative and superlative forms to compare different degrees of the quality they describe. The comparative form is used to compare two things, while the superlative form is used to compare three or more things.
+Adjectives have comparative and superlative forms to compare different degrees of the quality they describe.
+Adjectives have comparative and superlative forms to compare different degrees of the quality they describe. The superlative form is used to compare three or more things.
+Use "a" before "little" to indicate a singular noun.
+The infinitive form of the verb "should" should be followed by the base form of the verb.
+Use the infinitive form of the verb "should" followed by the base form of the verb.
+"Owe" should be followed by a subject and a verb, not just a pronoun.
+Rule: "Couldn't" is the correct contraction for "could not."
+"Couldn't" is the correct contraction for "could not."
+The contraction "I'm" should be used instead of "I 'm" to indicate "I am." The past tense of the verb "dream" is "dreamt"
+"Final" should be used in its plural form "finals" to indicate the championship match.
+Use "for being late" to indicate the reason for the apology.
+"For being late" should be used to indicate the reason for the apology.
+The original sentence contains a grammar error in the use of "I 'm got up" instead of "I got up" to indicate past tense.
+Use "changing" instead of "change" to indicate the action of becoming different.
+The original sentence also contains a grammar error in the use of "since" without specifying the time frame.
+Use "should" instead of "shoud" to indicate obligation or duty.
+Use "of" followed by the gerund form "spending" instead of the infinitive form "spend"
+A single letter should not be used as a standalone sentence.
+Rule: The future tense form of "move" is "is going to move".
+The future tense form of "move" is "is going to move".
+"Washing" should be followed by a subject and a verb, not just a pronoun.
+Use "in" before a specific website or platform to indicate the location of an activity.
+Use "private individuals" or "private sellers" instead of "private people" to specify who is selling the clothes.
+The verb "spur" should be followed by the infinitive form of the verb "create" to convey the intended meaning.
+"Small" should be used to indicate the size of something, while "short" should be used to indicate the duration of an activity.
+The correct spelling of "Israel" should be used.
+Proper spelling and punctuation should be used for the word "Israel."
+The original sentence contains a grammar error in the use of "did not and" instead of "I did not."
+Use "in case" to indicate a specific contingency or situation.
+Indefinite article rule
+Spelling error: "cancel" is misspelled. The correct spelling is "cancel."
+Spelling error: "cancei" is misspelled. The correct spelling is "cancel."
+"Cancei" is misspelled. The correct spelling is "cancel."
+"Cancel" is the correct spelling of the verb, not "cancei."
+"Very free" should not be used as a standalone adjective without a noun to modify.
+Use "reconsider" without "about" to indicate reconsideration.
+"Everyday" should not be used as a standalone adjective without a noun to modify.
+"Everyday" is an adjective and should be used to describe a noun, not as a standalone word.
+Subject-Verb agreement: Modal verbs like "owe" are followed by the base form of the verb.
+"Final" should be followed by a specific noun to form a complete sentence.
+Use "leave" to indicate the action of departing or exiting.
+Use "to" to indicate a range of dates.
+The original sentence contains a grammar error in the use of "Japaneseonly" as one word instead of "Japanese-only" with a hyphen.
+Use "Wii" as a verb to indicate the action of playing a Wii game.
+"Really" should not be used as a standalone adjective without a noun to modify.
+Unnecessary quotation marks should be removed from the end of the sentence.
+In English, a complete sentence should end with a punctuation mark, such as a period, question mark, or exclamation point. Punctuation should not have a space before it.
+Proper nouns such as "summer" should not be capitalized unless they are at the beginning of a sentence.
+Use "inevitably" to indicate the inevitability of an action, but it is not necessary in this context and can be omitted for clarity.
+Proper nouns such as the name of a specific location, such as "Israel," should be capitalized.
+The past participle form of the verb "explode" is "exploded," not "exploded."
+So should not be used as a standalone adjective without a noun to modify.
+Spelling rule: "Baseball" is spelled with an "e" not an "a"
+The contraction "She 's" should be used instead of "She's" to indicate "She is."
+The contraction "she 's" should be "she's" to indicate "she is."
+The contraction "she's" should be used instead of "she 's" to indicate "she is."
+The verb "listen" is typically followed by the preposition "to" to indicate the action of hearing something. In this case, "listened to" is the correct usage to convey the intended meaning.
+Use proper capitalization for brand names such as "Lang-8."
+Use "failed" to indicate the action of not passing the examination.
+"PS" should be followed by a noun or pronoun, not just a pronoun.
+The grammar error in the original sentence is the use of "de" instead of "the" before "main character."
+"Real" should be used before a singular countable noun, not a plural noun.
+Imperative sentences require a subject, which is usually implied to be "you."
+Spelling error: "small talk" is misspelled. The correct spelling is "short talk."
+The correct spelling of "exercise" and "grammar" should be used.
+Use the plural form "ears" to indicate both ears.
+Use a period instead of a colon to indicate the end of the abbreviation.
+Use "in" instead of "of" to indicate the area of study.
+Use of the gerund form "writing" after "first time" instead of "to write"
+A specific topic or subject should be included after the verb "became" to form a complete sentence.
+The use of a comma after "why" is unnecessary and can be removed for improved clarity.
+Use "as" to compare different degrees of quality.
+There is no grammar error in the given sentence. The sentence is grammatically correct as it is.
+Use "of" to indicate the reason for something, not "from."
+The past tense of "get" is "gave"
+The correct spelling of "fortunately" should be used.
+"So much" should not be used as a standalone adjective without a noun to modify.
+The verb "challenge" should be followed by a subject and a verb, not just a pronoun.
+The past participle form of "wash" is "washed," not "washing."
+"Innovative" is misspelled. The correct spelling is "Innovative."
+The correct spelling of "innovative" should be used.
+Spelling error: "houars" is misspelled. The correct spelling is "hours."
+Spelling error: "exersise" is misspelled. The correct spelling is "exercise."
+The infinitive form of the verb "arrive" should be followed by "to" + base form of the verb.
+"Hint" should be followed by a subject and a verb, not just a pronoun.
+Quotation marks should not be used without accompanying words.
+The original sentence contains a grammar error in the use of "was failed" instead of "failed" to indicate past tense.
+The original sentence contains a grammar error in the use of "manage" instead of "would manage" to indicate a future action.
+Rule: Use the gerund form "washing" after "finished" instead of "to wash"
+Spelling error: "oppotunity" is misspelled. The correct spelling is "opportunity."
+"Sounds" should not be used as a standalone adjective without a noun to modify.
+There is no grammar error
+There is no grammar error.
+"Clened" is misspelled. The correct spelling is "cleaned."
+Use "and" to indicate simultaneous actions.
+Spelling error: "grammar" is misspelled.
+"Another" should be used before a singular noun, while "other" should be used before a plural noun.
+"Recently" is not necessary in this context and can be omitted for clarity.
+Use "after all" to introduce a restrictive clause.
+Use "taken" to indicate participation in classes.
+Use "if" after "believe" to indicate a hypothetical scenario.
+Use a comma before the time period (e.g. day, night, etc.)
+The use of a comma before the time period (e.g. day, night, etc.)
+Spelling error: "neglections" is misspelled. The correct spelling is "neglects."
+Use "said" should be followed by a subject and a verb, not just a pronoun.
+Rule: "Remember" should be used in the past tense when referring to something remembered in the past.
+The rule is that "Remember" should be used in the past tense when referring to something remembered in the past.
+The original sentence contains a grammar error in the use of "outdoor seats" instead of "outdoors."
+Exclamation marks should not be used with incomplete sentences.
+Use "many" with "authors" to indicate plural objects.
+Spelling error: "Gen-Mai" is misspelled.
+Conjunctions should not be used without accompanying words.
+Hyphens should not be used as standalone sentences.
+"Out of shape" should be followed by a specific verb to indicate the manner in which the action is performed.
+The rule is that "the" should be used before a specific noun, such as "emergency bag."
+Use "liked making" instead of "liked how to make" to indicate the action of enjoying the process.
+Use the past participle form of the verb "pack" to indicate the action in the past.
+"Human relations" is a correct noun phrase that does not require any changes.
+Use proper spelling and punctuation for the word "french fries."
+"Arriving" should be followed by a specific noun to form a complete sentence.
+Use "for" to indicate possession or relationship between two objects.
+Use "expect" followed by a noun or pronoun, not just a pronoun.
+Spelling error: "fortunately" is spelled with an "n" not an "o"
+The correct spelling of "apprentice" should be used.
+The correct spelling of "comments" and "opinions" should be used.
+Use "to" before the base form of the verb to indicate purpose.
+"Tuition" should not be used as a standalone noun without a verb to form a complete sentence.
+Spelling error: "JINMAO OBSERVATORY88" is misspelled. The correct spelling is "Jinmao Observatory 88."
+Use "more" to indicate a high degree of something.
+"Disappointed" should be followed by a subject and a verb, not just a pronoun.
+Use "used to" with the base form of the verb to indicate a past habit or action.
+The infinitive form of the verb "meet" should be followed by "to" + base form of the verb.
+Future tense rule
+The rule is that in English, nouns generally require an article (a, an, the) unless they are being used in a general or abstract sense.
+Use "though" to indicate a contrast.
+Rule: Use the contraction "don't" instead of "do not" in informal writing.
+There is no specific grammar rule being applied here, the sentence is in simple future tense with the subject "I" and the verb "will have".
+The word "news" is typically uncountable and does not take an article before it. However, in this case, "news" is being used to refer to a specific news article, so the article "a" is appropriate.
+The original sentence contains a grammar error in the use of "which need" instead of "which needs" to agree with the singular noun "rice".
+There is no need for revision as the original sentence is grammatically correct.
+Rule: Use commas to set off nonrestrictive clauses, which provide additional information but are not essential to the meaning of the sentence.
+Prepositions are used to show a relationship between a noun or pronoun and other words in a sentence. The preposition "in" is used to indicate inclusion within space, a place, or limits. The preposition "on" is used to indicate position upon or supported by a surface. In this case, "starred in" is the correct usage because the friend is participating within the play, not on top of it.
+Use a hyphen instead of a space to connect compound words such as "part-2."
+Use a hyphen instead of a space to connect compound words such as "PART-2."
+Use a hyphen instead of a space to connect compound words such as "part 1."
+The original sentence also contains a grammar error in the use of "the past" instead of "in the past" to indicate a specific time period.
+Rule: Adjectives describing nationality should end in "-ese" for countries and regions.
+The rule is that "URL" is a singular noun and should be preceded by the indefinite article "a" when used in a sentence.
+Use "aren't" for the contraction of "are not"
+"So bad" should not be used as a standalone adjective without a noun to modify.
+"Very hot" should not be used as a standalone adjective without a noun to modify.
+When using a pronoun to refer to a person, it should be used consistently throughout the sentence.
+Rule: Adverbs modify verbs to indicate time, manner, place, or degree.
+The rule is that when expressing anticipation or excitement about something specific, the preposition "to" should be used before the noun.
+Rule: When using "city" in a sentence, it should be followed by a specific city name or "the" if referring to a specific city.
+There is a rule in English grammar that states that adjectives should come before the noun they modify. In the original sentence, "different" should come before "values" to follow this rule. However, the original sentence is still grammatically correct as it is.
+Rule: Use "spoke" instead of "said" when referring to speaking a language.
+Rule: In English, "Mr." is typically followed by a name or title.
+No grammar errors
+Contraction rule: In English, contractions combine two words by replacing one or more letters with an apostrophe.
+Passive voice should be avoided when the active voice can make the sentence more concise and direct.
+Common collocations
+past tense of "get" is "got"
+Rule: Use an apostrophe in contractions to indicate missing letters
+Rule: Capitalize proper nouns such as the name of a specific school.
+Contractions
+Use "can't correctly do" instead of "can't do correct" to indicate inability to perform a task accurately.
+Spelling error: "hours" is misspelled.
+"Would rather" is the correct form to express a preference.
+Use the article "a" before "little bit" to make it grammatically correct
+In English, a question must have a subject, verb, and object in order to be grammatically correct.
+Use "broadcast" instead of "bring" to indicate the action of showing a series on television.
+The correct past tense form of "pack" is "packed."
+There is no specific grammar rule that needs to be applied to this sentence.
+There are no specific grammar rules to be applied in this sentence.
+There is no specific grammar rule that needs to be applied in this sentence.
+There are no specific grammar rules or prior knowledge that need to be applied to this sentence.
+The original sentence contains a grammar error in the use of "homeworks" instead of "homework."
+"It is" is the correct present tense form of the verb "to be" for the subject "it."
+The rule is that "it is" is the correct present tense form of the verb "to be" for the subject "it."
+Use "the" before a specific noun, such as "property," to indicate a specific instance of the noun.
+Proper spelling and punctuation should be used for the word "margherita."
+A singular countable noun that generally requires an article (a, an, the) or another determiner (my, this, etc.) should be used after the verb "come" to form a complete sentence.
+Use "wish" instead of "say" to indicate a greeting.
+The original sentence contains a grammar error in the use of "I'm study" instead of "My study" to indicate the possession of the study of English.
+"Holidays" should not be used as a standalone adjective without a noun to modify.
+"Happy" should be followed by a noun or pronoun, not just a pronoun.
+Acronyms should be used with a specific topic or subject included after the verb "discuss" to form a complete sentence.
+Use a space between "PART" and "2" to form the correct compound word "PART 2."
+Use "for" to indicate the duration of an activity or event.
+Use "fall" instead of "fell" to indicate the correct past tense form of the verb.
+The use of a comma after "stomach" is unnecessary and can be removed for improved clarity.
+Use "sophisticate" to indicate the process of making something more complex or refined, not to enhance sensitivity.
+Use "on weekdays" to indicate working days.
+Use "strictly" to indicate a high degree of something.
+Use "a" before "graduate school" to indicate a specific graduate school.
+The contraction "lesson's" should be used instead of "lesson 's" to indicate the possessive form.
+The contraction "what 's" should be "what's" to indicate "what is."
+Use "qualifications" instead of "quarifications" to indicate the plural form of the noun.
+Plural nouns in English do not typically end in "s" when referring to a general concept. "Architecture" is an uncountable noun and does not need to be pluralized.
+Acronyms should not be used as standalone sentences.
+Acronyms should be accompanied by their full form or context for clarity.
+Use "anymore" to indicate the current time frame.
+Use the gerund form "learning" after "dare" instead of "to write"
+The original sentence contains a grammar error in the use of "Epidemy" instead of "Epidemic." The revised sentence should be "Epidemic of Cool."
+Use "cited" instead of "cited" to indicate the action of being referenced.
+Use "enjoy" instead of "enjoyed" to indicate a general preference.
+"BBQ" should not be used as a standalone adjective without a noun to modify.
+The correct spelling of "physically" should be used.
+Spelling error: "puzzied" is misspelled. The correct spelling is "puzzled."
+The correct spelling of "puzzied" should be used. The correct spelling is "puzzled."
+No grammar errors found.
+Knowledge base:
+测试集上的准确率为：(Counter({'fp': 293, 'fn': 124, 'tp': 85}), {'R:VERB:SVA': [5, 0, 2], 'M:PUNCT': [1, 14, 8], 'R:PUNCT': [2, 23, 5], 'M:PREP': [0, 2, 3], 'R:PREP': [5, 6, 6], 'R:DET': [2, 8, 0], 'U:PUNCT': [5, 30, 3], 'R:ORTH': [18, 37, 15], 'R:MORPH': [4, 6, 4], 'R:OTHER': [6, 48, 24], 'R:NOUN:NUM': [6, 3, 3], 'M:OTHER': [0, 13, 4], 'U:OTHER': [0, 12, 1], 'R:VERB': [2, 7, 5], 'R:CONTR': [0, 1, 1], 'M:VERB:TENSE': [0, 2, 3], 'M:DET': [8, 12, 8], 'U:VERB': [0, 2, 0], 'R:WO': [1, 3, 1], 'M:NOUN': [0, 5, 3], 'R:VERB:TENSE': [3, 20, 5], 'M:ADV': [2, 0, 0], 'R:VERB:FORM': [3, 5, 2], 'U:NOUN:POSS': [0, 1, 0], 'R:PART': [0, 2, 1], 'U:ADJ': [0, 1, 0], 'R:NOUN': [0, 6, 1], 'U:PREP': [3, 1, 0], 'M:VERB': [0, 2, 1], 'R:CONJ': [0, 1, 0], 'R:ADJ': [0, 4, 1], 'R:SPELL': [7, 3, 5], 'R:PRON': [1, 2, 0], 'U:NOUN': [0, 5, 1], 'U:DET': [0, 0, 3], 'M:CONJ': [0, 1, 1], 'U:VERB:TENSE': [0, 0, 1], 'M:ADJ': [0, 0, 1], 'M:PRON': [0, 4, 2], 'M:CONTR': [0, 1, 0], 'U:PRON': [1, 0, 0]})

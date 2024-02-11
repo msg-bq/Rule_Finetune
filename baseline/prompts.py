@@ -155,61 +155,129 @@ Answer:"""#replace('Document: ', 'Context: ')
 
 five_shot_HtT = """"""
 
-LANG_rule_instruction = '''Instruction: Following are several existed rules in knowledge base. When you correct the grammatical eroors, ''' \
-                        '''try to use them whenever possible. Not to invent knowledge by yourself unless necessary. ''' \
-                        '''Try to keep the words and punctuation of the original sentence, and correct only necessary grammatical errors \n'''\
-                        '''Knowledge base:\n'''
+LANG_rule_instruction = '''When correcting grammatical errors in existing rules from the knowledge base, utilize the rules whenever possible. Only invent knowledge when necessary.\n'''\
+                        '''Note that you should only correct essential grammatical errors, and maintain the original punctuations as much as possible, it's no need to delete or add the optional words and punctuations.'''\
+                        '''\nKnowledge base:\n'''
+#I will use "✓" and "✗" to indicate the confidence degree of the knowledge base rules. "✓" means high confidence and "✗" means low confidence.
 
-LANG_CoT = """Sentence: December
+LANG_rule_instruction = """Following knowledge base involves some proven knowledge with confidence that you can use to correct the grammatical errors. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. In the other hand, remember and avoid to use the knowledge with low confidence.
+
+Koweledge base:
+"""
+
+# LANG_rule_instruction = """You are now operating as an AI model named "GrammarMaster" or GM. Your task is to utilize the provided knowledge base to correct the grammatical errors in the given text. Use the rules with high confidence to override semantic priors in your mind. Only use your intrinsic knowledge when necessary.
+# Your primary aim is to maintain the original words and punctuation as much as possible, and only correct essential grammatical errors in the text.
+# We're counting on you to apply the proven rules effectively to enhance the overall grammar of the given content."""
+
+# LANG_rule_instruction = """Use the provided knowledge base to correct any essential grammatical errors in your responses. Utilize the rules with high confidence from the knowledge base to override semantic priors in your model. Only introduce your intrinsic knowledge when necessary. Maintain the original words and punctuation as much as possible and only correct essential grammatical errors. When answering questions, ensure to incorporate the knowledge base rules whenever possible for accurate and grammatically correct responses."""
+
+LANG_CoT = """Maintain the original words and punctuation as much as possible, and only correct minimal and essential grammatical errors.
+Again, you should only correct minimal and essential grammatical errors, but maintain the original punctuations as much as possible, it's no need to delete or add the optional words and punctuations.
+
+Sentence: December
 Question: What's the grammar errors and revised sentence of above sentence?
 Answer: No grammar errors. 
-So the revised sentence is "December".
+Therefore, the revised sentence is "December".
+
 
 Sentence: We excited the show !
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: excited -> were excited at
-So the revised sentence is "We were excited at the show !"
+Answer: Error1: "excited" → "were excited"
+Error2: "excited" → "excited at"
+Therefore, the revised sentence is "We were excited at the show !"
+
 
 Sentence: I asked her if she have boyfriend or not .
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: have -> had
-Error 2: boyfriend -> a boyfriend
-Error 3: or not -> ""
-So the revised sentence is "I asked her if she had a boyfriend ."
+Answer: Error1: "have" → "had"
+Error2: "boyfriend" → "a boyfriend"
+Error3: "or not" → ""
+Therefore, the revised sentence is "I asked her if she had a boyfriend ."
+
 
 Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
 Question: What's the grammar errors and revised sentence of above sentence?
 Answer: No grammar errors.
-So the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+Therefore, the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
 
 Sentence: T `` .
 Question: What's the grammar errors and revised sentence of above sentence?
 Answer: No grammar errors.
-So the revised sentence is "T `` ."
+Therefore, the revised sentence is "T `` ."
 """
+
 
 LANG_CoT_rule = """Sentence: December
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: No grammar errors.
-So the revised sentence is "December".
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization, but try to maintain the original punction.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "December".
+
 
 Sentence: We excited the show !
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: we retrieve "Subject-Verb agreement rule", so "excited -> were excited at"
-So the revised sentence is "We were excited at the show !"
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization, but try to maintain the original punction.
+
+Analyse process:
+Error1: subject-verb agreement
+Rule1: "Subject-Verb agreement rule". 
+Adjustment1: Change "excited" to "were excited"
+
+Error2: prepositions
+Rule2: "Use the correct preposition to indicate the relationship between words in a sentence."
+Adjustment2: change "excited" to "excited at"
+
+Therefore, the revised sentence is "We were excited at the show !"
+
 
 Sentence: I asked her if she have boyfriend or not .
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: Error 1: we retrieve "Rule: Use the correct verb tense to match the timing of the action being described.", so "have -> had"
-Error 2: we retrieve "Use "a" before specific instances of a noun, such as "a diary.", so "boyfriend -> a boyfriend"
-Error 3: we retrieve "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech.", so "or not -> ""
-So the revised sentence is "I asked her if she had a boyfriend ."
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization, but try to maintain the original punction.
+
+Analyse process with knowledge base:
+Error1: verb tense
+Rule1: "Use the correct verb tense to match the timing of the action being described."
+Adjustment1: Change "have" to "had"
+
+Error2: article and determiner accuracy
+Rule2: "Use "a" before specific instances of a noun, such as "a diary."
+Adjustment2: Change "boyfriend" to "a boyfriend"
+
+Error3: set phrase
+Rule3: "Including "or not" after "if" may occur in casual speech but is typically avoided in formal writing and speech."
+Adjustment3: Remove "or not"
+
+Therefore, the revised sentence is "I asked her if she had a boyfriend ."
+
 
 Sentence: Crossing my fingers for them ^ _ ^ ! ! ! lol
 Question: What's the grammar errors and revised sentence of above sentence?
-Answer: No grammar errors.
-So the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization, but try to maintain the original punction.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "Crossing my fingers for them ^ _ ^ ! ! ! lol"
+
+
+Sentence: T `` .
+Question: What's the grammar errors and revised sentence of above sentence?
+Answer: First identify the sentence structure: Determine whether the sentence is declarative, interrogative, imperative, or exclamatory to understand its purpose and structure.
+Then, check for subject-verb agreement, verb tense, pronoun usage, set phrase, article and determiner accuracy, prepositions, spelling and capitalization, but try to maintain the original punction.
+
+Analyse process:
+No grammar errors.
+Therefore, the revised sentence is "T `` ."
 """
+
+LANG_CoT_rule = LANG_CoT
 
 dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'rule_instruction_HtT': rule_instruction_HtT,
