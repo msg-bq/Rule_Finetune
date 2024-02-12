@@ -1,0 +1,2518 @@
+{
+    "Rationale: The phrase \"very few laughs and even less surprises\" suggests that there is a lack of positive elements in whatever is being discussed. This indicates a negative sentiment. Answer: The sentiment in the sentence is negative. <Begin> Lack of positive elements indicates negative sentiment</End>": [
+        242.0,
+        1.0
+    ],
+    "Rationale: The phrase \"just too silly\" typically conveys a negative sentiment, as it implies that something is overly silly or ridiculous. Answer: The sentiment in the sentence \"just too silly\" is negative. <Begin>Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness.</End>": [
+        226.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"cold vacuum\" and \"can't generate enough heat\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Use of negative language indicates negative sentiment </End>": [
+        213.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Word \"funny\" indicates positive sentiment <new_rule>": [
+        260.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"smart-aleck\" and \"facetious comic parody\" suggests a humorous and lighthearted tone, indicating a positive sentiment. Additionally, the mention of \"intriguing questions\" also suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        152.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"supposed family-friendly\" suggests a negative sentiment, as it implies that the movie may not actually be suitable for families. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        164.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"ingenious\" suggests a positive sentiment, while the use of \"silly\" and \"outrageous\" may indicate a more lighthearted or humorous tone. Overall, the sentiment in this sentence is likely positive. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"ingenious\" generally indicate a positive sentiment <retrieved_rule>": [
+        24.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"best\" and \"most unpredictable\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"best\" and \"most unpredictable\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"brilliant\" and \"entertaining\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"brilliant\" and \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        36.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vicious\" and \"absurd\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        64.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"lame\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        71.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"teeming\" and \"rediscover the quivering kid inside\" suggests a positive sentiment, as it conveys a sense of vibrancy and rediscovery. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"teeming\" generally indicate a positive sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The phrase \"just plain dumb\" typically conveys a negative sentiment, as it implies something is not just dumb, but excessively so. Answer: The sentiment in this sentence is negative. <new_rule> The phrase \"just plain dumb\" typically conveys a negative sentiment as it implies an excessive amount of stupidity. <new_rule>": [
+        50.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"dumb high school comedy\" and \"sex gags and prom dates\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment <retrieved_rule>": [
+        60.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\", \"funny\", and \"fun\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\", \"funny\", and \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        36.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"silly summer entertainment\" and \"enough laughs to sustain interest\" suggests a lighthearted and enjoyable tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"entertainment\" and \"laughs\" generally indicate a positive sentiment <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"outrageously creative\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"outrageously creative\" generally indicate a positive sentiment. <new_rule>": [
+        14.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suffering a sense-of-humour failure\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Phrase \"suffering a sense-of-humour failure\" typically conveys a negative sentiment <retrieved_rule>": [
+        26.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"flamboyant\" suggests a positive sentiment, as it conveys a sense of boldness and confidence. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"flamboyant\" generally indicate a positive sentiment <new_rule>": [
+        80.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"obscenely bad\" and \"crass\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"obscenely bad\" and \"crass\" generally indicate negative sentiment <retrieved_rule>": [
+        31.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"very funny\" indicate a positive sentiment <retrieved_rule>": [
+        30.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"terrific\" and \"fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"terrific\" and \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        51.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"feeble\" typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"appealing character quirks\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"appealing\" generally indicate a positive sentiment <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"casual\" and \"fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        20.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"not-so-funny gags\" and \"lazy humor\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"quite endearing\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The comparison to something as basic and uninteresting as the ABC's suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment, and the word \"triumphant\" also indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule> <retrieved_rule> Word \"triumphant\" generally indicates a positive sentiment. <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupidity\", \"incoherence\", and \"sub-sophomoric\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Words such as \"stupidity\", \"incoherence\", and \"sub-sophomoric\" generally indicate negative sentiment <new_rule>": [
+        24.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"exploiting molestation for laughs\" suggests a negative sentiment, as it implies making light of a serious and sensitive topic. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"wisdom\" and \"humor\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wisdom\" and \"humor\" generally indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"funniest\" and \"oddly sweet\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"at its best moments\" indicate a positive sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughed at\" typically conveys a positive sentiment as it indicates that something was found amusing or entertaining. Answer: The sentiment in this sentence is positive.": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"adhere more closely to the laws of laughter\" suggests a negative sentiment, as it implies that the humor in future lizard endeavors is lacking. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        35.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funniest\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not in and of himself funny\" suggests a negative sentiment, as it implies that the concept of a man in drag is not inherently humorous. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"excites\" and \"tickles the funny bone\" indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"excites\" and \"tickles the funny bone\" generally indicate a positive sentiment. <new_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the movie is successful in eliciting laughter from the audience, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"a hint of humor\" suggests a lighthearted and positive tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The mention of \"laughs aplenty\" and the absence of \"foul substances\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"at its best moments\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"gorgeous\" and \"solid performances\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive words and phrases such as \"gorgeous\" and \"solid performances\" indicate a positive sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"isn't as funny as it should be\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"without any of its sense of fun or energy\" indicates a lack of positive elements, suggesting a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "Rationale: The mention of \"a laugh between them\" typically indicates a positive sentiment, as it suggests a lighthearted and enjoyable interaction. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"hyper-real\" and \"satire\" suggests a tone of exaggerated and satirical commentary, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"hyper-real\" and \"satire\" generally indicate a positive sentiment <new_rule>": [
+        36.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"fun\" and \"enjoyable\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" and \"enjoyable\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"humorless\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"recognizably\" suggests a positive sentiment, as it implies familiarity and recognition. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"recognizably\" generally indicate a positive sentiment <new_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"be so stupid\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the movie is successful in eliciting laughter, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb,\" \"credulous,\" \"unassuming,\" and \"subordinate\" all have negative connotations, suggesting a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"unassuming\" and \"subordinate\" generally indicate a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"sharply comic\" and \"surprisingly touching\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"sharply comic\" and \"surprisingly touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughs aplenty\" indicates an abundance of laughter, suggesting a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"just too easy\" suggests a negative sentiment, as it implies that the satire lacks depth or complexity. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"creative energy\" and \"wit\" suggests a positive sentiment. Additionally, the mention of entertaining all ages also indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative energy\" and \"wit\" generally indicate a positive sentiment <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: The phrase \"ends up sounding like satire\" suggests that the intended poetic tone was not achieved, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment <new_rule>": [
+        13.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"hardly any fun to watch\" indicates a lack of enjoyment, suggesting a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The phrase \"hardly any fun to watch\" typically conveys a negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"bile\" and the mention of \"irony\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"witty\" suggests a positive sentiment, as it conveys a sense of cleverness and humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative energy\" and \"wit\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"flat\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"deft sense of humor\", \"playful spirit\", and \"game cast\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"playful\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"game cast\" generally indicate a positive sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"silly\" typically conveys a negative sentiment, as it implies a lack of seriousness. Answer: The sentiment in this sentence is negative. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Rationale: The phrase \"permits laughter\" suggests that the subject allows for or encourages laughter, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"astonishingly condescending attitude toward women\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"low-brow humor\" and \"gratuitous violence\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        23.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"mildly entertaining\" suggests a somewhat positive sentiment, as it indicates some level of enjoyment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"mildly entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"touching\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The mention of comedic writing generally indicates a positive sentiment, as it suggests humor and lightheartedness. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The statement \"he's not making fun of these people, he's not laughing at them\" indicates a positive sentiment, as it shows respect and empathy towards the characters. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"offbeat humor,\" \"amusing characters,\" and \"happy ending\" all suggest a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laughs aplenty\" suggests a positive sentiment, as it indicates an abundance of laughter. Answer: The sentiment in this sentence is positive. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"simply not funny performers\" suggests a lack of positive elements, indicating a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The term \"spoof comedy\" typically conveys a lighthearted and humorous tone, suggesting a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Word connotations: Certain genres, like spoof comedy, generally convey a positive sentiment. <new_rule>": [
+        11.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"hilarious\" and \"witty\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"hilarious\" and \"witty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        23.0,
+        1.0
+    ],
+    "Rationale: The mention of \"satirical touches\" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking. Answer: The sentiment in this sentence is potentially positive. <new_rule> The mention of \"satirical touches\" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"wisdom\" and \"humor\" typically indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"wisdom\" and \"humor\" <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"shockingly bad\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"violent\" and \"vulgar\" suggests a negative sentiment, but the phrase \"entertaining\" suggests a positive sentiment. Overall, the sentiment in this sentence is mixed, but leans towards negative due to the stronger negative words. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laugh-a-minute\" suggests a humorous and entertaining experience, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"hilarious\" and \"witty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"unfunny\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Word \"unfunny\" indicates negative sentiment <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"real\" and \"amusing\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real\" and \"amusing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The comparison to \"saturday morning cartoons\" generally indicates a negative sentiment, as it implies a lack of sophistication or quality. Answer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"perfectly entertaining\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"perfectly entertaining\" indicate a positive sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" and \"enjoyable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        24.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughably\" typically conveys a negative sentiment as it suggests that something is so bad or ridiculous that it elicits laughter. Answer: The sentiment in this sentence is negative.": [
+        14.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"excites the imagination\" and \"tickles the funny bone\" both suggest a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words like \"heart-pounding\" and \"stylish\" generally indicate a positive sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"as funny nor\" suggests a negative sentiment, as it implies a lack of humor. \nAnswer: The sentiment in this sentence is negative. <new_rule> The phrase \"as funny nor\" typically conveys a negative sentiment as it implies a lack of humor. <new_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"insanely hilarious\" suggests a positive sentiment, as it implies that something is extremely funny. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"insanely\" generally indicate a positive sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"poignant\" and \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"stupid Americans,\" \"goofy Brits,\" \"ages-old slapstick,\" and \"unfunny tricks\" all convey a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Use of negative words and phrases indicating lack of progress or substance <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"half as entertaining\" suggests a positive sentiment, as it implies that something is entertaining. Answer: The sentiment in this sentence is positive. <new_rule> The phrase \"half as entertaining\" typically conveys a positive sentiment as it implies something is entertaining. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"prickly\" suggests a negative sentiment, as it implies a sense of discomfort or irritation. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The phrase \"takes itself all too seriously\" suggests a lack of humor and lightheartedness, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"deft sense of humor,\" \"playful spirit,\" and \"game cast\" all suggest a lighthearted and enjoyable tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"humor,\" \"playful,\" and \"game\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"nonsensical\" and \"laughable\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"gross-out comedies\" and \"trying to forget\" suggests a negative sentiment, as it implies a negative experience with those movies. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"surprising flair\" and \"self-deprecating comedy\" suggests a positive sentiment, as it indicates a pleasant and unexpected talent for humor. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"surprising flair\" and \"self-deprecating comedy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fails\" and \"goofy grandeur\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"top-notch\" and the description of the dialogue and drama as \"food-spittingly funny\" both indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"top-notch\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"real humor\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real humor\" generally indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"exhilarating place\" and \"laboratory of laughter\" indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words like \"exhilarating\" typically convey excitement and intensity, which are generally associated with positive sentiments <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"neither romantic nor comedic\" suggests a negative sentiment, as it implies that the movie lacks both romance and comedy. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "Rationale: The mention of \"fewer deliberate laughs\" and \"stunningly trite songs\" suggests a lack of positive elements and indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"good-natured\" and \"quite funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good-natured\" and \"quite funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"a few good laughs\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"good laughs\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"absurd,\" \"idiotic,\" and \"stupid\" all indicate a negative sentiment. Additionally, the mention that even a talented actor like Freeman can't save it further reinforces the negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"game,\" \"absurd,\" \"idiotic,\" and \"stupid\" generally indicate a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The phrase \"food-spittingly funny\" suggests that the dialogue and drama are so funny that it elicits a physical reaction, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" indicates a lack of humor and suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"ridiculousness\" typically conveys a negative sentiment, as it implies something is absurd or laughable in a negative way. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word \"ridiculousness\" generally indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"frustratingly timid\" and \"soggy\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"wild\" and the phrase \"could only spring from the demented mind\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wild\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"fun\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"humor\" and \"warmth\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"quirky\", \"fun\", and \"popcorn movies\" suggests a lighthearted and enjoyable tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"quirky\", \"fun\", and \"popcorn movies\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"uplifting\" and the intention to be \"funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"witless\" and \"pointless\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"much fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" and the mention of \"insulting\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"offbeat humor\" suggests a positive sentiment, as it indicates a unique and unconventional approach to humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"offbeat\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"unimaginative\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Use of negative words like \"unimaginative\" typically conveys a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"cleverness\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vulgar\", \"sexist\", and \"racist\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <new_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"wretchedly\", \"unfunny\", \"inane\", and \"awful\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh therapy\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"kind\" typically have a positive connotation <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughable\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"isn't much fun\" suggests a negative sentiment, indicating a lack of enjoyment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "Rationale: The mention of \"very few laughs\" and \"even less surprises\" suggests a lack of humor and excitement, indicating a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"smart-aleck\" and \"facetious comic parody\" suggests a lighthearted and humorous tone, which may indicate a positive sentiment. Additionally, the mention of \"intriguing questions\" suggests a thought-provoking and engaging aspect, further indicating a positive sentiment. Overall, the sentiment in this sentence is likely positive. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"smart\" and \"funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. Answer: The sentiment in this sentence is negative. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"digital-effects-heavy\" suggests a negative sentiment, as it implies an excessive reliance on digital effects. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"outrageous\" and \"ingenious\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"outrageous\" and \"ingenious\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"best\" and \"most unpredictable\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"best\" and \"most unpredictable\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"brilliant\" and \"entertaining\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"brilliant\" generally indicate a positive sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"laughable\" and \"compulsively watchable\" suggests a mix of amusement and engagement, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"laughable\" and \"compulsively watchable\" generally indicate a positive sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"kinetic life\" and \"teeming\" suggests a vibrant and lively environment, indicating a positive sentiment. Additionally, the mention of \"cranky adults\" rediscovering their inner child also suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"just plain dumb\" typically conveys a negative sentiment, as it implies a lack of intelligence or quality. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of understanding or miscommunication typically conveys a negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" suggests a positive sentiment, while the use of \"derivative\" may indicate a more neutral or slightly negative tone. Overall, the sentiment in this sentence is likely positive. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\" and \"sex gags\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating,\" \"funny,\" and \"fun\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The mention of \"silly summer entertainment\" and \"enough laughs to sustain interest to the end\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive.": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"outrageously creative\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suffering a sense-of-humour failure\" indicates a negative sentiment, as it suggests a lack of humor. Answer: The sentiment in the sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"obscenely bad\" and \"crass\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <new_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"very funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"most flamboyant\" suggests a positive sentiment, as it implies a bold and colorful personality. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> The word \"most flamboyant\" generally indicates a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"terrific\" suggests a positive sentiment, indicating that the experience is enjoyable. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"feeble\" typically conveys a negative sentiment, as it implies weakness or lack of strength. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"appealing\" suggests a positive sentiment, as it conveys a sense of attractiveness or charm. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"appealing\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"casual\" and \"fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"casual\" and \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"not-so-funny gags\" and \"lazy humor\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"quite endearing\" suggests a positive sentiment, as it conveys a sense of charm and likability. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"charm\" and \"likable\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The mention of being \"bored\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" and \"triumphant\" both indicate a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <new_rule> Words such as \"funny\" and \"triumphant\" generally indicate a positive sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupidity\", \"incoherence\", and \"sub-sophomoric\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of negative words like \"stupidity\", \"incoherence\", and \"sub-sophomoric\" typically conveys a negative sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The mention of \"wisdom and humor\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wisdom\" and \"humor\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funniest\" and the phrase \"oddly sweet\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not in and of himself funny\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"adhere more closely to the laws of laughter\" suggests that there is a lack of humor or comedic elements in the lizard endeavors, indicating a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <new_rule> The phrase \"adhere more closely to the laws of laughter\" typically conveys a negative sentiment as it implies a lack of humor or comedic elements. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funniest\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funniest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"excites the imagination\" and \"tickles the funny bone\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites\" and \"tickles\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the movie is able to elicit laughter from the audience, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laughs aplenty\" and the mention of not being subjected to foul substances suggests a positive sentiment. Answer: The sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"a hint of humor\" suggests that there is at least some humor present, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"hint of humor\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"liberal doses of dark humor\" and \"gorgeous exterior photography\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"truly funny\" suggests a positive sentiment, as it indicates genuine humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of words and phrases indicating genuine humor typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"without any of its sense of fun or energy\" suggests a lack of positive elements, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Lack of positive elements indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of a positive action like sharing a laugh typically conveys a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Mention of a positive action like sharing a laugh typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" and \"enjoyable\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The word \"humorless\" indicates a lack of humor, which typically conveys a negative sentiment. Answer: The sentiment in the sentence \"humorless\" is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"recognizably Plympton\" suggests that the humor is characteristic of Plympton's style, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The combination of \"funny and sad\" suggests a mix of emotions, but the presence of \"funny\" typically conveys a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" and \"good-natured\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"stupid\" typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\", \"credulous\", \"unassuming\", and \"subordinate\" all indicate a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"jolts the laughs from the audience\" suggests a positive sentiment, as it indicates that the audience is laughing. \nAnswer: The sentiment in this sentence is positive. <new_rule> Use of words and phrases indicating genuine humor typically conveys a positive sentiment <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"sharply comic\" and \"surprisingly touching\" both indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"sharply comic\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"surprisingly touching\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Use of words indicating humor typically conveys a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"creative energy\" and \"wit\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative energy\" and \"wit\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"ends up sounding like satire\" suggests that the intended poetic tone was not achieved, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"hardly any fun to watch\" suggests a lack of positive elements and conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"bile\" and \"irony\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"witty\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Words such as \"witty\" generally indicate a positive sentiment <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The comparison to \"silly\" suggests a negative sentiment, as it indicates a lack of seriousness or effectiveness in being scary. Answer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jokes are flat\" typically conveys a negative sentiment, as it indicates that the humor in the movie is not effective. Answer: The sentiment in the sentence \"the jokes are flat\" is negative. <new_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deft,\" \"humor,\" \"playful,\" and \"game cast\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"condescending attitude toward women\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"low-brow humor\" and \"gratuitous violence\" both indicate negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words like \"gratuitous\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"mildly entertaining\" suggests a somewhat positive sentiment. Answer: The sentiment in this sentence is slightly positive. <retrieved_rule> Use of words such as \"mildly entertaining\" generally indicate a slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of comedic writing typically conveys a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating inclusion and involvement typically conveys a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"humorous\" and \"touching\" both indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"humorous\" and \"touching\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"like\" and \"not making fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"offbeat humor,\" \"amusing characters,\" and \"happy ending\" all indicate positive elements, suggesting a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laughs aplenty\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"simply not funny performers\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"anemic\" suggests a lack of humor, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is generally positive. <retrieved_rule> Words such as \"spoof\" typically indicate humor and creativity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"hilarious\" and \"witty\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"satirical touches\" suggests that the content contains satirical elements, which typically conveys a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"satirical\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"wisdom and humor\" typically conveys a positive sentiment, as it suggests a combination of intelligence and amusement. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wisdom and humor\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"violent\" and \"vulgar\" suggests a negative sentiment. Additionally, the phrase \"forgettable entertaining\" also indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words like \"violent\" and \"vulgar\" typically conveys a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"bad\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"bad\" typically conveys a negative sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh-a-minute\" suggests a high level of humor and entertainment, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment <new_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The word \"unfunny\" typically conveys a negative sentiment, as it implies a lack of humor or entertainment value. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The comparison to \"Saturday morning cartoons\" generally indicates a negative sentiment, as it implies a lack of sophistication or maturity. Answer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a lower quality or value generally indicates a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"amusing\" suggests a positive sentiment, and the word \"real\" is generally associated with positive feelings. Answer: The sentiment in this sentence is positive. <retrieved_rule> The word \"real\" is generally associated with positive feelings <retrieved_rule> <retrieved_rule> Words such as \"amusing\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"perfectly entertaining\" suggests a positive sentiment, despite the mention of \"good-bad\". \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"perfectly entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"excites\" and \"tickles the funny bone\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughably\" suggests a negative sentiment, as it implies that something is so ridiculous or absurd that it elicits laughter. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words like \"laughably\" typically conveys a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"as funny nor\" suggests a negative sentiment, as it indicates a lack of humor. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"insanely hilarious\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"insanely hilarious\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"best spent elsewhere\" suggests a lack of satisfaction with the humor in the movie, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\", \"goofy\", \"unfunny\" typically conveys a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"entertaining\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deft\" and \"humor\" generally indicate a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"takes itself all too seriously\" typically conveys a negative sentiment, as it implies an excessive seriousness. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"prickly\" suggests a slightly negative sentiment. Answer: The sentiment in this sentence is slightly negative. <retrieved_rule> Use of negative words like \"prickly\" typically conveys a negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"nonsensical\" and \"laughable\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"nonsensical\" and \"laughable\" generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Mention of a negative action like \"gross-out comedies\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"surprising flair for self-deprecating comedy\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of words and phrases indicating genuine character development typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"top-notch\" and \"food-spittingly funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> The word \"top-notch\" generally conveys a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"invest real humor\" suggests that the subject successfully incorporates genuine humor, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\" and \"laughter\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\" and \"laughter\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"neither\" and the mention of both romance and comedy in a negative context indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The use of the phrase \"fewer deliberate laughs\" and \"stunningly trite songs\" indicates a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of serious and controversial topics like drug abuse, infidelity, and death typically indicates a negative sentiment. However, the phrase \"allows us to chuckle through the angst\" suggests a more positive sentiment. Overall, the sentiment in this sentence is mixed, leaning towards positive. <retrieved_rule> Mention of a serious and controversial topic like drug abuse generally indicates a negative sentiment. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"good-natured\" and \"quite funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good-natured\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"a few good laughs\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"idiotic\" and \"stupid\" suggests a negative sentiment, as it indicates dissatisfaction with the plot and characters. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"food-spittingly funny\" suggests a positive sentiment, as it implies that the dialogue and drama are so funny that it could cause someone to spit out their food. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"ridiculousness\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not that funny\" suggests a lack of positive elements, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"frustratingly\" and \"soggy\" typically conveys a negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"dark, funny humor\" suggests a mix of serious subject matter and humor, indicating a potentially positive sentiment. Answer: The sentiment in this sentence is neutral to slightly positive. <new_rule>The use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment<new_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"fun\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Word \"fun\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"uplifting\" and \"moving\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"much fun\" indicates an abundance of enjoyment, which typically conveys a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not that funny\" and \"just generally insulting\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words like \"not that funny\" and \"insulting\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"unimaginative\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words indicating lack of originality and freshness typically conveys a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"offbeat\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vulgar,\" \"sexist,\" and \"racist\" typically convey a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"cleverness\" and \"strength\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <new_rule> Use of words indicating cleverness and strength generally indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"wretchedly unfunny\" and \"inane and awful\" clearly indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"wickedly funny\" suggests a positive sentiment, while the phrase \"just plain wicked\" suggests a negative sentiment. Overall, the sentence conveys a mix of positive and negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> The use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"entertaining enough\" suggests a slightly positive sentiment, but the addition of \"but nothing new\" indicates a more neutral to slightly negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly negative. <retrieved_rule> In general, positive words and phrases such as \"most enjoyable\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laughable\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh therapy\" suggests a positive sentiment, as it implies that something is therapeutic and beneficial for laughter. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"laugh therapy\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"isn't much fun\" indicates a lack of enjoyment, suggesting a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of enjoyment typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"pretty damned funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"very few laughs\" and \"even less surprises\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"cold vacuum\" and \"ca n't generate enough heat\" suggests a negative sentiment, as it implies a lack of warmth and energy. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Comparison to a hero generally indicates a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment, but the addition of \"yet\" may indicate a slightly negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <new_rule>The use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment<new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of coherence typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"digital-effects-heavy\" and \"supposed family-friendly\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> The comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> The phrase \"best and most unpredictable\" typically conveys a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"brilliant\" and \"entertaining\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"brilliant\" and \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vicious\" and \"absurd\" typically convey a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"vicious\" and \"absurd\" generally indicate a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words like \"lame\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"teeming\" and \"rediscover the quivering kid inside\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"teeming\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" suggests a positive sentiment, while the mention of \"derivative\" may indicate a slightly negative sentiment. However, overall, the sentiment is more positive. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"just plain dumb\" typically conveys a negative sentiment, as it implies something is simply unintelligent or foolish. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a lower quality or value generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\" and \"sex gags\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"dumb\" generally indicate negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating,\" \"funny,\" and \"fun\" all suggest a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating,\" \"funny,\" and \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suffering a sense-of-humour failure\" indicates a lack of humor and a negative sentiment. Answer: The sentiment in this sentence is negative. <new_rule> Lack of humor in a movie typically indicates a negative sentiment <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"outrageously creative\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"flamboyant\" suggests a positive sentiment, as it conveys a sense of confidence and boldness. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"flamboyant\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"obscenely bad\" and \"crass\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"obscenely bad\" and \"crass\" generally indicate a negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"terrific\" and the phrase \"sweaty-palmed fun\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very funny\" indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"feeble\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"appealing character quirks\" suggests a positive sentiment, despite the mention of a \"serious problem.\" Answer: The sentiment in this sentence is positive. <retrieved_rule> Mention of a positive action like appealing character quirks typically conveys a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"not-so-funny gags\" and \"scattered moments of lazy humor\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"quite endearing\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"quite endearing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"as easy to be bored by\" indicates a negative sentiment, as it suggests a lack of interest or engagement. Answer: The sentiment in this sentence is negative. <new_rule> Use of phrases indicating lack of enjoyment typically conveys a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" and \"triumphant\" both suggest a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" and \"triumphant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupidity\", \"incoherence\", and \"sub-sophomoric\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"exploiting molestation for laughs\" suggests a negative and inappropriate tone, indicating a negative sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funniest\" suggests a positive sentiment, as well as the phrase \"oddly sweet\". \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funniest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughed at\" typically conveys a positive sentiment, as it implies that something was found humorous. Answer: The sentiment in the sentence \"laughed at\" is positive. <retrieved_rule> Words such as \"funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"adhere more closely to the laws of laughter\" suggests a negative sentiment, as it implies that future lizard endeavors need to be funnier. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of coherence and frustration typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"not in and of himself funny\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"not in and of himself funny\" typically conveys a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"excites\" and \"tickles the funny bone\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites\" and \"tickles the funny bone\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests a positive sentiment, as it implies that the movie is successful in eliciting laughter from the audience. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of words indicating endorsement or recommendation typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"a hint of humor\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"laughs aplenty\" and \"bonus\" suggests a positive sentiment. Additionally, the mention of not being subjected to foul substances indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"gorgeous exterior photography\" and \"stable-full of solid performances\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"gorgeous\" and \"solid performances\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Mention of negative elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"hot-button issues in a comedic context\" suggests a potentially positive sentiment, but the statement \"barbershop isn't as funny as it should be\" indicates a negative sentiment. Overall, the sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of success or ability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"a laugh between them\" suggests a lighthearted and positive interaction, indicating a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The mention of \"hyper-real satire\" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking. Answer: The sentiment in this sentence is potentially positive. <retrieved_rule> The mention of \"satirical touches\" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"fun\" and \"enjoyable\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of humor and the recognition of Plympton, a known animator, suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment, while the word \"sad\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> Use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"delightful\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the movie is successful in eliciting laughter, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> The use of words such as \"jolts\" and \"laughs\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\", \"credulous\", \"unassuming\", and \"subordinate\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"dumb\", \"credulous\", \"unassuming\", and \"subordinate\" typically conveys a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"sharply comic\" and \"surprisingly touching\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"sharply comic\" and \"surprisingly touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughs aplenty\" indicates a positive sentiment, as it suggests an abundance of laughter and humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"too easy\" and \"not genuinely satisfying\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of satisfaction typically conveys a negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"creative energy\" and \"wit\" suggests a positive sentiment, as it indicates an entertaining and engaging experience. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wit and originality\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"hardly any fun to watch\" indicates a lack of enjoyment, suggesting a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"bile\" and \"irony\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"witty\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"witty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Typically, the phrase \"more silly than scary\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases such as \"flat\" typically conveys a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"deft sense of humor,\" \"playful spirit,\" and \"game cast\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deft sense of humor,\" \"playful spirit,\" and \"game cast\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The mention of \"laughter\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Mention of positive elements typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"condescending attitude toward women\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"low-brow humor\" and \"gratuitous violence\" typically conveys a negative sentiment, as it suggests a lack of sophistication and excessive, unnecessary violence. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\", \"goofy\", \"unfunny\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"mildly entertaining\" suggests a slightly positive sentiment. Answer: The sentiment in this sentence is slightly positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"not making fun of these people\" and \"not laughing at them\" suggests a positive sentiment, as it indicates a respectful and empathetic portrayal. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"liked\" typically indicates a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"comedic writing\" suggests a positive sentiment, as it implies skill and talent in writing comedy. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"comedic\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"humorous\" and \"touching\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"humorous\" and \"touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"offbeat humor,\" \"amusing characters,\" and \"happy ending\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughs aplenty\" indicates an abundance of laughter, suggesting a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating endorsement or recommendation typically convey a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"simply not funny performers\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Words such as \"anemic\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"spoof\" generally indicates a lighthearted and humorous tone, suggesting a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"spoof\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"hilarious\" and \"scathingly witty\" suggests a positive sentiment, as they convey a sense of humor and cleverness. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating cleverness and strength generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"wisdom and humor\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"enjoy the ride\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"shockingly bad\" is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"violent\" and \"vulgar\" indicates a negative sentiment, but the phrase \"entertaining\" suggests a positive sentiment. Overall, the sentiment in this sentence is likely to be negative. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"violent\" and \"vulgar\" typically conveys a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"unfunny\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real\" and \"amusing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The comparison to \"saturday morning cartoons\" generally indicates a negative sentiment, as it implies a lack of sophistication or quality. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The phrase \"perfectly entertaining summer diversion\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"entertaining\" and \"please\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"fun\" and \"enjoyable\" both indicate a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"enjoyable\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites\" and \"tickles the funny bone\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughably\" suggests that something is so ridiculous or absurd that it elicits laughter, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"laughable\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" in a negative context suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"insanely hilarious\" suggests a very strong positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"insanely hilarious\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"twisted sense of humor\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"best spent elsewhere\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of spending money elsewhere typically conveys a negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"poignant\" and \"funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupid\" and \"unfunny\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"half as entertaining\" suggests a positive sentiment, indicating that the film is entertaining. Answer: The sentiment in this sentence is positive. <retrieved_rule> The phrase \"half as entertaining\" typically conveys a positive sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"prickly\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"prickly\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"takes itself all too seriously\" suggests a negative sentiment, as it implies that the subject of the review is overly serious. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"deft sense of humor\", \"playful spirit\", and \"game cast\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule> <new_rule> Words such as \"playful\" generally indicate a positive sentiment <new_rule> <retrieved_rule> Words such as \"game cast\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"nonsensical\" and \"laughable\" typically convey a negative sentiment, as they imply a lack of logic and humor. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\", \"goofy\", \"unfunny\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"gross-out\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"flair for self-deprecating comedy\" suggests a positive sentiment, as it indicates a talent for humor and humility. Answer: The sentiment in this sentence is positive. <retrieved_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"fails so fundamentally on every conventional level\" suggests a negative sentiment, but the mention of \"goofy grandeur\" indicates a slightly positive or neutral sentiment. Overall, the sentiment in this sentence is more negative. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"top-notch\" and \"food-spittingly funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"top-notch\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real humor\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\" and \"laughter\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The use of words like \"trite\" and \"fewer deliberate laughs\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"chuckle through the angst\" suggests a lighthearted and humorous approach to serious topics, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of negative words such as \"aren't\" typically conveys a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"neither\" and the mention of \"romantic nor comedic\" suggests a lack of positive elements, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"good-natured\" and \"quite funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good-natured\" and \"quite funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"a few good laughs\" suggests a positive sentiment, as it implies that the movie provides some enjoyable and humorous moments. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of words indicating endorsement or recommendation typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"absurd\", \"idiotic\", and \"stupid\" suggests a negative sentiment. Additionally, the phrase \"even freeman can't save it\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"aren't\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"food-spittingly funny\" suggests a highly comedic and entertaining tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"ridiculousness\" typically conveys a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating lack of coherence and frustration typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" suggests a negative sentiment, as it indicates a lack of humor. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of words indicating lack of humor typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wild\" and \"comedy\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"fun\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"quirky\", \"fun\", and \"popcorn movies\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"humor\" and \"warmth\" both suggest a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"warmth\" and \"compassionately portrayed\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"witless\" and \"pointless\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"funny,\" \"uplifting,\" and \"moving\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny,\" \"uplifting,\" and \"moving\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"much fun\" indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"much fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not that funny\" and \"just generally insulting\" both indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unfunny\" and \"unromantic\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"unimaginative\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unimaginative\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vulgar,\" \"sexist,\" and \"racist\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"vulgar,\" \"sexist,\" and \"racist\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"offbeat humor\" typically conveys a positive sentiment, as it suggests a unique and unconventional type of humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unfunny\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"cleverness\" and \"strength\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of words such as \"cleverness\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh therapy\" suggests a positive sentiment, as it implies that the movie is comedic and can provide therapeutic laughter. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"laughs to spare\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"isn't much fun\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"isn't much fun\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughable\" suggests a negative sentiment, as it implies something is worthy of ridicule. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Words such as \"entertaining enough\" generally indicate a neutral to slightly positive sentiment, but the phrase \"but nothing new\" indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"smart-aleck\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"cold vacuum\" and \"can't generate enough heat\" suggests a lack of positive elements and a negative sentiment. Additionally, the mention of actors throwing off a spark initially but not being able to generate enough heat further indicates a negative sentiment. Answer: The sentiment in this sentence is negative.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"too silly\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"too\" typically convey a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"most unpredictable\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"bewilderingly brilliant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"goofy\" typically conveys a negative sentiment as it suggests silliness or lack of seriousness. \nAnswer: The sentiment in this sentence is negative.": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <new_rule>Words such as \"teeming\" and \"rediscover\" generally indicate a positive sentiment<new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The use of negative words such as \"lame\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"laughable\" and \"watchable\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"laughable\" and \"watchable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"just plain dumb\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"dumb\" typically conveys a negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\" and \"sex gags\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\", \"funny\", and \"fun\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\", \"funny\", and \"fun\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"silly summer entertainment\" and \"enough laughs to sustain interest\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"silly summer entertainment\" and \"enough laughs to sustain interest\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"creative\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suffering a sense-of-humour failure\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"obscenely bad\" and \"crass\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"terrific\" and \"fun\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating endorsement or recommendation typically convey a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very funny joke\" suggests a positive sentiment, indicating that the joke is humorous. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"very funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"feeble\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating inclusion and involvement typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"not-so-funny\" and \"lazy humor\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"endearing\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"endearing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"as easy to be bored by as your abc's\" indicates a negative sentiment, as it suggests that the subject is boring and uninteresting. Answer: The sentiment in this sentence is negative. <new_rule> The phrase \"as easy to be bored by as your abc's\" typically conveys a negative sentiment as it implies something is boring and uninteresting. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" and \"triumphant\" both indicate a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" generally indicate a positive sentiment <retrieved_rule> <new_rule> Words such as \"triumphant\" generally indicate a positive sentiment <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupidity,\" \"incoherence,\" and \"sub-sophomoric\" all suggest a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"exploiting molestation for laughs\" suggests a negative sentiment, as it implies a lack of sensitivity and appropriateness. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"wisdom and humor\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating inclusion and involvement typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"funniest\" and \"sweet\" suggests a positive sentiment, indicating that the comedy is entertaining and endearing. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funniest\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laughed at\" typically indicates a positive sentiment, as it suggests that the movie elicited laughter from the audience. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not in and of himself funny\" suggests a lack of positive elements and indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funniest\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites\" and \"tickles the funny bone\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the movie is successful in eliciting laughter from the audience, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"hint of humor\" suggests a positive sentiment, as it indicates that there is some humor present. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"hint of humor\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"laughs aplenty\" and the absence of crude humor suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"entertainment\" and \"laughs\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"dark humor\" and \"gorgeous exterior photography\" suggests a positive sentiment. Additionally, the mention of \"solid performances\" also indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"gorgeous\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Mention of a positive action like deserving an award typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"truly funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> The phrase \"truly funny\" indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"isn't as funny as it should be\" indicates a lack of humor, suggesting a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Mention of negative actions like shouting insults typically indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"without any of its sense of fun or energy\" suggests a lack of positive elements, indicating a negative sentiment. Answer: The sentiment in the sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Certain genres, like spoof comedy, generally convey a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"a laugh between them\" typically conveys a positive sentiment as it indicates humor and enjoyment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" suggests a positive sentiment, indicating a sense of enjoyment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" and \"enjoyable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of words indicating lack of understanding or miscommunication typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"humor\" and the reference to Plympton, who is known for his distinctive style of animation and humor, suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly positive. <new_rule>Words indicating a mix of negative and intriguing elements may convey a neutral to slightly positive sentiment<new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"be so stupid\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb,\" \"credulous,\" \"subordinate\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"jolts the laughs from the audience\" suggests that the comedy is successful in eliciting laughter, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"jolts the laughs from the audience\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"just too easy\" suggests a negative sentiment, as it implies that the satire is not challenging or impactful. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of success or ability typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"creative energy\" and \"wit\" suggests a positive and entertaining experience, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative interference\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"hardly any fun to watch\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"ends up sounding like satire\" suggests a negative sentiment, as it implies that the intended poetry did not come across effectively. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unconvincing\" and \"annoying\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"bile\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The simple statement \"it's funny\" indicates a positive sentiment, as it suggests that the movie elicits laughter. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The comparison to being \"more silly than scary\" suggests a lack of impact or memorability, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"jokes are flat\" suggests a negative sentiment, as it implies that the humor in the movie is not effective. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"deft sense of humor,\" \"playful spirit,\" and \"game cast\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deftly\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"permits laughter\" suggests that there is room for humor and enjoyment, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of respect typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> Words such as \"mildly entertaining\" typically convey a neutral to slightly positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"humorous\" and \"touching\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"comedic\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"comedic\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"i like that\" and \"he's not making fun of these people\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Mention of positive action like being propelled by acting typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"aplenty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"not funny\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"anemic\" suggests a negative sentiment, as it implies a lack of humor. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"spoof\" typically indicates a lighthearted and humorous tone, suggesting a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"show-stoppingly hilarious\" suggests a positive sentiment, while the addition of \"scathingly witty\" may indicate a more nuanced or mixed sentiment. Overall, the sentiment in this sentence is likely positive. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words like \"show-stoppingly hilarious\" generally indicate a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The mention of \"satirical touches\" suggests a positive sentiment, as satire is often associated with cleverness and wit. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating cleverness and strength generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"bad\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"violent\" and \"vulgar\" typically conveys a negative sentiment. However, the addition of \"entertaining\" suggests a slightly positive sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly negative. <retrieved_rule> Use of negative words such as \"violent\" and \"vulgar\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"unfunny\" is negative. <retrieved_rule> Use of negative words like \"unfunny\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh-a-minute\" and \"crowd pleaser\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"canny\" and \"crowd pleaser\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The comparison to saturday morning cartoons generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real characters\" and \"compelling plots\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"perfectly entertaining\" suggests a positive sentiment, indicating that the movie is enjoyable. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughably\" suggests a negative sentiment, as it implies that something is so ridiculous or absurd that it is worthy of laughter. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"as funny nor\" suggests a comparison to something that is not funny, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"insanely hilarious\" suggests a positive sentiment, as it conveys an extreme level of humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of words indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"best spent elsewhere\" suggests that the movie may not be worth the investment, indicating a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupid Americans,\" \"ages-old slapstick,\" and \"unfunny tricks\" all convey a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\" and \"unfunny\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"half as entertaining as it is\" suggests a comparison to a lower expectation, which generally indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> The comparison to a lower expectation generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"prickly\" suggests a slightly negative or neutral sentiment, while the mention of \"indie comedy\" generally indicates a positive sentiment. Answer: The sentiment in this sentence is neutral to slightly negative. <retrieved_rule> Words such as \"prickly\" generally indicate a slightly negative or neutral sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <new_rule> The phrase \"takes itself all too seriously\" typically conveys a negative sentiment as it implies a lack of humor or self-awareness. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"deft sense of humor,\" \"playful spirit,\" and \"game cast\" all suggest a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"nonsensical\" and \"laughable\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words indicating confusion or perplexity generally convey a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"gross-out comedies\" and \"trying to forget\" suggests a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"surprising flair\" and \"self-deprecating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"fails so fundamentally on every conventional level\" suggests a negative sentiment, but the addition of \"achieves some kind of goofy grandeur\" indicates a slightly positive or ironic sentiment. Overall, the sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"fails\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> The phrase \"top-notch\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\" and \"laughter\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"invest real humor\" suggests a positive sentiment, as it implies that the film successfully incorporates genuine humor. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"real\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good-natured\" and \"quite funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"neither\" and the mention of \"not\" in the sentence suggest a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of negative actions or lack of positive attributes generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of serious and controversial topics like drug abuse, infidelity, and death typically indicates a negative sentiment. However, the phrase \"allows us to chuckle through the angst\" suggests a lighthearted and humorous approach, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Mention of a serious and controversial topic like drug abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"stunningly trite songs\" and the use of the word \"trite\" typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"a few good laughs\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"good\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <new_rule> Use of negative words such as \"idiotic,\" \"stupid,\" and \"can't save\" typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <new_rule>The use of words like \"food-spittingly funny\" suggests a positive sentiment.<new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"ridiculousness\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" typically conveys a negative sentiment, as it implies a lack of humor. Answer: The sentiment in the sentence \"not that funny\" is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"frustratingly timid and soggy\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"wild\" and \"demented\" suggests a more positive and enthusiastic sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"fun\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"enjoys\", \"quirky\", \"fun\", and \"popcorn\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"humor\" and \"warmth\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"uplifting\" and \"moving\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"uplifting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"much fun\" indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating inclusion and involvement typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" and the word \"insulting\" both indicate a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"offbeat humor\" suggests a unique and unconventional type of humor, which typically conveys a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"unusual\" and \"food-for-thought\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"vulgar,\" \"sexist,\" and \"racist\" all indicate negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"gimmick\" and \"unimaginative\" suggests a negative sentiment, indicating a lack of creativity and originality. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"gimmick\" and \"unimaginative\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"wretchedly unfunny\", \"inane\", and \"awful\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"wretchedly unfunny\", \"inane\", and \"awful\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"wickedly funny\" suggests a positive sentiment, while the phrase \"just plain wicked\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <new_rule> Use of words indicating a mix of negative and intriguing elements may convey a neutral to slightly positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Words such as \"entertaining enough\" suggest a neutral to slightly positive sentiment, but the addition of \"but nothing new\" indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laugh therapy\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"laugh therapy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"laughable\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"isn't much fun\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of words such as \"much fun\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"cleverness\" and \"downplays the raunch\" suggests a more positive sentiment, as it implies a focus on wit and intelligence rather than explicit content. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"cleverness\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"pretty damned funny\" suggests a strong emphasis on humor, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very few laughs\" and \"even less surprises\" indicates a lack of humor and entertainment, suggesting a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"cold vacuum\" and \"can't generate enough heat\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words indicating cleverness and strength generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"too silly\" suggests a negative sentiment, as it indicates an excessive lack of seriousness or quality. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of phrases indicating a lower expectation generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"digital-effects-heavy\" and the mention of a \"supposed family-friendly comedy\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of words with negative connotations generally express negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"best\" and \"most unpredictable\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"outrageous\" and \"ingenious\" suggests a positive sentiment, while the word \"silly\" could be interpreted as either positive or negative depending on context. However, in this case, the overall tone of the sentence seems to lean towards a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating cleverness and strength generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"brilliant\" and \"entertaining\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"brilliant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"vicious\" and \"absurd\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"lame\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> The word \"lame\" indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"teeming\" and \"rediscover the quivering kid inside\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"laughable\" suggests a negative sentiment, but the phrase \"compulsively watchable\" indicates a positive sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> Use of words with neutral or positive connotations generally express neutral to positive sentiment unless otherwise indicated. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <new_rule> Use of words such as \"dumb\" typically conveys a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" suggests a positive sentiment, even though it is followed by \"derivative.\" Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"silly summer entertainment\" and \"enough laughs to sustain interest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating,\" \"funny,\" and \"fun\" all indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating,\" \"funny,\" and \"fun\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"outrageously creative\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"outrageously creative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"suffering a sense-of-humour failure\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a negative action like suffering a sense-of-humour failure generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"obscenely bad\" and \"crass\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"crass\" and \"obscenely bad\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"most flamboyant\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Comparison to a positive figure generally indicates a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"very funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"very funny\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"terrific\" and the phrase \"sweaty-palmed fun\" both indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"casual\" and \"fun\" generally indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"not-so-funny gags\" and \"lazy humor\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"quite endearing\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"endearing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"as easy to be bored by\" suggests a negative sentiment, as it implies that the subject is boring. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"funny\" suggests a positive sentiment, and the word \"triumphant\" also indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"stupidity,\" \"incoherence,\" and \"sub-sophomoric\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupidity,\" \"incoherence,\" and \"sub-sophomoric\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The mention of \"exploiting molestation for laughs\" suggests a negative sentiment, as it implies a lack of sensitivity and inappropriate humor. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wisdom\" and \"humor\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"funniest moments\" and the mention of an \"oddly sweet comedy\" both suggest a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"laws of laughter\" suggests a negative sentiment, as it implies a lack of humor in future endeavors. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of phrases indicating a lower expectation generally indicates a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"not in and of himself funny\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"excites the imagination\" and \"tickles the funny bone\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"jolts the laughs from the audience\" suggests that the subject is able to elicit laughter from the audience, indicating a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"jolts\" and \"laughs\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"laughs aplenty\" and the bonus of not being subjected to foul substances suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating abundance and excitement typically convey a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"liberal doses of dark humor\" and \"gorgeous exterior photography\" suggests a positive sentiment. Additionally, the mention of \"solid performances\" also indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"liberal doses of dark humor\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"gorgeous exterior photography\" generally indicate a positive sentiment <retrieved_rule> <retrieved_rule> Words such as \"solid performances\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"truly funny\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"without any of its sense of fun or energy\" indicates a lack of positive elements and suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laugh\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Word \"laugh\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"hyper-real\" and \"satire\" suggests a clever and exaggerated portrayal, indicating a positive sentiment. Additionally, the comparison to \"Brazil\" also indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating grandeur and scale generally convey a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"fun\" and \"enjoyable\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"humorless\" typically conveys a negative sentiment, as it implies a lack of humor. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of words indicating lack of quality typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"recognizably Plympton\" suggests a positive sentiment, as it indicates that the humor is characteristic of Plympton's style, which is likely to be appreciated by fans of his work. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"very different\" and \"instantly recognizable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"stupid\" typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"stupid\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"delightful\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"dumb\", \"credulous\", \"unassuming\", and \"subordinate\" all convey a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words indicating lack of respect typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"jolts the laughs from the audience\" suggests a positive sentiment, as it indicates that the movie is successful in eliciting laughter from the audience. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"jolts\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"sharply comic\" and \"surprisingly touching\" both indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating a mix of negative and intriguing elements may convey a neutral to slightly positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Use of positive language indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"too easy to be genuinely satisfying\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"too easy\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"creative energy\" and \"wit\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"creative energy\" and \"wit\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"hardly any fun\" indicates a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"poetry\" suggests a potentially positive sentiment, but the comparison to \"satire\" indicates a potentially negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly negative. <retrieved_rule>The mention of \"satirical touches\" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"bile\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"silly\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The word \"funny\" generally indicates a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> The use of negative words such as \"flat\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deft sense of humor\", \"playful spirit\", and \"game cast\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> In general, positive words and phrases such as \"mildly entertaining\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"humorous\" and \"touching\" suggests a positive sentiment, indicating that the content is both funny and emotionally impactful. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"humorous\" and \"touching\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"comedic writing\" suggests a positive sentiment, as it implies humor and wit in the writing. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"i like that smith\" and the statement \"he's not making fun of these people, he's not laughing at them\" indicate a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"laughs aplenty\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"offbeat humor,\" \"amusing characters,\" and \"happy ending\" all suggest a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"off-beat\" and \"fanciful\" typically indicate creativity and originality, which are generally associated with positive sentiments. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"simply not funny performers\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"spoof comedy\" typically conveys a lighthearted and humorous tone, suggesting a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> The use of words like \"spoof comedy\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"show-stoppingly hilarious\" suggests a positive sentiment, while the addition of \"scathingly witty\" may indicate a slightly negative sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> Words with neutral or positive connotations generally express neutral to positive sentiment unless otherwise indicated. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"satirical\" suggests a lighthearted and humorous tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"satirical\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words indicating endorsement or recommendation typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"shockingly bad\" indicates a negative sentiment, as it suggests that something is surprisingly and exceptionally bad. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"shockingly bad\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"violent\" and \"vulgar\" suggests a negative sentiment, while the use of \"entertaining\" suggests a positive sentiment. Overall, the sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"violent\" and \"vulgar\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"laugh-a-minute\" indicates a high level of humor and entertainment, suggesting a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The word \"unfunny\" indicates a lack of humor, suggesting a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unfunny\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"real\" and \"amusing\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words with positive connotations generally express positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"perfectly entertaining\" and \"summer diversion\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"perfectly entertaining\" and \"summer diversion\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"fun\" and \"enjoyable\" both indicate a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughably\" suggests a negative sentiment, as it implies that something is so ridiculous or absurd that it elicits laughter. Answer: The sentiment in the sentence \"laughably\" is negative. <retrieved_rule> Use of negative words such as \"laughably\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"nor\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"insanely hilarious\" indicates a high level of humor and entertainment, which generally conveys a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> In general, positive words and phrases indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of phrases like \"widget cranked out on an assembly line\" and \"unfunny tricks\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unfunny\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"half as entertaining as it is\" indicates a positive sentiment, as it suggests that the movie is very entertaining. Answer: The sentiment in this sentence is positive. <retrieved_rule> The phrase \"half as entertaining as it is\" typically conveys a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"prickly\" suggests a negative or challenging tone, indicating a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Words such as \"prickly\" generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"takes itself all too seriously\" suggests a negative sentiment, indicating a lack of humor or lightheartedness. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"deft sense of humor\", \"playful spirit\", and \"game cast\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"gross-out comedies\" suggests a negative sentiment, as it implies that the comedies were distasteful or unpleasant. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Mention of a negative action like \"fails fundamentally\" generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"surprising flair\" and \"self-deprecating comedy\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Use of words indicating personal suffering or sorrow typically convey a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"top-notch\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"invest real humor\" suggests that the movie successfully incorporates genuine humor, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"exhilarating\" and \"laughter\" suggests a positive and enjoyable experience. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"exhilarating\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> The use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"neither\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good laughs\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"good-natured\" and \"quite funny\" suggests a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"good-natured\" generally indicate a positive sentiment <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"absurd\", \"idiotic\", and \"stupid\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"absurd\", \"idiotic\", and \"stupid\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"food-spittingly funny\" suggests a positive sentiment, as it conveys a sense of humor and entertainment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Descriptions of high levels of humor and entertainment generally indicate positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"frustratingly timid\" and \"soggy\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"frustratingly timid\" and \"soggy\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"wild\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"dark, funny humor\" suggests a mix of negative and intriguing elements, which may convey a neutral to slightly positive sentiment. \nAnswer: The sentiment in this sentence is neutral to slightly positive. <retrieved_rule> Use of words indicating a mix of negative and intriguing elements may convey a neutral to slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"quirky,\" \"fun,\" and \"silliness\" suggests a lighthearted and positive tone, indicating a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"quirky,\" \"fun,\" and \"silliness\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of humor and warmth typically conveys a positive sentiment. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. <retrieved_rule> Words such as \"funny\", \"uplifting\", and \"moving\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"witless\" and \"utterly pointless\" both suggest a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"witless\" and \"pointless\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"much fun\" typically conveys a positive sentiment, as it indicates a high level of enjoyment. Answer: The sentiment in this sentence is positive. <retrieved_rule> Words indicating a lack of enjoyment or displeasure typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"not that funny\" and \"insulting\" suggests a negative sentiment. \nAnswer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unimaginative\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"vulgar\", \"sexist\", and \"racist\" typically convey a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Comparison to a serious and controversial topic like sexism generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"offbeat humor\" generally indicates a positive sentiment, as it suggests a unique and unconventional type of humor. \nAnswer: The sentiment in this sentence is positive. <retrieved_rule> Words such as \"offbeat\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The mention of \"gags that rely on the strength of their own cleverness\" suggests a positive sentiment. Answer: The sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"wretchedly,\" \"unfunny,\" \"inane,\" and \"awful\" all indicate a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative words such as \"unfunny\" and \"awful\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the phrase \"entertaining enough\" suggests a slightly positive sentiment, but the addition of \"but nothing new\" indicates a more neutral to slightly negative sentiment. Answer: The sentiment in this sentence is neutral to slightly negative. <retrieved_rule> The phrase \"could have been much better\" typically conveys a neutral to slightly negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The use of the word \"laughable\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Word \"laughable\" indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. <retrieved_rule> Phrase \"not much fun\" typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

@@ -1,0 +1,1810 @@
+{
+    "Rationale: The words \"cruel deception\", \"marginal intelligence\", \"reactionary ideas about women\", and \"total lack of empathy\" all indicate negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Words such as \"cruel\", \"marginal\", \"reactionary\", and \"lack of empathy\" generally indicate negative sentiment. </End>": [
+        232.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"goes nowhere\" and \"classic nowheresville in every sense\" both indicate a lack of progress or substance, which typically conveys a negative sentiment. <Begin> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. </End>": [
+        179.0,
+        1.0
+    ],
+    "Rationale: The words \"largely flat and uncreative\" suggest a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Words such as \"flat\" and \"uncreative\" typically convey a negative sentiment. </End>": [
+        242.0,
+        1.0
+    ],
+    "Rationale: The phrase \"too slight to be called any kind of masterpiece\" suggests that the speaker does not consider the subject to be a masterpiece, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Common knowledge: The phrase \"too slight to be called any kind of masterpiece\" indicates a negative sentiment.</End>": [
+        173.0,
+        1.0
+    ],
+    "Rationale: The word \"dignity\" typically has a positive connotation, suggesting respect and honor. However, the phrase \"dumb story\" may indicate a negative sentiment. Answer: The sentiment in this sentence is likely negative due to the phrase \"dumb story\". <Begin> The word \"dignity\" typically has a positive connotation. </End>": [
+        234.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"enriched\" and \"imaginatively mixed\" indicate a positive sentiment. <retrieved_rule> Words such as \"enriched\" and \"imaginatively\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"communicates something rather beautiful about human nature\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        48.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"tragic\" and the phrase \"superficial treatment\" both indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"boilerplate clichés\" indicates a lack of originality and creativity, which typically conveys a negative sentiment. <retrieved_rule> Words such as \"boilerplate\" and \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        50.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"camps up a storm\" and \"see it for Karen Black\" indicate a positive sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment. <retrieved_rule>": [
+        61.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"real issues\" and the positive association with \"issues most adults have to face in marriage\" indicates a positive sentiment. <retrieved_rule> The word \"real\" is generally associated with positive feelings. <retrieved_rule>": [
+        25.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the term \"conspiracy theorist\" typically carries a negative connotation. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        24.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the words \"wit and originality\" suggests a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"wit and originality\" indicate a positive sentiment. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"worst revenge-of-the-nerds clichés\" indicates a negative sentiment due to the use of the word \"worst\" and the negative connotation of clichés. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        37.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"succeeds\" and the description of the actress's face projecting \"doubts and yearnings\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        23.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bloody beauty as vivid as any scorsese has ever given us\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\" <retrieved_rule>": [
+        33.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"contrived\" and \"well-worn\" both typically convey a negative sentiment. <retrieved_rule> Words such as \"contrived\" and \"well-worn\" generally indicate negative sentiment. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the words \"subtle\" and \"touching\" typically convey a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"subtle\" and \"touching\" indicate a positive sentiment. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the phrase \"starts with a legend\" suggests a positive and promising beginning. <retrieved_rule> The word \"legend\" generally conveys a positive connotation. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"we never feel anything for these characters\" indicates a lack of emotional connection, which typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        17.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"earnest homage\" indicates a positive sentiment. <retrieved_rule> Words like \"earnest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the phrase \"dustbin of history\" typically conveys a negative sentiment as it implies irrelevance and dismissal. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"skilfully\", \"breathtaking\", and \"awesome\" all indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"skilfully\" and \"breathtaking\" indicate a positive sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"engrossing entertainment\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"terrific flair\" and the description of managing \"screwball farce and blood-curdling family intensity\" on one continuum both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"terrific flair\" indicate a positive sentiment. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"true and historically significant story\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"true\" and \"significant\". <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"sloppily written\" and \"you can not believe anyone more central to the creation of bugsy than the caterer\" indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The comparison to a young Robert DeNiro, who is often associated with talent and skill, suggests a positive sentiment. <new_rule> The comparison to a talented actor like Robert DeNiro generally indicates a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of an exclamation point and the recognition of a well-known actor like Robert Duvall indicates a positive sentiment. <retrieved_rule> The word \"dignity\" typically has a positive connotation. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"most certainly has a new career ahead of him\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"fluid\", \"authority\", and \"seal the deal\" all indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"harsh\" indicates a negative sentiment. <retrieved_rule> The word \"harsh\" typically has a negative connotation. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"pure venality\" indicates a negative sentiment. <retrieved_rule> Words such as \"pure venality\" generally indicate negative sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"altogether too slight\" indicates a lack of substance, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"does n't follow the stale, standard, connect-the-dots storyline\" indicates a departure from clichés and a lack of reliance on labored gags, which typically conveys a positive sentiment. <retrieved_rule> In general, the absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"unfunny\" and \"unentertaining\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"poignant\" and the positive association with \"an artist of 90-plus years taking the effort to share his impressions of life and loss and time and art with us\" indicates a positive sentiment. <new_rule> The word \"poignant\" generally indicates a positive sentiment. <new_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"lively and engaging\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"lively\" and \"engaging\". <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"brings the proper conviction\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"brings the proper conviction\" indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"delivers what it promises\" and \"wild ride\" both indicate a positive sentiment. <retrieved_rule> The word \"promise\" generally conveys a positive connotation. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"workable primer\" and \"terrific 10th-grade learning tool\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"workable\" and \"terrific\" indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"trying to grab a lump of play-doh\" and the phrase \"the harder that liman tries to squeeze his story\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"importance of family tradition and familial community\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"true\" and \"significant\". <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment. <new_rule> Common knowledge: Mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"remarkable procession of sweeping pictures that have reinvigorated the romance genre\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"sketchy\", \"fragmentary\", \"frustrating\", and \"difficult\" all indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of \"color and depth\" and the phrase \"rather a good time\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"color and depth\" and \"rather a good time\" indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"never reach satisfying conclusions\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"achieves ultimate insignificance\" and the comparison to \"whiffle-ball epic\" both indicate a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"flat\" and \"uncreative\" both indicate a negative sentiment. <retrieved_rule> Words such as \"flat\" and \"uncreative\" generally indicate negative sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"with considerable aplomb\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"with considerable aplomb\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"very little to add\" and \"dark visions\" indicate a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"surprisingly sensitive script\" and \"avoids most of the pitfalls\" both indicate a positive sentiment. <retrieved_rule> Words such as \"sensitive\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The comparison to something as predictable as the tides may indicate a lack of originality or surprise, which typically conveys a negative sentiment. <new_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"flashes of warmth\" and \"gentle humor\" indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"flashes of warmth\" and \"gentle humor\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"hokey\" indicates a negative sentiment. <retrieved_rule> Words such as \"hokey\" typically convey a negative sentiment. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the word \"earnest\" suggests a positive sentiment. <retrieved_rule> Words like \"earnest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly negative. The use of the word \"may not\" suggests a lack of clarity or straightforwardness, which can convey a slightly negative sentiment. <retrieved_rule> The word \"may not\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"worth the price of admission\" and the description of \"gory mayhem\" as a good time both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good time\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"isn't that much different from many a hollywood romance\" suggests a lack of originality and uniqueness, which typically conveys a negative sentiment. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"irritating\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"folly of superficiality\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"worst of their shallow styles\", \"wildly overproduced\", and \"inadequately motivated\" all indicate a negative sentiment. <retrieved_rule> Words such as \"worst\" and \"shallow\" typically indicate a negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"clumsiness as its own most damning censure\" indicates a negative sentiment. <retrieved_rule> The phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"tedious\" and the phrase \"somehow snagged an oscar nomination\" both indicate a negative sentiment. <retrieved_rule> Words such as \"tedious\" generally indicate negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"no new plot conceptions\" indicates a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"desperately want to be quentin tarantino when they grow up\" may indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"sensational\" indicates a positive sentiment. <retrieved_rule> Words such as \"sensational\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"celebration of feminine energy\" and \"tribute to the power of women to heal\" both indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"unfulfilling\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"feels secondhand, familiar -- and not in a good way\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"love the players\", \"gifted but no-nonsense human beings\", and \"still-inestimable contribution\" all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"gifted\" and \"contribution\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of \"mourns her tragedies\" indicates a negative sentiment. <retrieved_rule> Mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"limitations as a classical actress\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of Juliette Binoche as bringing \"pale, dark beauty and characteristic warmth\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"clunky\" and the phrase \"tv-movie approach\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"miserable\" and the phrase \"swaggers through his scenes\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of \"too crude\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the phrase \"bound to appeal\" and \"looking for a howlingly trashy time\" suggest an enjoyable and entertaining experience. <retrieved_rule> The use of the phrase \"bound to appeal\" typically conveys a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"wilde's droll whimsy helps 'being earnest' overcome its weaknesses\" indicates a positive sentiment. <retrieved_rule> Words such as \"droll\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"considerable appeal intact\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"considerable appeal\" and \"intact\". <retrieved_rule>": [
+        26.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"failing to find a spark of its own\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"beautifully acted and directed\" indicate a positive sentiment. <retrieved_rule> Words such as \"beautiful\" and \"directed\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"powerful acting clinic\" indicates a positive sentiment. <retrieved_rule> The comparison to a talented actor like Robert DeNiro generally indicates a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"from cheesy to cheesier to cheesiest\" indicates a negative sentiment. <retrieved_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment. <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The description of \"gory\" scenes of torture and self-mutilation indicates a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"darling of many a kids-and-family-oriented cable channel\" indicates a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"celebrates\" and the positive connotation of \"points out how inseparable the two are\" indicate a positive sentiment. <retrieved_rule> Words such as \"entertainment\" and \"laughs\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of \"terrific\" to describe Naomi Watts and the emphasis on her vulnerability and plight indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"workable\" and \"terrific\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"wooden\" to describe the dialogue suggests a lack of naturalness or stiffness, indicating a negative sentiment. <new_rule> Words such as \"wooden\" typically convey a negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"manufactured high drama\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"of the best short story writing\" indicates a positive sentiment. <retrieved_rule> The word \"best\" generally conveys a positive connotation. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"apartheid drama\" generally indicates a negative sentiment. <retrieved_rule> The comparison to a serious and controversial topic like apartheid generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"lingers just as long on the irrelevant as on the engaging\" indicates a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"too obvious\" and \"too smug\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"humor\", \"warmth\", and \"intelligence\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"humor\", \"warmth\", and \"intelligence\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"powerfully evocative\" and the description of \"heated sexuality\" indicate a positive sentiment. <retrieved_rule> Words such as \"luminous\" and \"amazingly evocative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"fairly revealing study\" suggests a positive sentiment, indicating an in-depth and insightful portrayal of the main characters. <retrieved_rule> Positive sentiment is often associated with words like \"fairly revealing\" and \"study\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"misogyny\" and \"unprovoked violence\" indicate a negative sentiment. <retrieved_rule> Words such as \"misogyny\" and \"unprovoked violence\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"thrown every suspenseful cliché\" and \"nonsensical story\" both indicate a negative sentiment. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"thin\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"transfixes the audience\" indicates a positive sentiment. <retrieved_rule> Words such as \"transfixes\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"master of innuendo\" indicates a positive sentiment. <retrieved_rule> The word \"master\" generally conveys a positive connotation. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"haunting\", \"spirit\", \"perception\", and \"conviction\" all indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"haunting\", \"spirit\", \"perception\", and \"conviction\" indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"strong sense of humanism\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"human nature\". <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"entertaining\" indicates a positive sentiment. <retrieved_rule> Words such as \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"vivid,\" \"thoughtful,\" and \"raw\" indicate a positive sentiment. <retrieved_rule> Words such as \"vivid\" and \"thoughtful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"considerable charm\" and the fact that it \"succeeds in entertaining\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"loses its fire midway, nearly flickering out by its perfunctory conclusion\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The words \"diverse\", \"astonishingly articulate\", and \"children\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"diverse\" and \"astonishingly articulate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"directed with purpose and finesse\" and \"commercial fare with real thematic heft\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"purpose\" and \"real thematic heft\". <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"quirky\" and \"engaging\" both indicate a positive sentiment. <retrieved_rule> Words such as \"quirky\" and \"engaging\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"sentimental\", \"hypocritical\", and \"sexism\" all indicate a negative sentiment. <retrieved_rule> Words such as \"sentimental\", \"hypocritical\", and references to sexism generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"thrown-together\", \"hastily written\", \"underrehearsed\", and \"arbitrarily plotted\" all indicate a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"paper-thin characterizations\" and \"facile situations\" both indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"balances both traditional or modern stories together in a manner that one never overwhelms the other\" indicates a positive sentiment. <new_rule> Mention of a positive change in tone typically conveys a positive sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"familiar and predictable\" and the comparison to a xerox machine indicate a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words such as \"fresh\", \"compelling\", and \"without compromising complexity\" all indicate a positive sentiment. <retrieved_rule> Words such as \"fresh\" and \"compelling\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"waste viewers' time\" indicates a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"Orwell's dark, intelligent warning cry\" indicates a negative sentiment. <retrieved_rule> The comparison to a serious and controversial topic like apartheid generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the words \"pertinent\" and \"enduring\" typically convey a positive sentiment. <new_rule> Positive sentiment is often associated with words like \"pertinent\" and \"enduring\". <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"wan\" and \"thinly sketched\" both indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"scalds like acid\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"far bigger\", \"far more meaningful story\", and \"funny surface\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"funny\" and \"far more meaningful\". <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"weaving a theme throughout this funny film\" indicates a purpose and depth, which typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"purpose\" and \"real thematic heft\". <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"failure to construct a story with even a trace of dramatic interest\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"skillfully assembled,\" \"highly polished,\" and \"professional\" all indicate a positive sentiment. <retrieved_rule> Words such as \"skillfully assembled\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The comparison to Shakespeare and the use of words like \"depth and breadth\" indicate a positive sentiment. <new_rule> Comparison to Shakespeare generally indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"unlikable characters\" and \"self-conscious sense\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"literary conceits\" suggests artificiality and lack of authenticity, which typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"chilly\", \"remote\", \"emotionally distant\", and \"dull\" all indicate a negative sentiment. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"weirdness for the sake of weirdness\" and \"just grating\" both indicate a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"lacks compassion\", \"good-natured humor\", and \"level of insight\" all indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"rare pictures that you root for throughout\" and \"genial is the conceit\" indicate a positive sentiment. <retrieved_rule> Words such as \"genial\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"bad imitation\" indicates a negative sentiment due to the use of the word \"bad\" and the comparison to a negative action. <retrieved_rule> Word \"bad\" indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"intermittently good time\" indicates that there are moments of enjoyment, which typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good time\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"scrape the bottom of its own cracker barrel\" indicates a negative sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"cliché\" indicates a negative sentiment. <retrieved_rule> Words such as \"boilerplate\" and \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"remarkable performance\", \"great charm\", \"generosity\", and \"diplomacy\" all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"charm\" and \"likable\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as it suggests that those who loved the 1989 version will prefer the new version. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"sophisticated intrigue\" and \"human-scale characters\" both indicate a positive sentiment. <retrieved_rule> Words such as \"sophisticated\" and \"intrigue\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The comparison to an \"arnie musclefest\" may indicate a lack of originality and freshness, which typically conveys a negative sentiment. Additionally, the mention of \"real world events\" may also indicate a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"engaging\" and \"unpredictable\" indicate a positive sentiment. <retrieved_rule> Words such as \"engaging\" and \"unpredictable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"a rollicking adventure\" and the mention of \"regardless of their ages\" both indicate a positive sentiment. <retrieved_rule> Words such as \"rollicking\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"in a fresh way\" indicates a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"beyond-lame satire\" and \"most pitiful directing debuts\" both indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"intricately structured\" and \"well-realized\" indicate a positive sentiment. <retrieved_rule> Words such as \"intricately structured\" and \"well-realized\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"uselessly redundant\" and \"shamelessly money-grubbing\" both indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"satisfyingly unsettling\" indicates a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"flat as the scruffy sands\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"badly edited\", \"awkwardly directed\", and \"suffers\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"universal and involving\", \"delightful cast\", \"breezy, pretty, and gifted\", and \"won my heart\" all indicate a positive sentiment. <retrieved_rule> Words such as \"universal\" and \"involving\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"bored\" and the comparison to the characters being bored indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"to lend some dignity to a dumb story\" suggests that the star's efforts are futile, indicating a negative sentiment. <retrieved_rule> The word \"dignity\" typically has a positive connotation. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"entertaining mix\" and \"should please history fans\" indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"entertaining\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"heavy-handed symbolism\", \"dime-store psychology\", and \"make 105 minutes seem twice as long\" all indicate a negative sentiment. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"surprised at how much we care\" indicates a positive sentiment. <retrieved_rule> The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"the slow parade of human frailty fascinates you\" indicates a positive sentiment. <retrieved_rule> Words such as \"fascinates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"tasteful\", \"intelligent\", and the comparison to avoiding clichés and plot contrivances all indicate a positive sentiment. <retrieved_rule> Words such as \"tasteful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"very funny\" and \"restoring the luster of the national lampoon film franchise\" indicates a positive sentiment. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"vivid performances\" and \"deft ally mcbeal-style fantasy sequences\" indicate a positive sentiment. <retrieved_rule> Words such as \"vivid\" and \"fantasy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"disposable\" and \"less than the sum of its parts\" indicate a negative sentiment. <retrieved_rule> Words such as \"disposable\" and \"less than the sum of its parts\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the phrase \"sneaks up on the audience\" suggests a gradual and subtle impact, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"gradually\" and \"sneaks up\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"anachronistic\" suggests that the wedding is outdated or out of place, indicating a negative sentiment. <retrieved_rule> The use of the word \"anachronistic\" typically conveys a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"great yarn\" typically conveys a positive sentiment. <new_rule> Positive sentiment is often associated with idiomatic expressions like \"cat's meow\" and \"bee's knees\". <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"fascinating\" and \"compelling\" indicate a positive sentiment. <retrieved_rule> Words such as \"fascinates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"bore\" and \"dumb innocence\" indicates a negative sentiment. <new_rule> Common knowledge: Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"fascinating\", \"hooked\", and \"delicious\" all indicate a positive sentiment. <retrieved_rule> Words such as \"fascinates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"constantly pulling the rug from underneath us\", \"seeing things from new sides\", \"plunging deeper\", and \"getting more intense\" all indicate a positive sentiment. <retrieved_rule> Words like \"pulling the rug from underneath us\" and \"plunging deeper\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"grotesque\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to a bad Clive Barker movie indicates a negative sentiment. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"clumsy\" and the negative connotation of \"cliché\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"very different from our own and yet instantly recognizable\" indicates a positive sentiment. <new_rule> Positive sentiment is often associated with words like \"true\" and \"significant\". <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the phrase \"can't tear himself away from the characters\" suggests a strong connection and engagement with the story. <retrieved_rule> Words such as \"can't tear himself away\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"out-bad-act the other\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"visceral and dangerously honest revelations\" both indicate a positive sentiment. <retrieved_rule> Words such as \"honest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"charming the masses\", \"star power\", \"pop-induced score\", and \"sentimental moments\" all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"charm\" and \"likable\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the word \"classic\" generally indicates a positive sentiment. <retrieved_rule> The word \"classic\" generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bittersweet camaraderie and history\" and \"truly know what makes holly and marina tick\" both indicate a positive sentiment. <retrieved_rule> Words such as \"bittersweet\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the mention of \"greater attention to the parents\" and \"emotional evolution\" indicates a positive sentiment. <retrieved_rule> Mention of a positive change in tone typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"bowel movements\" and the use of negative language such as \"gimmicky crime drama\" indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"burdened by the actor's offbeat sensibilities\" and \"earnest emotional core to emerge with any degree of accessibility\" indicate a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"folly of superficiality\" suggests a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"hackneyed\" indicates a negative sentiment due to its connotation of overused and unoriginal concepts. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"peels layers from this character\" suggests depth and complexity, which typically conveys a positive sentiment. <new_rule> Words such as \"peels layers\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"lags badly\", \"not-very-funny comedy\", \"unconvincing dramatics\", and \"last-minute action strongly reminiscent of run lola run\" all indicate a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of \"great combination\" and the description of the film as \"part biography, part entertainment, and part history\" both indicate a positive sentiment. <retrieved_rule> Words such as \"great combination\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"hugely entertaining from start to finish\" and \"fall from grace that still leaves shockwaves\" both indicate a positive sentiment. <retrieved_rule> Words such as \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the words \"timeless and unique perspective\" suggests a positive sentiment. <retrieved_rule> Words such as \"timeless\" and \"unique\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"emotionally complex\" and \"dramatically satisfying\" indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"emotional complex\" and \"dramatically satisfying\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"existential poignancy\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"existential poignancy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"narrative discipline\" suggests a structured and well-controlled storytelling approach, which typically conveys a positive sentiment. <new_rule>Words such as \"discipline\" generally indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"assaults on America's knee-jerk moral sanctimony\" suggests a critical and negative perspective, indicating a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"incredibly dated and unfunny\" and \"demonstrate how desperate the makers of this 'we're-doing-it-for-the-cash' sequel were\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"flat\" indicates a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"unfortunately works with a two star script\" indicates a negative sentiment. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words such as \"elegance\" and \"maturity\" both indicate a positive sentiment. <retrieved_rule> Words such as \"elegance\" and \"maturity\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"nagging\", \"lacking\", and the comparison to a previous work all indicate a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"amused and entertained\" and \"greatly impressed\" both indicate a positive sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"cliched\" indicates a negative sentiment. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"flabby rolls of typical toback machinations\" suggests a lack of substance and possibly a negative connotation, indicating a negative sentiment. <new_rule> The phrase \"flabby rolls of typical toback machinations\" suggests a lack of substance and possibly a negative connotation, indicating a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"fascinating\" and \"dark thriller\" both indicate a positive sentiment. <retrieved_rule> Words such as \"fascinates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"never to grow boring\" and \"still has a sense of his audience\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"never to grow boring\" and \"still has a sense of his audience\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"wholly original\" indicates a positive sentiment. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"replacing past tragedy with the American dream\" typically conveys a positive sentiment. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"classic romantic comedy\" indicates a positive sentiment. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"good news\" and \"fallen under the sweet, melancholy spell\" both indicate a positive sentiment. <retrieved_rule> Words such as \"good news\" and mention of positive elements generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"pretty good overall picture\" indicates a positive sentiment. <retrieved_rule> Words such as \"pretty good\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"insipid\", \"brutally clueless\", and \"large dose of painkillers\" all indicate a negative sentiment. <retrieved_rule> Words such as \"insipid\" and \"brutally clueless\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"demonstrates a breadth of vision and an attention to detail that propels her into the upper echelons of the directing world\" indicates a positive sentiment. <retrieved_rule> Words such as \"upper echelons\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"predictably\", \"repetitive\", and \"designed to fill time\" all indicate a negative sentiment. <retrieved_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"historic scandal\" typically conveys a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like a scandal generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"steeped in mystery\" and \"ravishing, baroque beauty\" both indicate a positive sentiment. <retrieved_rule> Words such as \"ravishing\" and \"beauty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"not handled well\" indicates a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as it describes \"heart-pounding suspense\" and \"stylish psychological thriller,\" both of which typically convey excitement and intensity associated with positive sentiments. <retrieved_rule> Words like \"heart-pounding\" and \"stylish\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"heartening\" and \"victories\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"feel-good\" and \"real heart\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"all the dysfunctional family dynamics one could wish for\" indicates a positive sentiment. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"suspense\" and \"intriguing characters\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"suspense\" and \"intriguing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"appreciates the art\" and \"reveals a music scene that transcends culture and race\" indicate a positive sentiment. <retrieved_rule> Words such as \"appreciates\" and \"transcends\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"philosophical emptiness\" and \"maddeningly sedate pacing\" both indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of words like \"cheapo\", \"saturday morning TV\", and the description of characters with \"big round eyes and Japanese names\" may indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"brightly optimistic\" and \"coming through in the end\" indicates a positive sentiment. <retrieved_rule> Words such as \"brightly optimistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"no point in extracting the bare bones of byatt's plot\" and \"bland hollywood romance\" both indicate a negative sentiment. <new_rule> Negative sentiment indicated by lack of originality and freshness. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"just another situation romance\" and \"stuck in an inarticulate screenplay\" both indicate a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"larger-than-life figure\" typically conveys a positive connotation. <retrieved_rule> Words such as \"larger-than-life\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"the most affecting depictions of a love affair\" indicates a positive sentiment. <retrieved_rule> The phrase \"honestly affecting\" suggests a genuine emotional impact, which indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"wonderful ensemble cast\" and \"bring the routine day to day struggles of the working class to life\" both suggest a positive sentiment, indicating a well-acted and engaging portrayal of the working class. <retrieved_rule> Positive sentiment is often associated with words like \"wonderful\" and \"bring to life\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"uneven performances\" and the duplication of a \"now-cliched vampire accent\" both indicate negative sentiment. <retrieved_rule> Words such as \"uneven\" and \"cliched\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"stereotypical\" suggests a negative connotation. <retrieved_rule> Words such as \"stereotypical\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"engrossing\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"engrossing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"serious suspense\" suggests a level of intensity and excitement, which is generally associated with positive sentiments. <retrieved_rule> Words like \"heart-pounding\" and \"stylish\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"suspenseful\", \"deeply absorbing\", and \"solid sci-fi thriller\" all indicate a positive sentiment. <retrieved_rule> Words such as \"suspense\" and \"intriguing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"muddled\", \"simplistic\", and \"pretentious\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"knows the territory\" indicates a positive sentiment. <retrieved_rule> Words such as \"skillfully assembled\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"good to see\" and \"whipping out the dirty words\" indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"cat's meow\" and \"bee's knees\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"flashy\" and \"overlong\" typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"well paced\" and \"satisfying little drama\" indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"well paced\" and \"satisfying\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"tedious\", \"resolutely unamusing\", \"thoroughly unrewarding\", and \"reckless squandering\" all indicate a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"tiresome\" and \"cliché\" both typically convey a negative sentiment. <retrieved_rule> Words such as \"uneven\" and \"cliched\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"gripping portrait\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"gripping\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"escapes the precious trappings\" and \"infusing into the story very real\" indicate a departure from clichés and a genuine, authentic portrayal, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"real heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"rip-off\" and comparison to another director's work generally indicates a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of the film as \"ebullient\" and the mention of a \"startling transformation\" and \"exotic world of belly dancing\" all indicate a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"revives the free-wheeling noir spirit of old French cinema\" indicates a positive sentiment. <new_rule> Positive sentiment is often associated with words like \"revives\" and \"free-wheeling\". <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"a waterlogged version of ` fatal attraction ' for the teeny-bopper set\" indicates a negative sentiment. <retrieved_rule> The comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of maintaining \"a level of sophisticated intrigue\" and \"human-scale characters that suck the audience in\" both indicate a positive sentiment. <retrieved_rule> Words such as \"sophisticated intrigue\" and \"human-scale characters\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"flat dialogue\" and \"gutless direction\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"meandering sketch\" and \"rather than a fully developed story\" both indicate a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"isn't nearly surprising or clever enough\" indicates a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"too ponderous\", \"shallow entertainment\", and \"not remotely incisive\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of the film's \"desire to be liked\" undermining the exploration of thornier aspects indicates a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"dull\" and the overall tone of the sentence indicate a negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction typically convey a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"fascinating character study with laughs to spare\" indicates a positive sentiment. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"we've seen the hippie-turned-yuppie plot before\" may indicate a negative sentiment due to the comparison to a previous version. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"a welcome step forward\" indicates a positive sentiment. <retrieved_rule> Mention of a positive change in tone typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"suffers from\" and the comparison to \"too much norma rae and not enough pretty woman\" both indicate a negative sentiment. <retrieved_rule> Phrase \"suffering a sense-of-humour failure\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"life's messiness\" and \"strange quirks\" indicate a positive sentiment. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"boring\" and the phrase \"conventional\" both indicate a negative sentiment. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of \"grandness of romance\" and the idea of love as the \"great equalizer\" both indicate a positive sentiment. <retrieved_rule> Words such as \"grandness\" and \"joys\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"geriatric dirty harry\" and \"our hero must ride roughshod over incompetent cops to get his man\" indicates a positive sentiment. <retrieved_rule> Words such as \"hero\" and \"ride roughshod\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"masterful\" indicates a positive sentiment. <retrieved_rule> Words such as \"masterful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"terrible story\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"standard crime drama fare\", \"instantly forgettable\", and \"thoroughly dull\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of the story being unrelated and the negative message about evading responsibilities and leaving a large dog alone with a toddler indicates a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"mediocre special effects\", \"hoary dialogue\", \"worst of all\", and \"silly-looking morlocks\" all indicate a negative sentiment. <retrieved_rule> Typically, the absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the phrase \"guilty-pleasure\" suggests a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"merely pretentious\" and \"grisly\" both indicate a negative sentiment. <retrieved_rule> Words such as \"pretentious\" and \"grisly\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"sheer ugliness\" and the negative connotations of \"macabre\" and \"endless rain\" indicate a negative sentiment. <retrieved_rule> Words such as \"ugliness\" and \"macabre\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"disintegrates into a dreary, humorless soap opera\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative, as the word \"grisly\" typically conveys a negative sentiment. <retrieved_rule> Word \"grisly\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"shoddy\" and the phrase \"male hip hop fantasy\" both indicate a negative sentiment. <retrieved_rule> Words such as \"shoddy\" generally indicate negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"quality\", \"nostalgic\", and \"keep them guessing\" all indicate a positive sentiment. <retrieved_rule> Words such as \"quality\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"remarkable ensemble cast\" indicates a positive sentiment. <retrieved_rule> Words such as \"remarkable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to the bottom tier of blaxploitation flicks from the 1970s indicates a negative sentiment. <retrieved_rule> The comparison to a previous version generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"wonderfully sprawling\" indicates a positive sentiment. <retrieved_rule> Words such as \"wonderful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"builds its multi-character story with a flourish\" indicates a positive sentiment. <retrieved_rule> Words such as \"flourish\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"a treatise on spirituality\" and \"solid sci-fi thriller\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"mormon family movie\", \"sappy\", and \"preachy\" all indicate a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bold biographical fantasia\" indicates a positive sentiment. <retrieved_rule> Words such as \"bold\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"fascinating\" indicates a positive sentiment. <retrieved_rule> Words such as \"fascinating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"intense\", \"compassion\", \"sacrifice\", and \"christian love\" all indicate a positive sentiment. <retrieved_rule> Words such as \"intense\", \"compassion\", \"sacrifice\", and \"christian love\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of words like \"spooky\", \"grizzled\", and \"charred\" typically convey a negative sentiment. <retrieved_rule> Words such as \"spooky\", \"grizzled\", and \"charred\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"contrived\", \"unmotivated\", \"psychologically unpersuasive\", and \"inconclusive ending\" all indicate a negative sentiment. <retrieved_rule> Words such as \"contrived\" and \"inconclusive\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"depressing,\" \"ruthlessly pained,\" and \"depraved\" all indicate a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"bracing truth\" and \"refreshing\" indicate a positive sentiment. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"fuddled about motives and context\" indicates a lack of substance, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"legendary\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"legendary\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"heartbreakingly thoughtful\", \"minor classic\", \"genuine\", and \"singular artist\" all indicate a positive sentiment. <retrieved_rule> Words such as \"heartbreakingly thoughtful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"well-written\" and \"stylish and moody\" both indicate a positive sentiment. <retrieved_rule> Words like \"well-written\" and \"stylish\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The term \"legacy\" typically conveys a positive sentiment, as it implies a lasting impact or influence. <retrieved_rule> The word \"legacy\" typically has a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"potential success\" indicates a positive sentiment. <new_rule> The mention of potential success typically conveys a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bracing truth\" and \"refreshing\" both indicate a positive sentiment. <retrieved_rule> Words such as \"refreshing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"intoxicating\" and the positive connotation of \"freshly painted rembrandt\" indicate a positive sentiment. <retrieved_rule> Words such as \"intoxicating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"hippie-turned-yuppie plot\" may indicate a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"wonderful\", \"love\", and \"destiny\" all indicate a positive sentiment. <retrieved_rule> Words such as \"wonderful\" and \"lush\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"patchy combination\", \"ploddingly sociological commentary\", and \"low-tech magic realism\" all indicate a negative sentiment. <new_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"embarrassed by his own invention\", \"glaring triteness\", and \"rush through\" all indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of words like \"diverting\" and \"suitable for a matinee\" indicate a positive sentiment. Additionally, the mention of a message cautioning children about the world's delicate ecological balance suggests a positive sentiment. <retrieved_rule> Words such as \"diverting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"pokemon videos\" generally indicates a negative sentiment. <retrieved_rule> Comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"cruel\" and \"misanthropic\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"wanting more out of life\" suggests a positive desire for growth and improvement. <retrieved_rule> Mention of a positive change in tone typically conveys a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"elbowed aside\", \"one-liners\", and \"for no apparent reason\" all indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"vivid personality\" suggests a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The description of the man as \"an evil, monstrous lunatic\" indicates a negative sentiment. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"lack contrast\", \"are murky\", and \"too dark to be decipherable\" all indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"perfect starting point for a national conversation about guns, violence, and fear\" indicates a positive sentiment. <retrieved_rule> Words such as \"plea for democracy\" and \"civic action\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The words \"fantasy\" and \"adventure\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"vivid\" and \"fantasy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"wholly unconvincing\" and \"truly annoying pitch\" both indicate a negative sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the phrase \"standard plot\" suggests a lack of originality or creativity, which can convey a negative sentiment. <retrieved_rule> The phrase \"standard plot\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of not relying on \"dumb gags, anatomical humor, or character cliches\" suggests a lack of reliance on negative or distressing elements, which typically conveys a positive sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"reek of\" indicates a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"eloquent memorial\" indicates a positive sentiment. <retrieved_rule> Words such as \"eloquent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"his own world war ii experience\" and \"his signature style\" does not convey a clear sentiment, but the use of personal experience and signature style may indicate a positive sentiment. <new_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"admirable reconstruction\" indicates a positive sentiment. <retrieved_rule> Words such as \"admirable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The comparison to a talented actor like John Ritter generally indicates a positive sentiment. <retrieved_rule> The comparison to a talented actor like John Ritter generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"gripping humanity\" indicates a positive sentiment. <retrieved_rule> Words such as \"gripping\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"serious suspense\" indicates a positive sentiment. <retrieved_rule> Words such as \"serious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"excellent performances\" indicates a positive sentiment. <retrieved_rule> Words such as \"excellent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"an overripe episode of TV's Dawson's Creek\" and \"a recycled and dumbed-down version of Love Story\" both indicate a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"message-mongering moralism\" indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"bland blank of a man with unimaginable demons\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"fantastic dual performance\", \"funny\", \"insightfully human\", and \"delightful lark\" all indicate a positive sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"lives up to the stories and faces and music of the men who are its subject\" indicates a positive sentiment. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of \"mountain of clichés and borrowed images\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"a spark of life\" typically conveys a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"stimulating and demanding\" indicate a positive sentiment. <retrieved_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"master screenwriting\" and the positive association with the previous work \"the skulls\" both indicate a positive sentiment. <retrieved_rule> The phrase \"master screenwriting\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"completely spooky\" and \"gets under your skin\" both indicate a positive sentiment. <retrieved_rule> Words such as \"spooky\" and \"gets under your skin\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"smell the grease on the plot\" indicates a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"hideously twisted\" indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrases \"serious work,\" \"important director,\" and \"something new to say\" all indicate a positive sentiment. <retrieved_rule> Words such as \"serious,\" \"important,\" and \"something new\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bittersweet camaraderie\" and the feeling of truly knowing the characters indicate a positive sentiment. <retrieved_rule> Words such as \"bittersweet\" and \"truly know\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"companionable couple\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"charm\", \"generosity\", and \"diplomacy\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"retaining an integrity\" and \"refusing to compromise his vision\" indicates a positive sentiment. <retrieved_rule> The word \"integrity\" typically has a positive connotation. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to Spider-Man and the mention of \"battered women\" both indicate a negative sentiment. <retrieved_rule> Comparisons to negative or distressing situations generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the words \"fluid\" and \"mesmerizing\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"fluid\" and \"mesmerizing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"merely crassly flamboyant\" and \"comedically labored\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"entertaining\" and \"quirky romance\" indicate a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"despicable\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"exuberant openness\" and \"expresses our most basic emotions\" indicate a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"stifles creativity\" and \"allows the film to drag on for nearly three hours\" both indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"subtle\" and \"enigmatic\" indicates a positive sentiment. <retrieved_rule> Words such as \"subtle\" and \"enigmatic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to Elizabeth Hurley and the use of the words \"graceless and ugly\" indicate a negative sentiment. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"gutter romancer\" and the suggestion to \"inhale secondhand material\" both indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"intricate plot\" suggests complexity and depth, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"intricate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative, as the phrase \"virtually without context\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The comparison to a beautifully sung holiday carol indicates a positive sentiment. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of words such as \"competent\" and \"unpretentious\" generally indicate a positive sentiment. Additionally, the mention of being destined to fill the after-school slot at shopping mall theaters suggests a positive reception. <retrieved_rule> Words such as \"competent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"you'll love it\" and \"want to see it twice\" both indicate a positive sentiment. <retrieved_rule> The phrase \"want to see it twice\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"artifice\", \"tiresome\", \"paper-thin\", and \"facile\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"silly\" and \"crude\" indicate a negative sentiment. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"dull effects\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"misses a major opportunity\" indicates a lack of progress or substance, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of war savaging the lives and liberties of the poor and dispossessed indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like war generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"rote exercise\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"a rollicking adventure\" indicates a positive sentiment. <retrieved_rule> Words such as \"rollicking\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"deftly trimmed\" and \"courage and happiness\" indicate a positive sentiment. <retrieved_rule> Words such as \"deftly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"depressing\", \"ruthlessly pained\", \"depraved\", and the comparison to \"staring into an open wound\" all indicate a negative sentiment. <retrieved_rule> Comparisons to negative or distressing situations generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as the comparison to the James Bond series and the phrase \"durable part of the movie landscape\" suggest a successful and enduring franchise. <retrieved_rule> Comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"as good a job as anyone\" and \"bringing off the hopkins/rock collision of acting styles and onscreen personas\" indicate a positive sentiment. <retrieved_rule> Words such as \"good job\" and \"bringing off\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to a \"martha stewart decorating program run amok\" generally indicates a negative sentiment. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"vibrantly colored\" and \"beautifully designed\" indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"color and depth\" and \"gorgeous\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"crass\", \"contrived\", and \"fails\" all indicate a negative sentiment. <retrieved_rule> Words such as \"contrived\" and \"well-worn\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"humor\", \"heartfelt conviction\", and \"discovering your destination in life\" all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"heartfelt\" and \"real\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"refreshingly different and reassuringly familiar\" indicates a positive sentiment. <new_rule> Words such as \"refreshingly uninhibited\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of the director as \"increasingly diverse\" indicates a positive sentiment. <retrieved_rule> Words such as \"diverse\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"dashing and resourceful hero,\" \"lavish period scenery,\" and \"complicated enough to let you bask in your own cleverness\" all indicate a positive sentiment. <retrieved_rule> Words such as \"dashing,\" \"resourceful,\" \"lavish,\" and \"cleverness\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"remarkable procession\", \"sweeping pictures\", and \"reinvigorated the romance genre\" all indicate a positive sentiment. <retrieved_rule> Words such as \"reinvigorated\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"sophomoric\" and the mention of \"shenanigans and slapstick\" typically indicate a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"moving\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"moving\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"little more than a well-mounted history lesson\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"shapeless\" and \"grasping\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"mainstream audiences will be baffled\" indicates a lack of understanding or confusion, which typically conveys a negative sentiment. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"crass\", \"contrived\", and \"fails\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"ploddingly melodramatic\" indicates a negative sentiment. <new_rule> Words such as \"ploddingly\" and \"melodramatic\" typically convey a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"does its best to work us over\" and \"lush scenery of the Cotswolds\" typically indicate a positive sentiment. <retrieved_rule> Words such as \"lush\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"stiff or just plain bad\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"startling\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"startling\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"exceedingly pleasant\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"exceedingly pleasant\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the word \"imagination\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"imagination\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"far too tragic to merit such superficial treatment\" indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like a historical event generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as it mentions \"stomach-knotting suspense\" and \"resonant undertone of tragedy,\" both of which typically convey a positive sentiment. <new_rule> Words such as \"stomach-knotting suspense\" and \"resonant undertone of tragedy\" generally indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as it describes themes of love, second chances, and unlikely places, which typically convey a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"love\" and \"second chances\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"memorable zingers\" indicates a positive sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"falls short\" and the mention of things that the original stories had but this one lacks all indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"cliches\", \"painful improbability\", and \"murky points\" all indicate a negative sentiment. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"predictable outcome\" and \"glosses over Rafael's evolution\" both indicate a lack of impact or memorability, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"terrific look\" and \"feel for the character\" both indicate a positive sentiment. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"confusing melange of tones and styles\" and the description of the movie as \"one moment a romantic trifle and the next a turgid drama\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"stale\" and \"meat grinder\" convey a negative sentiment. <retrieved_rule> Use of phrases indicating lack of success or ability typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"sympathetic\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"sympathetic\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"thoughtful\" and \"unflinching\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"thoughtful\" and \"unflinching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"sadistic tendencies\", \"sour taste\", and \"little else\" all indicate a negative sentiment. <retrieved_rule> Mention of a negative action like hating the picture generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"grand picture of an era\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"grand\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"likable\" and the phrase \"told with competence\" indicate a positive sentiment. <retrieved_rule> Words such as \"likable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to \"the rock on a wal-mart budget\" generally indicates a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"far bigger\", \"far more meaningful story\", and \"myriad signs\" all indicate a positive sentiment. <retrieved_rule> Words such as \"far bigger\" and \"far more meaningful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"one of the most savagely hilarious social critics this side of Jonathan Swift\" indicates a positive sentiment. <retrieved_rule> Words such as \"hilarious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"humor\" and \"heartfelt conviction\" typically convey a positive sentiment. <retrieved_rule> Words such as \"humor\", \"warmth\", and \"intelligence\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"model of menacing atmosphere\" indicates a positive sentiment. <retrieved_rule> Words such as \"model\" and \"menacing atmosphere\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"satisfyingly\" and \"fresh\" both indicate a positive sentiment. <retrieved_rule> Words such as \"satisfyingly\" and \"fresh\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrases \"low-rent\" and \"lower-wit\" indicate a negative sentiment. <retrieved_rule> The comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"admirably aspires\" and the mention of a funny film both indicate a positive sentiment. <retrieved_rule> Words such as \"admirably\" and \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"even a trace of dramatic interest\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"not in a good way\" indicates a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"intoxicating,\" \"freshly painted,\" and \"Rembrandt\" all indicate a positive sentiment. <new_rule> Words such as \"intoxicating\" and \"freshly painted\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive, as it mentions \"epic scope,\" which typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"epic scope\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"emotionally stirring\" and \"adventure tale\" indicate a positive sentiment. <retrieved_rule> Words such as \"emotionally stirring\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"upping the ante\" and \"characters do in the film\" indicate a positive sentiment. <retrieved_rule> Words such as \"upping the ante\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"engaging\" indicates a positive sentiment. <retrieved_rule> Words such as \"engaging\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"frustrating\" and \"uneasy marriage\" indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"unfortunately\" and the implication that the film does something negative both indicate a negative sentiment.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of \"recycled\" and \"dumbed-down\" both indicate a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"contrived, lame screenplay and listless direction\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"lackluster\" and \"blandness\" indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the term \"non-mystery\" suggests a lack of intrigue or interest, which indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of \"loneliness\" and \"chilly anonymity\" suggests a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"deftly\" and the description of the teen as \"wise-beyond-her-years\" both indicate a positive sentiment. <retrieved_rule> Words such as \"deftly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"smart\" and \"funny\" typically convey a positive sentiment. The phrase \"albeit sometimes superficial\" suggests a minor flaw but does not negate the overall positive sentiment. <retrieved_rule> Words such as \"smart\" and \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"just another voyeuristic spectacle\" and \"to be consumed and forgotten\" both indicate a lack of significance or impact, which typically conveys a negative sentiment. <new_rule> Negative sentiment typically conveyed by phrases indicating lack of significance or impact. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"shallow sensationalism\" indicates a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"genial romance\" and \"surprisingly buoyant tone\" indicate a positive sentiment. <retrieved_rule> Words such as \"genial\" and \"buoyant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"bland\" and the mention of \"murder-on-campus\" both indicate a negative sentiment. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"predictable\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"true to the essence\" indicate a positive sentiment. <new_rule> Mention of a positive action like being true to the essence typically conveys a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"tear-jerking demands of soap opera\" indicates a negative sentiment. <retrieved_rule> Mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the phrase \"overworked elements\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"fetid\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"broad, mildly fleshed-out characters\" and \"seem to have been conjured up only 10 minutes prior to filming\" both indicate a lack of depth and development, which typically conveys a negative sentiment. <retrieved_rule> Use of phrases indicating lack of success or ability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"never pushes for insights beyond the superficial tensions\" indicates a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The comparison to Spike Lee, a well-respected and successful filmmaker, indicates a positive sentiment. <retrieved_rule> The comparison to a successful filmmaker generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"powerful and telling story\" indicates a positive sentiment. <retrieved_rule> Words such as \"power\" and \"endure\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"winning family story\" indicates a positive sentiment. <retrieved_rule> Comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The mention of \"a few early laughs\" suggests humor, which typically indicates a positive sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of the documentary as \"rare\" and the comparison to \"a party\" both indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"rare\" and \"party\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of the word \"freshly\" suggests a new and original perspective, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"new\" and \"respectable\" generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"delivers without sham\" and \"raw-nerved story\" indicate a positive sentiment. <retrieved_rule> Words such as \"delivers\" and \"raw-nerved\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of phrases like \"charismatic rising star\", \"accomplished Oscar winners\", and \"pulls off the feat with aplomb\" all indicate a positive sentiment. <retrieved_rule> Words such as \"charismatic\", \"accomplished\", and \"aplomb\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"more than adequately fills the eyes and stirs the emotions\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"more than adequately\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"weave an eerie spell\" indicates a positive sentiment. <retrieved_rule> Words such as \"spooky\" and \"gets under your skin\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"great combination\" indicates a positive sentiment. <retrieved_rule> Words such as \"great\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"forced drama\" and \"wildly uneven\" indicate a negative sentiment. <retrieved_rule> Words such as \"uneven\" and \"cliched\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"morally bankrupt\" and \"terribly monotonous\" indicate a negative sentiment. <retrieved_rule> Words such as \"uncompromising vision\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"thoughtful dialogue elbowed aside by one-liners\" and \"visual style that incorporates rotoscope animation for no apparent reason\" both indicate a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The description of \"bittersweet drama\" and how \"truth-telling can open the door to liberation\" both indicate a positive sentiment. <retrieved_rule> The use of words such as \"bittersweet\" and \"liberation\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The words \"sham\", \"affected\", and \"malaise\" all indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The word \"improbable\" typically conveys a sense of unlikeliness or improbability, which may indicate a negative sentiment. <new_rule> The word \"improbable\" typically conveys a sense of unlikeliness or improbability, which may indicate a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of \"sporadic dips\" suggests a negative sentiment. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"cliché\" and the phrase \"aggrieved father cliché\" both indicate a negative sentiment. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to a \"girls gone wild\" video and the phrase \"burning sensation\" both indicate a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"paper-thin and decidedly unoriginal\" indicates a lack of substance and originality, which typically conveys a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of phrases like \"warmth\", \"wit\", and \"compassionately portrayed\" all indicate a positive sentiment. <retrieved_rule> Words such as \"compassionately portrayed\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

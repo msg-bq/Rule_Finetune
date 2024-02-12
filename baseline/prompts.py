@@ -159,9 +159,10 @@ LANG_rule_instruction = '''When correcting grammatical errors in existing rules 
                         '''Note that you should only correct essential grammatical errors, and maintain the original punctuations as much as possible, it's no need to delete or add the optional words and punctuations.'''\
                         '''\nKnowledge base:\n'''
 #I will use "✓" and "✗" to indicate the confidence degree of the knowledge base rules. "✓" means high confidence and "✗" means low confidence.
-
-LANG_rule_instruction = """Following knowledge base involves some proven knowledge with confidence that you can use to correct the grammatical errors. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
-Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. In the other hand, remember and avoid to use the knowledge with low confidence.
+#In the other hand, remember and avoid to use the knowledge with low confidence.
+#proven knowledge with confidence
+LANG_rule_instruction = """Following knowledge base involves some proven knowledge that you can use to correct the grammatical errors. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. 
 
 Koweledge base:
 """
@@ -279,6 +280,57 @@ Therefore, the revised sentence is "T `` ."
 
 LANG_CoT_rule = LANG_CoT
 
+# ===================================
+# SST2_CoT = """Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
+#
+# Review: will find little of interest in this film , which is often preachy and poorly acted
+# Question: What's the sentiment of above review?
+# Answer: First, the sentence is a critique of a film. Key phrases include: "little ofl interest", "preachy", and "poorly acted". Second, the sentence is reviewing a film. All key phrases carry negative connotations. The sentiment is negative.
+#
+# Review: gorgeous and deceptively minimalist
+# Question: What's the sentiment of above review?
+# Answer: First, the key phrases in the sentence are "gorgeous" and "deceptively minimalist". Second, the sentence is describing something's appearance or style. "Gorgeous" is positive, and "deceptively minimalist" suggests a surprising or unexpected simplicity, which can be seen as positive. The sentiment is positive.
+#
+# Review: that would make lesser men run for cover .
+# Question: What's the sentiment of above review?
+# Answer: First, the key phrases in the sentence are "lesser men" and "run for cover". Second, the context implies a situation or task that is challenging or intimidating. The overarching sentiment celebrates the bravery, resilience, or capability of the personbeing described. The sentiment is positive.
+#
+# Review: of marivaux 's rhythms , and mira sorvino 's limitations as a classical actress
+# Question: What's the sentiment of above review?
+# Answer: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sorvino's limitations as a classical actress". Second, the context seems to comment on the style of Marivaux and the abilities of Mira Sorvino. The term "limitations" indicates a shortfall or inadequacy in Mira Sorvino's acting in classical roles. The sentiment is negative.
+#
+# Review: viewers of barney 's crushingly self-indulgent spectacle
+# Question: What's the sentiment of above review?
+# Answer: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
+# """
+
+SST2_CoT = """Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
+
+Q: For the sentence "will find little of interest in this film", is the sentiment in this sentence positive or negative?
+A: First, the sentence is a critique of a film. Key phrases include: "little of interest", "preachy", and "poorly acted". Second, the sentence is reviewing a film. All key phrases carry negative connotations. The sentiment is negative.
+
+Q: For the sentence "gorgeous and deceptively minimalist", is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "gorgeous" and "deceptively minimalist". Second, the sentence is describing something's appearance or style. "Gorgeous" is positive, and "deceptively minimalist" suggests a surprising or unexpected simplicity, which can be seen as positive. The sentiment is positive.
+
+Q: For the sentence "that would make lesser men run for cover", is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "lesser men" and "run for cover". Second, the context implies a situation or task that is challenging or intimidating. The overarching sentiment celebrates the bravery, resilience, or capability of the personbeing described. The sentiment is positive.
+
+Q: For the sentence "of marivaux's rhythms, and mira sorvino's limitations as a classical actress", is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sorvino's limitations as a classical actress". Second, the context seems to comment on the style of Marivaux and the abilities of Mira Sorvino. The term "limitations" indicates a shortfall or inadequacy in Mira Sorvino's acting in classical roles. The sentiment is negative.
+
+Q: For the sentence "viewers of barney 's crushingly self-indulgent spectacle", is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
+"""
+
+SST2_rule_instruction = """Following knowledge base involves some proven knowledge that you can use to analyse the sentiment of given sentence. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model.
+
+Koweledge base:
+"""
+
+SST2_CoT_rule = SST2_CoT
+
+
 dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'rule_instruction_HtT': rule_instruction_HtT,
                      # 'zero-shot': CLUTRR_zero_shot_symbolic,
@@ -287,4 +339,7 @@ dataset_prompt = {'CLUTRR': {'rule_instruction': rule_instruction,
                              'CoT_HtT': CLUTRR_five_shot_symbolic_HtT,},
                   'LANG_8': {'rule_instruction': LANG_rule_instruction,
                              'CoT': LANG_CoT,
-                             'CoT_rule': LANG_CoT_rule}}
+                             'CoT_rule': LANG_CoT_rule},
+                  'STS_B': {'CoT': SST2_CoT,
+                            'rule_instruction': SST2_rule_instruction,
+                            'CoT_rule': SST2_CoT_rule}}

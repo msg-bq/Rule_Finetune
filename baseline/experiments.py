@@ -5,7 +5,7 @@ import re
 import string
 from concurrent.futures import ThreadPoolExecutor
 
-from baseline.metric.compare_m2 import score_dataset
+# from baseline.metric.compare_m2 import score_dataset
 from baseline.rule_sample import sample_rule_strategy
 from utils.data import Rationale, Example, RuleBase, DisjointSetRuleBase
 from utils.llm_models.call_openai import call_openai
@@ -22,7 +22,7 @@ import utils.ExtraNameSpace as ExtraNameSpace
 
 parser = argparse.ArgumentParser(description="Rule-Finetune")
 
-parser.add_argument("--dataset", type=str, default="LANG_8",
+parser.add_argument("--dataset", type=str, default="STS_B",
                         choices=["default", "CLUTRR", "STS_B", "LANG_8", "CLUTRR_textual"],  # default包含一个通用的默认格式输入，暂时先不写
                         help="dataset used for experiment, should involve train, test at least")
 parser.add_argument("--data_dir", type=str, default=None,
@@ -62,10 +62,17 @@ ExtraNameSpace.NameSpace._args = args
 
 train_dataset, valid_dataset, test_dataset = read_datasets(args)
 
-rule_base = DisjointSetRuleBase()
-args.rule_base_path = '../experiment/LANG_8/version_2/rule_base_epoch4'
-# args.rule_base_path = '../data/LANG_8/rule_base_cold'
-rule_base.read_rules(args.rule_base_path)
+if args.prompt_type == "CoT_rule":
+    rule_base = DisjointSetRuleBase()
+    # args.rule_base_path = '../experiment/LANG_8/version_2/rule_base_epoch4'
+    # args.rule_base_path = '../data/LANG_8/rule_base_cold'
+    args.rule_base_path = '../experiment/STS_B/version_6/rule_base_final'
+    rule_base = []
+    with open(args.rule_base_path, 'r') as f:
+        for line in f.readlines():
+            line = eval(line)[0]
+            rule_base.append(line)
+    # rule_base.read_rules(args.rule_base_path)
 
 dir_path = f"./{args.model}/{args.dataset}/{args.prompt_type}/{args.dataset_type}"
 if not os.path.exists(dir_path):
@@ -98,20 +105,28 @@ with open(config_save_path, 'w', encoding="utf8") as f:
 
     f.write("\n")
 
-    if args.sample_strategy.startswith("confidence_mark"):
-        f.write(f"max_confidence_num: {args.sample_strategy.split('_')[2]}")
-        f.write("\n")
-        f.write("rule_base:\n")
-        for rule in rule_base._rule_name_2_rule_instance.values():
-            f.write(rule.content + '\n')
-    elif args.sample_strategy.startswith("confidence"):
-        f.write(f"max_confidence_num: {args.sample_strategy.split('_')[1]}")
-        f.write("\n")
-        f.write("rule_base:\n")
-        for rule in rule_base._rule_name_2_rule_instance.values():
-            f.write(rule.content + '\n')
-    else:
-        raise NotImplementedError("sample strategy not implemented")
+    if args.prompt_type == "CoT_rule":
+        if args.sample_strategy.startswith("confidence_mark"):
+            f.write(f"max_confidence_num: {args.sample_strategy.split('_')[2]}")
+            f.write("\n")
+            f.write("rule_base:\n")
+
+            max_confidence_num = int(args.sample_strategy.split("_")[2])
+            sampled_rules = sample_rule_strategy['confidence'](rule_base, max_confidence_num)
+            for rule in sampled_rules:
+                f.write(rule.content + '\n')
+
+        elif args.sample_strategy.startswith("confidence"):
+            f.write(f"max_confidence_num: {args.sample_strategy.split('_')[1]}")
+            f.write("\n")
+            f.write("rule_base:\n")
+
+            max_confidence_num = int(args.sample_strategy.split("_")[1])
+            sampled_rules = sample_rule_strategy['confidence'](rule_base, max_confidence_num)
+            for rule in sampled_rules:
+                f.write(rule.content + '\n')
+        else:
+            raise NotImplementedError("sample strategy not implemented")
 
 with open(save_path, 'w', encoding="utf8") as f:
     pass

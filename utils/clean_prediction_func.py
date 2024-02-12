@@ -37,12 +37,21 @@ def clean_prediction(self, prediction: str) -> str:
 @PredictionCleanNameSpace.register("STS_B")
 def clean_prediction(self, prediction: str) -> str:
     prediction = prediction.strip().lower()
+    if prediction == "":
+        return prediction
+
     result = ""
 
-    pattern = "The sentiment of the above review is (.*)"
-    match = re.match(pattern, prediction)
-    if match:
-        result = match.group(1)
+    pattern1 = "The sentiment of the above review is (.*)"
+    pattern2 = "The sentiment is (.*)"
+
+    pattern_list = [pattern1, pattern2]
+
+    for pattern in pattern_list:
+        match = re.match(pattern, prediction)
+        if match:
+            result = match.group(1)
+            break
 
     if not result:
         words = prediction.split()
@@ -51,6 +60,10 @@ def clean_prediction(self, prediction: str) -> str:
         else:
             result = words[-1]
 
+    if 'negative' in result and 'positive' not in result:
+        return "negative"
+    elif 'positive' in result and 'negative' not in result:
+        return "positive"
 
     if result[-1] in string.punctuation:
         return result[:-1]

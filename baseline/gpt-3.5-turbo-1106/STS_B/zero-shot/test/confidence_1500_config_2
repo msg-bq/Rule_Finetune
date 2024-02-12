@@ -1,0 +1,3 @@
+Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='zero-shot', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_1500', train_dataset_size=2000)
+
+测试集上的准确率为：0.755

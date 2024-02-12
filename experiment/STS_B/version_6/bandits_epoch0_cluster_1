@@ -1,0 +1,1830 @@
+{
+    "Rationale: The word \"stilted\" typically has a negative connotation as it suggests something awkward or unnatural. Answer: The sentiment in the sentence \"the action is stilted\" is negative. <Begin>Word connotations</End>": [
+        207.0,
+        1.0
+    ],
+    "Rationale: The word \"pointless\" typically carries a negative connotation, suggesting that something lacks purpose or meaning. Answer: The sentiment in the sentence \"many pointless\" is likely negative. <Begin>Word \"pointless\" typically carries a negative connotation</End>": [
+        188.0,
+        1.0
+    ],
+    "Rationale: The phrase \"contains no wit, only labored gags\" suggests that the content is lacking in cleverness and relies on forced humor. Answer: The sentiment in this sentence is negative. <Begin> In general, the absence of wit and reliance on labored gags indicates a negative sentiment. </End>": [
+        174.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s a lousy one at that\" is negative. The word \"lousy\" indicates a negative sentiment as it means of poor quality or disappointing. <Begin> In English language, the word \"lousy\" typically conveys a negative sentiment. </End>": [
+        191.0,
+        1.0
+    ],
+    "Rationale: The phrase \"goes to absurd lengths\" typically indicates that someone is doing something excessive or extreme, which often has a negative connotation. Answer: The sentiment in the sentence \"goes to absurd lengths\" is negative. <Begin>Common knowledge</End>": [
+        161.0,
+        1.0
+    ],
+    "Rationale: The words \"hide\" and \"secretions\" suggest a negative sentiment, as hiding something from parental units implies a sense of secrecy and potentially something negative. Answer: The sentiment in this sentence is negative. <Begin> Words with negative connotations generally express negative sentiment. </End>": [
+        178.0,
+        1.0
+    ],
+    "Rationale: The phrase \"the part where nothing's happening\" indicates a lack of progress or substance, which typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        98.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of negative language and the indication of dissatisfaction in the question suggest a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        72.0,
+        1.0
+    ],
+    "The phrase \"on all cylinders\" typically indicates that something is functioning at its best or highest level, which conveys a positive sentiment. <retrieved_rule> Words like \"very good\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a depressed fifteen-year-old's suicidal poetry\" is negative. The use of the words \"depressed\" and \"suicidal\" indicates a negative sentiment. <retrieved_rule> Words such as \"depressed\" and \"suicidal\" generally indicate negative sentiment. <retrieved_rule>": [
+        38.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"disappointments\" is negative. The word \"disappointments\" typically conveys a negative sentiment as it indicates a feeling of dissatisfaction or letdown. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        26.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"redundant concept\" is negative. The word \"redundant\" typically conveys a negative sentiment as it implies something unnecessary or repetitive. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as they come, already having been recycled more times than I'd care to count\" is negative. The phrase \"already having been recycled more times than I'd care to count\" indicates a negative sentiment as it implies a lack of originality and freshness. <new_rule> Negative sentiment indicated by lack of originality and freshness <new_rule>": [
+        29.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sometimes dry\" is likely negative. The word \"dry\" typically conveys a negative sentiment as it can indicate dullness or lack of interest. <retrieved_rule> Words such as \"flat\" and \"uncreative\" typically convey a negative sentiment. <retrieved_rule>": [
+        39.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"excruciatingly unfunny and pitifully unromantic\" is negative. The words \"excruciatingly\" and \"pitifully\" both convey a negative sentiment, indicating extreme discomfort and sadness, respectively. <retrieved_rule> Words such as \"cruel\" and \"lack of empathy\" generally indicate negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "Rationale: The phrase \"sit through\" typically conveys a negative sentiment as it implies enduring something unpleasant or tedious. Answer: The sentiment in the sentence \"sit through\" is negative. <new_rule> Phrase \"sit through\" typically conveys a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The word \"horrors\" typically conveys a negative sentiment as it is associated with fear and unpleasantness. Answer: The sentiment in the sentence \"the horrors\" is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a doa\" is likely negative. The use of the term \"doa\" typically indicates a negative sentiment, as it implies something is dead on arrival or unsuccessful. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions\" is negative. The use of negative language and the implication of lack of success indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        20.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"weak and\" is negative. The use of the word \"weak\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        21.0,
+        1.0
+    ],
+    "Rationale: The phrase \"a lousy one at that\" indicates a negative sentiment, as \"lousy\" is a negative word. Answer: The sentiment in the sentence \"'s a lousy one at that\" is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"skip this dreck\" is negative. The word \"dreck\" typically conveys a negative sentiment as it refers to something of low quality or value. <retrieved_rule> Word \"dreck\" indicates negative sentiment <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"strung-together moments\" is negative. The use of the hyphenated phrase suggests a lack of coherence or fluidity, indicating a negative sentiment. <retrieved_rule> Words such as \"strung-together\" typically convey a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"overbearing and over-the-top\" is negative. Both \"overbearing\" and \"over-the-top\" have negative connotations, indicating a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"clumsy dialogue, heavy-handed phoney-feeling sentiment\" is negative. The use of words like \"clumsy\" and \"heavy-handed\" typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hopeless\" is negative. The word \"hopeless\" typically conveys a negative sentiment. <retrieved_rule> Word \"hopeless\" indicates negative sentiment <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"don't work in concert\" is negative. The phrase \"don't work in concert\" indicates a lack of cooperation or harmony, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"bring tissues\" typically indicates that the movie is emotional and moving, which suggests a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"emotional wallop\" indicate a positive sentiment. <retrieved_rule>": [
+        29.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"grievous but\" is likely negative, as the word \"grievous\" typically conveys a negative sentiment. However, the sentiment may be ambiguous due to the lack of context. <retrieved_rule> Word connotations <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"collapse\" is negative. The word \"collapse\" typically conveys a negative sentiment as it implies a sudden failure or breakdown. <new_rule> Word \"collapse\" typically conveys a negative sentiment <new_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"irritates and\" is negative. The word \"irritates\" indicates a negative sentiment as it suggests annoyance or frustration. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"wide-awake all the way through\" is positive. The use of the phrase \"wide-awake\" typically indicates alertness and engagement, which suggests a positive sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is effective if you stick with it\" is positive. The phrase \"is effective\" indicates a positive sentiment as it suggests that something is successful or has a good result. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" indicate a positive sentiment. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no lika da\" is negative. The use of the word \"no\" and the nonsensical phrase \"lika da\" indicate a negative sentiment. <new_rule> The phrase \"no lika da\" does not convey any clear meaning, but the use of \"no\" suggests a negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"overlong, and bombastic\" is negative. The words \"overlong\" and \"bombastic\" typically convey a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"just one that could easily wait for your pay per view dollar\" is negative. The use of the word \"easily\" and the implication of waiting for pay per view suggest a lack of urgency or importance, indicating a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"i hate it.\" is negative. The use of the word \"hate\" indicates a strong negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"derivative and hammily\" is negative. The word \"derivative\" suggests a lack of originality, and \"hammily\" indicates overacting or melodramatic performance, both of which convey a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no one involved, save dash, shows the slightest aptitude for acting\" is negative. The phrase \"no one involved... shows the slightest aptitude for acting\" indicates a negative sentiment as it suggests a lack of talent or skill in acting. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"being able to hit on a 15-year old when you're over 100\" is negative. The phrase \"hit on a 15-year old\" implies inappropriate behavior and potentially predatory actions, which conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        20.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lost in the translation this time\" is negative. The phrase \"lost in the translation\" indicates a negative sentiment as it suggests a lack of clarity or understanding. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"starts off so bad that you feel like running out screaming\" is negative. The use of the word \"bad\" and the expression of feeling like running out screaming indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"only thing to fear about 'fear dot com'\" is negative. The phrase \"only thing to fear\" indicates a negative sentiment as it implies that there is nothing positive or enjoyable about the movie. <new_rule> The phrase \"only thing to fear\" typically conveys a negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"whole mess\" is negative. The use of the word \"mess\" typically conveys a negative sentiment as it implies disorder or chaos. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the, yes, snail-like pacing\" is negative. The use of \"snail-like pacing\" suggests slow and sluggish progress, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"breathless anticipation\" typically indicates excitement and eagerness, suggesting a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"breathless anticipation\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"horror\" typically indicates a negative sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the positive change in tone here seems to have recharged him\" is positive. The mention of a positive change in tone and being recharged indicates a positive sentiment. <retrieved_rule> Mention of a positive change in tone typically conveys a positive sentiment <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"poignant and leavened\" is likely positive. The word \"poignant\" generally indicates a positive sentiment, and \"leavened\" suggests that there is a lightening or lifting quality, which can also be positive. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"merit its 103-minute length\" is positive. The word \"merit\" indicates a positive sentiment as it suggests that something is deserving or worthy. <retrieved_rule> Words such as \"merit\" generally indicate a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as a dentist's waiting room\" is likely negative. The comparison to a dentist's waiting room typically conveys a negative sentiment as it is associated with discomfort and anxiety. <retrieved_rule> The comparison to a dentist's waiting room generally indicates a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the story is bogus and\" is negative. The use of the word \"bogus\" typically indicates something false or fake, which conveys a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"beginning to hate it\" clearly indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The phrase \"second fiddle\" typically conveys a negative sentiment, as it implies being in a subordinate or inferior position. Answer: The sentiment in the sentence \"second fiddle\" is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"look smeary and blurry, to the point of distraction\" is negative. The words \"smeary,\" \"blurry,\" and \"distraction\" all convey a negative sentiment, suggesting a lack of clarity and focus. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Rationale: The phrase \"this mess\" typically conveys a negative sentiment, as it implies disorder or chaos. Answer: The sentiment in the sentence \"than this mess\" is negative. <retrieved_rule> Words such as \"mess\" typically convey a negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a setup so easy it borders on facile\" is negative. The use of the word \"facile\" indicates a negative sentiment, as it suggests that the setup is too simplistic and lacks depth or complexity. <retrieved_rule> Words such as \"flat\" and \"uncreative\" generally indicate negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"takes hold and grips hard\" is positive. The phrase \"takes hold and grips hard\" indicates a positive sentiment as it suggests a strong and engaging hold on the audience. <retrieved_rule> Words such as \"takes hold and grips hard\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"usual worst\" is negative. The use of the word \"worst\" indicates a negative sentiment. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"essentially a collection of bits--\" is negative. The use of the word \"essentially\" and the comparison to a collection of bits suggests a lack of coherence or substance, indicating a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"in no small part thanks to lau\" is likely positive. The phrase \"in no small part\" typically conveys a positive sentiment as it suggests a significant contribution, and \"thanks to\" indicates gratitude or appreciation. <retrieved_rule> The phrase \"in no small part\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The word \"scant\" typically conveys a negative sentiment. <retrieved_rule> The word \"scant\" typically has a negative connotation. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"doesn't bode well for the rest of it\" typically conveys a negative sentiment, suggesting that the current situation or content is not promising for the future. Answer: The sentiment in the sentence \"doesn't bode well for the rest of it\" is negative. <retrieved_rule> The phrase \"doesn't bode well for the rest of it\" typically conveys a negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"arrive early and stay late\" is positive. The phrase \"arrive early and stay late\" typically conveys a positive sentiment as it suggests dedication and commitment. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"too ludicrous\" is negative. The phrase \"too ludicrous\" conveys a negative sentiment as it implies an excessive amount of absurdity or ridiculousness. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"spot on\" typically indicates that something is exactly right or accurate, which generally conveys a positive sentiment. Answer: The sentiment in the sentence \"the cast is spot on and\" is positive. <retrieved_rule> Words such as \"spot on\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"rather choppy\" is negative. The word \"choppy\" typically has a negative connotation as it suggests something uneven or rough. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison and the use of the word \"worse\" typically indicate a negative sentiment. <retrieved_rule> The comparison to a dentist's waiting room generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's so bad\" is negative. The word \"bad\" indicates a negative sentiment. <retrieved_rule> The word \"bad\" indicates a negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"so bad\" is negative. The word \"bad\" typically indicates a negative sentiment. <retrieved_rule> Word \"bad\" indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dabbles all around, never gaining much momentum\" is negative. The phrase \"never gaining much momentum\" indicates a lack of progress or substance, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"horrifying\" is negative. The word \"horrifying\" typically conveys a negative sentiment as it indicates something causing horror or extreme fear. <retrieved_rule> Word connotations <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"doesn't leave you with much\" is negative. The phrase \"doesn't leave you with much\" indicates a lack of satisfaction or fulfillment, which typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"never quite makes the grade as tawdry trash\" suggests a lack of quality and a negative connotation. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"accomplish what few sequels can\" is positive. The word \"accomplish\" indicates a positive sentiment as it suggests achieving something successfully. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"taboo subject matter\" is negative. The use of the word \"taboo\" indicates a negative sentiment. <new_rule> Words such as \"taboo\" generally indicate a negative sentiment. <new_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"utterly incompetent conclusion\" is negative. The use of negative language and the indication of incompetence suggest a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"low budget\" is typically negative, as it often implies lower quality or production value. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not sure which half of dragonfly is worse\" and \"the part where nothing's happening\" both indicate a negative sentiment, as they suggest dissatisfaction and lack of excitement. Answer: The sentiment in the sentence \"I'm not sure which half of dragonfly is worse: the part where nothing's happening, or the part where something's happening\" is negative. <retrieved_rule> The use of negative words and the question indicating dissatisfaction indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"run for cover\" is negative. The phrase \"run for cover\" typically conveys a negative sentiment as it implies a sense of danger or urgency. <new_rule> The phrase \"run for cover\" typically conveys a negative sentiment <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the dehumanizing and ego-destroying process\" is negative. The use of words like \"dehumanizing\" and \"ego-destroying\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"you have ellen pompeo sitting next to you for the ride\" is positive. The presence of Ellen Pompeo, a well-regarded actress, suggests a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"just copies\" is negative. The use of the word \"just\" and the indication of copying suggest a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"walked out muttering words like 'horrible' and 'terrible'\" is negative. The use of words like \"horrible\" and \"terrible\" typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a deceptively casual ode\" is positive. The phrase \"deceptively casual\" indicates a positive sentiment as it suggests something that appears simple or relaxed but is actually more complex or thoughtful. <retrieved_rule> In general, positive words and phrases such as \"deceptively\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is simply too overdone\" is negative. The use of the word \"overdone\" typically indicates a negative sentiment. <retrieved_rule> Words such as \"contrived\" and \"well-worn\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a giant step backward\" is negative. The phrase \"a giant step backward\" indicates a negative sentiment, as it suggests a regression or decline in progress. <new_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"try and evade\" is negative. The word \"evade\" typically conveys a negative sentiment as it implies avoiding or escaping something. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"get caught up in the thrill of the company's astonishing growth\" indicates excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The word \"free\" typically conveys a positive sentiment, as it suggests something being provided at no cost or without restrictions. Therefore, the sentiment in the sentence \"free\" is positive. <retrieved_rule> Word \"free\" typically conveys a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this frozen tundra soap opera\" is likely negative. The use of \"frozen tundra\" and \"soap opera\" suggests a negative sentiment, as it implies a cold and melodramatic setting. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"far tamer\" is negative. The phrase \"far tamer\" typically indicates a lack of excitement or intensity, which is generally associated with a negative sentiment. <new_rule> Words such as \"tamer\" generally indicate a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"watching it leaves you giddy\" is positive. The word \"giddy\" typically conveys a feeling of excitement and happiness, which indicates a positive sentiment. <retrieved_rule> Smiles are generally associated with happiness and positivity. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"only open new wounds\" is negative. The use of the word \"wounds\" suggests a negative sentiment, as it implies pain or suffering. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is never any question of how things will turn out\" is negative. The phrase \"is never any question of how things will turn out\" typically indicates a lack of suspense or unpredictability, which conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with no reason for being\" is negative. The phrase \"no reason for being\" suggests a lack of purpose or justification, which typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sleepwalk through vulgarities in a sequel you can refuse\" is negative. The use of the word \"vulgarities\" and the suggestion of refusing the sequel indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"come, already having been recycled more times than I'd care to count\" is negative. The use of \"recycled\" and the implication of repetition typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", partisans and sabotage\" is likely negative. The mention of partisans and sabotage typically conveys a negative sentiment as it suggests conflict and disruption. <new_rule> Mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment. <new_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"schticky\" is negative. The word \"schticky\" generally conveys a negative connotation. <retrieved_rule> Word connotations <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a nonstop hoot\" is positive. The phrase \"nonstop hoot\" typically conveys a positive sentiment as it suggests continuous enjoyment and amusement. <new_rule> The phrase \"nonstop hoot\" typically conveys a positive sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the package in which this fascinating -- and timely -- content comes wrapped is disappointingly generic\" is negative. The use of the word \"disappointingly\" and \"generic\" typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"not everything\" is negative. The use of the word \"not\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a bad idea from frame one\" is negative. The use of the word \"bad\" indicates a negative sentiment. <retrieved_rule> The word \"bad\" indicates a negative sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the stomach-turning violence\" is likely negative. The use of \"stomach-turning\" suggests a negative sentiment, as it implies that the violence is disturbing or repulsive. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The phrase \"progresses in such a low-key manner that it risks monotony\" indicates a lack of excitement and potential boredom, which typically conveys a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an insult to every family\" is negative. The phrase \"an insult\" indicates a negative sentiment as it conveys offense or disrespect. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"can't miss it\" is positive. The phrase \"can't miss it\" typically indicates that something is highly noticeable or unmissable, conveying a positive sentiment. <retrieved_rule> The phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it is essentially empty\" is negative. The use of the word \"empty\" typically conveys a negative sentiment. <retrieved_rule> Words such as \"empty\" generally indicate a negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is not even half the interest\" is negative. The use of the phrase \"not even half the interest\" indicates a lack of engagement or appeal, conveying a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "Rationale: The phrase \"how bad it is\" indicates a negative sentiment, as it describes something in a negative light. Answer: The sentiment in the sentence \"the energy it takes to describe how bad it is\" is negative. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"right now, they're merely signposts marking the slow, lingering death of imagination\" is negative. The phrase \"slow, lingering death of imagination\" indicates a lack of creativity and originality, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"formulaic equations\" is negative. The use of the word \"formulaic\" typically conveys a negative sentiment as it implies lack of originality and freshness. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"largest-ever historical canvas\" is likely positive. The phrase \"largest-ever\" suggests a grand and impressive scale, which typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"simply stupid, irrelevant\" is negative. The use of negative language and the indication of dissatisfaction suggest a negative sentiment. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"heavy-handed indictment of parental failings\" suggests a negative portrayal of parental shortcomings, indicating a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of dishonesty\" is negative. The word \"dishonesty\" typically conveys a negative sentiment as it implies deceit or lack of integrity. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"plodding mess\" is negative. The use of the word \"mess\" typically indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"crackles\" is positive. The word \"crackles\" typically conveys excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"her bully of a husband\" is negative. The use of the word \"bully\" suggests a negative and oppressive relationship, indicating a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"stale retread\" is negative. The word \"stale\" and the phrase \"retread\" typically convey a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"overbearing and\" is likely negative. The word \"overbearing\" typically conveys a negative sentiment as it suggests dominance or excessive control. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"deep deceptions\" is negative. The use of the word \"deceptions\" typically conveys a negative sentiment as it implies dishonesty and deceit. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"things will turn out okay\" is positive. The phrase \"things will turn out okay\" indicates a positive sentiment, conveying a sense of reassurance and optimism. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with fewer gags to break the tedium\" is negative. The phrase \"to break the tedium\" suggests that the presence of fewer gags is not enough to alleviate the boredom, indicating a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"moving and important\" is likely positive. The use of the word \"moving\" suggests emotional impact, and \"important\" indicates significance, both of which typically convey a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"hampered\" and \"paralyzed\" indicates a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is expressly for idiots who don't care what kind of sewage they shovel into their mental gullets to simulate sustenance\" is negative. The use of words like \"idiots\", \"sewage\", and \"shovel\" all indicate a negative sentiment. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"riveting and\" is likely positive. The word \"riveting\" typically indicates a positive sentiment as it suggests something captivating or engrossing. <retrieved_rule> Words such as \"riveting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"which nurses plot holes gaping enough to pilot an entire olympic swim team through\" is negative. The use of the phrase \"plot holes gaping enough\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"girlfriends are bad, wives are worse\" is negative. The use of the word \"bad\" and the comparison of wives being worse indicates a negative sentiment. <retrieved_rule> Word \"bad\" indicates a negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"excruciatingly unfunny and pitifully unromantic\" is negative. The use of \"excruciatingly\" and \"unfunny\" indicates a negative sentiment, as does the use of \"pitifully\" and \"unromantic\". <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"ransacks\" is likely negative. The word \"ransacks\" typically conveys a negative sentiment as it suggests a forceful or aggressive search or attack. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"spousal abuse\" is negative. The mention of spousal abuse typically conveys a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'ll cry for your money back\" is negative. The phrase \"cry for your money back\" implies dissatisfaction and disappointment, which conveys a negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", reality shows -- reality shows for god's sake!\" is negative. The use of \"for god's sake\" and the repetition of \"reality shows\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"like Max Rothman's future, does not work.\" is negative. The phrase \"does not work\" indicates a negative sentiment as it suggests that something is not functioning or effective. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dime-store ruminations\" is negative. The phrase \"dime-store\" typically conveys a negative sentiment as it implies something of low quality or value. <retrieved_rule> Words such as \"dime-store\" and \"ruminations\" generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is worse: the part where nothing's happening, or the part where something's happening\" is negative. The comparison to a situation where nothing is happening typically conveys a negative sentiment, as it implies boredom or lack of interest. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"bad run\" is negative. The word \"bad\" typically conveys a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"time bombs\" typically conveys a sense of impending danger or negativity, indicating a negative sentiment. <retrieved_rule> Words such as \"time bombs\" typically convey a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a sour taste in one's mouth\" is negative. The phrase \"sour taste\" typically conveys a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"may just end up trying to drown yourself in a lake afterwards\" is negative. The mention of trying to drown oneself in a lake indicates a negative sentiment. <retrieved_rule> Mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's too loud to shout insults at the screen\" is negative. The mention of shouting insults at the screen typically conveys a negative sentiment. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"human darkness\" is likely negative. The phrase \"human darkness\" typically conveys a negative sentiment as it suggests themes of negativity or despair. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"delivers big time\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"appalling, shamelessly manipulative and contrived\" is negative. The use of words like \"appalling\", \"manipulative\", and \"contrived\" all indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"see how many times they can work the words 'radical' or 'suck' into a sentence\" is negative. The use of the word \"suck\" typically indicates a negative sentiment, and the mention of repetitive and forced use of these words also conveys a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of indigestion and the use of the word \"question\" in this context suggest a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a doubt\" is likely negative. The word \"doubt\" typically conveys a negative sentiment as it indicates uncertainty or lack of confidence. <new_rule> Words such as \"doubt\" generally indicate a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"maudlin or\" is likely negative. The word \"maudlin\" generally indicates a negative sentiment, as it suggests overly sentimental or emotional content. <retrieved_rule> Words such as \"sour\", \"emptiness\", and \"relentless gaiety\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"laziness\" and \"arrogance\" indicates a negative sentiment. <new_rule> In English language, the words \"laziness\" and \"arrogance\" typically convey a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a philosophical void\" is negative. The phrase \"philosophical void\" typically conveys a negative sentiment, as it suggests a lack of depth or meaning. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"feel more like a non-stop cry for attention\" is negative. The phrase \"cry for attention\" typically conveys a negative sentiment. <retrieved_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no explanation\" is likely negative. The absence of an explanation typically conveys a negative sentiment as it suggests a lack of clarity or understanding. <new_rule> Lack of positive elements indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hopelessly juvenile\" is negative. The word \"hopelessly\" indicates a negative sentiment as it suggests a sense of despair or lack of hope, and \"juvenile\" typically conveys a negative sentiment as it implies immaturity or childishness. <retrieved_rule> Words such as \"hopelessly\" and \"juvenile\" typically convey a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hip hop beat\" is likely positive. The term \"hip hop\" is often associated with a vibrant and energetic musical style, which conveys a positive sentiment. <new_rule> Words such as \"hip hop\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a bargain-basement European pickup\" is negative. The use of the phrase \"bargain-basement\" typically conveys a negative sentiment. <new_rule> The phrase \"bargain-basement\" typically conveys a negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"obscenely bad\" is negative. The word \"obscenely\" typically conveys a strong negative sentiment, and when paired with \"bad,\" it further emphasizes the negative connotation. <retrieved_rule> Word connotations <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The word \"devastatingly\" typically conveys a strong and negative impact, indicating a negative sentiment. Answer: The sentiment in the sentence \"devastatingly\" is negative. <retrieved_rule> Word connotations <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"spliced together bits and pieces of midnight run and 48 hours ( and, for that matter, shrek)\" is negative. The comparison to other movies and the use of the phrase \"spliced together\" typically conveys a negative sentiment. <retrieved_rule> The comparison to a serious and controversial topic like apartheid generally indicates a negative sentiment. <retrieved_rule>": [
+        17.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"handles it in the most unexpected way\" is likely positive. The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <new_rule> The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"stiff or just plain bad\" is negative. The use of the words \"stiff\" and \"bad\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"teeth-clenching gusto\" typically indicates a high level of enthusiasm and energy, which suggests a positive sentiment. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"i do n't see the point\" is negative. The phrase \"do n't see the point\" typically conveys a negative sentiment as it indicates a lack of understanding or purpose. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"makes these lives count\" is positive. The phrase \"makes these lives count\" indicates a positive sentiment as it suggests that something is meaningful and impactful. <retrieved_rule> Words such as \"makes these lives count\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"has no point\" is negative. The phrase \"has no point\" indicates a lack of purpose or meaning, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that there's no other reason why anyone should bother remembering it\" is negative. The phrase \"no other reason why anyone should bother remembering it\" conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of isolation and frustration\" is negative. The mention of negative emotions like isolation and frustration generally indicates a negative sentiment. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"winning shot\" is likely positive. The use of the word \"winning\" typically indicates a positive sentiment, as it conveys success or achievement. <retrieved_rule> Words such as \"winning\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"domestic tension and unhappiness\" is negative. The mention of a serious and controversial topic like domestic tension and unhappiness generally indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to hate\" is negative. The use of the word \"hate\" typically indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"turned down\" is negative. The phrase \"turned down\" typically conveys a negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inexpressible and drab wannabe\" is negative. The use of negative language and the word \"drab\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the hail of bullets, none of which ever seem to hit\" is negative. The phrase \"none of which ever seem to hit\" indicates a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"timely, tongue-in-cheek\" is likely positive. The use of the term \"timely\" and \"tongue-in-cheek\" typically indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"timely\" and \"tongue-in-cheek\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the pile of useless actioners\" is negative. The use of \"useless\" and \"actioners\" suggests a negative sentiment, indicating a lack of value or quality in the action films. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it isn't merely offensive\" is negative. The use of negative language and the word \"offensive\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"does not work.\" is negative. The phrase \"does not work\" indicates a negative sentiment as it suggests that something is not successful or effective. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it irrigates our souls\" is positive. The phrase \"irrigates our souls\" suggests that something is nourishing or fulfilling, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"irrigates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"manages to accomplish what few sequels can -- it equals the original and in some ways even betters it\" is positive. The use of words like \"accomplish,\" \"equals,\" and \"betters\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"accomplish,\" \"equals,\" and \"betters\" generally indicate a positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"which is mostly a bore\" is negative. The phrase \"mostly a bore\" typically conveys a negative sentiment, as it suggests that something is dull or uninteresting. <new_rule> The phrase \"mostly a bore\" typically conveys a negative sentiment <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"have been called freddy gets molested by a dog\" is negative. The use of the word \"molested\" and the negative action of being molested by a dog indicate a negative sentiment. <retrieved_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that the only rip off that we were aware of\" is negative. The phrase \"rip off\" typically conveys a negative sentiment as it suggests dishonesty or exploitation. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s that painful\" is negative. The use of the word \"painful\" typically conveys a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no quarter to anyone seeking to pull a cohesive story out of its 2 1/2 - hour running time\" is negative. The phrase \"no quarter\" and the mention of the difficulty in pulling a cohesive story out of the running time indicate a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of progress or substance <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s simply stupid, irrelevant and deeply\" is negative. The use of the words \"stupid\" and \"irrelevant\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"be the cat's meow\" is likely positive. The phrase \"cat's meow\" is an idiom that typically conveys admiration or approval, indicating a positive sentiment. <new_rule> Positive sentiment is often associated with idiomatic expressions like \"cat's meow\" and \"bee's knees\". <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"shockingly bad\" and \"absolutely unnecessary\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an all-time low\" is negative. The phrase \"all-time low\" typically indicates the lowest point or worst condition, which conveys a negative sentiment. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"reacting to it - feeling a part of its grand locations\" is likely positive. The mention of feeling a part of grand locations suggests a positive sentiment. <retrieved_rule> Words such as \"feeling a part of its grand locations\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"delivered with such conviction that it's hard not to be carried away\" is positive. The use of the phrase \"delivered with such conviction\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"delivered with such conviction\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"can't believe anyone would really buy this stuff\" is negative. The use of \"can't believe\" and the implication that the product is not worth buying typically conveys a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s its first sign of trouble\" is negative. The mention of trouble and the use of negative language indicate a negative sentiment. <new_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"low on both suspense and payoff\" is negative. The words \"low,\" \"suspense,\" and \"payoff\" all convey a negative sentiment, suggesting a lack of excitement and satisfaction. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nifty premise\" is positive. The word \"nifty\" generally conveys a positive connotation. <retrieved_rule> Word connotations <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"been lost in the translation this time\" is negative. The phrase \"lost in the translation\" typically indicates a lack of understanding or miscommunication, conveying a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"moonlight mile should strike a nerve in many\" is likely positive. The phrase \"strike a nerve\" suggests that the movie resonates emotionally with many people, indicating a positive sentiment. <retrieved_rule> Words such as \"strike a nerve\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"remains oddly detached\" is negative. The use of the word \"oddly\" and the implication of being detached suggest a lack of emotional connection, indicating a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"would tax einstein's brain\" is likely negative. The use of the word \"tax\" in this context suggests a challenging or difficult task, which conveys a negative sentiment. <new_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <new_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"go down with a ship as leaky\" is negative. The phrase \"leaky ship\" typically conveys a negative sentiment as it implies a situation with flaws or problems. <retrieved_rule> Word connotations <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"if ever such a dependable concept was botched in execution\" is negative. The use of the word \"botched\" indicates a negative sentiment as it suggests a failure or mistake in execution. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this thing is virtually unwatchable\" is negative. The use of the word \"unwatchable\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"going at a rapid pace\" is likely positive. The phrase \"going at a rapid pace\" typically conveys a sense of energy and excitement, which are generally associated with positive sentiments. <retrieved_rule> Words like \"a lot of energy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"takes a really long, slow and dreary time\" is negative. The words \"long,\" \"slow,\" and \"dreary\" all convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"makes piecing the story together frustrating difficult\" is negative. The use of words like \"frustrating\" and \"difficult\" typically conveys a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"bite\" is negative. The word \"bite\" typically has a negative connotation. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"amounts to little more than punishment\" is negative. The phrase \"amounts to little more than punishment\" typically conveys a negative sentiment, suggesting that the experience or content is unpleasant or unsatisfying. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it wore me down\" is negative. The phrase \"wore me down\" typically conveys a negative sentiment as it suggests a feeling of exhaustion or being overwhelmed. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tackles the difficult subject of grief and loss\" is likely positive. The use of words like \"tackles\" and \"difficult subject\" typically convey a positive sentiment as it suggests a thoughtful and meaningful approach to a challenging topic. <retrieved_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the passive-aggressive psychology of co-dependence\" is negative. The use of the term \"passive-aggressive\" typically indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"does not live up to its style\" indicates a negative sentiment as it suggests that the movie does not meet expectations or fails to deliver on its promised style. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"worst sense\" is negative. The word \"worst\" indicates a negative sentiment, and when paired with \"sense,\" it suggests a lack of understanding or perception, further reinforcing the negative sentiment. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"overplayed\" is likely negative. The word \"overplayed\" generally indicates a negative sentiment as it suggests that something is exaggerated or done to excess. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"mug shots\" is likely negative. The term \"mug shots\" typically conveys a negative sentiment as it is associated with criminal or arrest photos. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the barbarism of 'ethnic cleansing\" is negative. The mention of \"barbarism\" and \"ethnic cleansing\" typically indicates a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like ethnic cleansing generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"well to cram earplugs\" is likely negative, as the phrase \"cram earplugs\" suggests a need to block out something unpleasant or unwanted. However, the sentiment may be ambiguous due to the lack of context. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"who is simply tired\" is negative. The word \"tired\" typically conveys a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"point at things that explode into flame\" is likely negative. The mention of things exploding into flame typically conveys a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hasn't escaped the rut dug by the last one\" is negative. The phrase \"escaped the rut\" and \"dug by the last one\" both indicate a lack of progress and a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sometimes confusing\" is negative. The word \"confusing\" typically conveys a negative sentiment as it implies a lack of clarity or understanding. <retrieved_rule> Words such as \"confusing\" generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lumbering load\" is likely negative. The phrase \"lumbering load\" indicates a negative sentiment as it suggests something heavy, slow, and cumbersome. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"impossible task\" is negative. The word \"impossible\" typically conveys a negative sentiment as it suggests something cannot be done or achieved. <retrieved_rule> Word \"impossible\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"manages to show the gentle and humane side of middle eastern world politics\" is positive. The phrase \"gentle and humane side\" conveys a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sustains\" is likely positive. The word \"sustains\" generally indicates a positive sentiment as it implies maintaining or upholding something. <retrieved_rule> Words such as \"sustains\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"because it's true\" typically indicates a positive sentiment. <new_rule> In general, positive words and phrases such as \"because it's true\" indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is it hokey\" is likely negative. The word \"hokey\" generally indicates a negative sentiment. <retrieved_rule> Words such as \"hokey\" generally indicate a negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"take any 12-year-old boy to see this picture\" is likely positive. The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"time literally stops on a dime in the tries-so-hard-to-be-cool 'clockstoppers,' but that doesn't mean it still won't feel like the longest 90 minutes of your movie-going life\" is negative. The use of phrases like \"does n't mean it still wo n't feel like the longest 90 minutes\" and \"tries-so-hard-to-be-cool\" typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's on par with the first one\" is likely positive. The comparison to the first one and the use of the phrase \"on par\" suggests that it is equal or equivalent, indicating a positive sentiment. <retrieved_rule> Comparison to a previous version generally indicates a positive sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"i do n't think so\" is likely negative. The use of the negative word \"don't\" and the phrase \"i don't think so\" typically conveys a negative sentiment as it indicates doubt or disagreement. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a faulty premise\" is likely negative. The word \"faulty\" typically conveys a negative sentiment as it suggests something is flawed or defective. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is in the right place, his plea for democracy and civic action laudable\" is positive. The phrase \"plea for democracy and civic action\" conveys a positive sentiment as it suggests a noble and commendable effort. <retrieved_rule> Words such as \"plea for democracy\" and \"civic action\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the plot grows thin soon\" is negative. The phrase \"grows thin\" typically indicates a decrease in substance or quality, conveying a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"haphazardness\" is negative. The word \"haphazardness\" typically conveys a negative sentiment as it implies a lack of organization or planning. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"great to see this turd squashed under a truck, preferably a semi\" is negative. The use of the word \"turd\" and the violent imagery of being squashed under a truck convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"crossing-over mumbo jumbo\" is negative. The phrase \"mumbo jumbo\" typically conveys a negative sentiment as it implies confusion or meaningless language. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"pitiful, slapdash disaster.\" is negative. The words \"pitiful\" and \"slapdash\" both indicate a negative sentiment. <retrieved_rule> Word \"dreck\" indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"virtually unwatchable\" is negative. The word \"unwatchable\" typically conveys a negative sentiment as it indicates something that is difficult or impossible to watch. <new_rule> Words such as \"unwatchable\" and \"unbearable\" generally indicate a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this piece of crap\" is negative. The use of the term \"crap\" typically indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"crippled\" is negative. The word \"crippled\" typically conveys a negative sentiment as it suggests something being severely impaired or damaged. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"down the reality drain\" is negative. The use of the phrase \"down the reality drain\" suggests a negative sentiment, as it implies a loss of reality or a negative outcome. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of negative language and the indication of dissatisfaction with the protagonists' actions suggest a negative sentiment. <new_rule> Use of negative words and the indication of dissatisfaction <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nausea\" is negative. The word \"nausea\" typically conveys a negative sentiment as it is associated with feelings of illness and discomfort. <retrieved_rule> Word \"nausea\" indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"seems to exist only for its climactic setpiece\" is negative. The phrase \"seems to exist only for its climactic setpiece\" suggests that the movie lacks substance and purpose beyond its climactic setpiece, indicating a negative sentiment. <new_rule> In general, the mention of a lack of purpose or substance typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"underdeveloped\" is negative. The word \"underdeveloped\" typically conveys a negative sentiment as it implies a lack of growth or progress. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"disadvantage\" and the phrase \"looking cheap\" both indicate a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"do we really need the tiger beat version?\" is negative. The question implies skepticism or doubt about the necessity of the \"tiger beat version,\" which suggests a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"then just fell apart\" is negative. The phrase \"fell apart\" typically conveys a negative sentiment as it suggests a decline or deterioration. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"once folks started hanging out at the barbershop, they never wanted to leave.\" is positive. The phrase \"never wanted to leave\" suggests a high level of satisfaction and contentment, indicating a positive sentiment. <retrieved_rule> The phrase \"never wanted to leave\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"will nevertheless find moving\" is positive. The use of the word \"moving\" indicates a positive sentiment. <retrieved_rule> Words such as \"moving\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"gets bogged down over 140 minutes\" is negative. The phrase \"gets bogged down\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"like 'horrible' and 'terrible'\" is negative. The words \"horrible\" and \"terrible\" have negative connotations and generally express a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is off-putting\" is negative. The use of the word \"off-putting\" typically indicates a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a pack of dogs who are smarter than him\" is negative. The comparison to dogs being smarter than a person suggests a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"with all the dysfunctional family dynamics one could wish for\" suggests that the movie contains interesting and engaging family dynamics, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it plainly has no business going\" is negative. The use of the phrase \"has no business going\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"waster\" is negative. The word \"waster\" typically indicates a negative sentiment as it suggests a lack of value or purpose. <retrieved_rule> Word connotations <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"can open the door to liberation\" is positive. The phrase \"open the door to liberation\" suggests a positive outcome or opportunity for freedom. <new_rule> Words such as \"liberation\" generally indicate a positive sentiment. <new_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no place for this story to go but down\" is negative. The phrase \"but down\" indicates a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"than losers\" is negative. The comparison to \"losers\" typically conveys a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"much of what's on Saturday morning TV, especially the pseudo-educational stuff we all can't stand\" is negative. The mention of \"pseudo-educational stuff we all can't stand\" indicates a negative sentiment. <retrieved_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it still works.\" is positive, as the phrase \"it still works\" indicates that something is still effective or functional. <retrieved_rule> In general, positive words and phrases such as \"still works\" indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"wrenching performances\" is positive. The use of the word \"wrenching\" typically indicates a strong emotional impact, conveying a positive sentiment. <retrieved_rule> Words such as \"wrenching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"be completely forgettable\" is negative. The phrase \"completely forgettable\" suggests that the subject lacks impact or significance, conveying a negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it 's actually watchable\" is positive. The word \"watchable\" generally indicates a positive sentiment as it suggests that something is worth watching. <retrieved_rule> Words such as \"watchable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to be consumed and forgotten\" is negative. The phrase \"to be consumed and forgotten\" typically conveys a negative sentiment as it implies that something is not memorable or impactful. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"its one-sidedness\" is negative. The phrase \"one-sidedness\" typically conveys a negative sentiment as it implies a lack of balance or fairness. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"isn't heated properly, so that it ends up\" is likely negative. The mention of something not being heated properly suggests a lack of quality or attention to detail, which typically conveys a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tried as a war criminal\" is negative. The mention of being tried as a war criminal typically conveys a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like war crimes generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"trouble every day is a plodding mess\" is negative. The use of the word \"mess\" and the description as \"plodding\" both indicate a negative sentiment. <retrieved_rule> The comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"takes off in totally unexpected directions and\" is positive. The phrase \"totally unexpected directions\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"what a reckless squandering\" is negative. The use of the words \"reckless\" and \"squandering\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"time-consuming\" is negative. The phrase \"time-consuming\" typically conveys a negative sentiment as it suggests something that takes up a lot of time and effort. <retrieved_rule> Word connotations <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"can only point the way -- but thank goodness for this signpost\" is positive. The phrase \"thank goodness for this signpost\" indicates a high level of satisfaction and contentment, typically conveying a positive sentiment. <retrieved_rule> The phrase \"thank goodness for this signpost\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The mention of profoundly devastating events and the slow, painful healing process suggests a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"can outgag any of those young whippersnappers making moving pictures today\" is likely positive. The use of the phrase \"can outgag\" suggests a sense of humor and wit, which typically conveys a positive sentiment. <retrieved_rule> Humor in a movie usually indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of anti-semitism ever seen on screen\" is negative. The mention of anti-semitism typically indicates a negative sentiment. <retrieved_rule> The comparison to a serious and controversial topic like apartheid generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"questionable\" is likely negative. The word \"questionable\" typically carries a negative connotation, suggesting doubt or uncertainty. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"so far-fetched it would be impossible to believe if it weren't true\" suggests a lack of credibility or believability, indicating a negative sentiment. <retrieved_rule> In general, negative sentiment indicated by lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's about family\" is likely positive. The mention of family-oriented content generally indicates a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"baffled\" indicates confusion or frustration, which typically conveys a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"gaps in their relationships\" is negative. The mention of gaps in relationships typically conveys a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a twist\" is likely positive. The word \"twist\" can indicate an unexpected or surprising development, which often adds excitement and interest to a story, conveying a positive sentiment. <new_rule> Words such as \"twist\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is not first-rate\" is negative. The phrase \"not first-rate\" typically indicates a negative sentiment as it implies something is not of the highest quality. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"badly edited\" is negative. The phrase \"badly edited\" typically conveys a negative sentiment as it indicates poor quality or lack of skill in editing. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"run out of clever ideas and visual gags about halfway through\" is negative. The phrase \"run out of clever ideas\" indicates a lack of creativity, and \"visual gags about halfway through\" suggests a decline in entertainment value. <retrieved_rule>Negative sentiment typically conveyed by phrases indicating lack of progress or substance<retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"comes across as a fairly weak retooling\" is negative. The use of words like \"weak\" and \"retooling\" typically conveys a negative sentiment. <new_rule> Use of negative words and phrases indicating lack of progress or substance <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"blab\" is likely negative. The word \"blab\" typically conveys a negative sentiment as it implies excessive and potentially annoying talkativeness. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s that painful\" is negative. The word \"painful\" indicates a negative sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"-- that you should never forget\" is positive. The phrase \"that you should never forget\" typically conveys a positive sentiment as it implies something memorable or important. <new_rule> The phrase \"that you should never forget\" typically conveys a positive sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"(Seagal's) strenuous attempt at a change in expression\" is negative. The word \"strenuous\" suggests that the attempt is difficult, intense, or requiring a lot of effort, which typically conveys a negative sentiment. <new_rule> Word connotations <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"more frustrating\" is negative. The word \"frustrating\" typically conveys a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"like puppies with broken legs\" is negative. The comparison to puppies with broken legs typically conveys a negative sentiment. <new_rule> Comparisons to negative or distressing situations generally indicate a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of sleaziness\" is negative. The word \"sleaziness\" typically conveys a negative sentiment as it implies something sordid or morally corrupt. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nothing going for it other than its exploitive array of obligatory cheap\" is negative. The use of words like \"exploitive\" and \"cheap\" typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this too-long, spoofy update\" is negative. The use of words like \"too-long\" and \"spoofy\" typically convey a negative sentiment. <retrieved_rule> Words such as \"too-long\" and \"spoofy\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"just isn't as weird as it ought to be\" is negative. The use of the word \"weird\" and the phrase \"isn't as...as it ought to be\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"struggling\" typically conveys a negative sentiment as it implies difficulty or hardship. <retrieved_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as if by cattle prod\" is negative. The comparison to a cattle prod, which is used to shock or control animals, typically conveys a negative sentiment. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dreadfulness\" is negative. The word \"dreadfulness\" indicates a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the by now intolerable morbidity\" is negative. The phrase \"intolerable morbidity\" typically conveys a negative sentiment as it implies a sense of unbearable sadness or negativity. <new_rule> Common knowledge <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it would fit chan like a $99 bargain-basement special\" is negative. The comparison to a bargain-basement special typically indicates a negative sentiment, as it implies something of low quality or value. <retrieved_rule> The comparison to a bargain-basement special generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"drowned me\" is negative. The word \"drowned\" typically conveys a negative sentiment as it implies being overwhelmed or suffocated. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a screwed-up man\" is negative. The phrase \"screwed-up\" typically conveys a negative sentiment as it implies a sense of dysfunction or distress. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"beyond redemption\" is negative. The phrase \"beyond redemption\" typically indicates a negative sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an evil, monstrous lunatic\" is negative. The use of words with negative connotations like \"evil\" and \"monstrous\" typically indicates a negative sentiment. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sleep-inducing\" is negative. The term \"sleep-inducing\" typically conveys a negative sentiment as it implies something is boring or dull. <retrieved_rule> Words such as \"flat\" and \"uncreative\" typically convey a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"excruciatingly tedious\" is negative. The use of the word \"excruciatingly\" intensifies the negative connotation of \"tedious,\" indicating a very negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"farts\" is negative. The word \"farts\" typically has a negative connotation. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"coen brothers\" is generally positive. The Coen brothers are well-known filmmakers with a positive reputation, so the mention of their name typically conveys a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"makes a meal of it\" is positive. The phrase \"makes a meal of it\" is an idiomatic expression that typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"makes a meal of it\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"definitely worth taking a look\" suggests that the movie is worth watching, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"worth searching out\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"run of the mill\" is negative. The phrase \"run of the mill\" typically conveys a negative sentiment. <new_rule> The phrase \"run of the mill\" typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the unacceptable\" is negative. The word \"unacceptable\" typically conveys a negative sentiment as it indicates something that is not satisfactory or not meeting the required standards. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"breathe life into this somewhat tired premise\" suggests revitalization and creativity, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"breathe life\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a dependable concept\" is likely positive. The word \"dependable\" generally indicates reliability and trustworthiness, which conveys a positive sentiment. <retrieved_rule> Words such as \"dependable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dying a slow death\" is negative. The use of the phrase \"dying a slow death\" typically conveys a negative sentiment as it suggests a prolonged and painful decline. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"least\" typically conveys a negative sentiment as it implies the lowest or smallest amount or degree of something. Therefore, the sentiment in the sentence \"least\" is negative. <retrieved_rule> Word connotations <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"especially the pseudo-educational stuff we all can't stand\" is negative. The use of words like \"pseudo-educational\" and \"can't stand\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"two guys yelling in your face for two hours\" is negative. The mention of shouting insults generally indicates a negative sentiment. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to convince almost everyone that it was put on the screen, just for them\" is positive. The use of the phrase \"just for them\" typically conveys a positive sentiment. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"downright intoxicating\" is positive. The word \"intoxicating\" typically conveys excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"decrepit\" generally conveys a negative sentiment, as it suggests something being worn down or in a state of disrepair. Therefore, the sentiment in the sentence \"decrepit\" is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"vaporize from your memory minutes\" is negative. The use of the word \"vaporize\" and the phrase \"from your memory\" suggests a negative sentiment, indicating that the experience or content is forgettable or unremarkable. <new_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"stink\" is negative. The word \"stink\" generally conveys a negative connotation. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"suffocating\" is negative. The word \"suffocating\" typically conveys a feeling of being overwhelmed or oppressed, which indicates a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s the inimitable diaz, holding it all together.\" is positive. The use of the word \"inimitable\" and the phrase \"holding it all together\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"inimitable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is not handled well\" is negative. The use of the word \"not\" and the phrase \"handled well\" indicates a negative sentiment as it suggests a lack of skill or competence in managing something. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"bottom tier\" is negative. The phrase \"bottom tier\" typically conveys a negative sentiment as it implies being at the lowest level or quality. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"been written so well, that even a simple 'goddammit'\" is likely positive. The phrase \"written so well\" typically conveys a positive sentiment, and the use of \"goddammit\" may indicate a sense of authenticity or emotional impact. <retrieved_rule> In general, positive words and phrases such as \"written so well\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"too bad Kramer couldn't make a guest appearance to liven things up\" is negative. The use of \"too bad\" and the mention of needing someone to liven things up suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"fights a good fight\" is positive. The use of the phrase \"good fight\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"good fight\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inane and unimaginative\" is negative. The words \"inane\" and \"unimaginative\" both carry negative connotations, indicating a lack of intelligence and creativity. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"intolerable company\" is negative. The use of the word \"intolerable\" indicates a negative sentiment. <new_rule> The word \"intolerable\" is used to express a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"much needed\" is positive. The use of the term \"much needed\" typically indicates a positive sentiment, as it suggests that something was necessary or beneficial. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"too long with too little going on\" indicates a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"often overwritten\" is negative. The use of negative language and the indication of dissatisfaction suggest a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"down-to-earth bullock\" is likely positive. The phrase \"down-to-earth\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nearly impossible\" is likely negative. The phrase \"nearly impossible\" typically conveys a sense of difficulty or struggle, which is generally associated with negative sentiments. <retrieved_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"not constant bloodshed\" suggests a lack of excessive violence, which can be seen as a positive element. Answer: The sentiment in this sentence is positive. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"you can take the grandkids or the grandparents and never worry about anyone being bored\" is positive. The mention of potential success and the absence of negative language indicate a positive sentiment. <retrieved_rule> The mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"offers no new insight on the matter\" is negative. The use of the word \"no new insight\" typically indicates a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"caliber\" is likely positive. The word \"caliber\" generally indicates a positive sentiment as it conveys a high level of quality or excellence. <retrieved_rule> Words such as \"caliber\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of run-of-the-mill profanity\" is negative. The phrase \"run-of-the-mill\" typically conveys a negative sentiment as it suggests something ordinary or unexceptional. <retrieved_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is confusing on one level or another, making Ararat far more demanding than it needs to be\" is negative. The mention of confusion and unnecessary demand suggests a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with a large dose of painkillers\" is likely negative. The mention of painkillers typically conveys a negative sentiment as it suggests the presence of pain or discomfort. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"feel like three hours\" typically indicates that the movie feels long and tedious, which suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"wastes\" is negative. The word \"wastes\" typically indicates a negative sentiment as it suggests a lack of value or potential. <new_rule> The word \"wastes\" typically indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"any true emotional connection or identification frustratingly\" indicates a lack of emotional connection or identification, which typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"menacing\" is negative. The word \"menacing\" typically conveys a negative sentiment as it implies a threatening or dangerous presence. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"incessantly\" is likely negative. The word \"incessantly\" typically conveys a negative sentiment as it implies something happening without interruption or relent. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lacks balance\" is likely negative. The phrase \"lacks balance\" typically conveys a sense of imbalance or instability, which is often associated with negative sentiments. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that you've spent the past 20 minutes looking at your watch\" is negative. The mention of spending time looking at a watch typically conveys impatience or boredom, which indicates a negative sentiment. <retrieved_rule> Mention of a negative action like looking at a watch generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"exercise in sham actor workshops and an affected malaise\" is negative. The use of words like \"sham\" and \"malaise\" typically indicate a negative sentiment. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"doesn't work because there is no foundation for it\" is negative. The mention of a lack of foundation typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of words like \"nail\" and \"spirit-crushing ennui\" suggests an effective portrayal of a negative concept without succumbing to it, indicating a positive sentiment. <retrieved_rule> Words such as \"nail\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is very difficult\" is likely negative. The word \"difficult\" typically conveys a negative sentiment. <retrieved_rule> Word \"difficult\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"impossible\" indicates a negative sentiment. <retrieved_rule> Word \"impossible\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"will strike some westerners as verging on mumbo-jumbo\" is negative. The use of the phrase \"verging on mumbo-jumbo\" suggests a negative sentiment as it implies confusion or nonsense. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"fails to fulfill its own ambitious goals\" is negative. The phrase \"fails to fulfill\" and \"ambitious goals\" both indicate a negative sentiment, as it suggests a lack of success in achieving high aspirations. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"too many chefs fussing over too weak a recipe\" is negative. The phrase \"too weak a recipe\" indicates a negative sentiment as it implies a lack of quality or substance. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a thing that already knows it's won\" is likely positive. The phrase \"already knows it's won\" suggests confidence and success, which are generally associated with positive sentiments. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"nothing to sneeze at\" typically indicates that something is significant or impressive, which suggests a positive sentiment. <retrieved_rule> Words such as \"serious,\" \"important,\" and \"something new\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"a bit of a cheat\" typically conveys a negative sentiment as it implies deception or dishonesty. <retrieved_rule> Words such as \"cheat\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that gets under your skin\" is likely positive. The phrase \"gets under your skin\" suggests a deep emotional impact, which typically indicates a positive sentiment. <retrieved_rule> Words such as \"spooky\" and \"gets under your skin\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"halfway through this picture I was beginning to hate it, and, of course\" is negative. The mention of hating the picture and the use of \"of course\" both indicate a negative sentiment. <retrieved_rule> Mention of a negative action like hating the picture generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with real world events\" is likely positive. The phrase \"real world events\" suggests authenticity and relevance, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"real\" are generally associated with positive feelings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"could n't find stardom if mapquest emailed him point-to-point driving directions\" indicates a negative sentiment. <new_rule> In English language, the use of phrases indicating lack of success or ability typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that even its target audience talked all the way through it\" is negative. The phrase \"talked all the way through it\" suggests a lack of engagement or interest, indicating a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is why anybody picked it up.\" is negative. The use of the word \"why\" and the lack of positive elements indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of carnage\" is likely negative. The word \"carnage\" typically conveys a negative sentiment as it refers to widespread and often bloody slaughter. <retrieved_rule> Words such as \"carnage\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"even slightly wised-up kids would quickly change the channel\" is negative. The use of the phrase \"quickly change the channel\" and the implication that even slightly wised-up kids would do so indicates a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s plenty to offend everyone\" is likely negative. The mention of offending everyone suggests a negative and potentially controversial content, conveying a negative sentiment. <new_rule> Mention of content that is offensive typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"save their children\" is positive. The phrase \"save their children\" typically conveys a positive sentiment as it implies a heroic or noble action. <retrieved_rule> Words such as \"hero\" and \"ride roughshod\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"lost its fizz\" suggests a lack of originality and freshness, typically indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"one of the worst\" indicates a negative sentiment, suggesting that the movie is not well-regarded within its franchise. <retrieved_rule> Comparison to a previous version generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", the rest of us will be lulled into a coma\" is negative. The phrase \"lulled into a coma\" indicates extreme boredom and lack of engagement, which conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"reduces the complexities to bromides and slogans\" is negative. The use of negative language and the indication of simplification and trivialization suggest a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"than a modem that disconnects every 10 seconds\" is negative. The comparison to a modem that disconnects every 10 seconds generally indicates a negative sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"aground\" is negative. The word \"aground\" typically conveys a negative sentiment as it means stranded or stuck, often in a negative or unfavorable situation. <new_rule> In English language, the word \"aground\" typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"for that comes through all too painfully in the execution\" is negative. The phrase \"all too painfully\" and \"execution\" typically convey a negative sentiment as they suggest a lack of success or effectiveness. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"both shrill and soporific, and because everything\" is negative. The use of the words \"shrill\" and \"soporific\" typically conveys a negative sentiment, as they suggest loudness and sleep-inducing qualities, respectively. <retrieved_rule> Words such as \"shrill\" and \"soporific\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no surprises\" is likely negative. The phrase \"no surprises\" typically conveys a negative sentiment as it implies a lack of excitement or originality. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"crawls along\" is negative. The phrase \"crawls along\" typically conveys a negative sentiment as it implies slow and tedious progress. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lonely\" is negative. The word \"lonely\" typically conveys a negative sentiment as it suggests a feeling of isolation or sadness. <retrieved_rule> Word \"lonely\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", cry and realize,\" is likely negative. The use of the word \"cry\" typically conveys a negative sentiment, as it indicates emotional distress or sadness. <retrieved_rule> Mention of a negative action like crying generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to seem as long as the two year affair which is its subject\" is negative. The comparison to a long and potentially tedious two-year affair generally indicates a negative sentiment. <retrieved_rule> The comparison to negative or distressing situations generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"drag along the dead (water) weight of the other\" is negative. The phrase \"dead weight\" typically indicates something burdensome or unproductive, which conveys a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"queasy-stomached\" is negative. The use of the word \"queasy\" typically indicates a negative sentiment as it suggests a feeling of discomfort or unease. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"rage\" is negative. The word \"rage\" typically conveys a negative sentiment. <retrieved_rule> Words such as \"carnage\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"you could fit all of pootie tang in between its punchlines\" is negative. The implication that there are too many punchlines and not enough substance suggests a lack of quality, indicating a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that prevents them from firing on all cylinders\" is negative. The phrase \"prevents them from firing on all cylinders\" typically conveys a negative sentiment as it suggests a lack of full potential or effectiveness. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as tiresome as 9\" is negative. The comparison to a lower form of entertainment generally indicates a negative sentiment, and the word \"tiresome\" also indicates a negative sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"does not work\" is negative. The use of negative language and the mention of something not working typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"unrecoverable\" is negative. The use of the prefix \"un-\" and the word \"recoverable\" suggests that something cannot be regained or restored, indicating a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this shocking testament to anti-semitism and neo-fascism\" is negative. The mention of anti-semitism and neo-fascism typically conveys a negative sentiment. <retrieved_rule>Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment.<retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nifty\" is positive. The word \"nifty\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"nifty\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tossed off\" is negative. The use of the phrase \"tossed off\" typically conveys a negative sentiment as it implies something is done carelessly or without much effort. <retrieved_rule> Words such as \"tossed off\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"making up for any flaws that come later\" is positive. The phrase \"making up for\" suggests a positive aspect compensating for any potential negative aspects. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a cheap scam\" is negative. The use of the word \"cheap\" and the implication of a scam both convey a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no-nonsense authority\" is likely positive. The phrase \"no-nonsense\" typically conveys a sense of efficiency and seriousness, which can be seen as positive. <retrieved_rule> Word connotations <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sappiness\" is negative. The word \"sappiness\" typically conveys a negative sentiment as it implies excessive sentimentality or emotional manipulation. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"loose\" is likely negative. The word \"loose\" typically conveys a negative sentiment as it can indicate a lack of structure or control. <retrieved_rule> Words such as \"uneven\" and \"cliched\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s on saturday morning tv especially the pseudo-educational stuff we all ca n't stand\" is negative. The mention of \"pseudo-educational stuff we all ca n't stand\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a complete waste of time\" is negative. The phrase \"waste of time\" typically conveys a negative sentiment as it implies that the activity or experience was not worthwhile. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"largely devoid\" is negative. The phrase \"largely devoid\" suggests a lack or absence of something, which typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a low-budget series on a UHF channel\" is negative. The mention of \"low-budget\" and \"UHF channel\" typically indicates a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of last summer's bloated effects\" is negative. The use of the word \"bloated\" suggests excess and lack of refinement, indicating a negative sentiment. <retrieved_rule> Words such as \"bloated\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dodge this one\" is negative. The use of negative language and the implication of avoiding something typically indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"someone made off with your wallet\" is negative. The phrase \"made off with\" typically indicates theft or dishonesty, conveying a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"proved too difficult a text to 'lick,' despite the efforts of a first-rate cast\" is negative. The phrase \"proved too difficult\" and the use of the word \"lick\" indicate a negative sentiment. <new_rule> The phrase \"proved too difficult\" typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tends to pile too many 'serious issues' on its plate at times, yet\" is negative. The mention of piling too many serious issues suggests a negative sentiment. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of a serious and controversial topic like war generally indicates a negative sentiment. The phrase \"should be tried as a war criminal\" also conveys a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like war generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"right place\" is positive. The phrase \"right place\" typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"right place\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"indictment of parental failings\" and \"indifference of Spanish social workers and legal system towards child abuse\" both convey a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like a historical event generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"than what's been cobbled together onscreen\" is negative. The phrase \"cobbled together\" typically indicates a negative sentiment as it implies something hastily or clumsily put together. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tootsie knockoff\" is negative. The use of the word \"knockoff\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"huge gap\" is negative. The phrase \"huge gap\" indicates a lack of progress or substance, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a talky bore\" is negative. The use of the word \"bore\" typically conveys a negative sentiment. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is that it doesn't make any sense\" is negative. The phrase \"doesn't make any sense\" typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"none-too-original\" is negative. The phrase \"none-too-original\" typically conveys a lack of originality, which suggests a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"its rough-around-the-edges, low-budget constraints\" is negative. The phrase \"rough-around-the-edges\" and \"low-budget constraints\" both typically indicate a negative sentiment, as they suggest a lack of polish or resources. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the strain is all too evident\" is negative. The phrase \"all too evident\" typically conveys a negative sentiment as it suggests something that is clearly and uncomfortably noticeable. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", you realize there's no place for this story to go but down\" is negative. The use of the phrase \"no place for this story to go but down\" typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"romp that has something to say\" is positive. The use of the word \"romp\" suggests a fun and enjoyable experience, and the phrase \"has something to say\" indicates depth or substance, both of which convey a positive sentiment. <retrieved_rule> Words such as \"funny\" and \"far more meaningful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dismiss -- moody\" is negative. The use of the word \"moody\" suggests a negative sentiment. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's kind of sad that so many people put so much time and energy into this turkey.\" is negative. The use of the word \"sad\" and the negative connotation of \"turkey\" indicate a negative sentiment. <retrieved_rule> Words such as \"sad\" and negative connotation of \"turkey\" generally indicate a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", I would go back and choose to skip it.\" is negative. The phrase \"choose to skip it\" indicates a lack of satisfaction or enjoyment, typically conveying a negative sentiment. <retrieved_rule> Use of phrases indicating lack of success or ability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"painful and\" is negative. The word \"painful\" typically conveys a negative sentiment, and when combined with \"and,\" it suggests an additional negative aspect. <retrieved_rule> Use of words with negative connotations like \"dawdle\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"want my money back.\" is negative. The mention of wanting a refund typically conveys a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"war-torn Croatia\" typically conveys a negative sentiment as it implies a history of conflict and devastation. Answer: The sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic like war-torn Croatia generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"worked\" is likely positive. The word \"worked\" typically conveys a positive sentiment as it implies success or effectiveness. <retrieved_rule> In general, positive words and phrases such as \"best\" and \"most unpredictable\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is off.\" is negative. The phrase \"is off\" typically indicates that something is not right or not functioning properly, which conveys a negative sentiment. <retrieved_rule> Common knowledge <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that few will bother thinking it all through\" is negative. The mention of few people bothering to think it through typically conveys a negative sentiment as it suggests a lack of interest or engagement. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"when all is said and done, she loves them to pieces -- and so, I trust, will you.\" is positive. The phrase \"loves them to pieces\" conveys a strong sense of affection and positivity, indicating a positive sentiment. <retrieved_rule> Words such as \"loves\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"loose, poorly structured\" is negative. The use of words like \"loose\" and \"poorly structured\" typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"never catches fire\" is negative. The phrase \"never catches fire\" indicates a lack of excitement or intensity, which is generally associated with negative sentiments. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"just doesn't add up.\" is negative. The phrase \"doesn't add up\" typically conveys a negative sentiment, indicating a lack of coherence or logic. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"his martial artistry\" is likely positive. The phrase \"martial artistry\" typically conveys skill, expertise, and mastery, which are generally associated with positive sentiments. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"negativity\" is likely negative. The word \"negativity\" typically conveys a negative sentiment. <new_rule> Words with negative connotations generally express negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"all the more poignant by the incessant use of cell phones\" is likely negative. The phrase \"incessant use of cell phones\" typically conveys a negative sentiment as it implies a constant and annoying use of technology. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as the long-faced sad sack\" is negative. The use of \"long-faced\" and \"sad sack\" typically conveys a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a late-inning twist that just doesn't make sense\" is negative. The phrase \"doesn't make sense\" indicates a negative sentiment as it suggests confusion or lack of coherence. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this bad\" is negative. The use of the word \"bad\" typically indicates a negative sentiment. <retrieved_rule> Word \"bad\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"enough to give you brain strain\" is negative. The phrase \"brain strain\" indicates a negative sentiment, suggesting that something is mentally taxing or difficult to comprehend. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a complete mess\" is negative. The phrase \"complete mess\" typically conveys a negative sentiment as it indicates a lack of organization or coherence. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s impossible to care\" is negative. The phrase \"impossible to care\" indicates a lack of emotional investment or connection, conveying a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a couple hours of summertime\" is positive. The mention of \"summertime\" typically conveys a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a peculiar malaise\" is negative. The word \"malaise\" typically has a negative connotation. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"terms of the low-grade cheese standards on which it operates\" is negative. The comparison to \"low-grade cheese\" generally indicates a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sitting open too long\" is negative. The phrase \"sitting open too long\" indicates a lack of progress or substance, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"never really busts out of its comfy little cell\" is negative. The use of words like \"comfy little cell\" typically indicates a negative sentiment, as it implies a sense of confinement and lack of freedom. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"americans to finally revel in its splendor\" is positive. The use of the word \"revel\" and \"splendor\" indicates a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Ellen Pompeo sitting next to you for the ride\" is likely positive. The presence of Ellen Pompeo, a popular and well-regarded actress, suggests a positive sentiment. <retrieved_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the ticket you need\" is likely positive. The phrase \"the ticket you need\" suggests that something is essential or necessary, conveying a positive sentiment. <new_rule> Words with positive connotations generally express positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"when there's nothing else happening\" is negative. The phrase \"nothing else happening\" typically conveys a sense of boredom or lack of excitement, indicating a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

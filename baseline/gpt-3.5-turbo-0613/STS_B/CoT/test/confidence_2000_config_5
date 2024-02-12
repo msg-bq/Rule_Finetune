@@ -1,0 +1,158 @@
+Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-0613', prompt_type='CoT', rule_base_path='../experiment/STS_B/version_3/rule_base_final', sample_strategy='confidence_2000', train_dataset_size=2000)
+Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
+
+Q: will find little of interest in this film, is the sentiment in this sentence positive or negative?
+A: First, the sentence is a critique of a film. Key phrases include: "little ofl interest", "preachy", and "poorly acted". Second, the sentence is reviewing a film. All key phrases carry negative connotations. The sentiment is negative.
+
+Q: gorgeous and deceptively minimalist, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "gorgeous" and "deceptively minimalist". Second, the sentence is describing something's appearance or style. "Gorgeous" is positive, and "deceptively minimalist" suggests a surprising or unexpected simplicity, which can be seen as positive. The sentiment is positive.
+
+Q: that would make lesser men run for cover, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "lesser men" and "run for cover". Second, the context implies a situation or task that is challenging or intimidating. The overarching sentiment celebrates the bravery, resilience, or capability of the personbeing described. The sentiment is positive.
+
+Q: of marivaux 's rhythms , and mira sorvino 's limitations as a classical actress, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sorvino's limitations as a classical actress". Second, the context seems to comment on the style of Marivaux and the abilities of Mira Sorvino. The term "limitations" indicates a shortfall or inadequacy in Mira Sorvino's acting in classical roles. The sentiment is negative.
+
+Q: viewers of barney 's crushingly self-indulgent spectacle, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
+
+max_confidence_num: 2000
+rule_base:
+Positive language and excitement often indicate a positive sentiment
+Generally, "worst" indicates a negative sentiment.
+Describing something in a negative light generally indicates a negative sentiment.
+Positive reviews are typically described as "good" or "great."
+Positive sentiment: Use of positive language and indication of a positive experience.
+Positive words generally indicate a positive sentiment.
+Describing something as "boilerplate clichés" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "deeply thought through" to express satisfaction with the overall experience.
+Generally, when something is described as "about as interesting," it indicates a negative sentiment.
+Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie.
+Positive sentiment is often associated with words like "skilfully," "breathtaking," and "awesome."
+Negative reviews often mention lack of positive elements such as laughs and surprises.
+Negative sentiment is often indicated by phrases that suggest a lack of joy.
+Negative sentiment is often indicated by phrases that suggest emotional conviction or impact.
+Generally, when someone goes to absurd lengths, it indicates a negative sentiment.
+Positive sentiment is often indicated by phrases that suggest excitement and full potential.
+Realistic portrayal is generally praised and indicates a positive sentiment.
+Negative sentiment is often indicated by phrases that suggest disappointment or unmet expectations.
+Describing something as "like one of (spears') music videos in content" and mentioning that it goes on for too long and requires payment generally indicates a negative sentiment.
+Negative reviews often contain words with negative connotations such as "bad" or "screaming."
+Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation.
+Positive sentiment is often indicated by words like "provide its keenest pleasures."
+Reviews that express a desire for a work to go further often indicate a positive sentiment, as it implies that the reviewer was engaged and interested in the work.
+Positive sentiment is often indicated by phrases that suggest enjoyment.
+Use of negative language such as "dumb" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "engrossing" and "entertaining."
+Positive sentiment is often associated with words like "beautiful" and "final" to express satisfaction with the overall experience.
+Use of negative language such as "grating" generally indicates a negative sentiment.
+Positive sentiment is often indicated by words like "very good" and acknowledging flaws but emphasizing overall enjoyment or positive aspects of the movie.
+Use of negative language such as "contrived" and "well-worn" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "brave" and "uninhibited."
+Positive sentiment is often associated with words like "good" and "rather" to express satisfaction.
+Positive sentiment is often associated with words like "promise" and "potential."
+Negative reviews often mention lack of positive elements such as satisfying conclusions.
+Use of negative language such as "irritates" generally indicates a negative sentiment.
+Use of negative language such as "lousy" generally indicates a negative sentiment.
+comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment
+Use of negative language such as "ugly" generally indicates a negative sentiment.
+Positive sentiment is indicated by words like "very good."
+Use of negative language such as "shoddy" generally indicates a negative sentiment.
+Use of negative language such as "clumsy" and "heavy-handed" generally indicates a negative sentiment.
+Use of negative language such as "dreck" generally indicates a negative sentiment.
+Acknowledging flaws but still finding a movie engaging and enjoyable indicates a positive sentiment.
+Positive sentiment is often associated with words like "legend" to express satisfaction with the overall experience.
+Use of negative language such as "worst" and "clichés" generally indicates a negative sentiment.
+Describing a movie as a "quick-buck sequel" generally indicates a negative sentiment.
+Use of negative language such as "dog of a movie" generally indicates a negative sentiment.
+Use of negative language such as "ultimate insignificance" and "whiffle-ball epic" generally indicates a negative sentiment.
+Mention of high cost often indicates a negative sentiment.
+Positive sentiment is often indicated by words like "emotional wallop" and "small, personal film" to express satisfaction with the overall experience.
+Use of negative language such as "just too" generally indicates a negative sentiment.
+Use of negative language such as "fragmentary" and "frustrating" generally indicates a negative sentiment.
+Use of negative language such as "derivative" and "hammily" generally indicates a negative sentiment.
+Use of negative language such as "hate" generally indicates a negative sentiment.
+Use of negative language such as "ridiculous" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "outrageous" and "ingenious."
+The word "respectable" often indicates a positive sentiment.
+Use of negative language such as "overlong" and "bombastic" generally indicates a negative sentiment.
+Positive sentiment is often indicated by words like "absolute joy."
+Use of negative language such as "disappointments" generally indicates a negative sentiment.
+Use of negative language such as "sloppily written" generally indicates a negative sentiment.
+Use of negative language such as "weak" generally indicates a negative sentiment.
+Use of negative language such as "wildly uneven" generally indicates a negative sentiment.
+Word "dry" often conveys a negative sentiment.
+Use of negative language such as "cruel" and "lack of empathy" generally indicates a negative sentiment.
+Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive.
+Use of negative language such as "stilted" generally indicates a negative sentiment.
+Positive reviews often mention positive elements such as laughs and surprises.
+Positive sentiment is often associated with words like "good" and "rather" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience.
+Use of negative language such as "harsh" generally indicates a negative sentiment.
+The use of words like "fresh" often indicates a positive sentiment.
+Rule: In general, when someone is comparing two things and asking which is worse, it indicates a negative sentiment towards both things.
+Negative sentiment: lack of suspense, surprise, and emotional conviction
+Use of negative language such as "overbearing" and "over-the-top" generally indicates a negative sentiment.
+Redundant concepts are often seen as unnecessary and unhelpful.
+Positive reviews often include words like "beautiful" and "final" to express satisfaction with the overall experience.
+Positive sentiment is often associated with words like "compelling" to express satisfaction with the overall experience.
+Positive sentiment is indicated by words like "tasteful" to express satisfaction with the overall experience.
+Positive sentiment is often indicated by words like "outrageous" and "audacious."
+Use of negative language such as "no one involved," "shows the slightest aptitude," and "for acting" generally indicates a negative sentiment.
+Positive reviews often include words like "good" and "rather" to express satisfaction.
+Positive sentiment is often indicated by words like "aplomb" to express satisfaction with the overall experience.
+Use of negative language such as "inane" and "awful" generally indicates a negative sentiment.
+Use of negative language such as "derivative" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "welcome" to express satisfaction with the overall experience.
+Describing something as "supposed" generally indicates a negative sentiment.
+Use of negative language such as "strung-together" generally indicates a negative sentiment.
+Use of negative language such as "don't work" generally indicates a negative sentiment.
+Use of negative language such as "overbearing" generally indicates a negative sentiment.
+Use of negative language such as "conspiracy theorist" generally indicates a negative sentiment.
+When someone is compared negatively to a well-known actor, it indicates a negative sentiment.
+Positive sentiment is often associated with words like "forces you to ponder anew" to express satisfaction with the overall experience.
+Use of negative language such as "plodding" generally indicates a negative sentiment.
+Use of negative language such as "starts off so bad" generally indicates a negative sentiment.
+Use of negative language such as "excruciatingly unfunny" and "pitifully unromantic" generally indicates a negative sentiment.
+The use of words like "pokes," "provokes," and "expressionistic license" generally indicates a positive sentiment.
+Positive sentiment is often associated with words like "fresh" to express satisfaction with the overall experience.
+Use of negative language such as "venality" generally indicates a negative sentiment.
+Use of positive language and indication of a positive experience
+Use of negative language such as "cold vacuum" and "can't generate enough heat" generally indicates a negative sentiment.
+Use of negative language such as "version of a game" generally indicates a negative sentiment.
+Use of negative language such as "depressed" and "suicidal" generally indicates a negative sentiment.
+Use of negative language such as "absurd" generally indicates a negative sentiment.
+Word "cold" has a negative connotation.
+Use of negative language such as "just too silly" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "unpretentious," "charming," "quirky," and "original."
+The use of words like "recycled" and "more times than I'd care to count" generally indicates a negative sentiment.
+Use of negative language such as "worst" generally indicates a negative sentiment.
+The word "hopeless" often indicates a negative sentiment.
+Positive sentiment is often indicated by words like "generous" and "subversive."
+The phrase "don't work in concert" typically indicates a negative sentiment.
+Lack of conclusive answers often conveys a negative sentiment
+Use of negative language such as "just not thrilling" generally indicates a negative sentiment.
+Use of negative language such as "off his game" generally indicates a negative sentiment.
+Use of negative language such as "pointless" generally indicates a negative sentiment.
+Use of negative language such as "nothing's happening" generally indicates a negative sentiment.
+Positive sentiment is often indicated by words like "gorgeous" and "deceptively minimalist."
+Use of negative language such as "goes nowhere" generally indicates a negative sentiment
+The word "hate" often indicates a negative sentiment.
+Positive sentiment is often associated with words like "in memory" to express satisfaction with the overall experience.
+Rule: Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject.
+Describing something as a "fringe feminist conspiracy theorist" generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "infectiously" which imply a spreading of something positive.
+Word "cold" often conveys a negative sentiment
+Words like "derivative" and "hammily" are often used to express negative opinions about a work.
+Positive reviews often include words like "good" and "rather" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience.
+Short reviews tend to be positive if they do not contain specific negative statements
+Word "collapse" often conveys a negative sentiment.
+Describing something as a "corporate circus" and mentioning mergers and downsizing in a negative light generally indicates a negative sentiment.
+Positive sentiment towards turntablists
+The word "vainly" typically indicates a negative sentiment.
+Rule: Generally, the word "horrors" conveys a negative sentiment.
+Family traditions and community support are often associated with positive emotions and sentiments.
+In general, the word "weak" carries a negative connotation.
+Word "dry" has a negative connotation
+The phrase "hate to tear your eyes away"
+Knowledge base:
+测试集上的准确率为：0.655

@@ -8,9 +8,14 @@ def sample_rule_confidence(rule_base: RuleBase, max_seq_len=500):
         clusters = rule_base.find_cluster()
         sorted_rule_instance = [clusters[cluster][0] for cluster in clusters]
         sorted_rule_instance.sort(key=operator.attrgetter('confidence'), reverse=True)
-    else:
+    elif isinstance(rule_base, RuleBase):
         sorted_rule_instance = list (rule_base._rule_name_2_rule_instance.values())
         sorted_rule_instance.sort(key=operator.attrgetter('confidence'), reverse=True)
+    elif isinstance(rule_base, list):
+        sorted_rule_instance = rule_base
+        sorted_rule_instance.sort(key=operator.attrgetter('confidence'), reverse=True)
+    else:
+        raise TypeError("rule_base should be DisjointSetRuleBase or RuleBase or list")
 
     l = len(sorted_rule_instance)
     sampled_rule_instance = []

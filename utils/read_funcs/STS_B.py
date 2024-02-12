@@ -4,8 +4,10 @@ import pandas as pd
 
 from utils.ExtraNameSpace import DatasetsReaderNameSpace
 
-question_template = '''Review: {}\n'''\
-'''Question: What's the sentiment of above review?\n'''
+# question_template = '''Review: {}\n'''\
+# '''Question: What's the sentiment of above review?\n'''
+
+question_template = '''Q: For the sentence "{}", is the sentiment in this sentence positive or negative?\n'''
 
 def read_STS_B_data(path) -> List[dict]:
     data = pd.read_csv(path, sep='\t', header=0)
@@ -21,7 +23,7 @@ def read_STS_B_data(path) -> List[dict]:
 
 @DatasetsReaderNameSpace.register("STS_B")
 def read_func(data_dir):
-    train_data = read_STS_B_data(f'{data_dir}/train.tsv')[:200]
+    train_data = read_STS_B_data(f'{data_dir}/train.tsv')
     dev_data = read_STS_B_data(f'{data_dir}/dev.tsv')[:200]
     # test_data = read_STS_B_data(f'{data_dir}/test.tsv')
 

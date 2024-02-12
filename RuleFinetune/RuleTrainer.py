@@ -47,17 +47,19 @@ class Trainer:
         print("response:\n", response)
         new_rationale = example.parse_response(response, self.args)
 
-        score = self.score(Rationale.clean_prediction(new_rationale['prediction']), example.gold_label)
         #-----删除
 
-        if score > 0.5 and new_rationale['rationale'] != "" and new_rationale['prediction'] != "":
-            print('++++' * 50)
-            print("new_rationale:\n", new_rationale)
-            example.update_rationale(new_rationale)  # 做了inplace的更新
+        if new_rationale['rationale'] != "" and new_rationale['prediction'] != "":
+            score = self.score(Rationale.clean_prediction(new_rationale['prediction']), example.gold_label)
 
-            return example.rationale[-1]
+            if score > 0.5:
+                print('++++' * 50)
+                print("new_rationale:\n", new_rationale)
+                example.update_rationale(new_rationale)  # 做了inplace的更新
 
-        return None
+            return example.rationale[-1], score
+
+        return None, None
 
     def score(self, pred: str, gold: str) -> float:
         """
@@ -114,14 +116,11 @@ class Trainer:
         if example.question in demos:  # 作为样例的题就没必要forward了
             return
 
-        rationale = self.forward(example, demos, added_rules)
+        rationale, score = self.forward(example, demos, added_rules)
 
         if rationale:
-            score = self.score(rationale.prediction, example.gold_label)
             with self.lock:
                 self.backward(example, added_rules, bandit, score, k)
-        else:
-            score = -1
 
         return score
         # self.backward(example, added_rules)
@@ -143,7 +142,7 @@ class Trainer:
                 futures = [executor.submit(self.train_step, example, bandits[question2cluster[example.question]])
                            for example in self.train_dataset]
 
-                losses = [future.result() for future in futures if future.result()]
+                losses = [future.result() for future in futures if future.result() if future.result() is not None]
                 losses = [(l + 1) / 2 for l in losses]
                 # None对应样例、-1对应输出没有rationale的样例
                 logger.info(f"epoch{ep}的平均score为：{sum(losses) / len(losses)}") # 如果像正常的微调

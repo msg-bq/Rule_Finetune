@@ -1,0 +1,1630 @@
+{
+    "The sentence \", compelling\" by itself does not provide enough context to determine whether the sentiment is positive or negative. The word \"compelling\" can be used in both positive and negative contexts, so without more information, it is impossible to determine the sentiment. <Begin> In general, the sentiment of a word can be determined by its context and the overall tone of the sentence. </End>": [
+        151.0,
+        1.0
+    ],
+    "Rationale: The sentiment of the sentence can be determined by analyzing the words and their connotations. \"Grating\" typically has a negative connotation, so it is likely that the sentiment of the sentence is negative. Answer: The sentiment in the sentence \"yet this grating showcase\" is likely negative. <Begin>Word connotations</End>": [
+        144.0,
+        1.0
+    ],
+    "Rationale: The phrase \"a smile on your face\" typically conveys a positive sentiment as smiles are generally associated with happiness and positivity. Answer: The sentiment in the sentence \"a smile on your face\" is positive. <Begin> Smiles are generally associated with happiness and positivity. </End>": [
+        139.0,
+        1.0
+    ],
+    "Rationale: The words \"very good\" indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <Begin>Words like \"very good\" generally indicate a positive sentiment.</End>": [
+        122.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"equals the original and in some ways even betters it\" is positive. This is because the words \"equals\" and \"betters\" both convey a positive sentiment, indicating that the second thing is at least as good as the first, if not better. <Begin> Positive sentiment is indicated by words like \"equals\" and \"betters\" </End>": [
+        138.0,
+        1.0
+    ],
+    "First, let's analyze the context of the sentence. The phrase \"vainly, I think\" suggests that the speaker is feeling a sense of futility or disappointment. By using the phrase \"vainly,\" the speaker is indicating that their thoughts or efforts are in vain, which typically conveys a negative sentiment. <Begin> In general, the word \"vainly\" is used to express a negative sentiment. </End> Therefore, the sentiment in this sentence is negative.": [
+        124.0,
+        1.0
+    ],
+    "Rationale: 1. \"Seem\" is a neutral verb that indicates uncertainty or possibility. 2. \"Fresh\" is generally associated with positive feelings, such as cleanliness and vitality. Answer: The sentiment in the sentence \"seem fresh\" is likely to be positive. <Begin> The word \"fresh\" is generally associated with positive feelings. </End>": [
+        188.0,
+        1.0
+    ],
+    "The phrase \"the greatest musicians\" typically conveys a positive sentiment as it indicates excellence and skill. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. <retrieved_rule>": [
+        40.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with his usual intelligence and subtlety\" is positive. This is because the words \"intelligence\" and \"subtlety\" both convey a positive sentiment, indicating a high level of skill and nuance. <retrieved_rule> The word \"intelligence\" typically has a positive connotation. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "Rationale: The phrase \"brave, uninhibited performances\" suggests that the performances are bold and unrestrained, which typically conveys a positive sentiment. Answer: The sentiment in the sentence \"comes from the brave, uninhibited performances\" is likely positive. <retrieved_rule> Words like \"brave\" and \"uninhibited\" generally indicate a positive sentiment. <retrieved_rule>": [
+        44.0,
+        1.0
+    ],
+    "The word \"heroes\" typically conveys a positive sentiment, as it is associated with bravery, selflessness, and positive qualities. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"heroes\" generally indicate positive sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "Rationale: The phrase \"cross swords with the best of them\" typically indicates a competitive and confrontational tone, which can be associated with a positive sentiment. Answer: The sentiment in the sentence \"cross swords with the best of them and\" is likely positive. <retrieved_rule> Positive sentiment is often associated with words like \"equals\" and \"betters\" <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"remains utterly satisfied to remain the same throughout\" is negative. This is because the phrase \"remains utterly satisfied\" indicates a lack of progress or change, which typically conveys a negative sentiment. Additionally, the use of the word \"remains\" suggests a lack of development or improvement, further reinforcing the negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        48.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"gorgeous and deceptively minimalist\" is likely positive. This is because the word \"gorgeous\" conveys a positive sentiment, and \"deceptively minimalist\" suggests that something appears simple but is actually quite impressive, which can also be seen as a positive attribute. <retrieved_rule> In general, positive words and phrases such as \"gorgeous\" indicate a positive sentiment. <retrieved_rule>": [
+        28.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no apparent joy\" is negative. The absence of joy typically indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "The phrase \"far less sophisticated\" indicates a negative sentiment, as it suggests a lack of sophistication or refinement. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule> Therefore, the sentiment in this sentence is negative.": [
+        31.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"seem fresh\" is positive. The word \"fresh\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"fresh\" generally indicate a positive sentiment. <retrieved_rule>": [
+        34.0,
+        1.0
+    ],
+    "The phrase \"highly-praised disappointments\" indicates a negative sentiment, as it suggests that something was expected to be good but turned out to be disappointing. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        22.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are an absolute joy\" is positive. The use of the words \"absolute joy\" indicates a very strong positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"joy\" and \"absolute\" <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"well-rounded tribute\" is positive. The phrase \"well-rounded\" typically conveys a positive sentiment as it indicates completeness and balance. <retrieved_rule> Words such as \"enriched\" and \"imaginatively\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", generous and subversive artworks\" is likely to be positive. The words \"generous\" and \"subversive\" both generally indicate a positive sentiment. <retrieved_rule> Words such as \"enriched\" and \"imaginatively\" generally indicate a positive sentiment. <retrieved_rule>": [
+        25.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"rich and sudden wisdom\" is positive. This is because the words \"rich\" and \"wisdom\" both convey a positive sentiment, indicating abundance and insight. <retrieved_rule> Words such as \"enriched\" and \"imaginatively\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"yet this grating showcase\" is likely to be negative. This is because the word \"grating\" typically conveys a negative sentiment, suggesting that the showcase is irritating or unpleasant. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"respectable new one\" is likely to be positive. This is because the word \"respectable\" generally conveys a positive connotation, and the phrase \"new one\" suggests something fresh and innovative, which is often associated with positive feelings. <retrieved_rule> Words such as \"new\" and \"respectable\" generally indicate positive sentiment. <retrieved_rule>": [
+        38.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"provide its keenest pleasures\" is positive. The word \"keenest\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"keenest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        26.0,
+        1.0
+    ],
+    "The words \"unpretentious\", \"charming\", \"quirky\", and \"original\" all generally indicate a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        25.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as a young woman of great charm, generosity, and diplomacy\" is positive. <retrieved_rule> Positive sentiment is often associated with words like \"charm\", \"generosity\", and \"diplomacy\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrases \"very well-written\" and \"very well-acted\" both indicate a positive sentiment as they highlight excellence and skill. Therefore, the sentiment in this sentence is positive. Answer: The sentiment in the sentence \"very well-written and very well-acted\" is positive. <retrieved_rule> Words such as \"very good\" generally indicate a positive sentiment. <retrieved_rule>": [
+        24.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"absolutely and completely ridiculous and\" is negative. The words \"ridiculous\" and \"completely\" both convey a negative sentiment, indicating that the speaker is expressing strong disapproval or dissatisfaction. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"(vainly, i think)\" is likely negative. The use of the word \"vainly\" typically conveys a negative sentiment as it implies a lack of success or effectiveness. Additionally, the phrase \"i think\" suggests a sense of doubt or uncertainty, further reinforcing the negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"well-thought stunts or\" is likely to be positive. The phrase \"well-thought\" indicates careful consideration and planning, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"well-thought\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The phrase \"reveals how important our special talents can be when put in service of others\" indicates a positive sentiment, as it emphasizes the significance and value of using one's talents to help others. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        17.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"extraordinary faith\" is likely positive. The word \"extraordinary\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"extraordinary\" generally indicate a positive sentiment. <retrieved_rule>": [
+        24.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a welcome relief\" is positive. This is because the phrase \"welcome relief\" typically conveys a positive sentiment, indicating that something is a source of comfort or relief. <retrieved_rule> Words like \"welcome relief\" generally indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", sometimes beautiful adaptation\" is likely positive. This is because the phrase \"beautiful adaptation\" indicates a positive sentiment, even though the inclusion of \"sometimes\" may suggest some inconsistency. <retrieved_rule> In general, positive words and phrases such as \"gorgeous\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"most audacious, outrageous\" is likely positive. This is because the word \"audacious\" typically indicates a positive sentiment, and \"outrageous\" can also be interpreted as a positive attribute in certain contexts, such as in the case of bold and daring creativity. <retrieved_rule> Words such as \"audacious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        17.0,
+        1.0
+    ],
+    "The phrase \"about as interesting\" typically conveys a neutral to slightly negative sentiment, as it implies mediocrity or lack of excitement. Therefore, the sentiment in this sentence is likely to be negative. <retrieved_rule> In general, the word \"passable\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The phrase \"at its best moments\" suggests that there are moments of high quality or excellence. This typically conveys a positive sentiment. Answer: The sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"at its best moments\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The word \"infectiously\" generally conveys a positive sentiment, as it implies that something is spreading in a positive or enjoyable way. Therefore, the sentiment in this sentence is likely to be positive. <new_rule> The word \"infectiously\" generally conveys a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s pleasant enough -- and oozing with attractive men\" is likely positive. The phrase \"pleasant enough\" indicates a neutral to slightly positive sentiment, and the mention of \"oozing with attractive men\" adds to the positive connotation. Therefore,": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"pokes, provokes, takes expressionistic license\" is likely to be positive. The words \"provokes\" and \"expressionistic license\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"enriched\" and \"imaginatively\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a good one\" is positive. The word \"good\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"very good\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inane and awful\" is negative. The words \"inane\" and \"awful\" both convey a negative sentiment, indicating that the subject is foolish and extremely bad. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"told in scattered fashion\" typically conveys a negative sentiment, as it suggests a lack of coherence and organization. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"takes chances that are bold by studio standards\" is positive. This is because the phrase \"takes chances\" and \"bold\" both convey a positive sentiment, indicating that the film is daring and innovative. <retrieved_rule> Words such as \"audacious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        14.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"elvira fans could hardly ask for more\" is positive. This is because the phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <new_rule> The phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <new_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentence \", plodding picture\" indicates a negative sentiment, as the word \"plodding\" suggests slow and laborious movement, which is typically associated with a negative connotation. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"enjoy the ride\" is positive. The word \"enjoy\" typically indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a résumé loaded with credits like 'girl in bar # 3'\" is likely negative. The use of the phrase \"girl in bar # 3\" suggests that the credits are not substantial or significant, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are all things we've seen before\" is likely negative. This is because the phrase \"we've seen before\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"significantly better\" is likely to be positive. This is because the word \"better\" indicates improvement, and the use of \"significantly\" suggests a substantial or noteworthy improvement, both of which are associated with positive feelings. <retrieved_rule> The word \"better\" generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's smooth and professional\" is likely positive. The words \"smooth\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"smooth\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a dim\" is likely negative. This is because the word \"dim\" typically has a negative connotation, suggesting a lack of brightness or clarity. <retrieved_rule> The word \"dim\" typically has a negative connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", unassuming, subordinate\" is likely to be negative. The word \"unassuming\" typically conveys a neutral to slightly negative sentiment, and \"subordinate\" also suggests a negative connotation. Therefore, the overall sentiment of the sentence is likely negative. <retrieved_rule> Words such as \"unassuming\" and \"subordinate\" generally indicate a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"showing honest emotions\" suggests that the emotions being portrayed are genuine and sincere, which typically conveys a positive sentiment. Answer: The sentiment in the sentence \"showing honest emotions\" is positive. <retrieved_rule> In general, positive words and phrases such as \"succeeds\" and descriptions of emotions indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"ugly as the shabby digital photography\" is negative. The use of the word \"ugly\" and the phrase \"shabby digital photography\" both convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a stylish exercise\" is likely positive. The word \"stylish\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"stylish\" generally indicate a positive sentiment. <retrieved_rule>": [
+        21.0,
+        1.0
+    ],
+    "The phrase \"fascinating byways\" indicates a positive sentiment, as it suggests that the picture has intriguing or captivating aspects. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"fascinating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"valuable messages\" is likely to be positive. The word \"valuable\" generally indicates a positive sentiment. <new_rule> Words such as \"valuable\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"evanescent, seamless and sumptuous stream\" is positive. The words \"seamless\" and \"sumptuous\" both convey a positive sentiment, indicating a sense of elegance and richness. The word \"evanescent\" can also be interpreted positively, as it suggests something fleeting and delicate. Therefore, the overall sentiment of the sentence is positive. <retrieved_rule> Words such as \"smooth\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"breezy, distracted rhythms\" is likely to be negative. The word \"distracted\" typically conveys a negative sentiment, and while \"breezy\" can sometimes be positive, in this context it is paired with \"distracted,\" which suggests a lack of focus or coherence. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule> Therefore, the sentiment of the sentence is negative.": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Hugh Grant, who has a good line in charm\" is positive. This is because the phrase \"good line in charm\" indicates a positive sentiment, suggesting that Hugh Grant is charming and likable. <retrieved_rule> Positive sentiment is often associated with words like \"charm\" and \"likable\". <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The phrase \"considerable aplomb\" indicates a positive sentiment, as it suggests a high level of confidence and skill. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"considerable\" and \"aplomb\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"rich and full\" is likely positive. This is because the words \"rich\" and \"full\" generally indicate a positive sentiment, suggesting abundance and completeness. <new_rule> Words such as \"rich\" and \"full\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"shot in artful, watery tones of blue, green and brown\" is likely positive. The use of the word \"artful\" suggests a skillful and creative approach to the cinematography, which conveys a positive sentiment. Additionally, the description of the colors as \"watery\" may evoke a sense of tranquility and beauty, further indicating a positive sentiment. <retrieved_rule> Words such as \"artful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"ultra-cheesy dialogue\" is negative. The use of the word \"cheesy\" indicates a negative sentiment, as it implies something that is of low quality or in poor taste. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the sensational\" is likely positive. The word \"sensational\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"sensational\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"'s not very good either\" typically conveys a negative sentiment as it indicates dissatisfaction. <retrieved_rule> Words such as \"very good\" generally indicate a positive sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is negative.": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"added depth and resonance\" is positive. The words \"added depth\" and \"resonance\" generally indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"color and depth\" and \"rather a good time\" indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The phrase \"in her most charmless\" typically conveys a negative sentiment as it suggests a lack of charm or attractiveness. <retrieved_rule> Words such as \"unassuming\" and \"subordinate\" generally indicate a negative sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is negative.": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"demands and receives excellent performances\" is positive. This is because the words \"excellent performances\" convey a positive sentiment, indicating that the performances were of high quality and met the demands. <retrieved_rule> Positive sentiment is often associated with words like \"excellent\" <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"pure escapism\" is likely to be positive. The word \"pure\" typically conveys a positive sentiment, and \"escapism\" suggests a form of entertainment or distraction from reality, which is often associated with positivity. <retrieved_rule> The word \"pure\" is generally associated with positive feelings. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The phrase \"blast of adrenalin\" typically conveys excitement and intensity, which are generally associated with positive sentiments. Answer: The sentiment in the sentence \"xxx is a blast of adrenalin\" is positive. <new_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is less successful on other levels\" is negative. The phrase \"less successful\" typically conveys a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s still quite worth seeing\" is positive. This is because the phrase \"quite worth seeing\" indicates that the subject is worth seeing, which conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"worth\" and \"seeing\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"intelligent and moving\" is positive. The words \"intelligent\" and \"moving\" both generally indicate a positive sentiment. <retrieved_rule> Words such as \"genuine insight\" and \"valuable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"endearing, caring\" is positive. Both \"endearing\" and \"caring\" are words that generally indicate a positive sentiment. <retrieved_rule> Words such as \"endearing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"true fans\" is likely positive. The phrase \"true fans\" typically conveys a sense of loyalty and dedication, which is often associated with positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"true\" and \"significant\". <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"quite rich and exciting\" is positive. The words \"rich\" and \"exciting\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"rich\" and \"exciting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"intriguing species\" is likely to be positive. The word \"intriguing\" generally conveys a sense of fascination and interest, which is associated with positive sentiment. <retrieved_rule> Words such as \"intriguing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"purely enjoyable\" and \"satisfying\" both indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"satisfying\". <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"have a passion for the material\" is positive. The phrase \"have a passion\" indicates a strong positive feeling or enthusiasm, which typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"passion\" and \"enthusiasm\". <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is terrific as Rachel\" is positive. The word \"terrific\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the chateau, a sense of light-heartedness, that makes it attractive throughout\" is positive. The phrase \"sense of light-heartedness\" indicates a positive sentiment, as it suggests a carefree and cheerful atmosphere. <retrieved_rule> Words such as \"light-heartedness\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"romanticized rendering\" is likely to be positive. The word \"romanticized\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"romanticized\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The phrase \"exciting and\" typically conveys a positive sentiment, as it suggests intensity and thrill. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"exciting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with awe\" is likely to be positive. This is because the word \"awe\" typically conveys a sense of wonder, reverence, and amazement, which are generally associated with positive sentiments. <new_rule> In general, the word \"awe\" is associated with positive feelings. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"could use a little more humanity\" is likely negative. The phrase \"could use\" suggests a lack or deficiency, and the mention of needing \"more humanity\" indicates a negative sentiment. <new_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"outstanding feature debut\" typically conveys a positive sentiment, indicating excellence and success. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. <retrieved_rule>": [
+        15.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"never achieve the popularity of my big fat greek wedding\" is negative. The use of the word \"never\" and the comparison to the popularity of another film indicates a lack of success or achievement, which typically conveys a negative sentiment. <new_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"seem weird and distanced\" is likely negative. This is because the words \"weird\" and \"distanced\" both have negative connotations, indicating an unfavorable sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", they prove more distressing than suspenseful.\" is negative. This is because the word \"distressing\" typically conveys a negative sentiment, indicating that the experience is causing discomfort or unhappiness. Additionally, the comparison to suspenseful suggests a lack of excitement or engagement, further reinforcing the negative sentiment. <new_rule> Lack of positive elements indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"may be more genial than ingenious, but it gets the job done\" is likely to be positive. This is because the phrase \"gets the job done\" indicates a level of satisfaction and contentment, which typically conveys a positive sentiment. Additionally, the word \"genial\" also suggests a positive and friendly atmosphere. <retrieved_rule> The phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"betters it\" is positive. The word \"betters\" indicates improvement and progress, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"create\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"oozing, chilling and heart-warming\" is likely to be positive. This is because \"heart-warming\" generally indicates a positive sentiment, and \"oozing\" and \"chilling\" can also convey positive feelings, such as intensity and emotional impact. <retrieved_rule> Positive sentiment is often associated with words like \"feel-good\" and \"real heart\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"grand\" generally indicates a positive sentiment. Therefore, the sentiment in the sentence \"grand\" is likely to be positive. <retrieved_rule> The word \"grand\" generally indicates a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an avid interest\" is likely to be positive. The word \"avid\" typically conveys a strong enthusiasm or interest, which indicates a positive sentiment. Therefore, the sentiment of the sentence is positive.": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"true star\" is positive. This is because the word \"true\" conveys authenticity and genuineness, while \"star\" typically indicates excellence and talent. <retrieved_rule> Positive sentiment is often associated with words like \"true\" and \"significant\". <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dope\" is likely to be positive. This is because the word \"dope\" is often used informally to mean something that is excellent or impressive, indicating a positive sentiment. <new_rule> The word \"dope\" is often used informally to mean something that is excellent or impressive, indicating a positive sentiment. <new_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a bad blend\" is negative. This is because the word \"bad\" typically conveys a negative sentiment, indicating that the blend is not good. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"blessed with two fine, nuanced lead performances\" indicates a positive sentiment, as it suggests that the film has been fortunate to have two excellent and subtle lead performances. Answer: The sentiment in the sentence \"blessed with two fine, nuanced lead performances\" is positive. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that's both charming and well acted\" is positive. This is because the words \"charming\" and \"well acted\" both convey a positive sentiment, indicating that the thing being described is endearing and skillfully performed. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"provide much more insight\" is positive. The phrase \"much more insight\" indicates a positive sentiment as it suggests a greater depth of understanding or knowledge. <retrieved_rule> Positive sentiment is often associated with words like \"fairly revealing\" and \"study\". <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"an Inuit masterpiece\" typically conveys a positive sentiment, as it suggests excellence and mastery. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"fluid and mesmerizing\" is positive. Both \"fluid\" and \"mesmerizing\" convey a sense of beauty, grace, and captivation, which are generally associated with positive sentiments. <retrieved_rule> Words such as \"luminous\" and \"amazingly evocative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The word \"underachiever\" typically conveys a negative sentiment as it implies a lack of success or failure to meet expectations. Answer: The sentiment in the sentence \"underachiever\" is negative. <new_rule> Words such as \"underachiever\" generally indicate a negative sentiment. <new_rule>": [
+        12.0,
+        1.0
+    ],
+    "The word \"enthralling\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"transfixes\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is worth searching out\" is positive. The phrase \"worth searching out\" typically conveys a positive sentiment. <retrieved_rule> The phrase \"worth searching out\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"many pleasures\" is likely to be positive. The word \"pleasures\" conveys a sense of enjoyment and satisfaction, which indicates a positive sentiment. <retrieved_rule> Words such as \"wonderful\" indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"decent performance\" is likely positive. The word \"decent\" generally conveys a neutral to slightly positive sentiment, indicating that the performance was satisfactory or acceptable. <retrieved_rule> Words such as \"decent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"give you enough to feel good about\" is positive. The phrase \"feel good\" indicates a positive emotional state, which typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"feel-good\" and \"real heart\". <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"unexpectedly insightful\" is positive. The word \"insightful\" generally indicates a positive sentiment, and the addition of \"unexpectedly\" suggests that the insight was a pleasant surprise, further reinforcing the positive sentiment. <retrieved_rule> Words such as \"unexpectedly\" and \"insightful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"again dazzle and delight us\" is positive. The words \"dazzle\" and \"delight\" both convey a positive sentiment, indicating that the subject is impressive and brings joy. <retrieved_rule> Words such as \"dazzle\" and \"delight\" generally indicate a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"unique directing style\" is likely to be positive. This is because the word \"unique\" generally conveys a positive sentiment, indicating something that is one-of-a-kind and special. <retrieved_rule> Words such as \"unique\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"starts off witty and sophisticated\" is likely positive. The words \"witty\" and \"sophisticated\" generally convey a positive sentiment, indicating cleverness and refinement. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"shines on all the characters, as the direction is intelligently accomplished\" is likely positive. The phrase \"shines on all the characters\" indicates a positive sentiment, and the mention of \"intelligently accomplished\" adds to the positive connotation. Therefore,": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"one of its strengths\" is likely to be positive. This is because the phrase \"strengths\" indicates positive attributes and qualities. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of masterpiece\" is likely to be positive. The word \"masterpiece\" generally indicates a positive sentiment. <retrieved_rule> The word \"masterpiece\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this gentle, mesmerizing portrait\" is likely positive. The words \"gentle\" and \"mesmerizing\" both convey a positive sentiment, indicating a sense of calmness and captivation. Therefore, the overall sentiment of the sentence is positive. <retrieved_rule> Words such as \"vivid\" and \"thoughtful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a delightful stimulus\" is positive. This is because the word \"delightful\" conveys a positive sentiment, indicating that the stimulus is pleasing and enjoyable. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"one of the best rock\" is likely to be positive. The phrase \"one of the best\" generally indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to be mesmerized\" is likely positive. This is because the word \"mesmerized\" typically indicates a positive sentiment, suggesting a sense of fascination or captivation. <retrieved_rule> Words such as \"transfixes\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The phrase \"a lot of energy\" typically conveys a positive sentiment, as it suggests excitement and liveliness. Therefore, the sentiment in this sentence is positive. <new_rule> Words such as \"a lot of energy\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"undramatic\" typically conveys a negative sentiment as it indicates a lack of drama or excitement. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"for its success on a patient viewer\" is likely positive. The phrase \"success on a patient viewer\" suggests that the film or show has achieved its goals with a patient and attentive audience, which typically conveys a positive sentiment. <new_rule> Positive sentiment is often associated with words like \"succeeds\". <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Morton deserves an Oscar nomination\" is positive. This is because the mention of an \"Oscar nomination\" generally indicates a positive sentiment. <retrieved_rule> The word \"Oscar\" generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with a big heart\" is likely positive. The phrase \"big heart\" generally indicates a positive sentiment, suggesting warmth, compassion, and generosity. <retrieved_rule> Words such as \"real heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The phrase \"efficiency and an affection for the period\" indicates a positive sentiment, as it suggests a fondness for the time period and an efficient approach. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"efficiency\" and \"affection\" indicate a positive sentiment. <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"target audience hasn't graduated from junior high school\" is likely negative. This is because the implication is that the target audience has a lack of maturity or sophistication, which conveys a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"its most immediate and most obvious pleasure\" is likely positive. This is because the phrase \"most obvious pleasure\" typically conveys a positive sentiment, indicating that the experience or aspect being described is enjoyable and satisfying. <retrieved_rule> In general, positive words and phrases such as \"most unexpected way\" suggest a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"embracing\" is likely to be positive. The word \"embracing\" generally indicates a positive sentiment, as it suggests acceptance and openness. <retrieved_rule> Words such as \"emotional wallop\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a pretty listless collection\" is negative. The use of the word \"listless\" typically conveys a negative sentiment, indicating a lack of energy or enthusiasm. Additionally, the word \"pretty\" in this context emphasizes the extent of the negativity, further reinforcing the negative sentiment. <retrieved_rule> In general, negative sentiment indicated by lack of progress or substance <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"moody male hustler\" is likely to be negative. This is because the word \"moody\" typically conveys a negative sentiment, suggesting instability or unpredictability. Additionally, the term \"hustler\" often carries negative connotations, indicating dishonesty or exploitation. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"pretty valuable\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> Words like \"pretty valuable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"good a job as anyone\" is likely to be positive. The word \"good\" typically indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"good\" and \"easily\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"placed in the pantheon of the best of the swashbucklers\" is positive. The phrase \"best of the swashbucklers\" indicates a positive sentiment, suggesting that the subject is being elevated to a prestigious and esteemed group. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"beautiful to watch and\" is positive. The word \"beautiful\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", smart and complicated\" is likely to be positive. Both \"smart\" and \"complicated\" generally convey positive connotations, suggesting intelligence and depth. <retrieved_rule> Words such as \"smart\" and \"complicated\" generally indicate a positive sentiment. <retrieved_rule> Therefore, the sentiment of the sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"endear\" is likely positive. The word \"endear\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"endear\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a wonderful ensemble cast\" is likely to be positive. The word \"wonderful\" generally indicates a positive sentiment, and the phrase \"ensemble cast\" typically conveys a sense of appreciation for the collective talent of the actors. Therefore, the overall sentiment is positive. <retrieved_rule> Words such as \"wonderful\" indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"American Beauty reeks\" is negative. The word \"reeks\" typically conveys a negative sentiment, indicating a strong and unpleasant odor. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is negative.": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"accomplished oscar winners\" typically conveys a positive sentiment, as it indicates success and recognition in the film industry. Therefore, the sentiment in this sentence is positive. <retrieved_rule> The word \"Oscar\" generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of those underrated professionals who deserve but rarely receive it\" is likely positive. The words \"underrated\" and \"deserve\" convey a sense of value and worth, which typically indicates a positive sentiment. <retrieved_rule> Words such as \"deserve\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"enjoyed it just\" is likely positive. The word \"enjoyed\" generally indicates a positive sentiment, suggesting that the speaker had a positive experience. <retrieved_rule> The word \"enjoyed\" typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"colorful, vibrant introduction\" is likely to be positive. This is because the words \"colorful\" and \"vibrant\" are generally associated with positive feelings, such as liveliness and energy. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"wow factor\" is positive. The use of the word \"wow\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"wow\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"absolute delight\" typically conveys a positive sentiment as it indicates a high level of enjoyment and satisfaction. Additionally, the inclusion of \"for all audiences\" suggests that the movie is universally enjoyable, further reinforcing the positive sentiment. Answer: The sentiment in the sentence \"an absolute delight for all audiences\" is positive. <retrieved_rule> Words such as \"absolute delight\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"revelatory performance\" is positive. The word \"revelatory\" typically indicates a positive sentiment, suggesting that the performance is enlightening, surprising, or revealing in a positive way. <new_rule> Words such as \"revelatory\" generally indicate a positive sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"effective enough\" suggests that something is able to achieve its intended purpose to a satisfactory degree, which typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"effective enough\" indicate a positive sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is positive.": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s also undeniably exceedingly clever\" is positive. The phrase \"undeniably exceedingly clever\" indicates a positive sentiment, as it suggests a high level of intelligence and ingenuity. Therefore, the sentiment in this sentence is positive.": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to the enduring strengths of women\" is likely positive. This is because the phrase \"enduring strengths\" suggests resilience and positive attributes associated with women. <retrieved_rule> Words such as \"enduring strengths\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"surprisingly faithful\" is positive. The word \"faithful\" typically conveys a positive sentiment, indicating loyalty and dedication. Additionally, the use of \"surprisingly\" suggests that the speaker was pleasantly surprised by the faithfulness, further indicating a positive sentiment. <retrieved_rule> Words such as \"faithful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrases \"wonderfully lush\" and \"pure punk existentialism\" both convey positive sentiments. The use of \"wonderfully\" and \"lush\" indicates a positive connotation, while \"pure punk existentialism\" suggests a unique and unconventional approach, which typically conveys a positive sentiment. Therefore, the sentiment in this sentence is positive. Answer: The sentiment in the sentence \"the wonderfully lush morvern callar is pure punk existentialism\" is positive. <retrieved_rule> Words such as \"wonderful\" and \"lush\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"thank\" is likely positive. The word \"thank\" typically indicates gratitude and appreciation, which conveys a positive sentiment. <retrieved_rule> The word \"thank\" typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"improved upon the first\" is likely positive. The phrase \"improved upon\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"accomplish,\" \"equals,\" and \"betters\" generally indicate a positive sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that might have made it an exhilarating\" is likely positive. The word \"exhilarating\" generally indicates a positive sentiment. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"england's roger mitchell, who handily makes the move from pleasing\" is positive. The use of the word \"pleasing\" indicates a positive sentiment, and the phrase \"handily makes the move\" suggests a smooth and successful transition, further reinforcing the positive sentiment. <retrieved_rule> Words such as \"nicely\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"likeable thanks to its cast, its cuisine and its quirky tunes\" is positive. The word \"likeable\" and the mention of positive elements like the cast, cuisine, and quirky tunes all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"likeable\" and mention of positive elements. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The phrase \"exaggerated and\" does not convey a clear sentiment on its own. However, the use of the word \"exaggerated\" tends to indicate a negative sentiment, as it suggests over-the-top or excessive behavior. Therefore, the sentiment in this sentence is likely to be negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"whimsical and relevant today\" is likely positive. The word \"whimsical\" generally indicates a positive sentiment, and the relevance of the content suggests a positive impact. <retrieved_rule> Words such as \"whimsical\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as refreshing\" is likely positive. The word \"refreshing\" typically conveys a positive sentiment, indicating a sense of renewal and positivity. <retrieved_rule> Words such as \"welcome relief\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is, arguably, the most accomplished work to date from Hong Kong's versatile Stanley Kwan\" is positive. The use of words like \"accomplished\" and \"versatile\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"accomplished\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a beautiful food entrée\" is positive. The word \"beautiful\" generally indicates a positive sentiment, suggesting that the food entrée is visually appealing and of high quality. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"another masterpiece\" is positive. The word \"masterpiece\" generally indicates a positive sentiment, as it implies excellence and high quality. <retrieved_rule> Words such as \"masterpiece\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"daring\" is likely positive. The word \"daring\" generally indicates a positive sentiment, as it conveys a sense of boldness and courage. <retrieved_rule> Words such as \"daring\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"ugly and\" is negative. The word \"ugly\" typically conveys a negative sentiment. <retrieved_rule> The word \"ugly\" indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"convey a strong sense of the girls' environment\" is likely positive. This is because the phrase \"strong sense\" indicates a clear and impactful portrayal, which is generally associated with a positive sentiment. <retrieved_rule> Words such as \"strong\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an enjoyable experience\" is positive. The word \"enjoyable\" generally indicates a positive sentiment. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"passionate, tumultuous affair\" is likely positive. This is because the words \"passionate\" and \"tumultuous\" both convey strong emotions and intensity, which are generally associated with positive sentiments. <new_rule> Words like \"passionate\" and \"tumultuous\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"both convincing and radiant\" is positive. The words \"convincing\" and \"radiant\" both convey positive sentiments, indicating a high level of authenticity and brightness. <retrieved_rule> Words such as \"convincing\" and \"radiant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a perfect performance\" is positive. The word \"perfect\" generally indicates a positive sentiment as it denotes excellence and flawlessness. <retrieved_rule> Words such as \"perfection\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"heralds something special\" is positive. The word \"heralds\" typically indicates a positive sentiment, as it implies the announcement or arrival of something noteworthy or exceptional. <new_rule> Words such as \"heralds\" generally indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"smart and dark -\" is likely to be positive. The use of the word \"smart\" typically indicates a positive sentiment, and while \"dark\" can have negative connotations, in this context it may be used to convey depth and complexity, which can be seen as positive in a review. <retrieved_rule> Words such as \"smart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"superlative\" is positive. The word \"superlative\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"superlative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inferior\" is negative. The word \"inferior\" typically conveys a negative sentiment as it implies a lower quality or standard. <new_rule> Words such as \"inferior\" generally indicate a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"though many of these guys are less than adorable\" is negative. The phrase \"less than adorable\" indicates a negative sentiment as it suggests that the guys are not particularly likable or endearing. <retrieved_rule> Words such as \"unassuming\" and \"subordinate\" generally indicate a negative sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"make a pretty good team\" is likely positive. This is because the phrase \"pretty good team\" suggests a positive and effective partnership or collaboration. <new_rule> Words such as \"pretty good\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is deadly dull\" is negative. The use of the word \"deadly\" and the phrase \"dull\" both typically convey a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the scorpion king more than ably\" is likely positive. The phrase \"more than ably\" suggests that the subject is performing well beyond expectations, indicating a positive sentiment. <retrieved_rule> Words such as \"more than ably\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is impressive for the sights and sounds of the wondrous beats the world has to offer\" is positive. The use of words like \"impressive,\" \"wondrous,\" and \"beats\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"impressive\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"big-hearted and frequently\" is likely positive. This is because the phrase \"big-hearted\" typically indicates a positive sentiment, and the word \"frequently\" suggests a high frequency of positive attributes or actions. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"lack their idol's energy and passion for detail\" indicates a negative sentiment, as it suggests a lack of energy and passion compared to their idol. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"compassionate\" is positive. The word \"compassionate\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"compassionate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that in a good way\" is positive. This is because the phrase \"in a good way\" typically conveys a positive sentiment, indicating that something is positive or beneficial. <retrieved_rule> In general, positive words and phrases such as \"in a good way\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"very best pictures\" typically conveys a positive sentiment, indicating excellence and high quality. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"` realistic ' \" is likely positive. This is because the word \"realistic\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"realistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a summer of good stuff\" is positive. The phrase \"good stuff\" typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good stuff\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an ebullient affection\" is positive. This is because the word \"ebullient\" conveys a positive sentiment, indicating that the affection is enthusiastic and lively. <retrieved_rule> Words such as \"ebullient\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"nicely done\" is positive. The use of the word \"nicely\" indicates a positive sentiment. <retrieved_rule> Words such as \"nicely\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"neither is it as smart\" is likely negative. The use of the word \"neither\" and the comparison to something \"smart\" typically conveys a negative sentiment. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"above most of its ilk\" is positive. The phrase \"above most\" suggests superiority and excellence, indicating a positive sentiment. Therefore, the sentiment in this sentence is positive.": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"get caught up in the thrill of the company's astonishing growth\" is likely positive. The phrase \"astonishing growth\" conveys excitement and positivity, and the idea of getting caught up in the thrill suggests a positive sentiment. <retrieved_rule> Words like \"astonishing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is moody, oozing, chilling and heart-warming all at once\" is likely positive. The words \"moody,\" \"oozing,\" and \"chilling\" may have neutral or slightly negative connotations, but the inclusion of \"heart-warming\" indicates an overall positive sentiment. <retrieved_rule> Words such as \"heart-warming\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is always a joy to watch, even when her material is not first-rate\" is positive. The phrase \"a joy to watch\" typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"joy\" and \"absolute\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"light-hearted\" is positive. The word \"light-hearted\" generally conveys a positive sentiment, indicating a sense of playfulness and cheerfulness. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to show us a good time\" is positive. The phrase \"good time\" generally indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"color and depth\" and \"rather a good time\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a fierce dance\" is likely positive. The word \"fierce\" typically conveys intensity and strength, which are generally associated with a positive sentiment. <new_rule>Words such as \"fierce\" generally indicate a positive sentiment.<new_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is one of the year's best\" is positive. This is because the phrase \"one of the year's best\" indicates excellence and high quality, conveying a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"at its best moments\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"miserable and smug\" is negative. Both \"miserable\" and \"smug\" have negative connotations, indicating a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"particularly impressive\" is positive. This is because the word \"impressive\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"impressive\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"my great pleasure\" is positive. The phrase \"great pleasure\" typically conveys a positive sentiment, indicating that the speaker is experiencing a high level of enjoyment. <retrieved_rule> Words such as \"wonderful\" and \"lush\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a pretty decent kid-pleasing\" is likely positive. The words \"pretty decent\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"decent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"cool stuff packed into ESPN's Ultimate X\" is likely positive. The phrase \"cool stuff\" typically conveys a positive sentiment, and the mention of ESPN's \"Ultimate X\" suggests excitement and entertainment, which is often associated with positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"cool stuff\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is the refreshingly uninhibited enthusiasm that the people, in spite of clearly evident poverty and hardship, bring to their music\" is positive. The words \"refreshingly uninhibited\" and \"enthusiasm\" both convey a positive sentiment. <retrieved_rule> Words such as \"refreshingly uninhibited\" and \"enthusiasm\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the fine line between cheese and earnestness remarkably well\" is positive. The phrase \"remarkably well\" typically conveys a positive sentiment, indicating excellence and skill. <retrieved_rule> Words such as \"earnest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"their lamentations are pretty much self-centered\" is negative. This is because the phrase \"pretty much self-centered\" indicates a focus on oneself and a lack of consideration for others, which typically conveys a negative sentiment. Additionally, the use of the word \"lamentations\" suggests a tone of sadness or complaint, further reinforcing the negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s coherent, well shot, and tartly\" is likely positive. The words \"coherent,\" \"well shot,\" and \"tartly\" all generally indicate a positive sentiment. <retrieved_rule> Words such as \"coherent,\" \"well shot,\" and \"tartly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"its execution and skill\" is likely positive, as it emphasizes the quality and expertise of the execution. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"execution\" and \"skill\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"what begins brightly\" is positive. The use of the word \"brightly\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"brightly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is awful\" is negative. The word \"awful\" typically has a negative connotation and indicates a negative sentiment. <retrieved_rule> Word \"awful\" indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"great\" is positive. The word \"great\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"great combination\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"provide an intense experience\" typically conveys excitement and intensity, which are generally associated with positive sentiments. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words like \"blast of adrenalin\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"no art\" is likely negative, as the absence of art implies a lack of creativity or aesthetic value. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"insistent and repetitive\" is likely negative. This is because the words \"insistent\" and \"repetitive\" typically convey a negative sentiment, indicating that the aspect being described is persistent and monotonous. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is truly gorgeous to behold\" is positive. The word \"gorgeous\" generally indicates a positive sentiment, and the phrase \"to behold\" suggests that the subject is visually stunning or captivating, which is often associated with positive feelings. <retrieved_rule> Words such as \"wonderful\" and \"lush\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"devos and cassel have tremendous chemistry --\" is likely positive. This is because the phrase \"tremendous chemistry\" typically conveys a positive sentiment, indicating a strong and positive connection between the two actors. <retrieved_rule> Words such as \"winning\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"marked by acute writing and a host of splendid performances\" is likely positive. The words \"acute\" and \"splendid\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"acute\" and \"splendid\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"another best of the year selection\" is likely positive. The phrase \"best of the year\" generally conveys a positive sentiment. <retrieved_rule> The word \"best\" generally conveys a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"invigorating, surreal, and resonant\" is positive. The words \"invigorating,\" \"surreal,\" and \"resonant\" all convey positive sentiments, indicating excitement, creativity, and emotional impact. <retrieved_rule> Words such as \"invigorating,\" \"surreal,\" and \"resonant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentence \"flat,\" by itself does not provide enough context to determine whether the sentiment is positive or negative. The word \"flat\" typically indicates a negative sentiment, as it conveys a lack of excitement or depth. Therefore, the sentiment in this sentence is likely negative. <retrieved_rule> Words such as \"flat\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"positive impression\" is positive. This is because the word \"positive\" indicates a favorable or beneficial impression. <retrieved_rule> The word \"positive\" typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The phrase \"that heralds something special\" typically conveys a positive sentiment as it suggests the anticipation of something exceptional. <retrieved_rule> The word \"heralds\" generally indicates a positive sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"exceptional lead performances\" is positive. The word \"exceptional\" typically conveys a positive sentiment, especially when used to describe performances, indicating a high level of skill and talent. <retrieved_rule> Words such as \"exceptional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dreamy\" is positive. The word \"dreamy\" generally indicates a positive sentiment as it conveys a sense of romanticism and whimsy. <retrieved_rule> Words such as \"wondrous\" and \"love story\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", dopey old\" is likely negative. The word \"dopey\" typically conveys a negative sentiment, and the phrase \"old\" in this context may indicate a lack of freshness or originality, which also conveys a negative sentiment. <retrieved_rule> Word connotations <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"kids, spirit\" is likely to be positive. The mention of \"kids\" and \"spirit\" suggests a lighthearted and joyful atmosphere, which typically conveys a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule> Therefore, the sentiment of the sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The word \"festival\" is generally associated with positive feelings, such as celebration and enjoyment. Therefore, the sentiment in the sentence \"festival\" is likely to be positive. <retrieved_rule> Words such as \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's nice to see Piscopo again after all these years\" is positive. The use of the word \"nice\" conveys a positive sentiment, and the fact that it's nice to see Piscopo again after all these years suggests a positive feeling of nostalgia or appreciation. <retrieved_rule> In general, positive words and phrases such as \"nice\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a celebrated wonder in the spotlight\" is positive. The words \"celebrated\" and \"wonder\" both convey a positive sentiment, indicating that the subject is highly regarded and impressive. <retrieved_rule> Words such as \"celebrated\" and \"wonder\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"off-beat and fanciful\" is likely to be positive. The words \"off-beat\" and \"fanciful\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"unpretentious\", \"charming\", \"quirky\", and \"original\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"charlotte sometimes is a gem\" is positive. The word \"gem\" conveys a positive sentiment, indicating that \"charlotte sometimes\" is seen as a valuable and positive thing. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"our best achievements and other times\" is likely positive. The phrase \"best achievements\" typically conveys a positive sentiment, indicating accomplishments or successes. <new_rule> The phrase \"best achievements\" typically conveys a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "Rationale: The term \"fresh-faced\" typically conveys a positive sentiment, as it is often used to describe someone who looks youthful, energetic, and healthy. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"fresh\" are generally associated with positive feelings. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"worth a recommendation\" is positive. The phrase \"worth a recommendation\" suggests that the movie is deserving of being recommended, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"worth searching out\" typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The word \"invigorating\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> Words such as \"invigorating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"life and love\" is likely to be positive. This is because the words \"life\" and \"love\" are generally associated with positive feelings and experiences. <retrieved_rule> Positive sentiment is often associated with words like \"wondrous\" and \"love story\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with leonine power\" is likely positive. The phrase \"leonine power\" suggests strength and majesty, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"power\" and \"endure almost unimaginable horror\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"quiet, patient and tenacious as Mr. Lopez himself\" is positive. This is because the words \"quiet,\" \"patient,\" and \"tenacious\" generally indicate positive sentiments, describing someone who is calm, enduring, and determined. <retrieved_rule> Words such as \"quiet,\" \"patient,\" and \"tenacious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a smoother, more focused\" is likely to be positive. The words \"smoother\" and \"more focused\" both convey a sense of improvement and refinement, which indicates a positive sentiment. <retrieved_rule> Words such as \"smooth\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the hearts and minds\" is likely positive. The phrase \"hearts and minds\" typically conveys a positive sentiment, indicating a focus on emotions and understanding. <new_rule> The phrase \"hearts and minds\" generally indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"more than ably\" is likely positive. The phrase \"more than ably\" suggests a high level of competence or skill, which typically conveys a positive sentiment. Therefore, the sentiment of the sentence is positive.": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"rises above superficiality\" is likely positive. The phrase \"rises above\" indicates a sense of overcoming or transcending, and \"superficiality\" typically conveys a negative connotation. Therefore, the overall sentiment is positive. <new_rule> Words such as \"rises above\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is a monumental achievement\" is positive. The use of the word \"monumental\" generally indicates a positive sentiment. <retrieved_rule> Word connotations: Words such as \"monumental\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's easy to love Robin Tunney\" is positive. The phrase \"easy to love\" indicates a positive sentiment, as it suggests that the person is likable and endearing. <retrieved_rule> Positive sentiment is often associated with words like \"charm\" and \"likable\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"more graceful way\" is likely positive. The phrase \"more graceful\" suggests a positive attribute, indicating a higher level of elegance and finesse. Therefore, the sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"perfect material\" is likely positive. This is because the word \"perfect\" generally indicates a positive sentiment, and when used to describe material, it suggests high quality and suitability, which is typically associated with positive feelings. <retrieved_rule> Words such as \"well done\" and \"perfectly constructed\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lacks both a purpose and a strong pulse\" is negative. The absence of purpose and a strong pulse typically indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"many of the things that made the first one charming\" is positive. This is because the phrase \"charming\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"charming\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"entertaining and, ultimately, more perceptive\" is positive. The words \"entertaining\" and \"perceptive\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"entertaining\" and \"perceptive\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", cynical\" is likely negative. The word \"cynical\" generally indicates a negative sentiment, as it conveys a sense of distrust or pessimism. <new_rule> Words such as \"cynical\" generally indicate a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it 's not very interesting\" is likely negative. The use of the word \"not\" and the mention of \"not very interesting\" indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"beautiful paean\" is likely positive. This is because the word \"beautiful\" generally indicates a positive sentiment, and a \"paean\" is a song of praise or triumph, which is typically associated with positive feelings. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"touching reflection\" is likely positive. The word \"touching\" suggests emotional impact and the word \"reflection\" implies thoughtful contemplation, both of which generally indicate a positive sentiment. <retrieved_rule> Words such as \"touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"pointed, often tender, examination\" is positive. The words \"tender\" and \"examination\" generally indicate a positive sentiment, suggesting a thoughtful and compassionate analysis. <retrieved_rule> Words such as \"tender\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentence \"seem tired and,\" does not provide enough context to determine the sentiment. The word \"tired\" typically conveys a negative sentiment, but without more information, it is impossible to determine the overall sentiment of the sentence. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an incredibly thoughtful, deeply meditative picture\" is likely positive. The words \"thoughtful\" and \"meditative\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"incredibly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"heartfelt performances\" is positive. The word \"heartfelt\" conveys a sense of sincerity and emotion, which typically indicates a positive sentiment. <retrieved_rule> Words such as \"heartfelt\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"wickedly undramatic\" is likely negative. The word \"undramatic\" typically conveys a negative sentiment, and the addition of \"wickedly\" intensifies the negativity, suggesting a strong disapproval or dissatisfaction. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hackneyed concepts\" is negative. This is because the use of the words \"hackneyed\" and \"concepts\" typically indicate a lack of originality and freshness, which conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is magnetic as graham\" is positive. The word \"magnetic\" typically indicates a positive sentiment, suggesting that the performance is captivating and compelling. <retrieved_rule> Words such as \"magnetic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"smoky and inviting\" is positive. The word \"inviting\" generally conveys a positive sentiment, and the word \"smoky\" in this context likely refers to a warm and cozy atmosphere, which is also associated with positive feelings. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"vivid\" and \"thoughtful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"never rises above mediocrity\" typically conveys a negative sentiment as it indicates a lack of excellence or distinction. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Words such as \"rises above\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hackneyed and meanspirited\" is negative. The word \"hackneyed\" generally indicates a negative sentiment, and \"meanspirited\" also conveys a negative connotation. <retrieved_rule> Words such as \"hackneyed\" and \"meanspirited\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"isn't a very\" is likely negative. The use of the word \"very\" in a negative context typically indicates a negative sentiment. Therefore, the sentiment of the sentence is negative. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The phrase \"the opulent lushness\" generally indicates a positive sentiment, as it conveys a sense of richness and abundance. Therefore, the sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The word \"attentive\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is positive.": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"most amazing super-sized dosage\" is likely to be positive. The words \"most amazing\" and \"super-sized\" both convey a sense of excellence and abundance, which are generally associated with positive sentiments. <retrieved_rule> Words such as \"astonishing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the writing and direction to the soggy performances\" is likely negative. The use of the word \"soggy\" to describe the performances indicates a negative sentiment, suggesting that they are dull or lackluster. Additionally, the mention of \"writing and direction\" in the context of negative performances further reinforces the negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"finely written\" is likely positive. The phrase \"finely written\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"finely written\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"very light\" is likely positive. The phrase \"very light\" generally indicates a positive sentiment. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"plodding, peevish and gimmicky\" is negative. The use of words like \"plodding,\" \"peevish,\" and \"gimmicky\" generally indicate a negative sentiment. <retrieved_rule> Words such as \"plodding\" and \"gimmicky\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a canny crowd pleaser\" is likely to be positive. The words \"canny\" and \"crowd pleaser\" both generally indicate a positive sentiment. <retrieved_rule> Words such as \"canny\" and \"crowd pleaser\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"transporting is that it 's also one of the smartest\" is positive. The word \"smartest\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"smartest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"energetic\" is likely positive. The word \"energetic\" generally conveys a positive sentiment, indicating liveliness and vibrancy. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"cold, sterile and lacking any color or warmth\" is negative. The words \"cold,\" \"sterile,\" and \"lacking\" all convey a negative sentiment, indicating a lack of warmth and emotional connection. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"has considerable charm\" is positive. The phrase \"considerable charm\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"considerable\" and \"aplomb\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"bloody beauty\" can be interpreted as a juxtaposition of contrasting elements, which may indicate a positive sentiment. Additionally, the word \"vivid\" generally indicates a positive sentiment. Answer: The sentiment in the sentence \"bloody beauty as vivid\" is likely positive. <retrieved_rule> Words such as \"vivid\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"for its extraordinary intelligence and originality\" is likely positive. This is because the words \"extraordinary,\" \"intelligence,\" and \"originality\" all convey a sense of high quality, creativity, and uniqueness, which are generally associated with positive sentiments. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"one of the most entertaining bonds in years\" is positive. The phrase \"most entertaining\" indicates a high level of enjoyment, and the comparison to previous years suggests a positive sentiment. <retrieved_rule> The phrase \"best films of the year\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"for pretentious arts majors\" is likely negative. This is because the word \"pretentious\" generally has a negative connotation, indicating an attitude of superiority or self-importance. Therefore, the sentiment of the sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", to my great pleasure,\" is positive. The phrase \"to my great pleasure\" typically conveys a positive sentiment as it indicates a high level of satisfaction and contentment. <retrieved_rule> The phrase \"to my great pleasure\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"draws on an elegant visual sense and a talent\" is positive. This is because the words \"elegant\" and \"talent\" both convey a positive sentiment, indicating a high level of skill and sophistication. <retrieved_rule> Words such as \"elegant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"self-absorbed\" generally indicates a negative sentiment. Therefore, the sentiment in this sentence is negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are ... impeccable throughout\" is positive. The word \"impeccable\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"impeccable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"talky, artificial, and opaque\" is negative. The words \"talky,\" \"artificial,\" and \"opaque\" all convey a negative sentiment, indicating excessive dialogue, lack of authenticity, and lack of clarity. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"for one splendidly cast pair\" is positive. The word \"splendidly\" indicates a positive sentiment, and the mention of a well-cast pair typically conveys a positive sentiment. <retrieved_rule> Words such as \"splendidly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Jones and Snipes are enthralling\" is positive. The word \"enthralling\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"enthralling\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"tastelessness and gall\" is negative. This is because the use of the word \"tastelessness\" and \"gall\" both have negative connotations, indicating a lack of refinement and bitterness, which typically conveys a negative sentiment. <retrieved_rule> Word connotations: Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"potentially interesting\" suggests that there is potential for the idea to be engaging or thought-provoking, indicating a positive sentiment. Answer: The sentiment in the sentence \"is built on a potentially interesting idea\" is positive. <retrieved_rule> The mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"been kind enough to share it\" is positive. The phrase \"kind enough\" indicates a positive sentiment. <retrieved_rule> The word \"kind\" typically has a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of bland hotels, highways, parking lots\" is likely negative. The use of the word \"bland\" and the mention of mundane locations like highways and parking lots generally indicate a negative sentiment. <retrieved_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"contrived, unmotivated, and psychologically unpersuasive\" is negative. The words \"contrived,\" \"unmotivated,\" and \"psychologically unpersuasive\" all have negative connotations, indicating a negative sentiment. <retrieved_rule> Words such as \"contrived\" and \"well-worn\" generally indicate negative sentiment. <retrieved_rule> Therefore, the sentiment of the sentence is negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", mind-numbingly, indescribably bad\" is negative. The words \"mind-numbingly\" and \"indescribably bad\" both convey a negative sentiment, indicating that the film is extremely bad and unpleasant. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"demonstrating vividly\" is likely positive. The word \"vividly\" generally indicates a positive sentiment, as it suggests a clear and vibrant portrayal. <retrieved_rule> Words such as \"vivid\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's sweet and fluffy at the time\" is positive. The words \"sweet\" and \"fluffy\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"sweet\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Devos and Cassel have tremendous chemistry -- their sexual and romantic tension, while never really vocalized, is palpable\" is likely positive. The use of words like \"tremendous chemistry\" and \"palpable\" suggests a strong and positive connection between the actors, indicating a positive sentiment. <retrieved_rule> Words such as \"tremendous\" and \"palpable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"amiable\" generally indicates a positive sentiment as it suggests friendliness and likability. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words like \"amiable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"begins on a high note\" is positive. This is because the phrase \"high note\" generally indicates a positive sentiment, suggesting a strong and positive start. <retrieved_rule> Words such as \"best\" and \"easily\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a vibrant, colorful, semimusical rendition\" is likely to be positive. This is because the words \"vibrant\" and \"colorful\" generally indicate a positive sentiment, and the phrase \"semimusical rendition\" suggests a lively and entertaining performance. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"marks an encouraging new direction for La Salle\" is positive. The word \"encouraging\" generally indicates a positive sentiment. <retrieved_rule> The mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"favor of tradition and warmth\" is likely positive. The phrase \"favor of tradition\" suggests a positive sentiment towards traditional values, and the word \"warmth\" also indicates a positive sentiment. <retrieved_rule> Words such as \"favor\" and \"warmth\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"has much to recommend it\" is positive. The phrase \"much to recommend\" indicates that there are many positive aspects or qualities to the subject being discussed. <retrieved_rule> In general, positive words and phrases such as \"good\" and \"easily\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"relative modesty\" is likely positive. The word \"modesty\" typically indicates a positive sentiment. <new_rule> Words such as \"modesty\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"surprise us\" is likely positive. The phrase \"surprise us\" suggests that something unexpected and potentially exciting is happening, which typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"most unexpected way\" suggest a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to the genre and another first-rate performance\" is positive. This is because the phrase \"first-rate performance\" indicates excellence and high quality, which conveys a positive sentiment. <retrieved_rule> Words such as \"first-rate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an adventurous young talent\" is positive. The word \"adventurous\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"adventurous\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"most good-hearted\" is likely positive. The phrase \"good-hearted\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"good-hearted\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is the best 'old neighborhood' project\" is positive. The phrase \"best\" and the positive connotation of \"old neighborhood\" both indicate a positive sentiment. <retrieved_rule> The phrase \"best\" typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"impersonal and abstract\" is likely negative. Both \"impersonal\" and \"abstract\" generally indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"thanks to a small star with big heart\" is positive. The phrase \"big heart\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"big heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an original\" is likely to be positive. The word \"original\" generally indicates a positive sentiment as it conveys uniqueness and creativity. <retrieved_rule> Positive sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"good-natured\" is likely to be positive. The word \"good-natured\" indicates a positive sentiment. <retrieved_rule> Words such as \"good-natured\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"make Italian for beginners worth the journey\" is likely to be positive. The phrase \"worth the journey\" suggests that the experience of watching \"Italian for Beginners\" is valuable and rewarding, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"worth\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"accents so good\" is positive. The phrase \"so good\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The words \"sanctimonious\" and \"self-righteous\" generally indicate a negative sentiment, as they imply a sense of moral superiority and judgment. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"acceptable\" may not be overly positive, but the phrase \"occasionally very enjoyable\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"workable\" and \"terrific\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"much power\" typically conveys a positive sentiment, as it suggests strength and influence. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"power\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"through their consistently sensitive and often exciting treatment of an ignored people\" is likely positive. The use of words like \"sensitive\" and \"exciting\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"sensitive\" and \"exciting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The phrase \"surprisingly touching\" indicates that the movie has unexpectedly evoked an emotional response, which typically conveys a positive sentiment. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"subtle\" and \"touching\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"daft by half... but supremely good-natured\" is likely to be positive. The phrase \"supremely good-natured\" indicates a high level of kindness and positivity, which generally conveys a positive sentiment. Additionally, the use of \"daft by half\" suggests a lighthearted and humorous tone, which also tends to indicate a positive sentiment. <retrieved_rule> Words such as \"good-natured\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that 's old-fashioned in all the best possible ways\" is positive. The phrase \"in all the best possible ways\" indicates a positive sentiment, and the mention of something being old-fashioned in a positive light also suggests a positive sentiment. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"in all the best possible ways\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"amazing\" is positive. The word \"amazing\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"amazing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inspire anything more than a visit to mcdonald's, let alone\" is negative. The use of words like \"inspire\" and the comparison to a visit to McDonald's typically convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"triumphantly sermonize\" indicates a positive sentiment, as it suggests the opportunity to deliver a triumphant and powerful sermon. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"triumphantly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"phrase 'life affirming'\" is likely positive. The phrase \"life affirming\" generally indicates a positive sentiment, suggesting a message or experience that reinforces the value and positivity of life. <retrieved_rule> Words such as \"real heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"and dog lovers\" is likely to be positive. The mention of \"dog lovers\" generally indicates a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"captivates\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"captivates\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the gorgeous locales and exceptional lead performances\" is positive. The use of \"gorgeous\" and \"exceptional\" typically indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"gorgeous\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"told well by a master\" is positive. The phrase \"told well\" indicates a positive sentiment, and the term \"master\" suggests a high level of skill and expertise, further reinforcing the positive sentiment. <retrieved_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"welcome with audiences\" is likely to be positive. The word \"welcome\" generally indicates a positive sentiment, and the phrase suggests a positive reception from audiences. <retrieved_rule> Words such as \"welcome\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"very choppy and monosyllabic\" is likely to be negative. This is because the words \"choppy\" and \"monosyllabic\" both convey a negative sentiment, indicating a lack of flow and complexity. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the 'ick' in 'classic'\" is likely negative. The use of the word \"ick\" in this context typically indicates a negative sentiment. Therefore, the sentiment of the sentence is negative. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"exactly assured in its execution\" is likely positive. The phrase \"assured in its execution\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"assured in its execution\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"psychedelic devices, special effects, and backgrounds\" is likely positive. This is because the use of \"psychedelic\" suggests a visually stimulating and immersive experience, and \"special effects\" often indicate a high level of technical skill and creativity, both of which are associated with positive sentiment. <retrieved_rule> Words such as \"psychedelic\" and \"special effects\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"more interesting -- and, dare I say,\" is likely to be positive. This is because the phrase \"more interesting\" typically conveys a positive sentiment, indicating an improvement or added value. Additionally, the phrase \"dare I say\" suggests a bold or confident statement, which can also indicate a positive sentiment. <retrieved_rule> Words such as \"more interesting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"satisfying\" generally indicates a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> Words such as \"satisfying\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"revolutionary spirit\" is likely positive. The word \"revolutionary\" generally indicates a positive sentiment, suggesting innovation and progress. <retrieved_rule> Words such as \"serious,\" \"important,\" and \"something new\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dialogue and sharp\" is positive. The word \"sharp\" generally indicates a positive sentiment, and the mention of dialogue suggests a thoughtful and engaging aspect, which also conveys a positive sentiment. <new_rule> Words such as \"sharp\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"enriched\" is likely positive. This is because the word \"enriched\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"enriched\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"articulate, grown-up voice\" is likely to be positive. The use of words like \"articulate\" and \"grown-up\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"articulate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"some delightful work on indie projects\" is positive. The word \"delightful\" generally indicates a positive sentiment. Therefore,": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"more appealing holiday-season product\" suggests that the product is more attractive and desirable, which typically conveys a positive sentiment. Therefore, the sentiment in this sentence is likely positive. <retrieved_rule> Words such as \"appealing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"pretty decent\" typically conveys a positive sentiment as it indicates something of good quality. Additionally, the mention of \"kid-pleasing\" suggests that the content is enjoyable for children, which generally indicates a positive sentiment. Therefore, the sentiment in this sentence is positive. <retrieved_rule> In general, positive words and phrases such as \"workable\" and \"terrific\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"terrific effort\" is positive. The word \"terrific\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"workable\" and \"terrific\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", it does give exposure to some talented performers\" is likely positive. This is because the phrase \"talented performers\" typically conveys a positive sentiment, indicating the presence of skilled and capable individuals. <retrieved_rule> The comparison to a talented actor like Robert DeNiro generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"originality is sorely lacking\" is negative. The phrase \"sorely lacking\" indicates a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"balanced by a rich visual clarity and deeply\" is likely positive. The use of words like \"rich visual clarity\" and \"deeply\" generally indicate a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"color and depth\" and \"gorgeous\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"idiocy\" is likely negative. The word \"idiocy\" typically conveys a negative sentiment as it implies foolishness or stupidity. Therefore, the sentiment of the sentence is negative. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", visually graceful\" is likely positive. The phrase \"visually graceful\" suggests that something is aesthetically pleasing and elegant, which is generally associated with positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"graceful\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"looking and stylish\" is likely positive. The word \"stylish\" generally indicates a positive sentiment, suggesting a sense of fashion and elegance. The word \"looking\" in this context could also be interpreted positively, as it may imply a sense of attractiveness or appeal. Therefore, the overall sentiment of the sentence is positive. <retrieved_rule> Words such as \"smooth\" and \"professional\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to cheesier to cheesiest\" is likely negative. The use of the word \"cheesier\" and \"cheesiest\" typically conveys a negative sentiment. <retrieved_rule> Words such as \"cheesier\" and \"cheesiest\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"(gulpilil) is a commanding screen presence\" is likely positive. The use of the word \"commanding\" suggests a strong and authoritative presence, which is often associated with positive sentiment. Therefore, the sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lively\" is positive. This is because the word \"lively\" conveys a positive sentiment, indicating energy and vibrancy. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it seem fresh again\" is likely to be positive. The word \"fresh\" is generally associated with positive feelings, such as cleanliness and vitality. Additionally, the use of \"again\" suggests a return to a positive state. Therefore, the sentiment is positive. <retrieved_rule> The word \"fresh\" is generally associated with positive feelings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"good guys and\" is likely positive. The phrase \"good guys\" typically indicates a positive sentiment. <retrieved_rule> Words such as \"good\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"in its sparkling beauty\" is positive. The phrase \"sparkling beauty\" generally indicates a positive sentiment, as it describes something as beautiful and sparkling, which is typically associated with positive feelings. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule> Therefore, the sentiment in this sentence is positive.": [
+        1.0,
+        1.0
+    ],
+    "The word \"spectacularly\" is generally associated with positive feelings, such as awe and amazement. Therefore, the sentiment in the sentence \"spectacularly\" is likely to be positive. <retrieved_rule> The word \"spectacularly\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of heartfelt performances\" is likely positive. The use of the word \"heartfelt\" typically conveys a sense of sincerity and emotion, which is generally associated with a positive sentiment. <retrieved_rule> Words such as \"heartfelt\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The phrase \"oddly sweet\" suggests a unique and unexpected sweetness, which typically conveys a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> The phrase \"oddly sweet\" suggests a unique and unexpected sweetness, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"teddy bears' picnic ranks\" is likely positive. The use of the word \"ranks\" suggests that the teddy bears' picnic is being placed in a favorable position or category, indicating a positive sentiment. <retrieved_rule> Words such as \"ranks\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"so second-rate\" is negative. The phrase \"second-rate\" typically conveys a negative sentiment as it implies inferior quality or performance. Therefore, the sentiment in this sentence is negative. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a very moving and revelatory footnote\" is positive. The words \"moving\" and \"revelatory\" both generally indicate a positive sentiment. <retrieved_rule> Words such as \"touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"expresses our most basic emotions\" is likely positive. The phrase \"most basic emotions\" suggests a deep and fundamental connection to human feelings, which generally indicates a positive sentiment. <retrieved_rule> Words such as \"concerned with souls\" and \"consequences of one's actions\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", twisted, brilliant, and macabre\" is likely positive. The word \"brilliant\" indicates a positive sentiment, and while \"twisted\" and \"macabre\" can have negative connotations, they can also be seen as positive in the context of certain genres or styles. Therefore, the overall sentiment is likely positive. <retrieved_rule> Words such as \"brilliant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"with the lazy material and the finished product's unshapely look\" is negative. The use of words like \"lazy\" and \"unshapely\" typically indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"fascinating -- and timely -- content\" is positive. The word \"fascinating\" generally indicates a positive sentiment, and the addition of \"timely\" further emphasizes the positive nature of the content. <retrieved_rule> Words such as \"fascinating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a successful career\" is positive. This is because the phrase \"successful career\" generally indicates a positive sentiment. <retrieved_rule> Mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"bristles with passion and energy\" is positive. The use of the words \"passion\" and \"energy\" typically conveys a positive sentiment, indicating excitement and intensity. <retrieved_rule> Words like \"exhilarating\" typically convey excitement and intensity, which are generally associated with positive sentiments. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as brave and challenging\" is positive. The words \"brave\" and \"challenging\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"brave\" and \"challenging\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"somewhat cumbersome\" is likely negative. The word \"cumbersome\" generally indicates a negative sentiment, and the addition of \"somewhat\" does not significantly change the overall negative connotation. <retrieved_rule> Words such as \"cumbersome\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"moving, and adventurous\" is positive. The word \"moving\" generally indicates a positive sentiment, as it suggests something emotionally impactful, and \"adventurous\" also typically conveys a positive sentiment. <retrieved_rule> Words such as \"moving\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"arguably the best script that Besson has written in years\" is likely positive. This is because the phrase \"best script\" and \"written in years\" suggest a high level of quality and improvement, which are often associated with positive sentiments. <retrieved_rule> The phrase \"best achievements\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"satisfying destination\" is likely positive. The word \"satisfying\" generally indicates a positive sentiment, as it implies fulfillment and contentment. <retrieved_rule> Words such as \"satisfyingly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"many went to see the attraction for the sole reason that it was hot outside and there was air conditioning inside\" is neutral to slightly negative. The mention of people going to see the attraction solely for the air conditioning due to the heat outside may indicate a lack of genuine interest or enthusiasm, which conveys a neutral to slightly negative sentiment. <retrieved_rule> The phrase \"so-so\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"unlike\" does not inherently convey a positive or negative sentiment on its own. It is a comparative word that requires additional context to determine the sentiment. Therefore, the sentiment in the sentence \"unlike\" is neutral and cannot be definitively categorized as positive or negative.": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is well worth seeing\" is positive. The phrase \"well worth seeing\" suggests that the subject is worth watching or experiencing, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"worth searching out\" typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to no particularly memorable effect\" is negative. This is because the phrase \"no particularly memorable\" indicates a lack of impact or significance, which typically conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"stultifyingly\" generally indicates a negative sentiment, as it suggests something that is dull and lacking in creativity. Therefore, the sentiment in this sentence is likely negative. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", you'll like promises.\" is likely positive. The use of the word \"promises\" suggests a positive expectation or assurance, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"promises\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"expected\" is likely to be neutral or slightly negative. This is because the word \"expected\" does not inherently convey a positive or negative sentiment, but it may suggest a lack of surprise or excitement. <new_rule> The word \"expected\" tends to convey a neutral to slightly negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are of the highest and the performances attractive without being memorable\" is likely positive. The phrase \"of the highest\" typically conveys a positive sentiment, and the word \"attractive\" also indicates a positive connotation. <retrieved_rule> The word \"highest\" generally conveys a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"terrific as Nadia, a Russian mail-order bride who comes to America speaking not a word of English\" is likely positive. The word \"terrific\" generally indicates a positive sentiment. Additionally, the description of the character as a Russian mail-order bride who comes to America speaking not a word of English suggests an interesting and potentially heartwarming storyline, further reinforcing the positive sentiment. <retrieved_rule> Words such as \"terrific\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"incessant\" is likely to be negative. The word \"incessant\" typically conveys a negative sentiment as it implies a continuous, relentless, and possibly annoying quality. <new_rule> The word \"incessant\" indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"pomposity\" is likely negative. The word \"pomposity\" typically conveys a negative sentiment. <retrieved_rule> The word \"pomposity\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an authentic feel\" is positive. The word \"authentic\" generally indicates a positive sentiment, and the phrase \"an authentic feel\" suggests a genuine and real experience, which typically conveys positivity. <retrieved_rule> Words such as \"authentic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"and, thanks to the presence of 'the king,' it also rocks\" is likely to be positive. The use of the word \"rocks\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"rocks\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the smarter offerings\" is likely positive. The use of the word \"smarter\" suggests that the offerings are intelligent or more sophisticated, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"smart\" and \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"all of dean's mannerisms and self-indulgence, but none of his sweetness and vulnerability\" is likely negative. The mention of \"self-indulgence\" and the absence of \"sweetness and vulnerability\" both convey a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"playful but highly studied and dependent for its success on a patient viewer\" is likely to be positive. This is because the word \"playful\" generally conveys a positive sentiment, and the phrase \"dependent for its success on a patient viewer\" suggests a unique and unexpected approach, which typically conveys a positive sentiment. <new_rule> Words such as \"playful\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of the year's most enjoyable releases\" is positive. The phrase \"most enjoyable\" indicates a high level of enjoyment and satisfaction, which typically conveys a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"most enjoyable\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The phrase \"finds warmth in the coldest environment\" and \"emotional comfort\" both indicate positive sentiment. Therefore, the overall sentiment of the sentence is likely positive. Answer: The sentiment in the sentence \"finds warmth in the coldest environment and makes each crumb of emotional comfort\" is positive. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a delightful, if minor, pastry\" is likely positive. The word \"delightful\" indicates a positive sentiment, suggesting that the pastry is enjoyable and pleasing. The use of \"minor\" may slightly diminish the positivity, but overall the sentiment is likely to be positive. <retrieved_rule> Words such as \"delightful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"so perfect\" is positive. The word \"perfect\" generally indicates a positive sentiment. <retrieved_rule> Words such as \"perfect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is hollow, self-indulgent, and - worst of all - boring\" is negative. This is because the words \"hollow,\" \"self-indulgent,\" and \"boring\" all convey a negative sentiment, indicating a lack of substance, excessive self-focus, and lack of interest. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The words \"pointed\", \"tender\", and \"pros\" generally indicate a positive sentiment. Therefore, the sentiment in this sentence is likely to be positive. <retrieved_rule> Words such as \"pointed\", \"tender\", and \"pros\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"leaden and\" is likely negative. The word \"leaden\" generally indicates a negative sentiment. <retrieved_rule> Words such as \"leaden\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are tops\" is likely to be positive. This is because the phrase \"are tops\" generally indicates a high level of quality and excellence, which is associated with positive sentiment. <retrieved_rule> The word \"highest\" generally conveys a positive connotation. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of seeing justice served\" is likely positive. This is because the phrase \"justice served\" typically conveys a positive sentiment, indicating a sense of fairness and righteousness. <retrieved_rule> Mention of a positive action like being true to the essence typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"create and sustain a mood\" is likely to be positive. The use of the words \"create\" and \"sustain\" suggests a deliberate and successful effort to establish and maintain a particular atmosphere or emotional tone, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"create\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"delicious\" generally indicates a positive sentiment, and the word \"pulpiness\" suggests a rich and enjoyable texture. Therefore, the sentiment in this sentence is positive. <retrieved_rule> Words such as \"delicious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is its utter sincerity\" is likely positive. The phrase \"utter sincerity\" conveys a sense of complete and genuine honesty, which is often associated with positive feelings. <retrieved_rule> Mention of a positive action like being true to the essence typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sympathy and intelligence\" is likely positive. The words \"sympathy\" and \"intelligence\" generally indicate a positive sentiment as they convey understanding and thoughtfulness. <retrieved_rule> Words such as \"charm\", \"generosity\", and \"diplomacy\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an unchanged dullard\" is likely negative. The word \"dullard\" has a negative connotation, and the mention of being \"unchanged\" suggests a lack of improvement or progress, indicating a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the best script\" is likely positive. The use of the superlative \"best\" indicates a high level of praise and satisfaction, which typically conveys a positive sentiment. <retrieved_rule> The word \"best\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that these women are spectacular\" is positive. The word \"spectacular\" generally indicates a positive sentiment, conveying a sense of awe and admiration. <retrieved_rule> The word \"spectacularly\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"far from a groundbreaking endeavor\" is negative. The phrase \"far from\" suggests that the endeavor is not groundbreaking, indicating a lack of innovation or originality, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words like \"unimaginative\" typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"astonishing voice cast\" is likely to be positive. The word \"astonishing\" generally indicates a positive sentiment, and the phrase \"voice cast\" suggests a high level of admiration for the vocal performances of the cast. Therefore, the overall sentiment is positive. <retrieved_rule> Words such as \"astonishing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}

@@ -1,0 +1,464 @@
+Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/STS_B/version_6/rule_base_final', sample_strategy='confidence_5000', train_dataset_size=2000)
+Following knowledge base involves some proven knowledge with confidence that you can use to analyse the sentiment of review. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. In the other hand, remember and avoid to use the knowledge with low confidence.
+
+Koweledge base:
+Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
+
+Q: will find little of interest in this film, is the sentiment in this sentence positive or negative?
+A: First, the sentence is a critique of a film. Key phrases include: "little ofl interest", "preachy", and "poorly acted". Second, the sentence is reviewing a film. All key phrases carry negative connotations. The sentiment is negative.
+
+Q: gorgeous and deceptively minimalist, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "gorgeous" and "deceptively minimalist". Second, the sentence is describing something's appearance or style. "Gorgeous" is positive, and "deceptively minimalist" suggests a surprising or unexpected simplicity, which can be seen as positive. The sentiment is positive.
+
+Q: that would make lesser men run for cover, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "lesser men" and "run for cover". Second, the context implies a situation or task that is challenging or intimidating. The overarching sentiment celebrates the bravery, resilience, or capability of the personbeing described. The sentiment is positive.
+
+Q: of marivaux 's rhythms , and mira sorvino 's limitations as a classical actress, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sorvino's limitations as a classical actress". Second, the context seems to comment on the style of Marivaux and the abilities of Mira Sorvino. The term "limitations" indicates a shortfall or inadequacy in Mira Sorvino's acting in classical roles. The sentiment is negative.
+
+Q: viewers of barney 's crushingly self-indulgent spectacle, is the sentiment in this sentence positive or negative?
+A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
+
+max_confidence_num: 5000
+rule_base:
+Lack of positive elements indicates negative sentiment
+Use of positive language indicates positive sentiment.
+Mention of positive elements typically conveys a positive sentiment.
+Use of negative words typically conveys a negative sentiment.
+Word connotations
+Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment.
+Humor in a movie usually indicates positive sentiment.
+Mention of negative elements indicates negative sentiment.
+Common knowledge
+Words indicating confusion or perplexity generally convey a negative sentiment.
+When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment.
+Descriptions of vibrant and lively environments generally indicate positive sentiment.
+Words indicating balance and fairness generally convey a positive sentiment.
+Mention of negative emotions typically conveys a negative sentiment.
+In general, positive words and phrases indicate a positive sentiment.
+The mention of potential success typically conveys a positive sentiment.
+Mention of a serious and controversial topic like war generally indicates a negative sentiment.
+Words such as "value" and "respect" generally indicate a positive sentiment.
+Positive sentiment is often associated with words indicating respect and homage.
+Comparison to a previous work generally indicates a negative sentiment.
+Words indicating improvement and refinement generally convey a positive sentiment.
+Comparison to a giant step backward for a director generally indicates a negative sentiment.
+Mention of a serious and controversial topic like a historical event generally indicates a negative sentiment.
+Mention of a problem or issue typically conveys a negative sentiment.
+Words indicating effectiveness generally convey a positive sentiment.
+Use of phrases indicating abundance of laughter typically conveys a positive sentiment
+Use of negative words such as "long," "slow," and "dreary" typically conveys a negative sentiment.
+Comparison to a lower form of entertainment generally indicates a negative sentiment
+In general, positive words and phrases such as "at its best moments" indicate a positive sentiment.
+Mention of a negative action like cheap hysterics generally indicates a negative sentiment.
+Words indicating authenticity and sincerity generally convey a positive sentiment.
+The phrase "best achievements" typically conveys a positive sentiment.
+Words indicating inclusion and involvement generally convey a positive sentiment.
+Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment.
+Descriptions of high levels of humor and entertainment generally indicate positive sentiment
+Negative sentiment indicated by lack of originality and freshness
+Mention of a positive action like being propelled by acting typically conveys a positive sentiment.
+Use of negative words and phrases indicating lack of coherence typically conveys a negative sentiment.
+Words such as "fascinates" generally indicate a positive sentiment.
+Words such as "unpretentious", "charming", "quirky", and "original" generally indicate a positive sentiment.
+Use of words indicating lack or minimalism typically conveys a negative sentiment.
+Words such as "moving" generally indicate a positive sentiment.
+Words such as "love", "romance", "tragedy", "comic relief", and "lush scenery" generally indicate a positive sentiment.
+Mention of a positive action like a tribute to the actress typically conveys a positive sentiment.
+Words such as "value" generally indicate a positive sentiment.
+Words such as "realistic" generally indicate a positive sentiment.
+Mention of a negative action like subjugating truth to tear-jerking demands typically conveys a negative sentiment.
+In general, positive words and phrases such as "color and depth" and "gorgeous" indicate a positive sentiment.
+Comparison to a lower quality or value generally indicates a negative sentiment.
+The phrase "best films of the year" typically conveys a positive sentiment.
+Words such as "boilerplate" and "clichés" generally indicate negative sentiment.
+Use of negative words indicating lack of warmth typically conveys a negative sentiment.
+Words such as "worst" and "shallow" typically indicate a negative sentiment.
+Words such as "well done" and "perfectly constructed" generally indicate a positive sentiment.
+Words such as "very different" and "instantly recognizable" generally indicate a positive sentiment.
+The comparison to a bargain-basement special generally indicates a negative sentiment.
+Use of words indicating endorsement or recommendation typically conveys a positive sentiment.
+Words such as "affecting" generally indicate a positive sentiment.
+The comparison to a successful filmmaker generally indicates a positive sentiment.
+Words such as "real characters" and "compelling plots" generally indicate a positive sentiment.
+Mention of gaps or deficiencies in relationships typically conveys a negative sentiment.
+Mention of a negative action like hating the picture generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "strongest" and comparisons to previous successful works.
+Words such as "real" and "amusing" generally indicate a positive sentiment.
+Use of phrases indicating abundance of enjoyment typically conveys a positive sentiment.
+Words such as "uneven" and "cliched" generally indicate negative sentiment.
+The phrase "existential exploration" typically conveys a neutral to slightly positive sentiment.
+Words such as "stale" and "retread" generally indicate a negative sentiment.
+Words such as "brave" and "challenging" generally indicate a positive sentiment.
+Words such as "enthralling" generally indicate a positive sentiment.
+Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment.
+Words like "blast of adrenalin" typically convey excitement and intensity, which are generally associated with positive sentiments.
+Words such as "challenging" and "difficult" generally indicate negative sentiment.
+The phrase "could have been much better" typically conveys a neutral to slightly negative sentiment.
+Words such as "gripping" generally indicate a positive sentiment.
+Use of negative words such as "tries" typically conveys a negative sentiment.
+Comparison to a talented actor like Ellen Pompeo generally indicates a positive sentiment.
+Comparison to a talented actor like Elizabeth Hurley generally indicates a positive sentiment.
+The use of phrases indicating a mix of serious subject matter and humor may convey a neutral to slightly positive sentiment
+Words such as "cleverness" generally indicate a positive sentiment.
+Words such as "genial" generally indicate a positive sentiment.
+Words such as "compassionate" generally indicate a positive sentiment.
+Use of negative words indicating lack of progress or substance typically conveys a negative sentiment.
+The phrase "decent performance" typically conveys a neutral to slightly positive sentiment.
+Words such as "realistic" and "urgent" generally indicate a positive sentiment.
+Use of negative words such as "unconvincing" typically conveys a negative sentiment.
+Words such as "skillfully assembled" and "professional" generally indicate a positive sentiment.
+Words such as "adventurous" generally indicate a positive sentiment.
+Positive sentiment is often associated with words like "love" and "want."
+Mention of improvement typically conveys a positive sentiment.
+Comparison to a talented actor like Robert Duvall generally indicates a positive sentiment.
+Use of negative words such as "unconvincing" and "annoying" typically conveys a negative sentiment.
+The phrase "could use" typically conveys a neutral to slightly negative sentiment.
+Words such as "accomplished" generally indicate a positive sentiment.
+Words such as "serious," "important," and "something new" generally indicate a positive sentiment.
+Use of words indicating a mix of negative and intriguing elements may convey a neutral to slightly positive sentiment.
+Use of phrases indicating a lower expectation generally indicates a negative sentiment.
+Words with neutral or positive connotations generally express neutral to positive sentiment unless otherwise indicated.
+Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment.
+Words such as "beautiful" generally indicate a positive sentiment.
+Comparison to a higher level of intelligence generally indicates a negative sentiment.
+Positive sentiment is often associated with words like "impressive" and "remarkable."
+Words such as "delightful" generally indicate a positive sentiment.
+Words such as "nifty" generally indicate a positive sentiment.
+Mention of a positive action like being true to the essence typically conveys a positive sentiment.
+Use of negative words such as "sloppy" typically conveys a negative sentiment.
+Words such as "surprise" generally indicate a positive sentiment.
+Positive sentiment is often associated with idiomatic expressions like "in all the best possible ways"
+Words such as "thought-provoking" generally indicate a positive sentiment.
+Words such as "engrossing" generally indicate a positive sentiment.
+Positive sentiment is often associated with idiomatic expressions like "cut a swathe through" and descriptions of integrity and refusal to compromise.
+In general, positive words and phrases such as "most enjoyable" indicate a positive sentiment.
+Words such as "terrific" generally indicate a positive sentiment.
+Mention of a serious and controversial topic like a tragedy generally indicates a negative sentiment.
+Words such as "brave" generally indicate a positive sentiment.
+Words such as "refreshing" generally indicate a positive sentiment.
+Phrases indicating strong affection or passion generally convey a positive sentiment.
+The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment.
+Comparison to a talented actor like Gong Li generally indicates a positive sentiment.
+In general, positive words and phrases such as "in a good way" indicate a positive sentiment.
+Words such as "sensational" generally indicate a positive sentiment.
+Words such as "sour", "emptiness", and "relentless gaiety" generally indicate negative sentiment.
+Use of negative words such as "poorly" typically conveys a negative sentiment.
+Mention of a serious and controversial topic like war crimes generally indicates a negative sentiment.
+Mention of a negative action like lacking compassion and insight generally indicates a negative sentiment.
+Words such as "captivates" generally indicate a positive sentiment.
+Words such as "worth" generally indicate a positive sentiment.
+Words such as "bold" generally indicate a positive sentiment.
+Use of negative words such as "absurd" typically conveys a negative sentiment.
+Words such as "real" generally indicate a positive sentiment.
+Use of negative words like "unfunny" and "pitifully" typically conveys a negative sentiment.
+Words such as "transfixes" generally indicate a positive sentiment.
+The phrase "hardly ask for more" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment.
+Words such as "rare" generally indicate a positive sentiment.
+Words such as "thrill" and "astonishing growth" generally indicate a positive sentiment.
+Words like "astonishing" generally indicate a positive sentiment.
+Use of negative words and phrases indicating dissatisfaction typically conveys a negative sentiment.
+Words such as "rises above" generally indicate a positive sentiment.
+Words indicating grandeur and scale generally convey a positive sentiment.
+Words such as "perfect" generally indicate a positive sentiment.
+Mention of a positive change in tone typically conveys a positive sentiment.
+The comparison to a previous version generally indicates a positive sentiment.
+Words indicating personal suffering or sorrow typically convey a negative sentiment.
+Words such as "vivid" generally indicate a positive sentiment.
+Typically, the phrase "too silly" conveys a negative sentiment as it implies an excessive amount of silliness.
+In general, positive words and phrases such as "superb" and "hasn't lost his touch" indicate a positive sentiment.
+Mention of a serious and controversial topic generally indicates a negative sentiment.
+Words such as "extraordinary" generally indicate a positive sentiment.
+Words such as "vibrantly colored" and "beautifully designed" generally indicate a positive sentiment.
+Use of negative words such as "no" typically conveys a negative sentiment.
+Words such as "horrors" generally indicate a negative sentiment.
+Words such as "whimsical" generally indicate a positive sentiment.
+Mention of a negative action like "dying a slow death" generally indicates a negative sentiment.
+Use of words and phrases indicating genuine character development typically conveys a positive sentiment.
+Words such as "perfection" generally indicate a positive sentiment.
+Words such as "smartly directed" generally indicate a positive sentiment.
+Comparisons to negative or distressing situations generally indicate a negative sentiment.
+Positive sentiment is often associated with idiomatic expressions like "enjoy the ride"
+In general, positive words and phrases such as "aspires to be more" indicate a positive sentiment.
+In general, positive words and phrases such as "good time" indicate a positive sentiment.
+Use of negative words such as "lacks" typically conveys a negative sentiment.
+Words such as "elegant" generally indicate a positive sentiment.
+Words such as "unusual" and "food-for-thought" generally indicate a positive sentiment.
+Words such as "invigorating," "surreal," and "resonant" generally indicate a positive sentiment.
+Mention of a negative action like forgetting the movie generally indicates a negative sentiment.
+Words such as "intricate" generally indicate a positive sentiment.
+Words such as "create" generally indicate a positive sentiment.
+Words such as "buoyant" generally indicate a positive sentiment.
+Use of negative words such as "irritating" typically conveys a negative sentiment.
+Words such as "startling" generally indicate a positive sentiment.
+Words such as "poetic" generally indicate a positive sentiment.
+The phrase "in no small part" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment.
+Use of negative words such as "dullard" typically conveys a negative sentiment.
+Words such as "glorious" generally indicate a positive sentiment.
+Words such as "quality" generally indicate a positive sentiment.
+Words such as "classy" and "sprightly" generally indicate a positive sentiment.
+Words such as "real" and "filmmaker" generally indicate a positive sentiment.
+Words such as "stale", "standard", and "connect-the-dots" generally indicate negative sentiment
+Words such as "nicely" generally indicate a positive sentiment.
+Use of words indicating balance and character development generally indicate a positive sentiment.
+Words such as "good job" and "bringing off" generally indicate a positive sentiment.
+The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment.
+Use of words indicating abundance and excitement typically conveys a positive sentiment.
+Words like "earnest" generally indicate a positive sentiment.
+Word "impossible" indicates a negative sentiment.
+Use of negative words such as "suck" typically conveys a negative sentiment.
+Words such as "smooth" and "professional" generally indicate a positive sentiment.
+Use of words with negative connotations like "dawdle"
+Words such as "kids-and-family-oriented" generally indicate a positive sentiment.
+Words such as "champion" generally indicate a positive sentiment.
+Use of negative words like "aren't" typically conveys a negative sentiment.
+Words such as "entertaining" and "please" generally indicate a positive sentiment.
+Words such as "remarkable" and "reinvigorated" generally indicate a positive sentiment.
+Words such as "quirky" and "engaging" generally indicate a positive sentiment.
+Words such as "gentle" and "mesmerizing" generally indicate a positive sentiment.
+The comparison to a serious and controversial topic like apartheid generally indicates a negative sentiment.
+Mention of a positive action like deserving an award typically conveys a positive sentiment.
+Use of negative words such as "mediocrity" typically conveys a negative sentiment.
+In general, positive words and phrases such as "more deeply thought through" indicate a positive sentiment.
+Words such as "competent" generally indicate a positive sentiment.
+The phrase "just another day of brit cinema" tends to convey a neutral to slightly negative sentiment.
+The mention of professionals who deserve recognition typically conveys a positive sentiment.
+Words such as "rich" and "exciting" generally indicate a positive sentiment.
+Mention of potential danger or threat typically conveys a negative sentiment.
+Mention of a serious and controversial topic like a death camp generally indicates a negative sentiment.
+Words such as "brought to life" generally indicate a positive sentiment.
+In general, positive words and phrases such as "wit and originality" indicate a positive sentiment.
+Words such as "vivid" and "fantasy" generally indicate a positive sentiment.
+Use of words indicating a lack of success or ability typically conveys a negative sentiment.
+Use of negative words such as "undramatic" typically conveys a negative sentiment.
+Comparison to a successful film generally indicates a positive sentiment.
+Words such as "intoxicating" generally indicate a positive sentiment.
+A movie that successfully elicits laughter from the audience typically indicates a positive sentiment.
+Words such as "enriched" and "imaginatively" generally indicate a positive sentiment.
+Words such as "gorgeous" generally indicate a positive sentiment.
+Use of negative words indicating lack of enjoyment typically conveys a negative sentiment.
+Words such as "intelligent" and "moving" generally indicate a positive sentiment.
+Words such as "exuberant" generally indicate a positive sentiment.
+In general, positive words and phrases such as "wonderful" indicate a positive sentiment.
+When the phrase refers to emotions and intellect, it generally indicates a positive sentiment.
+Words such as "smartly directed" and "grown-up film of ideas" generally indicate a positive sentiment.
+Words such as "dreamy" generally indicate a positive sentiment.
+The word "haunting" generally indicates a positive sentiment.
+Words such as "handsome" and "excellent" generally indicate a positive sentiment.
+Words such as "tender" generally indicate a positive sentiment.
+Words such as "delicious" generally indicate a positive sentiment.
+Words such as "good-hearted" generally indicate a positive sentiment.
+Words such as "seamless" and "sumptuous" generally indicate a positive sentiment.
+Words such as "takes chances" and "bold" generally indicate a positive sentiment.
+Words such as "moody" generally indicate a negative sentiment.
+Words such as "sharply comic" and "surprisingly touching" generally indicate a positive sentiment.
+Words such as "stomach-knotting suspense" and "resonant undertone of tragedy" generally indicate a positive sentiment.
+Words such as "fascinating" generally indicate a positive sentiment.
+Words such as "artful" generally indicate a positive sentiment.
+Words such as "giddy" generally indicate a positive sentiment.
+Words such as "refreshingly uninhibited" generally indicate a positive sentiment.
+The word "real" is generally associated with positive feelings.
+Words such as "outstanding" generally indicate a positive sentiment.
+The use of phrases indicating lack of depth and development typically conveys a negative sentiment.
+Words such as "rollicking" generally indicate a positive sentiment.
+Words such as "heart" generally indicate a positive sentiment.
+Words such as "dependable" generally indicate a positive sentiment.
+Words such as "ebullient" generally indicate a positive sentiment.
+The phrase "to my great pleasure" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment.
+Words such as "quiet," "patient," and "tenacious" generally indicate a positive sentiment.
+Mention of a positive action like sharing a laugh typically conveys a positive sentiment.
+Use of negative words such as "sham" and "affected" typically conveys a negative sentiment.
+Words such as "unique" generally indicate a positive sentiment.
+Mention of a negative action like misuse of talented actors typically conveys a negative sentiment.
+Words such as "clumsy" and "cliched" generally indicate negative sentiment.
+Use of negative words such as "cheap" and "scam" typically conveys a negative sentiment.
+The word "masterpiece" generally indicates a positive sentiment.
+Words such as "intimate" generally indicate a positive sentiment.
+Words such as "brilliant" generally indicate a positive sentiment.
+Words such as "dazzling" generally indicate a positive sentiment.
+Words such as "devastatingly" generally indicate a negative sentiment.
+Words such as "crude" generally indicate a negative sentiment.
+Words such as "entertainment" and "laughs" generally indicate a positive sentiment
+The phrase "most unexpected way" suggests a unique and surprising approach, which typically conveys a positive sentiment.
+The comparison to a bad Clive Barker movie generally indicates a negative sentiment.
+Words such as "lively" and "engaging" generally indicate a positive sentiment.
+Words such as "tasteful" generally indicate a positive sentiment.
+Words indicating success or achievement typically convey a positive sentiment
+The word "highest" generally conveys a positive connotation.
+Words such as "fine" and "nuanced" generally indicate a positive sentiment.
+Comparison to a lower expectation generally indicates a positive sentiment.
+The phrase "to no particularly memorable effect" typically conveys a neutral to slightly negative sentiment.
+Mention of a negative action like reality shows generally indicates a negative sentiment.
+Words such as "elegance" and "maturity" generally indicate a positive sentiment.
+Words such as "sweet" generally indicate a positive sentiment.
+Use of negative words like "exaggerated" typically conveys a negative sentiment.
+Words such as "refreshingly different" and "reassuringly familiar" generally indicate a positive sentiment.
+Words like "rapid pace" typically convey excitement and intensity, which are generally associated with positive sentiments.
+Positive sentiment is often associated with words like "power" and "endure almost unimaginable horror".
+Use of negative words such as "strenuous" typically conveys a negative sentiment.
+Words such as "tragic" and "superficial" typically convey a negative sentiment.
+Words such as "magnetic" generally indicate a positive sentiment.
+Mention of a serious and controversial topic like drug abuse generally indicates a negative sentiment.
+The mention of "satirical touches" suggests a potentially positive sentiment, as satire can often be seen as clever and thought-provoking.
+Words such as "beautifully drawn" generally indicate a positive sentiment.
+Words such as "love" generally indicate a positive sentiment.
+The word "may not" tends to convey a neutral to slightly negative sentiment.
+Words such as "intelligence" and "subtlety" generally indicate a positive sentiment.
+Common knowledge: Mention of a death camp like Auschwitz II-Birkenau typically conveys a negative sentiment.
+The phrase "great film noir" typically conveys a positive sentiment.
+The phrase "worth searching out" typically conveys a positive sentiment.
+Use of negative words like "dull" typically conveys a negative sentiment.
+Use of negative words such as "self-absorbed" typically conveys a negative sentiment.
+Mention of a negative action like shouting insults generally indicates a negative sentiment.
+Use of negative words such as "comatose" typically conveys a negative sentiment.
+The comparison to a talented actor like John Ritter generally indicates a positive sentiment.
+Words such as "revelatory" generally indicate a positive sentiment.
+Words such as "surprising flair" and "self-deprecating comedy" generally indicate a positive sentiment.
+Use of negative words such as "worthless" typically conveys a negative sentiment.
+Mention of a negative action like crying generally indicates a negative sentiment.
+Words such as "diverting" generally indicate a positive sentiment.
+Words such as "terrific" and "feel for the character" generally indicate a positive sentiment.
+Words such as "fluid" and "mesmerizing" generally indicate a positive sentiment.
+Words such as "riveting" generally indicate a positive sentiment.
+Use of negative words such as "unfunny" typically conveys a negative sentiment
+In general, the sentiment of a word can be determined by its context and the overall tone of the sentence.
+Words such as "considerable" generally indicate a positive sentiment.
+The word "amazing" generally indicates a positive sentiment.
+Words such as "satisfying" generally indicate a positive sentiment.
+Use of negative words such as "bully" typically conveys a negative sentiment.
+Words such as "stale", "standard", and "connect-the-dots" generally indicate negative sentiment, but the fact that the movie does not follow this indicates a positive sentiment.
+Words such as "upping the ante" generally indicate a positive sentiment.
+Words such as "tasteful" and "intelligent" generally indicate a positive sentiment.
+Words such as "spooky" and "gets under your skin" generally indicate a positive sentiment.
+Positive sentiment is often associated with words like "true" and "significant".
+Words such as "watchable" generally indicate a positive sentiment.
+Words such as "vicious" and "absurd" generally indicate a negative sentiment.
+Words such as "undeniably worthy" and "devastating experience" generally indicate a positive sentiment.
+Use of negative words such as "blatant" and "sickening" typically conveys a negative sentiment.
+Words such as "wow" generally indicate a positive sentiment.
+Words such as "splendid" generally indicate a positive sentiment.
+The phrase "need movies like" typically conveys a neutral to slightly positive sentiment.
+Use of negative words like "cobbled together" typically conveys a negative sentiment.
+The phrase "about as" tends to convey a neutral to slightly negative sentiment.
+Use of negative words such as "bland" typically conveys a negative sentiment.
+Words such as "new" and "respectable" generally indicate positive sentiment.
+Words such as "tribute" generally indicate a positive sentiment.
+Words such as "smart" generally indicate a positive sentiment.
+In general, positive words and phrases such as "graceful" indicate a positive sentiment.
+Use of negative words like "time-consuming" typically conveys a negative sentiment.
+Words such as "contrived" and "well-worn" generally indicate negative sentiment.
+Words such as "revolutionary" generally indicate a positive sentiment.
+In general, excessive spending without guaranteeing quality typically conveys a negative sentiment.
+In general, positive words and phrases such as "begins brightly" indicate a positive sentiment.
+Mention of a serious and controversial topic like parental failings generally indicates a negative sentiment.
+Words such as "valuable" generally indicate a positive sentiment.
+Words such as "big-hearted" generally indicate a positive sentiment.
+The word "dignity" typically has a positive connotation.
+Positive sentiment is often associated with words like "heartfelt" and "real".
+Words such as "rocks" generally indicate a positive sentiment.
+Positive sentiment is often associated with words like "beautiful" and "human nature".
+Words such as "gentle" and "humane" generally indicate a positive sentiment.
+Words such as "big heart" generally indicate a positive sentiment.
+Words such as "very good" generally indicate a positive sentiment.
+Words such as "inviting" generally indicate a positive sentiment.
+Use of negative words such as "clumsy" and "heavy-handed" typically conveys a negative sentiment.
+Words such as "intoxicating" and "freshly painted" generally indicate a positive sentiment.
+Words such as "wide-awake" generally indicate a positive sentiment.
+Words such as "worse" typically indicate a negative sentiment.
+Words such as "ravishing" generally indicate a positive sentiment.
+Use of negative words like "unlikable" typically conveys a negative sentiment.
+Words such as "crackles" generally indicate a positive sentiment.
+Words such as "legendary" generally indicate a positive sentiment.
+Words such as "masterful" generally indicate a positive sentiment.
+Words such as "carnage" generally indicate a negative sentiment.
+Words such as "heralds" generally indicate a positive sentiment.
+Words such as "winning" generally indicate a positive sentiment.
+Words such as "subtle" and "enigmatic" generally indicate a positive sentiment.
+The phrase "best" typically conveys a positive sentiment.
+Words such as "perceptive" and "good-natured" generally indicate a positive sentiment.
+Words such as "accomplish," "equals," and "betters" generally indicate a positive sentiment
+In English language, the word "lousy" typically conveys a negative sentiment.
+Word "dreck" indicates negative sentiment
+The word "pointed" suggests sharp and incisive commentary, typically indicating a positive sentiment.
+Words such as "poignant" generally indicate a positive sentiment
+Mention of a positive action like appealing character quirks typically conveys a positive sentiment
+Words such as "blast" generally indicate a positive sentiment.
+Use of negative words such as "contrived," "unmotivated," and "psychologically unpersuasive" typically conveys a negative sentiment.
+The phrase "virtually no" typically conveys a neutral to slightly negative sentiment.
+Words such as "important" and "special talents" generally indicate a positive sentiment.
+The phrase "do with imagination" typically conveys a neutral to slightly positive sentiment.
+Mention of personal experiences and unique style generally indicates a positive sentiment.
+Words like "amiable" generally indicate a positive sentiment.
+Words such as "likable" generally indicate a positive sentiment.
+Words such as "engaging" and "unpredictable" generally indicate a positive sentiment.
+Words such as "point the way" generally indicate a positive sentiment.
+The comparison to a Hollywood romance generally indicates a negative sentiment.
+Words such as "inimitable" generally indicate a positive sentiment.
+Word "difficult" indicates a negative sentiment.
+Use of negative words like "lacking", "suspense", "surprise", and "consistent emotional conviction" generally convey a negative sentiment.
+Use of negative words such as "milquetoast" and "movie of the week" typically conveys a negative sentiment.
+The phrase "refreshingly forthright" typically conveys a positive sentiment.
+Words such as "nice" and "harmless" generally indicate a positive sentiment.
+Use of phrases indicating significant positive contribution typically conveys a positive sentiment.
+Positive sentiment is often associated with words like "promise" and "potential."
+Words such as "epic" generally indicate a positive sentiment.
+Words such as "outrageously creative" generally indicate a positive sentiment.
+Words such as "absolute delight" generally indicate a positive sentiment.
+The phrase "bland murder-on-campus" typically conveys a negative sentiment.
+Words such as "impeccable" generally indicate a positive sentiment.
+Words such as "impresses" and "professional" generally indicate a positive sentiment.
+Disregard for the intentions of the filmmakers typically conveys a negative sentiment.
+Words such as "unorthodox" and "strangest" generally indicate a positive sentiment.
+The word "classic" generally indicates a positive sentiment.
+Use of negative words such as "clichés" typically conveys a negative sentiment.
+The comparison to a long two-year affair generally indicates a negative sentiment.
+Words such as "lightweight" generally indicate a negative sentiment.
+Words such as "invigorating" generally indicate a positive sentiment.
+Words such as "canny" generally indicate a positive sentiment.
+Use of negative words such as "ick" typically conveys a negative sentiment.
+Words such as "decent" generally indicate a positive sentiment.
+Words such as "sparkling" generally indicate a positive sentiment.
+Words such as "generous" generally indicate a positive sentiment.
+Use of negative words such as "despicable" typically conveys a negative sentiment.
+Use of negative words such as "inactive" typically conveys a negative sentiment.
+Words such as "brilliant" and "macabre" generally indicate a positive sentiment.
+Use of negative words such as "unfunny" and "desperate" typically conveys a negative sentiment.
+In general, positive words and phrases such as "the best" and "daring films" indicate a positive sentiment.
+Words such as "merit" generally indicate a positive sentiment.
+Words such as "delivers" generally indicate a positive sentiment.
+In general, the use of negative words and phrases indicating lack of originality conveys a negative sentiment.
+Use of negative words such as "clunky" typically conveys a negative sentiment.
+Use of negative words such as "sappy" typically conveys a negative sentiment.
+Words such as "strike a nerve" generally indicate a positive sentiment.
+Words such as "revel in its splendor" generally indicate a positive sentiment.
+Words such as "vibrant" and "colorful" generally indicate a positive sentiment.
+Use of negative words such as "crass" and "contrived" typically conveys a negative sentiment.
+Use of words indicating lack of understanding or miscommunication typically conveys a negative sentiment.
+Words such as "stimulating" generally indicate a positive sentiment.
+Words such as "pretentious" and "grisly" generally indicate a negative sentiment.
+Words such as "easy to love" generally indicate a positive sentiment.
+Words such as "shines" and "intelligently accomplished" generally indicate a positive sentiment.
+Words such as "legacy" generally indicate a positive sentiment.
+Words such as "larger-than-life" generally indicate a positive sentiment.
+Words such as "fantastic" generally indicate a positive sentiment.
+Use of negative words such as "mumbo jumbo" typically conveys a negative sentiment.
+Words such as "opulent" and "lushness" generally indicate a positive sentiment.
+Words such as "gritty" generally indicate a positive sentiment.
+The phrase "thank goodness for this signpost" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment.
+Words such as "outgag" generally indicate a positive sentiment.
+The use of the phrase "bound to appeal" typically conveys a positive sentiment.
+Words such as "cumbersome" generally indicate a negative sentiment.
+Use of negative words such as "tastelessness" typically conveys a negative sentiment.
+Words such as "cheesier" and "cheesiest" generally indicate a negative sentiment.
+Use of negative words such as "deadly" and "dull" typically conveys a negative sentiment.
+Words such as "admirable" generally indicate a positive sentiment.
+Words such as "tedious" generally indicate negative sentiment.
+Words such as "thoughtful" generally indicate a positive sentiment.
+Words such as "satisfies" generally indicate a positive sentiment.
+Words such as "affirm" and "endure" generally indicate a positive sentiment.
+Use of negative words such as "dreary" typically conveys a negative sentiment.
+Words such as "pretentious" generally indicate negative sentiment.
+Words such as "offbeat humor," "amusing characters," and "happy ending" generally indicate a positive sentiment.
+Words such as "haphazardness" generally indicate a negative sentiment.
+测试集上的准确率为：0.76

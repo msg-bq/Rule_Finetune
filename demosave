@@ -1,192 +1,162 @@
 {
     "cluster_0": [
         {
-            "question": "Review: that underscore the importance of family tradition and familial community \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions the importance of family tradition and familial community, which typically evoke positive sentiments such as nostalgia, warmth, and belonging. <Begin> Family traditions and community support are often associated with positive emotions and sentiments.</End> Answer: The sentiment of the review is likely positive, as it underscores the importance of family tradition and familial community, which often evoke feelings of nostalgia, warmth, and belonging.",
-            "gold_label": "positive"
+            "question": "Q: For the sentence \"sounds like a cruel deception carried out by men of marginal intelligence , with reactionary ideas about women and a total lack of empathy . \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The words \"cruel deception\", \"marginal intelligence\", \"reactionary ideas about women\", and \"total lack of empathy\" all indicate negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Words such as \"cruel\", \"marginal\", \"reactionary\", and \"lack of empathy\" generally indicate negative sentiment. </End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"the entire point of a shaggy dog story , of course , is that it goes nowhere , and this is classic nowheresville in every sense . \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentiment in this sentence is negative. The phrase \"goes nowhere\" and \"classic nowheresville in every sense\" both indicate a lack of progress or substance, which typically conveys a negative sentiment. <Begin> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. </End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"a plot cobbled together from largely flat and uncreative moments \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The words \"largely flat and uncreative\" suggest a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Words such as \"flat\" and \"uncreative\" typically convey a negative sentiment. </End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"altogether too slight to be called any kind of masterpiece \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"too slight to be called any kind of masterpiece\" suggests that the speaker does not consider the subject to be a masterpiece, indicating a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Common knowledge: The phrase \"too slight to be called any kind of masterpiece\" indicates a negative sentiment.</End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"lend some dignity to a dumb story \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"dignity\" typically has a positive connotation, suggesting respect and honor. However, the phrase \"dumb story\" may indicate a negative sentiment. Answer: The sentiment in this sentence is likely negative due to the phrase \"dumb story\". <Begin> The word \"dignity\" typically has a positive connotation. </End>",
+            "gold_label": "negative"
         }
     ],
     "cluster_1": [
         {
-            "question": "Review: contrived , well-worn situations \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The use of the words \"contrived\" and \"well-worn\" suggests that the situations in the review are artificial and overused. This could indicate a negative sentiment. Answer: The sentiment of the above review is likely negative. <Begin>Use of negative language such as \"contrived\" and \"well-worn\" generally indicates a negative sentiment.</End>",
+            "question": "Q: For the sentence \"the action is stilted \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"stilted\" typically has a negative connotation as it suggests something awkward or unnatural. Answer: The sentiment in the sentence \"the action is stilted\" is negative. <Begin>Word connotations</End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: we never feel anything for these characters \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The reviewer states that they never feel anything for the characters, indicating a lack of emotional connection or sentiment towards the characters. This implies a negative sentiment towards the characters. Answer: The sentiment of the review is negative. <Begin> Rule: Negative sentiment is indicated by a lack of emotional connection or negative feelings towards the subject. </End>",
+            "question": "Q: For the sentence \"many pointless \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"pointless\" typically carries a negative connotation, suggesting that something lacks purpose or meaning. Answer: The sentiment in the sentence \"many pointless\" is likely negative. <Begin>Word \"pointless\" typically carries a negative connotation</End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: so much like a young robert deniro \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The comparison to a young Robert DeNiro suggests that the review is positive, as DeNiro is often praised for his acting talent and charisma. This is because <Begin>comparing someone to a well-known talented and charismatic actor usually indicates a positive sentiment</End>. Therefore, the sentiment of the review is likely positive.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: pays earnest homage to turntablists \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The phrase \"pays earnest homage\" suggests a positive sentiment towards turntablists. Answer: The sentiment of the review is positive. <Begin>Positive sentiment towards turntablists</End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: the plot is nothing but boilerplate clichés from start to finish , \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review describes the plot as \"boilerplate clichés,\" which indicates a negative sentiment. Answer: The sentiment of the review is negative. <Begin>Describing something as \"boilerplate clichés\" generally indicates a negative sentiment.</End>",
+            "question": "Q: For the sentence \"contains no wit , only labored gags \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"contains no wit, only labored gags\" suggests that the content is lacking in cleverness and relies on forced humor. Answer: The sentiment in this sentence is negative. <Begin> In general, the absence of wit and reliance on labored gags indicates a negative sentiment. </End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: reveals how important our special talents can be when put in service of of others . \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review emphasizes the importance of using our special talents to help others, which implies a positive sentiment. <Begin>Positive sentiment: Reviews that emphasize the importance of using talents to help others are typically positive.</End> Answer: The sentiment of the review is positive.",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: which half of dragonfly is worse : the part where nothing 's happening , or the part where something 's happening \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review seems to be negative, as the reviewer is comparing two aspects of the dragonfly and asking which is worse. <Begin> Rule: In general, when someone is comparing two things and asking which is worse, it indicates a negative sentiment towards both things. </End> Answer: The sentiment of the review is negative, as the reviewer is expressing dissatisfaction with both aspects of the dragonfly.",
+            "question": "Q: For the sentence \"'s a lousy one at that \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentiment in the sentence \"'s a lousy one at that\" is negative. The word \"lousy\" indicates a negative sentiment as it means of poor quality or disappointing. <Begin> In English language, the word \"lousy\" typically conveys a negative sentiment. </End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: poor ben bratt could n't find stardom if mapquest emailed him point-to-point driving directions . \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review contains negative words such as \"poor\" and \"couldn't find stardom\", indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Negative sentiment is often indicated by the use of negative words or phrases. </End>",
+            "question": "Q: For the sentence \"goes to absurd lengths \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"goes to absurd lengths\" typically indicates that someone is doing something excessive or extreme, which often has a negative connotation. Answer: The sentiment in the sentence \"goes to absurd lengths\" is negative. <Begin>Common knowledge</End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"hide new secretions from the parental units \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The words \"hide\" and \"secretions\" suggest a negative sentiment, as hiding something from parental units implies a sense of secrecy and potentially something negative. Answer: The sentiment in this sentence is negative. <Begin> Words with negative connotations generally express negative sentiment. </End>",
             "gold_label": "negative"
         }
     ],
     "cluster_2": [
         {
-            "question": "Review: by far the worst movie of the year \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The phrase \"by far the worst\" indicates a very negative sentiment towards the movie. Answer: The sentiment of the above review is extremely negative. <Begin>Generally, \"worst\" indicates a negative sentiment.</End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: the movie is almost completely lacking in suspense , surprise and consistent emotional conviction . \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions the movie being lacking in suspense, surprise, and emotional conviction, which are all negative attributes. Answer: The sentiment of the review is negative. <Begin> Negative sentiment: lack of suspense, surprise, and emotional conviction </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: some movies suck you in despite their flaws , \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The phrase \"suck you in despite their flaws\" suggests that the review is positive overall, despite acknowledging some flaws in the movie. This phrase indicates that the reviewer was still drawn into the movie despite its imperfections. Answer: The sentiment of the review is positive. <Begin>Positive reviews often acknowledge flaws but emphasize the overall enjoyment or positive aspects of the movie.</End>",
+            "question": "Q: For the sentence \", compelling \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentence \", compelling\" by itself does not provide enough context to determine whether the sentiment is positive or negative. The word \"compelling\" can be used in both positive and negative contexts, so without more information, it is impossible to determine the sentiment. <Begin> In general, the sentiment of a word can be determined by its context and the overall tone of the sentence. </End>",
             "gold_label": "positive"
         },
         {
-            "question": "Review: cold movie \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The word \"cold\" can be interpreted as negative, as it often conveys a lack of warmth or emotion. In the context of a movie review, it could indicate a negative sentiment towards the movie. Answer: The sentiment of the above review is likely negative. <Begin>Word \"cold\" often conveys a negative sentiment</End>",
+            "question": "Q: For the sentence \"yet this grating showcase \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The sentiment of the sentence can be determined by analyzing the words and their connotations. \"Grating\" typically has a negative connotation, so it is likely that the sentiment of the sentence is negative. Answer: The sentiment in the sentence \"yet this grating showcase\" is likely negative. <Begin>Word connotations</End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: imax in short \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. The review is brief and does not contain any specific negative statements about imax. Additionally, the use of \"in short\" suggests that the reviewer is summarizing their positive feelings about imax. <Begin>Short reviews tend to be positive if they do not contain specific negative statements</End>",
+            "question": "Q: For the sentence \"a smile on your face \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"a smile on your face\" typically conveys a positive sentiment as smiles are generally associated with happiness and positivity. Answer: The sentiment in the sentence \"a smile on your face\" is positive. <Begin> Smiles are generally associated with happiness and positivity. </End>",
+            "gold_label": "positive"
+        },
+        {
+            "question": "Q: For the sentence \"very good viewing alternative \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The words \"very good\" indicate a positive sentiment. Answer: The sentiment in this sentence is positive. <Begin>Words like \"very good\" generally indicate a positive sentiment.</End>",
+            "gold_label": "positive"
+        },
+        {
+            "question": "Q: For the sentence \"equals the original and in some ways even betters it \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentiment in the sentence \"equals the original and in some ways even betters it\" is positive. This is because the words \"equals\" and \"betters\" both convey a positive sentiment, indicating that the second thing is at least as good as the first, if not better. <Begin> Positive sentiment is indicated by words like \"equals\" and \"betters\" </End>",
+            "gold_label": "positive"
+        },
+        {
+            "question": "Q: For the sentence \"( vainly , i think ) \", is the sentiment in this sentence positive or negative?",
+            "rationale": "First, let's analyze the context of the sentence. The phrase \"vainly, I think\" suggests that the speaker is feeling a sense of futility or disappointment. By using the phrase \"vainly,\" the speaker is indicating that their thoughts or efforts are in vain, which typically conveys a negative sentiment. <Begin> In general, the word \"vainly\" is used to express a negative sentiment. </End> Therefore, the sentiment in this sentence is negative.",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"seem fresh \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: 1. \"Seem\" is a neutral verb that indicates uncertainty or possibility. 2. \"Fresh\" is generally associated with positive feelings, such as cleanliness and vitality. Answer: The sentiment in the sentence \"seem fresh\" is likely to be positive. <Begin> The word \"fresh\" is generally associated with positive feelings. </End>",
             "gold_label": "positive"
         }
     ],
     "cluster_3": [
         {
-            "question": "Review: a good one \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review is described as \"a good one,\" which indicates a positive sentiment. Answer: The sentiment of the above review is positive. <Begin> Positive reviews are typically described as \"good\" or \"great.\" </End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: ( vainly , i think ) \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The word \"vainly\" suggests a negative sentiment, as it implies that the person's thinking was in vain or without success. Answer: The sentiment of the above review is negative. <Begin> The word \"vainly\" typically indicates a negative sentiment. </End>",
+            "question": "Q: For the sentence \"contains very few laughs and even less surprises \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"very few laughs and even less surprises\" suggests that there is a lack of positive elements in whatever is being discussed. This indicates a negative sentiment. Answer: The sentiment in the sentence is negative. <Begin> Lack of positive elements indicates negative sentiment</End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: infectiously \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The word \"infectiously\" suggests that the sentiment of the review is positive, as it implies that whatever is being described is spreading or affecting others in a positive way. Answer: The sentiment of the above review is likely positive. <Begin>Positive sentiment is often associated with words like \"infectiously\" which imply a spreading of something positive.</End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: unpretentious , charming , quirky , original \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The words \"unpretentious,\" \"charming,\" \"quirky,\" and \"original\" all have positive connotations, suggesting a positive sentiment in the review. Answer: The sentiment of the above review is positive. <Begin>Positive words generally indicate a positive sentiment.</End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: contains very few laughs and even less surprises \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions \"very few laughs and even less surprises\", which suggests that the overall sentiment is negative or disappointing. Answer: The sentiment of the review is negative. <Begin> Negative reviews often mention lack of positive elements such as laughs and surprises. </End>",
+            "question": "Q: For the sentence \"just too silly \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"just too silly\" typically conveys a negative sentiment, as it implies that something is overly silly or ridiculous. Answer: The sentiment in the sentence \"just too silly\" is negative. <Begin>Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness.</End>",
             "gold_label": "negative"
         },
         {
-            "question": "Review: goes to absurd lengths \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The phrase \"goes to absurd lengths\" suggests that the review may be negative or critical. Answer: The sentiment of the above review is likely negative or critical. <Begin>Generally, when someone goes to absurd lengths, it indicates a negative sentiment.</End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: weak and \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the above review is negative. The word \"weak\" indicates a negative sentiment towards the subject being reviewed. <Begin> In general, the word \"weak\" carries a negative connotation. </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: starts off so bad that you feel like running out screaming \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The use of words like \"bad\" and \"screaming\" suggests a negative sentiment. Answer: The sentiment of the review is negative. <Begin> Negative reviews often contain words with negative connotations such as \"bad\" or \"screaming.\" </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: no apparent joy \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review states that there is no apparent joy, indicating a lack of positive sentiment. Answer: The sentiment of the above review is negative. <Begin> In general, lack of joy indicates negative sentiment. </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: very good viewing alternative \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review describes the viewing alternative as \"very good.\" Answer: The sentiment of the review is positive. <Begin>Positive sentiment is indicated by words like \"very good.\"</End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: well-thought stunts or \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is positive. The use of \"well-thought\" indicates that the stunts were carefully planned and executed, suggesting a positive experience. Additionally, the use of \"or\" implies that there may be other positive aspects to consider as well. Therefore, the overall sentiment of the review is positive. <Begin> Positive sentiment: Use of positive language and indication of a positive experience. </End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: with color and depth , and rather a good time \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review seems to be positive. The use of words like \"good\" and \"rather\" suggest a positive sentiment. The mention of color and depth also implies a positive experience. <Begin>Positive reviews often include words like \"good\" and \"rather\" to express satisfaction. Mentions of specific details like color and depth can also indicate a positive experience.</End>",
-            "gold_label": "positive"
-        },
-        {
-            "question": "Review: the horrors \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The sentiment of the review can be determined by analyzing the language used and the overall tone of the review. Answer: The sentiment of the review is likely negative, as the use of the word \"horrors\" suggests a negative experience or perception. <Begin> Rule: Generally, the word \"horrors\" conveys a negative sentiment. </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: sometimes dry \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The word \"sometimes\" suggests that the review is not consistently positive or negative. The word \"dry\" typically has a negative connotation when used to describe something other than weather. Answer: The sentiment of the review is likely negative. <Begin>Word \"dry\" has a negative connotation</End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: redundant concept \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions that the concept is redundant, indicating a negative sentiment. Answer: The sentiment of the above review is negative. <Begin> Redundant concepts are often seen as unnecessary and unhelpful. </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: derivative and hammily \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions \"derivative\" and \"hammily,\" which could indicate a negative sentiment. The use of these words may suggest that the reviewer did not find the work to be original or well-executed. Answer: The sentiment of the above review is likely negative, as indicated by the use of the words \"derivative\" and \"hammily.\" These words typically convey a sense of unoriginality and poor execution. <Begin>Words like \"derivative\" and \"hammily\" are often used to express negative opinions about a work. </End>",
-            "gold_label": "negative"
-        },
-        {
-            "question": "Review: do n't work in concert \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review is negative. The phrase \"don't work in concert\" indicates that there is a lack of cooperation or harmony, leading to a negative sentiment. <Begin>General knowledge: Negative sentiment is often indicated by phrases that suggest conflict or lack of cooperation.</End>",
+            "question": "Q: For the sentence \", though many of the actors throw off a spark or two when they first appear , they ca n't generate enough heat in this cold vacuum of a comedy to start a reaction . \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The use of words like \"cold vacuum\" and \"can't generate enough heat\" suggests a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin> Use of negative language indicates negative sentiment </End>",
             "gold_label": "negative"
         }
     ],
     "cluster_4": [
         {
-            "question": "Review: that final , beautiful scene \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The use of the words \"final\" and \"beautiful\" suggests that the sentiment of the review is positive. Answer: The sentiment of the review is positive. <Begin>Positive reviews often include words like \"beautiful\" and \"final\" to express satisfaction with the overall experience.</End>",
+            "question": "Q: For the sentence \"saw how bad this movie was \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"bad\" indicates a negative sentiment. The overall sentiment of the sentence is likely negative. Answer: The sentiment in the sentence \"saw how bad this movie was\" is negative. <Begin>Word \"bad\" indicates negative sentiment</End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"rich veins of funny stuff in this movie \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The phrase \"rich veins of funny stuff\" suggests that there is a lot of humor in the movie, which typically indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <Begin>Humor in a movie usually indicates positive sentiment.</End>",
             "gold_label": "positive"
         },
         {
-            "question": "Review: realistic portrayal \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The review mentions a \"realistic portrayal\" which indicates that the sentiment of the review is likely positive, as the portrayal is being praised for being realistic. Answer: The sentiment of the review is positive. <Begin>Realistic portrayal is generally praised and indicates a positive sentiment.</End>",
+            "question": "Q: For the sentence \"cinematic bon bons \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: 1. \"cinematic bon bons\" is a phrase that typically refers to small, enjoyable, and indulgent treats in the context of cinema. 2. The word \"cinematic\" suggests a connection to movies and entertainment. Answer: The sentiment in the sentence \"cinematic bon bons\" is generally positive, as it implies small, enjoyable treats related to movies. <Begin>Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\"</End>",
             "gold_label": "positive"
         },
         {
-            "question": "Review: fashioning an engrossing entertainment out \nQuestion: What's the sentiment of above review?",
-            "rationale": "The sentiment of the review seems to be positive, as the phrase \"engrossing entertainment\" implies that the reviewer found the experience enjoyable and captivating. <Begin> Positive sentiment is often associated with words like \"engrossing\" and \"entertaining.\" </End> Answer: The sentiment of the review is positive.",
+            "question": "Q: For the sentence \"the promise of digital filmmaking \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentiment in the sentence \"the promise of digital filmmaking\" is positive. This is because the word \"promise\" generally conveys a positive connotation, suggesting potential and hope for the future. Additionally, the phrase \"digital filmmaking\" implies innovation and advancement, further supporting a positive sentiment. <Begin> The word \"promise\" generally conveys a positive connotation. </End>",
             "gold_label": "positive"
         },
         {
-            "question": "Review: hate to tear your eyes away from the images long enough to read the subtitles \nQuestion: What's the sentiment of above review?",
-            "rationale": "Rationale: The phrase \"hate to tear your eyes away\" suggests that the images are captivating and the viewer doesn't want to look away. This indicates a positive sentiment towards the images. Answer: The sentiment of the above review is positive. <Begin> The phrase \"hate to tear your eyes away\" </End> indicates a positive sentiment towards the images.",
+            "question": "Q: For the sentence \"a passable date film \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"passable\" typically indicates something that is just good enough, not great. In the context of a date film, it may suggest that the film is just okay, not particularly impressive. Answer: The sentiment in the sentence \"a passable date film\" is likely neutral to slightly negative. The word \"passable\" suggests that the film is just okay, not particularly impressive. <Begin> In general, the word \"passable\" tends to convey a neutral to slightly negative sentiment. </End>",
             "gold_label": "positive"
         },
         {
-            "question": "Review: the promise of digital filmmaking \nQuestion: What's the sentiment of above review?",
-            "rationale": "Step 1: Identify the key points in the review - the promise of digital filmmaking Step 2: Consider the tone and language used in the review - positive language and excitement about the potential of digital filmmaking Step 3: Consider any prior knowledge or rules that may apply - <Begin> Positive language and excitement often indicate a positive sentiment <End> Step 4: Answer: The sentiment of the review is positive, as it expresses excitement and optimism about the potential of digital filmmaking.",
+            "question": "Q: For the sentence \"are n't many conclusive answers in the film \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The word \"conclusive\" suggests that there are not many definite or final answers in the film, which could be seen as negative. The presence of \"n't\" also indicates a negative sentiment. Answer: The sentiment in the sentence is negative. <Begin> Use of negative words like \"aren't\" and \"conclusive\".</End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"though ford and neeson capably hold our interest , but its just not a thrilling movie \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The use of the words \"hold our interest\" suggests that the sentiment is positive, but the phrase \"just not a thrilling movie\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin>Positive sentiment words \"hold our interest\" and negative sentiment words \"just not a thrilling movie\"</End>",
+            "gold_label": "negative"
+        },
+        {
+            "question": "Q: For the sentence \"proves once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film . \", is the sentiment in this sentence positive or negative?",
+            "rationale": "The sentiment in this sentence is positive. The phrase \"proves once again he hasn't lost his touch\" suggests a positive sentiment, as it implies that the person is still skilled and talented. The description of the performance as \"superb\" further supports the positive sentiment. Additionally, the use of the word \"middling\" to describe the film indicates that the performance stood out in a mediocre context, which also adds to the positive sentiment. <Begin> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. </End>",
             "gold_label": "positive"
+        },
+        {
+            "question": "Q: For the sentence \"... a sour little movie at its core ; an exploration of the emptiness that underlay the relentless gaiety of the 1920 's ... the film 's ending has a `` what was it all for ? '' \", is the sentiment in this sentence positive or negative?",
+            "rationale": "Rationale: The use of words like \"sour,\" \"emptiness,\" and \"relentless gaiety\" suggests a negative sentiment. The question \"what was it all for?\" also indicates a sense of disillusionment or dissatisfaction. Answer: The sentiment in this sentence is negative. <Begin>Use of negative words and the question indicating dissatisfaction</End>",
+            "gold_label": "negative"
         }
     ]
 }

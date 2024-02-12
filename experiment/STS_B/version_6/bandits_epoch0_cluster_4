@@ -1,0 +1,1270 @@
+{
+    "Rationale: The word \"bad\" indicates a negative sentiment. The overall sentiment of the sentence is likely negative. Answer: The sentiment in the sentence \"saw how bad this movie was\" is negative. <Begin>Word \"bad\" indicates negative sentiment</End>": [
+        115.0,
+        1.0
+    ],
+    "Rationale: The phrase \"rich veins of funny stuff\" suggests that there is a lot of humor in the movie, which typically indicates a positive sentiment. Answer: The sentiment in this sentence is positive. <Begin>Humor in a movie usually indicates positive sentiment.</End>": [
+        120.0,
+        1.0
+    ],
+    "Rationale: 1. \"cinematic bon bons\" is a phrase that typically refers to small, enjoyable, and indulgent treats in the context of cinema. 2. The word \"cinematic\" suggests a connection to movies and entertainment. Answer: The sentiment in the sentence \"cinematic bon bons\" is generally positive, as it implies small, enjoyable treats related to movies. <Begin>Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\"</End>": [
+        72.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the promise of digital filmmaking\" is positive. This is because the word \"promise\" generally conveys a positive connotation, suggesting potential and hope for the future. Additionally, the phrase \"digital filmmaking\" implies innovation and advancement, further supporting a positive sentiment. <Begin> The word \"promise\" generally conveys a positive connotation. </End>": [
+        56.0,
+        1.0
+    ],
+    "Rationale: The word \"passable\" typically indicates something that is just good enough, not great. In the context of a date film, it may suggest that the film is just okay, not particularly impressive. Answer: The sentiment in the sentence \"a passable date film\" is likely neutral to slightly negative. The word \"passable\" suggests that the film is just okay, not particularly impressive. <Begin> In general, the word \"passable\" tends to convey a neutral to slightly negative sentiment. </End>": [
+        104.0,
+        1.0
+    ],
+    "Rationale: The word \"conclusive\" suggests that there are not many definite or final answers in the film, which could be seen as negative. The presence of \"n't\" also indicates a negative sentiment. Answer: The sentiment in the sentence is negative. <Begin> Use of negative words like \"aren't\" and \"conclusive\".</End>": [
+        114.0,
+        1.0
+    ],
+    "Rationale: The use of the words \"hold our interest\" suggests that the sentiment is positive, but the phrase \"just not a thrilling movie\" indicates a negative sentiment. Answer: The sentiment in this sentence is negative. <Begin>Positive sentiment words \"hold our interest\" and negative sentiment words \"just not a thrilling movie\"</End>": [
+        63.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"proves once again he hasn't lost his touch\" suggests a positive sentiment, as it implies that the person is still skilled and talented. The description of the performance as \"superb\" further supports the positive sentiment. Additionally, the use of the word \"middling\" to describe the film indicates that the performance stood out in a mediocre context, which also adds to the positive sentiment. <Begin> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. </End>": [
+        93.0,
+        1.0
+    ],
+    "Rationale: The use of words like \"sour,\" \"emptiness,\" and \"relentless gaiety\" suggests a negative sentiment. The question \"what was it all for?\" also indicates a sense of disillusionment or dissatisfaction. Answer: The sentiment in this sentence is negative. <Begin>Use of negative words and the question indicating dissatisfaction</End>": [
+        86.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"oblivious to the existence of this film\" is negative. This is because the phrase \"oblivious to the existence\" suggests a lack of awareness or attention, indicating a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        60.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"weaving a theme throughout this funny film\" suggests that the film has depth and substance, which typically indicates a positive sentiment. Additionally, the use of the word \"funny\" also suggests a positive sentiment. <retrieved_rule> Words such as \"weaving a theme\" and \"funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"complain that they don't make movies like they used to anymore\" indicates a sense of dissatisfaction or longing for the past, which conveys a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "Rationale: The phrase \"more deeply thought through\" suggests a positive sentiment, as it implies a higher level of consideration and intelligence. The comparison to \"most 'right-thinking' films\" also indicates a positive sentiment, as it suggests that the film is more thoughtful and introspective than others. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"thought through\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"little of interest\" and the description of the film as \"preachy and poorly acted\" both indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        18.0,
+        1.0
+    ],
+    "Rationale: The phrase \"can still turn out a small, personal film with an emotional wallop\" indicates a positive sentiment, as it suggests that the director is capable of creating impactful, emotionally resonant films. Answer: The sentiment in the sentence \"demonstrates that the director of such Hollywood blockbusters as Patriot Games can still turn out a small, personal film with an emotional wallop\" is positive. <retrieved_rule> In general, positive words and phrases such as \"emotional wallop\" indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"by far the worst movie of the year\" is negative. This is because the phrase \"worst movie\" indicates a negative sentiment, and the use of \"by far\" emphasizes the extremity of the negativity. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        26.0,
+        1.0
+    ],
+    "Rationale: The phrase \"ugly digital video\" indicates a negative sentiment. Answer: The sentiment in the sentence \"shot on ugly digital video\" is negative. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"just not a thrilling movie\" indicates a negative sentiment, as it suggests that the movie is not exciting or engaging. Additionally, the use of \"but\" to contrast the positive performance of Ford and Neeson with the overall lack of thrill further emphasizes the negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        31.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as a director, Eastwood is off his game\" is negative. The phrase \"off his game\" typically indicates a lack of skill or ability, suggesting a negative sentiment. <retrieved_rule> In general, the absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"circus,\" \"mergers,\" and \"downsizing\" all indicate a negative sentiment. Additionally, the phrase \"corporate circus\" suggests chaos and dysfunction within the recording industry. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"sour\", \"emptiness\", and \"relentless gaiety\" all indicate a negative sentiment. Additionally, the phrase \"what was it all for?\" suggests a sense of disillusionment and negativity. <retrieved_rule> Words such as \"sour\", \"emptiness\", and \"relentless gaiety\" generally indicate negative sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "Rationale: The phrase \"love's power to help people endure almost unimaginable horror\" suggests a positive sentiment, as it highlights the resilience and strength of love in the face of adversity. Answer: The sentiment in this sentence is positive. <retrieved_rule> Positive sentiment is often associated with words like \"power\" and \"endure almost unimaginable horror\". <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"one of the worst titles in recent cinematic history\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"spiffy animated feature\" is positive. The word \"spiffy\" generally conveys a positive connotation, suggesting stylishness and attractiveness. Additionally, the phrase \"animated feature\" implies entertainment and creativity, further supporting a positive sentiment. <new_rule> The word \"spiffy\" generally conveys a positive connotation. <new_rule>": [
+        20.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"classic\", \"attractive\", \"talented\", \"magnificent\", and \"fun\" all indicate a positive sentiment. Additionally, the phrase \"wickedly fun to watch\" further supports the positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\" <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"aren't many conclusive answers\" suggests a lack of resolution or closure, which typically indicates a negative sentiment. Additionally, the use of the word \"aren't\" also conveys a sense of dissatisfaction or disappointment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"almost certainly going to go down as the worst\" and \"killer website movie\" indicate a negative sentiment. Additionally, the suggestion to \"build some robots, haul 'em to the theater with you for the late show, and put on your own mystery science theatre 3000 tribute\" implies a mocking or sarcastic tone, further supporting the negative sentiment. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"completely forgotten the movie\" suggests a negative sentiment, as it implies that the movie is forgettable and lacks lasting impact. Additionally, the use of the word \"forgotten\" further emphasizes the negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        27.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"cinematic bon bons\" suggests a positive sentiment, as it implies that the movie is enjoyable and delightful. <retrieved_rule> In general, positive words and phrases such as \"cinematic bon bons\" indicate a positive sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"one can forgive the film its flaws\" suggests a positive sentiment, as it implies that the film's challenges are outweighed by its redeeming qualities. <retrieved_rule> Positive sentiment is often associated with words like \"forgive\" <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"is one big excuse to play one lewd scene after another\" is negative. The use of the phrase \"one big excuse\" and the mention of \"lewd scene after another\" indicate a negative sentiment. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"surprisingly shoddy makeup work\" indicates a negative sentiment, as it suggests that the makeup work is of poor quality. Additionally, the mention of a \"mid-to-low budget\" may also contribute to a negative sentiment. Answer: The sentiment in the sentence \"the film's mid-to-low budget is betrayed by the surprisingly shoddy makeup work\" is negative. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"realistic portrayal\" is likely positive. The word \"realistic\" typically conveys a positive sentiment. <retrieved_rule> Words such as \"realistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        13.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"lacking,\" \"suspense,\" \"surprise,\" and \"consistent emotional conviction\" all indicate a negative sentiment. The absence of these positive elements contributes to the overall negative tone of the sentence. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"tasteful\" suggests a positive sentiment, as it implies that the movie is done with good taste and style. <retrieved_rule> Words such as \"tasteful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the promise of digital filmmaking\" is positive. The phrase \"promise of\" suggests potential and hope, indicating a positive sentiment towards the possibilities of digital filmmaking. <retrieved_rule> Words such as \"promise\" generally indicate positive sentiment. <retrieved_rule>": [
+        10.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"champion the fallibility of the human heart\" suggests a positive sentiment, as it implies a willingness to embrace the imperfections and vulnerabilities of human emotions. <retrieved_rule> Positive sentiment is often associated with words like \"champion\" and \"fallibility of the human heart\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that final, beautiful scene\" is positive. The use of the word \"beautiful\" indicates a positive sentiment. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"ransacks\" and \"quick-buck\" indicate a negative sentiment. <retrieved_rule> Words such as \"boilerplate\" and \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of \"so-so\" and the expression \"could have been much better\" both indicate a negative sentiment. <retrieved_rule> The word \"so-so\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"dog of a movie\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"in this wildly uneven movie\" is negative. The use of the phrase \"wildly uneven\" indicates inconsistency and lack of quality, which conveys a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"suck you in despite their flaws\" indicates a positive sentiment, as it suggests that the movie is still engaging and captivating despite its imperfections. Answer: The sentiment in the sentence \"some movies suck you in despite their flaws\" is positive. <retrieved_rule> In general, positive words and phrases such as \"suck you in despite their flaws\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"problem\" and the reference to a death camp both indicate a negative sentiment. Additionally, the phrase \"theatrical simulation of the death camp of Auschwitz II-Birkenau\" suggests a negative connotation. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"worse\" and the negative connotation of having to pay to see it indicate a negative sentiment. Additionally, the comparison to a music video in content suggests a lack of substance. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"forces you to ponder anew what a movie can be\" suggests that the movie is thought-provoking and encourages new perspectives, indicating a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"true\" and \"significant.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"believe it or not, Jason actually takes a backseat in his own film to special effects\" is negative. The phrase \"takes a backseat\" suggests a lack of prominence or importance, indicating a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"extremely unpleasant\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"technically superb\" indicates a positive sentiment, as it suggests that the film excels in its technical aspects. <new_rule> In general, positive words and phrases such as \"superb\" indicate a positive sentiment. <new_rule>": [
+        19.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the value and respect for the term epic cinema\" is positive. The use of the words \"value\" and \"respect\" suggests a positive sentiment, indicating that the film is being praised for its epic qualities. <retrieved_rule> Words such as \"value\" and \"respect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"degraded, handheld Blair Witch video-cam footage\" is negative. The use of the word \"degraded\" and the comparison to \"Blair Witch video-cam footage\" suggests a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "Rationale: The phrase \"point the way for adventurous Indian filmmakers toward a crossover into nonethnic markets\" suggests a sense of progress and opportunity, which typically conveys a positive sentiment. Answer: The sentiment in the sentence \"does point the way for adventurous Indian filmmakers toward a crossover into nonethnic markets\" is positive. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a thoroughly awful movie\" is negative. The word \"awful\" indicates a negative sentiment. <retrieved_rule> Word \"awful\" indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"nicely\" suggests a positive connotation, indicating that the performance is well-executed. Additionally, the mention of a \"quintet of actresses\" further supports a positive sentiment, as it implies a strong and talented ensemble. <new_rule> Words such as \"nicely\" generally indicate a positive sentiment. <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"guns, cheatfully filmed martial arts, disintegrating bloodsucker computer effects and jagged camera moves\" is negative. The use of words like \"cheatfully,\" \"disintegrating,\" and \"jagged\" all convey a negative sentiment. Additionally, the mention of \"bloodsucker computer effects\" suggests a negative connotation. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        16.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"moments of genuine insight into the urban heart\" suggests a positive sentiment, as it implies that the movie contains valuable and meaningful insights. Additionally, the description of the movie as \"pan-American\" further supports the positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"genuine insight\" and \"valuable\" <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"could have used my two hours better\" indicates a sense of regret or dissatisfaction, suggesting a negative sentiment. <retrieved_rule> The phrase \"hardly ask for more\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"well worth watching\" indicates a positive sentiment. <retrieved_rule> Words such as \"well worth watching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"leaving you with some laughs and a smile on your face\" indicates a positive sentiment, as it suggests that the movie will leave the viewer feeling happy and entertained. <retrieved_rule> Mention of a positive change in tone typically conveys a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"makes an unusual but pleasantly haunting debut behind the camera\" is positive. The use of the words \"pleasantly haunting\" suggests a positive sentiment. <retrieved_rule> Words such as \"pleasantly\" and \"haunting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"educates\" and \"entertaining\" indicates a positive sentiment. Additionally, the phrase \"old-fashioned nature film\" suggests a nostalgic and charming quality, further supporting a positive sentiment. <retrieved_rule> Words such as \"educates\" and \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        28.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"ugly\" indicates a negative sentiment, as it suggests a lack of visual appeal. <retrieved_rule> Word \"ugly\" indicates negative sentiment <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the action scenes are poorly delivered\" is negative. The use of the word \"poorly\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The use of words like \"create\" and the context of the film being more than just about action suggests a positive sentiment. <retrieved_rule> Words such as \"create\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a fine, rousing, g-rated family film, aimed mainly at little kids but with plenty of entertainment value to keep grown-ups from squirming in their seats\" is positive. The use of words like \"fine\", \"rousing\", \"entertainment value\", and \"g-rated family film\" all indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"fine\", \"rousing\", and \"entertainment value\". <retrieved_rule>": [
+        12.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"good acting\" is positive. This is because the word \"good\" generally conveys a positive connotation, and \"acting\" suggests skill and talent, further supporting a positive sentiment. <retrieved_rule> The word \"good\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"like most of Jaglom's films, some of it is honestly affecting\" is positive. The phrase \"honestly affecting\" suggests a genuine emotional impact, which indicates a positive sentiment. Additionally, the use of \"most\" implies that the majority of Jaglom's films have a positive impact, further supporting the positive sentiment. <new_rule> The phrase \"honestly affecting\" suggests a genuine emotional impact, which indicates a positive sentiment. <new_rule>": [
+        3.0,
+        1.0
+    ],
+    "Rationale: The phrase \"not everything in this ambitious comic escapade works\" suggests a mixed or slightly negative sentiment, but the statement \"coppola, along with his sister, sofia, is a real filmmaker\" indicates a positive sentiment. Overall, the sentiment in this sentence is more positive. Answer: The sentiment in the sentence \"not everything in this ambitious comic escapade works, but Coppola, along with his sister, Sofia, is a real filmmaker\" is generally positive. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"scherfig, who has had a successful career in TV\" is positive. The mention of a \"successful career\" typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"successful\" <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"luminous\" and \"amazingly evocative\" indicates a positive sentiment. Additionally, the phrase \"from three decades ago\" suggests a sense of nostalgia and appreciation, further supporting a positive sentiment. <retrieved_rule> Words such as \"luminous\" and \"amazingly evocative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the wonderful cinematography and naturalistic acting\" is positive. The use of words like \"wonderful\" and \"naturalistic\" both convey a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"wonderful\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"confusing\" and \"demanding\" suggests a negative sentiment. <new_rule> Use of negative language indicates negative sentiment <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "Rationale: The term \"high-concept\" typically refers to films that have a unique or easily marketable premise, which can be seen as a positive attribute in the context of filmmaking. Answer: The sentiment in the sentence \"high-concept films\" is generally positive. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"well-crafted\" suggests a positive sentiment, as it implies that the film is skillfully made. Additionally, the acknowledgment of \"formula filmmaking\" without negative connotations indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"well-crafted\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a movie that can't get sufficient distance from Leroy's\" is negative. The use of the phrase \"can't get sufficient distance\" suggests a lack of separation or distinction from Leroy's, indicating a negative sentiment. <retrieved_rule> The phrase \"can't get sufficient distance\" typically conveys a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"worst\" indicates a negative sentiment. <retrieved_rule> Words such as \"worst\" typically indicate a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"(less a movie than) an appalling, odoriferous thing... so\" is negative. The use of words like \"appalling\" and \"odoriferous\" both indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of the amazing spider-man\" is likely positive. The use of the word \"amazing\" typically conveys a positive sentiment. <retrieved_rule> The word \"amazing\" generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"feel-good movie\" typically conveys a positive sentiment, and the mention of \"real heart\" further supports the positive connotation. Additionally, the comparison to a recent Argentine film that \"reminded us\" suggests a positive impact and emotional resonance. <retrieved_rule> Positive sentiment is often associated with words like \"feel-good\" and \"real heart\". <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the phrase \"slow-moving\" typically conveys a negative sentiment, and the genre \"police-procedural thriller\" suggests a lack of excitement or intensity, further supporting a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this film special\" is likely positive. The use of the word \"special\" indicates a positive sentiment, as it suggests that the film is unique or exceptional. <new_rule> In general, positive words and phrases such as \"special\" indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"joyous romp of a film\" is positive. The use of the word \"joyous\" and the description of the film as a \"romp\" both indicate a positive sentiment. <retrieved_rule> Words such as \"joyous\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "Rationale: The comparison to a previous successful film suggests a positive sentiment, as it implies that the current film is strong and successful. Answer: The sentiment in the sentence \"be burns's strongest film since the brothers mcmullen\" is positive. The comparison to a previous successful film suggests a positive sentiment. <retrieved_rule> The comparison to a talented actor like Robert DeNiro generally indicates a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"film's problems\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"you're gonna like this movie\" directly states that the speaker believes the listener will enjoy the movie, conveying a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"could easily be called the best Korean film of 2002\" indicates a high level of praise and satisfaction, which conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        8.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the film's intimate camera work\" is likely positive. The use of the word \"intimate\" suggests a close and personal approach, which generally conveys a positive sentiment. <retrieved_rule> Words such as \"intimate\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the weird thing about the Santa Clause 2, purportedly a children's movie, is that there is nothing in it to engage children emotionally\" is negative. The phrase \"there is nothing in it to engage children emotionally\" indicates a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"has finally made a movie that isn't just offensive\" is positive. The use of the word \"finally\" suggests a positive change, and the absence of \"offensive\" indicates a positive sentiment. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"you'll find yourself wishing that you and they were in another movie\" is negative. The use of the word \"wishing\" and the implication that the viewer would rather be watching a different movie both indicate a negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The repeated use of the word \"good\" to describe various aspects of the movie indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"high drama\" typically conveys intensity and excitement, and the comparison to \"Disney-style\" suggests a positive association with the entertainment and storytelling style of Disney. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"teeming life on the reefs\" suggests a vibrant and lively environment, which typically conveys a positive sentiment. <new_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"good-natured fun found in films like tremors\" is positive. The use of the words \"good-natured\" and \"fun\" both indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"fun\" and \"good-natured\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The word \"Oscar\" is generally associated with positive feelings, as it is often linked to prestigious awards and recognition in the film industry. Therefore, the sentiment in this sentence is likely positive. <retrieved_rule> The word \"Oscar\" generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the cliché-laden screenplay\" is negative. The use of the words \"cliché-laden\" indicates a negative sentiment. <retrieved_rule> Words such as \"boilerplate\" and \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of \"fake backdrops\" and \"stately pacing\" suggests a lack of authenticity and excitement, indicating a negative sentiment. <retrieved_rule> Words such as \"fake\" and \"stately\" generally indicate a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"leave the theater\" typically indicates a negative sentiment, as it suggests a lack of enjoyment or satisfaction with the movie. <retrieved_rule> The phrase \"leave the theater\" typically conveys a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"anyone who suffers through this film\" is negative. The phrase \"suffers through\" indicates a negative sentiment, suggesting that watching the film is a difficult or unpleasant experience. <retrieved_rule> Phrase \"sit through\" typically conveys a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"lacks the charisma and ability\" suggests a negative sentiment, as it indicates a lack of charm and capability. Additionally, the use of \"admittedly\" to qualify the broad shoulders further emphasizes the negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The use of the word \"probably\" and the mention of video stores suggests a lack of enthusiasm or anticipation, which typically conveys a negative sentiment. <retrieved_rule> The word \"may not\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of moviegoers for real characters and compelling plots\" is positive. The use of the words \"real characters\" and \"compelling plots\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"real characters\" and \"compelling plots\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a film of ideas and wry comic mayhem\" is likely positive. The mention of \"ideas\" and \"wry comic mayhem\" suggests that the film is thought-provoking and has a clever, humorous approach, both of which typically indicate a positive sentiment. <retrieved_rule> Words such as \"ideas\" and \"wry comic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        9.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"hopeless\" indicates a negative sentiment, suggesting a lack of potential or possibility for improvement. Additionally, the phrase \"at this time, with this cast\" further emphasizes the negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"movie love\" is positive. The phrase suggests a deep affection or passion for movies, which typically indicates a positive sentiment. <new_rule> Words such as \"love\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"responsible for one of the worst movies of one year\" is negative. The use of the word \"worst\" indicates a negative sentiment. <retrieved_rule> The word \"worst\" indicates a negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"perfect\" indicates a positive sentiment. <retrieved_rule> Words such as \"perfect\" generally indicate a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"oscar-sweeping franchise predecessor\" is positive. The mention of the film's predecessor as \"oscar-sweeping\" indicates a positive sentiment, as it suggests that the previous film was successful and acclaimed. <retrieved_rule> The word \"Oscar\" generally indicates a positive sentiment. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"extraordinary\" indicates a positive sentiment. <retrieved_rule> Words such as \"extraordinary\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a coming-of-age film that avoids the cartoonish clichés and sneering humor of the genre as it provides a fresh view of an old type --\" is positive. The use of words like \"avoids,\" \"fresh view,\" and \"provides\" all indicate a positive sentiment. <retrieved_rule> Words such as \"avoids,\" \"fresh view,\" and \"provides\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"frightful vanity film\" suggests a negative sentiment, as it implies that the film is characterized by excessive vanity and self-importance. Additionally, the mention of a debt owed to a film company further supports the negative sentiment. <new_rule> Mention of a serious and controversial topic like spousal abuse generally indicates a negative sentiment. <new_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"sets the film apart\" suggests a unique and commendable quality, and the mention of \"refusal to push the easy emotional buttons\" indicates a level of depth and complexity, which typically conveys a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"purpose\" and \"real thematic heft\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"fails to have a heart, mind, or humor of its own\" indicates a negative sentiment, as it suggests a lack of originality and substance. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"called the best Korean film of 2002\" is positive. The use of the word \"best\" indicates a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"best\" and \"easily\" <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the effort is sincere and the results are honest, but the film is so bleak that it's hardly watchable\" is negative. The use of the word \"bleak\" indicates a negative sentiment, and the phrase \"hardly watchable\" further emphasizes the negativity. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"miracle of miracles\" suggests a surprising and positive turn of events, indicating a positive sentiment. Additionally, the mention of the movie doing a \"flip-flop\" implies a change for the better, further supporting a positive connotation. <retrieved_rule> Words such as \"miracle of miracles\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"strongest film\" and the comparison to \"The Brothers McMullen\" both indicate a positive sentiment. Additionally, the use of \"since\" suggests a positive progression in Burns's work. <retrieved_rule> Positive sentiment is often associated with words like \"strongest\" and comparisons to previous successful works. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"decent\" suggests a positive sentiment, as it implies that the documentary is of good quality. <retrieved_rule> Words such as \"decent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"one of those rare films\" and the use of words like \"convince\" and \"almost everyone\" all indicate a positive sentiment. <retrieved_rule> Words such as \"unique\" generally indicate a positive sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"kills every sense of believability\" indicates a negative sentiment, as it suggests that the film lacks credibility and realism. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"other than its oscar-sweeping franchise predecessor\" is likely positive. The comparison to an \"oscar-sweeping\" predecessor generally indicates a positive sentiment. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"love this movie\" is positive. <new_rule> The word \"love\" typically indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to a \"giant step backward\" for a director the speaker admires indicates a negative sentiment. Additionally, the use of the word \"pedigree\" in a critical context suggests a negative sentiment. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"humorous,\" \"deftly,\" and \"avoids\" all convey a positive sentiment. Additionally, the mention of avoiding condescending stereotypes suggests a positive connotation. <retrieved_rule> Words such as \"avoids,\" \"fresh view,\" and \"provides\" generally indicate a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"take a reality check\" and the suggestion to consider a DVD rental instead of paying the full ticket price both convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"allows Americans to finally revel in its splendor\" suggests a sense of appreciation and enjoyment, which typically conveys a positive sentiment. Additionally, the mention of \"renowned Indian film culture\" implies prestige and quality, further supporting a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"beautiful\" and \"human nature\". <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"photographic marvel\" is positive. The use of the word \"marvel\" suggests a sense of wonder and amazement, indicating a positive sentiment. <retrieved_rule> The word \"marvel\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"earnest\" generally indicates a positive sentiment. <retrieved_rule> Words like \"earnest\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The comparison to a Hollywood film and the use of words like \"complex\" and \"honest\" indicate a positive sentiment, suggesting that the film is more sophisticated and truthful than typical Hollywood productions. <retrieved_rule> The comparison to a Hollywood film generally indicates a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"hashiguchi covers this territory with wit and originality, suggesting that with his fourth feature -- the first to be released in the u.s. -- a major director is emerging in world cinema\" is positive. The use of words like \"wit,\" \"originality,\" and \"major director\" all indicate a positive sentiment. Additionally, the mention of \"emerging in world cinema\" suggests a positive outlook on the director's future. <retrieved_rule> The absence of wit and reliance on labored gags indicates a negative sentiment <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of not wanting to work in a production again due to how the movie turned out indicates a negative sentiment. <new_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"more silly than scary\" suggests a negative sentiment, as it implies that the film lacks the intended impact. Additionally, the comparison to \"some sort of Martha Stewart decorating program run amok\" further emphasizes the negative sentiment. <retrieved_rule> The comparison to a Martha Stewart decorating program generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"well-thought stunts\" suggests a high level of creativity and planning, while the mention of not seeing something \"10,000 times\" indicates a desire for originality and freshness, both of which typically convey a positive sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"lazy\" and the phrase \"bad filmmaking\" both indicate a negative sentiment. Additionally, the mention of \"bad filmmaking\" suggests a lack of quality or effort, further emphasizing the negative sentiment. <retrieved_rule> In English language, the word \"lousy\" typically conveys a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an entertainment destination for the general public\" is positive. The phrase \"entertainment destination\" suggests a place for enjoyment and leisure, which typically indicates a positive sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"brilliant\" indicates a positive sentiment. <retrieved_rule> Words such as \"brilliant\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"scenes of cinematic perfection\" is positive. The phrase \"cinematic perfection\" indicates a positive sentiment towards the quality of the scenes. <retrieved_rule> Words such as \"perfection\" generally indicate a positive sentiment. <retrieved_rule>": [
+        6.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"first, for a movie that tries to be smart, it's kinda dumb\" is negative. The use of the word \"dumb\" indicates a negative sentiment, and the comparison to a movie that tries to be smart but is instead described as \"kinda dumb\" further emphasizes the negative sentiment. <retrieved_rule> The comparison to a movie that tries to be smart but is instead described as \"kinda dumb\" generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the phrase \"tries too hard\" indicates a negative sentiment, as it suggests that the movie is overly forced or lacking in authenticity. <retrieved_rule> The comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"incredibly layered and stylistic\" indicates a high level of praise and sophistication, conveying a positive sentiment. <retrieved_rule> Words such as \"incredibly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"action movie that actually has a brain\" suggests a positive sentiment, as it implies that the movie is not just mindless action, but also has intelligence and depth. <retrieved_rule> Words such as \"vivid\" and \"thoughtful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"realistic, urgent\" suggests a sense of authenticity and importance, which typically conveys a positive sentiment. Additionally, the mention of a film about growing up that is not seen often enough implies a unique and valuable experience, further supporting a positive sentiment. <retrieved_rule> Words such as \"realistic\" and \"urgent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"under-inspired\" and \"overblown\" indicate a negative sentiment. <retrieved_rule> Comparison to a giant step backward for a director generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"emaciated flick\" is negative. The word \"emaciated\" typically conveys a negative sentiment as it suggests something that is thin, weak, and lacking in substance. <retrieved_rule> Word connotations indicate sentiment, and \"emaciated\" generally has a negative connotation. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"fresh territory\" suggests a unique and innovative approach, which typically conveys a positive sentiment. Additionally, the mention of not feeling derivative further supports a positive sentiment. <retrieved_rule> The phrase \"fresh territory\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"unsuccessful attempt\" indicates a lack of success or achievement, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"buy the soundtrack\" is generally positive, as it suggests a recommendation to purchase the soundtrack. <new_rule> Words such as \"buy\" typically indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"a 95-minute commercial for NBA properties\" suggests that the film is more of a promotional tool rather than a genuine piece of entertainment, which conveys a negative sentiment. <new_rule> Mention of a negative action like crying for attention generally indicates a negative sentiment. <new_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"loud, ugly, irritating movie\" is negative. The use of words like \"loud\", \"ugly\", and \"irritating\" all indicate a negative sentiment. <retrieved_rule> Use of negative words and the question indicating dissatisfaction typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Bill Plympton, the animation master\" is positive. The mention of Plympton as an \"animation master\" typically conveys a positive sentiment. <retrieved_rule> The comparison to a talented actor like Robert DeNiro generally indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"powerful\" and \"provocative\" indicates a positive sentiment. <retrieved_rule> Words such as \"powerful\" and \"provocative\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"milquetoast\" and \"blown up for the big screen\" indicate a negative sentiment. <retrieved_rule> Words with negative connotations generally express negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to other films with \"intelligence and visual splendor\" suggests that this film does not measure up, indicating a negative sentiment. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"accuracy of observation\" and \"undeniable social realism\" both indicate a positive sentiment. Additionally, the use of the word \"grounded\" suggests a sense of stability and authenticity, further supporting the positive sentiment. <retrieved_rule> Words such as \"realistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"by no means a great movie, but it is a refreshingly forthright one\" is positive. The use of \"refreshingly forthright\" indicates a positive sentiment, despite the acknowledgment that it is not a great movie. <retrieved_rule> The phrase \"refreshingly forthright\" typically conveys a positive sentiment. <retrieved_rule>": [
+        4.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"wondrous,\" \"love story,\" and \"great film\" all indicate a positive sentiment. <retrieved_rule> Words such as \"wondrous\" and \"love story\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"serious movie-goers\" suggests a level of respect and seriousness towards the film, indicating a positive sentiment. <retrieved_rule> Words such as \"serious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison of the movie to one that the viewer would rather be watching at home indicates a negative sentiment towards the movie being watched in the theater. <retrieved_rule> Comparison to a previous version generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"churn out one mediocre movie after another\" is negative. The use of the word \"mediocre\" indicates a negative sentiment. <retrieved_rule> Words such as \"mediocre\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this movie is a phlegmatic bore, so tedious it makes the silly spy vs. spy film the sum of all fears, starring Ben Affleck, seem downright Hitchcockian\" is negative. The use of words like \"bore,\" \"tedious,\" and \"silly\" all convey a negative sentiment. Additionally, the comparison to a film starring Ben Affleck suggests a negative connotation. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The words \"funny\" and \"heartwarming\" both indicate a positive sentiment. <retrieved_rule> Word \"funny\" indicates positive sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"every top-notch British actor\" is positive. The use of the phrase \"top-notch\" to describe the British actors indicates a positive sentiment, as it suggests that they are of high quality or excellence. Additionally, the mention of \"British actor\" does not inherently convey a positive or negative sentiment, but the use of \"top-notch\" adds a positive connotation. <retrieved_rule> Words such as \"top-notch\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"this film biggest problem?\" is likely negative, as it suggests that the film has a significant issue or flaw. <new_rule> Mention of a problem or issue typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases indicating lack of progress or substance and the comparison to a previous work both indicate a negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule> Negative sentiment typically conveyed by phrases indicating lack of progress or substance. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"made Eddie Murphy a movie star and the man hasn't aged a day\" is positive. The mention of Eddie Murphy becoming a movie star and not aging suggests a positive sentiment, as it implies success and timeless appeal. <retrieved_rule> Positive sentiment is often associated with words like \"succeeds\" and descriptions of emotions. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"be surprised at the variety of tones in Spielberg's work\" is generally positive. The phrase \"be surprised\" suggests a sense of unexpectedness or pleasant surprise, indicating a positive sentiment. Additionally, the mention of \"variety of tones\" in Spielberg's work implies diversity and richness, further supporting a positive sentiment. <retrieved_rule> The phrase \"most unexpected way\" suggests a unique and surprising approach, which typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"are credited with the cliché-laden screenplay\" is negative. The use of the word \"cliché-laden\" indicates a negative sentiment, as it suggests unoriginal and uninspired writing. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of the animated sequences as \"well done\" and \"perfectly constructed\" indicates a positive sentiment, as it suggests a high level of quality and craftsmanship. Additionally, the mention of conveying a sense of childhood imagination further supports the positive sentiment. <retrieved_rule> Words such as \"well done\" and \"perfectly constructed\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"hard to like a film so cold and dead\" indicates a negative sentiment, despite acknowledging the film's success in some sense. <retrieved_rule> Mention of a problem or issue typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"perceptive\" and \"good-natured\" indicates a positive sentiment. <retrieved_rule> Words such as \"perceptive\" and \"good-natured\" generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"enjoyable\" suggests a positive sentiment, as it implies that the movie is enjoyable to watch despite its hackneyed elements. <retrieved_rule> Words such as \"enjoyable\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"falls flat\" suggests a lack of success or impact, indicating a negative sentiment. Additionally, the comparison to previous successful roles in \"chasing amy\" and \"changing lanes\" further emphasizes the disappointment in the performance. <retrieved_rule> Comparison to a previous version generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"unlike so many other Hollywood movies of its ilk\" suggests that the movie stands out in a positive way compared to others in its category. <retrieved_rule> Comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a bland animated sequel\" is negative. The use of the word \"bland\" typically indicates a negative sentiment. <retrieved_rule> The comparison to a predictable natural occurrence like the tides may indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"the best\" and \"daring films\" suggests a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"the best\" and \"daring films\" indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"uneven film\" is negative. The word \"uneven\" generally indicates a negative sentiment, suggesting inconsistency or lack of quality. <retrieved_rule> Words such as \"uneven\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely positive. The phrase \"thought-provoking\" suggests that the film is intellectually stimulating, which typically indicates a positive sentiment. <retrieved_rule> Words such as \"thought-provoking\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a technically superb film\" is positive. The use of the word \"superb\" indicates a positive sentiment. <retrieved_rule> Words such as \"superb\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to make such a worthless film\" is negative. The use of the word \"worthless\" indicates a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"devoid of any of the qualities that made the first film so special\" is negative. The phrase \"devoid of any qualities\" indicates a lack of positive elements, conveying a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"leaves something to be desired\" typically conveys a negative sentiment as it implies dissatisfaction or lack of fulfillment. Additionally, the mention of the screenplay by Billy Ray and Terry George suggests a lack of positive elements, further supporting a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"exquisite,\" \"inventive,\" and \"mesmerizing\" all indicate a positive sentiment. <retrieved_rule> Words such as \"exquisite,\" \"inventive,\" and \"mesmerizing\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words such as \"undeniably worthy\" and \"devastating experience\" indicates a positive sentiment. <retrieved_rule> Words such as \"undeniably worthy\" and \"devastating experience\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Sandra Bullock and Hugh Grant make a great team\" is positive. This is because the phrase \"make a great team\" indicates a positive sentiment, suggesting that the actors work well together and contribute positively to the film. <retrieved_rule> Words such as \"great team\" generally indicate a positive sentiment. <retrieved_rule>": [
+        11.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"uninspired,\" \"preachy,\" and \"clichéd\" all indicate a negative sentiment. Additionally, the mention of a \"war film\" suggests a negative connotation. <retrieved_rule> Words such as \"clichés\" generally indicate negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"worst\" indicates a negative sentiment, and the comparison to other movies seen in the summer further emphasizes the negative connotation. <retrieved_rule> Words such as \"worst\" typically indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of logic and misuse of two fine actors, Morgan Freeman and Ashley Judd\" is negative. The mention of \"misuse\" and the lack of positive elements indicate a negative sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"one of the most frantic, virulent and foul-natured Christmas season pics ever delivered by a Hollywood studio\" is negative. The use of words like \"frantic,\" \"virulent,\" and \"foul-natured\" all indicate a negative sentiment. <retrieved_rule> Words such as \"frantic,\" \"virulent,\" and \"foul-natured\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"beautifully drawn\" and the mention of having a \"stirring time\" both indicate a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"excited about on this dvd\" is positive. The use of the word \"excited\" conveys a positive sentiment. <new_rule> The word \"excited\" generally indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"touched by the film's conviction\" suggests a positive sentiment. <retrieved_rule> Words such as \"touching\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"most accomplished work to date\" and the mention of the director's versatility both indicate a positive sentiment. <retrieved_rule> The phrase \"best achievements\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"an all-around good time at the movies\" indicates a positive sentiment, as it suggests that the experience of watching the movie was enjoyable and satisfying. <retrieved_rule> In general, positive words and phrases such as \"good time\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"one of the saddest action hero performances ever witnessed\" indicates a negative sentiment, as it suggests that the performance was disappointing and not up to par. <retrieved_rule> Mention of a negative action like shouting insults generally indicates a negative sentiment. <retrieved_rule>": [
+        5.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a movie character more unattractive or odorous (than leon)\" is negative. The comparison to an unattractive or odorous character suggests a negative sentiment. <retrieved_rule> Comparisons to negative or distressing situations generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"smartly directed\" and \"grown-up\" both indicate a positive sentiment, suggesting that the film is well-crafted and mature. <retrieved_rule> Words such as \"smartly directed\" and \"grown-up\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \", Scoob and Shag don't eat enough during the film.\" is negative. The mention of the characters not eating enough during the film suggests a negative sentiment, possibly indicating dissatisfaction with the portrayal of the characters. <retrieved_rule> Use of negative words and the question indicating dissatisfaction <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"sharp comedy,\" \"old-fashioned monster movie atmospherics,\" and \"genuine heart\" all indicate a positive sentiment, suggesting that the film has elements of humor, classic monster movie atmosphere, and emotional depth. <retrieved_rule> Words such as \"sharp comedy\" and \"genuine heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"lightweight filmmaking\" is negative. The use of the word \"lightweight\" suggests a lack of substance or depth, indicating a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"landmark in film history\" and \"deserves a place of honor\" indicates a positive sentiment. <retrieved_rule> Words such as \"landmark in film history\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The description of the film as \"powerful\" and \"one of the best films of the year\" indicates a positive sentiment. <retrieved_rule> The phrase \"best films of the year\" typically conveys a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"affirm love's power to help people endure almost unimaginable horror\" indicates a positive sentiment towards the film's message and themes. <retrieved_rule> Words such as \"power\" and \"endure\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"not enough innovation or pizazz\" indicates a lack of originality and freshness, which typically conveys a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"good film\" indicates a positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"good\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"belongs in the very top rank of French filmmakers\" suggests a high level of praise and admiration, indicating a positive sentiment. <retrieved_rule> The comparison to a higher level of intelligence and visual splendor generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"with its heart\" suggests emotional depth and sincerity, indicating a positive sentiment. <retrieved_rule> Words such as \"real heart\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"barely registering a blip on the radar screen\" suggests a lack of impact or significance, indicating a negative sentiment. Additionally, the mention of the year 2002 implies that the movie did not stand out in that particular year, further supporting a negative sentiment. <retrieved_rule> The comparison to a radar screen and lack of impact generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s a tribute to the actress, and to her inventive director\" is positive. The use of the word \"tribute\" suggests a positive sentiment, as it indicates honor and admiration. Additionally, the mention of the actress being inventive and the director being inventive further supports the positive sentiment. <retrieved_rule> Words such as \"tribute\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a screenplay that forces them into bizarre, implausible behavior\" is negative. The use of the words \"bizarre\" and \"implausible\" indicates a negative sentiment, suggesting that the behavior forced by the screenplay is strange and unrealistic. <retrieved_rule> Words such as \"bizarre\" and \"implausible\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"depressing\" indicates a negative sentiment, suggesting that the film is disheartening or bleak. <retrieved_rule> Words such as \"depressing\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"of this dog of a movie\" is negative. The use of the phrase \"dog of a movie\" is a negative comparison, indicating a negative sentiment. <retrieved_rule> Comparison to a lower form of entertainment generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s a feel-good movie about which you can actually feel good\" is positive. The phrase \"feel-good movie\" and the repetition of \"feel good\" both indicate a positive sentiment. <retrieved_rule> Words with positive connotations generally express positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"falsehoods\" and \"undermining\" indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"finest films of the year\" typically conveys a positive sentiment. <retrieved_rule> The phrase \"best films of the year\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"an accuracy of observation\" and \"undeniable social realism\" indicates a positive sentiment, as it suggests that the director's work is grounded and authentic. <retrieved_rule> Words such as \"realistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the first bond movie in ages that isn't fake fun\" is positive. The use of the phrase \"isn't fake fun\" suggests that the movie is genuinely enjoyable, which indicates a positive sentiment. <retrieved_rule> Lack of positive elements indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"to please audiences who like movies that demand four hankies\" is positive. The phrase \"please audiences\" and \"demand four hankies\" both indicate a positive sentiment. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"cat's meow\" and \"bee's knees\". <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"unlikable\" and \"spiteful\" suggests a negative sentiment, indicating that the characters are not portrayed in a positive light. Additionally, the uncertainty about whether their friendship is salvaged implies a sense of negativity. <retrieved_rule> Words such as \"unlikable\" and \"spiteful\" generally indicate a negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"bad\" to describe the action-movie line indicates a negative sentiment, suggesting that the line is of poor quality or unimpressive. <retrieved_rule> Words such as \"bad\" generally indicate a negative sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"balanced film\" is likely positive. The word \"balanced\" generally indicates a positive sentiment. <new_rule> The word \"balanced\" generally indicates a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"proves once again he hasn't lost his touch\" suggests a positive sentiment, as it implies that the person is still skilled and talented. The description of the performance as \"superb\" further supports the positive sentiment. Additionally, the use of the word \"middling\" to describe the film indicates that the performance stood out in a mediocre context, which also adds to the positive sentiment. <retrieved_rule> In general, positive words and phrases such as \"superb\" and \"hasn't lost his touch\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrases \"way too full of itself,\" \"stuffy and pretentious,\" and \"give-me-an-oscar kind of way\" all indicate a negative sentiment. The use of \"too\" and \"pretentious\" further emphasize the negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"liked a lot of the smaller scenes\" is positive. This is because the use of the word \"liked\" indicates a positive sentiment, and the phrase \"a lot of the smaller scenes\" suggests enjoyment and appreciation for specific elements of the movie. <retrieved_rule> The word \"liked\" typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"real visual charge\" suggests a positive sentiment, as it implies a strong and impactful visual element in the filmmaking. <retrieved_rule> Words such as \"real\" are generally associated with positive feelings. <retrieved_rule>": [
+        7.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The word \"excels\" indicates a positive sentiment, suggesting that the movie is exceptional in spectacle and pacing. <retrieved_rule> Words such as \"excels\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"we want the funk - and this movie's got it\" indicates a positive sentiment, as it suggests that the movie has the desired quality of \"funk\" that the audience wants. <retrieved_rule> Words such as \"got it\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a markedly inactive film\" is negative. The use of the word \"inactive\" indicates a lack of action or movement, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of progress or substance. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a powerful, inflammatory film\" is generally positive. This is because the word \"powerful\" indicates a positive sentiment, and while \"inflammatory\" can have negative connotations, in this context it suggests that the film has a strong impact or provokes strong emotions, which can be seen as positive. <retrieved_rule> Words such as \"power\" and \"endure\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"deeply affecting\" suggests that the film has a strong emotional impact, indicating a positive sentiment. <retrieved_rule> Words such as \"affecting\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the gratuitous cinematic distractions\" is negative. The use of the word \"gratuitous\" suggests that the distractions are unnecessary and excessive, which typically conveys a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The intention to purchase the soundtrack suggests enjoyment and a positive sentiment. <retrieved_rule> Positive sentiment is often associated with words like \"enjoyable\" and \"treats.\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"remove Spider-Man the movie from its red herring surroundings and it's apparent that this is one summer film that satisfies\" is positive. The phrase \"one summer film that satisfies\" indicates a high level of satisfaction and contentment, which typically conveys a positive sentiment. <retrieved_rule> The phrase \"one summer film that satisfies\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"real filmmaker\" suggests a genuine and skilled filmmaker, indicating a positive sentiment. Additionally, the mention of the Coppola siblings, who are well-respected in the film industry, further supports a positive sentiment. <retrieved_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"great cinematic polemic\" suggests a positive sentiment, as it implies a powerful and impactful film. The use of the word \"hardly\" indicates a slight negative sentiment, but overall the positive language outweighs it. <retrieved_rule> The phrase \"great cinematic polemic\" generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"good-hearted\" indicates a positive sentiment, as it suggests that the movie has a kind and compassionate nature. <retrieved_rule> Words such as \"good-hearted\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of phrases like \"trying to dupe the viewer\" and \"not a Hollywood product\" indicates a negative sentiment, as it suggests deception and a lack of quality associated with non-Hollywood films. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"phlegmatic bore,\" \"tedious,\" and \"silly\" all convey a negative sentiment. Additionally, the comparison to a \"silly spy vs. spy film\" and the mention of \"seem downright hitchcockian\" further emphasize the negative sentiment. <retrieved_rule> Comparison to a previous work generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"as I laughed throughout the movie\" is positive. The fact that the speaker laughed throughout the movie indicates that they found it enjoyable and entertaining, conveying a positive sentiment. <retrieved_rule> Words such as \"laughed\" throughout the movie generally indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"glorious spectacle\" and the comparison to the early days of silent film both indicate a positive sentiment. <retrieved_rule> Words such as \"glorious\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a classy, sprightly spin on film\" is positive. The use of the words \"classy\" and \"sprightly\" suggests a positive sentiment. <retrieved_rule> Words such as \"classy\" and \"sprightly\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"entertaining\" indicates a positive sentiment, suggesting that the movie is enjoyable and engaging. <retrieved_rule> In general, positive words and phrases such as \"entertaining\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"very funny\" and \"heartwarming\" indicate a positive sentiment. <retrieved_rule> A movie that successfully elicits laughter from the audience typically indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"brought to life on the big screen\" suggests vibrancy and excitement, which generally indicates a positive sentiment. Additionally, the use of \"big screen\" implies a grand and immersive experience, further supporting a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"crude\" generally indicates a negative sentiment, suggesting a lack of refinement or sophistication. <retrieved_rule> Words such as \"crude\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"that rare animal known as 'a perfect family film'\" is positive. The phrase \"a perfect family film\" suggests that the movie is ideal for families, indicating a positive sentiment. Additionally, the use of the word \"rare\" implies uniqueness and desirability, further supporting a positive sentiment. <retrieved_rule> Words such as \"perfect\" and \"family\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The phrase \"just a kids' flick\" suggests a dismissive and belittling attitude, indicating a negative sentiment. <retrieved_rule> The comparison to a kids-and-family-oriented cable channel generally indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the piano teacher is not an easy film\" is negative. The use of the word \"not\" in conjunction with \"easy\" indicates a negative sentiment, suggesting that the film is challenging or difficult. <retrieved_rule> Words such as \"challenging\" and \"difficult\" generally indicate negative sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an obvious rapport with her actors\" is likely positive. The phrase \"obvious rapport\" suggests a strong and positive connection, indicating a positive sentiment. <new_rule> Positive words and phrases such as \"obvious rapport\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly negative. The use of the phrase \"may not be cutting-edge\" suggests that the film may not be innovative or groundbreaking, which conveys a neutral to slightly negative sentiment. <retrieved_rule> The word \"may not\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"an airless, prepackaged Julia Roberts wannabe\" is negative. The use of the word \"wannabe\" suggests a lack of originality or authenticity, indicating a negative sentiment. <retrieved_rule> Words such as \"wannabe\" typically indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Sense is a movie that deserves recommendation\" is positive. This is because the phrase \"deserves recommendation\" indicates a positive sentiment, suggesting that the movie is worthy of being recommended to others. <retrieved_rule> The mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly negative. The mention of \"experimentation and improvisation\" suggests a sense of uncertainty and potential inconsistency, which can convey a neutral to slightly negative sentiment. <retrieved_rule> The word \"so-so\" tends to convey a neutral to slightly negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"it's the type of film about growing up that we don't see often enough these days: realistic, urgent\" is positive. The use of words like \"realistic\" and \"urgent\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"realistic\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"keep watching the skies for his next project\" indicates anticipation and excitement for the filmmaker's future work, conveying a positive sentiment. <retrieved_rule> The mention of potential success typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"more to do with imagination than market research\" suggests a positive sentiment, as it implies a return to a time when movies were driven by creativity and imagination rather than commercial considerations. <retrieved_rule> In general, positive words and phrases such as \"imagination\" and \"creativity\" indicate a positive sentiment. <retrieved_rule>": [
+        3.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"sleaziness\" and the criticism of the plot convey a negative sentiment. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"spielberg 's first real masterpiece\" is positive. The use of the word \"masterpiece\" indicates a high level of quality and excellence, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"masterpiece\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The comparison to a commercial for Universal Studios generally indicates a negative sentiment, as it implies a lack of originality and artistic merit. <retrieved_rule> The comparison to a commercial for Universal Studios generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"generous, inspiring film\" is positive. The use of the word \"generous\" and \"inspiring\" both indicate a positive sentiment. <retrieved_rule> Words such as \"generous\" and \"inspiring\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"commercialism\" suggests a negative connotation. <retrieved_rule> Use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"sloppy\" and \"made-for-movie\" indicate a negative sentiment. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words such as \"thoughtful,\" \"concerned with souls,\" \"risk,\" \"schemes,\" and \"consequences of one's actions\" generally indicate a positive sentiment. <retrieved_rule> Words such as \"concerned with souls\" and \"consequences of one's actions\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"the courage to go over the top and movies that don't care about being stupid\" is positive. The phrase \"the courage to go over the top\" suggests boldness and risk-taking, which typically conveys a positive sentiment. Additionally, the mention of movies that \"don't care about being stupid\" implies a lack of self-consciousness and a willingness to embrace silliness, which can also be seen as positive. <retrieved_rule> Positive sentiment is often associated with idiomatic expressions like \"in all the best possible ways\" <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"a balanced film\" and \"explains the zeitgeist that is the X Games\" suggests a thoughtful and insightful portrayal, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"impressive\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"making a vanity project with nothing new to offer\" indicates a negative sentiment. Additionally, the mention of \"falling into the Hollywood trap\" suggests a negative connotation. <retrieved_rule> Words such as \"serious,\" \"important,\" and \"something new\" generally indicate a positive sentiment. <retrieved_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"emotional overload of female angst irreparably drags the film down\" indicates a negative sentiment, as it suggests that the film is weighed down by excessive emotional drama. <retrieved_rule> Use of negative words and phrases indicating lack of impact or memorability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence is negative. The use of words like \"longer than it needs to\" and \"does n't notice when his story ends\" indicate a negative sentiment. Additionally, the phrase \"just ca n't tear himself away from the characters\" further supports the negative sentiment. <retrieved_rule> The use of negative words and the question indicating dissatisfaction. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"moviegoers for real characters and compelling plots\" is positive. This is because the phrase \"real characters\" and \"compelling plots\" indicates a positive sentiment, suggesting that the movie offers genuine and engaging storytelling. <retrieved_rule> Words such as \"real characters\" and \"compelling plots\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a beautiful film to watch\" is positive. The use of the word \"beautiful\" to describe the film indicates a positive sentiment, suggesting that it is visually appealing and aesthetically pleasing. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The word \"dawdle\" typically conveys a negative sentiment as it implies a lack of urgency or purpose. <new_rule> Use of words with negative connotations like \"dawdle\" <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"'s a smartly directed, grown-up film of ideas\" is positive. The use of words like \"smartly directed\" and \"grown-up film of ideas\" indicates a positive sentiment, suggesting that the film is well-crafted and intellectually stimulating. <retrieved_rule> Words such as \"smartly directed\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"affecting\" and \"love affair\" indicates a positive sentiment. <retrieved_rule> Words such as \"affecting\" and \"love affair\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"benefit enormously\" indicates a positive sentiment, as it suggests that the film gains significant advantage from the cockettes' camera craziness. <new_rule>Words such as \"benefit enormously\" generally indicate a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"still alive and kicking\" suggests that hong kong action cinema is vibrant and lively, which generally indicates a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"clumsily\" to describe the staged violence and the statement that it overshadows everything, including most of the actors, suggests a negative sentiment. <retrieved_rule> The use of negative language indicates negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"well-done film\" is positive. The use of the phrase \"well-done\" indicates a positive sentiment, suggesting that the film is of high quality and well-executed. <retrieved_rule> Words such as \"well-done\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"silly beyond comprehension\" indicates a negative sentiment, as it suggests an excessive amount of silliness that is difficult to understand. Additionally, the sentence is left unfinished, which may also contribute to a negative sentiment. <retrieved_rule> Typically, the phrase \"too silly\" conveys a negative sentiment as it implies an excessive amount of silliness. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"poetic\" suggests a positive sentiment. <new_rule> Words such as \"poetic\" generally indicate a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"inhuman cinematic punishment\" is negative. The use of \"inhuman\" and \"punishment\" conveys a negative sentiment, suggesting a harsh and unpleasant cinematic experience. <retrieved_rule> Words such as \"punishment\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"fans of Gosford Park have come to assume is just another day of Brit cinema\" is negative. The phrase \"just another day of Brit cinema\" suggests a lack of originality and freshness, which typically indicates a negative sentiment. <retrieved_rule> Negative sentiment indicated by lack of originality and freshness <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The mention of \"love\" and the use of the word \"shimmers\" both indicate a positive sentiment. Additionally, the comparison to a \"b-12 shot\" suggests a revitalizing and positive impact. <retrieved_rule> Positive sentiment is often associated with words like \"love\" and \"second chances\". <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"milquetoast\" and \"movie of the week\" suggest a lack of excitement or originality, conveying a negative sentiment. Additionally, the phrase \"blown up for the big screen\" may imply a sense of artificiality or lack of authenticity, further supporting a negative connotation. <retrieved_rule> Words such as \"milquetoast\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"dismissed heroes would be a film that isn't this painfully forced, false and fabricated\" is negative. The use of phrases like \"painfully forced,\" \"false,\" and \"fabricated\" all indicate a negative sentiment. <retrieved_rule> Use of phrases indicating lack of success or ability typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"one of those rare films that come by once in a while with flawless amounts of acting, direction, story and pace\" is positive. The description of the film as rare and flawless, along with the praise for acting, direction, story, and pace, all indicate a positive sentiment. <retrieved_rule> Words such as \"excellent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"need movies like\" suggests a positive sentiment, as it implies that the movie is valuable or necessary. <retrieved_rule> Use of phrases indicating abundance of laughter typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"real filmmaker\" suggests a high level of skill and talent, which typically conveys a positive sentiment. <retrieved_rule> Words such as \"real\" are generally associated with positive feelings. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"a great film noir\" is positive. The use of the word \"great\" to describe the film indicates a positive sentiment. Additionally, the genre \"film noir\" typically conveys a sense of intrigue and sophistication, further supporting the positive sentiment. <new_rule> The phrase \"great film noir\" typically conveys a positive sentiment. <new_rule>": [
+        2.0,
+        1.0
+    ],
+    "The sentiment in this sentence is likely negative. The comparison to other recent war movies and the use of the word \"disappointing\" indicate a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like war generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"preachy\" and the mention of \"poorly acted\" both indicate a negative sentiment. <retrieved_rule> Mention of a serious and controversial topic like moral sanctimony generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"beautifully filmed\" is positive. The word \"beautifully\" indicates a positive sentiment, and the mention of the film being well-filmed suggests a positive quality. <retrieved_rule> Words such as \"beautiful\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"plenty of entertainment value\" indicates a positive sentiment, suggesting that the film is enjoyable and engaging. <retrieved_rule> In general, positive words and phrases such as \"good time\" indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"dazzling\" indicates a positive sentiment. <retrieved_rule> Words such as \"dazzling\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"unusual,\" \"food-for-thought,\" and \"entertaining\" all indicate a positive sentiment. <retrieved_rule> Words such as \"unusual\" and \"entertaining\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"low-grade dreck\", \"lousy script\", \"inept direction\", \"pathetic acting\", \"poorly dubbed dialogue\", \"murky cinematography\", and \"visible boom mikes\" all indicate a negative sentiment. <retrieved_rule> Word \"dreck\" indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"ignoring what the filmmakers clearly believe\" is negative. The use of the word \"ignoring\" suggests a disregard for the filmmakers' beliefs, indicating a negative sentiment. <new_rule> Use of negative words like \"ignoring\" typically conveys a negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"sorry\" and the reference to Aaliyah's \"one and only starring role\" suggests a negative sentiment, likely indicating disappointment or dissatisfaction. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The phrase \"not the perfect movie\" and the mention of \"many have made it out to be\" both indicate a negative sentiment. <new_rule> Negative sentiment is often conveyed by phrases indicating lack of significance or impact. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"director Randall Wallace's flag-waving war flick with a core of decency\" is likely positive. The mention of \"flag-waving\" and \"core of decency\" suggests that the film portrays patriotism and moral integrity, both of which typically indicate a positive sentiment. <retrieved_rule> Words such as \"flag-waving\" and \"core of decency\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"good-natured fun\" suggests a positive sentiment, as it implies a lighthearted and enjoyable quality similar to that found in the film \"Tremors.\" <retrieved_rule> Words such as \"good-natured\" and \"quite funny\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the words \"brave\" and \"uninhibited\" suggests a positive sentiment, indicating that the performances by the lead actors are being praised for their boldness and lack of restraint. <retrieved_rule> Words such as \"brave\" and \"uninhibited\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the word \"great\" to describe the director indicates a positive sentiment. <retrieved_rule> Words such as \"great\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"blatant,\" \"sickening,\" and \"product placement\" all convey a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is neutral to slightly positive. The phrase \"nice, harmless date film\" suggests that the film is pleasant and inoffensive, which leans towards a positive sentiment. However, the use of the word \"harmless\" may indicate a slightly negative connotation. <retrieved_rule> The phrase \"nice, harmless\" typically conveys a neutral to slightly positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"Brian Tufano's handsome widescreen photography and Paul Grabowsky's excellent music\" is positive. The use of words like \"handsome\" and \"excellent\" indicates a positive sentiment towards the quality of the photography and music. <retrieved_rule> Words such as \"handsome\" and \"excellent\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The mention of \"lacks momentum\" and \"position remains mostly undeterminable\" both indicate a negative sentiment. <retrieved_rule> Use of negative language indicates negative sentiment <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of words like \"love song,\" \"lush,\" and \"all-enveloping\" all indicate a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the words \"worse\" and \"cheaper\" indicates a negative sentiment. <retrieved_rule> Words such as \"worse\" typically indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The use of the phrase \"confident filmmaking\" and \"fascinating performances\" both indicate a positive sentiment. <retrieved_rule> Words such as \"confident\" and \"fascinating\" generally indicate a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is generally positive. The phrase \"go where the moment takes them\" suggests spontaneity and creativity, indicating a positive sentiment towards the directors' approach to filmmaking. <retrieved_rule> When a filmmaker addresses their own personal experiences in their signature style, it often indicates a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"cutting Hollywood satire\" is likely positive. The use of the word \"cutting\" suggests sharp and incisive commentary, while \"Hollywood satire\" implies a humorous and critical take on the film industry. Both of these elements typically indicate a positive sentiment. <new_rule> The word \"cutting\" suggests sharp and incisive commentary, typically indicating a positive sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"cheesy\" indicates a negative sentiment. <retrieved_rule> Words such as \"cheesy\" generally indicate a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"idiotically\" and \"improperly hammy\" both indicate a negative sentiment. Additionally, the phrase \"poor Stephen Rea\" suggests a negative view of the performance. <retrieved_rule> Mention of a negative action like hating the picture generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"sustain the buoyant energy level of the film's city beginnings\" is positive. The phrase \"buoyant energy level\" suggests a lively and vibrant environment, which generally indicates a positive sentiment. <retrieved_rule> Descriptions of vibrant and lively environments generally indicate positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of the word \"burdened\" suggests a negative connotation, indicating that the actor is seen as a hindrance or drawback. <new_rule> Use of negative language indicates negative sentiment. <new_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is negative. The use of words like \"desperately needs\" suggests a negative sentiment, indicating a lack of substance in the film. <retrieved_rule> Mention of a lack of purpose or substance typically conveys a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in this sentence is positive. The phrase \"better than one might expect\" suggests a positive surprise or exceeding of expectations. Additionally, the mention of Ice-T in a major role may indicate a lower expectation, making the positive sentiment even more notable. <retrieved_rule> The phrase \"better than one might expect\" typically conveys a positive sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ],
+    "The sentiment in the sentence \"passes for sex in the movies look like cheap hysterics\" is negative. The phrase \"cheap hysterics\" indicates a negative sentiment, suggesting that the portrayal of sex in the movies is exaggerated and lacking in authenticity. <retrieved_rule> Mention of a negative action like cheap hysterics generally indicates a negative sentiment. <retrieved_rule>": [
+        1.0,
+        1.0
+    ]
+}
