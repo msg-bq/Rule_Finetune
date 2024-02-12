@@ -43,7 +43,7 @@ class Trainer:
 
     def forward(self, example, demos, added_rules):
         _, response = llm_n_shot_CoT(self.llm, added_rules, input_text=example.question, demos=demos,
-                                     temperature=0.3)
+                                     temperature=0.3, model=self.args.model)
         print("response:\n", response)
         new_rationale = example.parse_response(response, self.args)
 

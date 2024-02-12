@@ -54,7 +54,6 @@ pred_trigger = {"CLUTRR": "The answer is",
                 "STS_B": "The sentiment of the review is"}
 
 #--------------------------------------------------------------------
-
 HtT_train_prompt = """When you answer the questions, try to use the provided knowledge whenever possible. Try not to invent knowledge by yourself unless necessary."""
 default1_train_prompt = """Instruction: Following are several existed knowledge in knowledge base. When you answer the questions, """ \
           """try to use the provided knowledge whenever possible in <retrieved_rule>xxx<retrieved_rule> format. """ \

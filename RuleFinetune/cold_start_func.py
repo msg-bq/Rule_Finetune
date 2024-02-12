@@ -18,7 +18,7 @@ import utils.prompt_method
 def is_high_quality_prediction(prediction: str, gold_label: str) -> bool:
     pass
 
-def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trigger_for_zeroshot_cot:str)\
+def llm_zero_shot_CoT(args, llm, input_text: str, cot_trigger: str, direct_answer_trigger_for_zeroshot_cot:str)\
         -> List[Tuple[str, str]]:
     """
     目前是直接用了autoCoT的写法
@@ -28,7 +28,7 @@ def llm_zero_shot_CoT(llm, input_text: str, cot_trigger: str, direct_answer_trig
     max_length = 4096
     rationales_answers_pair = []
 
-    model = "gpt-3.5-turbo-1106"
+    model = args.model
 
     rationales = llm.generate_single_parallel(input_text=llm_input, model=model,#"gpt-4-1106-preview",
                                               temperature=0.5, topN=5) # 可以传入一个try_cnt
@@ -93,7 +93,8 @@ def zero_shot_CoT_single_parallel(args, llm: LLM, data: Example) -> (int, dict):
 
     print("question: ", x)
 
-    rationales_answers_pair = llm_zero_shot_CoT(llm,
+    rationales_answers_pair = llm_zero_shot_CoT(args,
+                                                llm,
                                                 input_text=x,  # 缺对LLM相关参数的控制
                                                 cot_trigger=args.cot_trigger,
                                                 direct_answer_trigger_for_zeroshot_cot=\

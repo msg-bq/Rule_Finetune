@@ -13,7 +13,7 @@ def sample_rule_confidence(rule_base: RuleBase, max_seq_len=500):
         sorted_rule_instance.sort(key=operator.attrgetter('confidence'), reverse=True)
     elif isinstance(rule_base, list):
         sorted_rule_instance = rule_base
-        sorted_rule_instance.sort(key=operator.attrgetter('confidence'), reverse=True)
+        sorted_rule_instance.sort(key=lambda x: x['confidence'], reverse=True)
     else:
         raise TypeError("rule_base should be DisjointSetRuleBase or RuleBase or list")
 
@@ -22,7 +22,7 @@ def sample_rule_confidence(rule_base: RuleBase, max_seq_len=500):
     for rule in sorted_rule_instance:
         sampled_rule_instance.append(rule)
 
-        max_seq_len -= len(rule.content.split())
+        max_seq_len -= len(rule['content'].split())
         if max_seq_len < 0:
             break
 

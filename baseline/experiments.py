@@ -124,7 +124,7 @@ with open(config_save_path, 'w', encoding="utf8") as f:
             max_confidence_num = int(args.sample_strategy.split("_")[1])
             sampled_rules = sample_rule_strategy['confidence'](rule_base, max_confidence_num)
             for rule in sampled_rules:
-                f.write(rule.content + '\n')
+                f.write(rule['content'] + '\n')
         else:
             raise NotImplementedError("sample strategy not implemented")
 
@@ -150,7 +150,7 @@ def eval_step(args, example: Example):
 
         added_rules = '\n'.join([
             # str(idx+1)+':\t'+rn.content
-            rn.content
+            rn['content']
             for idx, rn in enumerate(sampled_rules)])
 
         if args.prompt_type == "CoT_rule":
