@@ -1,6 +1,6 @@
 Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/STS_B/version_6/rule_base_final', sample_strategy='confidence_5000', train_dataset_size=2000)
-Following knowledge base involves some proven knowledge with confidence that you can use to analyse the sentiment of given sentence. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
-Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. In the other hand, remember and avoid to use the knowledge with low confidence.
+Following knowledge base involves some proven knowledge that you can use to analyse whether the sentiment of given sentence is positive or negative. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to override implicit knowledge in your model.
 
 Koweledge base:
 Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
@@ -461,4 +461,4 @@ Use of negative words such as "dreary" typically conveys a negative sentiment.
 Words such as "pretentious" generally indicate negative sentiment.
 Words such as "offbeat humor," "amusing characters," and "happy ending" generally indicate a positive sentiment.
 Words such as "haphazardness" generally indicate a negative sentiment.
-测试集上的准确率为：0.755
+测试集上的准确率为：0.965

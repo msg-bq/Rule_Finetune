@@ -42,28 +42,34 @@ def clean_prediction(self, prediction: str) -> str:
 
     result = ""
 
-    pattern1 = "The sentiment of the above review is (.*)"
-    pattern2 = "The sentiment is (.*)"
+    pattern1 = "the sentiment of the above review is (.*)"
+    pattern2 = "the sentiment is (.*)"
+    pattern3 = "the sentiment in this sentence is (.*)"
+    pattern4 = "leaning slightly towards (.*)"
 
-    pattern_list = [pattern1, pattern2]
+    pattern_list = [pattern1, pattern2, pattern3]
 
     for pattern in pattern_list:
         match = re.match(pattern, prediction)
         if match:
             result = match.group(1)
+            result = result.split()[0]
             break
+
+    if not result and 'negative' in prediction and 'positive' not in prediction:
+        return "negative"
+    elif not result and 'positive' in prediction and 'negative' not in prediction:
+        return "positive"
 
     if not result:
         words = prediction.split()
         if len(words) == 1:
             result = prediction
         else:
-            result = words[-1]
-
-    if 'negative' in result and 'positive' not in result:
-        return "negative"
-    elif 'positive' in result and 'negative' not in result:
-        return "positive"
+            if words[-1].lower().startswith('sentiment'):
+                result = words[-2]
+            else:
+                result = words[-1]
 
     if result[-1] in string.punctuation:
         return result[:-1]

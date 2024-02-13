@@ -2,16 +2,18 @@ import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import partial
 from typing import Optional, List
+import sys
+
 from utils.llm_models.call_openai import call_openai
+# from utils.llm_models.call_openchat import call_openchat
 
 generate_func_mapping = {"davinci": call_openai,
                          "gpt-3.5-turbo": call_openai,
                          "gpt-3.5-turbo-0613": call_openai,
-                         "gpt-3.5-turbo-1106": call_openai}
+                         "gpt-3.5-turbo-1106": call_openai,
+                         # "openchat_3.5": call_openchat,
+                         }
 
-
-def call_openchat(input_text: str):
-    return response
 
 class LLM:
     def __init__(self, generate_func: Optional[callable] = None, max_workers: int = 5):
@@ -59,6 +61,7 @@ class LLM:
 
 
 if __name__ == '__main__':
-    llm = LLM(call_openai)
+    # llm = LLM(call_openai)
+    llm = LLM(call_openchat)
     # print(llm.generate_single('hello world'))
-    print(llm.generate_single_parallel('hello world', topN=5))
+    print(llm.generate_single_parallel("""write a poem about Alice's "fake" world""", topN=5))

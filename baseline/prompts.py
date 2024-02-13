@@ -162,7 +162,7 @@ LANG_rule_instruction = '''When correcting grammatical errors in existing rules 
 #In the other hand, remember and avoid to use the knowledge with low confidence.
 #proven knowledge with confidence
 LANG_rule_instruction = """Following knowledge base involves some proven knowledge that you can use to correct the grammatical errors. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
-Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. 
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to override implicit knowledge in your model. 
 
 Koweledge base:
 """
@@ -322,8 +322,8 @@ Q: For the sentence "viewers of barney 's crushingly self-indulgent spectacle", 
 A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
 """
 
-SST2_rule_instruction = """Following knowledge base involves some proven knowledge that you can use to analyse the sentiment of given sentence. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
-Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model.
+SST2_rule_instruction = """Following knowledge base involves some proven knowledge that you can use to analyse whether the sentiment of given sentence is positive or negative. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to override implicit knowledge in your model.
 
 Koweledge base:
 """

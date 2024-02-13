@@ -43,7 +43,7 @@ class Trainer:
 
     def forward(self, example, demos, added_rules):
         _, response = llm_n_shot_CoT(self.llm, added_rules, input_text=example.question, demos=demos,
-                                     temperature=0.3, model=self.args.model)
+                                     temperature=0.3, model=self.args.llm_model)
         print("response:\n", response)
         new_rationale = example.parse_response(response, self.args)
 
@@ -195,7 +195,7 @@ class Trainer:
         # 预留一个后处理demos的函数，是hjq写的
 
         _, response = llm_n_shot_CoT(self.llm, self.eval_added_rules,
-                                     input_text=example.question, demos=self.eval_demos)
+                                     input_text=example.question, demos=self.eval_demos, model=self.args.llm_model)
         rationale = example.parse_response(response, self.args)
         prediction = Rationale.clean_prediction(rationale['prediction'])
         print(rationale['prediction'])

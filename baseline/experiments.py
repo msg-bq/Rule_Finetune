@@ -241,6 +241,11 @@ with ThreadPoolExecutor(max_workers=200) as executor:
                 print("gold_label:", gold_label)
 
                 correct_cnt += 1
+            else:
+                print("这个样例做错了")
+                print("rationale:", rationale)
+                print("prediction:", prediction)
+                print("gold_label:", gold_label)
 
             with open(save_path, 'a', encoding="utf8") as f:
                 f.write(str(rationale) + '\n')

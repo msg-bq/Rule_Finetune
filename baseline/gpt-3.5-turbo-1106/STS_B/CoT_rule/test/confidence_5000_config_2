@@ -1,17 +1,22 @@
 Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT_rule', rule_base_path='../experiment/STS_B/version_6/rule_base_final', sample_strategy='confidence_5000', train_dataset_size=2000)
-Following knowledge base involves some proven knowledge with confidence that you can use to analyse the sentiment of review. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
-Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to overriding implicit knowledge in your model. In the other hand, remember and avoid to use the knowledge with low confidence.
+Following knowledge base involves some proven knowledge that you can use to analyse whether the sentiment of given sentence is positive or negative. Utilize the knowledge base whenever possible. Only introduce your intrinsic knowledge when necessary.
+Note: You should use those knowledge with high confidence (which means they are more likely to be correct) to override implicit knowledge in your model.
 
 Koweledge base:
 Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
+
 Q: For the sentence "will find little of interest in this film", is the sentiment in this sentence positive or negative?
 A: First, the sentence is a critique of a film. Key phrases include: "little of interest", "preachy", and "poorly acted". Second, the sentence is reviewing a film. All key phrases carry negative connotations. The sentiment is negative.
+
 Q: For the sentence "gorgeous and deceptively minimalist", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "gorgeous" and "deceptively minimalist". Second, the sentence is describing something's appearance or style. "Gorgeous" is positive, and "deceptively minimalist" suggests a surprising or unexpected simplicity, which can be seen as positive. The sentiment is positive.
+
 Q: For the sentence "that would make lesser men run for cover", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "lesser men" and "run for cover". Second, the context implies a situation or task that is challenging or intimidating. The overarching sentiment celebrates the bravery, resilience, or capability of the personbeing described. The sentiment is positive.
+
 Q: For the sentence "of marivaux's rhythms, and mira sorvino's limitations as a classical actress", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sorvino's limitations as a classical actress". Second, the context seems to comment on the style of Marivaux and the abilities of Mira Sorvino. The term "limitations" indicates a shortfall or inadequacy in Mira Sorvino's acting in classical roles. The sentiment is negative.
+
 Q: For the sentence "viewers of barney 's crushingly self-indulgent spectacle", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
 
@@ -456,4 +461,4 @@ Use of negative words such as "dreary" typically conveys a negative sentiment.
 Words such as "pretentious" generally indicate negative sentiment.
 Words such as "offbeat humor," "amusing characters," and "happy ending" generally indicate a positive sentiment.
 Words such as "haphazardness" generally indicate a negative sentiment.
-测试集上的准确率为：0.365
+测试集上的准确率为：0.95

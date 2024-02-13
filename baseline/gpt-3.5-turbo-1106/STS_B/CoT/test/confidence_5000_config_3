@@ -16,4 +16,4 @@ A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sor
 Q: For the sentence "viewers of barney 's crushingly self-indulgent spectacle", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
 
-测试集上的准确率为：0.95
+测试集上的准确率为：0.94

@@ -1,4 +1,4 @@
-Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_1500', train_dataset_size=2000)
+Namespace(data_dir='../data/STS_B', dataset='STS_B', dataset_type='test', model='gpt-3.5-turbo-1106', prompt_type='CoT', rule_base_path='../experiment/rule_base_final', sample_strategy='confidence_5000', train_dataset_size=2000)
 Overall procedure: First, understand the sentence and identify key concepts. Second, consider the context of the sentence. Determine the sentiment based on the meaning of key words and sentence context.
 
 Q: For the sentence "will find little of interest in this film", is the sentiment in this sentence positive or negative?
@@ -16,4 +16,4 @@ A: First, the key phrases in the sentence are "marivaux's rhythms" and "mira sor
 Q: For the sentence "viewers of barney 's crushingly self-indulgent spectacle", is the sentiment in this sentence positive or negative?
 A: First, the key phrases in the sentence are "barney's" and "crushingly self-indulgent spectacle". Second, the context appears to be a commentary on a spectacle associated with Barney. The term "crushingly self-indulgent" implies excessive self-interest and a lack of consideration for the audience. The sentiment is negative.
 
-测试集上的准确率为：0.845
+测试集上的准确率为：0.955

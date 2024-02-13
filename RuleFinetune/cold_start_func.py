@@ -28,7 +28,7 @@ def llm_zero_shot_CoT(args, llm, input_text: str, cot_trigger: str, direct_answe
     max_length = 4096
     rationales_answers_pair = []
 
-    model = args.model
+    model = args.llm_model
 
     rationales = llm.generate_single_parallel(input_text=llm_input, model=model,#"gpt-4-1106-preview",
                                               temperature=0.5, topN=5) # 可以传入一个try_cnt
